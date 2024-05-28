@@ -5,6 +5,7 @@ export default function ServiceArea() {
 	return (
 		<div className="it-category-area pt-120 pb-120">
 			<div className="container">
+			Diploma Engineering
 				<div className="row">
 					{
 						Services.map((service) => {

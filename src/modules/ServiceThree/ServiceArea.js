@@ -1,4 +1,4 @@
-import Services from "@/data/services"
+import Services3 from "@/data/services3"
 import SingleFeatureThree from "@/components/Feature/Three"
 
 export default function ServiceThreeArea() {
@@ -7,7 +7,7 @@ export default function ServiceThreeArea() {
 			<div className="container">
 				<div className="row">
 					{
-						Services.map((service) => {
+						Services3.map((service) => {
 							return (
 								<div className="col-xl-4 col-lg-4 col-md-6 mb-30">
 									<SingleFeatureThree 
@@ -19,7 +19,7 @@ export default function ServiceThreeArea() {
 									/>
 								</div>
 							);
-						}).slice(5, 11)
+						})
 					}
 				</div>
 			</div>
