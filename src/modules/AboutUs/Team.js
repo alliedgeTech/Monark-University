@@ -23,7 +23,7 @@ export default function Team() {
 					{
 						Teachers.map((teacher) => {
 							return (
-								<div className="col-xl-3 col-lg-4 col-md-6 mb-30">
+								<div className="col-xl-2 col-lg-4 col-md-6 mb-30">
 									<SingleTeamTwo 
 										Slug={teacher.slug}
 										Title={teacher.title}
