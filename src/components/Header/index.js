@@ -46,7 +46,7 @@ export default function Header( props ) {
 									<div className="it-header-2-top-left">
 										<ul className="text-center text-sm-start">
 											<li className="d-none d-lg-inline-block">
-												<Link href="tel:568367-987-237">
+												<Link href="tel:7970707001">
 													<span>
 														<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
 															<g clipPath="url(#clip0_451_1559)">
@@ -60,17 +60,17 @@ export default function Header( props ) {
 															</clipPath>
 															</defs>
 														</svg>
-													</span> (568) 367-987-237
+													</span> +91-7970707001
 												</Link>
 											</li>
 											<li>
-												<Link href="mailto:govillage@gmail.com">
+												<Link href="mailto:admissions@monarkuni.ac.in">
 													<span>
 														<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
 														<path d="M19.8627 11.5702L15.509 7.21652C15.326 7.03352 15.0291 7.03352 14.8461 7.21652C14.663 7.39956 14.663 7.69638 14.8461 7.87947L18.3022 11.3356H10.0604C9.37673 11.3356 8.82055 10.7794 8.82055 10.0957V1.85397L12.1573 5.19063C12.3403 5.37363 12.6371 5.37363 12.8202 5.19063C13.0033 5.00758 13.0033 4.71077 12.8202 4.52767L8.58599 0.2935C8.40294 0.1105 8.10613 0.1105 7.92308 0.2935L0.450273 7.76645C0.267227 7.9495 0.267227 8.24631 0.450273 8.42941L11.7269 19.706C11.8148 19.7939 11.9341 19.8433 12.0584 19.8433C12.1827 19.8433 12.302 19.7939 12.3898 19.706L19.8627 12.2331C19.9506 12.1452 20 12.026 20 11.9017C20 11.7774 19.9506 11.6581 19.8627 11.5702ZM7.88315 1.65939V7.6292H1.91334L7.88315 1.65939ZM11.5896 18.2429L1.91334 8.56666H7.88315V10.0957C7.88315 11.2963 8.85993 12.2731 10.0605 12.2731H11.5896V18.2429ZM12.5271 18.2429V12.2731H18.4969L12.5271 18.2429Z" fill="currentcolor"/>
 														</svg>
 													</span>
-													govillage@gmail.com
+													admissions@monarkuni.ac.in
 												</Link>
 											</li>
 											<li className="d-none d-xl-inline-block">

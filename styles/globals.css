@@ -58,6 +58,25 @@
 .footer-middle .faculty-list-1{
     width: 50%;
 }
+.it-header-2-plr{
+    background: transparent !important;
+    position: relative;
+}
+.header-sticky{
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(5px);
+
+}
+.it-header-2-plr::before{
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #ffffffca;
+    opacity: 0.8;
+}
 
 @media screen and (max-width: 768px) {
     .latest-text h5 {
