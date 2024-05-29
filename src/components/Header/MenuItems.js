@@ -179,7 +179,7 @@ export default function MenuItems(props) {
             <Link href="#it-course">Course</Link>
           </li>
           <li>
-            <Link href="#it-service">Services</Link>
+            <Link href="#it-service">Admission</Link>
           </li>
           <li>
             <Link href="#it-team">Team</Link>
@@ -369,19 +369,19 @@ export default function MenuItems(props) {
 </li>
 
           <li className="has-dropdown">
-            <Link href="/services">services</Link>
+            <Link href="/services">Admission</Link>
             <ul className="it-submenu submenu">
               <li>
-                <Link href="/services">services 01</Link>
+                <Link href="/services">After 10th</Link>
               </li>
               <li>
-                <Link href="/services-2">services 02</Link>
+                <Link href="/services-2">After 12th</Link>
               </li>
               <li>
-                <Link href="/services-3">services 03</Link>
+                <Link href="/services-3">Pg Courses</Link>
               </li>
               <li>
-                <Link href="/services/service-one">services details</Link>
+                <Link href="/services/service-one">Research</Link>
               </li>
             </ul>
           </li>

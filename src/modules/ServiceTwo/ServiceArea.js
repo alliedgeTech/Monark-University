@@ -1,5 +1,5 @@
 import SingleFeatureTwo from "@/components/Feature/Two"
-import Services from "@/data/services"
+import Services2 from "@/data/services2"
 
 export default function ServiceTwoArea() {
 	return (
@@ -7,7 +7,7 @@ export default function ServiceTwoArea() {
 			<div className="container">
 				<div className="row">
 					{
-						Services.map((service) => {
+						Services2.map((service) => {
 							return (
 								<div className="col-xl-4 col-lg-4 col-md-6 mb-30">
 									<SingleFeatureTwo 
@@ -18,7 +18,7 @@ export default function ServiceTwoArea() {
 									/>
 								</div>
 							);
-						}).slice(0, 6)
+						})
 					}
 				</div>
 			</div>

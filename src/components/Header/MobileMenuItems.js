@@ -121,14 +121,14 @@ export default function MobileMenuItems(props) {
 					<li><Link href="/about-us">about us</Link></li>
 					<li className="has-dropdown">
 						<Link href="#" className={service ? "active" : ""} onClick={() => { openMobileMenu('service'); }}>
-							Services
+						Admission
 							<svg width="9" height="7" viewBox="0 0 9 7" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4.47035e-08 2.145L1.275 0.854999L4.5 4.08L7.725 0.854999L9 2.145L4.5 6.645L4.47035e-08 2.145Z" fill="#0E2A46"></path></svg>
 						</Link>
 						<ul className={service ? "it-submenu submenu-open" : "it-submenu"}>
-							<li><Link href="/services">services 01</Link></li>
-							<li><Link href="/services/two">services 02</Link></li>
-							<li><Link href="/services/three">services 03</Link></li>
-							<li><Link href="/services/details">services details</Link></li>
+							<li><Link href="/services">After 10th</Link></li>
+							<li><Link href="/services/two">After 12th</Link></li>
+							<li><Link href="/services/three">Pg Courses</Link></li>
+							<li><Link href="/services/details">Research</Link></li>
 						</ul>
 					</li>
 					<li className="has-dropdown">

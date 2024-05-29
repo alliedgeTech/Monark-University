@@ -2,7 +2,7 @@
   {
     "id": 1,
     "slug": "service-one",
-    "title": "Web Design",
+    "title": "Diploma in Automobile Engineering",
     "icon": "flaticon-web-design",
     "courseCount": "25",
     "description": "In pellentesque massa vida placerat duis. Cursus sit amet dictum sit amet.",
@@ -11,7 +11,7 @@
   {
     "id": 2,
     "slug": "service-two",
-    "title": "Graphic Design",
+    "title": "Diploma in Civil Engineering",
     "icon": "flaticon-ux-design",
     "courseCount": "43",
     "description": "In pellentesque massa vida placerat duis. Cursus sit amet dictum sit amet.",
@@ -20,7 +20,7 @@
   {
     "id": 3,
     "slug": "service-three",
-    "title": "Personal Development",
+    "title": "Diploma in Computer Engineering",
     "icon": "flaticon-coding",
     "courseCount": "19",
     "description": "In pellentesque massa vida placerat duis. Cursus sit amet dictum sit amet.",
@@ -29,7 +29,7 @@
   {
     "id": 4,
     "slug": "service-four",
-    "title": "IT And Software",
+    "title": "Diploma in Electrical Engineering",
     "icon": "flaticon-mobile-development",
     "courseCount": "33",
     "description": "In pellentesque massa vida placerat duis. Cursus sit amet dictum sit amet.",
@@ -38,7 +38,7 @@
   {
     "id": 5,
     "slug": "service-five",
-    "title": "Sales Marketing",
+    "title": "Diploma in Electronics And Communications Engineering",
     "icon": "flaticon-promotion",
     "courseCount": "34",
     "description": "In pellentesque massa vida placerat duis. Cursus sit amet dictum sit amet.",
@@ -47,7 +47,7 @@
   {
     "id": 6,
     "slug": "service-six",
-    "title": "Art & Humanities",
+    "title": "Diploma in Information Technology",
     "icon": "flaticon-art",
     "courseCount": "28",
     "description": "In pellentesque massa vida placerat duis. Cursus sit amet dictum sit amet.",
@@ -56,7 +56,7 @@
   {
     "id": 7,
     "slug": "service-seven",
-    "title": "Mobile Application",
+    "title": "Diploma in Mechanical Engineering",
     "icon": "flaticon-mobile-development",
     "courseCount": "27",
     "description": "In pellentesque massa vida placerat duis. Cursus sit amet dictum sit amet.",
@@ -65,7 +65,7 @@
   {
     "id": 8,
     "slug": "service-eight",
-    "title": "Finance & Accounting",
+    "title": " Medical Laboratory Technology - Assistant",
     "icon": "flaticon-bars",
     "courseCount": "32",
     "description": "In pellentesque massa vida placerat duis. Cursus sit amet dictum sit amet.",

@@ -1,0 +1,137 @@
+[
+    {
+      "id": 1,
+      "slug": "service-one",
+      "title": "Bachelor of Engineering (B.E.)",
+      "icon": "flaticon-web-design",
+      "courseCount": "7",
+      "description": "In pellentesque massa vida placerat duis. Cursus sit amet dictum sit amet.",
+      "btnText": "Learn More"
+    },
+    {
+      "id": 2,
+      "slug": "service-two",
+      "title": "Bachelor of Science (B.Sc.)",
+      "icon": "flaticon-ux-design",
+      "courseCount": "6",
+      "description": "In pellentesque massa vida placerat duis. Cursus sit amet dictum sit amet.",
+      "btnText": "Learn More"
+    },
+    {
+      "id": 3,
+      "slug": "service-three",
+      "title": "Bachelor of Business Administration (BBA)",
+      "icon": "flaticon-coding",
+      "courseCount": "3",
+      "description": "In pellentesque massa vida placerat duis. Cursus sit amet dictum sit amet.",
+      "btnText": "Learn More"
+    },
+    {
+      "id": 4,
+      "slug": "service-four",
+      "title": "Bachelor of Ayurvedic Medicine and Surgery (B.A.M.S.)",
+      "icon": "flaticon-mobile-development",
+      "courseCount": "1",
+      "description": "In pellentesque massa vida placerat duis. Cursus sit amet dictum sit amet.",
+      "btnText": "Learn More"
+    },
+    {
+      "id": 5,
+      "slug": "service-five",
+      "title": "Bachelor of Homeopathy Medicine and Surgery (B.H.M.S.)",
+      "icon": "flaticon-promotion",
+      "courseCount": "3",
+      "description": "In pellentesque massa vida placerat duis. Cursus sit amet dictum sit amet.",
+      "btnText": "Learn More"
+    },
+    {
+      "id": 6,
+      "slug": "service-six",
+      "title": "Bachelor of Physiotherapy (BPT)",
+      "icon": "flaticon-art",
+      "courseCount": "1",
+      "description": "In pellentesque massa vida placerat duis. Cursus sit amet dictum sit amet.",
+      "btnText": "Learn More"
+    },
+    {
+      "id": 7,
+      "slug": "service-seven",
+      "title": "Bachelor of Science in Nursing",
+      "icon": "flaticon-mobile-development",
+      "courseCount": "1",
+      "description": "In pellentesque massa vida placerat duis. Cursus sit amet dictum sit amet.",
+      "btnText": "Learn More"
+    },
+    {
+      "id": 8,
+      "slug": "service-eight",
+      "title": "Bachelor of Law (LL.B.)",
+      "icon": "flaticon-bars",
+      "courseCount": "2",
+      "description": "In pellentesque massa vida placerat duis. Cursus sit amet dictum sit amet.",
+      "btnText": "Learn More"
+    },
+    {
+      "id": 9,
+      "slug": "service-nine",
+      "title": "Bachelor of Law (LL.B.)",
+      "icon": "flaticon-study",
+      "courseCount": "1",
+      "description": "Lorem ipsum dolor amet, consectetur adipiscing elit, sed eiusmod tempor incididunt ut labore et dolore",
+      "btnText": "Learn More"
+    },
+    {
+      "id": 10,
+      "slug": "service-ten",
+      "title": "Bachelor of Computer Application (BCA)",
+      "icon": "flaticon-coach",
+      "courseCount": "1",
+      "description": "Lorem ipsum dolor amet, consectetur adipiscing elit, sed eiusmod tempor incididunt ut labore et dolore",
+      "btnText": "Learn More"
+    },
+    {
+      "id": 11,
+      "slug": "service-eleven",
+      "title": "Bachelor of Arts (B.A.)",
+      "icon": "flaticon-study",
+      "courseCount": "15",
+      "description": "Lorem ipsum dolor amet, consectetur adipiscing elit, sed eiusmod tempor incididunt ut labore et dolore",
+      "btnText": "Learn More"
+    },
+    {
+        "id": 12,
+        "slug": "service-ten",
+        "title": "Bachelor of Social Work (BSW)",
+        "icon": "flaticon-coach",
+        "courseCount": "1",
+        "description": "Lorem ipsum dolor amet, consectetur adipiscing elit, sed eiusmod tempor incididunt ut labore et dolore",
+        "btnText": "Learn More"
+      },
+      {
+        "id": 13,
+        "slug": "service-eleven",
+        "title": "(B.Sc. + M.Sc.) IT",
+        "icon": "flaticon-study",
+        "courseCount": "4",
+        "description": "Lorem ipsum dolor amet, consectetur adipiscing elit, sed eiusmod tempor incididunt ut labore et dolore",
+        "btnText": "Learn More"
+      },{
+        "id": 14,
+        "slug": "service-ten",
+        "title": "Medical Laboratory Technology- Technician",
+        "icon": "flaticon-coach",
+        "courseCount": "1",
+        "description": "Lorem ipsum dolor amet, consectetur adipiscing elit, sed eiusmod tempor incididunt ut labore et dolore",
+        "btnText": "Learn More"
+      },
+      {
+        "id": 15,
+        "slug": "service-eleven",
+        "title": "Pharmacy",
+        "icon": "flaticon-study",
+        "courseCount": "1",
+        "description": "Lorem ipsum dolor amet, consectetur adipiscing elit, sed eiusmod tempor incididunt ut labore et dolore",
+        "btnText": "Learn More"
+      }
+  ]
+  

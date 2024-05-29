@@ -1,0 +1,92 @@
+[
+    {
+        "id": 1,
+        "slug": "service-one",
+        "title": "Master of Engineering (M.E.)",
+        "icon": "flaticon-web-design",
+        "courseCount": "7",
+        "description": "In pellentesque massa vida placerat duis. Cursus sit amet dictum sit amet.",
+        "btnText": "Learn More"
+    },
+    {
+        "id": 2,
+        "slug": "service-two",
+        "title": "Master of Science (M.Sc.)",
+        "icon": "flaticon-ux-design",
+        "courseCount": "6",
+        "description": "In pellentesque massa vida placerat duis. Cursus sit amet dictum sit amet.",
+        "btnText": "Learn More"
+    },
+    {
+        "id": 3,
+        "slug": "service-three",
+        "title": "Master of Business Administration (MBA)",
+        "icon": "flaticon-coding",
+        "courseCount": "6",
+        "description": "In pellentesque massa vida placerat duis. Cursus sit amet dictum sit amet.",
+        "btnText": "Learn More"
+    },
+    {
+        "id": 4,
+        "slug": "service-four",
+        "title": "Master of Commerce (M.Com.)",
+        "icon": "flaticon-mobile-development",
+        "courseCount": "3",
+        "description": "In pellentesque massa vida placerat duis. Cursus sit amet dictum sit amet.",
+        "btnText": "Learn More"
+    },
+    {
+        "id": 5,
+        "slug": "service-five",
+        "title": "Master of Law (LL.M.)",
+        "icon": "flaticon-promotion",
+        "courseCount": "6",
+        "description": "In pellentesque massa vida placerat duis. Cursus sit amet dictum sit amet.",
+        "btnText": "Learn More"
+    },
+    {
+        "id": 6,
+        "slug": "service-six",
+        "title": "Master of Computer Application (MCA)",
+        "icon": "flaticon-art",
+        "courseCount": "1",
+        "description": "In pellentesque massa vida placerat duis. Cursus sit amet dictum sit amet.",
+        "btnText": "Learn More"
+    },
+    {
+        "id": 7,
+        "slug": "service-six",
+        "title": "Bachelor of Education (B.Ed.)",
+        "icon": "flaticon-art",
+        "courseCount": "1",
+        "description": "In pellentesque massa vida placerat duis. Cursus sit amet dictum sit amet.",
+        "btnText": "Learn More"
+    },
+    {
+        "id": 8,
+        "slug": "service-six",
+        "title": "Master of Education (M.Ed.)",
+        "icon": "flaticon-art",
+        "courseCount": "1",
+        "description": "In pellentesque massa vida placerat duis. Cursus sit amet dictum sit amet.",
+        "btnText": "Learn More"
+    },
+    {
+        "id": 9,
+        "slug": "service-seven",
+        "title": "Master of Arts (M.A.)",
+        "icon": "flaticon-mobile-development",
+        "courseCount": "14",
+        "description": "In pellentesque massa vida placerat duis. Cursus sit amet dictum sit amet.",
+        "btnText": "Learn More"
+    },
+    {
+        "id": 10,
+        "slug": "service-eight",
+        "title": "Master of Social Work (MSW)",
+        "icon": "flaticon-bars",
+        "courseCount": "1",
+        "description": "In pellentesque massa vida placerat duis. Cursus sit amet dictum sit amet.",
+        "btnText": "Learn More"
+    }
+]
