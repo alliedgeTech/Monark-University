@@ -1,5 +1,7 @@
 import Image from "next/image"
 import Link from "next/link";
+import fullimg from "../../../public/img/choose/monarknew.jpg"
+import blankm from	"../../../public/img/choose/NS.jpg"
 
 export default function About() {
 
@@ -55,7 +57,7 @@ export default function About() {
 						<div className="col-xl-6 col-lg-6 mb-30">
 							<div className="it-choose-thumb-box text-center text-md-end">
 								<div className="it-choose-thumb p-relative">
-									<Image src="/img/choose/monark.jpg" width={530} height={755} alt="" />
+									<Image src={fullimg} className="img-fluid" alt="" />
 									<div className="it-choose-shape-1">
 										<Image src="/img/choose/shape-1-1.png" width={357} height={306} alt="" />
 									</div>
@@ -439,6 +441,8 @@ export default function About() {
 
 
 					{/* Years and trust end*/}
+
+
 					{/* vision and mission start*/}
 
 					<div>
@@ -501,6 +505,83 @@ export default function About() {
 
 
 						{/* vision and mission end*/}
+
+						{/* President message start*/}
+<div>
+<div className="it-sv-details-area pt-120 pb-120">
+			
+			<div className="container">
+				<div className="row">
+					<div className="col-xl col-lg">
+						<div className="it-sv-details-top-wrap mb-20">
+							<div className="row">
+								<div className="col-xl-6 col-lg-6">
+									<div className="it-sv-details-top-thumb">
+										<Image src={blankm} className="img-fluid"/>
+									</div>
+								</div>
+								<div className="col-xl-6 col-lg-6">
+									<div className="it-sv-details-top-content">
+										<h4 className="it-sv-details-title">About </h4>
+										<p>
+											 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat aute irure dolor in reprehenderit
+										</p>
+										<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua exercitation ullamco laboris.</p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div className="row">
+							<div className="col-xl-12">
+								<div className="it-sv-details-top-content mb-50">
+									<h4 className="it-sv-details-title">service Description</h4>
+									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat aute irure dolor in reprehenderit.</p>
+									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat aute irure dolor in reprehenderit.</p>
+								</div>
+							</div>
+						</div>
+						<div className="row">
+							<div className="col-xl-6 col-lg-6">
+								<div className="it-sv-details-content-box mb-50">
+									<h5 className="it-sv-details-title-sm">
+										<span><i className="fa-sharp fa-light fa-check"></i></span>
+										Requirements
+									</h5>
+									<p>Dui id ornare arcu odio ut sem nulla pharetra diam eget aliquet nibh praesent tristiq.</p>
+								</div>
+							</div>
+							<div className="col-xl-6 col-lg-6">
+								<div className="it-sv-details-content-box mb-50">
+									<h5 className="it-sv-details-title-sm">
+										<span><i className="fa-sharp fa-light fa-check"></i></span>
+										Description
+									</h5>
+									<p> "Dui id ornare arcu odio ut sem nulla pharetra diam eget aliquet"</p>
+								</div>
+							</div>
+						</div>
+						<div className="row">
+							<div className="col-xl-12">
+								<div className="it-sv-details-top-content">
+									<h4 className="it-sv-details-title">What you'll learn</h4>
+									<p className="mb-30">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat aute irure dolor in reprehenderit.</p>
+									<div className="it-sv-details-middle-thumb p-relative mb-30">
+										<Image src="/img/service/sv-2.jpg" width={874} height={343} alt="" />
+										<button className="popup-video it-pulse" onClick={() => { openModal(); }}>
+											<i className="fas fa-play"></i>
+										</button>
+									</div>
+									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat aute irure dolor in reprehenderit.</p>
+									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat aute irure dolor in reprehenderit.</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					
+				</div>
+			</div>
+      	</div>
+						{/* President message end*/}
 
 						<div className="it-about-4-area inner-about-style pt-120 pb-120">
 							<div className="container">
@@ -580,6 +661,7 @@ export default function About() {
 					</div>
 				</div>
 			</div>
+		</div>
 		</div>
 
 
