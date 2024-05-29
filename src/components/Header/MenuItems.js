@@ -228,9 +228,9 @@ export default function MenuItems(props) {
         </ul>
       ) : (
         <ul>
-          <li className="has-dropdown p-static">
+          <li className="p-static">
             <Link href="/">home</Link>
-            <div className="it-submenu submenu has-home-img">
+            {/* <div className="it-submenu submenu has-home-img">
               <div className="row gx-6 row-cols-1 row-cols-md-2 row-cols-lg-2 row-cols-xl-5">
                 <div className="col home-img">
                   <div className="home-img-thumb mb-15">
@@ -348,7 +348,7 @@ export default function MenuItems(props) {
                   </div>
                 </div>
               </div>
-            </div>
+            </div> */}
           </li>
 		  <li className="has-dropdown about-us-dropdown">
     <Link href="/about-us">About MU</Link>
