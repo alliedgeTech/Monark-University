@@ -1,60 +1,180 @@
-import { useState } from 'react'
-import ModalVideo from 'react-modal-video'
-import Image from "next/image"
-import Link from "next/link"
+import { useState } from "react";
+import ModalVideo from "react-modal-video";
+import Image from "next/image";
+import Courses from "@/data/courses";
+import dynamic from "next/dynamic";
+import "owl.carousel/dist/assets/owl.carousel.css";
+import "owl.carousel/dist/assets/owl.theme.default.css";
+import Link from "next/link";
+import lnews1 from "../../../public/img/video/hdfc-1.jpg";
+import lnews2 from "../../../public/img/video/PressureJet.jpg";
+import lnews3 from "../../../public/img/video/Prodesk.jpg";
+import lnews4 from "../../../public/img/video/suzuki.jpg";
+import lnews5 from "../../../public/img/video/tcs_job_new.png";
+import lnews6 from "../../../public/img/video/torrent.jpg";
+import styles from "yet-another-react-lightbox/styles.css";
 
+// Import jQuery
+if (typeof window !== "undefined") {
+  var $ = require("jquery");
+  window.$ = window.jQuery = require("jquery");
+}
+
+// Dynamically import OwlCarousel without SSR
+const OwlCarousel = dynamic(() => import("react-owl-carousel"), {
+  ssr: false,
+});
+
+// Responsive settings for OwlCarousel
+const Responsive = {
+  0: {
+    items: 1,
+    margin: 5,
+  },
+  435: {
+    items: 1,
+    margin: 10,
+  },
+  556: {
+    items: 2,
+    margin: 10,
+  },
+  1024: {
+    items: 3,
+    margin: 20,
+  },
+};
 export default function Video() {
-    const [isOpen, setIsOpen] = useState(false);
-    const openModal = () => setIsOpen(!isOpen);
+  const [isOpen, setIsOpen] = useState(false);
+  const openModal = () => setIsOpen(!isOpen);
 
-	return (
-		<div className="it-video-area it-video-bg p-relative fix pt-100 pb-95" data-background="src/img/video/bg-1-1.jpg">
-			<Image src="/img/video/bg-1-1.jpg" layout="fill" objectFit="cover" alt="" />
-			<ModalVideo channel='youtube' isOpen={isOpen} videoId='FdrNFEbcsRs' onClose={() => { openModal(); }} />
-			<div className="it-video-shape-1 d-none d-lg-block">
-				<Image src="/img/video/shape-1-1.png" width={347} height={211} alt="" />
-			</div>
-			<div className="it-video-shape-2 d-none d-lg-block">
-				<Image src="/img/video/shape-1-2.png" width={325} height={238} alt="" />
-			</div>
-			<div className="it-video-shape-3 d-none d-lg-block">
-				<Image src="/img/video/shape-1-3.png" width={41} height={37} alt="" />
-			</div>
-			<div className="it-video-shape-4 d-none d-lg-block">
-				<Image src="/img/video/shape-1-4.png" width={49} height={49} alt="" />
-			</div>
-			<div className="it-video-shape-5 d-none d-lg-block">
-				<Image src="/img/video/shape-1-5.png" width={85} height={24} alt="" />
-			</div>
-			<div className="container">
-				<div className="row align-items-center">
-					<div className="col-xl-7 col-lg-7 col-md-9 col-sm-9">
-						<div className="it-video-content">
-							<span>Join Our New Session</span>
-							<h3 className="it-video-title">Call To Enroll Your Child <br /> <a href="tel:+91958423452">(+91)958423452</a></h3>    
-							<div className="it-video-button">
-								<Link className="it-btn" href="/contact">
-									<span>
-										Join With us
-										<svg width="17" height="14" viewBox="0 0 17 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-											<path d="M11 1.24023L16 7.24023L11 13.2402" stroke="currentcolor" strokeWidth="1.5" strokeMiterlimit="10" strokeLinecap="round" strokeLinejoin="round"/>
-											<path d="M1 7.24023H16" stroke="currentcolor" strokeWidth="1.5" strokeMiterlimit="10" strokeLinecap="round" strokeLinejoin="round"/>
-										</svg>
-									</span>
-								</Link>  
-							</div>                  
-						</div>
-					</div>
-					<div className="col-xl-5 col-lg-5 col-md-3 col-sm-3">
-						<div className="it-video-play-wrap d-flex justify-content-start justify-content-md-end align-items-center">
-							<div className="it-video-play text-center">
-								<button className="popup-video play" onClick={() => { openModal(); }}><i className="fas fa-play"></i></button>
-								<span className="text">watch now</span>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	)
+  
+  return (
+	
+	
+    <div  className="Latest-News container py-4">
+      <div className="latest-heading">
+        <h2 className="text-center mb-1">Latest News</h2>
+        <hr className="mb-4"/>
+      </div>
+
+      <OwlCarousel
+        className="owl-theme px-2"
+        loop={true}
+        autoPlay={true}
+		margin={10}
+        autoplayTimeout={5000}
+        dots={true}
+        responsive={Responsive}
+      >
+        <div className="item">
+          <div className="latest-box d-flex flex-column">
+            <div className="latest-img">
+              <Image className="img-fluid" src={lnews1}></Image>
+            </div>
+            <div className="latest-text mt-5">
+              <button
+                className="text-white"
+                style={{borderRadius:'5px', background: "#054B81", padding: "3px 8px" }}
+              >
+                <small>Placement news</small>
+              </button>
+				<h5 className="mt-3">Placement Opportunity From HDFC for Any Graduate Students || for B.com/BBA/BA/BE & MBA</h5>
+				<p>Dear Students, Greetings from Prodesk IT, This message is regarding the campus recruitment drive at…</p>
+            </div>
+          </div>
+        </div>
+        <div className="item">
+          <div className="latest-box d-flex flex-column">
+            <div className="latest-img">
+              <Image className="img-fluid" src={lnews2}></Image>
+            </div>
+            <div className="latest-text pt-5">
+              <button
+                className="text-white"
+                style={{borderRadius:'5px', background: "#054B81", padding: "3px 8px" }}
+              >
+                <small>Placement news</small>
+              </button>
+			  <h5 className="mt-3">Placement Opportunity From HDFC for Any Graduate Students || for B.com/BBA/BA/BE & MBA</h5>
+			  <p>Dear Students, Greetings from Prodesk IT, This message is regarding the campus recruitment drive at…</p>
+
+            </div>
+          </div>
+        </div>
+        <div className="item">
+          <div className="latest-box d-flex flex-column">
+            <div className="latest-img">
+              <Image className="img-fluid" src={lnews3}></Image>
+            </div>
+            <div className="latest-text pt-5">
+              <button
+                className="text-white"
+                style={{borderRadius:'5px', background: "#054B81", padding: "3px 8px" }}
+              >
+                <small>Placement news</small>
+              </button>
+			  <h5 className="mt-3">Placement Opportunity From HDFC for Any Graduate Students || for B.com/BBA/BA/BE & MBA</h5>
+			  <p>Dear Students, Greetings from Prodesk IT, This message is regarding the campus recruitment drive at…</p>
+
+            </div>
+          </div>
+        </div>
+        <div className="item">
+          <div className="latest-box d-flex flex-column">
+            <div className="latest-img">
+              <Image className="img-fluid" src={lnews4}></Image>
+            </div>
+            <div className="latest-text pt-5">
+              <button
+                className="text-white"
+                style={{borderRadius:'5px', background: "#054B81", padding: "3px 8px" }}
+              >
+                <small>Placement news</small>
+              </button>
+			  <h5 className="mt-3">Placement Opportunity From HDFC for Any Graduate Students || for B.com/BBA/BA/BE & MBA</h5>
+			  <p>Dear Students, Greetings from Prodesk IT, This message is regarding the campus recruitment drive at…</p>
+
+            </div>
+          </div>
+        </div>
+        <div className="item">
+          <div className="latest-box d-flex flex-column">
+            <div className="latest-img">
+              <Image className="img-fluid" src={lnews5}></Image>
+            </div>
+            <div className="latest-text pt-5">
+              <button
+                className="text-white"
+                style={{borderRadius:'5px', background: "#054B81", padding: "3px 8px" }}
+              >
+                <small>Placement news</small>
+              </button>
+			  <h5 className="mt-3">Placement Opportunity From HDFC for Any Graduate Students || for B.com/BBA/BA/BE & MBA</h5>
+			  <p>Dear Students, Greetings from Prodesk IT, This message is regarding the campus recruitment drive at…</p>
+
+            </div>
+          </div>
+        </div>
+        <div className="item">
+          <div className="latest-box d-flex flex-column">
+            <div className="latest-img">
+              <Image className="img-fluid" src={lnews6}></Image>
+            </div>
+            <div className="latest-text pt-5">
+              <button
+                className="text-white"
+                style={{borderRadius:'5px', background: "#054B81", padding: "3px 8px" }}
+              >
+                <small>Placement news</small>
+              </button>
+			  <h5 className="mt-3">Placement Opportunity From HDFC for Any Graduate Students || for B.com/BBA/BA/BE & MBA</h5>
+			  <p>Dear Students, Greetings from Prodesk IT, This message is regarding the campus recruitment drive at…</p>
+
+            </div>
+          </div>
+        </div>
+      </OwlCarousel>
+    </div>
+  );
 }

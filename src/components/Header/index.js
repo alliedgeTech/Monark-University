@@ -142,37 +142,18 @@ export default function Header( props ) {
 									<div className="row align-items-center">
 										<div className="col-xl-2 col-6">
 											<div className="it-header-2-logo">
-												<Link href="/"><Image src="/img/logo/logo-black.png" alt="" width={151} height={40} /></Link>
+												<Link href="/"><Image className='img-fluid' width={60} height={60} src="/img/logo/MONARK_LOGO.png" alt="" /></Link>
 											</div>
 										</div>
-										<div className="col-xl-7 d-none d-xl-block">
+										<div className="col-xl-10 d-none d-xl-block">
 											<div className="it-header-2-main-menu">
 												<nav className="it-menu-content">
 													<MenuItems onePage={menuFormat} />
 												</nav>
 											</div>
 										</div>
-										<div className="col-xl-3 col-6">
+										<div className="col-xl-3 d-xl-none col-6">
 											<div className="it-header-2-right d-flex align-items-center justify-content-end">
-												<div className="it-header-2-icon relative">
-													<Link href="/cart">
-														<i className="fa-regular fa-cart-shopping"></i>
-													</Link>
-													{
-														cartItemsCount > 0 ? <span className="cart-badge">{cartItemsCount}</span> : ''
-													}
-												</div>
-												<div className="it-header-2-button d-none d-md-block">
-													<Link className="it-btn" href="/contact">
-														<span>
-															Contact Us
-															<svg width="17" height="14" viewBox="0 0 17 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-																<path d="M11 1.24023L16 7.24023L11 13.2402" stroke="white" strokeWidth="1.5" strokeMiterlimit="10" strokeLinecap="round" strokeLinejoin="round"/>
-																<path d="M1 7.24023H16" stroke="white" strokeWidth="1.5" strokeMiterlimit="10" strokeLinecap="round" strokeLinejoin="round"/>
-															</svg>  
-														</span>
-													</Link>
-												</div>
 												<div className="it-header-2-bar d-xl-none">
 													<button className="it-menu-bar" onClick={() => {setOffCanvasOpen(true)}}>
 														<i className="fa-solid fa-bars"></i>
