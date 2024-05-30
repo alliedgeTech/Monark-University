@@ -350,23 +350,47 @@ export default function MenuItems(props) {
               </div>
             </div> */}
           </li>
-		  <li className="has-dropdown about-us-dropdown">
-    <Link href="/about-us">About MU</Link>
-    <ul className="about-us-submenu submenu">
-        <li><Link href="#">Historical Background</Link></li>
-        <li><Link href="#">Vision & Mission</Link></li>
-        <li><Link href="#">President's Message</Link></li>
-        <li><Link href="#">Vice President's Message</Link></li>
-        <li><Link href="#">Provost Message</Link></li>
-        <li><Link href="#">Recognition & Approval</Link></li>
-        <li><Link href="#">Leadership</Link></li>
-        <li><Link href="#">Officers & Authority</Link></li>
-        <li><Link href="#">Gazette Act-15 of 2021</Link></li>
-        <li><Link href="#">Education Department Notification</Link></li>
-        <li><Link href="#">UGC Approval Letter</Link></li>
-        <li><Link href="#">Committees SGRC</Link></li>
-    </ul>
-</li>
+          <li className="has-dropdown about-us-dropdown">
+            <Link href="/about-us">About MU</Link>
+            <ul className="about-us-submenu submenu">
+              <li>
+                <Link href="#">Historical Background</Link>
+              </li>
+              <li>
+                <Link href="#">Vision & Mission</Link>
+              </li>
+              <li>
+                <Link href="#">President's Message</Link>
+              </li>
+              <li>
+                <Link href="#">Vice President's Message</Link>
+              </li>
+              <li>
+                <Link href="#">Provost Message</Link>
+              </li>
+              <li>
+                <Link href="#">Recognition & Approval</Link>
+              </li>
+              <li>
+                <Link href="#">Leadership</Link>
+              </li>
+              <li>
+                <Link href="#">Officers & Authority</Link>
+              </li>
+              <li>
+                <Link href="#">Gazette Act-15 of 2021</Link>
+              </li>
+              <li>
+                <Link href="#">Education Department Notification</Link>
+              </li>
+              <li>
+                <Link href="#">UGC Approval Letter</Link>
+              </li>
+              <li>
+                <Link href="#">Committees SGRC</Link>
+              </li>
+            </ul>
+          </li>
 
           <li className="has-dropdown">
             <Link href="/services">Admission</Link>
@@ -385,85 +409,142 @@ export default function MenuItems(props) {
               </li>
             </ul>
           </li>
+
           <li className="has-dropdown">
-            <Link href="#">pages</Link>
+            <Link href="/faculty">Faculty</Link>
             <ul className="it-submenu submenu has-megamenu">
               <li>
-                <Link href="/course">Course 01</Link>
+                <Link href="/course">Engineering & Technology</Link>
               </li>
               <li>
-                <Link href="/course-2">Course 02</Link>
+                <Link href="/course-2">Science</Link>
               </li>
               <li>
-                <Link href="/course/course-one">Course Details</Link>
+                <Link href="/course/course-one">Physiotherapy</Link>
               </li>
               <li>
-                <Link href="/teacher">Teacher</Link>
+                <Link href="/teacher">Management</Link>
               </li>
               <li>
-                <Link href="/teacher/teacher-one">Teacher Details</Link>
+                <Link href="/teacher/teacher-one">Commerce</Link>
               </li>
               <li>
-                <Link href="/price">Price</Link>
+                <Link href="/price">Law</Link>
               </li>
               <li>
-                <Link href="/event">Event</Link>
+                <Link href="/event">Arts</Link>
               </li>
               <li>
-                <Link href="/event/event-one">Event Details</Link>
+                <Link href="/event/event-one">Computer Application</Link>
               </li>
               <li>
-                <Link href="/cart">Cart</Link>
+                <Link href="/cart">Nursing</Link>
               </li>
               <li>
-                <Link href="/checkout">Checkout</Link>
+                <Link href="/checkout">Education</Link>
               </li>
               <li>
-                <Link href="/testimonial">Testimonial</Link>
+                <Link href="/testimonial">Social work</Link>
               </li>
               <li>
-                <Link href="/registration/instructor">
-                  Instructor Registration
+                <Link href="/registration/instructor">Pharmacy</Link>
+              </li>
+              <li>
+                <Link href="/registration/student">Ayurved</Link>
+              </li>
+              <li>
+                <Link href="/registration/student-2">Homoeopathy</Link>
+              </li>
+              <li>
+                <Link href="/faq">Information & Communication Technology</Link>
+              </li>
+              <li>
+                <Link href="/signin">
+                  Multi-Skills Development & Training Center
                 </Link>
-              </li>
-              <li>
-                <Link href="/registration/student">
-                  Student Registration 01
-                </Link>
-              </li>
-              <li>
-                <Link href="/registration/student-2">
-                  Student Registration 02
-                </Link>
-              </li>
-              <li>
-                <Link href="/faq">Faq</Link>
-              </li>
-              <li>
-                <Link href="/signin">Sign IN</Link>
-              </li>
-              <li>
-                <Link href="/signup">Sign UP</Link>
-              </li>
-              <li>
-                <Link href="/404">Error</Link>
               </li>
             </ul>
           </li>
           <li className="has-dropdown">
-            <Link href="blog">blog</Link>
+            <Link href="#">Academic</Link>
+            <ul className="it-submenu submenu has-megamenu">
+              <li>
+                <Link href="/course">Academic Calender</Link>
+              </li>
+              <li>
+                <Link href="/course-2">
+                  Circuler
+                </Link>
+              </li>
+              <li>
+                <Link href="/course/course-one">Syllabus</Link>
+              </li>
+              <li>
+                <Link href="/teacher">Exam Schedule</Link>
+              </li>
+              <li>
+                <Link href="/teacher/teacher-one">Results</Link>
+              </li>
+              
+            </ul>
+          </li>
+          <li className="has-dropdown">
+            <Link href="blog">Placement</Link>
             <ul className="it-submenu submenu">
               <li>
-                <Link href="/blog">Blog 01</Link>
+                <Link href="/blog">Training & Placement Cell</Link>
               </li>
               <li>
-                <Link href="/blog-2">Blog 02</Link>
+                <Link href="/blog-2">Placement News</Link>
               </li>
               <li>
-                <Link href="/blog-sidebar">Blog Sidebar</Link>
+                <Link href="/blog-sidebar">Placement Records</Link>
               </li>
               <li>
-                <Link href="/blog/blog-one">Blog details</Link>
+                <Link href="/blog/blog-one">Recruiters</Link>
+              </li>
+            </ul>
+          </li>
+          <li className="has-dropdown">
+            <Link href="blog">Campus Life</Link>
+            <ul className="it-submenu submenu">
+              <li>
+                <Link href="/blog">Arts & Culture</Link>
+              </li>
+              <li>
+                <Link href="/blog-2">Campus Event</Link>
+              </li>
+              <li>
+                <Link href="/blog-sidebar">Community Services</Link>
+              </li>
+              <li>
+                <Link href="/blog/blog-one">NCC</Link>
+              </li>
+              <li>
+                <Link href="/blog/blog-one">Sports</Link>
+              </li>
+              <li>
+                <Link href="/blog/blog-one">Students Club</Link>
+              </li>
+            </ul>
+          </li>
+          <li className="has-dropdown">
+            <Link href="blog">Infrastructure</Link>
+            <ul className="it-submenu submenu">
+              <li>
+                <Link href="/blog">Laboratories</Link>
+              </li>
+              <li>
+                <Link href="/blog-2">Library</Link>
+              </li>
+              <li>
+                <Link href="/blog-sidebar">Hostel</Link>
+              </li>
+              <li>
+                <Link href="/blog/blog-one">Auditorium & Conference Hall</Link>
+              </li>
+              <li>
+                <Link href="/blog/blog-one">Sports Ground & Court</Link>
               </li>
             </ul>
           </li>

@@ -1,20 +1,18 @@
-
 import Footer from '@/components/Footer';
-import Header from '@/components/Header';
 import HeaderTwo from '@/components/Header/HeaderTwo';
 import Preloader from '@/components/Preloader';	
 import dynamic from 'next/dynamic'
  
-const AboutUsModules = dynamic(() => import('@/modules/AboutUs'), {
+const FacultyModules = dynamic(() => import('@/modules/Faculty'), {
   loading: () => <Preloader />,
 });
 
-export default function About() {
+export default function Contact() {
 	return (
 		<main>
-			<HeaderTwo/>
+			<HeaderTwo />
 
-			<AboutUsModules/>
+			<FacultyModules />
 
 			<Footer />
 		</main>

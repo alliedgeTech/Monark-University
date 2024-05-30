@@ -139,15 +139,41 @@ export default function Header( props ) {
 						<div className="container container-1380">
 							<div className="it-header-2-plr">
 								<div className="it-header-wrap p-relative">
-									<div className="row align-items-center">
+									<div className="d-flex justify-content-between">
+										<div className="">
+										<div className="it-header-2-logo">
+												<Link href="/"><Image className='img-fluid' width={60} height={60} src="/img/logo/MONARK_LOGO.png" alt="" /></Link>
+											</div>
+										</div>
+										<div className=" d-none d-xl-block">
+										<div className="it-header-2-main-menu w-100">
+												<nav className="it-menu-content">
+													<MenuItems onePage={menuFormat} />
+												</nav>
+											</div>
+										</div>
+										<div className="">
+										<div className="it-header-2-right d-flex align-items-center justify-content-end">
+												<div className="it-header-2-bar d-xl-none">
+													<button className="it-menu-bar" onClick={() => {setOffCanvasOpen(true)}}>
+														<i className="fa-solid fa-bars"></i>
+													</button>
+												</div>
+											</div>
+										</div>
+									</div>
+
+
+
+									{/* <div className="row align-items-center">
 										<div className="col-xl-2 col-6">
 											<div className="it-header-2-logo">
 												<Link href="/"><Image className='img-fluid' width={60} height={60} src="/img/logo/MONARK_LOGO.png" alt="" /></Link>
 											</div>
 										</div>
 										<div className="col-xl-10 d-none d-xl-block">
-											<div className="it-header-2-main-menu">
-												<nav className="it-menu-content">
+											<div className="it-header-2-main-menu w-100">
+												<nav className="it-menu-content mr-auto">
 													<MenuItems onePage={menuFormat} />
 												</nav>
 											</div>
@@ -161,7 +187,7 @@ export default function Header( props ) {
 												</div>
 											</div>
 										</div>
-									</div>
+									</div> */}
 								</div>
 							</div>
 						</div>
