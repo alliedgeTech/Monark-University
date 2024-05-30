@@ -353,18 +353,18 @@ export default function MenuItems(props) {
 		  <li className="has-dropdown about-us-dropdown">
     <Link href="/about-us">About MU</Link>
     <ul className="about-us-submenu submenu">
-        <li><Link href="#">Historical Background</Link></li>
-        <li><Link href="#">Vision & Mission</Link></li>
-        <li><Link href="#">President's Message</Link></li>
-        <li><Link href="#">Vice President's Message</Link></li>
-        <li><Link href="#">Provost Message</Link></li>
-        <li><Link href="#">Recognition & Approval</Link></li>
-        <li><Link href="#">Leadership</Link></li>
-        <li><Link href="#">Officers & Authority</Link></li>
-        <li><Link href="#">Gazette Act-15 of 2021</Link></li>
-        <li><Link href="#">Education Department Notification</Link></li>
-        <li><Link href="#">UGC Approval Letter</Link></li>
-        <li><Link href="#">Committees SGRC</Link></li>
+        <li><Link href="#historicalbackground">Historical Background</Link></li>
+        <li><Link href="#visionandmission">Vision & Mission</Link></li>
+        <li><Link href="#presidentmessage">President's Message</Link></li>
+        <li><Link href="#vicepresidentmessage">Vice President's Message</Link></li>
+        <li><Link href="#provostmessage">Provost Message</Link></li>
+        <li><Link href="#recognitionandapproval">Recognition & Approval</Link></li>
+        <li><Link href="#leadership">Leadership</Link></li>
+        <li><Link href="#officersandauthority">Officers & Authority</Link></li>
+        <li><Link href="https://monarkuni.ac.in/wp-content/uploads/2021/06/1_About-MU-Gazatte-Ex.-18-Act-15-of-2021.pdf">Gazette Act-15 of 2021</Link></li>
+        <li><Link href="https://monarkuni.ac.in/wp-content/uploads/2021/06/2_About-MU-Education-Department-Notification.pdf">Education Department Notification</Link></li>
+        <li><Link href="https://monarkuni.ac.in/wp-content/uploads/2022/07/UGC-LETTER_ORIGINAL-COPY.pdf">UGC Approval Letter</Link></li>
+        <li><Link href="#committeessgrc">Committees SGRC</Link></li>
     </ul>
 </li>
 
