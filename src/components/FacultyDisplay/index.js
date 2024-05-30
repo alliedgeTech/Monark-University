@@ -2,6 +2,7 @@ import React from "react";
 import dynamic from "next/dynamic";
 import "owl.carousel/dist/assets/owl.carousel.css";
 import "owl.carousel/dist/assets/owl.theme.default.css";
+import facultydata from "../../data/faculty"
 
 // Import jQuery
 if (typeof window !== "undefined") {
@@ -39,50 +40,37 @@ const index = () => {
     <div>
       <div style={{ marginTop: "150px" }} className="min-vh-100 bg-light py-4">
         <div className="container">
-          <h1 className="text-center">Faculty of Engineering & Technology</h1>
+          {
+            facultydata.map((faculty,index)=>{
+              return(
+                <div id={faculty.hastagID}key={index} className="faculty-info mt-4">
+                  <h1 className="text-center">{faculty.name}</h1>
           <hr />
           <h4 className="mt-5">
-            <i class="fa-solid fa-arrow-right-long"></i> About Faculty of
-            Engineering & Technology
+            <i class="fa-solid fa-arrow-right-long"></i>{faculty.heading}
           </h4>
           <div className="row">
             <div className="col-lg-6 col-12 mt-4">
               <div className="faculty-img">
                 <img
-                  src={`https://monarkuni.ac.in/wp-content/uploads/2023/08/eng-tech-6-1536x1024.jpg`}
+                  src={faculty.img1}
                 />
               </div>
             </div>
             <div className="col-lg-6 col-12 mt-4">
               <p>
-                The institute is imparting value based technical education and
-                developing knowledge, skill, creativity, and personality of
-                budding engineers/professionals, enabling them to meet
-                challenges of the present globalized world and fulfil the demand
-                of the industries. The institute has a ultra modern building
-                located in the university campus with lush green eco-friendly
-                and peaceful environment, aesthetically designed covered area
-                with more than adequate number of Class Rooms, Tutorial Rooms,
-                Labs, Workshops, Seminar Halls, Conference Room and Multipurpose
-                Auditorium with a seating capacity of 200 persons developed on
-                modern concept.
+                {faculty.text_1}
               </p>
             </div>
             <div className="col-lg-6 col-12 mt-4">
               <p>
-                Faculty of Engineering and Technology was established by Shree
-                Monark Education Trust in the year 2007 with an aim to impart
-                quality education for holistic development in the field of
-                technology and management. It also aims to provide technical
-                education of the highest standard with the help of state-of-art
-                infrastructure and qualified faculty members, researches and
-                innovation
+                {faculty.text_2}
               </p>
             </div>
             <div className="col-lg-6 col-12 mt-4">
               <div className="faculty-img">
                 <img
-                  src="https://monarkuni.ac.in/wp-content/uploads/2023/08/eng-tech-1-1536x1024.jpg"
+                  src={faculty.img2}
                   alt=""
                 />
               </div>
@@ -99,32 +87,39 @@ const index = () => {
             >
               <div className="item">
                 <img
-                  src="https://monarkuni.ac.in/wp-content/uploads/2023/08/eng-tech-2-1024x683.jpg"
+                  src={faculty.car_1}
                   alt=""
                 />
               </div>
               <div className="item">
                 <img
-                  src="https://monarkuni.ac.in/wp-content/uploads/2023/08/eng-tech-4-1024x683.jpg"
+                  src={faculty.car_2}
                   alt=""
                 />
               </div>
               <div className="item">
                 <img
-                  src="https://monarkuni.ac.in/wp-content/uploads/2023/08/eng-tech-2-1024x683.jpg"
+                  src={faculty.car_3}
                   alt=""
                 />
               </div>
               <div className="item">
                 <img
-                  src="https://monarkuni.ac.in/wp-content/uploads/2023/08/eng-tech-4-1024x683.jpg"
+                  src={faculty.car_4}
                   alt=""
                 />
               </div>
             </OwlCarousel>
           </div>
+
+                </div>
+              )
+            })
+          }
+          
+          
           <div className="student-say">
-            
+
           </div>
         </div>
       </div>

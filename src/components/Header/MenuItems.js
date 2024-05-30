@@ -392,28 +392,28 @@ export default function MenuItems(props) {
             <Link href="/faculty">Faculty</Link>
             <ul className="it-submenu submenu has-megamenu">
               <li>
-                <Link href="/course">Engineering & Technology</Link>
+                <Link href="/faculty#engineering_Technology">Engineering & Technology</Link>
               </li>
               <li>
-                <Link href="/course-2">Science</Link>
+                <Link href="/faculty#computer_application">Science</Link>
               </li>
               <li>
-                <Link href="/course/course-one">Physiotherapy</Link>
+                <Link href="/faculty#physiotherapy">Physiotherapy</Link>
               </li>
               <li>
-                <Link href="/teacher">Management</Link>
+                <Link href="/faculty#management">Management</Link>
               </li>
               <li>
-                <Link href="/teacher/teacher-one">Commerce</Link>
+                <Link href="/faculty#commerce">Commerce</Link>
               </li>
               <li>
-                <Link href="/price">Law</Link>
+                <Link href="/faculty#law">Law</Link>
               </li>
               <li>
-                <Link href="/event">Arts</Link>
+                <Link href="/faculty#arts">Arts</Link>
               </li>
               <li>
-                <Link href="/event/event-one">Computer Application</Link>
+                <Link href="/faculty#computer_application">Computer Application</Link>
               </li>
               <li>
                 <Link href="/cart">Nursing</Link>

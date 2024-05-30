@@ -10,7 +10,8 @@ const facultydata=[
         car_1:"https://monarkuni.ac.in/wp-content/uploads/2023/08/eng-tech-3-1024x683.jpg",
         car_2:"https://monarkuni.ac.in/wp-content/uploads/2023/08/eng-tech-4-1024x683.jpg",
         car_3:"https://monarkuni.ac.in/wp-content/uploads/2023/08/eng-tech-5-1024x683.jpg",
-        car_4:"https://monarkuni.ac.in/wp-content/uploads/2023/08/eng-tech-2-1024x683.jpg"
+        car_4:"https://monarkuni.ac.in/wp-content/uploads/2023/08/eng-tech-2-1024x683.jpg",
+        hastagID:"engineering_Technology",
 },
     {
         id:2,
@@ -23,7 +24,8 @@ const facultydata=[
         car_1:"https://monarkuni.ac.in/wp-content/uploads/2023/08/Science-6-1024x683.jpg",
         car_2:"https://monarkuni.ac.in/wp-content/uploads/2023/08/Science-2-1024x683.jpg",
         car_3:"https://monarkuni.ac.in/wp-content/uploads/2023/08/Science-3-1024x683.jpg",
-        car_4:"https://monarkuni.ac.in/wp-content/uploads/2023/08/Science-4-1024x683.jpg"
+        car_4:"https://monarkuni.ac.in/wp-content/uploads/2023/08/Science-4-1024x683.jpg",
+        hastagID:"science",
 },
     {
         id:3,
@@ -37,7 +39,8 @@ const facultydata=[
         car_1:"https://monarkuni.ac.in/wp-content/uploads/2023/08/Science-6-1024x683.jpg",
         car_2:"https://monarkuni.ac.in/wp-content/uploads/2023/08/Science-2-1024x683.jpg",
         car_3:"https://monarkuni.ac.in/wp-content/uploads/2023/08/Science-3-1024x683.jpg",
-        car_4:"https://monarkuni.ac.in/wp-content/uploads/2023/08/Science-4-1024x683.jpg"
+        car_4:"https://monarkuni.ac.in/wp-content/uploads/2023/08/Science-4-1024x683.jpg",
+        hastagID:"physiotherapy",
 },
     {
         id:4,
@@ -50,7 +53,8 @@ const facultydata=[
         car_1:"https://monarkuni.ac.in/wp-content/uploads/2023/08/Management-7-1024x683.jpg",
         car_2:"https://monarkuni.ac.in/wp-content/uploads/2023/08/Management-2-1024x683.jpg",
         car_3:"https://monarkuni.ac.in/wp-content/uploads/2023/08/Management-3-1024x683.jpg",
-        car_4:"https://monarkuni.ac.in/wp-content/uploads/2023/08/Management-4-1024x683.jpg"
+        car_4:"https://monarkuni.ac.in/wp-content/uploads/2023/08/Management-4-1024x683.jpg",
+        hastagID:"management",
 },
     {
         id:5,
@@ -63,7 +67,8 @@ const facultydata=[
         car_1:"https://monarkuni.ac.in/wp-content/uploads/2023/08/commerce-3-1024x683.jpg",
         car_2:"https://monarkuni.ac.in/wp-content/uploads/2023/08/commerce-1-1024x683.jpg",
         car_3:"https://monarkuni.ac.in/wp-content/uploads/2023/08/commerce-2-1024x683.jpg",
-        car_4:"https://monarkuni.ac.in/wp-content/uploads/2023/08/Management-4-1024x683.jpg"
+        car_4:"https://monarkuni.ac.in/wp-content/uploads/2023/08/Management-4-1024x683.jpg",
+        hastagID:"commerce",
 },
     {
         id:6,
@@ -76,7 +81,8 @@ const facultydata=[
         car_1:"https://monarkuni.ac.in/wp-content/uploads/2023/08/Law-4-1024x683.jpg",
         car_2:"https://monarkuni.ac.in/wp-content/uploads/2023/08/Law-3-1024x683.jpg",
         car_3:"https://monarkuni.ac.in/wp-content/uploads/2023/08/Law-2-1024x683.jpg",
-        car_4:"https://monarkuni.ac.in/wp-content/uploads/2023/08/Law-4-1024x683.jpg"
+        car_4:"https://monarkuni.ac.in/wp-content/uploads/2023/08/Law-4-1024x683.jpg",
+        hastagID:"law",
 },
     {
         id:7,
@@ -89,7 +95,8 @@ const facultydata=[
         car_1:"https://monarkuni.ac.in/wp-content/uploads/2023/08/arts-6-1024x683.jpg",
         car_2:"https://monarkuni.ac.in/wp-content/uploads/2023/08/arts-5-1024x683.jpg",
         car_3:"https://monarkuni.ac.in/wp-content/uploads/2023/08/arts-4-1024x683.jpg",
-        car_4:"https://monarkuni.ac.in/wp-content/uploads/2023/08/arts-3-1024x683.jpg"
+        car_4:"https://monarkuni.ac.in/wp-content/uploads/2023/08/arts-3-1024x683.jpg",
+        hastagID:"arts",
 },
     {
         id:8,
@@ -102,6 +109,9 @@ const facultydata=[
         car_1:"https://monarkuni.ac.in/wp-content/uploads/2023/08/Computer-Application-3-1024x683.jpg",
         car_2:"https://monarkuni.ac.in/wp-content/uploads/2023/08/Computer-Application-4-1024x683.jpg",
         car_3:"https://monarkuni.ac.in/wp-content/uploads/2023/08/Computer-Application-2-1024x683.jpg",
-        car_4:"https://monarkuni.ac.in/wp-content/uploads/2023/08/Computer-Application-1-1024x683.jpg"
+        car_4:"https://monarkuni.ac.in/wp-content/uploads/2023/08/Computer-Application-1-1024x683.jpg",
+        hastagID:"computer_application",
 },
 ]
+
+export default facultydata;
