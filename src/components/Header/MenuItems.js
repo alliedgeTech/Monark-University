@@ -395,7 +395,7 @@ export default function MenuItems(props) {
                 <Link href="/faculty#engineering_Technology">Engineering & Technology</Link>
               </li>
               <li>
-                <Link href="/faculty#computer_application">Science</Link>
+                <Link href="/faculty#science">Science</Link>
               </li>
               <li>
                 <Link href="/faculty#physiotherapy">Physiotherapy</Link>
