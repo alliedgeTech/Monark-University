@@ -56,7 +56,7 @@ const apvrs = [
 ];
 export default function About() {
   return (
-    <div>
+    <div id="historicalbackground" >
       <div className="it-choose-area p-relative pt-180 pb-110">
         <div className="it-choose-shape-4 d-none d-md-block">
           <Image
@@ -709,7 +709,7 @@ export default function About() {
 
           {/* vision and mission start*/}
 
-          <div>
+          <div id="visionandmission">
             <div class="it-career-area it-career-bg p-relative pt-120">
               <div class="it-career-shape-2 d-none d-xl-block">
                 <img
@@ -858,7 +858,7 @@ export default function About() {
             {/* vision and mission end*/}
 
             {/* President message start*/}
-            <div>
+            <div id="presidentmessage">
               <div className="it-sv-details-area pt-120 pb-120">
                 <div className="container">
                   <div className="row">
@@ -980,7 +980,7 @@ export default function About() {
               {/* President message end*/}
 
               {/* Vice President message start*/}
-              <div>
+              <div id="vicepresidentmessage">
                 <div className="it-sv-details-area pt-120 pb-120">
                   <div className="container">
                     <div className="row">
@@ -1097,7 +1097,7 @@ export default function About() {
                 {/* Vice President message end*/}
 
                 {/* Provost message start*/}
-                <div>
+                <div id="provostmessage">
                   <div className="it-sv-details-area pt-120 pb-120">
                     <div className="container">
                       <div className="row">
@@ -1210,7 +1210,7 @@ export default function About() {
                   {/* Provost message end*/}
 
                   {/*Approvals & Recognitions starts*/}
-                  <div>
+                  <div id="recognitionandapproval">
                     <div
                       className="it-funfact-5-area it-funfact-5-bg p-relative fix yellow-bg pt-100 pb-60"
                       data-background="/img/funfact/bg-2.png"
@@ -1632,146 +1632,7 @@ export default function About() {
                     </div>
                     {/*Approvals & Recognitions ends*/}
 
-                    <div className="it-about-4-area inner-about-style pt-120 pb-120">
-                      <div className="container">
-                        <div className="row align-items-center">
-                          <div className="col-xl-6 col-lg-6">
-                            <div className="it-about-4-thumb-wrap d-flex align-items-center justify-content-center justify-content-lg-end">
-                              <div className="it-about-4-thumb-double d-flex flex-column">
-                                <img
-                                  className="mb-20"
-                                  src="/img/about/thumb-4-1.jpg"
-                                  alt=""
-                                  width={236}
-                                  height={350}
-                                />
-                                <Image
-                                  src="/img/about/thumb-4-2.jpg"
-                                  alt=""
-                                  width={236}
-                                  height={350}
-                                />
-                              </div>
-                              <div className="it-about-4-thumb-single">
-                                <Image
-                                  src="/img/about/thumb-4-3.jpg"
-                                  alt=""
-                                  width={304}
-                                  height={600}
-                                />
-                              </div>
-                            </div>
-                          </div>
-                          <div className="col-xl-6 col-lg-6">
-                            <div className="it-about-3-title-box">
-                              <span className="it-section-subtitle">
-                                <Image
-                                  src="/img/category/inner.svg"
-                                  alt=""
-                                  width={18}
-                                  height={18}
-                                />
-                                about us
-                              </span>
-                              <h2 className="it-section-title-3 pb-30">
-                                we are always ensure best course for your{" "}
-                                <span>learning</span>
-                              </h2>
-                              <p>
-                                Lorem ipsum dolor sit amet, consectetur
-                                adipiscing elit, sed do eiusmod tempor
-                                incididunt ut labore et dolore magna aliqua. Ut
-                                enim ad minim veniam, quis nostrud exercitation
-                                ullamco laboris nisi.
-                              </p>
-                            </div>
-                            <div className="it-about-3-mv-box">
-                              <div className="row">
-                                <div className="col-xl-12">
-                                  <div className="it-about-4-list-wrap d-flex align-items-start">
-                                    <div className="it-about-4-list-icon">
-                                      <span>
-                                        <i className="flaticon-video-1"></i>
-                                      </span>
-                                    </div>
-                                    <div className="it-about-3-mv-item">
-                                      <span className="it-about-3-mv-title">
-                                        Sharing a Screen
-                                      </span>
-                                      <p>
-                                        Lorem ipsum dolor sit amet, consectetur
-                                        adipiscing elit, sed do tempor
-                                        incididunt ut labore et dolore magna
-                                        aliqua.
-                                      </p>
-                                    </div>
-                                  </div>
-                                </div>
-                                <div className="col-xl-12">
-                                  <div className="it-about-4-list-wrap d-flex align-items-start">
-                                    <div className="it-about-4-list-icon">
-                                      <span>
-                                        <i className="flaticon-puzzle"></i>
-                                      </span>
-                                    </div>
-                                    <div className="it-about-3-mv-item">
-                                      <span className="it-about-3-mv-title">
-                                        presenter Control
-                                      </span>
-                                      <p>
-                                        Lorem ipsum dolor sit amet, consectetur
-                                        adipiscing elit, sed do tempor
-                                        incididunt ut labore et dolore magna
-                                        aliqua.
-                                      </p>
-                                    </div>
-                                  </div>
-                                </div>
-                              </div>
-                            </div>
-                            <div className="it-about-3-btn-box p-relative">
-                              <a className="it-btn" href="contact">
-                                <span>
-                                  admission open
-                                  <svg
-                                    width="17"
-                                    height="14"
-                                    viewBox="0 0 17 14"
-                                    fill="none"
-                                    xmlns="http://www.w3.org/2000/svg"
-                                  >
-                                    <path
-                                      d="M11 1.24023L16 7.24023L11 13.2402"
-                                      stroke="currentcolor"
-                                      strokeWidth="1.5"
-                                      strokeMiterlimit="10"
-                                      strokeLinecap="round"
-                                      strokeLinejoin="round"
-                                    />
-                                    <path
-                                      d="M1 7.24023H16"
-                                      stroke="currentcolor"
-                                      strokeWidth="1.5"
-                                      strokeMiterlimit="10"
-                                      strokeLinecap="round"
-                                      strokeLinejoin="round"
-                                    />
-                                  </svg>
-                                </span>
-                              </a>
-                              <div className="it-about-3-left-shape-3 d-none d-xl-block">
-                                <Image
-                                  src="/img/about/about-3-shap-3.png"
-                                  alt=""
-                                  width={266}
-                                  height={52}
-                                />
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
+
                   </div>
                 </div>
               </div>
