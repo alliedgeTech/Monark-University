@@ -1,5 +1,5 @@
 import SingleCategory from "@/components/Service"
-import Services from "@/data/services"
+import Services from "@/data/diploma"
 
 export default function ServiceArea() {
 	return (
@@ -12,10 +12,9 @@ export default function ServiceArea() {
 							return (
 								<div className="col-xl-3 col-lg-3 col-md-6 mb-30">
 									<SingleCategory 
-										Slug={service.slug}
 										Icon={service.icon}
 										Title={service.title}
-										courseCount={service.courseCount}
+											
 									/>
 								</div>
 							);
