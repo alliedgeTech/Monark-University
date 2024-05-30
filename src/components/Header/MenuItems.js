@@ -416,28 +416,28 @@ export default function MenuItems(props) {
                 <Link href="/faculty#computer_application">Computer Application</Link>
               </li>
               <li>
-                <Link href="/cart">Nursing</Link>
+                <Link href="/faculty#nursing">Nursing</Link>
               </li>
               <li>
-                <Link href="/checkout">Education</Link>
+                <Link href="/faculty#education">Education</Link>
               </li>
               <li>
-                <Link href="/testimonial">Social work</Link>
+                <Link href="/faculty#social_work">Social work</Link>
               </li>
               <li>
-                <Link href="/registration/instructor">Pharmacy</Link>
+                <Link href="/faculty#pharmacy">Pharmacy</Link>
               </li>
               <li>
-                <Link href="/registration/student">Ayurved</Link>
+                <Link href="/faculty#ayurveda">Ayurved</Link>
               </li>
               <li>
-                <Link href="/registration/student-2">Homoeopathy</Link>
+                <Link href="/faculty#homoeopathy">Homoeopathy</Link>
               </li>
               <li>
-                <Link href="/faq">Information & Communication Technology</Link>
+                <Link href="/faculty#technology">Information & Communication Technology</Link>
               </li>
               <li>
-                <Link href="/signin">
+                <Link href="/faculty#skills">
                   Multi-Skills Development & Training Center
                 </Link>
               </li>

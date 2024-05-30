@@ -14,6 +14,10 @@ if (typeof window !== "undefined") {
 const OwlCarousel = dynamic(() => import("react-owl-carousel"), {
   ssr: false,
 });
+// Dynamically import OwlCarousel without SSR
+const OwlCarousel2 = dynamic(() => import("react-owl-carousel"), {
+  ssr: false,
+});
 
 // Responsive settings for OwlCarousel
 const Responsive = {
@@ -38,12 +42,12 @@ const Responsive = {
 const index = () => {
   return (
     <div>
-      <div style={{ marginTop: "150px" }} className="min-vh-100 bg-light py-4">
+      <div style={{ marginTop: "120px" }} className="min-vh-100 bg-light py-4">
         <div className="container">
           {
             facultydata.map((faculty,index)=>{
               return(
-                <div id={faculty.hastagID}key={index} className="faculty-info mt-4">
+                <div id={faculty.hastagID}key={index} className="faculty-info">
                   <h1 className="text-center">{faculty.name}</h1>
           <hr />
           <h4 className="mt-5">
@@ -62,12 +66,14 @@ const index = () => {
                 {faculty.text_1}
               </p>
             </div>
-            <div className="col-lg-6 col-12 mt-4">
+            </div>
+            <div className="row">
+            <div className="col-lg-6 col-12 mt-4 order-lg-1 order-2">
               <p>
                 {faculty.text_2}
               </p>
             </div>
-            <div className="col-lg-6 col-12 mt-4">
+            <div className="col-lg-6 col-12 mt-4 order-lg-2 order-1">
               <div className="faculty-img">
                 <img
                   src={faculty.img2}
@@ -119,6 +125,25 @@ const index = () => {
           
           
           <div className="student-say">
+            <div className="say-heading">
+              <h2>
+                What Students Say..
+              </h2>
+            </div>
+            <OwlCarousel2
+              className="owl-theme"
+              loop={true}
+              autoPlay={true}
+              autoplayTimeout={5000}
+              dots={true}
+              responsive={Responsive}
+            >
+              <div class="item">
+              
+            </div>
+              
+              
+            </OwlCarousel2>
 
           </div>
         </div>

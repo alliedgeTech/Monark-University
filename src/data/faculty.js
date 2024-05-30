@@ -281,7 +281,49 @@ const facultydata = [
       "https://monarkuni.ac.in/wp-content/uploads/2023/08/Ayurveda-4-1024x683.jpg",
     car_4:
       "https://monarkuni.ac.in/wp-content/uploads/2023/08/Ayurveda-5-1024x683.jpg",
-    hastagID: "ayurveda",
+    hastagID: "homoeopathy",
+  },
+  {
+    id: 15,
+    name: "Faculty of Information & Communication Technology",
+    heading: "About Faculty of Information & Communication Technology",
+    img1: "https://monarkuni.ac.in/wp-content/uploads/2023/08/Computer-Application-2-1536x1024.jpg",
+    text_1:
+      "The dynamic era of computer technology created a rising demand for young professionally trained persons to occupy positions in IT industry. The institute, therefore, took up the challenge to meet the call of the time and contribute its mite to the cause of computer education and training. Accordingly, institute offering three-year B.Sc ,one year PG Diploma programs which provides opportunities to youngster to acquire knowledge, skill and essential attitudes for assuming position in computer profession.",
+    img2: "https://monarkuni.ac.in/wp-content/uploads/2023/08/Computer-Application-3-1536x1024.jpg",
+    text_2:
+      "Faculty of ICT is established by Monark University in the year 2022 with an aim to impart quality education in the field of computer and technology. The focus of our university is to develop a Complete Student, i.e. a combination of academic and co-curricular skills. We groom our students to face the challenges of the corporate world with a blend of social sensitivity. Besides the requisite managerial, IT or media skills, the students also attain visionary, entrepreneurial and leadership skills.",
+    //missing photo
+    car_1:
+      "https://monarkuni.ac.in/wp-content/uploads/2023/08/Ayurveda-9-1024x683.jpg",
+    car_2:
+      "https://monarkuni.ac.in/wp-content/uploads/2023/08/Ayurveda-2-1024x683.jpg",
+    car_3:
+      "https://monarkuni.ac.in/wp-content/uploads/2023/08/Ayurveda-4-1024x683.jpg",
+    car_4:
+      "https://monarkuni.ac.in/wp-content/uploads/2023/08/Ayurveda-5-1024x683.jpg",
+    hastagID: "technology",
+  },
+  {
+    id: 16,
+    name: "Multi-Skills Development & Training Center",
+    heading: "About Multi-Skills Development & Training Center",
+    img1: "https://monarkuni.ac.in/wp-content/uploads/2021/07/Neutral-Grey-Work-From-Home-Photo-Collage-2-1536x1229.png",
+    text_1:
+      "The institute aims to provide education of the highest standard with the help of state-of-art infrastructure and qualified experts. Having completely perceived the significance of specialized instruction of the present time, the center has consistently offered the most obvious opportunity to the understudies to know and develop.",
+    img2: "https://monarkuni.ac.in/wp-content/uploads/2021/07/Neutral-Grey-Work-From-Home-Photo-Collage-1-1-1536x1229.png",
+    text_2:
+      "Multi-Skills Development & Training Center was established by Monark University in 2021 with an aim to impart quality education in the field of Music, Fitness & Nutrition and Hair Dressing & Beauty and in the field of health science amongst other fields.",
+    //missing photo
+    car_1:
+      "https://monarkuni.ac.in/wp-content/uploads/2023/08/Ayurveda-9-1024x683.jpg",
+    car_2:
+      "https://monarkuni.ac.in/wp-content/uploads/2023/08/Ayurveda-2-1024x683.jpg",
+    car_3:
+      "https://monarkuni.ac.in/wp-content/uploads/2023/08/Ayurveda-4-1024x683.jpg",
+    car_4:
+      "https://monarkuni.ac.in/wp-content/uploads/2023/08/Ayurveda-5-1024x683.jpg",
+    hastagID: "skills",
   },
 ];
 

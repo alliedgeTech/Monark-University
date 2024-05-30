@@ -1,5 +1,5 @@
 *{
-
+    scroll-behavior: smooth !important;
     text-decoration: none;
 }
 .latest-box{
@@ -64,14 +64,9 @@
 }
 .header-sticky{
     background: rgba(224, 223, 223, 0.736) !important;
-    border: 1px solid rgba(128, 128, 128, 0.508);
     backdrop-filter: blur(5px) !important;
-    top: 10px !important;
+    border-bottom: 1px solid grey;
     /* overflow: hidden; */
-    width: 92vw !important;
-    margin-left:auto !important;
-    margin-right:auto !important;
-    border-radius: 20px;
 }
 .it-header-2-main-menu li a{
     font-size: 13px !important;
@@ -92,6 +87,9 @@
 .submenu li a{
     color: black !important;
 }
+.faculty-info{
+    padding-top: 5vmin;
+}
 .faculty-img{
     overflow: hidden;
     border-radius: 10px;
@@ -99,6 +97,8 @@
 .faculty-img:hover img{
     transform: scale(1.05);
 }
+
+
 
 @media screen and (max-width: 768px) {
     .latest-text h5 {
