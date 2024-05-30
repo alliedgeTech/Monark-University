@@ -1214,6 +1214,8 @@ export default function About() {
                     <div
                       className="it-funfact-5-area it-funfact-5-bg p-relative fix yellow-bg pt-100 pb-60"
                       data-background="/img/funfact/bg-2.png"
+                      layout="fill"
+                      objectFit="cover"
                     >
 						<h4 className="it-section-title-5" style={{ marginBottom: '100px', textAlign: 'center' }}>Approvals & Recognitions</h4>
 
