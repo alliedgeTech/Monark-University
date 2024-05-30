@@ -17,11 +17,7 @@ export default function BreadCrumbs( props ) {
 								<h3 className="it-breadcrumb-title">{Title ? Title : 'About Us'}</h3>
 							</div>
 							<div className="it-breadcrumb-list-wrap">
-								<div className="it-breadcrumb-list">
-									<span><Link href="/">home</Link></span> 
-									<span className="dvdr">//</span>
-									<span>{subTitle ? subTitle : 'about us'}</span>
-								</div>
+								
 							</div>
 						</div>
 					</div>

@@ -11,17 +11,17 @@ export default function AboutUsModules() {
 	return (
 		<main>
 			<BreadCrumbs
-				Title="About Us"
-				subTitle="About Us"
+				Title="About MU"
+				
 			/>
 			
 			<About />
 			
-			<Funfact />
 			
-			<Testimonial />
+			
+			
 
-			<Course />
+		
 			
 			<Team />
 
