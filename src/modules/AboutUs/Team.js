@@ -5,7 +5,7 @@ import Teachers from "@/data/teachers";
 export default function Team() {
   return (
     <>
-      <div id="leadership">
+      <div id="leadership" style={{marginTop:100}}>
         <div className="it-team-3-area p-relative z-index pt-110 pb-90">
           <Image
             src="/img/team/bg-3.png"
@@ -59,6 +59,7 @@ export default function Team() {
           className="it-funfact-5-area it-funfact-5-bg p-relative fix yellow-bg pt-100 pb-60"
           data-background="/img/funfact/bg-2.png"
 		  id="officersandauthority"
+		  style={{marginTop:100}}
         >
           <div className="container">
             <div className="row">
@@ -102,7 +103,7 @@ export default function Team() {
             </div>
           </div>
         </div>
-        <div className="it-team-3-area p-relative z-index pt-110 pb-90">
+        <div className="it-team-3-area p-relative z-index pt-110 pb-90" style={{marginTop:100}}>
           <Image
             src="/img/team/bg-3.png"
             layout="fill"
@@ -155,6 +156,7 @@ export default function Team() {
           className="it-funfact-5-area it-funfact-5-bg p-relative fix yellow-bg pt-100 pb-60"
           data-background="/img/funfact/bg-2.png"
 		  id="committeessgrc"
+		  style={{marginTop:100}}
         >
           <div className="container">
             <div className="row">

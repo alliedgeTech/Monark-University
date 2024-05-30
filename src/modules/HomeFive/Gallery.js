@@ -2,6 +2,7 @@ import Image from "next/image"
 import { useState } from "react";
 import Lightbox from "yet-another-react-lightbox";
 import "yet-another-react-lightbox/styles.css";
+import campus from "@/data/campus";
 
 
 export default function Gallery() {
@@ -32,6 +33,7 @@ export default function Gallery() {
 				</div>
 				<div className="container">
 					<div className="row">
+						
 						<div className="col-xl-12">
 							<div className="it-gallery-title-box text-center pb-70">
 								<span className="it-section-subtitle-5">
