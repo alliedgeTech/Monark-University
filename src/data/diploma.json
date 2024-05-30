@@ -2,6 +2,7 @@
     {
         "id": 1,
         "title" : "Diploma in Automobile Engineering",
+        "icon": "flaticon-web-design",
         "titlePera": "Diploma in Automobile Engineering is a three year course spanning over six semesters. The course aims to train the student for a deeper understanding of the automobiles at various stages such as designing, manufacturing, customer relationships and market analysis. It also takes a comprehensive view of sales and management.  The course offers technological education in areas such as automobile design, vehicle engineering, electrical and electronic systems used in vehicles, braking, material science, engines, fuels and lubricants. It is a branch of engineering that combines elements of mechanical, electrical, electronic, software and safety engineering in design, manufacture and service of automobiles, buses, and trucks as well as their subsystems.",
         "titleImage": "https://monarkuni.ac.in/wp-content/uploads/2021/06/SMET-279.jpg",
         "programOutcomesPera":"Automobile Engineers have job opportunities in various fields like automobile maintenance and service, production, research & development and transport departments. With the advent of E-Mobility (e-Bikes, Electric car) a lot of opportunities are accessible for these graduates after completing B.Tech in Automobile Engineering. The students who complete the course successfully can join modern automobile industries like Volvo, Ashok Leyland, Telco, Ford, Hyundai, Maruti, etc. They can also become entrepreneurs by operating service centres for automobiles.",
@@ -62,6 +63,7 @@
     {
         "id": 2,
         "title": "Diploma in Civil Engineering",
+        "icon": "flaticon-ux-design",
         "titlePera": "Diploma in Civil Engineering is a three years course spanning over six semesters. The aim of this course is to train the students in various areas like structures, construction, building and shaping of materials, construction of satellites, dams and highways. In this course, the aspirant has a wide range of opportunities to choose from some of the employment areas like real estate companies, civil & interior projects, railways, architect companies, roadways and airports. The course offers the students about the fundamental principles of engineering which ensure that the students can effectively navigate the fields and advance in their careers for further studies in the degree program.",
         "titleImage": "https://monarkuni.ac.in/wp-content/uploads/2021/06/SMET-220-1.jpg",
         "programOutcomesPera": "To develop civil engineering technicians with professional skills, knowledge, abilities & attitude for wage employment and/or to become entrepreneur.To provide opportunities and develop competence to work as a leader, manager or team member in multidisciplinary civil engineering works and projects.To provide opportunities and develop students in terms of social, economic and environment sensitive as responsible professionals.To make understanding towards use of different local, national and international codes for execution of civil engineering works.To encourage and provide necessary knowledge, skills and opportunities for higher education and exploring different learning strategies for life-long learning.",
@@ -120,6 +122,7 @@
     {
         "id": 3,
         "title": "Diploma in Computer Engineering",
+        "icon": "flaticon-coding",
         "titlePera": "Diploma in Computer Engineering is a three year course spanning over six semesters. The aim of the program is to focus on the study and development of computer software and hardware. Computer engineering can be said to be an integrated discipline, consisting of elements of electrical engineering, computer science and electronics engineering. The course offers the education in areas such as Software development and testing, database designing, hardware, networking and computer architecture.",
         "titleImage": "https://monarkuni.ac.in/wp-content/uploads/2021/06/SMET-207.jpg",
         "programOutcomesPera": "The program enables the student to use the techniques, skills and tools necessary for science and engineering practice. The program aims to develop the understanding of recent scenario in information technology and way to digitalization for making positive contributions to community and society by applying skills and abilities learned. It helps to apply design and development principles in the development of software & hardware interface of varying complexity.",
@@ -186,6 +189,7 @@
     {
         "id": 4,
         "title": "Diploma in Electrical Engineering",
+        "icon": "flaticon-mobile-development",
         "titlePera": "Diploma in Electrical Engineering is a three year course spanning over six semesters. The aim of this course is to train students in electrical engineering covering traditional areas like generation, distribution and transmission of electricity as well as new age applications in electronics ranging from telecommunications to computers and micro processors. The course offers career as an electrical engineer, communication system manager, communication operator, radio journalist, technical head and many more jobs in the technical and electrical field.",
         "titleImage": "https://monarkuni.ac.in/wp-content/uploads/2021/06/SMET-131.jpg",
         "programOutcomesPera": "The aspirant can apply knowledge of Mathematics, Science and Engineering to solve the complex problems in Electrical. One can construct, select and apply appropriate techniques, resources, and modern simulation tools to solve complex electrical circuits. The program aims to solve professional, legal and ethical issues pertaining to core engineering and its related fields.",
@@ -292,6 +296,7 @@
     {
         "id": 5,
         "title": "Diploma in Information Technology Engineering",
+        "icon": "flaticon-promotion",
         "titlePera": "Diploma in Information Technology is a three year course spanning over six semesters. The aim of this course is to study information technology in detail in the area of computers which can store, retrieve, transmit and share the data. The information can be in the context of a business or other areas of the market. This course is also considered as a subset of information and communications technology.",
         "titleImage": "https://monarkuni.ac.in/wp-content/uploads/2021/06/SMET-207.jpg",
         "programOutcomesPera": "The aspirant can use the techniques, skills and tools necessary for science and engineering practice. One can design and conduct experiments to analyze and interpret data and pursue various industrial roles to develop and understand the recent scenario in information technology and the way to digitalization. The aspirant can make positive contributions to community and society by applying skills and abilities learned.",
@@ -361,6 +366,7 @@
     {
         "id": 6,
         "title": "Diploma in Mechanical Engineering",
+        "icon": "flaticon-art",
         "titlePera": "Diploma in Mechanical Engineering is a three year course spanning over six semesters. The aim of this course is to prepare the students with basic understanding and working on machineries operated by manual and automatic mode. It is one of the oldest branch in the field of engineering. It covers various areas in design, manufacturing and thermal engineering. It enables the students to utilize the machines smartly.",
         "titleImage": "https://monarkuni.ac.in/wp-content/uploads/2021/06/SMET-269.jpg",
         "programOutcomesPera": "The program enables the student to create the understanding of basic concepts and principles of mechanical engineering. One can generate an ability to use the techniques, skills and modern engineering tools necessary for engineering practice. One can explain the significance of basic principles of thermal engineering. It helps to provide education and training to students in the area of manufacturing and maintenance, who can work as professionals in industries and production companies in future.",
@@ -434,6 +440,7 @@
     {
         "id": 7,
         "title": "Medical LaboratoryTechnology -Assistant(MLT-Assistant)",
+        "icon": "flaticon-mobile-development",
         "titlePera": "Medical Laboratory Technology (Assistant) is a Six month programme that includes only Six month Theory, Practical. The course lays a foundation into the aspects of the technologies that are integrated into the healthcare system, which aims in improving the quality of the healthcare system. Medical Laboratory Technology (Assistant) concentrates on imparting a thorough knowledge of the diagnosis treatment and prevention of diseases through the use of clinical laboratory Equipment.",
         "titleImage": "https://monarkuni.ac.in/wp-content/uploads/2021/06/SMET-69.jpg",
         "programOutcomesPera": "After the completion of these course students will be able to Understand all aspects of Biochemistry, Pathology Microbiology & Blood Bank, and its application in the healthcare delivery system.  Students will be able to prepare various stains and reagents; will be able to collect blood sample, and also able to perform operation and maintenance of pathology lab instrument. This program also equips candidates with the knowledge to prepare various media and its sterilization and preparation of slant and also able to performing ESR, PSV.",
@@ -492,64 +499,7 @@
     {
         "id": 8,
         "title": "",
-        "titlePera": "",
-        "titleImage": "",
-        "programOutcomesPera": "",
-        "programOutcomesImages": [
-            {
-                "id": 1,
-                "image": "",
-                "name": ""
-            },
-            {
-                "id": 2,
-                "image": "",
-                "name": ""
-            },
-            {
-                "id": 3,
-                "image": "",
-                "name": ""
-            },
-            {
-                "id": 4,
-                "image": "",
-                "name": ""
-            },
-            {
-                "id": 5,
-                "image": "",
-                "name": ""
-            },
-            {
-                "id": 6,
-                "image": "",
-                "name": ""
-            }
-        ],
-        "coureDuration": "",
-        "eligibilityCriteria": "",
-        "annualFees": "",
-        "laboratories": [
-            {
-                "id": 1,
-                "title": "",
-                "subTitle": "",
-                "image": "",
-                "pera": ""
-            },
-            {
-                "id": 2,
-                "title": "",
-                "subTitle": "",
-                "image": "",
-                "pera": ""
-            }
-        ]
-    },
-    {
-        "id": 9,
-        "title": "",
+        "icon": "flaticon-bars",
         "titlePera": "",
         "titleImage": "",
         "programOutcomesPera": "",
@@ -605,6 +555,5 @@
             }
         ]
     }
-    
-                        
+                       
 ]
