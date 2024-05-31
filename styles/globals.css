@@ -1,5 +1,5 @@
 *{
-
+    scroll-behavior: smooth !important;
     text-decoration: none;
 }
 .latest-box{
@@ -64,14 +64,9 @@
 }
 .header-sticky{
     background: rgba(224, 223, 223, 0.736) !important;
-    border: 1px solid rgba(128, 128, 128, 0.508);
     backdrop-filter: blur(5px) !important;
-    top: 10px !important;
+    border-bottom: 1px solid grey;
     /* overflow: hidden; */
-    width: 92vw !important;
-    margin-left:auto !important;
-    margin-right:auto !important;
-    border-radius: 20px;
 }
 .it-header-2-main-menu li a{
     font-size: 13px !important;
@@ -92,6 +87,9 @@
 .submenu li a{
     color: black !important;
 }
+.faculty-info{
+    padding-top: 5vmin;
+}
 .faculty-img{
     overflow: hidden;
     border-radius: 10px;
@@ -99,6 +97,84 @@
 .faculty-img:hover img{
     transform: scale(1.05);
 }
+.test-card{
+    background: #c9c9ca;
+    position: relative;
+    border: 1px solid grey;
+    margin-top: 40px;
+}
+.test-img{
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 50%;
+    overflow: hidden;
+    height: 80px;
+    width: 80px;
+    border: 1px solid black;
+}
+.test-img img{
+    width: 80px !important;
+    box-shadow: 0 0 5px black;
+}
+.test-name h6{
+    margin-top: 60px;
+    font-size: 20px;
+}
+.test-text{
+    padding: 10px 20px;
+}
+.test-text small{
+    font-size: 14px;
+}
+.placement{
+    margin-top: 140px;
+}
+.record-box{
+    padding: 20px 15px;
+    background: #181b2a;
+    border-radius: 20px;
+    transition: all 0.5s;
+}
+.record-box:hover{
+    background: #1b2037;
+    transform: translateY(-4px);
+}
+.record-box .icon-box{
+    margin-bottom: 30px;
+    border-bottom: 2px solid rgb(0, 179, 255);
+}
+.record-box .icon-box i{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    font-size: 35px;
+    border: 2px solid rgb(226, 226, 227);
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    color: white;
+}
+.record-box:hover .icon-box i{
+    box-shadow: 0 0 15px rgb(61, 61, 148);
+}
+.record-box .icon-box h4{
+    font-size: 20px;
+    color: white;
+}
+.record-box .record-text p{
+    color: white;
+    font-size: 13px !important;
+}
+.record-box .record-text i{
+    margin-right: 7px;
+}
+.marquee .img-fluid{
+    max-width: 100px ;
+    margin: 10px 30px;
+}
+
 
 @media screen and (max-width: 768px) {
     .latest-text h5 {
