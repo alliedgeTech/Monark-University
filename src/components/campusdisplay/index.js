@@ -8,7 +8,7 @@ import { useState } from "react";
 import Lightbox from "yet-another-react-lightbox";
 import "yet-another-react-lightbox/styles.css";
 
-const Index = () => {
+const Campusdisplay = () => {
   const [open, setOpen] = useState(false);
   return (
     <>
@@ -86,4 +86,4 @@ const Index = () => {
     </>
   );
 };
-export default Index;
+export default Campusdisplay;
