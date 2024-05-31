@@ -1,5 +1,5 @@
 import SingleFeatureTwo from "@/components/Feature/Two"
-import Services2 from "@/data/services2"
+import Services2 from "@/data/after12"
 
 export default function ServiceTwoArea() {
 	return (
@@ -11,10 +11,10 @@ export default function ServiceTwoArea() {
 							return (
 								<div className="col-xl-4 col-lg-4 col-md-6 mb-30">
 									<SingleFeatureTwo 
-										Slug={service.slug}
+										Slug={service.id}
 										Icon={service.icon}
-										Title={service.title}
-										Description={service.description}
+										Title={service.branchName}
+										count={service.courseCount}
 									/>
 								</div>
 							);

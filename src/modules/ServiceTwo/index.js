@@ -7,7 +7,7 @@ export default function ServiceTwoModules() {
 	return (
 		<main>
 			<BreadCrumbs
-				Title="Service Two"
+				Title="After 12"
 				subTitle="Service"
 			/>
 			<ServiceTwoArea />

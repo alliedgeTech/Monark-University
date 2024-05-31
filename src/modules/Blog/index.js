@@ -2,7 +2,8 @@ import BlogArea from "./BlogArea"
 import Newsletter from "@/components/Newsletter"
 import BreadCrumbs from "@/components/BreadCrumbs"
 import ScrollTop from "@/components/ScrollTop"
-import Index from "../../components/Campusdisplay"
+
+import Campusdisplay from "../../components/Campusdisplay"
 
 
 export default function BlogModules() {
@@ -12,7 +13,7 @@ export default function BlogModules() {
 				Title="Blog"
 				subTitle="Blog"
 			/>
-			<Index/>
+			<Campusdisplay/>
 			<Newsletter />
 			<ScrollTop />
 		</main>

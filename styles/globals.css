@@ -194,3 +194,96 @@
     }
     
 }
+.serviceDetailsArea {
+    padding: 3rem 0;
+  }
+  
+  .detailsTopWrap,
+  .detailsTopContent {
+    margin-bottom: 1.5rem;
+  }
+  
+  .detailsTitle {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+  
+  .detailsTitleSm {
+    font-size: 1.25rem;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+  }
+  
+  .detailsTitleSm span {
+    margin-right: 0.5rem;
+  }
+  
+  .programOutcomeItem {
+    text-align: center;
+  }
+  
+  .programOutcomeItem img {
+    width: 100%;
+    height: auto;
+    border-radius: 0.25rem;
+  }
+  
+  .detailsContentBox {
+    margin-bottom: 1rem;
+  }
+  
+  .detailsMiddleThumb img {
+    width: 100%;
+    height: auto;
+    border-radius: 0.25rem;
+  }
+  .laboratoriesSection {
+    padding: 3rem 0;
+  }
+  
+  .laboratoriesTitle {
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  
+  .laboratoriesContainer {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .laboratoryCard {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 0.5rem;
+    background-color: #f9f9f9;
+  }
+  
+  .laboratoryCard img {
+    width: 150px;
+    height: 150px;
+    border-radius: 0.5rem;
+    margin-right: 1rem;
+  }
+  
+  .laboratoryCardContent {
+    max-width: 300px;
+  }
+  
+  .laboratoryCardContent h4 {
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+  }
+  
+  .laboratoryCardContent ul {
+    padding-left: 1rem;
+    list-style: disc;
+  }
+    
