@@ -7,8 +7,8 @@ export default function ServiceModules() {
 	return (
 		<main>
 			<BreadCrumbs
-				Title="Service"
-				subTitle="Service"
+				Title="After 10"
+				subTitle="After 10"
 			/>
 			<ServiceArea />
 			<Newsletter />

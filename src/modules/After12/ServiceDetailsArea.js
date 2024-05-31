@@ -12,7 +12,7 @@ export default function ServiceDetailsArea() {
   const [item, setItem] = useState(null);
   const router = useRouter();
   const { id } = router.query;
- console.log("iddd",id)
+ console.log("d",id)
   useEffect(() => {
     setIsMounted(true);
     if (id) {
