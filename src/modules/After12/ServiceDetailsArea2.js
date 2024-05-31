@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { useRouter } from 'next/router';
 import { Container, Row, Col } from 'react-bootstrap';
 import Slider from 'react-slick';
-import Diploma from '@/data/diploma';
+import After12 from '@/data/after12';
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";
 import styles from "./ServiceDetailsArea.module.css";
@@ -16,7 +16,7 @@ export default function ServiceDetailsArea() {
   useEffect(() => {
     setIsMounted(true);
     if (id) {
-      const foundItem = Diploma.find(data => data?.id == id);
+      const foundItem = After12.find(data => data?.id == id);
       console.log('foundItem',foundItem)
       setItem(foundItem);
     }
