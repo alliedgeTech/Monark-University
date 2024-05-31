@@ -1,0 +1,2840 @@
+[{
+    "id":1,
+    "branchName":"Master of Engineering (M.E.)",
+    "corse":[
+        {
+            "id": 1,
+            "title": "",
+            "icon": "flaticon-bars",
+            "titlePera": "",
+            "titleImage": "",
+            "programOutcomesPera": "",
+            "programOutcomesImages": [
+                {
+                    "id": 1,
+                    "image": "",
+                    "name": ""
+                },
+                {
+                    "id": 2,
+                    "image": "",
+                    "name": ""
+                },
+                {
+                    "id": 3,
+                    "image": "",
+                    "name": ""
+                },
+                {
+                    "id": 4,
+                    "image": "",
+                    "name": ""
+                },
+                {
+                    "id": 5,
+                    "image": "",
+                    "name": ""
+                },
+                {
+                    "id": 6,
+                    "image": "",
+                    "name": ""
+                }
+            ],
+            "coureDuration": "",
+            "eligibilityCriteria": "",
+            "annualFees": "",
+            "laboratories": [
+                {
+                    "id": 1,
+                    "title": "",
+                    "subTitle": "",
+                    "image": "",
+                    "pera": ""
+                },
+                {
+                    "id": 2,
+                    "title": "",
+                    "subTitle": "",
+                    "image": "",
+                    "pera": ""
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "title": "",
+            "icon": "flaticon-bars",
+            "titlePera": "",
+            "titleImage": "",
+            "programOutcomesPera": "",
+            "programOutcomesImages": [
+                {
+                    "id": 1,
+                    "image": "",
+                    "name": ""
+                },
+                {
+                    "id": 2,
+                    "image": "",
+                    "name": ""
+                },
+                {
+                    "id": 3,
+                    "image": "",
+                    "name": ""
+                },
+                {
+                    "id": 4,
+                    "image": "",
+                    "name": ""
+                },
+                {
+                    "id": 5,
+                    "image": "",
+                    "name": ""
+                },
+                {
+                    "id": 6,
+                    "image": "",
+                    "name": ""
+                }
+            ],
+            "coureDuration": "",
+            "eligibilityCriteria": "",
+            "annualFees": "",
+            "laboratories": [
+                {
+                    "id": 1,
+                    "title": "",
+                    "subTitle": "",
+                    "image": "",
+                    "pera": ""
+                },
+                {
+                    "id": 2,
+                    "title": "",
+                    "subTitle": "",
+                    "image": "",
+                    "pera": ""
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "title": "",
+            "icon": "flaticon-bars",
+            "titlePera": "",
+            "titleImage": "",
+            "programOutcomesPera": "",
+            "programOutcomesImages": [
+                {
+                    "id": 1,
+                    "image": "",
+                    "name": ""
+                },
+                {
+                    "id": 2,
+                    "image": "",
+                    "name": ""
+                },
+                {
+                    "id": 3,
+                    "image": "",
+                    "name": ""
+                },
+                {
+                    "id": 4,
+                    "image": "",
+                    "name": ""
+                },
+                {
+                    "id": 5,
+                    "image": "",
+                    "name": ""
+                },
+                {
+                    "id": 6,
+                    "image": "",
+                    "name": ""
+                }
+            ],
+            "coureDuration": "",
+            "eligibilityCriteria": "",
+            "annualFees": "",
+            "laboratories": [
+                {
+                    "id": 1,
+                    "title": "",
+                    "subTitle": "",
+                    "image": "",
+                    "pera": ""
+                },
+                {
+                    "id": 2,
+                    "title": "",
+                    "subTitle": "",
+                    "image": "",
+                    "pera": ""
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "title": "",
+            "icon": "flaticon-bars",
+            "titlePera": "",
+            "titleImage": "",
+            "programOutcomesPera": "",
+            "programOutcomesImages": [
+                {
+                    "id": 1,
+                    "image": "",
+                    "name": ""
+                },
+                {
+                    "id": 2,
+                    "image": "",
+                    "name": ""
+                },
+                {
+                    "id": 3,
+                    "image": "",
+                    "name": ""
+                },
+                {
+                    "id": 4,
+                    "image": "",
+                    "name": ""
+                },
+                {
+                    "id": 5,
+                    "image": "",
+                    "name": ""
+                },
+                {
+                    "id": 6,
+                    "image": "",
+                    "name": ""
+                }
+            ],
+            "coureDuration": "",
+            "eligibilityCriteria": "",
+            "annualFees": "",
+            "laboratories": [
+                {
+                    "id": 1,
+                    "title": "",
+                    "subTitle": "",
+                    "image": "",
+                    "pera": ""
+                },
+                {
+                    "id": 2,
+                    "title": "",
+                    "subTitle": "",
+                    "image": "",
+                    "pera": ""
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "title": "",
+            "icon": "flaticon-bars",
+            "titlePera": "",
+            "titleImage": "",
+            "programOutcomesPera": "",
+            "programOutcomesImages": [
+                {
+                    "id": 1,
+                    "image": "",
+                    "name": ""
+                },
+                {
+                    "id": 2,
+                    "image": "",
+                    "name": ""
+                },
+                {
+                    "id": 3,
+                    "image": "",
+                    "name": ""
+                },
+                {
+                    "id": 4,
+                    "image": "",
+                    "name": ""
+                },
+                {
+                    "id": 5,
+                    "image": "",
+                    "name": ""
+                },
+                {
+                    "id": 6,
+                    "image": "",
+                    "name": ""
+                }
+            ],
+            "coureDuration": "",
+            "eligibilityCriteria": "",
+            "annualFees": "",
+            "laboratories": [
+                {
+                    "id": 1,
+                    "title": "",
+                    "subTitle": "",
+                    "image": "",
+                    "pera": ""
+                },
+                {
+                    "id": 2,
+                    "title": "",
+                    "subTitle": "",
+                    "image": "",
+                    "pera": ""
+                }
+            ]
+        },
+        {
+            "id": 6,
+            "title": "",
+            "icon": "flaticon-bars",
+            "titlePera": "",
+            "titleImage": "",
+            "programOutcomesPera": "",
+            "programOutcomesImages": [
+                {
+                    "id": 1,
+                    "image": "",
+                    "name": ""
+                },
+                {
+                    "id": 2,
+                    "image": "",
+                    "name": ""
+                },
+                {
+                    "id": 3,
+                    "image": "",
+                    "name": ""
+                },
+                {
+                    "id": 4,
+                    "image": "",
+                    "name": ""
+                },
+                {
+                    "id": 5,
+                    "image": "",
+                    "name": ""
+                },
+                {
+                    "id": 6,
+                    "image": "",
+                    "name": ""
+                }
+            ],
+            "coureDuration": "",
+            "eligibilityCriteria": "",
+            "annualFees": "",
+            "laboratories": [
+                {
+                    "id": 1,
+                    "title": "",
+                    "subTitle": "",
+                    "image": "",
+                    "pera": ""
+                },
+                {
+                    "id": 2,
+                    "title": "",
+                    "subTitle": "",
+                    "image": "",
+                    "pera": ""
+                }
+            ]
+        },
+        {
+            "id": 7,
+            "title": "",
+            "icon": "flaticon-bars",
+            "titlePera": "",
+            "titleImage": "",
+            "programOutcomesPera": "",
+            "programOutcomesImages": [
+                {
+                    "id": 1,
+                    "image": "",
+                    "name": ""
+                },
+                {
+                    "id": 2,
+                    "image": "",
+                    "name": ""
+                },
+                {
+                    "id": 3,
+                    "image": "",
+                    "name": ""
+                },
+                {
+                    "id": 4,
+                    "image": "",
+                    "name": ""
+                },
+                {
+                    "id": 5,
+                    "image": "",
+                    "name": ""
+                },
+                {
+                    "id": 6,
+                    "image": "",
+                    "name": ""
+                }
+            ],
+            "coureDuration": "",
+            "eligibilityCriteria": "",
+            "annualFees": "",
+            "laboratories": [
+                {
+                    "id": 1,
+                    "title": "",
+                    "subTitle": "",
+                    "image": "",
+                    "pera": ""
+                },
+                {
+                    "id": 2,
+                    "title": "",
+                    "subTitle": "",
+                    "image": "",
+                    "pera": ""
+                }
+            ]
+        }
+    ]
+},
+{
+    "id":2,
+    "branchName":"Master of Science (M.Sc.)",
+    "corse":[
+        {
+            "id": 1,
+            "title": "",
+            "icon": "flaticon-bars",
+            "titlePera": "",
+            "titleImage": "",
+            "programOutcomesPera": "",
+            "programOutcomesImages": [
+                {
+                    "id": 1,
+                    "image": "",
+                    "name": ""
+                },
+                {
+                    "id": 2,
+                    "image": "",
+                    "name": ""
+                },
+                {
+                    "id": 3,
+                    "image": "",
+                    "name": ""
+                },
+                {
+                    "id": 4,
+                    "image": "",
+                    "name": ""
+                },
+                {
+                    "id": 5,
+                    "image": "",
+                    "name": ""
+                },
+                {
+                    "id": 6,
+                    "image": "",
+                    "name": ""
+                }
+            ],
+            "coureDuration": "",
+            "eligibilityCriteria": "",
+            "annualFees": "",
+            "laboratories": [
+                {
+                    "id": 1,
+                    "title": "",
+                    "subTitle": "",
+                    "image": "",
+                    "pera": ""
+                },
+                {
+                    "id": 2,
+                    "title": "",
+                    "subTitle": "",
+                    "image": "",
+                    "pera": ""
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "title": "",
+            "icon": "flaticon-bars",
+            "titlePera": "",
+            "titleImage": "",
+            "programOutcomesPera": "",
+            "programOutcomesImages": [
+                {
+                    "id": 1,
+                    "image": "",
+                    "name": ""
+                },
+                {
+                    "id": 2,
+                    "image": "",
+                    "name": ""
+                },
+                {
+                    "id": 3,
+                    "image": "",
+                    "name": ""
+                },
+                {
+                    "id": 4,
+                    "image": "",
+                    "name": ""
+                },
+                {
+                    "id": 5,
+                    "image": "",
+                    "name": ""
+                },
+                {
+                    "id": 6,
+                    "image": "",
+                    "name": ""
+                }
+            ],
+            "coureDuration": "",
+            "eligibilityCriteria": "",
+            "annualFees": "",
+            "laboratories": [
+                {
+                    "id": 1,
+                    "title": "",
+                    "subTitle": "",
+                    "image": "",
+                    "pera": ""
+                },
+                {
+                    "id": 2,
+                    "title": "",
+                    "subTitle": "",
+                    "image": "",
+                    "pera": ""
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "title": "",
+            "icon": "flaticon-bars",
+            "titlePera": "",
+            "titleImage": "",
+            "programOutcomesPera": "",
+            "programOutcomesImages": [
+                {
+                    "id": 1,
+                    "image": "",
+                    "name": ""
+                },
+                {
+                    "id": 2,
+                    "image": "",
+                    "name": ""
+                },
+                {
+                    "id": 3,
+                    "image": "",
+                    "name": ""
+                },
+                {
+                    "id": 4,
+                    "image": "",
+                    "name": ""
+                },
+                {
+                    "id": 5,
+                    "image": "",
+                    "name": ""
+                },
+                {
+                    "id": 6,
+                    "image": "",
+                    "name": ""
+                }
+            ],
+            "coureDuration": "",
+            "eligibilityCriteria": "",
+            "annualFees": "",
+            "laboratories": [
+                {
+                    "id": 1,
+                    "title": "",
+                    "subTitle": "",
+                    "image": "",
+                    "pera": ""
+                },
+                {
+                    "id": 2,
+                    "title": "",
+                    "subTitle": "",
+                    "image": "",
+                    "pera": ""
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "title": "",
+            "icon": "flaticon-bars",
+            "titlePera": "",
+            "titleImage": "",
+            "programOutcomesPera": "",
+            "programOutcomesImages": [
+                {
+                    "id": 1,
+                    "image": "",
+                    "name": ""
+                },
+                {
+                    "id": 2,
+                    "image": "",
+                    "name": ""
+                },
+                {
+                    "id": 3,
+                    "image": "",
+                    "name": ""
+                },
+                {
+                    "id": 4,
+                    "image": "",
+                    "name": ""
+                },
+                {
+                    "id": 5,
+                    "image": "",
+                    "name": ""
+                },
+                {
+                    "id": 6,
+                    "image": "",
+                    "name": ""
+                }
+            ],
+            "coureDuration": "",
+            "eligibilityCriteria": "",
+            "annualFees": "",
+            "laboratories": [
+                {
+                    "id": 1,
+                    "title": "",
+                    "subTitle": "",
+                    "image": "",
+                    "pera": ""
+                },
+                {
+                    "id": 2,
+                    "title": "",
+                    "subTitle": "",
+                    "image": "",
+                    "pera": ""
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "title": "",
+            "icon": "flaticon-bars",
+            "titlePera": "",
+            "titleImage": "",
+            "programOutcomesPera": "",
+            "programOutcomesImages": [
+                {
+                    "id": 1,
+                    "image": "",
+                    "name": ""
+                },
+                {
+                    "id": 2,
+                    "image": "",
+                    "name": ""
+                },
+                {
+                    "id": 3,
+                    "image": "",
+                    "name": ""
+                },
+                {
+                    "id": 4,
+                    "image": "",
+                    "name": ""
+                },
+                {
+                    "id": 5,
+                    "image": "",
+                    "name": ""
+                },
+                {
+                    "id": 6,
+                    "image": "",
+                    "name": ""
+                }
+            ],
+            "coureDuration": "",
+            "eligibilityCriteria": "",
+            "annualFees": "",
+            "laboratories": [
+                {
+                    "id": 1,
+                    "title": "",
+                    "subTitle": "",
+                    "image": "",
+                    "pera": ""
+                },
+                {
+                    "id": 2,
+                    "title": "",
+                    "subTitle": "",
+                    "image": "",
+                    "pera": ""
+                }
+            ]
+        },
+        {
+            "id": 6,
+            "title": "",
+            "icon": "flaticon-bars",
+            "titlePera": "",
+            "titleImage": "",
+            "programOutcomesPera": "",
+            "programOutcomesImages": [
+                {
+                    "id": 1,
+                    "image": "",
+                    "name": ""
+                },
+                {
+                    "id": 2,
+                    "image": "",
+                    "name": ""
+                },
+                {
+                    "id": 3,
+                    "image": "",
+                    "name": ""
+                },
+                {
+                    "id": 4,
+                    "image": "",
+                    "name": ""
+                },
+                {
+                    "id": 5,
+                    "image": "",
+                    "name": ""
+                },
+                {
+                    "id": 6,
+                    "image": "",
+                    "name": ""
+                }
+            ],
+            "coureDuration": "",
+            "eligibilityCriteria": "",
+            "annualFees": "",
+            "laboratories": [
+                {
+                    "id": 1,
+                    "title": "",
+                    "subTitle": "",
+                    "image": "",
+                    "pera": ""
+                },
+                {
+                    "id": 2,
+                    "title": "",
+                    "subTitle": "",
+                    "image": "",
+                    "pera": ""
+                }
+            ]
+        }
+    ]
+},
+{
+    "id":3,
+    "branchName":"Master of Business Administration (MBA)",
+    "corse":[
+        {
+            "id": 1,
+            "title": "",
+            "icon": "flaticon-bars",
+            "titlePera": "",
+            "titleImage": "",
+            "programOutcomesPera": "",
+            "programOutcomesImages": [
+                {
+                    "id": 1,
+                    "image": "",
+                    "name": ""
+                },
+                {
+                    "id": 2,
+                    "image": "",
+                    "name": ""
+                },
+                {
+                    "id": 3,
+                    "image": "",
+                    "name": ""
+                },
+                {
+                    "id": 4,
+                    "image": "",
+                    "name": ""
+                },
+                {
+                    "id": 5,
+                    "image": "",
+                    "name": ""
+                },
+                {
+                    "id": 6,
+                    "image": "",
+                    "name": ""
+                }
+            ],
+            "coureDuration": "",
+            "eligibilityCriteria": "",
+            "annualFees": "",
+            "laboratories": [
+                {
+                    "id": 1,
+                    "title": "",
+                    "subTitle": "",
+                    "image": "",
+                    "pera": ""
+                },
+                {
+                    "id": 2,
+                    "title": "",
+                    "subTitle": "",
+                    "image": "",
+                    "pera": ""
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "title": "",
+            "icon": "flaticon-bars",
+            "titlePera": "",
+            "titleImage": "",
+            "programOutcomesPera": "",
+            "programOutcomesImages": [
+                {
+                    "id": 1,
+                    "image": "",
+                    "name": ""
+                },
+                {
+                    "id": 2,
+                    "image": "",
+                    "name": ""
+                },
+                {
+                    "id": 3,
+                    "image": "",
+                    "name": ""
+                },
+                {
+                    "id": 4,
+                    "image": "",
+                    "name": ""
+                },
+                {
+                    "id": 5,
+                    "image": "",
+                    "name": ""
+                },
+                {
+                    "id": 6,
+                    "image": "",
+                    "name": ""
+                }
+            ],
+            "coureDuration": "",
+            "eligibilityCriteria": "",
+            "annualFees": "",
+            "laboratories": [
+                {
+                    "id": 1,
+                    "title": "",
+                    "subTitle": "",
+                    "image": "",
+                    "pera": ""
+                },
+                {
+                    "id": 2,
+                    "title": "",
+                    "subTitle": "",
+                    "image": "",
+                    "pera": ""
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "title": "",
+            "icon": "flaticon-bars",
+            "titlePera": "",
+            "titleImage": "",
+            "programOutcomesPera": "",
+            "programOutcomesImages": [
+                {
+                    "id": 1,
+                    "image": "",
+                    "name": ""
+                },
+                {
+                    "id": 2,
+                    "image": "",
+                    "name": ""
+                },
+                {
+                    "id": 3,
+                    "image": "",
+                    "name": ""
+                },
+                {
+                    "id": 4,
+                    "image": "",
+                    "name": ""
+                },
+                {
+                    "id": 5,
+                    "image": "",
+                    "name": ""
+                },
+                {
+                    "id": 6,
+                    "image": "",
+                    "name": ""
+                }
+            ],
+            "coureDuration": "",
+            "eligibilityCriteria": "",
+            "annualFees": "",
+            "laboratories": [
+                {
+                    "id": 1,
+                    "title": "",
+                    "subTitle": "",
+                    "image": "",
+                    "pera": ""
+                },
+                {
+                    "id": 2,
+                    "title": "",
+                    "subTitle": "",
+                    "image": "",
+                    "pera": ""
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "title": "",
+            "icon": "flaticon-bars",
+            "titlePera": "",
+            "titleImage": "",
+            "programOutcomesPera": "",
+            "programOutcomesImages": [
+                {
+                    "id": 1,
+                    "image": "",
+                    "name": ""
+                },
+                {
+                    "id": 2,
+                    "image": "",
+                    "name": ""
+                },
+                {
+                    "id": 3,
+                    "image": "",
+                    "name": ""
+                },
+                {
+                    "id": 4,
+                    "image": "",
+                    "name": ""
+                },
+                {
+                    "id": 5,
+                    "image": "",
+                    "name": ""
+                },
+                {
+                    "id": 6,
+                    "image": "",
+                    "name": ""
+                }
+            ],
+            "coureDuration": "",
+            "eligibilityCriteria": "",
+            "annualFees": "",
+            "laboratories": [
+                {
+                    "id": 1,
+                    "title": "",
+                    "subTitle": "",
+                    "image": "",
+                    "pera": ""
+                },
+                {
+                    "id": 2,
+                    "title": "",
+                    "subTitle": "",
+                    "image": "",
+                    "pera": ""
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "title": "",
+            "icon": "flaticon-bars",
+            "titlePera": "",
+            "titleImage": "",
+            "programOutcomesPera": "",
+            "programOutcomesImages": [
+                {
+                    "id": 1,
+                    "image": "",
+                    "name": ""
+                },
+                {
+                    "id": 2,
+                    "image": "",
+                    "name": ""
+                },
+                {
+                    "id": 3,
+                    "image": "",
+                    "name": ""
+                },
+                {
+                    "id": 4,
+                    "image": "",
+                    "name": ""
+                },
+                {
+                    "id": 5,
+                    "image": "",
+                    "name": ""
+                },
+                {
+                    "id": 6,
+                    "image": "",
+                    "name": ""
+                }
+            ],
+            "coureDuration": "",
+            "eligibilityCriteria": "",
+            "annualFees": "",
+            "laboratories": [
+                {
+                    "id": 1,
+                    "title": "",
+                    "subTitle": "",
+                    "image": "",
+                    "pera": ""
+                },
+                {
+                    "id": 2,
+                    "title": "",
+                    "subTitle": "",
+                    "image": "",
+                    "pera": ""
+                }
+            ]
+        },
+        {
+            "id": 6,
+            "title": "",
+            "icon": "flaticon-bars",
+            "titlePera": "",
+            "titleImage": "",
+            "programOutcomesPera": "",
+            "programOutcomesImages": [
+                {
+                    "id": 1,
+                    "image": "",
+                    "name": ""
+                },
+                {
+                    "id": 2,
+                    "image": "",
+                    "name": ""
+                },
+                {
+                    "id": 3,
+                    "image": "",
+                    "name": ""
+                },
+                {
+                    "id": 4,
+                    "image": "",
+                    "name": ""
+                },
+                {
+                    "id": 5,
+                    "image": "",
+                    "name": ""
+                },
+                {
+                    "id": 6,
+                    "image": "",
+                    "name": ""
+                }
+            ],
+            "coureDuration": "",
+            "eligibilityCriteria": "",
+            "annualFees": "",
+            "laboratories": [
+                {
+                    "id": 1,
+                    "title": "",
+                    "subTitle": "",
+                    "image": "",
+                    "pera": ""
+                },
+                {
+                    "id": 2,
+                    "title": "",
+                    "subTitle": "",
+                    "image": "",
+                    "pera": ""
+                }
+            ]
+        }
+    ]
+},
+{
+    "id":4,
+    "branchName":"Master of Commerce (M.Com.)",
+    "corse":[
+        {
+            "id": 1,
+            "title": "",
+            "icon": "flaticon-bars",
+            "titlePera": "",
+            "titleImage": "",
+            "programOutcomesPera": "",
+            "programOutcomesImages": [
+                {
+                    "id": 1,
+                    "image": "",
+                    "name": ""
+                },
+                {
+                    "id": 2,
+                    "image": "",
+                    "name": ""
+                },
+                {
+                    "id": 3,
+                    "image": "",
+                    "name": ""
+                },
+                {
+                    "id": 4,
+                    "image": "",
+                    "name": ""
+                },
+                {
+                    "id": 5,
+                    "image": "",
+                    "name": ""
+                },
+                {
+                    "id": 6,
+                    "image": "",
+                    "name": ""
+                }
+            ],
+            "coureDuration": "",
+            "eligibilityCriteria": "",
+            "annualFees": "",
+            "laboratories": [
+                {
+                    "id": 1,
+                    "title": "",
+                    "subTitle": "",
+                    "image": "",
+                    "pera": ""
+                },
+                {
+                    "id": 2,
+                    "title": "",
+                    "subTitle": "",
+                    "image": "",
+                    "pera": ""
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "title": "",
+            "icon": "flaticon-bars",
+            "titlePera": "",
+            "titleImage": "",
+            "programOutcomesPera": "",
+            "programOutcomesImages": [
+                {
+                    "id": 1,
+                    "image": "",
+                    "name": ""
+                },
+                {
+                    "id": 2,
+                    "image": "",
+                    "name": ""
+                },
+                {
+                    "id": 3,
+                    "image": "",
+                    "name": ""
+                },
+                {
+                    "id": 4,
+                    "image": "",
+                    "name": ""
+                },
+                {
+                    "id": 5,
+                    "image": "",
+                    "name": ""
+                },
+                {
+                    "id": 6,
+                    "image": "",
+                    "name": ""
+                }
+            ],
+            "coureDuration": "",
+            "eligibilityCriteria": "",
+            "annualFees": "",
+            "laboratories": [
+                {
+                    "id": 1,
+                    "title": "",
+                    "subTitle": "",
+                    "image": "",
+                    "pera": ""
+                },
+                {
+                    "id": 2,
+                    "title": "",
+                    "subTitle": "",
+                    "image": "",
+                    "pera": ""
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "title": "",
+            "icon": "flaticon-bars",
+            "titlePera": "",
+            "titleImage": "",
+            "programOutcomesPera": "",
+            "programOutcomesImages": [
+                {
+                    "id": 1,
+                    "image": "",
+                    "name": ""
+                },
+                {
+                    "id": 2,
+                    "image": "",
+                    "name": ""
+                },
+                {
+                    "id": 3,
+                    "image": "",
+                    "name": ""
+                },
+                {
+                    "id": 4,
+                    "image": "",
+                    "name": ""
+                },
+                {
+                    "id": 5,
+                    "image": "",
+                    "name": ""
+                },
+                {
+                    "id": 6,
+                    "image": "",
+                    "name": ""
+                }
+            ],
+            "coureDuration": "",
+            "eligibilityCriteria": "",
+            "annualFees": "",
+            "laboratories": [
+                {
+                    "id": 1,
+                    "title": "",
+                    "subTitle": "",
+                    "image": "",
+                    "pera": ""
+                },
+                {
+                    "id": 2,
+                    "title": "",
+                    "subTitle": "",
+                    "image": "",
+                    "pera": ""
+                }
+            ]
+        }
+    ]
+},
+{
+    "id":5,
+    "branchName":"Master of Law (LL.M.)",
+    "corse":[
+        {
+            "id": 1,
+            "title": "",
+            "icon": "flaticon-bars",
+            "titlePera": "",
+            "titleImage": "",
+            "programOutcomesPera": "",
+            "programOutcomesImages": [
+                {
+                    "id": 1,
+                    "image": "",
+                    "name": ""
+                },
+                {
+                    "id": 2,
+                    "image": "",
+                    "name": ""
+                },
+                {
+                    "id": 3,
+                    "image": "",
+                    "name": ""
+                },
+                {
+                    "id": 4,
+                    "image": "",
+                    "name": ""
+                },
+                {
+                    "id": 5,
+                    "image": "",
+                    "name": ""
+                },
+                {
+                    "id": 6,
+                    "image": "",
+                    "name": ""
+                }
+            ],
+            "coureDuration": "",
+            "eligibilityCriteria": "",
+            "annualFees": "",
+            "laboratories": [
+                {
+                    "id": 1,
+                    "title": "",
+                    "subTitle": "",
+                    "image": "",
+                    "pera": ""
+                },
+                {
+                    "id": 2,
+                    "title": "",
+                    "subTitle": "",
+                    "image": "",
+                    "pera": ""
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "title": "",
+            "icon": "flaticon-bars",
+            "titlePera": "",
+            "titleImage": "",
+            "programOutcomesPera": "",
+            "programOutcomesImages": [
+                {
+                    "id": 1,
+                    "image": "",
+                    "name": ""
+                },
+                {
+                    "id": 2,
+                    "image": "",
+                    "name": ""
+                },
+                {
+                    "id": 3,
+                    "image": "",
+                    "name": ""
+                },
+                {
+                    "id": 4,
+                    "image": "",
+                    "name": ""
+                },
+                {
+                    "id": 5,
+                    "image": "",
+                    "name": ""
+                },
+                {
+                    "id": 6,
+                    "image": "",
+                    "name": ""
+                }
+            ],
+            "coureDuration": "",
+            "eligibilityCriteria": "",
+            "annualFees": "",
+            "laboratories": [
+                {
+                    "id": 1,
+                    "title": "",
+                    "subTitle": "",
+                    "image": "",
+                    "pera": ""
+                },
+                {
+                    "id": 2,
+                    "title": "",
+                    "subTitle": "",
+                    "image": "",
+                    "pera": ""
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "title": "",
+            "icon": "flaticon-bars",
+            "titlePera": "",
+            "titleImage": "",
+            "programOutcomesPera": "",
+            "programOutcomesImages": [
+                {
+                    "id": 1,
+                    "image": "",
+                    "name": ""
+                },
+                {
+                    "id": 2,
+                    "image": "",
+                    "name": ""
+                },
+                {
+                    "id": 3,
+                    "image": "",
+                    "name": ""
+                },
+                {
+                    "id": 4,
+                    "image": "",
+                    "name": ""
+                },
+                {
+                    "id": 5,
+                    "image": "",
+                    "name": ""
+                },
+                {
+                    "id": 6,
+                    "image": "",
+                    "name": ""
+                }
+            ],
+            "coureDuration": "",
+            "eligibilityCriteria": "",
+            "annualFees": "",
+            "laboratories": [
+                {
+                    "id": 1,
+                    "title": "",
+                    "subTitle": "",
+                    "image": "",
+                    "pera": ""
+                },
+                {
+                    "id": 2,
+                    "title": "",
+                    "subTitle": "",
+                    "image": "",
+                    "pera": ""
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "title": "",
+            "icon": "flaticon-bars",
+            "titlePera": "",
+            "titleImage": "",
+            "programOutcomesPera": "",
+            "programOutcomesImages": [
+                {
+                    "id": 1,
+                    "image": "",
+                    "name": ""
+                },
+                {
+                    "id": 2,
+                    "image": "",
+                    "name": ""
+                },
+                {
+                    "id": 3,
+                    "image": "",
+                    "name": ""
+                },
+                {
+                    "id": 4,
+                    "image": "",
+                    "name": ""
+                },
+                {
+                    "id": 5,
+                    "image": "",
+                    "name": ""
+                },
+                {
+                    "id": 6,
+                    "image": "",
+                    "name": ""
+                }
+            ],
+            "coureDuration": "",
+            "eligibilityCriteria": "",
+            "annualFees": "",
+            "laboratories": [
+                {
+                    "id": 1,
+                    "title": "",
+                    "subTitle": "",
+                    "image": "",
+                    "pera": ""
+                },
+                {
+                    "id": 2,
+                    "title": "",
+                    "subTitle": "",
+                    "image": "",
+                    "pera": ""
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "title": "",
+            "icon": "flaticon-bars",
+            "titlePera": "",
+            "titleImage": "",
+            "programOutcomesPera": "",
+            "programOutcomesImages": [
+                {
+                    "id": 1,
+                    "image": "",
+                    "name": ""
+                },
+                {
+                    "id": 2,
+                    "image": "",
+                    "name": ""
+                },
+                {
+                    "id": 3,
+                    "image": "",
+                    "name": ""
+                },
+                {
+                    "id": 4,
+                    "image": "",
+                    "name": ""
+                },
+                {
+                    "id": 5,
+                    "image": "",
+                    "name": ""
+                },
+                {
+                    "id": 6,
+                    "image": "",
+                    "name": ""
+                }
+            ],
+            "coureDuration": "",
+            "eligibilityCriteria": "",
+            "annualFees": "",
+            "laboratories": [
+                {
+                    "id": 1,
+                    "title": "",
+                    "subTitle": "",
+                    "image": "",
+                    "pera": ""
+                },
+                {
+                    "id": 2,
+                    "title": "",
+                    "subTitle": "",
+                    "image": "",
+                    "pera": ""
+                }
+            ]
+        },
+        {
+            "id": 6,
+            "title": "",
+            "icon": "flaticon-bars",
+            "titlePera": "",
+            "titleImage": "",
+            "programOutcomesPera": "",
+            "programOutcomesImages": [
+                {
+                    "id": 1,
+                    "image": "",
+                    "name": ""
+                },
+                {
+                    "id": 2,
+                    "image": "",
+                    "name": ""
+                },
+                {
+                    "id": 3,
+                    "image": "",
+                    "name": ""
+                },
+                {
+                    "id": 4,
+                    "image": "",
+                    "name": ""
+                },
+                {
+                    "id": 5,
+                    "image": "",
+                    "name": ""
+                },
+                {
+                    "id": 6,
+                    "image": "",
+                    "name": ""
+                }
+            ],
+            "coureDuration": "",
+            "eligibilityCriteria": "",
+            "annualFees": "",
+            "laboratories": [
+                {
+                    "id": 1,
+                    "title": "",
+                    "subTitle": "",
+                    "image": "",
+                    "pera": ""
+                },
+                {
+                    "id": 2,
+                    "title": "",
+                    "subTitle": "",
+                    "image": "",
+                    "pera": ""
+                }
+            ]
+        }
+    ]
+},
+{
+    "id":6,
+    "branchName":"Master of Computer Application (MCA)",
+    "corse":[
+        {
+            "id": 1,
+            "title": "",
+            "icon": "flaticon-bars",
+            "titlePera": "",
+            "titleImage": "",
+            "programOutcomesPera": "",
+            "programOutcomesImages": [
+                {
+                    "id": 1,
+                    "image": "",
+                    "name": ""
+                },
+                {
+                    "id": 2,
+                    "image": "",
+                    "name": ""
+                },
+                {
+                    "id": 3,
+                    "image": "",
+                    "name": ""
+                },
+                {
+                    "id": 4,
+                    "image": "",
+                    "name": ""
+                },
+                {
+                    "id": 5,
+                    "image": "",
+                    "name": ""
+                },
+                {
+                    "id": 6,
+                    "image": "",
+                    "name": ""
+                }
+            ],
+            "coureDuration": "",
+            "eligibilityCriteria": "",
+            "annualFees": "",
+            "laboratories": [
+                {
+                    "id": 1,
+                    "title": "",
+                    "subTitle": "",
+                    "image": "",
+                    "pera": ""
+                },
+                {
+                    "id": 2,
+                    "title": "",
+                    "subTitle": "",
+                    "image": "",
+                    "pera": ""
+                }
+            ]
+        }
+    ]
+},
+{
+    "id":7,
+    "branchName":"Bachelor of Education (B.Ed.)",
+    "corse":[
+        {
+            "id": 1,
+            "title": "",
+            "icon": "flaticon-bars",
+            "titlePera": "",
+            "titleImage": "",
+            "programOutcomesPera": "",
+            "programOutcomesImages": [
+                {
+                    "id": 1,
+                    "image": "",
+                    "name": ""
+                },
+                {
+                    "id": 2,
+                    "image": "",
+                    "name": ""
+                },
+                {
+                    "id": 3,
+                    "image": "",
+                    "name": ""
+                },
+                {
+                    "id": 4,
+                    "image": "",
+                    "name": ""
+                },
+                {
+                    "id": 5,
+                    "image": "",
+                    "name": ""
+                },
+                {
+                    "id": 6,
+                    "image": "",
+                    "name": ""
+                }
+            ],
+            "coureDuration": "",
+            "eligibilityCriteria": "",
+            "annualFees": "",
+            "laboratories": [
+                {
+                    "id": 1,
+                    "title": "",
+                    "subTitle": "",
+                    "image": "",
+                    "pera": ""
+                },
+                {
+                    "id": 2,
+                    "title": "",
+                    "subTitle": "",
+                    "image": "",
+                    "pera": ""
+                }
+            ]
+        }
+    ]
+},
+{
+    "id":8,
+    "branchName":"Master of Education (M.Ed.)",
+    "corse":[
+        {
+            "id": 1,
+            "title": "",
+            "icon": "flaticon-bars",
+            "titlePera": "",
+            "titleImage": "",
+            "programOutcomesPera": "",
+            "programOutcomesImages": [
+                {
+                    "id": 1,
+                    "image": "",
+                    "name": ""
+                },
+                {
+                    "id": 2,
+                    "image": "",
+                    "name": ""
+                },
+                {
+                    "id": 3,
+                    "image": "",
+                    "name": ""
+                },
+                {
+                    "id": 4,
+                    "image": "",
+                    "name": ""
+                },
+                {
+                    "id": 5,
+                    "image": "",
+                    "name": ""
+                },
+                {
+                    "id": 6,
+                    "image": "",
+                    "name": ""
+                }
+            ],
+            "coureDuration": "",
+            "eligibilityCriteria": "",
+            "annualFees": "",
+            "laboratories": [
+                {
+                    "id": 1,
+                    "title": "",
+                    "subTitle": "",
+                    "image": "",
+                    "pera": ""
+                },
+                {
+                    "id": 2,
+                    "title": "",
+                    "subTitle": "",
+                    "image": "",
+                    "pera": ""
+                }
+            ]
+        }
+    ]
+},
+{
+    "id":9,
+    "branchName":"Master of Arts (M.A.)",
+    "corse":[
+        {
+            "id": 1,
+            "title": "",
+            "icon": "flaticon-bars",
+            "titlePera": "",
+            "titleImage": "",
+            "programOutcomesPera": "",
+            "programOutcomesImages": [
+                {
+                    "id": 1,
+                    "image": "",
+                    "name": ""
+                },
+                {
+                    "id": 2,
+                    "image": "",
+                    "name": ""
+                },
+                {
+                    "id": 3,
+                    "image": "",
+                    "name": ""
+                },
+                {
+                    "id": 4,
+                    "image": "",
+                    "name": ""
+                },
+                {
+                    "id": 5,
+                    "image": "",
+                    "name": ""
+                },
+                {
+                    "id": 6,
+                    "image": "",
+                    "name": ""
+                }
+            ],
+            "coureDuration": "",
+            "eligibilityCriteria": "",
+            "annualFees": "",
+            "laboratories": [
+                {
+                    "id": 1,
+                    "title": "",
+                    "subTitle": "",
+                    "image": "",
+                    "pera": ""
+                },
+                {
+                    "id": 2,
+                    "title": "",
+                    "subTitle": "",
+                    "image": "",
+                    "pera": ""
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "title": "",
+            "icon": "flaticon-bars",
+            "titlePera": "",
+            "titleImage": "",
+            "programOutcomesPera": "",
+            "programOutcomesImages": [
+                {
+                    "id": 1,
+                    "image": "",
+                    "name": ""
+                },
+                {
+                    "id": 2,
+                    "image": "",
+                    "name": ""
+                },
+                {
+                    "id": 3,
+                    "image": "",
+                    "name": ""
+                },
+                {
+                    "id": 4,
+                    "image": "",
+                    "name": ""
+                },
+                {
+                    "id": 5,
+                    "image": "",
+                    "name": ""
+                },
+                {
+                    "id": 6,
+                    "image": "",
+                    "name": ""
+                }
+            ],
+            "coureDuration": "",
+            "eligibilityCriteria": "",
+            "annualFees": "",
+            "laboratories": [
+                {
+                    "id": 1,
+                    "title": "",
+                    "subTitle": "",
+                    "image": "",
+                    "pera": ""
+                },
+                {
+                    "id": 2,
+                    "title": "",
+                    "subTitle": "",
+                    "image": "",
+                    "pera": ""
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "title": "",
+            "icon": "flaticon-bars",
+            "titlePera": "",
+            "titleImage": "",
+            "programOutcomesPera": "",
+            "programOutcomesImages": [
+                {
+                    "id": 1,
+                    "image": "",
+                    "name": ""
+                },
+                {
+                    "id": 2,
+                    "image": "",
+                    "name": ""
+                },
+                {
+                    "id": 3,
+                    "image": "",
+                    "name": ""
+                },
+                {
+                    "id": 4,
+                    "image": "",
+                    "name": ""
+                },
+                {
+                    "id": 5,
+                    "image": "",
+                    "name": ""
+                },
+                {
+                    "id": 6,
+                    "image": "",
+                    "name": ""
+                }
+            ],
+            "coureDuration": "",
+            "eligibilityCriteria": "",
+            "annualFees": "",
+            "laboratories": [
+                {
+                    "id": 1,
+                    "title": "",
+                    "subTitle": "",
+                    "image": "",
+                    "pera": ""
+                },
+                {
+                    "id": 2,
+                    "title": "",
+                    "subTitle": "",
+                    "image": "",
+                    "pera": ""
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "title": "",
+            "icon": "flaticon-bars",
+            "titlePera": "",
+            "titleImage": "",
+            "programOutcomesPera": "",
+            "programOutcomesImages": [
+                {
+                    "id": 1,
+                    "image": "",
+                    "name": ""
+                },
+                {
+                    "id": 2,
+                    "image": "",
+                    "name": ""
+                },
+                {
+                    "id": 3,
+                    "image": "",
+                    "name": ""
+                },
+                {
+                    "id": 4,
+                    "image": "",
+                    "name": ""
+                },
+                {
+                    "id": 5,
+                    "image": "",
+                    "name": ""
+                },
+                {
+                    "id": 6,
+                    "image": "",
+                    "name": ""
+                }
+            ],
+            "coureDuration": "",
+            "eligibilityCriteria": "",
+            "annualFees": "",
+            "laboratories": [
+                {
+                    "id": 1,
+                    "title": "",
+                    "subTitle": "",
+                    "image": "",
+                    "pera": ""
+                },
+                {
+                    "id": 2,
+                    "title": "",
+                    "subTitle": "",
+                    "image": "",
+                    "pera": ""
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "title": "",
+            "icon": "flaticon-bars",
+            "titlePera": "",
+            "titleImage": "",
+            "programOutcomesPera": "",
+            "programOutcomesImages": [
+                {
+                    "id": 1,
+                    "image": "",
+                    "name": ""
+                },
+                {
+                    "id": 2,
+                    "image": "",
+                    "name": ""
+                },
+                {
+                    "id": 3,
+                    "image": "",
+                    "name": ""
+                },
+                {
+                    "id": 4,
+                    "image": "",
+                    "name": ""
+                },
+                {
+                    "id": 5,
+                    "image": "",
+                    "name": ""
+                },
+                {
+                    "id": 6,
+                    "image": "",
+                    "name": ""
+                }
+            ],
+            "coureDuration": "",
+            "eligibilityCriteria": "",
+            "annualFees": "",
+            "laboratories": [
+                {
+                    "id": 1,
+                    "title": "",
+                    "subTitle": "",
+                    "image": "",
+                    "pera": ""
+                },
+                {
+                    "id": 2,
+                    "title": "",
+                    "subTitle": "",
+                    "image": "",
+                    "pera": ""
+                }
+            ]
+        },
+        {
+            "id": 6,
+            "title": "",
+            "icon": "flaticon-bars",
+            "titlePera": "",
+            "titleImage": "",
+            "programOutcomesPera": "",
+            "programOutcomesImages": [
+                {
+                    "id": 1,
+                    "image": "",
+                    "name": ""
+                },
+                {
+                    "id": 2,
+                    "image": "",
+                    "name": ""
+                },
+                {
+                    "id": 3,
+                    "image": "",
+                    "name": ""
+                },
+                {
+                    "id": 4,
+                    "image": "",
+                    "name": ""
+                },
+                {
+                    "id": 5,
+                    "image": "",
+                    "name": ""
+                },
+                {
+                    "id": 6,
+                    "image": "",
+                    "name": ""
+                }
+            ],
+            "coureDuration": "",
+            "eligibilityCriteria": "",
+            "annualFees": "",
+            "laboratories": [
+                {
+                    "id": 1,
+                    "title": "",
+                    "subTitle": "",
+                    "image": "",
+                    "pera": ""
+                },
+                {
+                    "id": 2,
+                    "title": "",
+                    "subTitle": "",
+                    "image": "",
+                    "pera": ""
+                }
+            ]
+        },
+        {
+            "id": 7,
+            "title": "",
+            "icon": "flaticon-bars",
+            "titlePera": "",
+            "titleImage": "",
+            "programOutcomesPera": "",
+            "programOutcomesImages": [
+                {
+                    "id": 1,
+                    "image": "",
+                    "name": ""
+                },
+                {
+                    "id": 2,
+                    "image": "",
+                    "name": ""
+                },
+                {
+                    "id": 3,
+                    "image": "",
+                    "name": ""
+                },
+                {
+                    "id": 4,
+                    "image": "",
+                    "name": ""
+                },
+                {
+                    "id": 5,
+                    "image": "",
+                    "name": ""
+                },
+                {
+                    "id": 6,
+                    "image": "",
+                    "name": ""
+                }
+            ],
+            "coureDuration": "",
+            "eligibilityCriteria": "",
+            "annualFees": "",
+            "laboratories": [
+                {
+                    "id": 1,
+                    "title": "",
+                    "subTitle": "",
+                    "image": "",
+                    "pera": ""
+                },
+                {
+                    "id": 2,
+                    "title": "",
+                    "subTitle": "",
+                    "image": "",
+                    "pera": ""
+                }
+            ]
+        },
+        {
+            "id": 8,
+            "title": "",
+            "icon": "flaticon-bars",
+            "titlePera": "",
+            "titleImage": "",
+            "programOutcomesPera": "",
+            "programOutcomesImages": [
+                {
+                    "id": 1,
+                    "image": "",
+                    "name": ""
+                },
+                {
+                    "id": 2,
+                    "image": "",
+                    "name": ""
+                },
+                {
+                    "id": 3,
+                    "image": "",
+                    "name": ""
+                },
+                {
+                    "id": 4,
+                    "image": "",
+                    "name": ""
+                },
+                {
+                    "id": 5,
+                    "image": "",
+                    "name": ""
+                },
+                {
+                    "id": 6,
+                    "image": "",
+                    "name": ""
+                }
+            ],
+            "coureDuration": "",
+            "eligibilityCriteria": "",
+            "annualFees": "",
+            "laboratories": [
+                {
+                    "id": 1,
+                    "title": "",
+                    "subTitle": "",
+                    "image": "",
+                    "pera": ""
+                },
+                {
+                    "id": 2,
+                    "title": "",
+                    "subTitle": "",
+                    "image": "",
+                    "pera": ""
+                }
+            ]
+        },
+        {
+            "id": 9,
+            "title": "",
+            "icon": "flaticon-bars",
+            "titlePera": "",
+            "titleImage": "",
+            "programOutcomesPera": "",
+            "programOutcomesImages": [
+                {
+                    "id": 1,
+                    "image": "",
+                    "name": ""
+                },
+                {
+                    "id": 2,
+                    "image": "",
+                    "name": ""
+                },
+                {
+                    "id": 3,
+                    "image": "",
+                    "name": ""
+                },
+                {
+                    "id": 4,
+                    "image": "",
+                    "name": ""
+                },
+                {
+                    "id": 5,
+                    "image": "",
+                    "name": ""
+                },
+                {
+                    "id": 6,
+                    "image": "",
+                    "name": ""
+                }
+            ],
+            "coureDuration": "",
+            "eligibilityCriteria": "",
+            "annualFees": "",
+            "laboratories": [
+                {
+                    "id": 1,
+                    "title": "",
+                    "subTitle": "",
+                    "image": "",
+                    "pera": ""
+                },
+                {
+                    "id": 2,
+                    "title": "",
+                    "subTitle": "",
+                    "image": "",
+                    "pera": ""
+                }
+            ]
+        },
+        {
+            "id": 10,
+            "title": "",
+            "icon": "flaticon-bars",
+            "titlePera": "",
+            "titleImage": "",
+            "programOutcomesPera": "",
+            "programOutcomesImages": [
+                {
+                    "id": 1,
+                    "image": "",
+                    "name": ""
+                },
+                {
+                    "id": 2,
+                    "image": "",
+                    "name": ""
+                },
+                {
+                    "id": 3,
+                    "image": "",
+                    "name": ""
+                },
+                {
+                    "id": 4,
+                    "image": "",
+                    "name": ""
+                },
+                {
+                    "id": 5,
+                    "image": "",
+                    "name": ""
+                },
+                {
+                    "id": 6,
+                    "image": "",
+                    "name": ""
+                }
+            ],
+            "coureDuration": "",
+            "eligibilityCriteria": "",
+            "annualFees": "",
+            "laboratories": [
+                {
+                    "id": 1,
+                    "title": "",
+                    "subTitle": "",
+                    "image": "",
+                    "pera": ""
+                },
+                {
+                    "id": 2,
+                    "title": "",
+                    "subTitle": "",
+                    "image": "",
+                    "pera": ""
+                }
+            ]
+        },
+        {
+            "id": 11,
+            "title": "",
+            "icon": "flaticon-bars",
+            "titlePera": "",
+            "titleImage": "",
+            "programOutcomesPera": "",
+            "programOutcomesImages": [
+                {
+                    "id": 1,
+                    "image": "",
+                    "name": ""
+                },
+                {
+                    "id": 2,
+                    "image": "",
+                    "name": ""
+                },
+                {
+                    "id": 3,
+                    "image": "",
+                    "name": ""
+                },
+                {
+                    "id": 4,
+                    "image": "",
+                    "name": ""
+                },
+                {
+                    "id": 5,
+                    "image": "",
+                    "name": ""
+                },
+                {
+                    "id": 6,
+                    "image": "",
+                    "name": ""
+                }
+            ],
+            "coureDuration": "",
+            "eligibilityCriteria": "",
+            "annualFees": "",
+            "laboratories": [
+                {
+                    "id": 1,
+                    "title": "",
+                    "subTitle": "",
+                    "image": "",
+                    "pera": ""
+                },
+                {
+                    "id": 2,
+                    "title": "",
+                    "subTitle": "",
+                    "image": "",
+                    "pera": ""
+                }
+            ]
+        },
+        {
+            "id": 12,
+            "title": "",
+            "icon": "flaticon-bars",
+            "titlePera": "",
+            "titleImage": "",
+            "programOutcomesPera": "",
+            "programOutcomesImages": [
+                {
+                    "id": 1,
+                    "image": "",
+                    "name": ""
+                },
+                {
+                    "id": 2,
+                    "image": "",
+                    "name": ""
+                },
+                {
+                    "id": 3,
+                    "image": "",
+                    "name": ""
+                },
+                {
+                    "id": 4,
+                    "image": "",
+                    "name": ""
+                },
+                {
+                    "id": 5,
+                    "image": "",
+                    "name": ""
+                },
+                {
+                    "id": 6,
+                    "image": "",
+                    "name": ""
+                }
+            ],
+            "coureDuration": "",
+            "eligibilityCriteria": "",
+            "annualFees": "",
+            "laboratories": [
+                {
+                    "id": 1,
+                    "title": "",
+                    "subTitle": "",
+                    "image": "",
+                    "pera": ""
+                },
+                {
+                    "id": 2,
+                    "title": "",
+                    "subTitle": "",
+                    "image": "",
+                    "pera": ""
+                }
+            ]
+        },
+        {
+            "id": 13,
+            "title": "",
+            "icon": "flaticon-bars",
+            "titlePera": "",
+            "titleImage": "",
+            "programOutcomesPera": "",
+            "programOutcomesImages": [
+                {
+                    "id": 1,
+                    "image": "",
+                    "name": ""
+                },
+                {
+                    "id": 2,
+                    "image": "",
+                    "name": ""
+                },
+                {
+                    "id": 3,
+                    "image": "",
+                    "name": ""
+                },
+                {
+                    "id": 4,
+                    "image": "",
+                    "name": ""
+                },
+                {
+                    "id": 5,
+                    "image": "",
+                    "name": ""
+                },
+                {
+                    "id": 6,
+                    "image": "",
+                    "name": ""
+                }
+            ],
+            "coureDuration": "",
+            "eligibilityCriteria": "",
+            "annualFees": "",
+            "laboratories": [
+                {
+                    "id": 1,
+                    "title": "",
+                    "subTitle": "",
+                    "image": "",
+                    "pera": ""
+                },
+                {
+                    "id": 2,
+                    "title": "",
+                    "subTitle": "",
+                    "image": "",
+                    "pera": ""
+                }
+            ]
+        },
+        {
+            "id": 14,
+            "title": "",
+            "icon": "flaticon-bars",
+            "titlePera": "",
+            "titleImage": "",
+            "programOutcomesPera": "",
+            "programOutcomesImages": [
+                {
+                    "id": 1,
+                    "image": "",
+                    "name": ""
+                },
+                {
+                    "id": 2,
+                    "image": "",
+                    "name": ""
+                },
+                {
+                    "id": 3,
+                    "image": "",
+                    "name": ""
+                },
+                {
+                    "id": 4,
+                    "image": "",
+                    "name": ""
+                },
+                {
+                    "id": 5,
+                    "image": "",
+                    "name": ""
+                },
+                {
+                    "id": 6,
+                    "image": "",
+                    "name": ""
+                }
+            ],
+            "coureDuration": "",
+            "eligibilityCriteria": "",
+            "annualFees": "",
+            "laboratories": [
+                {
+                    "id": 1,
+                    "title": "",
+                    "subTitle": "",
+                    "image": "",
+                    "pera": ""
+                },
+                {
+                    "id": 2,
+                    "title": "",
+                    "subTitle": "",
+                    "image": "",
+                    "pera": ""
+                }
+            ]
+        }
+    ]
+},
+{
+    "id":10,
+    "branchName":"Master of Social Work (MSW)",
+    "corse":[
+        {
+            "id": 1,
+            "title": "",
+            "icon": "flaticon-bars",
+            "titlePera": "",
+            "titleImage": "",
+            "programOutcomesPera": "",
+            "programOutcomesImages": [
+                {
+                    "id": 1,
+                    "image": "",
+                    "name": ""
+                },
+                {
+                    "id": 2,
+                    "image": "",
+                    "name": ""
+                },
+                {
+                    "id": 3,
+                    "image": "",
+                    "name": ""
+                },
+                {
+                    "id": 4,
+                    "image": "",
+                    "name": ""
+                },
+                {
+                    "id": 5,
+                    "image": "",
+                    "name": ""
+                },
+                {
+                    "id": 6,
+                    "image": "",
+                    "name": ""
+                }
+            ],
+            "coureDuration": "",
+            "eligibilityCriteria": "",
+            "annualFees": "",
+            "laboratories": [
+                {
+                    "id": 1,
+                    "title": "",
+                    "subTitle": "",
+                    "image": "",
+                    "pera": ""
+                },
+                {
+                    "id": 2,
+                    "title": "",
+                    "subTitle": "",
+                    "image": "",
+                    "pera": ""
+                }
+            ]
+        }
+    ]
+},
+{
+    "id":11,
+    "branchName":"Diploma in Medical Laboratory Technology (DMLT)",
+    "corse":[
+        {
+            "id": 1,
+            "title": "",
+            "icon": "flaticon-bars",
+            "titlePera": "",
+            "titleImage": "",
+            "programOutcomesPera": "",
+            "programOutcomesImages": [
+                {
+                    "id": 1,
+                    "image": "",
+                    "name": ""
+                },
+                {
+                    "id": 2,
+                    "image": "",
+                    "name": ""
+                },
+                {
+                    "id": 3,
+                    "image": "",
+                    "name": ""
+                },
+                {
+                    "id": 4,
+                    "image": "",
+                    "name": ""
+                },
+                {
+                    "id": 5,
+                    "image": "",
+                    "name": ""
+                },
+                {
+                    "id": 6,
+                    "image": "",
+                    "name": ""
+                }
+            ],
+            "coureDuration": "",
+            "eligibilityCriteria": "",
+            "annualFees": "",
+            "laboratories": [
+                {
+                    "id": 1,
+                    "title": "",
+                    "subTitle": "",
+                    "image": "",
+                    "pera": ""
+                },
+                {
+                    "id": 2,
+                    "title": "",
+                    "subTitle": "",
+                    "image": "",
+                    "pera": ""
+                }
+            ]
+        }
+    ]
+}
+]

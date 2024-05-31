@@ -14,8 +14,9 @@ export default function ServiceArea() {
 									<SingleCategory 
 										Icon={service.icon}
 										Title={service.title}
-											
+										id={service.id}
 									/>
+									{console.log(service.id)}
 								</div>
 							);
 						}).slice(0, 8)

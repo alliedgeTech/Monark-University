@@ -1,7 +1,21 @@
 import Image from "next/image";
 import Link from "next/link";
+import { gsap } from 'gsap';
+import { useEffect } from "react";
 
 export default function MenuItems(props) {
+
+  useEffect(()=>{
+    
+    let tl=gsap.timeline()
+    gsap.from('.nav-link',{
+      y:'-50',
+      opacity:0,
+      stagger:0.2,
+    })
+
+  },[])
+
   const { onePage } = props;
 
   const onepageHomeMenu = (
@@ -228,7 +242,7 @@ export default function MenuItems(props) {
         </ul>
       ) : (
         <ul>
-          <li className="p-static">
+          <li className="nav-link p-static">
             <Link href="/">home</Link>
             {/* <div className="it-submenu submenu has-home-img">
               <div className="row gx-6 row-cols-1 row-cols-md-2 row-cols-lg-2 row-cols-xl-5">
@@ -351,7 +365,7 @@ export default function MenuItems(props) {
             </div> */}
           </li>
 
-		  <li className="has-dropdown about-us-dropdown">
+		  <li className="nav-link has-dropdown about-us-dropdown">
     <Link href="/about-us">About MU</Link>
     <ul className="about-us-submenu submenu">
         <li><Link href="/about-us#historicalbackground">Historical Background</Link></li>
@@ -370,7 +384,7 @@ export default function MenuItems(props) {
 </li>
 
 
-          <li className="has-dropdown">
+          <li className="nav-link has-dropdown">
             <Link href="/services">Admission</Link>
             <ul className="it-submenu submenu">
               <li>
@@ -388,7 +402,7 @@ export default function MenuItems(props) {
             </ul>
           </li>
 
-          <li className="has-dropdown">
+          <li className="nav-link has-dropdown">
             <Link href="/faculty">Faculty</Link>
             <ul className="it-submenu submenu has-megamenu">
               <li>
@@ -443,7 +457,7 @@ export default function MenuItems(props) {
               </li>
             </ul>
           </li>
-          <li className="has-dropdown">
+          <li className="nav-link has-dropdown">
             <Link href="#">Academic</Link>
             <ul className="it-submenu submenu has-megamenu">
               <li>
@@ -466,7 +480,7 @@ export default function MenuItems(props) {
               
             </ul>
           </li>
-          <li className="has-dropdown">
+          <li className="nav-link has-dropdown">
             <Link href="/placement">Placement</Link>
             <ul className="it-submenu submenu">
               <li>
@@ -483,7 +497,7 @@ export default function MenuItems(props) {
               </li>
             </ul>
           </li>
-          <li className="has-dropdown">
+          <li className="nav-link has-dropdown">
             <Link href="blog">Campus Life</Link>
             <ul className="it-submenu submenu">
               <li>
@@ -506,7 +520,7 @@ export default function MenuItems(props) {
               </li>
             </ul>
           </li>
-          <li className="has-dropdown">
+          <li className="nav-link has-dropdown">
             <Link href="blog">Infrastructure</Link>
             <ul className="it-submenu submenu">
               <li>
@@ -526,7 +540,7 @@ export default function MenuItems(props) {
               </li>
             </ul>
           </li>
-          <li>
+          <li className="nav-link">
             <Link href="/contact">contact</Link>
           </li>
         </ul>
