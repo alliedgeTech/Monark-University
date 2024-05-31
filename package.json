@@ -19,6 +19,8 @@
     "bootstrap": "^5.3.3",
     "eslint-plugin-react": "^7.33.2",
     "eslint-plugin-react-hooks": "^4.6.0",
+    "gsap": "^3.12.5",
+    "ScrollTrigger": "file:types/gsap@types/scrolltrigger",
     "jquery": "^3.7.1",
     "next": "14.0.4",
     "react": "^18",
@@ -34,6 +36,7 @@
     "yet-another-react-lightbox": "^3.16.0"
   },
   "devDependencies": {
+    "@types/gsap": "^3.0.0",
     "eslint": "^8.55.0",
     "eslint-config-next": "14.0.4",
     "eslint-plugin-prettier": "^5.0.1",

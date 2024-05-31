@@ -5,7 +5,10 @@ import Link from 'next/link';
 import MenuItems from './MenuItems';
 import MobileMenuItems from './MobileMenuItems';
 
+
 export default function Header( props ) {
+
+	
 	const { menuFormat } = props;
 	const [isVisible, setIsVisible] = useState(false);	
 	const [offCanvasOpen, setOffCanvasOpen] = useState(false)
