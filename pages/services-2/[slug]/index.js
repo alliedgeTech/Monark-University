@@ -6,7 +6,7 @@ import HeaderTwo from '@/components/Header/HeaderTwo';
 import Preloader from '@/components/Preloader';	
 import dynamic from 'next/dynamic'
  
-const ServiceDetailsModules = dynamic(() => import('@/modules/ServiceDetails'), {
+const ServiceDetailsModules = dynamic(() => import('@/modules/After12'), {
   loading: () => <Preloader />,
 });
 
