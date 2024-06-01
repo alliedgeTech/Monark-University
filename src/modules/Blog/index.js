@@ -2,8 +2,9 @@ import BlogArea from "./BlogArea"
 import Newsletter from "@/components/Newsletter"
 import BreadCrumbs from "@/components/BreadCrumbs"
 import ScrollTop from "@/components/ScrollTop"
+import Campusdisplay from "@/components/campusdisplay"
 
-import Campusdisplay from "../../components/Campusdisplay"
+
 
 
 export default function BlogModules() {
