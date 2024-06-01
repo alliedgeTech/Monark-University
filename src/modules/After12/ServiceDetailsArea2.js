@@ -68,8 +68,8 @@ export default function ServiceDetailsArea() {
   return (
     <div className={styles.serviceDetailsArea}>
       <Container>
-        <div className={styles.detailsTopWrap}>
-          <Row>
+        <div className={styles.detailsTopContent}>
+        <Row>
             <Col lg={6} className="text-center">
               <div className={styles.chooseThumbBox}>
                 <div className={styles.chooseThumb}>
@@ -82,9 +82,6 @@ export default function ServiceDetailsArea() {
               <p>{item.titlePera}</p>
             </Col>
           </Row>
-        </div>
-
-        <div className={styles.detailsTopContent}>
           <Row>
             <Col className="col-left">
               <h4 className={styles.detailsTitle}>Program Outcomes</h4>
@@ -111,9 +108,23 @@ export default function ServiceDetailsArea() {
               <Accordion.Item eventKey={index.toString()} key={course.id}>
                 <Accordion.Header>{course.title}</Accordion.Header>
                 <Accordion.Body>
-                  <h5>{course.title}</h5>
-                  <p>{course.titlePera}</p>
+                
                   <Row>
+                  <div className={styles.detailsTopWrap}>
+          <Row>
+            <Col lg={6} className="text-center">
+              <div className={styles.chooseThumbBox}>
+                <div className={styles.chooseThumb}>
+                  <img src={course.titleImage} className="img-fluid rounded" alt="" />
+                </div>
+              </div>
+            </Col>
+            <Col lg={6}>
+              <h4 className={styles.detailsTitle}>{course.title}</h4>
+              <p>{course.titlePera}</p>
+            </Col>
+          </Row>
+        </div>
                     <Col lg={6}>
                       <h5>Course Duration</h5>
                       <p>{course.coureDuration}</p>
