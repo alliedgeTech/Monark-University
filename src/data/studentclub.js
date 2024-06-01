@@ -2,19 +2,41 @@ const studentclubdata = [
   {
     id: 1,
     img: "https://monarkuni.ac.in/wp-content/uploads/2023/01/Smile_Please_EVent_organizing.png",
-    header: "Aim",
-    content:
-      "Aim of Smile Please Event Organization Club is to organize and manage various cultural and other  events/functions at Monark University and to provide the environment to the students in which each student can present the extra skills apart from their academic skill.",
-    club:"Smile Please Event Organizing Club",
-    clubh:"Monark University"
+    accordion:[
+        {
+        header: "Aim",
+        content:
+          "Aim of Smile Please Event Organization Club is to organize and manage various cultural and other  events/functions at Monark University and to provide the environment to the students in which each student can present the extra skills apart from their academic skill.",
+        
+        }
+    ]
+   
+    
     },
   {
     id: 2,
     img: "https://monarkuni.ac.in/wp-content/uploads/2023/01/go-green.png",
+    accordion:[
+        {
+        header: "Aim",
+        content:
+          "Aim of Smile Please Event Organization Club is to organize and manage various cultural and other  events/functions at Monark University and to provide the environment to the students in which each student can present the extra skills apart from their academic skill.",
+        
+        }
+    ]
+    
   },
   {
     id: 3,
     img: "https://monarkuni.ac.in/wp-content/uploads/2023/01/Language_Club.png",
+    accordion:[
+        {
+        header: "Aim",
+        content:
+          "Aim of Smile Please Event Organization Club is to organize and manage various cultural and other  events/functions at Monark University and to provide the environment to the students in which each student can present the extra skills apart from their academic skill.",
+        
+        }
+    ]
   },
   {
     id: 4,
