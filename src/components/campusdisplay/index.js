@@ -2,11 +2,11 @@ import SingleBlog from "@/components/Blog";
 import Blogs from "@/data/blogs";
 import React from "react";
 import dynamic from "next/dynamic";
-import campusdata from "../../data/campus";
 import Image from "next/image";
 import { useState } from "react";
 import Lightbox from "yet-another-react-lightbox";
 import "yet-another-react-lightbox/styles.css";
+import campusdata from "@/data/campus";
 
 const Campusdisplay = () => {
   const [open, setOpen] = useState(false);

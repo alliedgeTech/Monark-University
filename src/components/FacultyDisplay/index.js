@@ -61,7 +61,7 @@ const Responsive2 = {
 const index = () => {
   return (
     <div>
-      <div style={{ marginTop: "120px" }} className="min-vh-100 bg-light py-4">
+      <div style={{ marginTop: "75px" }} className="min-vh-100 bg-light py-4">
         <div className="container">
           {facultydata.map((faculty, index) => {
             return (

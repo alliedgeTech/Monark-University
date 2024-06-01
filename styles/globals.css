@@ -2,15 +2,77 @@
     scroll-behavior: smooth !important;
     text-decoration: none;
 }
+body{
+    background: #fff;
+}
+:root{
+    --web-color:#054B81;
+    --web-orange:#EC691F;
+    --web-grey-white:#fafafa;
+    --web-white:#fff;
+}
+.hero-section{
+    margin-top: 75px;
+}
+
+.hero-img{
+    position: relative;
+}
+.hero-img::before{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    content: "";
+    background: linear-gradient(#00000047,#00000069);
+}
+.hero-text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+.hero-text h1{
+    font-size: 10vw;
+    color: var(--web-white);
+}
+.hero-text p{
+    color: var(--web-white);
+}
+.hero-text-animation{
+    position: relative;
+    display: inline-block;
+}
+.hero-text-animation::before{
+    position: absolute;
+    content: attr(data-text);
+    left: 0;
+    top: 0;
+    height: 0;
+    color: white;
+    overflow: hidden;
+    transition: all 0.5s ease-in-out;
+    -webkit-text-stroke: 2px rgba(107, 107, 107, 0.874);
+}
+.best-university{
+    background: var(--web-grey-white);
+    margin: 4vmax;
+    padding: 3vmax 4vmax !important;
+}
+.best-university .row{
+    padding: auto 100px;
+}
+.best-university-text p{
+    text-align: justify;
+}
 .latest-box{
-    padding: 15px;
-    background: #dadada;
+    padding: 20px;
+    background: var(--web-grey-white);
     transition: all 0.5s;
-    border-radius: 10px;
 }
 
 .latest-box:hover{
-    background: #a5a4a4;
+    background: #dadada;
     overflow: hidden;
 }
 .latest-box .latest-img{
@@ -37,8 +99,8 @@
 }
 .footer-up-links li:hover{
     transform: translateX(-5px) scale(1.01);
-    border-bottom: 1px solid #21263d;
-    color: #21263d;
+    border-bottom: 1px solid var(--web-color);
+    color: var(--web-color);
 }
 .footer-middle h6{
     font-size: 20px;
@@ -75,7 +137,7 @@
     margin: 0 !important;
 }
 .it-breadcrumb-area{
-    margin-top:150px ;
+    margin-top:75px ;
 }
 .submenu{
     background: rgb(255, 255, 255) !important;
@@ -129,7 +191,7 @@
     font-size: 14px;
 }
 .placement{
-    margin-top: 140px;
+    margin-top: 75px;
 }
 .record-box{
     padding: 20px 15px;
