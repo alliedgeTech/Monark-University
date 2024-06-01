@@ -1,30 +1,24 @@
 import React, { useEffect, useState } from 'react';
 import { useRouter } from 'next/router';
-import { Container, Row, Col, Accordion, Card } from 'react-bootstrap';
+import { Container, Row, Col } from 'react-bootstrap';
 import Slider from 'react-slick';
 import After12 from '@/data/after12';
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";
 import styles from "./ServiceDetailsArea.module.css";
-import 'bootstrap/dist/css/bootstrap.min.css';
 
 export default function ServiceDetailsArea() {
   const [isMounted, setIsMounted] = useState(false);
   const [item, setItem] = useState(null);
-  const [courses, setCourses] = useState([]);
   const router = useRouter();
   const { id } = router.query;
-  
+ console.log("d",id)
   useEffect(() => {
     setIsMounted(true);
     if (id) {
       const foundItem = After12.find(data => data?.id == id);
+      console.log('foundItem',foundItem)
       setItem(foundItem);
-      if (foundItem) {
-        setCourses(foundItem.corse);
-      }
-      console.log('foundItem', foundItem);
-      console.log('foundItemData', foundItem?.corse);
     }
   }, [id]);
   
@@ -104,51 +98,64 @@ export default function ServiceDetailsArea() {
             </Col>
           </Row>
         </div>
-        
-        <div className='mt-100'>
-          <Accordion defaultActiveKey="0">
-            {courses.map((course, index) => (
-              <Accordion.Item eventKey={index.toString()} key={course.id}>
-                <Accordion.Header>{course.title}</Accordion.Header>
-                <Accordion.Body>
-                  <h5>{course.title}</h5>
-                  <p>{course.titlePera}</p>
-                  <Row>
-                    <Col lg={6}>
-                      <h5>Course Duration</h5>
-                      <p>{course.coureDuration}</p>
-                    </Col>
-                    <Col lg={6}>
-                      <h5>Eligibility Criteria</h5>
-                      <p>{course.eligibilityCriteria}</p>
-                    </Col>
-                    <Col lg={6}>
-                      <h5>Annual Fees</h5>
-                      <p>{course.annualFees}</p>
-                    </Col>
-                  </Row>
-                  <div className={styles.laboratoriesSection}>
-                    <h2 className={styles.laboratoriesTitle}>Laboratories</h2>
-                    <div className={styles.laboratoriesContainer}>
-                      {course.laboratories?.map((lab, labIndex) => (
-                        <div key={labIndex} className={styles.laboratoryCard}>
-                          <img src={lab.image} alt={lab.title} />
-                          <div className={styles.laboratoryCardContent}>
-                            <h4>{lab.title}</h4>
-                            <ul>
-                              {lab.pera.split('/')?.map((line, lineIndex) => (
-                                <li key={lineIndex}>{line.trim()}</li>
-                              ))}
-                            </ul>
-                          </div>
-                        </div>
-                      ))}
-                    </div>
-                  </div>
-                </Accordion.Body>
-              </Accordion.Item>
+        <div className='mt-100 d-flex justify-content-center bg-light'>
+          <h4 className={`${styles.boxTitle} text-center`}>{item.title}</h4>
+          <Row>
+            <Col lg={6}>
+              <div className={styles.detailsContentBox}>
+                <h5 className={styles.detailsTitleSm}>
+                  <span><i className="fa-sharp fa-light fa-check"></i></span>
+                  Course Duration
+                </h5>
+                <p>{item.coureDuration}</p>
+              </div>
+            </Col>
+            <Col lg={6}>
+              <div className={styles.detailsContentBoxb}>
+                <h5 className={styles.detailsTitleSm}>
+                  <span><i className="fa-sharp fa-light fa-check"></i></span>
+                  Eligibility Criteria
+                </h5>
+                <p>{item.eligibilityCriteria}</p>
+              </div>
+            </Col>
+            <Col lg={6}>
+              <div className={styles.detailsContentBox}>
+                <h5 className={styles.detailsTitleSm}>
+                  <span><i className="fa-sharp fa-light fa-check"></i></span>
+                  Annual Fees
+                </h5>
+                <p>{item.annualFees}</p>
+              </div>
+            </Col>
+            <Col lg={6}>
+              <div className={styles.detailsContentBoxb}>
+                <h5 className={styles.detailsTitleSm}>
+                  <span><i className="fa-sharp fa-light fa-check"></i></span>
+                  From
+                </h5>
+                <p>Apply now</p>
+              </div>
+            </Col>
+          </Row>
+        </div>
+        <div className={styles.laboratoriesSection}>
+          <h2 className={styles.laboratoriesTitle}>Laboratories</h2>
+          <div className={styles.laboratoriesContainer}>
+            {item.laboratories?.map((lab, index) => (
+              <div key={index} className={styles.laboratoryCard}>
+                <img src={lab.image} alt={lab.title} />
+                <div className={styles.laboratoryCardContent}>
+                  <h4>{lab.title}</h4>
+                  <ul>
+                    {lab.pera.split('/')?.map((line, lineIndex) => (
+                      <li key={lineIndex}>{line.trim()}</li>
+                    ))}
+                  </ul>
+                </div>
+              </div>
             ))}
-          </Accordion>
+          </div>
         </div>
       </Container>
     </div>

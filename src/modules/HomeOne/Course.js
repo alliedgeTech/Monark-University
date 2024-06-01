@@ -59,7 +59,7 @@ export default function Course() {
         loop={true}
         autoPlay={true}
         autoplayTimeout={5000}
-        dots={true}
+        // dots={true}
         responsive={Responsive}
       >
         <div className="item">

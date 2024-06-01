@@ -15,9 +15,9 @@ const OwlCarousel = dynamic(() => import("react-owl-carousel"), {
   ssr: false,
 });
 // Dynamically import OwlCarousel without SSR
-const OwlCarousel2 = dynamic(() => import("react-owl-carousel"), {
-  ssr: false,
-});
+// const OwlCarousel2 = dynamic(() => import("react-owl-carousel"), {
+//   ssr: false,
+// });
 
 // Responsive settings for OwlCarousel
 const Responsive = {
@@ -98,7 +98,7 @@ const index = () => {
                     loop={true}
                     autoPlay={true}
                     autoplayTimeout={5000}
-                    dots={true}
+                    // dots={true}
                     responsive={Responsive}
                   >
                     <div className="item">
@@ -124,7 +124,7 @@ const index = () => {
               <h2 className="text-center">What Students Say..</h2>
               <hr />
             </div>
-            <OwlCarousel2
+            {/* <OwlCarousel2
               className="owl-theme"
               loop={true}
               autoPlay={true}
@@ -251,7 +251,7 @@ const index = () => {
                   </div>
                 </div>
               </div>
-            </OwlCarousel2>
+            </OwlCarousel2> */}
           </div>
         </div>
       </div>

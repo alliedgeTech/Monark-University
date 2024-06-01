@@ -64,7 +64,7 @@ export default function Video() {
         autoPlay={true}
 		margin={10}
         autoplayTimeout={5000}
-        dots={true}
+        // dots={true}
         responsive={Responsive}
       >
         <div className="item">
