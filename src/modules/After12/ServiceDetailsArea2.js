@@ -87,7 +87,7 @@ export default function ServiceDetailsArea() {
             <Col className="col-right">
               {isMounted && (
                 <Slider {...settings}>
-                  {item.programOutcomesImages.map((value) => (
+                  {item.programOutcomesImages?.map((value) => (
                     <div key={value.id} className={styles.programOutcomeItem}>
                       <img src={value.image} className="img-fluid rounded" alt={value.name} />
                       <p>{value.name}</p>
@@ -142,13 +142,13 @@ export default function ServiceDetailsArea() {
         <div className={styles.laboratoriesSection}>
           <h2 className={styles.laboratoriesTitle}>Laboratories</h2>
           <div className={styles.laboratoriesContainer}>
-            {item.laboratories.map((lab, index) => (
+            {item.laboratories?.map((lab, index) => (
               <div key={index} className={styles.laboratoryCard}>
                 <img src={lab.image} alt={lab.title} />
                 <div className={styles.laboratoryCardContent}>
                   <h4>{lab.title}</h4>
                   <ul>
-                    {lab.pera.split('/').map((line, lineIndex) => (
+                    {lab.pera.split('/')?.map((line, lineIndex) => (
                       <li key={lineIndex}>{line.trim()}</li>
                     ))}
                   </ul>

@@ -9,7 +9,7 @@ export default function SingleFeatureTwo( props ) {
 			</div>
 			<div className="it-feature-3-content">
 				<h4 className="it-feature-3-title">
-					<Link href={`/services/${Slug ? Slug : 'details'}`}>
+					<Link href={`/services-2/${Slug ? Slug : 'details'}`}>
 						{Title ? Title : 'Best Coaching'}
 					</Link>
 				</h4>
