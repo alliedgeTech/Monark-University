@@ -498,22 +498,31 @@ export default function MenuItems(props) {
             </ul>
           </li>
           <li className="nav-link has-dropdown">
-            <Link href="blog">Campus Life</Link>
+            <Link href="campus">Campus Life</Link>
             <ul className="it-submenu submenu">
               <li>
-                <Link href="/blog">Arts & Culture</Link>
+                <Link href="/campus#artsandculture">Arts & Culture</Link>
               </li>
               <li>
-                <Link href="/blog-2">Campus Event</Link>
+                <Link href="/campus#campusevent">Campus Event</Link>
               </li>
               <li>
-                <Link href="/blog-sidebar">Community Services</Link>
+                <Link href="/campus#nss">Community Services</Link>
               </li>
               <li>
-                <Link href="/blog/blog-one">NCC</Link>
+                <Link href="/campus#ncc">NCC</Link>
               </li>
               <li>
-                <Link href="/blog/blog-one">Sports</Link>
+                <Link href="/campus#sports">Sports</Link>
+              </li>
+              <li>
+                <Link href="/campus#workshopsandseminars">Workshops & Seminars</Link>
+              </li>
+              <li>
+                <Link href="/campus#yoga">Yoga Day</Link>
+              </li>
+              <li>
+                <Link href="/campus#teacherday">Teacher's Day</Link>
               </li>
               <li>
                 <Link href="/blog/blog-one">Students Club</Link>
