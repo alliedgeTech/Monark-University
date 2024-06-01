@@ -1,5 +1,6 @@
-[{
-    "id":1,
+[
+    {
+    "id":11,
     "branchName":"Bachelor of Engineering (B.E.)",
     "icon": "flaticon-web-design",
     "courseCount": "7",
@@ -477,7 +478,7 @@
     ]
 },
 {
-    "id":2,
+    "id":12,
     "branchName":"Bachelor of Science (B.Sc.)",
     "slug": "service-two",
     "icon": "flaticon-ux-design",
@@ -844,7 +845,7 @@
     ]
 },
 {
-    "id":3,
+    "id":13,
     "branchName":"Bachelor of Business Administration (BBA)",
     "slug": "service-three",
     "icon": "flaticon-coding",
@@ -1046,7 +1047,7 @@
     ]
 },
 {
-    "id":4,
+    "id":14,
     "branchName":"Bachelor of Ayurvedic Medicine and Surgery (B.A.M.S.)",
     "slug": "service-four",
     "icon": "flaticon-mobile-development",
@@ -1115,7 +1116,7 @@
     ]
 },
 {
-    "id":5,
+    "id":15,
     "slug": "service-five",
     "icon": "flaticon-promotion",
     "courseCount": "3",
@@ -1292,7 +1293,7 @@
     ]
 },
 {
-    "id":6,
+    "id":16,
     "branchName":"Bachelor of Physiotherapy (BPT)",
     "slug": "service-six",
     "icon": "flaticon-art",
@@ -1409,7 +1410,7 @@
     ]
 },
 {
-    "id":7,
+    "id":17,
     "branchName":"Bachelor of Science in Nursing",
     "slug": "service-seven",
     "icon": "flaticon-mobile-development",
@@ -1548,7 +1549,7 @@
     ]
 },
 {
-    "id":8,
+    "id":18,
     "branchName":"Bachelor of Commerce (B.Com)",
     "slug": "service-eight",
       "icon": "flaticon-bars",
@@ -1627,7 +1628,7 @@
     ]
 },
 {
-    "id":9,
+    "id":19,
     "branchName":"Bachelor of Law (LL.B.)",
     "slug": "service-nine",
       "icon": "flaticon-study",
@@ -1692,7 +1693,7 @@
     ]
 },
 {
-    "id":10,
+    "id":20,
     "branchName":"Bachelor of Computer Application (BCA)",
     "slug": "service-ten",
     "courseCount": "1",
@@ -1780,7 +1781,7 @@
     ]
 },
 {
-    "id":11,
+    "id":21,
     "branchName":"Bachelor of Arts (B.A.)",
     "slug": "service-eleven",
       "icon": "flaticon-study",
@@ -1849,7 +1850,7 @@
     ]
 },
 {
-    "id":12,
+    "id":22,
     "branchName":"Bachelor of Social Work (BSW)",
     "slug": "service-twelve",
         "icon": "flaticon-coach",
@@ -1928,7 +1929,7 @@
     ]
 },
 {
-    "id":13,
+    "id":23,
     "branchName":"(B.Sc. + M.Sc.) IT",
     "slug": "service-thirteen",
     "icon": "flaticon-study",
@@ -2279,7 +2280,7 @@
     ]
 },
 {
-    "id":14,
+    "id":24,
     "branchName":"Medical Laboratory Technology- Technician",
     "title": "Medical Laboratory Technology- Technician",
         "slug": "service-fourteen",
