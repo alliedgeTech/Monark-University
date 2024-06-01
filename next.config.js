@@ -13,14 +13,18 @@ const nextConfig = {
         ],
     },
     env: {
-        // Environment variables accessible in the browser
-        NEXT_PUBLIC_API_URL: process.env.NEXT_PUBLIC_API_URL,
-        NEXT_PUBLIC_IMAGE_BASE_URL: process.env.NEXT_PUBLIC_IMAGE_BASE_URL,
-    },
+        NEXT_PUBLIC_API_URL: process.env.NEXT_PUBLIC_API_URL || '',
+        NEXT_PUBLIC_IMAGE_BASE_URL: process.env.NEXT_PUBLIC_IMAGE_BASE_URL || '',
+      },
     images: {
         domains: ['images.example.com'], // Add any external domains you need to load images from
+        remotePatterns: [
+            {
+              protocol: 'https',
+              hostname: 'example.com',
+            },
+          ],
     },
 }
-
 // Export the Next.js configuration object
 module.exports = nextConfig;
