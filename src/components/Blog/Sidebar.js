@@ -1,92 +1,43 @@
-import Blogs from "@/data/blogs"
-import Image from "next/image";
-import Link from "next/link";
+import React from 'react';
+import Image from 'next/image';
+import Link from 'next/link';
+import { Accordion, AccordionItem } from '@szhsin/react-accordion';
+import studentclubdata from '@/data/studentclub';
 
 export default function Sidebar() {
-	return (
-		<div className="it-sv-details-sidebar">
-			<div className="it-sv-details-sidebar-search mb-55">
-				<input type="text" placeholder="search" />
-				<button type="submit">
-					<i className="fal fa-search"></i>
-				</button>
-			</div>
-			<div className="it-sv-details-sidebar-widget mb-55">
-				<h4 className="it-sv-details-sidebar-title mb-30">blog category</h4>
-				<div className="it-sv-details-sidebar-category mb-10">
-					graphic design
-					<span><i className="fa-light fa-angle-right"></i></span>
-				</div>
-				<div className="it-sv-details-sidebar-category active mb-10">
-					web design
-					<span><i className="fa-light fa-angle-right"></i></span>
-				</div>
-				<div className="it-sv-details-sidebar-category mb-10">
-				it and software
-					<span><i className="fa-light fa-angle-right"></i></span>
-				</div>
-				<div className="it-sv-details-sidebar-category mb-10">
-				seles marketing
-					<span><i className="fa-light fa-angle-right"></i></span>
-				</div>
-				<div className="it-sv-details-sidebar-category mb-10">
-				art & humanities
-					<span><i className="fa-light fa-angle-right"></i></span>
-				</div>
-				<div className="it-sv-details-sidebar-category mb-10">
-				mobile application
-					<span><i className="fa-light fa-angle-right"></i></span>
-				</div>
-			</div>
-			<div className="sidebar__widget mb-55">
-				<div className="sidebar__widge-title-box">
-					<h3 className="sidebar__widget-title pb-10">Recent Post</h3>
-				</div>
-				<div className="sidebar__widget-content">
-					<div className="sidebar__post">
-						{
-							Blogs.map((blog) => {
-								return (
-									<div className="rc__post mb-30 d-flex align-items-start">
-										<div className="rc__post-thumb mr-20">
-											<Link href={blog.slug}>
-												<Image src={blog.image} alt="" width={98} height={98} />
-											</Link>
-										</div>
-										<div className="rc__post-content">
-											<div className="rc__meta">
-												<span>
-													<i className="fa-solid fa-calendar-days"></i>
-													{blog.publishedDate}
-												</span>
-											</div>
-											<h3 className="rc__post-title">
-												<Link href={blog.slug}>{blog.title}</Link>
-											</h3>
-										</div>
-									</div>
-								);
-							}).slice(6, 12)
-						}
-						
-					</div>
-				</div>
-			</div>
-			<div className="it-sv-details-sidebar-widget">
-				<h4 className="it-sv-details-sidebar-title mb-30">popular tag:</h4>
-				<div className="sidebar__widget-content">
-					<div className="tagcloud">
-						<Link href="#">Balance</Link>
-						<Link href="#">coaching</Link>
-						<Link href="#">Motivation</Link>
-						<Link href="#">courses</Link>
-						<Link href="#">Life guide</Link>
-						<Link href="#">strategy</Link>
-						<Link href="#">Education</Link>
-						<Link href="#">coach</Link>
-					</div>
-				</div>
-			</div>
-		</div>
-	)
+	console.log("data",studentclubdata)
+  return (
+    <div className="container">
+      <Accordion className="accordian">
+        {studentclubdata?.map((student, i) => (
+          <AccordionItem key={i} >
+			{console.log("yug",student)}
+            <div className="it-gallery-title-box text-center pb-70">
+              <span className="it-section-subtitle-5">
+                <i className="fa-light fa-book"></i>
+				{console.log("std",student.clubh)}
+                {student.clubh}
+                <i className="fa-light fa-book"></i>
+              </span>
+              <h2 className="it-section-title-3 bg-black">{student?.club}</h2>
+            </div>
+            <div className="it-faq-area p-relative pt-120 pb-120">
+              <div className="container">
+                <div className="row">
+                  <div className="col-12">
+                    <div className="it-faq-wrap">
+                      <div className="it-custom-accordion it-custom-accordion-style-3">
+                        <h2>{student.club}</h2>
+                        {/* Render other details like content, header, etc. */}
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </AccordionItem>
+        ))}
+      </Accordion>
+    </div>
+  );
 }
