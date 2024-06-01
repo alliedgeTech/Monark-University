@@ -7,7 +7,7 @@ import hs from "../../../public/img/choose/hs.jpg";
 import ai from "../../../public/img/choose/AICTE.png"
 import nc from "../../../public/img/choose/NCTE.png"
 import gn from "../../../public/img/choose/GNC.jpg"
-// import bc from"../../../public/img/choose/BCI.png"
+import bc from"../../../public/img/choose/BCI.png"
 import na from "../../../public/img/choose/NAAC.png"
 import is from "../../../public/img/choose/ISTE.jpg"
 import vi from "../../../public/img/choose/VIPNET.png"
