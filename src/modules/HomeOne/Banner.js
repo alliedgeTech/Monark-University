@@ -3,6 +3,7 @@ import Image from "next/image"
 import CountUp from "react-countup";
 import ModalVideo from 'react-modal-video'
 import Link from 'next/link';
+import heroimg from '../../../public/img/hero/universityimg.jpg';
 
 export default function Banner() {
     const [state, setState] = useState(true);
@@ -10,8 +11,14 @@ export default function Banner() {
     const openModal = () => setIsOpen(!isOpen);
 
 	return (
-		<div className='hero-img container' style={{marginTop:'140px'}}>
-			<img className='img-fluid' src="https://images.pexels.com/photos/267885/pexels-photo-267885.jpeg?auto=compress&cs=tinysrgb"/>
+		<div className='hero-section'>
+			<div className="hero-img">
+				<img className='img-fluid' src="/img/hero/universityimg.jpg" />
+				<div className="hero-text">
+					<h1 className='hero-text-animation' data-text="MONARK UNIVERSITY">MONARK UNIVERSITY</h1>
+					<p>We continue to be recognized as a leading global management institution, expanding the frontiers of management research, leadership, and education.</p>
+				</div>
+			</div>
 		</div>
 	)
 }

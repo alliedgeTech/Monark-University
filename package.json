@@ -20,7 +20,6 @@
     "eslint-plugin-react": "^7.33.2",
     "eslint-plugin-react-hooks": "^4.6.0",
     "gsap": "^3.12.5",
-    "ScrollTrigger": "file:types/gsap@types/scrolltrigger",
     "jquery": "^3.7.1",
     "next": "14.0.4",
     "react": "^18",

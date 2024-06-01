@@ -11,7 +11,7 @@ export default function MenuItems(props) {
     gsap.from('.nav-link',{
       y:'-50',
       opacity:0,
-      stagger:0.2,
+      stagger:0.1,
     })
 
   },[])
