@@ -259,13 +259,13 @@ export default function MobileMenuItems(props) {
                 <Link href="/services">After 10th</Link>
               </li>
               <li>
-                <Link href="/services/two">After 12th</Link>
+                <Link href="/services-2">After 12th</Link>
               </li>
               <li>
-                <Link href="/services/three">Pg Courses</Link>
+                <Link href="/services-3">Pg Courses</Link>
               </li>
               <li>
-                <Link href="/services/details">Research</Link>
+                <Link href="/services-4">Research</Link>
               </li>
             </ul>
           </li>

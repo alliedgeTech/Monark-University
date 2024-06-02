@@ -9,7 +9,7 @@ export default function ServiceDetailsModules(singleService) {
 		<main>
 			<BreadCrumbs
 				Title="Pg courses"
-				subTitle="Service-3"
+				subTitle="Service-4"
 			/>
 			<ServiceDetailsArea item={singleService.item} />
 			<Newsletter />

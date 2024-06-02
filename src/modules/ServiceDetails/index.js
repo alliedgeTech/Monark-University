@@ -4,7 +4,7 @@ import Newsletter from "@/components/Newsletter"
 import ScrollTop from "@/components/ScrollTop"
 
 export default function ServiceDetailsModules(singleService) {
-	console.log(singleService	)
+	console.log(singleService)
 	return (
 		<main>
 			<BreadCrumbs

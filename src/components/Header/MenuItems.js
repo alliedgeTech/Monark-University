@@ -397,7 +397,7 @@ export default function MenuItems(props) {
                 <Link href="/services-3">Pg Courses</Link>
               </li>
               <li>
-                <Link href="/services/service-one">Research</Link>
+                <Link href="/services-4">Research</Link>
               </li>
             </ul>
           </li>
