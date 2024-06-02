@@ -34,7 +34,7 @@ body{
 }
 .hero-text h1{
     font-size: 10vw;
-    color: var(--web-white);
+    color: var(--web-orange);
 }
 .hero-text p{
     color: var(--web-white);
@@ -49,22 +49,74 @@ body{
     left: 0;
     top: 0;
     height: 0;
-    color: white;
+    color: var(--web-grey-white);
     overflow: hidden;
     transition: all 0.5s ease-in-out;
-    -webkit-text-stroke: 2px rgba(107, 107, 107, 0.874);
+    -webkit-text-stroke: 2px rgba(255, 255, 255, 0.874);
+}
+.hero-text-animation:hover::before{
+    height: 100%;
+}
+.best-carousel{
+    border: 5px solid var(--web-color);
+    border-radius: 15px;
+    overflow: hidden;
+}
+.best-university-heading{
+    padding-bottom: 3vmax;
+}
+.best-university-heading h1{
+    font-size: 4vw;
+    color: var(--web-white);
 }
 .best-university{
-    background: var(--web-grey-white);
+    background: var(--web-orange);
     margin: 4vmax;
-    padding: 3vmax 4vmax !important;
+    border-top-left-radius:3vmax ;
+    border-bottom-right-radius:3vmax ;
+    padding: 5vmax 4vmax !important;
 }
 .best-university .row{
     padding: auto 100px;
 }
 .best-university-text p{
     text-align: justify;
+    color: var(--web-grey-white);
 }
+.student-club-image{
+    position: relative;
+}
+.student-club-image::before{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    content: "";
+    background: linear-gradient(#00000014,#000000c6);
+}
+.student-club-heading h2{
+    font-size: 4vw;
+}
+.student-club-main{
+    background: var(--web-color);
+    padding: 3vmax;
+}
+.student-club-info{
+    position: relative;
+}
+.student-club-text{
+    position: absolute;
+    bottom: 5%;
+    padding: 0 2vmax;
+}
+.student-club-text h4{
+    color: var(--web-orange);
+}
+.student-club-text p{
+    color: var(--web-grey-white);
+}
+
 .latest-box{
     padding: 20px;
     background: var(--web-grey-white);

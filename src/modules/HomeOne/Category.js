@@ -14,32 +14,75 @@ export default function Category() {
   }, []);
   return (
     <div className="best-university container">
+      <div className="best-university-heading">
+        <h1>- Best University in Ahmedabad</h1>
+      </div>
       <div className="row">
         <div className="col-lg-6">
-          <div
-            id="carouselExampleAutoplaying"
-            class="carousel carousel-fade slide"
-            data-bs-ride="carousel"
-          >
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <Image className="img-fluid" src={best1}></Image>
+          <div className="best-carousel">
+            <div
+              id="carouselExampleFade"
+              className="carousel slide carousel-fade"
+            >
+              <div className="carousel-inner">
+                <div className="carousel-item active">
+                  <img
+                    src="/img/category/best-2.jpg"
+                    className="d-block w-100"
+                    alt="..."
+                  />
+                </div>
+                <div className="carousel-item">
+                  <img
+                    src="/img/category/best-3.jpg"
+                    className="d-block w-100"
+                    alt="..."
+                  />
+                </div>
+                <div className="carousel-item">
+                  <img
+                    src="/img/category/best-7.jpg"
+                    className="d-block w-100"
+                    alt="..."
+                  />
+                </div>
+                <div className="carousel-item">
+                  <img
+                    src="/img/category/best-4.jpg"
+                    className="d-block w-100"
+                    alt="..."
+                  />
+                </div>
               </div>
-              <div class="carousel-item">
-                <Image className="img-fluid" src={best2}></Image>
-              </div>
-              <div class="carousel-item">
-                <Image className="img-fluid" src={best3}></Image>
-              </div>
-              <div class="carousel-item">
-                <Image className="img-fluid" src={best4}></Image>
-              </div>
+              <button
+                className="carousel-control-prev"
+                type="button"
+                data-bs-target="#carouselExampleFade"
+                data-bs-slide="prev"
+              >
+                <span
+                  className="carousel-control-prev-icon"
+                  aria-hidden="true"
+                ></span>
+                <span className="visually-hidden">Previous</span>
+              </button>
+              <button
+                className="carousel-control-next"
+                type="button"
+                data-bs-target="#carouselExampleFade"
+                data-bs-slide="next"
+              >
+                <span
+                  className="carousel-control-next-icon"
+                  aria-hidden="true"
+                ></span>
+                <span className="visually-hidden">Next</span>
+              </button>
             </div>
           </div>
         </div>
-        <div className="col-lg-6">
+        <div className="col-lg-6 mt-lg-0 mt-4">
           <div className="best-university-text">
-            <h2>Best University in Ahmedabad</h2>
             <p>
               Monark University is one of the leading University in Gujarat,
               which provides Quality Education to the aspirants. Various study

@@ -51,48 +51,48 @@ export default function Course() {
   return (
     <div className="student-club container py-5">
 		<div className="student-club-heading">
-			<h2 className="text-center mb-2">Student Club</h2>
-			<hr className="mb-4"/>
+			<h2>Student Club</h2>
 		</div>
-      <OwlCarousel
-        className="owl-theme"
-        loop={true}
-        autoPlay={true}
-        autoplayTimeout={5000}
-        // dots={true}
-        responsive={Responsive}
-      >
-        <div className="item">
-          <Image className="img-fluid" src={carimg1}></Image>
+    <div className="student-club-main">
+      <div className="row">
+        <div className="student-club-info col-lg-8 h-100">
+          <div className="student-club-image">
+          <img className="img-fluid" src="/img/studentclub/multy.jpg" alt="" />
+          </div>
+          <div className="student-club-text">
+          <h4>Multi Activity club</h4>
+          <p>Green clubs in colleges will empower students to participate and take up meaningful environmental activities and projects.</p>
+          </div>
         </div>
-        <div className="item">
-          <Image className="img-fluid" src={carimg2}></Image>
+        <div className="student-club-info col-lg-4 h-100">
+          <div className="student-club-image">
+          <img className="img-fluid" src="/img/studentclub/go_green.jpg" alt="" />
+          </div>
+          <div className="student-club-text">
+          <h4>Go Green Clubs</h4>
+          <p>Green clubs in colleges will empower students to participate and take up meaningful environmental activities and projects.</p>
+          </div>
         </div>
-        <div className="item">
-          <Image className="img-fluid" src={carimg3}></Image>
+        <div className="student-club-info col-lg-4 h-100 mt-4">
+          <div className="student-club-image">
+          <img className="img-fluid" src="/img/studentclub/spiritual.jpg" alt="" />
+          </div>
+          <div className="student-club-text">
+          <h4>Spiritual Club</h4>
+          <p>Green clubs in colleges will empower students to participate and take up meaningful environmental activities and projects.</p>
+          </div>
         </div>
-        <div className="item">
-          <Image className="img-fluid" src={carimg4}></Image>
+        <div className="student-club-info col-lg-8 h-100 mt-4">
+          <div className="student-club-image">
+          <img className="img-fluid" src="/img/studentclub/devlop.jpg" alt="" />
+          </div>
+          <div className="student-club-text">
+          <h4>Personality Develop Club</h4>
+          <p>Green clubs in colleges will empower students to participate and take up meaningful environmental activities and projects.</p>
+          </div>
         </div>
-        <div className="item">
-          <Image className="img-fluid" src={carimg5}></Image>
-        </div>
-        <div className="item">
-          <Image className="img-fluid" src={carimg6}></Image>
-        </div>
-        <div className="item">
-          <Image className="img-fluid" src={carimg7}></Image>
-        </div>
-        <div className="item">
-          <Image className="img-fluid" src={carimg8}></Image>
-        </div>
-        <div className="item">
-          <Image className="img-fluid" src={carimg9}></Image>
-        </div>
-        <div className="item">
-          <Image className="img-fluid" src={carimg10}></Image>
-        </div>
-      </OwlCarousel>
+      </div>
+    </div>
     </div>
   );
 }

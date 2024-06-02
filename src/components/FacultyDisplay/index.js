@@ -124,7 +124,7 @@ const index = () => {
               <h2 className="text-center">What Students Say..</h2>
               <hr />
             </div>
-            {/* <OwlCarousel2
+            <OwlCarousel
               className="owl-theme"
               loop={true}
               autoPlay={true}
@@ -251,7 +251,7 @@ const index = () => {
                   </div>
                 </div>
               </div>
-            </OwlCarousel2> */}
+            </OwlCarousel>
           </div>
         </div>
       </div>
