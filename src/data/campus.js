@@ -105,11 +105,11 @@ const campusdata=[
 },
 {
     id:27,
-    img: "/img/campus/cm27.jpg"
+    img: "/img/campus/cm24.jpg"
 },
 {
     id:28,
-    img: "/img/campus/cm24.jpg"
+    img: "/img/campus/cm27.jpg"
 },
 {
     id:29,
@@ -125,7 +125,7 @@ const campusdata=[
 },
 {
     id:32,
-    img: "/img/campus/cm28.jpg"
+    img: "/img/campus/cm30.jpg"
 },
 {
     id:33,
@@ -133,11 +133,11 @@ const campusdata=[
 },
 {
     id:34,
-    img: "/img/campus/cm30.jpg"
+    img: "/img/campus/cm28.jpg"
 },
 {
     id:35,
-    img: "/img/campus/cm66.jpg"
+    img: "/img/campus/cm35.jpg"
 },
 {
     id:36,

@@ -3,7 +3,7 @@ import Newsletter from "@/components/Newsletter"
 import BreadCrumbs from "@/components/BreadCrumbs"
 import ScrollTop from "@/components/ScrollTop"
 import BlogArea from "@/components/Studentclubdisplay"
-// import Campusdisplay from "@/components/Campusdisplay"
+import Campusdisplay from "@/components/campusdisplay"
 
 
 export default function CampusModules() {
@@ -14,7 +14,7 @@ export default function CampusModules() {
 				
 			/>
 
-			<BlogArea/>
+			<Campusdisplay/>
 			<Newsletter />
 			<ScrollTop />
 		</main>
