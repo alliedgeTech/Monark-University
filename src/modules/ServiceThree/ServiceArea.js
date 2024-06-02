@@ -1,4 +1,4 @@
-import Services3 from "@/data/services3"
+import Services3 from "@/data/pgcourses"
 import SingleFeatureThree from "@/components/Feature/Three"
 
 export default function ServiceThreeArea() {
@@ -11,11 +11,11 @@ export default function ServiceThreeArea() {
 							return (
 								<div className="col-xl-4 col-lg-4 col-md-6 mb-30">
 									<SingleFeatureThree 
-										Slug={service.slug}
+										Slug={service.id}
 										Icon={service.icon}
-										Title={service.title}
-										Description={service.description}
+										Title={service.branchName}
 										btnText={service.btnText}
+										Description={service.courseCount}
 									/>
 								</div>
 							);

@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { useRouter } from 'next/router';
 import { Container, Row, Col, Accordion, Card } from 'react-bootstrap';
 import Slider from 'react-slick';
-import After12 from '@/data/after12';
+import pgcourses from '@/data/pgcourses';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import styles from "./ServiceDetailsArea.module.css";
@@ -18,7 +18,7 @@ export default function ServiceDetailsArea() {
   useEffect(() => {
     setIsMounted(true);
     if (id) {
-      const foundItem = After12.find(data => data?.id == id);
+      const foundItem = pgcourses.find(data => data?.id == id);
       setItem(foundItem);
       if (foundItem) {
         setCourses(foundItem.corse);
@@ -73,7 +73,7 @@ export default function ServiceDetailsArea() {
             <Col lg={6} className="text-center">
               <div className={styles.chooseThumbBox}>
                 <div className={styles.chooseThumb}>
-                  <img src={item.titleImage} className="img-fluid rounded" alt="" />
+                <img src={item.titleImage} className="img-fluid rounded" alt="" />
                 </div>
               </div>
             </Col>

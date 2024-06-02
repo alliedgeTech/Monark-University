@@ -1,16 +1,17 @@
 import BreadCrumbs from "@/components/BreadCrumbs"
-import ServiceThreeArea from "./ServiceArea"
+import ServiceDetailsArea from "./ServiceDetailsArea3"
 import Newsletter from "@/components/Newsletter"
 import ScrollTop from "@/components/ScrollTop"
 
-export default function ServiceThreeModules() {
+export default function ServiceDetailsModules(singleService) {
+	console.log(singleService)
 	return (
 		<main>
 			<BreadCrumbs
-				Title="pgcourses"
+				Title="Pg courses"
 				subTitle="Service-3"
 			/>
-			<ServiceThreeArea />
+			<ServiceDetailsArea item={singleService.item} />
 			<Newsletter />
 			<ScrollTop />
 		</main>
