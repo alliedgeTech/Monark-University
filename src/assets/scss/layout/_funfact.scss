@@ -132,10 +132,9 @@
         height: 87px;
         width: 87px;
         border-radius: 50%;
-        line-height: 102px;
-        text-align: center;
+       
         margin: 0 auto;
-        background-color: var(--it-common-yellow-2);
+        
         position: relative;
         & span{
             font-size: 45px;
@@ -150,7 +149,7 @@
             width: 100%;
             border-radius: 50%;
             transform: scale(1.15);
-            border: 1px dashed var(--it-common-yellow-2);
+        
         }
     }
     &-content {

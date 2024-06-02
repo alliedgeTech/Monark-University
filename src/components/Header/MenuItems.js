@@ -530,22 +530,22 @@ export default function MenuItems(props) {
             </ul>
           </li>
           <li className="nav-link has-dropdown">
-            <Link href="blog">Infrastructure</Link>
+            <Link href="infrastructure">Infrastructure</Link>
             <ul className="it-submenu submenu">
               <li>
-                <Link href="/blog">Laboratories</Link>
+                <Link href="/infrastructure#lab">Laboratories</Link>
               </li>
               <li>
-                <Link href="/blog-2">Library</Link>
+                <Link href="/infrastructure#library">Library</Link>
               </li>
               <li>
-                <Link href="/blog-sidebar">Hostel</Link>
+                <Link href="/infrastructure#hostel">Hostel</Link>
               </li>
               <li>
-                <Link href="/blog/blog-one">Auditorium & Conference Hall</Link>
+                <Link href="/infrastructure#ac">Auditorium & Conference Hall</Link>
               </li>
               <li>
-                <Link href="/blog/blog-one">Sports Ground & Court</Link>
+                <Link href="/infrastructure#ground">Sports Ground & Court</Link>
               </li>
             </ul>
           </li>
