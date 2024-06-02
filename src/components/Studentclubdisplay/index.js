@@ -1,39 +1,36 @@
-import Sidebar from "@/components/Blog/Sidebar"
-import SingleBlogThree from "@/components/Blog/Three"
-import Blogs from "@/data/blogs"
+import React from "react";
 import Image from "next/image";
-import Link from "next/link";
+import studentclubdata from "@/data/studentclub";
+import Sidebar from "@/components/Blog/Sidebar";
 
 export default function BlogArea() {
-	return (
-		<div className="postbox__area pt-120 pb-120">
-			<div className="container">
-				<div className="row">
-					<div className="col-xl-6 col-lg-6">
-						<div className="postbox__details-wrapper">
-							{
-								Blogs.map((blog) => {
-									return (
-										<SingleBlogThree 
-											blogClass="postbox__thumb-box mb-80"
-											Slug={blog.slug}
-											Title={blog.title}
-											Img={blog.image}
-											Author={blog.Author} 
-											publishedDate={blog.publishedDate}
-											btnText={blog.btnText}
-										/>
-									);
-								}).slice(13, 16)
-							}
-						</div>
-					</div>
-					<div className="col-xxl-6 col-xl-6 col-lg-6">
-						<Sidebar />
-					</div>
-				</div>
-				
-			</div>
-		</div>
-	)
+  return (
+    <div className="postbox__area pt-120 pb-120">
+      <div className="container">
+        <div className="row">
+          <div className="h-100 col-xl-6 col-lg-6">
+            <div className="postbox__details-wrapper">
+              {studentclubdata.map((std, index) => (
+                <div key={index}>
+                  <div className="it-gallery-item p-relative">
+                    <div className="it-gallery-thumb">
+                      <img
+                        src={std.img}
+                        width={300}
+                        height={300}
+                        className="img-fluid"
+                      />
+                    </div>
+                  </div>
+                </div>
+              ))}
+            </div>
+          </div>
+          <div className="h-100 col-xl-6 col-lg-6">
+            <Sidebar />
+          </div>
+        </div>
+      </div>
+    </div>
+  );
 }
