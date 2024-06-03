@@ -1,9 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
 *{
     scroll-behavior: smooth !important;
     text-decoration: none;
 }
 body{
     background: #fff;
+    font-family: Poppins !important;
 }
 :root{
     --web-color:#054B81;

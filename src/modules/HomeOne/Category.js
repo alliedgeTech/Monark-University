@@ -7,11 +7,64 @@ import best1 from "../../../public/img/category/best-2.jpg";
 import best2 from "../../../public/img/category/best-3.jpg";
 import best3 from "../../../public/img/category/best-7.jpg";
 import best4 from "../../../public/img/category/best-4.jpg";
+import gsap from 'gsap';
+import { ScrollTrigger } from 'gsap/dist/ScrollTrigger';
 
 export default function Category() {
+
+  useEffect(() => {
+    gsap.registerPlugin(ScrollTrigger);
+    let mm=gsap.matchMedia()
+
+    mm.add("(min-width:991px)",()=>{
+      gsap.from(".best-university-heading h1", {
+        opacity:0,
+        scale:0.5,
+        y:100,
+        scrollTrigger: {
+          trigger: ".best-university-heading h1",
+          scroller:'body',
+          start: "top bottom",
+          end: "top 70%",
+          scrub: true,
+        },
+      });
+  
+      gsap.from(".best-carousel",{
+        opacity:0,
+        x:'-50%',
+        scrollTrigger: {
+          trigger: ".best-carousel",
+          scroller:'body',
+          start: "top bottom",
+          end: "top 80%",
+          scrub: true,
+        },
+      })
+      gsap.from(".best-university-text p",{
+        opacity:0,
+        x:'50%',
+        stagger:0.4,
+        scrollTrigger: {
+          trigger: ".best-university-text p",
+          scroller:'body',
+          start: "top bottom",
+          end: "top 70%",
+          scrub: true,
+          markers:true,
+        },
+      })
+    })
+
+
+  }, []);
+
   useEffect(() => {
     require("bootstrap/dist/js/bootstrap.bundle.min.js");
   }, []);
+
+
+
   return (
     <div className="best-university container-fluid">
       <div className="best-university-heading">
