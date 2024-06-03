@@ -49,13 +49,13 @@ const Responsive = {
 
 export default function Course() {
   return (
-    <div className="student-club container py-5">
+    <div className="student-club bg-light container-fluid py-5">
 		<div className="student-club-heading">
-			<h2>Student Club</h2>
+			<h2 className="text-center">Student Club</h2>
 		</div>
     <div className="student-club-main">
       <div className="row">
-        <div className="student-club-info col-lg-8 h-100">
+        <div className="student-club-info col-lg-8 mt-lg-0 mt-4 h-100">
           <div className="student-club-image">
           <img className="img-fluid" src="/img/studentclub/multy.jpg" alt="" />
           </div>
@@ -64,7 +64,7 @@ export default function Course() {
           <p>Green clubs in colleges will empower students to participate and take up meaningful environmental activities and projects.</p>
           </div>
         </div>
-        <div className="student-club-info col-lg-4 h-100">
+        <div className="student-club-info col-lg-4 mt-lg-0 mt-4 h-100">
           <div className="student-club-image">
           <img className="img-fluid" src="/img/studentclub/go_green.jpg" alt="" />
           </div>
@@ -91,6 +91,9 @@ export default function Course() {
           <p>Green clubs in colleges will empower students to participate and take up meaningful environmental activities and projects.</p>
           </div>
         </div>
+      </div>
+      <div className="student-club-btn text-center">
+        <button className="mt-5">Know More</button>
       </div>
     </div>
     </div>

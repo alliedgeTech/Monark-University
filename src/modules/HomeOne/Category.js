@@ -13,7 +13,7 @@ export default function Category() {
     require("bootstrap/dist/js/bootstrap.bundle.min.js");
   }, []);
   return (
-    <div className="best-university container">
+    <div className="best-university container-fluid">
       <div className="best-university-heading">
         <h1>- Best University in Ahmedabad</h1>
       </div>
