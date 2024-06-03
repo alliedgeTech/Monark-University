@@ -88,13 +88,13 @@ h1 {
  }
 .hero-section{
     margin-top: 75px;
+    z-index: -1;
+    position: relative;
 }
 
 .hero-img{
     position: relative;
     overflow: hidden;
-    border-bottom-left-radius: 6vmax;
-    border-bottom-right-radius: 6vmax;
 }
 .hero-img::before{
     position: absolute;
@@ -145,23 +145,24 @@ h1 {
 }
 .best-university-heading h1{
     font-size: 4vw;
-    color: var(--web-white);
+    color: #000;
 }
 .best-university{
-    background: linear-gradient(#0000006e,#000000ca),url(../public/img/category/monark-name.jpg);
+    z-index: 999 !important;
+    background: #ffffff;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     border-radius:6vmax ;
-    margin-top: 1.5vmax;
-    padding: 6vmax 4vmax !important;
+    margin-top: -5.8vmax;
+    padding: 5vmax 4vmax !important;
 }
 .best-university .row{
     padding: auto 100px;
 }
 .best-university-text p{
     text-align: justify;
-    color: var(--web-grey-white);
+    color: #000;
 }
 
 .student-club-image{
