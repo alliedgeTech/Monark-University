@@ -70,7 +70,7 @@ const index = () => {
                 <h1 className="text-center mb-30 w-100">{faculty.name}</h1>
 			</div>
                 <h3 className="mt-5">
-                <i class="fa-regular fa-hand-point-right mb-0 mx-4"></i>{faculty.heading}
+                <i class="fa-regular fa-hand-point-right mb-0 mr-10"></i>{faculty.heading}
                 </h3>
                 <div className="row">
                   <div className="col-lg-6 col-12 mt-4">
@@ -94,11 +94,11 @@ const index = () => {
                 </div>
                 <div style={{ marginTop: "40px" }}>
                   <OwlCarousel
-                    className="owl"
+                    className="owl-theme faculty-carousel"
+                    dots={true}
                     loop={true}
                     autoPlay={true}
                     autoplayTimeout={5000}
-                    // dots={true}
                     responsive={Responsive}
                   >
                     <div className="item">
@@ -125,7 +125,7 @@ const index = () => {
               <hr />
             </div>
             <OwlCarousel
-              className="owl-theme"
+              className=""
               loop={true}
               autoPlay={true}
               autoplayTimeout={5000}
