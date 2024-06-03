@@ -50,9 +50,11 @@ const Responsive = {
 export default function Course() {
   return (
     <div className="student-club bg-light container-fluid py-5">
-		<div className="student-club-heading">
-			<h2 className="text-center">Student Club</h2>
-		</div>
+		<div className="student-placement-heading d-flex align-items-center justify-content-center">
+				<div className="line"></div>
+				<h1 className="text-center mb-0 w-100">Student Clubs</h1>
+				<div className="line"></div>
+			</div>
     <div className="student-club-main">
       <div className="row">
         <div className="student-club-info col-lg-8 mt-lg-0 mt-4 h-100">

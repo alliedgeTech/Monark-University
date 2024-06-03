@@ -57,7 +57,7 @@ const apvrs = [
 export default function About() {
   return (
     <div id="historicalbackground" >
-      <div className="it-choose-area p-relative pt-180 pb-110">
+      <div className="it-choose-area p-relative pt-100">
         <div className="it-choose-shape-4 d-none d-md-block">
           <Image
             src="/img/choose/shape-1-4.png"
@@ -67,10 +67,9 @@ export default function About() {
           />
         </div>
         <div className="container">
-          <div className="row align-items-center">
-            <div className="col-xl-6 col-lg-6 mb-30">
-              <div className="it-choose-left">
-                <div className="it-choose-title-box mb-30">
+          <div className="row">
+            <div className="col-lg-6 col-12">
+            <div className="it-choose-title-box ">
                   <span className="it-section-subtitle">
                     Historical Background
                   </span>
@@ -90,65 +89,9 @@ export default function About() {
                     have now come under the purview of the Monark University.
                   </p>
                 </div>
-                <div className="it-choose-content-box">
-                  <div className="row gx-20">
-                    <div className="col-md-6 col-sm-6 mb-20">
-                      <div className="it-choose-content">
-                        <h5>
-                          <i className="fa-solid fa-circle-check"></i>World
-                          Class Trainers
-                        </h5>
-                        <p>
-                          Experience excellence with our world-class faculty,
-                          dedicated to nurturing your academic journey with
-                          expertise and passion.{" "}
-                        </p>
-                      </div>
-                    </div>
-                    <div className="col-md-6 col-sm-6 mb-20">
-                      <div className="it-choose-content">
-                        <h5>
-                          <i className="fa-solid fa-circle-check"></i>Easy
-                          Learning
-                        </h5>
-                        <p>
-                          Embark on a journey of effortless learning with our
-                          engaging approach and supportive faculty, making
-                          education a seamless and enjoyable experience.{" "}
-                        </p>
-                      </div>
-                    </div>
-                    <div className="col-md-6 col-sm-6 mb-20">
-                      <div className="it-choose-content">
-                        <h5>
-                          <i className="fa-solid fa-circle-check"></i>Flexible
-                        </h5>
-                        <p>
-                          Experience easy, flexible learning with our adaptable
-                          approach and supportive faculty, empowering you to
-                          learn at your own pace and convenience.
-                        </p>
-                      </div>
-                    </div>
-                    <div className="col-md-6 col-sm-6 mb-20">
-                      <div className="it-choose-content">
-                        <h5>
-                          <i className="fa-solid fa-circle-check"></i>Affordable
-                          Price
-                        </h5>
-                        <p>
-                          Unlock the door to easy, affordable learning with our
-                          accessible approach and budget-friendly options,
-                          ensuring education is within reach for all.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
             </div>
-            <div className="col-xl-6 col-lg-6 mb-30">
-              <div className="it-choose-thumb-box text-center text-md-end">
+            <div className="col-lg-6 col-12">
+            <div className="it-choose-thumb-box text-center text-md-end">
                 <div className="it-choose-thumb p-relative">
                   <Image src={fullimg} className="img-fluid" alt="" />
                   <div className="it-choose-shape-1">
@@ -179,14 +122,67 @@ export default function About() {
               </div>
             </div>
           </div>
+          <div className="row">
+            <div className="col-lg-6 col-12 mt-lg-0 mt-4">
+            <div className="it-choose-content">
+                        <h5>
+                          <i className="fa-solid fa-circle-check"></i>World
+                          Class Trainers
+                        </h5>
+                        <p>
+                          Experience excellence with our world-class faculty,
+                          dedicated to nurturing your academic journey with
+                          expertise and passion.
+                        </p>
+                      </div>
+            </div>
+            <div className="col-lg-6 col-12 mt-lg-0 mt-4">
+            <div className="it-choose-content">
+                        <h5>
+                          <i className="fa-solid fa-circle-check"></i>Easy
+                          Learning
+                        </h5>
+                        <p>
+                          Embark on a journey of effortless learning with our
+                          engaging approach and supportive faculty, making
+                          education a seamless and enjoyable experience.{" "}
+                        </p>
+                      </div>
+            </div>
+            <div className="col-lg-6 col-12 mt-4">
+            <div className="it-choose-content">
+                        <h5>
+                          <i className="fa-solid fa-circle-check"></i>Flexible
+                        </h5>
+                        <p>
+                          Experience easy, flexible learning with our adaptable
+                          approach and supportive faculty, empowering you to
+                          learn at your own pace and convenience.
+                        </p>
+                      </div>
+            </div>
+            <div className="col-lg-6 col-12 mt-4">
+            <div className="it-choose-content">
+                        <h5>
+                          <i className="fa-solid fa-circle-check"></i>Affordable
+                          Price
+                        </h5>
+                        <p>
+                          Unlock the door to easy, affordable learning with our
+                          accessible approach and budget-friendly options,
+                          ensuring education is within reach for all.
+                        </p>
+                      </div>
+            </div>
+          </div>
         </div>
       </div>
       {/* Years and trust start*/}
       <div>
         <div class="container">
           <div class="row">
-            <div class="col-xl-3 col-lg-3 col-md-3 mb-30">
-              <div class="it-event-2-area it-event-style-3 p-relative pt-90 pb-90">
+            <div class="col-xl-3 col-lg-3 col-md-3 mt-4 h-100">
+              <div class="it-event-2-area it-event-style-3 p-relative ">
                 <div class="it-event-2-item-box">
                   <div class="it-event-2-item">
                     <div class="it-event-2-thumb fix">
@@ -216,8 +212,8 @@ export default function About() {
               </div>
             </div>
 
-            <div class="col-xl-3 col-lg-3 col-md-3 mb-30">
-              <div class="it-event-2-area it-event-style-3 p-relative pt-90 pb-90">
+            <div class="col-xl-3 col-lg-3 col-md-3 mt-4 h-100">
+              <div class="it-event-2-area it-event-style-3 p-relative ">
                 <div class="it-event-2-item-box">
                   <div class="it-event-2-item">
                     <div class="it-event-2-thumb fix">
@@ -246,8 +242,8 @@ export default function About() {
                 </div>
               </div>
             </div>
-            <div class="col-xl-3 col-lg-3 col-md-3 mb-30">
-              <div class="it-event-2-area it-event-style-3 p-relative pt-90 pb-90">
+            <div class="col-xl-3 col-lg-3 col-md-3 mt-4 h-100">
+              <div class="it-event-2-area it-event-style-3 p-relative ">
                 <div class="it-event-2-item-box">
                   <div class="it-event-2-item">
                     <div class="it-event-2-thumb fix">
@@ -277,8 +273,8 @@ export default function About() {
               </div>
             </div>
 
-            <div class="col-xl-3 col-lg-3 col-md-3 mb-30">
-              <div class="it-event-2-area it-event-style-3 p-relative pt-90 pb-90">
+            <div class="col-xl-3 col-lg-3 col-md-3 mt-4 h-100">
+              <div class="it-event-2-area it-event-style-3 p-relative ">
                 <div class="it-event-2-item-box">
                   <div class="it-event-2-item">
                     <div class="it-event-2-thumb fix">
@@ -308,8 +304,8 @@ export default function About() {
               </div>
             </div>
 
-            <div class="col-xl-3 col-lg-3 col-md-3 mb-30">
-              <div class="it-event-2-area it-event-style-3 p-relative pt-90 pb-90">
+            <div class="col-xl-3 col-lg-3 col-md-3 mt-4 h-100">
+              <div class="it-event-2-area it-event-style-3 p-relative ">
                 <div class="it-event-2-item-box">
                   <div class="it-event-2-item">
                     <div class="it-event-2-thumb fix">
@@ -337,8 +333,8 @@ export default function About() {
               </div>
             </div>
 
-            <div class="col-xl-3 col-lg-3 col-md-3 mb-30">
-              <div class="it-event-2-area it-event-style-3 p-relative pt-90 pb-90">
+            <div class="col-xl-3 col-lg-3 col-md-3 mt-4 h-100">
+              <div class="it-event-2-area it-event-style-3 p-relative ">
                 <div class="it-event-2-item-box">
                   <div class="it-event-2-item">
                     <div class="it-event-2-thumb fix">
@@ -367,8 +363,8 @@ export default function About() {
               </div>
             </div>
 
-            <div class="col-xl-3 col-lg-3 col-md-3 mb-30">
-              <div class="it-event-2-area it-event-style-3 p-relative pt-90 pb-90">
+            <div class="col-xl-3 col-lg-3 col-md-3 mt-4 h-100">
+              <div class="it-event-2-area it-event-style-3 p-relative ">
                 <div class="it-event-2-item-box">
                   <div class="it-event-2-item">
                     <div class="it-event-2-thumb fix">
@@ -398,8 +394,8 @@ export default function About() {
               </div>
             </div>
 
-            <div class="col-xl-3 col-lg-3 col-md-3 mb-30">
-              <div class="it-event-2-area it-event-style-3 p-relative pt-90 pb-90">
+            <div class="col-xl-3 col-lg-3 col-md-3 mt-4 h-100">
+              <div class="it-event-2-area it-event-style-3 p-relative ">
                 <div class="it-event-2-item-box">
                   <div class="it-event-2-item">
                     <div class="it-event-2-thumb fix">
@@ -427,8 +423,8 @@ export default function About() {
               </div>
             </div>
 
-            <div class="col-xl-3 col-lg-3 col-md-3 mb-30">
-              <div class="it-event-2-area it-event-style-3 p-relative pt-90 pb-90">
+            <div class="col-xl-3 col-lg-3 col-md-3 mt-4 h-100">
+              <div class="it-event-2-area it-event-style-3 p-relative ">
                 <div class="it-event-2-item-box">
                   <div class="it-event-2-item">
                     <div class="it-event-2-thumb fix">
@@ -458,8 +454,8 @@ export default function About() {
               </div>
             </div>
 
-            <div class="col-xl-3 col-lg-3 col-md-3 mb-30">
-              <div class="it-event-2-area it-event-style-3 p-relative pt-90 pb-90">
+            <div class="col-xl-3 col-lg-3 col-md-3 mt-4 h-100">
+              <div class="it-event-2-area it-event-style-3 p-relative ">
                 <div class="it-event-2-item-box">
                   <div class="it-event-2-item">
                     <div class="it-event-2-thumb fix">
@@ -489,8 +485,8 @@ export default function About() {
               </div>
             </div>
 
-            <div class="col-xl-3 col-lg-3 col-md-3 mb-30">
-              <div class="it-event-2-area it-event-style-3 p-relative pt-90 pb-90">
+            <div class="col-xl-3 col-lg-3 col-md-3 mt-4 h-100">
+              <div class="it-event-2-area it-event-style-3 p-relative ">
                 <div class="it-event-2-item-box">
                   <div class="it-event-2-item">
                     <div class="it-event-2-thumb fix">
@@ -520,8 +516,8 @@ export default function About() {
               </div>
             </div>
 
-            <div class="col-xl-3 col-lg-3 col-md-3 mb-30">
-              <div class="it-event-2-area it-event-style-3 p-relative pt-90 pb-90">
+            <div class="col-xl-3 col-lg-3 col-md-3 mt-4 h-100">
+              <div class="it-event-2-area it-event-style-3 p-relative ">
                 <div class="it-event-2-item-box">
                   <div class="it-event-2-item">
                     <div class="it-event-2-thumb fix">
@@ -551,8 +547,8 @@ export default function About() {
               </div>
             </div>
 
-            <div class="col-xl-3 col-lg-3 col-md-3 mb-30">
-              <div class="it-event-2-area it-event-style-3 p-relative pt-90 pb-90">
+            <div class="col-xl-3 col-lg-3 col-md-3 mt-4 h-100">
+              <div class="it-event-2-area it-event-style-3 p-relative ">
                 <div class="it-event-2-item-box">
                   <div class="it-event-2-item">
                     <div class="it-event-2-thumb fix">
@@ -582,8 +578,8 @@ export default function About() {
               </div>
             </div>
 
-            <div class="col-xl-3 col-lg-3 col-md-3 mb-30">
-              <div class="it-event-2-area it-event-style-3 p-relative pt-90 pb-90">
+            <div class="col-xl-3 col-lg-3 col-md-3 mt-4 h-100">
+              <div class="it-event-2-area it-event-style-3 p-relative ">
                 <div class="it-event-2-item-box">
                   <div class="it-event-2-item">
                     <div class="it-event-2-thumb fix">
@@ -613,8 +609,8 @@ export default function About() {
               </div>
             </div>
 
-            <div class="col-xl-3 col-lg-3 col-md-3 mb-30">
-              <div class="it-event-2-area it-event-style-3 p-relative pt-90 pb-90">
+            <div class="col-xl-3 col-lg-3 col-md-3 mt-4 h-100">
+              <div class="it-event-2-area it-event-style-3 p-relative ">
                 <div class="it-event-2-item-box">
                   <div class="it-event-2-item">
                     <div class="it-event-2-thumb fix">
@@ -644,8 +640,8 @@ export default function About() {
               </div>
             </div>
 
-            <div class="col-xl-3 col-lg-3 col-md-3 mb-30">
-              <div class="it-event-2-area it-event-style-3 p-relative pt-90 pb-90">
+            <div class="col-xl-3 col-lg-3 col-md-3 mt-4 h-100">
+              <div class="it-event-2-area it-event-style-3 p-relative ">
                 <div class="it-event-2-item-box">
                   <div class="it-event-2-item">
                     <div class="it-event-2-thumb fix">
@@ -675,8 +671,8 @@ export default function About() {
               </div>
             </div>
 
-            <div class="col-xl-3 col-lg-3 col-md-3 mb-30">
-              <div class="it-event-2-area it-event-style-3 p-relative pt-90 pb-90">
+            <div class="col-xl-3 col-lg-3 col-md-3 mt-4 h-100">
+              <div class="it-event-2-area it-event-style-3 p-relative ">
                 <div class="it-event-2-item-box">
                   <div class="it-event-2-item">
                     <div class="it-event-2-thumb fix">
@@ -772,7 +768,7 @@ export default function About() {
                       </h4>
                     </div>
                   </div>
-                  <div class="col-xl-6 col-lg-6 mb-30">
+                  <div class="col-xl-6 col-lg-6 ">
                     <div class="it-career-item p-relative fix">
                       <div class="it-career-content">
                         <span>Vision</span>
@@ -812,7 +808,7 @@ export default function About() {
                       </div>
                     </div>
                   </div>
-                  <div class="col-xl-6 col-lg-6 mb-30">
+                  <div class="col-xl-6 col-lg-6 ">
                     <div class="it-career-item p-relative fix">
                       <div class="it-career-content">
                         <span>Mission</span>

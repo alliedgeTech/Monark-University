@@ -11,15 +11,90 @@ body{
     --web-grey-white:#fafafa;
     --web-white:#fff;
 }
-p{
-    font-size: 14px !important;
-}
+h1 {
+    font-size: 40px;
+  }
+  
+  h2 {
+    font-size: 32px;
+  }
+  
+  h3 {
+    font-size: 28px;
+  }
+  
+  h4 {
+    font-size: 24px;
+  }
+  
+  h5 {
+    font-size: 20px;
+  }
+  
+  h6 {
+    font-size: 16px;
+  }
+  
+  ul {
+    margin: 0px;
+    padding: 0px;
+  }
+  
+  p {
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 32px;
+  }
+ @media screen and (max-width: 768px) {
+    h1 {
+        font-size: 32px !important;
+      }
+      
+      h2 {
+        font-size: 28px !important;
+      }
+      
+      h3 {
+        font-size: 23px !important;
+      }
+      
+      h4 {
+        font-size: 20px !important;
+      }
+      
+      h5 {
+        font-size: 18px !important;
+      }
+      
+      h6 {
+        font-size: 15px !important;
+      }
+      
+      ul {
+        margin: 0px;
+        padding: 0px;
+      }
+      
+      p {
+        font-weight: 400;
+        font-size: 14px !important;
+        line-height: 32px;
+      }
+ }
+ .line{
+    height: 2px;
+    width: 100% ;
+    background: var(--web-color);
+ }
 .hero-section{
     margin-top: 75px;
 }
 
 .hero-img{
     position: relative;
+    overflow: hidden;
+    border-bottom-left-radius: 6vmax;
+    border-bottom-right-radius: 6vmax;
 }
 .hero-img::before{
     position: absolute;
@@ -34,6 +109,7 @@ p{
     left: 50%;
     transform: translate(-50%,-50%);
     text-align: center;
+    width: 95%;
 }
 .hero-text h1{
     font-size: 10vw;
@@ -76,8 +152,8 @@ p{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    margin: 4vmax;
     border-radius:6vmax ;
+    margin-top: 1.5vmax;
     padding: 6vmax 4vmax !important;
 }
 .best-university .row{
@@ -136,6 +212,7 @@ p{
 .student-club-text p{
     color: var(--web-grey-white);
 }
+
 
 .latest-box{
     padding: 20px;
@@ -421,3 +498,7 @@ p{
     list-style: disc;
   }
     
+/* about */
+.it-event-2-area:hover .it-event-2-thumb img{
+    transform:rotate(0) scale(1.03) !important;
+}

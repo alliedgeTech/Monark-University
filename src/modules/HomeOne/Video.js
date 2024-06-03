@@ -52,11 +52,12 @@ export default function Video() {
   return (
 	
 	
-    <div  className="Latest-News container py-4">
-      <div className="latest-heading">
-        <h2 className="text-center mb-1">Latest News</h2>
-        <hr className="mb-4"/>
-      </div>
+    <div  className="Latest-News container-fluid py-4">
+      <div className="student-placement-heading d-flex align-items-center justify-content-center mb-20">
+				<div className="line"></div>
+				<h1 className="text-center mb-0 w-100">Latest News</h1>
+				<div className="line"></div>
+			</div>
 
       <OwlCarousel
         className="owl-theme px-2"
@@ -64,7 +65,6 @@ export default function Video() {
         autoPlay={true}
 		margin={10}
         autoplayTimeout={5000}
-        // dots={true}
         responsive={Responsive}
       >
         <div className="item">
