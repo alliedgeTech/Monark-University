@@ -13,9 +13,7 @@ const Syllabusdetails = () => {
   }
 
   return (
-    <div>
-      
-
+    <div>  
      hi
     </div>
   );
