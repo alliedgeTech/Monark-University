@@ -705,7 +705,7 @@ export default function About() {
 
           {/* vision and mission start*/}
 
-          <div id="visionandmission">
+          <div id="visionandmission" className="mt-30">
             <div class="it-career-area it-career-bg p-relative pt-120">
               <div class="it-career-shape-2 d-none d-xl-block">
                 <img
@@ -855,10 +855,10 @@ export default function About() {
 
             {/* President message start*/}
             <div id="presidentmessage">
-              <div className="it-sv-details-area pt-120 pb-120">
+              <div className="it-sv-details-area mt-50">
                 <div className="container">
                   <div className="row">
-                    <div className="col-xl col-lg">
+                    <div className="col-xl col-lg about-1">
                       <div className="it-sv-details-top-wrap mb-20">
                         <div className="row">
                           <div className="col-xl-6 col-lg-6">
@@ -977,7 +977,7 @@ export default function About() {
 
               {/* Vice President message start*/}
               <div id="vicepresidentmessage">
-                <div className="it-sv-details-area pt-120 pb-120">
+                <div className="it-sv-details-area mt-50">
                   <div className="container">
                     <div className="row">
                       <div className="col-xl col-lg">
@@ -1094,13 +1094,13 @@ export default function About() {
 
                 {/* Provost message start*/}
                 <div id="provostmessage">
-                  <div className="it-sv-details-area pt-120 pb-120">
+                  <div className="it-sv-details-area mt-50">
                     <div className="container">
                       <div className="row">
-                        <div className="col-xl col-lg">
+                        <div className="col-xl col-lg about-1">
                           <div className="it-sv-details-top-wrap mb-20">
                             <div className="row">
-                              <div className="col-xl-6 col-lg-6">
+                              <div className="col-xl-6 col-lg-6 ">
                                 <div className="it-sv-details-top-thumb">
                                   <Image src={hs} className="img-fluid" />
                                 </div>

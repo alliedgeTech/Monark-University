@@ -8,7 +8,7 @@ body{
 :root{
     --web-color:#054B81;
     --web-orange:#EC691F;
-    --web-grey-white:#fafafa;
+    --web-grey-white:#f2f2f2;
     --web-white:#fff;
 }
 h1 {
@@ -101,7 +101,7 @@ h1 {
     height: 100%;
     width: 100%;
     content: "";
-    background: linear-gradient(#00000047,#00000069);
+    background: linear-gradient(#0000003a,#000000bb);
 }
 .hero-text{
     position: absolute;
@@ -195,6 +195,15 @@ h1 {
 }
 .student-club-info{
     position: relative;
+}
+@media screen and (max-width:768px) {
+    .student-club-text{
+        position: absolute;
+        bottom: 5%;
+        padding: 0 2vmax;
+        opacity: 1 !important;
+        transition: all 0.4s ;
+    }
 }
 .student-club-info:hover .student-club-text{
     opacity: 1;
@@ -501,4 +510,11 @@ h1 {
 /* about */
 .it-event-2-area:hover .it-event-2-thumb img{
     transform:rotate(0) scale(1.03) !important;
+}
+.about-1{
+    background: var(--web-grey-white);
+    padding: 40px 0 10px;
+}
+.about-1 .it-sv-details-content-box {
+    background: var(--web-white);
 }
