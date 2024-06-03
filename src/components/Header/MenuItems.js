@@ -8,11 +8,13 @@ export default function MenuItems(props) {
   useEffect(()=>{
     
     let tl=gsap.timeline()
-    gsap.from('.nav-link',{
+    tl.from('.nav-link',{
       y:'-50',
       opacity:0,
       stagger:0.1,
     })
+    
+    
 
   },[])
 

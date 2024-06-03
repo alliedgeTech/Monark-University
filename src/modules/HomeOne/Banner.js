@@ -4,8 +4,25 @@ import CountUp from "react-countup";
 import ModalVideo from 'react-modal-video'
 import Link from 'next/link';
 import heroimg from '../../../public/img/hero/universityimg.jpg';
+import { gsap } from 'gsap';
+import { useEffect } from "react";
 
 export default function Banner() {
+
+	useEffect(()=>{
+		let tl=gsap.timeline()
+		tl.from('.hero-text h1',{
+			y:'-100',
+			scale:1.5,
+		opacity:0,
+		duration:1,
+		
+		  })
+		
+	
+	  },[])
+
+
     const [state, setState] = useState(true);
     const [isOpen, setIsOpen] = useState(false);
     const openModal = () => setIsOpen(!isOpen);

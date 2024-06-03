@@ -259,7 +259,7 @@ const Infrastructuredisplay = () => {
           {infrastructuredata
             .map((inf, i) => {
               return (
-                <div key={i} className="col-xl-6 col-lg-6 col-md-6 mb-30">
+                <div key={i} className="col-xl-4 col-lg-4 col-md-6 mb-30">
                   <div className={"it-blog-item"}>
                     <div className="it-blog-thumb fix">
                       <img src={inf.img} className="img-fluid" />
