@@ -61,17 +61,17 @@ const Responsive2 = {
 const index = () => {
   return (
     <div>
-      <div style={{ marginTop: "75px" }} className="min-vh-100 bg-light py-4">
+      <div style={{ marginTop: "75px" }} className={`min-vh-100 bg-light py-4`}>
         <div className="container">
           {facultydata.map((faculty, index) => {
             return (
-              <div id={faculty.hastagID} key={index} className="faculty-info">
-                <h1 className="text-center">{faculty.name}</h1>
-                <hr />
-                <h4 className="mt-5">
-                  <i class="fa-solid fa-arrow-right-long"></i>
-                  {faculty.heading}
-                </h4>
+              <div id={faculty.hastagID} key={index} className={`faculty-info ${index%2==0?'even':''}`}>
+                <div className="faculty-heading w-100 d-flex align-items-center justify-content-center">
+                <h1 className="text-center mb-30 w-100">{faculty.name}</h1>
+			</div>
+                <h3 className="mt-5">
+                <i class="fa-regular fa-hand-point-right mb-0 mx-4"></i>{faculty.heading}
+                </h3>
                 <div className="row">
                   <div className="col-lg-6 col-12 mt-4">
                     <div className="faculty-img">

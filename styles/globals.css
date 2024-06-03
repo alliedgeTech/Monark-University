@@ -145,7 +145,8 @@ h1 {
 }
 .best-university-heading h1{
     font-size: 4vw;
-    color: #000;
+    color: var(--web-color);
+    border-bottom: 2px solid #000;
 }
 .best-university{
     z-index: 999 !important;
@@ -164,7 +165,11 @@ h1 {
     text-align: justify;
     color: #000;
 }
-
+.student-club{
+    background: linear-gradient(#ffffff,#f2f2f2);
+    border-bottom-left-radius: 6vmax;
+    border-bottom-right-radius: 6vmax;
+}
 .student-club-image{
     border-radius: 20px;
     overflow: hidden;
@@ -182,7 +187,7 @@ h1 {
     content: "";
     background: linear-gradient(#0000000a,#000000da);
 }
-.student-club-heading h2{
+.student-club-heading h1{
     font-size: 4vw;
 }
 .student-club-main{
@@ -398,6 +403,27 @@ h1 {
     max-width: 170px ;
     margin: 10px 30px;
 }
+.faculty-heading{
+    position: relative;
+    margin-bottom: 30px;
+}
+.faculty-heading::before{
+    position: absolute;
+    content: "";
+    bottom: 15%;
+    left: 50%;
+    height: 3px;
+    background: var(--web-color);
+    transform: translate(-50%,0%);
+    width: 20%;
+    min-width: 150px;
+    transition: all 0.5s;
+}
+.faculty-heading:hover::before{
+   
+    background: var(--web-orange);
+
+}
 
 
 @media screen and (max-width: 768px) {
@@ -521,4 +547,58 @@ h1 {
 }
 .about-1 .it-sv-details-content-box {
     background: var(--web-white);
+}
+.it-feature-item
+{
+    border-radius: 8px;
+    overflow: hidden;
+}
+.it-feature-item:hover:after
+{
+    background:var(--web-orange) !important;
+}
+.it-team-3-area{
+    background: var(--web-color);
+}
+.it-team-3-content{
+    min-height: 152px;
+    background: #212529 !important;
+}
+@media screen and (max-width:768px) {
+    .it-team-3-content{
+        min-height: auto !important;
+    }
+    
+}
+.leadrship{
+    margin-top: -2vmax;
+    border-top-left-radius:6vmax ;
+    border-top-right-radius: 6vmax;
+    overflow: hidden;
+}
+.it-category-item{
+    background: var(--web-grey-white) !important;
+}
+.it-category-item:hover{
+    background: var(--web-orange) !important;
+}
+.it-category-item:hover .it-category-icon span{
+    background: var(--web-grey-white) !important;
+}
+.it-category-item:hover .it-category-icon span i{
+    color: var(--web-color) !important;
+}
+
+.it-category-icon span{
+    background: var(--web-color) !important;
+}
+.faculty-info{
+    padding: 3vmax 2vmax;
+}
+.faculty-info p{
+    text-align: justify;
+}
+.even{
+    background: #dadada !important;
+    border-radius: 3vmax;
 }

@@ -1208,7 +1208,7 @@ export default function About() {
                   {/*Approvals & Recognitions starts*/}
                   <div id="recognitionandapproval">
                     <div
-                      className="it-funfact-5-area it-funfact-5-bg p-relative fix yellow-bg pt-100 pb-60"
+                      className="it-funfact-5-area it-funfact-5-bg p-relative fix pt-100 pb-60"
                       data-background="/img/funfact/bg-2.png"
                       layout="fill"
                       objectFit="cover"
