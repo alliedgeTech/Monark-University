@@ -1,6 +1,6 @@
 import SingleCourse from "@/components/Course"
 import Courses from "@/data/courses"
-import syllabusdetailsdata from "@/data/syllabusdetails";
+import syllabusdetailsdata from "@/data/syllabus";
 
 export default function CourseArea() {
 	return (
