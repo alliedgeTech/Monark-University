@@ -10,14 +10,18 @@ const syllabusdata = [
           {
             id: 1,
             name: "Automobile Engineering",
+            slug:"auto"
           },
           {
             id: 2,
             name: "Civil(Transportation) Engineering",
+            slug:"civilt"
+
           },
           {
             id: 3,
             name: "Civil(Structural) Engineering",
+            slug:"civils"
           },
           {
             id: 4,

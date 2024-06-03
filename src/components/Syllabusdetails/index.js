@@ -38,7 +38,7 @@ const Syllabusdetails = () => {
                                       {sub.sub.map((subsub) => (
                                         <tr key={subsub.id}>
                                           <td>
-                                            <a href={`/course/${subsub.id}`}>
+                                            <a href={`/syllabus/id=${subsub.slug}}`}>
                                               {subsub.name}
                                             </a>
                                           </td>

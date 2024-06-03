@@ -1,5 +1,6 @@
 import SingleCourse from "@/components/Course"
 import Courses from "@/data/courses"
+import syllabusdetailsdata from "@/data/syllabusdetails";
 
 export default function CourseArea() {
 	return (
@@ -7,27 +8,17 @@ export default function CourseArea() {
 			<div className="container">
 				<div className="row">
 				{
-					Courses.map((course) => {
+					syllabusdetailsdata.map((s) => {
 						return (
-							<div className="col-xl-4 col-lg-4 col-md-6 mb-30">
+							<div>
 								<SingleCourse 
-									ID={course.id}
-									Slug={course.slug}
-									Title={course.title}
-									Img={course.image}
-									category={course.category}
-									ratingCount={course.ratingCount} 
-									lessonCount={course.lessonCount}
-									studentCount={course.studentCount}
-									Duration={course.duration}
-									Author={course.author}
-									Price={course.price}
-									prevPrice={course.prevPrice}
-									btnText={course.btnText}
+								Title={s.Title}
+								Title2={s.Title2}
+								Title3={s.Title3}
 								/>
 							</div>
 						);
-					}).slice(0, 3)
+					})
 				}
 				{
 					Courses.map((course) => {
