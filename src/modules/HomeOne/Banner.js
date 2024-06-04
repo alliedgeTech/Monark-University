@@ -11,11 +11,11 @@ export default function Banner() {
 
 	useEffect(()=>{
 		let tl=gsap.timeline()
-		tl.from('.hero-text h1',{
+		tl.from('.hero-text',{
 			y:'-100',
 			scale:1.5,
 		opacity:0,
-		duration:1,
+		delay:"1",
 		
 		  })
 		

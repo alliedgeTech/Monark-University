@@ -12,6 +12,10 @@ import na from "../../../public/img/choose/NAAC.png"
 import is from "../../../public/img/choose/ISTE.jpg"
 import vi from "../../../public/img/choose/VIPNET.png"
 import ncc from "../../../public/img/choose/NCC.jpg"
+import gsap from 'gsap';
+import { ScrollTrigger } from 'gsap/dist/ScrollTrigger';
+import { useEffect } from "react";
+
 const apvrs = [
   {
     Title: "AICTE",
@@ -55,6 +59,85 @@ const apvrs = [
   },
 ];
 export default function About() {
+
+  useEffect(() => {
+    gsap.registerPlugin(ScrollTrigger);
+    let mm=gsap.matchMedia()
+
+    mm.add("(min-width:991px)",()=>{
+      gsap.from(".it-choose-title-box", {
+        opacity:0,
+        x:-100,
+        delay:"1",
+        
+      });
+      gsap.from(".it-choose-text", {
+        opacity:0,
+        x:-100,
+        delay:"1",
+      });
+      gsap.from(".it-choose-thumb", {
+        opacity:0,
+        x:100,
+        delay:"1",
+      });
+      gsap.from(".it-choose-content", {
+        opacity:0,
+        x:100,
+        stagger:0.5,
+        scrollTrigger: {
+          trigger: ".it-choose-content",
+          scroller:'body',
+          start: "top bottom",
+          end: "top center",
+          scrub: 0.2,
+        },
+      });
+      gsap.from(".it-event-2-area", {
+        opacity:0,
+        x:-100,
+        stagger:1,
+        scrollTrigger: {
+          trigger: ".it-event-2-area",
+          scroller:'body',
+          start: "top bottom",
+          end: "top 40%",
+          scrub: 0.2,
+          markers:true,
+        },
+      });
+      gsap.from(".it-career-item-left", {
+        opacity:0,
+        x:-100,
+        scrollTrigger: {
+          trigger: ".it-career-item-left",
+          scroller:'body',
+          start: "top bottom",
+          end: "top 40%",
+          scrub: 0.2,
+          markers:true,
+        },
+      });
+      gsap.from(".it-career-item-right", {
+        opacity:0,
+        x:100,
+        scrollTrigger: {
+          trigger: ".it-career-item-right",
+          scroller:'body',
+          start: "top bottom",
+          end: "top center",
+          scrub: 0.2,
+          markers:true,
+        },
+      });
+  
+      
+      
+    })
+
+
+  }, []);
+
   return (
     <div id="historicalbackground" >
       <div className="it-choose-area p-relative pt-100">
@@ -769,7 +852,7 @@ export default function About() {
                     </div>
                   </div>
                   <div class="col-xl-6 col-lg-6 ">
-                    <div class="it-career-item p-relative fix">
+                    <div class="it-career-item it-career-item-left p-relative fix">
                       <div class="it-career-content">
                         <span>Vision</span>
                         <p>
@@ -809,7 +892,7 @@ export default function About() {
                     </div>
                   </div>
                   <div class="col-xl-6 col-lg-6 ">
-                    <div class="it-career-item p-relative fix">
+                    <div class="it-career-item it-career-item-right p-relative fix">
                       <div class="it-career-content">
                         <span>Mission</span>
                         <p>

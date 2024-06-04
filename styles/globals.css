@@ -189,9 +189,7 @@ h1 {
     content: "";
     background: linear-gradient(#0000000a,#000000da);
 }
-.student-club-heading h1{
-    font-size: 4vw;
-}
+
 .student-club-main{
     padding: 3vmax;
 }

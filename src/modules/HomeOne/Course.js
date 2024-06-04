@@ -15,6 +15,9 @@ import carimg7 from "../../../public/img/course/social_media_club.png"
 import carimg8 from "../../../public/img/course/spiritula_club.png"
 import carimg9 from "../../../public/img/course/Work-From-Home.png"
 import carimg10 from "../../../public/img/course/yoga_club.png"
+import gsap from 'gsap';
+import { ScrollTrigger } from 'gsap/dist/ScrollTrigger';
+import { useEffect } from "react";
 
 // Import jQuery
 if (typeof window !== "undefined") {
@@ -48,9 +51,49 @@ const Responsive = {
 };
 
 export default function Course() {
+
+  useEffect(() => {
+    gsap.registerPlugin(ScrollTrigger);
+    let mm=gsap.matchMedia()
+
+    mm.add("(min-width:991px)",()=>{
+      gsap.from(".student-club h1", {
+        opacity:0,
+        scale:0.5,
+        y:100,
+        scrollTrigger: {
+          trigger: ".student-club h1",
+          scroller:'body',
+          start: "top bottom",
+          end: "top 70%",
+          scrub: 0.2,
+        },
+      });
+
+      gsap.from(".student-club-info", {
+        opacity:0,
+        scale:0.7,
+        x:-100,
+        stagger:0.2,
+        scrollTrigger: {
+          trigger: ".student-club-info",
+          scroller:'body',
+          start: "top bottom",
+          end: "top 60%",
+          scrub: 0.2,
+        },
+      });
+  
+      
+      
+    })
+
+
+  }, []);
+
   return (
-    <div className="student-club container-fluid mt-20 py-5 pb-3">
-		<div className="student-placement-heading student-club-heading d-flex align-items-center justify-content-center">
+    <div className="student-club container-fluid py-2  pb-4">
+		<div className="student-club d-flex align-items-center justify-content-center">
 				<div className="line"></div>
 				<h1 className="text-center mb-0 w-100">Student Clubs</h1>
 				<div className="line"></div>

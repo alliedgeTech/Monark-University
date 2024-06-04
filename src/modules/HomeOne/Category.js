@@ -26,7 +26,7 @@ export default function Category() {
           scroller:'body',
           start: "top bottom",
           end: "top 70%",
-          scrub: true,
+          scrub: 0.2,
         },
       });
   
@@ -38,7 +38,7 @@ export default function Category() {
           scroller:'body',
           start: "top bottom",
           end: "top 80%",
-          scrub: true,
+          scrub: 0.2,
         },
       })
       gsap.from(".best-university-text p",{
@@ -50,8 +50,7 @@ export default function Category() {
           scroller:'body',
           start: "top bottom",
           end: "top 70%",
-          scrub: true,
-          markers:true,
+          scrub: 0.2,
         },
       })
     })

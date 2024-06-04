@@ -1,8 +1,37 @@
 import Image from "next/image"
 import Link from "next/link"
+import gsap from 'gsap';
+import { ScrollTrigger } from 'gsap/dist/ScrollTrigger';
+import { useEffect } from "react";
 
 
 export default function About() {
+
+    useEffect(() => {
+        gsap.registerPlugin(ScrollTrigger);
+        let mm=gsap.matchMedia()
+    
+        mm.add("(min-width:991px)",()=>{
+          gsap.from(".student-placement-heading h1", {
+            opacity:0,
+            scale:0.5,
+            y:100,
+            scrollTrigger: {
+              trigger: ".student-placement-heading h1",
+              scroller:'body',
+              start: "top bottom",
+              end: "top 70%",
+              scrub: 0.2,
+            },
+          });
+      
+          
+        })
+    
+    
+      }, []);
+
+
 	return (
 		<div className="student-placement py-4 container-fluid">
 			<div className="student-placement-heading d-flex align-items-center justify-content-center">
