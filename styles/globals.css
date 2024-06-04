@@ -46,6 +46,7 @@ h1 {
     font-weight: 400;
     font-size: 17px;
     line-height: 32px;
+    text-align: justify !important;
   }
  @media screen and (max-width: 768px) {
     h1 {
@@ -90,7 +91,7 @@ h1 {
  }
 .hero-section{
     margin-top: 75px;
-    z-index: -1;
+    z-index: 1;
     position: relative;
 }
 
@@ -151,7 +152,8 @@ h1 {
     border-bottom: 2px solid #000;
 }
 .best-university{
-    z-index: 999 !important;
+    position: relative;
+    z-index: 2;
     background: #ffffff;
     background-position: center;
     background-repeat: no-repeat;
@@ -359,19 +361,27 @@ h1 {
 .placement{
     margin-top: 75px;
 }
+.training-img{
+    border: 2px solid grey;
+    overflow: hidden;
+    border-radius: 12px;
+}
+.training-text p{
+    text-align: justify !important;
+}
 .record-box{
     padding: 20px 15px;
-    background: #181b2a;
+    background: var(--web-orange);
     border-radius: 20px;
     transition: all 0.5s;
 }
 .record-box:hover{
-    background: #1b2037;
+    background:var(--web-color);
     transform: translateY(-4px);
 }
 .record-box .icon-box{
     margin-bottom: 30px;
-    border-bottom: 2px solid rgb(0, 179, 255);
+    border-bottom: 2px solid rgb(151, 151, 151);
 }
 .record-box .icon-box i{
     display: flex;
@@ -385,7 +395,7 @@ h1 {
     color: white;
 }
 .record-box:hover .icon-box i{
-    box-shadow: 0 0 15px rgb(61, 61, 148);
+    box-shadow: 0 0 15px var(--web-orange);
 }
 .record-box .icon-box h4{
     font-size: 20px;
@@ -545,10 +555,17 @@ h1 {
 }
 .about-1{
     background: var(--web-grey-white);
-    padding: 40px 0 10px;
+    padding: 60px 40px !important;
+    border-radius: 6vmax;
+}
+.it-sv-details-content-box{
+    border-left: 3px solid var(--web-color);
 }
 .about-1 .it-sv-details-content-box {
     background: var(--web-white);
+}
+.it-sv-details-top-thumb img{
+    border-radius: 12px;
 }
 .it-feature-item
 {
@@ -574,12 +591,16 @@ h1 {
 }
 .leadrship{
     margin-top: -2vmax;
-    border-top-left-radius:6vmax  !important;
-    border-top-right-radius: 6vmax !important;
+
     overflow: hidden !important;
 }
-.it-category-item{
+.it-team-3-area{
+    border-top-left-radius: 6vmax;
+    border-top-right-radius: 6vmax;
+}
+.it-category-item,.it-feature-3-item{
     background: var(--web-grey-white) !important;
+    border-radius: 8px !important;
 }
 .it-category-item:hover{
     background: var(--web-orange) !important;
@@ -590,8 +611,20 @@ h1 {
 .it-category-item:hover .it-category-icon span i{
     color: var(--web-color) !important;
 }
+.it-feature-3-item:hover{
+    background: var(--web-orange) !important;
+}
+.it-feature-3-item:hover .it-feature-3-icon span{
+    background: var(--web-grey-white) !important;
+}
+.it-feature-3-item:hover .it-feature-3-icon span i{
+    color: var(--web-color) !important;
+}
 
 .it-category-icon span{
+    background: var(--web-color) !important;
+}
+.it-feature-3-icon span{
     background: var(--web-color) !important;
 }
 .faculty-info{
@@ -644,4 +677,38 @@ h1 {
 }
 .it-career-item{
     background: var(--web-color) !important;
+}
+.phd-div{
+    background: bisque !important;
+}
+.phd-img{
+    overflow: hidden;
+    border-radius: 12px;
+}
+
+.phd-img:hover.phd-img img{
+    transform: scale(1.1);
+}
+.it-blog-item
+{
+    border: 4px solid grey;
+    border-radius: 20px;
+    overflow: hidden;
+} 
+.it-blog-item:hover .it-blog-thumb img
+{
+    transform: scale(1.06) rotate(0) !important;   
+} 
+.it-funfact-5-item{
+    transition: all 0.5s;
+    border: 2px solid transparent;
+}
+.it-funfact-5-item:hover{
+    transform: translateY(-5px) !important;
+    border: 2px solid rgba(128, 128, 128, 0.596);
+    box-shadow: 0 0 10px var(--web-grey-white);
+}
+
+.nav-link:hover a{
+    color: var(--web-color) !important;
 }

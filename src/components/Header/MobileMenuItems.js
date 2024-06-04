@@ -36,7 +36,7 @@ export default function MobileMenuItems(props) {
   const onepageMobileMenuHome = (
     <li className="has-dropdown p-static">
       <Link
-        href="#"
+        href="/"
         className={home ? "active" : ""}
         onClick={() => {
           openMobileMenu("home");
@@ -158,9 +158,10 @@ export default function MobileMenuItems(props) {
         </ul>
       ) : (
         <ul>
+          {/* Home */}
           <li className=" p-static">
             <Link
-              href="#"
+              href="/"
               className={home ? "active" : ""}
               onClick={() => {
                 openMobileMenu("home");
@@ -169,6 +170,7 @@ export default function MobileMenuItems(props) {
               Home
             </Link>
           </li>
+          {/* About MU */}
           <li className="has-dropdown">
             <Link
               href="/about-us"
@@ -232,6 +234,7 @@ export default function MobileMenuItems(props) {
               </li>
             </ul>
           </li>
+          {/* Admission */}
           <li className="has-dropdown">
             <Link
               href="#"
@@ -269,6 +272,7 @@ export default function MobileMenuItems(props) {
               </li>
             </ul>
           </li>
+          {/* Faculty */}
           <li className="has-dropdown">
             <Link
               href="#"
@@ -277,7 +281,7 @@ export default function MobileMenuItems(props) {
                 openMobileMenu("page");
               }}
             >
-              Pages
+              Faculty
               <svg
                 width="9"
                 height="7"
@@ -293,67 +297,70 @@ export default function MobileMenuItems(props) {
             </Link>
             <ul className={page ? "it-submenu submenu-open" : "it-submenu"}>
               <li>
-                <Link href="/course">Course 01</Link>
-              </li>
-              <li>
-                <Link href="/course/course-2">Course 02</Link>
-              </li>
-              <li>
-                <Link href="/course/details">Course Details</Link>
-              </li>
-              <li>
-                <Link href="/teacher">Teacher</Link>
-              </li>
-              <li>
-                <Link href="/teacher/details">Teacher Details</Link>
-              </li>
-              <li>
-                <Link href="/price">Price</Link>
-              </li>
-              <li>
-                <Link href="/event">Event</Link>
-              </li>
-              <li>
-                <Link href="/event/details">Event Details</Link>
-              </li>
-              <li>
-                <Link href="/cart">Cart</Link>
-              </li>
-              <li>
-                <Link href="/checkout">Checkout</Link>
-              </li>
-              <li>
-                <Link href="/testimonial">Testimonial</Link>
-              </li>
-              <li>
-                <Link href="/registration/instructor">
-                  Instructor Registration
+                <Link href="/faculty#engineering_Technology">
+                  Engineering & Technology
                 </Link>
               </li>
               <li>
-                <Link href="/registration/student">
-                  Student Registration 01
+                <Link href="/faculty#science">Science</Link>
+              </li>
+              <li>
+                <Link href="/faculty#physiotherapy">Physiotherapy</Link>
+              </li>
+              <li>
+                <Link href="/faculty#management">Management</Link>
+              </li>
+              <li>
+                <Link href="/faculty#commerce">Commerce</Link>
+              </li>
+              <li>
+                <Link href="/faculty#law">Law</Link>
+              </li>
+              <li>
+                <Link href="/faculty#arts">Arts</Link>
+              </li>
+              <li>
+                <Link href="/faculty#computer_application">
+                  Computer Application
                 </Link>
               </li>
               <li>
-                <Link href="/registration/student-2">
-                  Student Registration 02
+                <Link href="/faculty#nursing">Nursing</Link>
+              </li>
+              <li>
+                <Link href="/faculty#education">Education</Link>
+              </li>
+              <li>
+                <Link href="/faculty#social_work">Social work</Link>
+              </li>
+              <li>
+                <Link href="/faculty#pharmacy">Pharmacy</Link>
+              </li>
+              <li>
+                <Link href="/faculty#ayurveda">Ayurved</Link>
+              </li>
+              <li>
+                <Link href="/faculty#homoeopathy">Homoeopathy</Link>
+              </li>
+              <li>
+                <Link href="/faculty#technology">
+                  Information & Communication Technology
                 </Link>
               </li>
               <li>
-                <Link href="/faq">Faq</Link>
+                <Link href="/faculty#skills">
+                  Multi-Skills Development & Training Center
+                </Link>
               </li>
-              <li>
-                <Link href="/signin">Sign IN</Link>
-              </li>
-              <li>
+              {/* <li>
                 <Link href="/signup">Sign UP</Link>
               </li>
               <li>
                 <Link href="/404">Error</Link>
-              </li>
+              </li> */}
             </ul>
           </li>
+          {/* Academic */}
           <li className="has-dropdown">
             <Link
               href="#"
@@ -362,7 +369,7 @@ export default function MobileMenuItems(props) {
                 openMobileMenu("blog");
               }}
             >
-              Blog
+              Academic  
               <svg
                 width="9"
                 height="7"
@@ -378,16 +385,155 @@ export default function MobileMenuItems(props) {
             </Link>
             <ul className={blog ? "it-submenu submenu-open" : "it-submenu"}>
               <li>
-                <Link href="/blog">Blog 01</Link>
+                <Link href="/course">Academic Calender</Link>
               </li>
               <li>
-                <Link href="/blog/two">Blog 02</Link>
+                <Link href="/course-2">Circuler</Link>
               </li>
               <li>
-                <Link href="/blog/sidebar">Blog Sidebar</Link>
+                <Link href="/syllabus">Placement Records</Link>
               </li>
               <li>
-                <Link href="/blog/details">Blog details</Link>
+                <Link href="/teacher">Exam Schedule</Link>
+              </li>
+              <li>
+                <Link href="/teacher/teacher-one">Results</Link>
+              </li>
+            </ul>
+          </li>
+          {/*Placement  */}
+          <li className="has-dropdown">
+            <Link
+              href="#"
+              className={blog ? "active" : ""}
+              onClick={() => {
+                openMobileMenu("blog");
+              }}
+            >
+              Placement
+              <svg
+                width="9"
+                height="7"
+                viewBox="0 0 9 7"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M4.47035e-08 2.145L1.275 0.854999L4.5 4.08L7.725 0.854999L9 2.145L4.5 6.645L4.47035e-08 2.145Z"
+                  fill="#0E2A46"
+                ></path>
+              </svg>
+            </Link>
+            <ul className={blog ? "it-submenu submenu-open" : "it-submenu"}>
+              <li>
+                <Link href="/blog">Training & Placement Cell</Link>
+              </li>
+              <li>
+                <Link href="/blog-2">Placement News</Link>
+              </li>
+              <li>
+                <Link href="/blog-sidebar">Placement Records</Link>
+              </li>
+              <li>
+                <Link href="">Blog details</Link>
+              </li>
+            </ul>
+          </li>
+          {/* Campus Life */}
+          <li className="has-dropdown">
+            <Link
+              href="#"
+              className={blog ? "active" : ""}
+              onClick={() => {
+                openMobileMenu("blog");
+              }}
+            >
+              Campus Life
+              <svg
+                width="9"
+                height="7"
+                viewBox="0 0 9 7"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M4.47035e-08 2.145L1.275 0.854999L4.5 4.08L7.725 0.854999L9 2.145L4.5 6.645L4.47035e-08 2.145Z"
+                  fill="#0E2A46"
+                ></path>
+              </svg>
+            </Link>
+            <ul className={blog ? "it-submenu submenu-open" : "it-submenu"}>
+              <li>
+                <Link href="/campus#artsandculture">Arts & Culture</Link>
+              </li>
+              <li>
+                <Link href="/campus#campusevent">Campus Event</Link>
+              </li>
+              <li>
+                <Link href="/campus#nss">Community Services</Link>
+              </li>
+              <li>
+                <Link href="/campus#ncc">NCC</Link>
+              </li>
+              <li>
+                <Link href="/campus#sports">Sports</Link>
+              </li>
+              <li>
+                <Link href="/campus#workshopsandseminars">
+                  Workshops & Seminars
+                </Link>
+              </li>
+              <li>
+                <Link href="/campus#yoga">Yoga Day</Link>
+              </li>
+              <li>
+                <Link href="/campus#teacherday">Teacher's Day</Link>
+              </li>
+              <li>
+                <Link href="/blog/blog-one">Students Club</Link>
+              </li>
+            </ul>
+          </li>
+          {/* Infrastructure */}
+          <li className="has-dropdown">
+            <Link
+              href="#"
+              className={blog ? "active" : ""}
+              onClick={() => {
+                openMobileMenu("blog");
+              }}
+            >
+              Infrastructure
+              <svg
+                width="9"
+                height="7"
+                viewBox="0 0 9 7"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M4.47035e-08 2.145L1.275 0.854999L4.5 4.08L7.725 0.854999L9 2.145L4.5 6.645L4.47035e-08 2.145Z"
+                  fill="#0E2A46"
+                ></path>
+              </svg>
+            </Link>
+            <ul className={blog ? "it-submenu submenu-open" : "it-submenu"}>
+              <li>
+                <Link href="/infrastructure#lab">Laboratories</Link>
+              </li>
+              <li>
+                <Link href="/infrastructure#library">Library</Link>
+              </li>
+              <li>
+                <Link href="/infrastructure#hostel">Hostel</Link>
+              </li>
+              <li>
+                <Link href="/infrastructure#ac">
+                  Auditorium & Conference Hall
+                </Link>
+              </li>
+              <li>
+                <Link href="/infrastructure#ground">Sports Ground & Court</Link>
               </li>
             </ul>
           </li>
@@ -396,6 +542,6 @@ export default function MobileMenuItems(props) {
           </li>
         </ul>
       )}
-    </>
-  );
+    </>
+  );
 }

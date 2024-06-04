@@ -67,7 +67,7 @@ export default function Category() {
   return (
     <div className="best-university container-fluid">
       <div className="best-university-heading">
-        <h1>- Best University in Ahmedabad</h1>
+        <h1>Best University in Ahmedabad</h1>
       </div>
       <div className="row">
         <div className="col-lg-6">
