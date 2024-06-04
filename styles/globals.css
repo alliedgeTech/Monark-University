@@ -574,9 +574,9 @@ h1 {
 }
 .leadrship{
     margin-top: -2vmax;
-    border-top-left-radius:6vmax ;
-    border-top-right-radius: 6vmax;
-    overflow: hidden;
+    border-top-left-radius:6vmax  !important;
+    border-top-right-radius: 6vmax !important;
+    overflow: hidden !important;
 }
 .it-category-item{
     background: var(--web-grey-white) !important;

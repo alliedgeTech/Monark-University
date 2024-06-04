@@ -552,7 +552,7 @@ export default function About() {
                       </h4>
                     </div>
                   </div>
-                  <div class="col-xl-6 col-lg-6 ">
+                  <div class="col-xl-6 col-lg-6 mt-lg-0 ">
                     <div class="it-career-item it-career-item-left p-relative fix">
                       <div class="it-career-content">
                         <span>Vision</span>
@@ -592,7 +592,7 @@ export default function About() {
                       </div>
                     </div>
                   </div>
-                  <div class="col-xl-6 col-lg-6 ">
+                  <div class="col-xl-6 col-lg-6 mt-lg-0 ">
                     <div class="it-career-item it-career-item-right p-relative fix">
                       <div class="it-career-content">
                         <span>Mission</span>
@@ -653,7 +653,7 @@ export default function About() {
                           <div className="col-xl-6 col-lg-6">
                             <div className="it-sv-details-top-content">
                               <h4 className="it-sv-details-title">
-                                About President{" "}
+                                About President
                               </h4>
                               <p>
                                 Dr. Hasmukhbharthi M. Goswami is the esteemed
@@ -1006,7 +1006,7 @@ export default function About() {
 
                       <div className="container">
                         <div className="row">
-                          <div className="col-xl-3 col-lg-3">
+                          <div className="col-xl-3 mt-lg-0 mt-4 col-lg-3">
                             <div className="it-feature-item text-center">
                               <div className="it-feature-item-content z-index">
                                 <div className="it-feature-icon">
@@ -1060,7 +1060,7 @@ export default function About() {
                             </div>
                           </div>
 
-                          <div className="col-xl-3 col-lg-3">
+                          <div className="col-xl-3 mt-lg-0 mt-4 col-lg-3">
                             <div className="it-feature-item text-center">
                               <div className="it-feature-item-content z-index">
                                 <div className="it-feature-icon">
@@ -1106,7 +1106,7 @@ export default function About() {
                               </div>
                             </div>
                           </div>
-                          <div className="col-xl-3 col-lg-3">
+                          <div className="col-xl-3 mt-lg-0 mt-4 col-lg-3">
                             <div className="it-feature-item text-center">
                               <div className="it-feature-item-content z-index">
                                 <div className="it-feature-icon">
@@ -1152,7 +1152,7 @@ export default function About() {
                               </div>
                             </div>
                           </div>
-                          <div className="col-xl-3 col-lg-3">
+                          <div className="col-xl-3 mt-lg-0 mt-4 col-lg-3">
                             <div className="it-feature-item text-center">
                               <div className="it-feature-item-content z-index">
                                 <div className="it-feature-icon">
@@ -1198,7 +1198,7 @@ export default function About() {
                               </div>
                             </div>
                           </div>
-                          <div className="col-xl-3 col-lg-3">
+                          <div className="col-xl-3 mt-lg-0 mt-4 col-lg-3">
                             <div
                               className="it-feature-item text-center"
                               style={{ marginTop: "10px" }}
@@ -1247,7 +1247,7 @@ export default function About() {
                               </div>
                             </div>
                           </div>
-                          <div className="col-xl-3 col-lg-3">
+                          <div className="col-xl-3 mt-lg-0 mt-4 col-lg-3">
                             <div
                               className="it-feature-item text-center"
                               style={{ marginTop: "10px" }}
@@ -1296,7 +1296,7 @@ export default function About() {
                               </div>
                             </div>
                           </div>
-                          <div className="col-xl-3 col-lg-3">
+                          <div className="col-xl-3 mt-lg-0 mt-4 col-lg-3">
                             <div
                               className="it-feature-item text-center"
                               style={{ marginTop: "10px" }}
@@ -1345,7 +1345,7 @@ export default function About() {
                               </div>
                             </div>
                           </div>
-                          <div className="col-xl-3 col-lg-3">
+                          <div className="col-xl-3 mt-lg-0 mt-4 col-lg-3">
                             <div
                               className="it-feature-item text-center"
                               style={{ marginTop: "10px" }}
