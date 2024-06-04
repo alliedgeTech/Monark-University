@@ -3,7 +3,7 @@ import axios from "axios";
 /**
  * Add Base URL
  */
-const API_BASE_URL = process.env.yyREACT_APP_API_BASE_URL || "http://192.168.29.252:7000";
+const API_BASE_URL = process.env.yyREACT_APP_API_BASE_URL || "https://mu-l50w.onrender.com";
 
 /**
  * Function to make API requests using Axios
@@ -24,7 +24,7 @@ const ApiService = async ({ method, endpoint, headers = {}, data }) => {
     method,
     url: `${API_BASE_URL}/${endpoint}`,
     headers: {
-    //   'Authorization': `Bearer ${token}`,
+      // 'Authorization': `Bearer ${token}`,
       "Content-Type": "application/json",
       ...headers,
     },
@@ -48,6 +48,7 @@ const ApiService = async ({ method, endpoint, headers = {}, data }) => {
    */
   api.interceptors.response.use(
     (response) => {
+      console.log(response.data)
       return response.data;
     },
     (error) => {

@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import ModalVideo from "react-modal-video";
 import Image from "next/image";
 import Courses from "@/data/courses";
@@ -13,6 +13,8 @@ import lnews4 from "../../../public/img/video/suzuki.jpg";
 import lnews5 from "../../../public/img/video/tcs_job_new.png";
 import lnews6 from "../../../public/img/video/torrent.jpg";
 import styles from "yet-another-react-lightbox/styles.css";
+import ApiService from "@/service/service";
+import { apiPaths } from "@/service/apipath";
 
 // Import jQuery
 if (typeof window !== "undefined") {
@@ -46,9 +48,37 @@ const Responsive = {
 };
 export default function Video() {
   const [isOpen, setIsOpen] = useState(false);
+  const [latestNews,setLatestNews] = useState([])
   const openModal = () => setIsOpen(!isOpen);
 
+  useEffect(() => {
+    fetchData();
+  }, []);
+
+
+  const fetchData = async () => {
+    try {
+      const result = await ApiService({
+        method: 'GET',
+        endpoint: apiPaths.latestNews,
+      });
+      // setLatestNews(result);
+      console.log(result)
+    } catch (error) {
+      console.error('Error fetching data:', error);
+    }
+  };
+
+  // const requestOptions = {
+  //   method: "GET",
+  //   redirect: "follow"
+  // };
   
+  // fetch("https://mu-l50w.onrender.com/home-updates", requestOptions)
+  //   .then((response) => response.text())
+  //   .then((result) => console.log(result))
+  //   .catch((error) => console.error(error));
+
   return (
 	
 	
@@ -67,24 +97,26 @@ export default function Video() {
         autoplayTimeout={5000}
         responsive={Responsive}
       >
-        <div className="item">
+        {latestNews?.map((items , id) => (
+          <div className="item" id={id}>
           <div className="latest-box d-flex flex-column">
             <div className="latest-img">
-              <Image className="img-fluid" src={lnews1}></Image>
+              <img className="img-fluid" src={items?.image}></img>
             </div>
             <div className="latest-text mt-5">
               <button
                 className="text-white"
                 style={{borderRadius:'5px', background: "#054B81", padding: "3px 8px" }}
               >
-                <small>Placement news</small>
+                <small>{items?.title}</small>
               </button>
-				<h5 className="mt-3">Placement Opportunity From HDFC for Any Graduate Students || for B.com/BBA/BA/BE & MBA</h5>
-				<p>Dear Students, Greetings from Prodesk IT, This message is regarding the campus recruitment drive at…</p>
+				<p className="mt-3">{items?.description}</p>
             </div>
           </div>
         </div>
-        <div className="item">
+        ))
+        }
+        {/* <div className="item">
           <div className="latest-box d-flex flex-column">
             <div className="latest-img">
               <Image className="img-fluid" src={lnews2}></Image>
@@ -173,7 +205,7 @@ export default function Video() {
 
             </div>
           </div>
-        </div>
+        </div> */}
       </OwlCarousel>
     </div>
   );
