@@ -66,10 +66,16 @@ export default function Team() {
                 </div>
               </div>
             </div>
-            <div className="row">
-              {Teachers.map((teacher) => {
+            <OwlCarousel
+                    className="owl"
+                    autoPlay={true}
+                    autoplayTimeout={5000}
+                    // dots={true}
+                    responsive={Responsive}
+                  >
+                    {Teachers.map((teacher) => {
                 return (
-                  <div className="col-xl-3 h-100 col-lg-4 col-md-6 mb-30">
+                  <div className="item">
                     <SingleTeamTwo
                       Slug={teacher.slug}
                       Title={teacher.title}
@@ -80,7 +86,8 @@ export default function Team() {
                   </div>
                 );
               }).slice(0, 10)}
-            </div>
+                    
+                  </OwlCarousel>
           </div>
         </div>
         <div

@@ -1,9 +1,61 @@
 import infrastructuredata from "@/data/infra";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import CountUp from "react-countup";
 import librarydata from "@/data/library";
+import gsap from 'gsap';
+import { ScrollTrigger } from 'gsap/dist/ScrollTrigger';
 
 const Infrastructuredisplay = () => {
+
+  useEffect(() => {
+    gsap.registerPlugin(ScrollTrigger);
+    let mm=gsap.matchMedia()
+
+    mm.add("(min-width:991px)",()=>{
+      gsap.from(".university-title-gsap", {
+        opacity:0,
+        x:-100,
+        scrollTrigger: {
+          trigger: ".university-title-gsap",
+          scroller:'body',
+          start: "top bottom",
+          end: "top 70%",
+          scrub: 0.2,
+        },
+      });
+  
+      gsap.from(".university-text-gsap p",{
+        opacity:0,
+        x:'-100',
+        scrollTrigger: {
+          trigger: ".university-text-gsap p",
+          scroller:'body',
+          start: "top bottom",
+          end: "top center",
+          scrub: 0.2,
+        },
+      })
+      gsap.from(".infra-img-gsap",{
+        opacity:0,
+        x:'100',
+        scrollTrigger: {
+          trigger: ".infra-img-gsap",
+          scroller:'body',
+          start: "top bottom",
+          end: "top center",
+          scrub: 0.2,
+        },
+      })
+      
+     
+
+
+    })
+
+
+  }, []);
+
+
   const [state, setState] = useState(true);
   return (
     <div className="it-blog-area it-blog-style-3 it-blog-style-6 grey-bg pt-120 pb-90">
@@ -47,11 +99,11 @@ const Infrastructuredisplay = () => {
             <div className="row align-items-center">
               <div className="col-xl-6 col-lg-6 mb-30">
                 <div className="it-choose-left">
-                  <div className="it-choose-title-box mb-30">
+                  <div className="it-choose-title-box mb-30 university-title-gsap">
                     <span className="it-section-subtitle" style={{textAlign:'center'}}>Library</span>
                     <h4 className="it-section-title">University Library</h4>
                   </div>
-                  <div className="it-choose-text pb-15">
+                  <div className="it-choose-text pb-15 pr-8 university-text-gsap">
                     <p>
                       The Central Library of Monark University is user-focused,
                       innovative, and excellence driven. It has specialized
@@ -78,7 +130,7 @@ const Infrastructuredisplay = () => {
                 </div>
               </div>
               <div className="col-xl-6 col-lg-6 mb-30">
-                <div className="it-choose-thumb-box text-center text-md-end">
+                <div className="it-choose-thumb-box text-center text-md-end infra-img-gsap">
                   <div className="it-choose-thumb p-relative">
                     <img
                       src="https://monarkuni.ac.in/wp-content/uploads/2021/06/SMET-209.jpg"
@@ -121,20 +173,12 @@ const Infrastructuredisplay = () => {
               height={101}
             />
           </div>
-          <div className="it-funfact-5-shape-2">
-            <img
-              src="/img/funfact/shape-5-2.png"
-              alt=""
-              width={63}
-              height={63}
-            />
-          </div>
           <div className="container">
             {librarydata && (
               <div className="row">
                 {librarydata.map((library, num) => (
                   <div key={num} className="col-xl-4  col-lg-4 col-md-6 mb-30">
-                    <div className="it-funfact-5-item text-center">
+                    <div className="it-funfact-5-item text-center counter-gsap">
                       <div className="it-funfact-5-icon">
                         <span>
                           <img src={library.countIcon} className="img-fluid" />

@@ -4,13 +4,13 @@ import Image from "next/image";
 
 const index = () => {
   return (
-    <div className="placement container">
+    <div className="placement ">
       <div className="training-placement py-4">
-        <div className="training-placement-heading">
+        <div className="training-placement-heading container">
           <h2 className="text-center">Training & Placement Cell</h2>
           <hr />
           <div className="row">
-            <div className="col-lg-6 col-12 h-100">
+            <div className="col-lg-5 col-12">
               <div className="training-img">
                 <img
                   className="img-fluid"
@@ -19,10 +19,9 @@ const index = () => {
                 />
               </div>
             </div>
-            <div className="col-lg-6 col-12 h-100">
+            <div className="col-lg-7 col-12">
               <div className="training-text">
-                <h4>- ABOUT TRAINING AND PLACEMENT CELL</h4>
-                <small>
+                <p>
                   The ultimate aim of the institute is not only just creating
                   the engineers, but to eventually producing and delivering
                   working professionals to the industry by imparting employable
@@ -42,13 +41,49 @@ const index = () => {
                   for imparting extra knowledge and providing exposure,
                   practical knowledge a skill to the student community and
                   faculties.
-                </small>
+                </p>
               </div>
             </div>
           </div>
         </div>
       </div>
-      <div className="placement-record py-4">
+      <div className="our-recruiters pt-40">
+        <div className="our-recruiters-heading">
+            <h2 className="text-center">Our Recruiters</h2>
+            <hr />
+            <div className="marquee">
+                <marquee behavior="alternate" direction="">
+                    <img className="img-fluid" src="https://monarkuni.ac.in/wp-content/uploads/2022/06/3.Toyoto.png" alt="" />
+                    <img className="img-fluid" src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Axis_Bank_logo.svg/2560px-Axis_Bank_logo.svg.png" alt="" />
+                    <img className="img-fluid" src="https://www.logo.wine/a/logo/Microsoft_Azure/Microsoft_Azure-Logo.wine.svg" alt="" />
+                    <img className="img-fluid" src="https://monarkuni.ac.in/wp-content/uploads/2021/06/snlfinanciallogo-300x53.jpg" alt="" />
+                    <img className="img-fluid" src="https://monarkuni.ac.in/wp-content/uploads/2021/06/smc.jpg" alt="" />
+                    <img className="img-fluid" src="https://monarkuni.ac.in/wp-content/uploads/2021/06/prakshal-300x81.jpg" alt="" />
+                    <img className="img-fluid" src="https://monarkuni.ac.in/wp-content/uploads/2021/06/practo_logo.jpg" alt="" />
+                    <img className="img-fluid" src="https://monarkuni.ac.in/wp-content/uploads/2021/06/nj-300x83.jpg" alt="" />
+                    <img className="img-fluid" src="https://monarkuni.ac.in/wp-content/uploads/2021/06/microlink-solution-pvt-ltd-11318313387.jpg" alt="" />
+                    <img className="img-fluid" src="https://monarkuni.ac.in/wp-content/uploads/2021/06/mazda1.jpg" alt="" />
+                    <img className="img-fluid" src="https://monarkuni.ac.in/wp-content/uploads/2021/06/fp.jpg" alt="" />
+                    <img className="img-fluid" src="https://monarkuni.ac.in/wp-content/uploads/2021/06/essae-teraoka-ltd-350x120-1.jpg" alt="" />
+                    <img className="img-fluid" src="https://monarkuni.ac.in/wp-content/uploads/2021/06/EPOCH.jpg" alt="" />
+                    <img className="img-fluid" src="https://monarkuni.ac.in/wp-content/uploads/2021/06/ECLINICAL.jpg" alt="" />
+                    <img className="img-fluid" src="https://monarkuni.ac.in/wp-content/uploads/2021/06/bharti-axa-life-insurance-logo2.jpg" alt="" />
+                    <img className="img-fluid" src="https://monarkuni.ac.in/wp-content/uploads/2021/06/aricent.jpg" alt="" />
+                    <img className="img-fluid" src="https://monarkuni.ac.in/wp-content/uploads/2021/06/925608981-2813930-1_s.jpg" alt="" />
+                    <img className="img-fluid" src="https://monarkuni.ac.in/wp-content/uploads/2022/06/2.-BYJUS.png" alt="" />
+                    <img className="img-fluid" src="https://monarkuni.ac.in/wp-content/uploads/2022/06/4.-Maruti-Suzuki.jpg" alt="" />
+                    <img className="img-fluid" src="https://monarkuni.ac.in/wp-content/uploads/2022/06/5.-torrent-300x93.png" alt="" />
+                    <img className="img-fluid" src="https://monarkuni.ac.in/wp-content/uploads/2022/06/6.-Zydus-Cadila-300x225.jpg" alt="" />
+                    <img className="img-fluid" src="https://monarkuni.ac.in/wp-content/uploads/2022/06/9.-IBM-300x143.jpg" alt="" />
+                    <img className="img-fluid" src="https://monarkuni.ac.in/wp-content/uploads/2022/06/8.-VODAFONE-IMAGE.jpg" alt="" />
+                    <img className="img-fluid" src="https://monarkuni.ac.in/wp-content/uploads/2022/06/11.-Jindal-Steel-Power-300x107.png" alt="" />
+                    <img className="img-fluid" src="https://monarkuni.ac.in/wp-content/uploads/2022/06/18.-ICICI-2-300x188.jpg" alt="" />
+                </marquee>
+            </div>  
+        </div>
+      </div>
+      <div className="placement-record bg-light py-5 ">
+        <div className="container">
         <div className="placement-record-heading">
           <h2 className="text-center">Placement Records</h2>
           <hr />
@@ -119,42 +154,9 @@ const index = () => {
             </div>
           </div>
         </div>
-      </div>
-      <div className="our-recruiters py-4">
-        <div className="our-recruiters-heading">
-            <h2 className="text-center">Our Recruiters</h2>
-            <hr />
-            <div className="marquee">
-                <marquee behavior="alternate" direction="">
-                    <img className="img-fluid" src="https://monarkuni.ac.in/wp-content/uploads/2022/06/3.Toyoto.png" alt="" />
-                    <img className="img-fluid" src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Axis_Bank_logo.svg/2560px-Axis_Bank_logo.svg.png" alt="" />
-                    <img className="img-fluid" src="https://www.logo.wine/a/logo/Microsoft_Azure/Microsoft_Azure-Logo.wine.svg" alt="" />
-                    <img className="img-fluid" src="https://monarkuni.ac.in/wp-content/uploads/2021/06/snlfinanciallogo-300x53.jpg" alt="" />
-                    <img className="img-fluid" src="https://monarkuni.ac.in/wp-content/uploads/2021/06/smc.jpg" alt="" />
-                    <img className="img-fluid" src="https://monarkuni.ac.in/wp-content/uploads/2021/06/prakshal-300x81.jpg" alt="" />
-                    <img className="img-fluid" src="https://monarkuni.ac.in/wp-content/uploads/2021/06/practo_logo.jpg" alt="" />
-                    <img className="img-fluid" src="https://monarkuni.ac.in/wp-content/uploads/2021/06/nj-300x83.jpg" alt="" />
-                    <img className="img-fluid" src="https://monarkuni.ac.in/wp-content/uploads/2021/06/microlink-solution-pvt-ltd-11318313387.jpg" alt="" />
-                    <img className="img-fluid" src="https://monarkuni.ac.in/wp-content/uploads/2021/06/mazda1.jpg" alt="" />
-                    <img className="img-fluid" src="https://monarkuni.ac.in/wp-content/uploads/2021/06/fp.jpg" alt="" />
-                    <img className="img-fluid" src="https://monarkuni.ac.in/wp-content/uploads/2021/06/essae-teraoka-ltd-350x120-1.jpg" alt="" />
-                    <img className="img-fluid" src="https://monarkuni.ac.in/wp-content/uploads/2021/06/EPOCH.jpg" alt="" />
-                    <img className="img-fluid" src="https://monarkuni.ac.in/wp-content/uploads/2021/06/ECLINICAL.jpg" alt="" />
-                    <img className="img-fluid" src="https://monarkuni.ac.in/wp-content/uploads/2021/06/bharti-axa-life-insurance-logo2.jpg" alt="" />
-                    <img className="img-fluid" src="https://monarkuni.ac.in/wp-content/uploads/2021/06/aricent.jpg" alt="" />
-                    <img className="img-fluid" src="https://monarkuni.ac.in/wp-content/uploads/2021/06/925608981-2813930-1_s.jpg" alt="" />
-                    <img className="img-fluid" src="https://monarkuni.ac.in/wp-content/uploads/2022/06/2.-BYJUS.png" alt="" />
-                    <img className="img-fluid" src="https://monarkuni.ac.in/wp-content/uploads/2022/06/4.-Maruti-Suzuki.jpg" alt="" />
-                    <img className="img-fluid" src="https://monarkuni.ac.in/wp-content/uploads/2022/06/5.-torrent-300x93.png" alt="" />
-                    <img className="img-fluid" src="https://monarkuni.ac.in/wp-content/uploads/2022/06/6.-Zydus-Cadila-300x225.jpg" alt="" />
-                    <img className="img-fluid" src="https://monarkuni.ac.in/wp-content/uploads/2022/06/9.-IBM-300x143.jpg" alt="" />
-                    <img className="img-fluid" src="https://monarkuni.ac.in/wp-content/uploads/2022/06/8.-VODAFONE-IMAGE.jpg" alt="" />
-                    <img className="img-fluid" src="https://monarkuni.ac.in/wp-content/uploads/2022/06/11.-Jindal-Steel-Power-300x107.png" alt="" />
-                    <img className="img-fluid" src="https://monarkuni.ac.in/wp-content/uploads/2022/06/18.-ICICI-2-300x188.jpg" alt="" />
-                </marquee>
-            </div>  
         </div>
       </div>
+      
     </div>
   );
 };

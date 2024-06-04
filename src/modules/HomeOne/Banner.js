@@ -11,11 +11,11 @@ export default function Banner() {
 
 	useEffect(()=>{
 		let tl=gsap.timeline()
-		tl.from('.hero-text h1',{
+		tl.from('.hero-text',{
 			y:'-100',
 			scale:1.5,
 		opacity:0,
-		duration:1,
+		delay:"1",
 		
 		  })
 		
@@ -31,9 +31,9 @@ export default function Banner() {
 		<div className='hero-section'>
 			<div className="hero-img">
 				<img className='img-fluid' src="/img/hero/universityimg.jpg" />
-				<div className="hero-text">
+				<div className="hero-text ">
 					<h1 className='hero-text-animation' data-text="MONARK UNIVERSITY">MONARK UNIVERSITY</h1>
-					<p>We continue to be recognized as a leading global management institution, expanding the frontiers of management research, leadership, and education.</p>
+					<p className='text-center'>We continue to be recognized as a leading global management institution, expanding the frontiers of management research, leadership, and education.</p>
 				</div>
 			</div>
 		</div>

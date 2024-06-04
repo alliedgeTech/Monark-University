@@ -1,14 +1,41 @@
 import SingleBlog from "@/components/Blog";
 import Blogs from "@/data/blogs";
-import React from "react";
+import React, { useEffect } from "react";
 import dynamic from "next/dynamic";
 import Image from "next/image";
 import { useState } from "react";
 import Lightbox from "yet-another-react-lightbox";
 import "yet-another-react-lightbox/styles.css";
 import campusdata from "@/data/campus";
+import gsap from 'gsap';
+import { ScrollTrigger } from 'gsap/dist/ScrollTrigger';
 
 const Campusdisplay = () => {
+
+  useEffect(() => {
+    gsap.registerPlugin(ScrollTrigger);
+    let mm=gsap.matchMedia()
+
+    mm.add("(min-width:991px)",()=>{
+      gsap.from(".best-university-heading h1", {
+        opacity:0,
+        scale:0.5,
+        y:100,
+        scrollTrigger: {
+          trigger: ".best-university-heading h1",
+          scroller:'body',
+          start: "top bottom",
+          end: "top 70%",
+          scrub: 0.2,
+        },
+      });
+  
+      
+    })
+
+
+  }, []);
+
   const [open, setOpen] = useState(false);
   return (
     <>
