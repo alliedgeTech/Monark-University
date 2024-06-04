@@ -168,7 +168,6 @@ h1 {
     color: #000;
 }
 .student-club{
-    background: linear-gradient(#ffffff,#f2f2f2);
     border-bottom-left-radius: 6vmax;
     border-bottom-right-radius: 6vmax;
 }
@@ -604,4 +603,45 @@ h1 {
 .even{
     background: #dadada !important;
     border-radius: 3vmax;
+}
+.history-card{
+    background: #1566a5;
+    position: relative;
+    border-top: 5px solid var(--web-orange);
+    min-height: 180px;
+    transition: all 0.5s;
+    border-radius: 8px;
+}
+.history-card:hover .history-card-heading{
+    border: 6px solid var(--web-orange);
+}
+.history-card:hover{
+    background: var(--web-color);
+    box-shadow: 0 0 10px var(--web-color);
+    transform: translateY(-5px);
+}
+.history-card-heading{
+    position: absolute;
+    top: 0%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: var(--web-orange);
+    height: 90px;
+    width: 90px;
+    border-radius: 50%;
+    border: 6px solid var(--web-white);
+    transition: all 0.5s;
+}
+.history-card h4{
+    color: var(--web-white);
+    margin-top: 20px;
+    position: absolute;
+    bottom: 10%;
+    font-size: 22px;
+}
+.history-card h5{
+    color: var(--web-whit);
+}
+.it-career-item{
+    background: var(--web-color) !important;
 }

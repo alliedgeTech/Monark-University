@@ -4,17 +4,50 @@ import fullimg from "../../../public/img/choose/monarknew.jpg";
 import blankm from "../../../public/img/choose/NS.jpg";
 import sb from "../../../public/img/choose/sb.jpg";
 import hs from "../../../public/img/choose/hs.jpg";
-import ai from "../../../public/img/choose/AICTE.png"
-import nc from "../../../public/img/choose/NCTE.png"
-import gn from "../../../public/img/choose/GNC.jpg"
-import bc from"../../../public/img/choose/BCI.png"
-import na from "../../../public/img/choose/NAAC.png"
-import is from "../../../public/img/choose/ISTE.jpg"
-import vi from "../../../public/img/choose/VIPNET.png"
-import ncc from "../../../public/img/choose/NCC.jpg"
-import gsap from 'gsap';
-import { ScrollTrigger } from 'gsap/dist/ScrollTrigger';
+import ai from "../../../public/img/choose/AICTE.png";
+import nc from "../../../public/img/choose/NCTE.png";
+import gn from "../../../public/img/choose/GNC.jpg";
+import bc from "../../../public/img/choose/BCI.png";
+import na from "../../../public/img/choose/NAAC.png";
+import is from "../../../public/img/choose/ISTE.jpg";
+import vi from "../../../public/img/choose/VIPNET.png";
+import ncc from "../../../public/img/choose/NCC.jpg";
+import gsap from "gsap";
+import { ScrollTrigger } from "gsap/dist/ScrollTrigger";
 import { useEffect } from "react";
+import dynamic from "next/dynamic";
+import "owl.carousel/dist/assets/owl.carousel.css";
+import "owl.carousel/dist/assets/owl.theme.default.css";
+
+// Import jQuery
+if (typeof window !== "undefined") {
+  var $ = require("jquery");
+  window.$ = window.jQuery = require("jquery");
+}
+
+// Dynamically import OwlCarousel without SSR
+const OwlCarousel = dynamic(() => import("react-owl-carousel"), {
+  ssr: false,
+});
+
+const Responsive = {
+  0: {
+    items: 1,
+    margin: 5,
+  },
+  435: {
+    items: 2,
+    margin: 10,
+  },
+  768: {
+    items: 3,
+    margin: 10,
+  },
+  1024: {
+    items: 4,
+    margin: 10,
+  },
+};
 
 const apvrs = [
   {
@@ -59,87 +92,94 @@ const apvrs = [
   },
 ];
 export default function About() {
-
   useEffect(() => {
     gsap.registerPlugin(ScrollTrigger);
-    let mm=gsap.matchMedia()
+    let mm = gsap.matchMedia();
 
-    mm.add("(min-width:991px)",()=>{
+    mm.add("(min-width:991px)", () => {
       gsap.from(".it-choose-title-box", {
-        opacity:0,
-        x:-100,
-        delay:"1",
-        
+        opacity: 0,
+        x: -100,
+        delay: "1",
       });
       gsap.from(".it-choose-text", {
-        opacity:0,
-        x:-100,
-        delay:"1",
+        opacity: 0,
+        x: -100,
+        delay: "1",
       });
       gsap.from(".it-choose-thumb", {
-        opacity:0,
-        x:100,
-        delay:"1",
+        opacity: 0,
+        x: 100,
+        delay: "1",
       });
       gsap.from(".it-choose-content", {
-        opacity:0,
-        x:100,
-        stagger:0.5,
+        opacity: 0,
+        x: 100,
+        stagger: 0.5,
         scrollTrigger: {
           trigger: ".it-choose-content",
-          scroller:'body',
+          scroller: "body",
           start: "top bottom",
           end: "top center",
           scrub: 0.2,
         },
       });
       gsap.from(".it-event-2-area", {
-        opacity:0,
-        x:-100,
-        stagger:1,
+        opacity: 0,
+        x: -100,
+        stagger: 1,
         scrollTrigger: {
           trigger: ".it-event-2-area",
-          scroller:'body',
+          scroller: "body",
           start: "top bottom",
-          end: "top 40%",
+          end: "top 10%",
           scrub: 0.2,
-          markers:true,
         },
       });
       gsap.from(".it-career-item-left", {
-        opacity:0,
-        x:-100,
+        opacity: 0,
+        x: -100,
+        scale:0.5,
         scrollTrigger: {
           trigger: ".it-career-item-left",
-          scroller:'body',
+          scroller: "body",
           start: "top bottom",
-          end: "top 40%",
+          end: "center center",
           scrub: 0.2,
-          markers:true,
         },
       });
       gsap.from(".it-career-item-right", {
-        opacity:0,
-        x:100,
+        opacity: 0,
+        x: 100,
+        scale:0.5,
         scrollTrigger: {
           trigger: ".it-career-item-right",
-          scroller:'body',
+          scroller: "body",
           start: "top bottom",
-          end: "top center",
+          end: "center center",
           scrub: 0.2,
-          markers:true,
         },
       });
-  
+      gsap.from(".discover-heading", {
+        opacity: 0,
+        y:100,
+        scale:1.5,
+        scrollTrigger: {
+          trigger: ".discover-heading",
+          scroller: "body",
+          start: "top bottom",
+          end: "top 60%",
+          scrub: 0.2,
+        },
+      });
       
-      
-    })
 
 
+    });
   }, []);
 
   return (
-    <div id="historicalbackground" >
+    <div id="historicalbackground">
       <div className="it-choose-area p-relative pt-100">
         <div className="it-choose-shape-4 d-none d-md-block">
           <Image
@@ -152,29 +192,29 @@ export default function About() {
         <div className="container">
           <div className="row">
             <div className="col-lg-6 col-12">
-            <div className="it-choose-title-box ">
-                  <span className="it-section-subtitle">
-                    Historical Background
-                  </span>
-                  <h4 className="it-section-title">
-                    Historical Background of the Sponsoring Body
-                  </h4>
-                </div>
-                <div className="it-choose-text pb-15">
-                  <p>
-                    With the blessings of the Goddess Saraswati, Shree Monark
-                    Education Trust (SMET) being the sponsoring/promoting body
-                    of the Monark University was established in the year 2001 as
-                    a result of the vision of its founder Chairman, Shri
-                    Mohanbharthi R. Goswami, a farmer and philanthropist, to
-                    promote world-class academic institutions. The following
-                    erstwhile institutions promoted by the Trust at fast pace
-                    have now come under the purview of the Monark University.
-                  </p>
-                </div>
+              <div className="it-choose-title-box ">
+                <span className="it-section-subtitle">
+                  Historical Background
+                </span>
+                <h4 className="it-section-title">
+                  Historical Background of the Sponsoring Body
+                </h4>
+              </div>
+              <div className="it-choose-text pb-15">
+                <p>
+                  With the blessings of the Goddess Saraswati, Shree Monark
+                  Education Trust (SMET) being the sponsoring/promoting body of
+                  the Monark University was established in the year 2001 as a
+                  result of the vision of its founder Chairman, Shri
+                  Mohanbharthi R. Goswami, a farmer and philanthropist, to
+                  promote world-class academic institutions. The following
+                  erstwhile institutions promoted by the Trust at fast pace have
+                  now come under the purview of the Monark University.
+                </p>
+              </div>
             </div>
             <div className="col-lg-6 col-12">
-            <div className="it-choose-thumb-box text-center text-md-end">
+              <div className="it-choose-thumb-box text-center text-md-end">
                 <div className="it-choose-thumb p-relative">
                   <Image src={fullimg} className="img-fluid" alt="" />
                   <div className="it-choose-shape-1">
@@ -207,55 +247,52 @@ export default function About() {
           </div>
           <div className="row">
             <div className="col-lg-6 col-12 mt-lg-0 mt-4">
-            <div className="it-choose-content">
-                        <h5>
-                          <i className="fa-solid fa-circle-check"></i>World
-                          Class Trainers
-                        </h5>
-                        <p>
-                          Experience excellence with our world-class faculty,
-                          dedicated to nurturing your academic journey with
-                          expertise and passion.
-                        </p>
-                      </div>
+              <div className="it-choose-content">
+                <h5>
+                  <i className="fa-solid fa-circle-check"></i>World Class
+                  Trainers
+                </h5>
+                <p>
+                  Experience excellence with our world-class faculty, dedicated
+                  to nurturing your academic journey with expertise and passion.
+                </p>
+              </div>
             </div>
             <div className="col-lg-6 col-12 mt-lg-0 mt-4">
-            <div className="it-choose-content">
-                        <h5>
-                          <i className="fa-solid fa-circle-check"></i>Easy
-                          Learning
-                        </h5>
-                        <p>
-                          Embark on a journey of effortless learning with our
-                          engaging approach and supportive faculty, making
-                          education a seamless and enjoyable experience.{" "}
-                        </p>
-                      </div>
+              <div className="it-choose-content">
+                <h5>
+                  <i className="fa-solid fa-circle-check"></i>Easy Learning
+                </h5>
+                <p>
+                  Embark on a journey of effortless learning with our engaging
+                  approach and supportive faculty, making education a seamless
+                  and enjoyable experience.{" "}
+                </p>
+              </div>
             </div>
             <div className="col-lg-6 col-12 mt-4">
-            <div className="it-choose-content">
-                        <h5>
-                          <i className="fa-solid fa-circle-check"></i>Flexible
-                        </h5>
-                        <p>
-                          Experience easy, flexible learning with our adaptable
-                          approach and supportive faculty, empowering you to
-                          learn at your own pace and convenience.
-                        </p>
-                      </div>
+              <div className="it-choose-content">
+                <h5>
+                  <i className="fa-solid fa-circle-check"></i>Flexible
+                </h5>
+                <p>
+                  Experience easy, flexible learning with our adaptable approach
+                  and supportive faculty, empowering you to learn at your own
+                  pace and convenience.
+                </p>
+              </div>
             </div>
             <div className="col-lg-6 col-12 mt-4">
-            <div className="it-choose-content">
-                        <h5>
-                          <i className="fa-solid fa-circle-check"></i>Affordable
-                          Price
-                        </h5>
-                        <p>
-                          Unlock the door to easy, affordable learning with our
-                          accessible approach and budget-friendly options,
-                          ensuring education is within reach for all.
-                        </p>
-                      </div>
+              <div className="it-choose-content">
+                <h5>
+                  <i className="fa-solid fa-circle-check"></i>Affordable Price
+                </h5>
+                <p>
+                  Unlock the door to easy, affordable learning with our
+                  accessible approach and budget-friendly options, ensuring
+                  education is within reach for all.
+                </p>
+              </div>
             </div>
           </div>
         </div>
@@ -263,533 +300,197 @@ export default function About() {
       {/* Years and trust start*/}
       <div>
         <div class="container">
-          <div class="row">
-            <div class="col-xl-3 col-lg-3 col-md-3 mt-4 h-100">
-              <div class="it-event-2-area it-event-style-3 p-relative ">
-                <div class="it-event-2-item-box">
-                  <div class="it-event-2-item">
-                    <div class="it-event-2-thumb fix">
-                      <img
-                        alt=""
-                        loading="lazy"
-                        width="352"
-                        height="256"
-                        decoding="async"
-                        data-nimg="1"
-                        src="/img/choose/sgu.jpg"
-                      />
-
-                      <div class="it-event-2-date">
-                        <span>
-                          <i>2001</i>
-                        </span>
-                      </div>
+          <div className="our-history py-3">
+            <OwlCarousel
+              className="owl-theme history-carousel"
+              dots={true}
+              autoPlay={true}
+              autoplayTimeout={5000}
+              responsive={Responsive}
+            >
+              <div className="item py-5 px-2 m-0">
+                <div className="history-item d-flex align-items-center">
+                  <div className="history-card w-100 px-2">
+                    <div className="history-card-heading d-flex align-items-center justify-content-center">
+                      <h5 className="mb-0">2001</h5>
                     </div>
-                    <div class="it-event-2-content">
-                      <h4 class="it-event-2-title">
-                        Shree Monark education trust
-                      </h4>
-                    </div>
+                    <h4>Shree Monark education trust</h4>
                   </div>
                 </div>
               </div>
-            </div>
-
-            <div class="col-xl-3 col-lg-3 col-md-3 mt-4 h-100">
-              <div class="it-event-2-area it-event-style-3 p-relative ">
-                <div class="it-event-2-item-box">
-                  <div class="it-event-2-item">
-                    <div class="it-event-2-thumb fix">
-                      <img
-                        alt=""
-                        loading="lazy"
-                        width="352"
-                        height="256"
-                        decoding="async"
-                        data-nimg="1"
-                        src="/img/choose/mmc.jpg"
-                      />
-
-                      <div class="it-event-2-date">
-                        <span>
-                          <i>2005</i>
-                        </span>
-                      </div>
+              <div className="item py-5 px-2 m-0">
+                <div className="history-item d-flex align-items-center">
+                  <div className="history-card w-100 px-2">
+                    <div className="history-card-heading d-flex align-items-center justify-content-center">
+                      <h5 className="mb-0">2005</h5>
                     </div>
-                    <div class="it-event-2-content">
-                      <h4 class="it-event-2-title">
-                        Smt. Maniba Mahila B.Ed. College
-                      </h4>
-                    </div>
+                    <h4>Smt. Maniba Mahila B.Ed. College</h4>
                   </div>
                 </div>
               </div>
-            </div>
-            <div class="col-xl-3 col-lg-3 col-md-3 mt-4 h-100">
-              <div class="it-event-2-area it-event-style-3 p-relative ">
-                <div class="it-event-2-item-box">
-                  <div class="it-event-2-item">
-                    <div class="it-event-2-thumb fix">
-                      <img
-                        alt=""
-                        loading="lazy"
-                        width="352"
-                        height="256"
-                        decoding="async"
-                        data-nimg="1"
-                        src="/img/choose/hge.png"
-                      />
-
-                      <div class="it-event-2-date">
-                        <span>
-                          <i>2007</i>
-                        </span>
-                      </div>
+              <div className="item py-5 px-2 m-0">
+                <div className="history-item d-flex align-items-center">
+                  <div className="history-card w-100 px-2">
+                    <div className="history-card-heading d-flex align-items-center justify-content-center">
+                      <h5 className="mb-0">2007</h5>
                     </div>
-                    <div class="it-event-2-content">
-                      <h4 class="it-event-2-title">
-                        Hasmukh Goswami College of Engineering
-                      </h4>
-                    </div>
+                    <h4>Hasmukh Goswami College of Engineering</h4>
                   </div>
                 </div>
               </div>
-            </div>
-
-            <div class="col-xl-3 col-lg-3 col-md-3 mt-4 h-100">
-              <div class="it-event-2-area it-event-style-3 p-relative ">
-                <div class="it-event-2-item-box">
-                  <div class="it-event-2-item">
-                    <div class="it-event-2-thumb fix">
-                      <img
-                        alt=""
-                        loading="lazy"
-                        width="352"
-                        height="256"
-                        decoding="async"
-                        data-nimg="1"
-                        src="/img/choose/sgu.jpg"
-                      />
-
-                      <div class="it-event-2-date">
-                        <span>
-                          <i>2007</i>
-                        </span>
-                      </div>
+              <div className="item py-5 px-2 m-0">
+                <div className="history-item d-flex align-items-center">
+                  <div className="history-card w-100 px-2">
+                    <div className="history-card-heading d-flex align-items-center justify-content-center">
+                      <h5 className="mb-0">2007</h5>
                     </div>
-                    <div class="it-event-2-content">
-                      <h4 class="it-event-2-title">
-                        Piyuni pre-school teacher education
-                      </h4>
-                    </div>
+                    <h4>Piyuni pre-school teacher education</h4>
                   </div>
                 </div>
               </div>
-            </div>
-
-            <div class="col-xl-3 col-lg-3 col-md-3 mt-4 h-100">
-              <div class="it-event-2-area it-event-style-3 p-relative ">
-                <div class="it-event-2-item-box">
-                  <div class="it-event-2-item">
-                    <div class="it-event-2-thumb fix">
-                      <img
-                        alt=""
-                        loading="lazy"
-                        width="352"
-                        height="256"
-                        decoding="async"
-                        data-nimg="1"
-                        src="/img/choose/jaa.jpg"
-                      />
-
-                      <div class="it-event-2-date">
-                        <span>
-                          <i>2007</i>
-                        </span>
-                      </div>
+              <div className="item py-5 px-2 m-0">
+                <div className="history-item d-flex align-items-center">
+                  <div className="history-card w-100 px-2">
+                    <div className="history-card-heading d-flex align-items-center justify-content-center">
+                      <h5 className="mb-0">2007</h5>
                     </div>
-                    <div class="it-event-2-content">
-                      <h4 class="it-event-2-title">Jeel adhyapan mandir</h4>
-                    </div>
+                    <h4>Jeel adhyapan mandir</h4>
                   </div>
                 </div>
               </div>
-            </div>
-
-            <div class="col-xl-3 col-lg-3 col-md-3 mt-4 h-100">
-              <div class="it-event-2-area it-event-style-3 p-relative ">
-                <div class="it-event-2-item-box">
-                  <div class="it-event-2-item">
-                    <div class="it-event-2-thumb fix">
-                      <a href="/event/event-one">
-                        <img
-                          alt=""
-                          loading="lazy"
-                          width="352"
-                          height="256"
-                          decoding="async"
-                          data-nimg="1"
-                          src="/img/choose/sgu.jpg"
-                        />
-                      </a>
-                      <div class="it-event-2-date">
-                        <span>
-                          <i>2007</i>
-                        </span>
-                      </div>
+              <div className="item py-5 px-2 m-0">
+                <div className="history-item d-flex align-items-center">
+                  <div className="history-card w-100 px-2">
+                    <div className="history-card-heading d-flex align-items-center justify-content-center">
+                      <h5 className="mb-0">2007</h5>
                     </div>
-                    <div class="it-event-2-content">
-                      <h4 class="it-event-2-title">Satish adhyapan mandir</h4>
-                    </div>
+                    <h4>Satish adhyapan mandir</h4>
                   </div>
                 </div>
               </div>
-            </div>
-
-            <div class="col-xl-3 col-lg-3 col-md-3 mt-4 h-100">
-              <div class="it-event-2-area it-event-style-3 p-relative ">
-                <div class="it-event-2-item-box">
-                  <div class="it-event-2-item">
-                    <div class="it-event-2-thumb fix">
-                      <img
-                        alt=""
-                        loading="lazy"
-                        width="352"
-                        height="256"
-                        decoding="async"
-                        data-nimg="1"
-                        src="/img/choose/mce.png"
-                      />
-
-                      <div class="it-event-2-date">
-                        <span>
-                          <i>2008</i>
-                        </span>
-                      </div>
+              <div className="item py-5 px-2 m-0">
+                <div className="history-item d-flex align-items-center">
+                  <div className="history-card w-100 px-2">
+                    <div className="history-card-heading d-flex align-items-center justify-content-center">
+                      <h5 className="mb-0">2008</h5>
                     </div>
-                    <div class="it-event-2-content">
-                      <h4 class="it-event-2-title">
-                        Maniba College of education
-                      </h4>
-                    </div>
+                    <h4>Maniba College of education</h4>
                   </div>
                 </div>
               </div>
-            </div>
-
-            <div class="col-xl-3 col-lg-3 col-md-3 mt-4 h-100">
-              <div class="it-event-2-area it-event-style-3 p-relative ">
-                <div class="it-event-2-item-box">
-                  <div class="it-event-2-item">
-                    <div class="it-event-2-thumb fix">
-                      <img
-                        alt=""
-                        loading="lazy"
-                        width="352"
-                        height="256"
-                        decoding="async"
-                        data-nimg="1"
-                        src="/img/choose/mmed.png"
-                      />
-
-                      <div class="it-event-2-date">
-                        <span>
-                          <i>2008</i>
-                        </span>
-                      </div>
+              <div className="item py-5 px-2 m-0">
+                <div className="history-item d-flex align-items-center">
+                  <div className="history-card w-100 px-2">
+                    <div className="history-card-heading d-flex align-items-center justify-content-center">
+                      <h5 className="mb-0">2008</h5>
                     </div>
-                    <div class="it-event-2-content">
-                      <h4 class="it-event-2-title">Manguba M.Ed College</h4>
-                    </div>
+                    <h4>Manguba M.Ed College</h4>
                   </div>
                 </div>
               </div>
-            </div>
-
-            <div class="col-xl-3 col-lg-3 col-md-3 mt-4 h-100">
-              <div class="it-event-2-area it-event-style-3 p-relative ">
-                <div class="it-event-2-item-box">
-                  <div class="it-event-2-item">
-                    <div class="it-event-2-thumb fix">
-                      <img
-                        alt=""
-                        loading="lazy"
-                        width="352"
-                        height="256"
-                        decoding="async"
-                        data-nimg="1"
-                        src="/img/choose/rba.jpg"
-                      />
-
-                      <div class="it-event-2-date">
-                        <span>
-                          <i>2011</i>
-                        </span>
-                      </div>
+              <div className="item py-5 px-2 m-0">
+                <div className="history-item d-flex align-items-center">
+                  <div className="history-card w-100 px-2">
+                    <div className="history-card-heading d-flex align-items-center justify-content-center">
+                      <h5 className="mb-0">2011</h5>
                     </div>
-                    <div class="it-event-2-content">
-                      <h4 class="it-event-2-title">
-                        Rudra College of business administration
-                      </h4>
-                    </div>
+                    <h4>Rudra College of business administration</h4>
                   </div>
                 </div>
               </div>
-            </div>
-
-            <div class="col-xl-3 col-lg-3 col-md-3 mt-4 h-100">
-              <div class="it-event-2-area it-event-style-3 p-relative ">
-                <div class="it-event-2-item-box">
-                  <div class="it-event-2-item">
-                    <div class="it-event-2-thumb fix">
-                      <img
-                        alt=""
-                        loading="lazy"
-                        width="352"
-                        height="256"
-                        decoding="async"
-                        data-nimg="1"
-                        src="/img/choose/pgc.png"
-                      />
-
-                      <div class="it-event-2-date">
-                        <span>
-                          <i>2011</i>
-                        </span>
-                      </div>
+              <div className="item py-5 px-2 m-0">
+                <div className="history-item d-flex align-items-center">
+                  <div className="history-card w-100 px-2">
+                    <div className="history-card-heading d-flex align-items-center justify-content-center">
+                      <h5 className="mb-0">2011</h5>
                     </div>
-                    <div class="it-event-2-content">
-                      <h4 class="it-event-2-title">
-                        Piyuni Goswami College of commerce
-                      </h4>
-                    </div>
+                    <h4>Piyuni Goswami College of commerce</h4>
                   </div>
                 </div>
               </div>
-            </div>
-
-            <div class="col-xl-3 col-lg-3 col-md-3 mt-4 h-100">
-              <div class="it-event-2-area it-event-style-3 p-relative ">
-                <div class="it-event-2-item-box">
-                  <div class="it-event-2-item">
-                    <div class="it-event-2-thumb fix">
-                      <img
-                        alt=""
-                        loading="lazy"
-                        width="352"
-                        height="256"
-                        decoding="async"
-                        data-nimg="1"
-                        src="/img/choose/jgs.png"
-                      />
-
-                      <div class="it-event-2-date">
-                        <span>
-                          <i>2015</i>
-                        </span>
-                      </div>
+              <div className="item py-5 px-2 m-0">
+                <div className="history-item d-flex align-items-center">
+                  <div className="history-card w-100 px-2">
+                    <div className="history-card-heading d-flex align-items-center justify-content-center">
+                      <h5 className="mb-0">2015</h5>
                     </div>
-                    <div class="it-event-2-content">
-                      <h4 class="it-event-2-title">
-                        Jeel Goswami College of Science and research
-                      </h4>
-                    </div>
+                    <h4>Jeel Goswami College of Science and research</h4>
                   </div>
                 </div>
               </div>
-            </div>
-
-            <div class="col-xl-3 col-lg-3 col-md-3 mt-4 h-100">
-              <div class="it-event-2-area it-event-style-3 p-relative ">
-                <div class="it-event-2-item-box">
-                  <div class="it-event-2-item">
-                    <div class="it-event-2-thumb fix">
-                      <img
-                        alt=""
-                        loading="lazy"
-                        width="352"
-                        height="256"
-                        decoding="async"
-                        data-nimg="1"
-                        src="/img/choose/sgu.jpg"
-                      />
-
-                      <div class="it-event-2-date">
-                        <span>
-                          <i>2015</i>
-                        </span>
-                      </div>
+              <div className="item py-5 px-2 m-0">
+                <div className="history-item d-flex align-items-center">
+                  <div className="history-card w-100 px-2">
+                    <div className="history-card-heading d-flex align-items-center justify-content-center">
+                      <h5 className="mb-0">2015</h5>
                     </div>
-                    <div class="it-event-2-content">
-                      <h4 class="it-event-2-title">
-                        Satish Goswami College of Physiotherapist
-                      </h4>
-                    </div>
+                    <h4>Satish Goswami College of Physiotherapist</h4>
                   </div>
                 </div>
               </div>
-            </div>
-
-            <div class="col-xl-3 col-lg-3 col-md-3 mt-4 h-100">
-              <div class="it-event-2-area it-event-style-3 p-relative ">
-                <div class="it-event-2-item-box">
-                  <div class="it-event-2-item">
-                    <div class="it-event-2-thumb fix">
-                      <img
-                        alt=""
-                        loading="lazy"
-                        width="352"
-                        height="256"
-                        decoding="async"
-                        data-nimg="1"
-                        src="/img/choose/ug.jpg"
-                      />
-
-                      <div class="it-event-2-date">
-                        <span>
-                          <i>2018</i>
-                        </span>
-                      </div>
+              <div className="item py-5 px-2 m-0">
+                <div className="history-item d-flex align-items-center">
+                  <div className="history-card w-100 px-2">
+                    <div className="history-card-heading d-flex align-items-center justify-content-center">
+                      <h5 className="mb-0">2018</h5>
                     </div>
-                    <div class="it-event-2-content">
-                      <h4 class="it-event-2-title">
-                        Urmila Goswami College of Nursing
-                      </h4>
-                    </div>
+                    <h4>Urmila Goswami College of Nursing</h4>
                   </div>
                 </div>
               </div>
-            </div>
-
-            <div class="col-xl-3 col-lg-3 col-md-3 mt-4 h-100">
-              <div class="it-event-2-area it-event-style-3 p-relative ">
-                <div class="it-event-2-item-box">
-                  <div class="it-event-2-item">
-                    <div class="it-event-2-thumb fix">
-                      <img
-                        alt=""
-                        loading="lazy"
-                        width="352"
-                        height="256"
-                        decoding="async"
-                        data-nimg="1"
-                        src="/img/choose/mgl.jpg"
-                      />
-
-                      <div class="it-event-2-date">
-                        <span>
-                          <i>2019</i>
-                        </span>
-                      </div>
+              <div className="item py-5 px-2 m-0">
+                <div className="history-item d-flex align-items-center">
+                  <div className="history-card w-100 px-2">
+                    <div className="history-card-heading d-flex align-items-center justify-content-center">
+                      <h5 className="mb-0">2019</h5>
                     </div>
-                    <div class="it-event-2-content">
-                      <h4 class="it-event-2-title">
-                        Mohan Goswami College of law
-                      </h4>
-                    </div>
+                    <h4>Mohan Goswami College of law</h4>
                   </div>
                 </div>
               </div>
-            </div>
-
-            <div class="col-xl-3 col-lg-3 col-md-3 mt-4 h-100">
-              <div class="it-event-2-area it-event-style-3 p-relative ">
-                <div class="it-event-2-item-box">
-                  <div class="it-event-2-item">
-                    <div class="it-event-2-thumb fix">
-                      <img
-                        alt=""
-                        loading="lazy"
-                        width="352"
-                        height="256"
-                        decoding="async"
-                        data-nimg="1"
-                        src="/img/choose/pgu.jpeg"
-                      />
-
-                      <div class="it-event-2-date">
-                        <span>
-                          <i>2019</i>
-                        </span>
-                      </div>
+              <div className="item py-5 px-2 m-0">
+                <div className="history-item d-flex align-items-center">
+                  <div className="history-card w-100 px-2">
+                    <div className="history-card-heading d-flex align-items-center justify-content-center">
+                      <h5 className="mb-0">2019</h5>
                     </div>
-                    <div class="it-event-2-content">
-                      <h4 class="it-event-2-title">
-                        Piyuni Goswami College of arts
-                      </h4>
-                    </div>
+                    <h4>Piyuni Goswami College of arts</h4>
                   </div>
                 </div>
               </div>
-            </div>
-
-            <div class="col-xl-3 col-lg-3 col-md-3 mt-4 h-100">
-              <div class="it-event-2-area it-event-style-3 p-relative ">
-                <div class="it-event-2-item-box">
-                  <div class="it-event-2-item">
-                    <div class="it-event-2-thumb fix">
-                      <img
-                        alt=""
-                        loading="lazy"
-                        width="352"
-                        height="256"
-                        decoding="async"
-                        data-nimg="1"
-                        src="/img/choose/rdg.jpeg"
-                      />
-
-                      <div class="it-event-2-date">
-                        <span>
-                          <i>2019</i>
-                        </span>
-                      </div>
+              <div className="item py-5 px-2 m-0">
+                <div className="history-item d-flex align-items-center">
+                  <div className="history-card w-100 px-2">
+                    <div className="history-card-heading d-flex align-items-center justify-content-center">
+                      <h5 className="mb-0">2019</h5>
                     </div>
-                    <div class="it-event-2-content">
-                      <h4 class="it-event-2-title">
-                        Rudra Goswami College of computer application
-                      </h4>
-                    </div>
+                    <h4>Rudra Goswami College of computer application</h4>
                   </div>
                 </div>
               </div>
-            </div>
-
-            <div class="col-xl-3 col-lg-3 col-md-3 mt-4 h-100">
-              <div class="it-event-2-area it-event-style-3 p-relative ">
-                <div class="it-event-2-item-box">
-                  <div class="it-event-2-item">
-                    <div class="it-event-2-thumb fix">
-                      <img
-                        alt=""
-                        loading="lazy"
-                        width="352"
-                        height="256"
-                        decoding="async"
-                        data-nimg="1"
-                        src="/img/choose/monarkuni.jpeg"
-                      />
-
-                      <div class="it-event-2-date">
-                        <span>
-                          <i>2021</i>
-                        </span>
-                      </div>
+              <div className="item py-5 px-2 m-0">
+                <div className="history-item d-flex align-items-center">
+                  <div className="history-card w-100 px-2">
+                    <div className="history-card-heading d-flex align-items-center justify-content-center">
+                      <h5 className="mb-0">2021</h5>
                     </div>
-                    <div class="it-event-2-content">
-                      <h4 class="it-event-2-title">Monark University</h4>
-                    </div>
+                    <h4>Monark University</h4>
                   </div>
                 </div>
               </div>
-            </div>
+
+
+            </OwlCarousel>
           </div>
+
+          
 
           {/* Years and trust end*/}
 
           {/* vision and mission start*/}
 
           <div id="visionandmission" className="mt-30">
-            <div class="it-career-area it-career-bg p-relative pt-120">
+            <div class="it-career-area it-career-bg p-relative py-4">
               <div class="it-career-shape-2 d-none d-xl-block">
                 <img
                   alt=""
@@ -831,7 +532,7 @@ export default function About() {
                       <span class="it-section-subtitle">
                         Vision and Mission
                       </span>
-                      <h4 class="it-section-title">
+                      <h4 class="it-section-title discover-heading">
                         Discover your gain{" "}
                         <svg
                           class="title-shape-2"
@@ -1296,19 +997,20 @@ export default function About() {
                       layout="fill"
                       objectFit="cover"
                     >
-						<h4 className="it-section-title-5" style={{ marginBottom: '100px', textAlign: 'center' }}>Approvals & Recognitions</h4>
+                      <h4
+                        className="it-section-title-5"
+                        style={{ marginBottom: "100px", textAlign: "center" }}
+                      >
+                        Approvals & Recognitions
+                      </h4>
 
                       <div className="container">
                         <div className="row">
                           <div className="col-xl-3 col-lg-3">
                             <div className="it-feature-item text-center">
-
                               <div className="it-feature-item-content z-index">
                                 <div className="it-feature-icon">
-								<Image
-                                src={ai} className="img-fluid"
-                                
-                              />
+                                  <Image src={ai} className="img-fluid" />
                                 </div>
                                 <div className="it-feature-text pt-30">
                                   <h4 className="it-feature-title">AICTE</h4>
@@ -1360,22 +1062,18 @@ export default function About() {
 
                           <div className="col-xl-3 col-lg-3">
                             <div className="it-feature-item text-center">
-
                               <div className="it-feature-item-content z-index">
                                 <div className="it-feature-icon">
-								<Image
-                                src={nc} className="img-fluid"
-                                
-                              />
+                                  <Image src={nc} className="img-fluid" />
                                 </div>
                                 <div className="it-feature-text pt-30">
-                                  <h4 className="it-feature-title">
-                                    NCTE
-                                  </h4>
-                                
+                                  <h4 className="it-feature-title">NCTE</h4>
                                 </div>
                                 <div className="it-feature-button">
-                                  <Link href="https://ncte.gov.in/website/index.aspx" className="it-btn-border">
+                                  <Link
+                                    href="https://ncte.gov.in/website/index.aspx"
+                                    className="it-btn-border"
+                                  >
                                     <span>
                                       'Learn More'
                                       <svg
@@ -1408,24 +1106,20 @@ export default function About() {
                               </div>
                             </div>
                           </div>
-						  <div className="col-xl-3 col-lg-3">
+                          <div className="col-xl-3 col-lg-3">
                             <div className="it-feature-item text-center">
-
                               <div className="it-feature-item-content z-index">
                                 <div className="it-feature-icon">
-								<Image
-                                src={gn} className="img-fluid"
-                                
-                              />
+                                  <Image src={gn} className="img-fluid" />
                                 </div>
                                 <div className="it-feature-text pt-30">
-                                  <h4 className="it-feature-title">
-                                   GNC
-                                  </h4>
-                                
+                                  <h4 className="it-feature-title">GNC</h4>
                                 </div>
                                 <div className="it-feature-button">
-                                  <Link href="https://www.gujaratnursingcouncil.org/" className="it-btn-border">
+                                  <Link
+                                    href="https://www.gujaratnursingcouncil.org/"
+                                    className="it-btn-border"
+                                  >
                                     <span>
                                       'Learn More'
                                       <svg
@@ -1458,24 +1152,20 @@ export default function About() {
                               </div>
                             </div>
                           </div>
-						  <div className="col-xl-3 col-lg-3">
+                          <div className="col-xl-3 col-lg-3">
                             <div className="it-feature-item text-center">
-                            
                               <div className="it-feature-item-content z-index">
                                 <div className="it-feature-icon">
-								<Image
-                                src={bc} className="img-fluid"
-                                
-                              />
+                                  <Image src={bc} className="img-fluid" />
                                 </div>
                                 <div className="it-feature-text pt-30">
-                                  <h4 className="it-feature-title">
-                                   BCI
-                                  </h4>
-                                
+                                  <h4 className="it-feature-title">BCI</h4>
                                 </div>
                                 <div className="it-feature-button">
-                                  <Link href="https://www.barcouncilofindia.org/home" className="it-btn-border">
+                                  <Link
+                                    href="https://www.barcouncilofindia.org/home"
+                                    className="it-btn-border"
+                                  >
                                     <span>
                                       'Learn More'
                                       <svg
@@ -1508,24 +1198,23 @@ export default function About() {
                               </div>
                             </div>
                           </div>
-						  <div className="col-xl-3 col-lg-3">
-                            <div className="it-feature-item text-center" style={{ marginTop: '10px' }}>
-                           
+                          <div className="col-xl-3 col-lg-3">
+                            <div
+                              className="it-feature-item text-center"
+                              style={{ marginTop: "10px" }}
+                            >
                               <div className="it-feature-item-content z-index">
                                 <div className="it-feature-icon">
-								<Image
-                                src={na} className="img-fluid"
-                                
-                              />
+                                  <Image src={na} className="img-fluid" />
                                 </div>
                                 <div className="it-feature-text pt-30">
-                                  <h4 className="it-feature-title">
-                                    NAAC
-                                  </h4>
-                                
+                                  <h4 className="it-feature-title">NAAC</h4>
                                 </div>
                                 <div className="it-feature-button">
-                                  <Link href="http://naac.gov.in/index.php/en/" className="it-btn-border">
+                                  <Link
+                                    href="http://naac.gov.in/index.php/en/"
+                                    className="it-btn-border"
+                                  >
                                     <span>
                                       'Learn More'
                                       <svg
@@ -1558,24 +1247,23 @@ export default function About() {
                               </div>
                             </div>
                           </div>
-						  <div className="col-xl-3 col-lg-3">
-                            <div className="it-feature-item text-center" style={{ marginTop: '10px' }}>
-                           
+                          <div className="col-xl-3 col-lg-3">
+                            <div
+                              className="it-feature-item text-center"
+                              style={{ marginTop: "10px" }}
+                            >
                               <div className="it-feature-item-content z-index">
                                 <div className="it-feature-icon">
-								<Image
-                                src={is} className="img-fluid"
-                                
-                              />
+                                  <Image src={is} className="img-fluid" />
                                 </div>
                                 <div className="it-feature-text pt-30">
-                                  <h4 className="it-feature-title">
-                                  ISTE
-                                  </h4>
-                                
+                                  <h4 className="it-feature-title">ISTE</h4>
                                 </div>
                                 <div className="it-feature-button">
-                                  <Link href="http://www.isteonline.in/" className="it-btn-border">
+                                  <Link
+                                    href="http://www.isteonline.in/"
+                                    className="it-btn-border"
+                                  >
                                     <span>
                                       'Learn More'
                                       <svg
@@ -1608,24 +1296,23 @@ export default function About() {
                               </div>
                             </div>
                           </div>
-						  <div className="col-xl-3 col-lg-3">
-                            <div className="it-feature-item text-center" style={{ marginTop: '10px' }}>
-                           
+                          <div className="col-xl-3 col-lg-3">
+                            <div
+                              className="it-feature-item text-center"
+                              style={{ marginTop: "10px" }}
+                            >
                               <div className="it-feature-item-content z-index">
                                 <div className="it-feature-icon">
-								<Image
-                                src={vi} className="img-fluid"
-                                
-                              />
+                                  <Image src={vi} className="img-fluid" />
                                 </div>
                                 <div className="it-feature-text pt-30">
-                                  <h4 className="it-feature-title">
-                                    VIPNET
-                                  </h4>
-                                
+                                  <h4 className="it-feature-title">VIPNET</h4>
                                 </div>
                                 <div className="it-feature-button">
-                                  <Link href="https://vigyanprasar.gov.in/vipnet/" className="it-btn-border">
+                                  <Link
+                                    href="https://vigyanprasar.gov.in/vipnet/"
+                                    className="it-btn-border"
+                                  >
                                     <span>
                                       'Learn More'
                                       <svg
@@ -1658,24 +1345,23 @@ export default function About() {
                               </div>
                             </div>
                           </div>
-						  <div className="col-xl-3 col-lg-3">
-                            <div className="it-feature-item text-center" style={{ marginTop: '10px' }}>
-                           
+                          <div className="col-xl-3 col-lg-3">
+                            <div
+                              className="it-feature-item text-center"
+                              style={{ marginTop: "10px" }}
+                            >
                               <div className="it-feature-item-content z-index">
                                 <div className="it-feature-icon">
-								<Image
-                                src={ncc} className="img-fluid"
-                                
-                              />
+                                  <Image src={ncc} className="img-fluid" />
                                 </div>
                                 <div className="it-feature-text pt-30">
-                                  <h4 className="it-feature-title">
-                                    NCC
-                                  </h4>
-                                
+                                  <h4 className="it-feature-title">NCC</h4>
                                 </div>
                                 <div className="it-feature-button">
-                                  <Link href="https://indiancc.mygov.in/" className="it-btn-border">
+                                  <Link
+                                    href="https://indiancc.mygov.in/"
+                                    className="it-btn-border"
+                                  >
                                     <span>
                                       'Learn More'
                                       <svg
@@ -1712,8 +1398,6 @@ export default function About() {
                       </div>
                     </div>
                     {/*Approvals & Recognitions ends*/}
-
-
                   </div>
                 </div>
               </div>

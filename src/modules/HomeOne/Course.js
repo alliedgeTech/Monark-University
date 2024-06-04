@@ -19,6 +19,7 @@ import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/dist/ScrollTrigger';
 import { useEffect } from "react";
 
+
 // Import jQuery
 if (typeof window !== "undefined") {
   var $ = require("jquery");
