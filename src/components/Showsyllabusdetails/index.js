@@ -1,6 +1,6 @@
 import React from "react";
 import { useRouter } from "next/router";
-import { Container, Row, Col, Accordion, Card } from "react-bootstrap";
+import { Container, Row, Col, Table } from "react-bootstrap";
 import syllabusdata from "@/data/syllabus";
 
 import "bootstrap/dist/css/bootstrap.min.css";
@@ -14,51 +14,61 @@ const Showsyllabusdetails = () => {
   }
 
   return (
-    <div>
-      <table className="table">
-        <tbody>
+    <Container>
+      <Row>
+        <Col>
           {syllabusdata.map((s, index) => (
-            <React.Fragment key={index}>
-              <tr>
-                <th colSpan={4}>{s.branch}</th>
-              </tr>
+            <div key={index}>
+              <h1 className="text-center text-warning">{s.branch}</h1>
               {s.subbranch.map((sub, subIndex) => (
-                <React.Fragment key={subIndex}>
-                  <tr>
-                    <th colSpan={4}>{sub.name}</th>
-                  </tr>
-                  {sub.sub && sub.sub.map((subsub) => (
-                    <React.Fragment key={subsub.id}>
-                      <tr>
-                        <th colSpan={4}>{subsub.title1}</th>
-                      </tr>
-                      <tr>
-                        <th colSpan={4}>{subsub.title2}</th>
-                      </tr>
-                      <tr>
-                        <th colSpan={4}>{subsub.title3}</th>
-                      </tr>
-                      {subsub.tabledata && subsub.tabledata.map((data) => (
-                        <tr key={data.id}>
-                          <td>{data.no}</td>
-                          <td>{data.coursecode}</td>
-                          <td>{data.coursename}</td>
-                          <td>{data.category}</td>
-                          <td>{data.l}</td>
-                          <td>{data.p}</td>
-                          <td>{data.c}</td>
-                          <td>{data.t}</td>
-                        </tr>
+                <div key={subIndex}>
+                  <h3 className="mt-3">{sub.name}</h3>
+                  {sub.sub.map((subsub) => (
+                    <div key={subsub.id}>
+                      {subsub.tables.map((table, tableIndex) => (
+                        <div key={tableIndex}>
+                          <h4>{table.title1}</h4>
+                          <h5>{table.title2}</h5>
+                          <h6>{table.title3}</h6>
+                          <Table striped bordered hover responsive className="mt-3">
+                            <thead>
+                              <tr>
+                                <th>Sr. No.</th>
+                                <th>Course Code</th>
+                                <th>Name of Course</th>
+                                <th>L</th>
+                                <th>T</th>
+                                <th>P</th>
+                                <th>C</th>
+                                <th>Category</th>
+                              </tr>
+                            </thead>
+                            <tbody>
+                              {table.tabledata.map((data) => (
+                                <tr key={data.id}>
+                                  <td>{data.no}</td>
+                                  <td>{data.coursecode}</td>
+                                  <td>{data.coursename}</td>
+                                  <td>{data.l}</td>
+                                  <td>{data.t}</td>
+                                  <td>{data.p}</td>
+                                  <td>{data.c}</td>
+                                  <td>{data.category}</td>
+                                </tr>
+                              ))}
+                            </tbody>
+                          </Table>
+                        </div>
                       ))}
-                    </React.Fragment>
+                    </div>
                   ))}
-                </React.Fragment>
+                </div>
               ))}
-            </React.Fragment>
+            </div>
           ))}
-        </tbody>
-      </table>
-    </div>
+        </Col>
+      </Row>
+    </Container>
   );
 };
 
