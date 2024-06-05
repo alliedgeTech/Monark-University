@@ -1,13 +1,12 @@
 import React from "react";
 import { useRouter } from "next/router";
-import { Container, Row, Col, Accordion, Card } from "react-bootstrap";
+import { Container, Row, Col, Accordion } from "react-bootstrap";
 import syllabusdata from "@/data/syllabus";
 
 import "bootstrap/dist/css/bootstrap.min.css";
 
 const Syllabusdetails = () => {
   const router = useRouter();
-  const { id } = router.query;
 
   if (!syllabusdata || syllabusdata.length === 0) {
     return <div>Loading...</div>;
@@ -45,7 +44,7 @@ const Syllabusdetails = () => {
                                       <tr key={subsub.id}>
                                         <td>
                                           <a
-                                            href={`/showsyllabus?id=${subsub.id}`}
+                                            href={`/showsyllabus?id=${sl.id}&branchId=${sub.id}&subId=${subsub.id}`}
                                           >
                                             {subsub.name}
                                           </a>
@@ -70,7 +69,7 @@ const Syllabusdetails = () => {
 
       <Accordion defaultActiveKey="0">
         {syllabusdata
-          .filter((_, index) => index !== 3) // Exclude the 4th ID
+          .filter((_, index) => index !== 3) 
           .map((sl, index) => (
             <Accordion.Item eventKey={index.toString()} key={sl.id}>
               <Accordion.Header>{sl.branch}</Accordion.Header>
@@ -79,7 +78,7 @@ const Syllabusdetails = () => {
                   <div>
                     {sl.subbranch.map((sub) => (
                       <Accordion key={sub.id}>
-                        <a href={`/showsyllabus?id=${sub.id}`}>
+                        <a href={`/showsyllabus?id=${sl.id}&branchId=${sub.id}`}>
                           {sub.name}
                         </a>
                       </Accordion>
