@@ -458,8 +458,8 @@ h1 {
     position: relative;
 }
 .header-sticky{
-    background: rgba(224, 223, 223, 0.736) !important;
-    backdrop-filter: blur(5px) !important;
+    background: rgba(241, 241, 241, 0.736) !important;
+    backdrop-filter: blur(7px) !important;
     border-bottom: 1px solid grey;
     /* overflow: hidden; */
 }

@@ -51,10 +51,10 @@ export default function Team() {
               </div>
             </div>
             <OwlCarousel
-              className="owl"
+              className="owl-theme faculty-carousel "
               autoPlay={true}
               autoplayTimeout={5000}
-              // dots={true}
+              dots={true}
               responsive={Responsive}
             >
               {Teachers.map((teacher) => {
@@ -85,11 +85,11 @@ export default function Team() {
               </div>
             </div>
             <OwlCarousel
-              className="owl"
+              className="owl-theme faculty-carousel"
               loop={true}
               autoPlay={true}
               autoplayTimeout={5000}
-              // dots={true}
+              dots={true}
               responsive={Responsive}
             >
               {Teachers.map((teacher) => {
@@ -109,7 +109,7 @@ export default function Team() {
             <div className="row"></div>
           </div>
         </div>
-        <div className="it-funfact-5-area it-funfact-5-bg p-relative fix bg-light pt-100 pb-60" data-background="/img/funfact/bg-2.png" id="officersandauthority">
+        <div className="it-funfact-5-area it-funfact-5-bg p-relative fix bg-light pt-20 pb-60" data-background="/img/funfact/bg-2.png" id="officersandauthority">
           <div className="container">
             <div className="row">
               <div className="col-xl-12">

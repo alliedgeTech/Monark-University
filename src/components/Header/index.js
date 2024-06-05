@@ -42,7 +42,7 @@ export default function Header( props ) {
 
 					
 					<div id="header-sticky" className={`it-header-2-area ${isVisible ? 'header-sticky' : ''}`}>
-						<div className="bg-light">
+						<div className="">
 							<div className="it-header-2-plr">
 								<div className="it-header-wrap p-relative">
 									<div className="d-flex justify-content-between">
