@@ -94,10 +94,8 @@ export default function Course() {
 
   return (
     <div className="student-club container-fluid py-2  pb-4">
-		<div className="student-club d-flex align-items-center justify-content-center">
-				<div className="line"></div>
-				<h1 className="text-center mb-0 w-100">Student Clubs</h1>
-				<div className="line"></div>
+		<div className="student-club eight">
+				<h1 className="mb-0 w-100">Student Clubs</h1>
 			</div>
     <div className="student-club-main">
       <div className="row">

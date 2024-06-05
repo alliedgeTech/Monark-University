@@ -5,7 +5,7 @@ import footerImg from "../../../public/img/logo/MONARK_LOGO.png"
 export default function Footer(props) {
 	const { footerLogo, footerClass } = props
 	return (
-		<footer style={{background:'#fafafa'}}>
+		<footer className='footer container-fluid pt-20'>
 			<div className="container">
 				<div className="footer-up py-1">
 					<div className="row">

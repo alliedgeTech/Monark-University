@@ -71,7 +71,7 @@ const index = () => {
             return (
               <div id={faculty.hastagID} key={index} className={`faculty-info ${index%2==0?'even':''}`}>
                 <div className="faculty-heading w-100 d-flex align-items-center justify-content-center">
-                <h1  className="text-center mb-20 w-100">{faculty.name}</h1>
+                <h1  className="text-center mb-20 w-100"><i class="fa-solid fa-pencil d-lg-inline-block d-none  mr-15"></i>{faculty.name}<i class="fa-solid fa-pencil d-lg-inline-block d-none  ml-15"></i></h1>
 			</div>
                 {/* <h3 className="mt-5">
                 <i class="fa-regular fa-hand-point-right mb-0 mr-10"></i>{faculty.heading}

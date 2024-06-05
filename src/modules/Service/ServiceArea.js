@@ -3,9 +3,13 @@ import Services from "@/data/diploma"
 
 export default function ServiceArea() {
 	return (
-		<div className="it-category-area pt-120 pb-120">
+		<div className="it-category-area pt-30 pb-20">
 			<div className="container">
+				<div className="three mb-30">
+					<h1>
 			Diploma Engineering
+					</h1>
+				</div>
 				<div className="row">
 					{
 						Services.map((service) => {

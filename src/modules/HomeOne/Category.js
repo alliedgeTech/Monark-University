@@ -66,7 +66,7 @@ export default function Category() {
 
   return (
     <div className="best-university container-fluid">
-      <div className="best-university-heading">
+      <div className="best-university-heading three">
         <h1>Best University in Ahmedabad</h1>
       </div>
       <div className="row">
@@ -149,16 +149,13 @@ export default function Category() {
               vibrant and supportive intellectual environment that attracts and
               connects people from all over the world.
             </p>
-            <button
-              className="text-white"
-              style={{
-                borderRadius: "5px",
-                padding: "4px 12px",
-                background: "#054B81",
-              }}
-            >
-              More Details
-            </button>
+            {/* <div className="shopcategory-loadmore">
+            <Link href="/about-us">
+          <button><div className="text-div"><p>More Details</p><p className='dec-p'>More Details</p></div></button>
+        </Link>
+        </div> */}
+        <button className="btn btn-danger">More details</button>
+            
           </div>
         </div>
       </div>

@@ -38,42 +38,26 @@ const Responsive = {
 export default function Team() {
   return (
     <>
-      <div id="leadership" className="leadrship">
-        <div className="it-team-3-area p-relative z-index py-5">
-         
-          <div className="container">
+      <div id="leadership" className="leadrship py-5">
+        <div className="it-team-3-area leader-main p-relative">
+          <div className="container py-5">
             <div className="row">
               <div className="col-xl-12">
-                <div className="it-event-title-box text-center pb-40">
-                  <span className="it-section-subtitle-3 text-white">
-                    <Image
-                      src="/img/about/bg-2.svg"
-                      width={23}
-                      height={17}
-                      alt=""
-                    />
-                    Team Monark
-                    <Image
-                      src="/img/about/bg-2.svg"
-                      width={23}
-                      height={17}
-                      alt=""
-                    />
-                  </span>
-                  <h2 className="it-section-title-3 text-white">
+                <div className="it-event-title-box three pb-40">
+                  <h1 className="it-section-title-3 text-white">
                     Leadership Team
-                  </h2>
+                  </h1>
                 </div>
               </div>
             </div>
             <OwlCarousel
-                    className="owl"
-                    autoPlay={true}
-                    autoplayTimeout={5000}
-                    // dots={true}
-                    responsive={Responsive}
-                  >
-                    {Teachers.map((teacher) => {
+              className="owl"
+              autoPlay={true}
+              autoplayTimeout={5000}
+              // dots={true}
+              responsive={Responsive}
+            >
+              {Teachers.map((teacher) => {
                 return (
                   <div className="item">
                     <SingleTeamTwo
@@ -86,107 +70,29 @@ export default function Team() {
                   </div>
                 );
               }).slice(0, 10)}
-                    
-                  </OwlCarousel>
+            </OwlCarousel>
           </div>
         </div>
-        <div
-          className="it-funfact-5-area it-funfact-5-bg p-relative fix yellow-bg pt-100 pb-60"
-          data-background="/img/funfact/bg-2.png"
-		  id="officersandauthority"
-        >
-          <div className="container">
+        <div className="it-team-3-area dean-main p-relative pb-90">
+          <div className="container pt-30">
             <div className="row">
               <div className="col-xl-12">
-                <div className="it-event-title-box text-center pb-40">
-                  <span className="it-section-subtitle-3 text-white">
-                    <Image
-                      src="/img/about/bg-2.svg"
-                      width={23}
-                      height={17}
-                      alt=""
-                    />
-                    Team Monark
-                    <Image
-                      src="/img/about/bg-2.svg"
-                      width={23}
-                      height={17}
-                      alt=""
-                    />
-                  </span>
-                  <h2 className="it-section-title-3 text-white">
-                    List of Officers
-                  </h2>
-                </div>
-              </div>
-            </div>
-            <OwlCarousel
-                    className="owl"
-                    loop={true}
-                    autoPlay={true}
-                    autoplayTimeout={5000}
-                    // dots={true}
-                    responsive={Responsive}
-                  >
-                    {Teachers.map((teacher) => {
-                return (
-                  <div className="item">
-                    <SingleTeamTwo
-                      Slug={teacher.slug}
-                      Title={teacher.title}
-                      Img={teacher.image}
-                      Teacher={teacher.name}
-                      Designation={teacher.designation}
-                    />
-                  </div>
-                );
-              }).slice(11, 31)}
-                    
-                  </OwlCarousel>
-            
-          </div>
-        </div>
-        <div className="it-team-3-area p-relative z-index pt-110 pb-90">
-          <Image
-            src="/img/team/bg-3.png"
-            layout="fill"
-            objectFit="cover"
-            alt=""
-          />
-          <div className="container">
-            <div className="row">
-              <div className="col-xl-12">
-                <div className="it-event-title-box text-center pb-40">
-                  <span className="it-section-subtitle-3 text-white">
-                    <Image
-                      src="/img/about/bg-2.svg"
-                      width={23}
-                      height={17}
-                      alt=""
-                    />
-                    Team Monark
-                    <Image
-                      src="/img/about/bg-2.svg"
-                      width={23}
-                      height={17}
-                      alt=""
-                    />
-                  </span>
-                  <h2 className="it-section-title-3 text-white">
+                <div className="it-event-title-box three  pb-30">
+                  <h1 className="it-section-title-3 ">
                     List of Dean
-                  </h2>
+                  </h1>
                 </div>
               </div>
             </div>
             <OwlCarousel
-                    className="owl"
-                    loop={true}
-                    autoPlay={true}
-                    autoplayTimeout={5000}
-                    // dots={true}
-                    responsive={Responsive}
-                  >
-                    {Teachers.map((teacher) => {
+              className="owl"
+              loop={true}
+              autoPlay={true}
+              autoplayTimeout={5000}
+              // dots={true}
+              responsive={Responsive}
+            >
+              {Teachers.map((teacher) => {
                 return (
                   <div className="item">
                     <SingleTeamTwo
@@ -199,43 +105,74 @@ export default function Team() {
                   </div>
                 );
               }).slice(32, 42)}
-                  </OwlCarousel>
-            <div className="row">
-              
-            </div>
+            </OwlCarousel>
+            <div className="row"></div>
           </div>
         </div>
-		<div
-          className="it-funfact-5-area it-funfact-5-bg p-relative fix yellow-bg"
-          data-background="/img/funfact/bg-2.png"
-		  id="committeessgrc"
-        >
+        <div className="it-funfact-5-area it-funfact-5-bg p-relative fix bg-light pt-100 pb-60" data-background="/img/funfact/bg-2.png" id="officersandauthority">
           <div className="container">
             <div className="row">
               <div className="col-xl-12">
-                <div className="it-event-title-box text-center pb-40">
-                  <span className="it-section-subtitle-3 text-white">
-                    <Image
-                      src="/img/about/bg-2.svg"
-                      width={23}
-                      height={17}
-                      alt=""
-                    />
-                    Team Monark
-                    <Image
-                      src="/img/about/bg-2.svg"
-                      width={23}
-                      height={17}
-                      alt=""
-                    />
-                  </span>
-                  <h2 className="it-section-title-3 text-white">
-                    Committee of SGRC
-                  </h2>
+                <div className="it-event-title-box eight text-center pb-40">
+                  
+                  <h1 className="it-section-title-3 text-white">
+                    List of Officers
+                  </h1>
                 </div>
               </div>
             </div>
+            <div className="list-officers-table">
+              <table class="rwd-table">
+                <tbody>
+                  <tr>
+                    <th>Name</th>
+                    <th>Designation</th>
+                  </tr>
+                  {Teachers.map((teacher, id) => {
+                    return (
+                      <tr>
+                        <td data-th="Supplier Name">{teacher.name}</td>
+                        <td data-th="Invoice Date">{teacher.designation}</td>
+                      </tr>
+                    );
+                  }).slice(11, 31)}
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+        
+        <div className="it-funfact-5-area it-funfact-5-bg p-relative fix bg-white pb-30" data-background="/img/funfact/bg-2.png" id="committeessgrc">
+          <div className="container">
             <div className="row">
+              <div className="col-xl-12">
+                <div className="it-event-title-box eight text-center pb-40">
+        
+                  <h1 className="it-section-title-3 text-white">
+                    Committee of SGRC
+                  </h1>
+                </div>
+              </div>
+            </div>
+            <div className="table-committee">
+              <table class="rwd-table">
+                <tbody>
+                  <tr>
+                    <th>Name</th>
+                    <th>Designation</th>
+                  </tr>
+                  {Teachers.map((teacher, id) => {
+                    return (
+                      <tr>
+                        <td data-th="Supplier Name">{teacher.name}</td>
+                        <td data-th="Invoice Date">{teacher.designation}</td>
+                      </tr>
+                    );
+                  }).slice(45, 49)}
+                </tbody>
+              </table>
+            </div>
+            {/* <div className="row">
               {Teachers.map((teacher) => {
                 return (
                   <div className="col-xl-3 col-lg-4 col-md-6 mb-30">
@@ -249,7 +186,7 @@ export default function Team() {
                   </div>
                 );
               }).slice(45, 49)}
-            </div>
+            </div> */}
           </div>
         </div>
       </div>

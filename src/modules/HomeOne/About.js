@@ -34,10 +34,8 @@ export default function About() {
 
 	return (
 		<div className="student-placement py-4 container-fluid">
-			<div className="student-placement-heading d-flex align-items-center justify-content-center">
-				<div className="line"></div>
-				<h1 className="text-center mb-0 w-100">Student Placement</h1>
-				<div className="line"></div>
+			<div className="student-placement-heading eight">
+				<h1 className="mb-0 w-100">Student Placement</h1>
 			</div>
 			<div className="marquee">
                 <marquee behavior="alternate" direction="">
