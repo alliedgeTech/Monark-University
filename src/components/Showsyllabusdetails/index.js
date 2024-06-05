@@ -20,12 +20,39 @@ const Showsyllabusdetails = () => {
           {syllabusdata.map((s, index) => (
             <React.Fragment key={index}>
               <tr>
-                <th>{s.branch}</th>
+                <th colSpan={4}>{s.branch}</th>
               </tr>
               {s.subbranch.map((sub, subIndex) => (
-                <tr key={subIndex}>
-                  <td>{sub.name}</td>
-                </tr>
+                <React.Fragment key={subIndex}>
+                  <tr>
+                    <th colSpan={4}>{sub.name}</th>
+                  </tr>
+                  {sub.sub && sub.sub.map((subsub) => (
+                    <React.Fragment key={subsub.id}>
+                      <tr>
+                        <th colSpan={4}>{subsub.title1}</th>
+                      </tr>
+                      <tr>
+                        <th colSpan={4}>{subsub.title2}</th>
+                      </tr>
+                      <tr>
+                        <th colSpan={4}>{subsub.title3}</th>
+                      </tr>
+                      {subsub.tabledata && subsub.tabledata.map((data) => (
+                        <tr key={data.id}>
+                          <td>{data.no}</td>
+                          <td>{data.coursecode}</td>
+                          <td>{data.coursename}</td>
+                          <td>{data.category}</td>
+                          <td>{data.l}</td>
+                          <td>{data.p}</td>
+                          <td>{data.c}</td>
+                          <td>{data.t}</td>
+                        </tr>
+                      ))}
+                    </React.Fragment>
+                  ))}
+                </React.Fragment>
               ))}
             </React.Fragment>
           ))}
