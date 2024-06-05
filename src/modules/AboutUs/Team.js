@@ -39,8 +39,8 @@ export default function Team() {
   return (
     <>
       <div id="leadership" className="leadrship py-5">
-        <div className="it-team-3-area leader-main p-relative">
-          <div className="container py-5">
+        <div className="it-team-3-area leader-main p-relative py-5">
+          <div className="container about-2 p-5">
             <div className="row">
               <div className="col-xl-12">
                 <div className="it-event-title-box three pb-40">
@@ -50,6 +50,7 @@ export default function Team() {
                 </div>
               </div>
             </div>
+            <div className="">
             <OwlCarousel
               className="owl-theme faculty-carousel "
               autoPlay={true}
@@ -71,10 +72,11 @@ export default function Team() {
                 );
               }).slice(0, 10)}
             </OwlCarousel>
+            </div>
           </div>
         </div>
-        <div className="it-team-3-area dean-main p-relative pb-90">
-          <div className="container pt-30">
+        <div className="it-team-3-area dean-main p-relative py-5">
+          <div className="container about-2 p-5">
             <div className="row">
               <div className="col-xl-12">
                 <div className="it-event-title-box three  pb-30">
@@ -84,6 +86,7 @@ export default function Team() {
                 </div>
               </div>
             </div>
+            <div className="">
             <OwlCarousel
               className="owl-theme faculty-carousel"
               loop={true}
@@ -106,10 +109,11 @@ export default function Team() {
                 );
               }).slice(32, 42)}
             </OwlCarousel>
+            </div>
             <div className="row"></div>
           </div>
         </div>
-        <div className="it-funfact-5-area it-funfact-5-bg p-relative fix bg-light pt-20 pb-60" data-background="/img/funfact/bg-2.png" id="officersandauthority">
+        <div className="it-funfact-5-area it-funfact-5-bg p-relative fix py-5" data-background="/img/funfact/bg-2.png" id="officersandauthority">
           <div className="container">
             <div className="row">
               <div className="col-xl-12">
@@ -142,7 +146,7 @@ export default function Team() {
           </div>
         </div>
         
-        <div className="it-funfact-5-area it-funfact-5-bg p-relative fix bg-white pb-30" data-background="/img/funfact/bg-2.png" id="committeessgrc">
+        <div className="it-funfact-5-area it-funfact-5-bg p-relative fix bg-white py-5" data-background="/img/funfact/bg-2.png" id="committeessgrc">
           <div className="container">
             <div className="row">
               <div className="col-xl-12">

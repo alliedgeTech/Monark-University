@@ -94,7 +94,7 @@ export default function Course() {
 
   return (
     <div className="student-club container-fluid py-2  pb-4">
-		<div className="student-club eight">
+		<div className="student-club one">
 				<h1 className="mb-0 w-100">Student Clubs</h1>
 			</div>
     <div className="student-club-main">

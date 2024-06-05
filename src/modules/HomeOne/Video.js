@@ -83,7 +83,7 @@ export default function Video() {
 	
 	
     <div  className="Latest-News container-fluid py-4">
-      <div className="student-placement-heading eight mb-20">
+      <div className="student-placement-heading one mb-20">
 				<h1 className="text-center mb-0 w-100">Latest News</h1>
 			</div>
 

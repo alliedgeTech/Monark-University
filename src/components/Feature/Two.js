@@ -3,7 +3,7 @@ import Link from "next/link";
 export default function SingleFeatureTwo( props ) {
 	const { featureClass, Slug, Icon, Title, Description  } = props;
 	return (
-		<div className={featureClass ? featureClass : 'it-feature-3-item mb-30  text-center'}>  
+		<div className={featureClass ? featureClass : 'it-feature-3-item h-100  text-center'}>  
 			<div className="it-feature-3-icon">
 				<span><i className={Icon ? Icon : 'flaticon-coach'}></i></span>
 			</div>

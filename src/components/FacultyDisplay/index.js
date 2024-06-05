@@ -3,8 +3,8 @@ import dynamic from "next/dynamic";
 import "owl.carousel/dist/assets/owl.carousel.css";
 import "owl.carousel/dist/assets/owl.theme.default.css";
 import facultydata from "../../data/faculty";
-
-
+import gsap from "gsap";
+import { ScrollTrigger } from "gsap/dist/ScrollTrigger";
 
 // Import jQuery
 if (typeof window !== "undefined") {
@@ -16,7 +16,6 @@ if (typeof window !== "undefined") {
 const OwlCarousel = dynamic(() => import("react-owl-carousel"), {
   ssr: false,
 });
-
 
 // Responsive settings for OwlCarousel
 const Responsive = {
@@ -58,40 +57,121 @@ const Responsive2 = {
 };
 
 const index = () => {
+  useEffect(() => {
+    // Select all elements with the class 'animatedElement'
+    const animatedElements = document.querySelectorAll(".faculty-heading");
+    const animatedElements1 = document.querySelectorAll(".faculty-left");
+    const animatedElements2 = document.querySelectorAll(".faculty-right");
 
+    // Create an Intersection Observer instance
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach((entry) => {
+        // If the element is intersecting the viewport
+        if (entry.isIntersecting) {
+          // Animate the element using GSAP
+          gsap.registerPlugin(ScrollTrigger);
+          let mm = gsap.matchMedia();
+          mm.add("(min-width:991px)", () => {
+            gsap.from(entry.target, {
+              x: 100,
+            });
+            
+          });
+        }
+      });
+    }, {});
+    const observer1 = new IntersectionObserver((entries) => {
+      entries.forEach((entry) => {
+        // If the element is intersecting the viewport
+        if (entry.isIntersecting) {
+          // Animate the element using GSAP
+          gsap.registerPlugin(ScrollTrigger);
+          let mm = gsap.matchMedia();
+          mm.add("(min-width:991px)", () => {
+            gsap.from(entry.target, {
+              x: -100,
+            });
+          });
+        }
+      });
+    }, {});
+    const observer2 = new IntersectionObserver((entries) => {
+      entries.forEach((entry) => {
+        // If the element is intersecting the viewport
+        if (entry.isIntersecting) {
+          // Animate the element using GSAP
+          gsap.registerPlugin(ScrollTrigger);
+          let mm = gsap.matchMedia();
+          mm.add("(min-width:991px)", () => {
+            gsap.from(entry.target, {
+              x: 100,
+            });
+          });
+        }
+      });
+    }, {});
 
-  
+    // Start observing each element
+    animatedElements.forEach((element) => {
+      observer.observe(element);
+    });
+    animatedElements1.forEach((element) => {
+      observer1.observe(element);
+    });
+    animatedElements2.forEach((element) => {
+      observer2.observe(element);
+    });
 
+    // Clean up the observer when the component unmounts
+    return () => {
+      animatedElements.forEach((element) => {
+        observer.unobserve(element);
+      });
+      animatedElements1.forEach((element) => {
+        observer1.unobserve(element);
+      });
+      animatedElements2.forEach((element) => {
+        observer2.observe(element);
+      })
+      
+    };
+    // Start observing each element
+    
+
+    
+  }, []);
 
   return (
     <div>
       <div style={{ marginTop: "75px" }} className={`min-vh-100 bg-light py-4`}>
-        <div className="container">
+        <div className="container-fluid">
           {facultydata.map((faculty, index) => {
             return (
-              <div id={faculty.hastagID} key={index} className={`faculty-info ${index%2==0?'even':''}`}>
-                <div className="faculty-heading w-100 d-flex align-items-center justify-content-center">
-                <h1  className="text-center mb-20 w-100"><i class="fa-solid fa-pencil d-lg-inline-block d-none  mr-15"></i>{faculty.name}<i class="fa-solid fa-pencil d-lg-inline-block d-none  ml-15"></i></h1>
-			</div>
-                {/* <h3 className="mt-5">
-                <i class="fa-regular fa-hand-point-right mb-0 mr-10"></i>{faculty.heading}
-                </h3> */}
+              <div
+                id={faculty.hastagID}
+                key={index}
+                className={`faculty-info ${index % 2 == 0 ? "even" : ""}`}
+              >
+                <div className="faculty-heading  eight w-100">
+                  <h1 className="text-center mb-20">{faculty.name}</h1>
+                </div>
+
                 <div className="row">
                   <div className="col-lg-6 col-12 mt-4">
-                    <div className="faculty-img">
+                    <div className="faculty-img faculty-left">
                       <img src={faculty.img1} />
                     </div>
                   </div>
                   <div className="col-lg-6 col-12 mt-4">
-                    <p>{faculty.text_1}</p>
+                    <p className="faculty-right">{faculty.text_1}</p>
                   </div>
                 </div>
                 <div className="row">
                   <div className="col-lg-6 col-12 mt-4 order-lg-1 order-2">
-                    <p>{faculty.text_2}</p>
+                    <p className="faculty-left">{faculty.text_2}</p>
                   </div>
                   <div className="col-lg-6 col-12 mt-4 order-lg-2 order-1">
-                    <div className="faculty-img">
+                    <div className="faculty-img faculty-right">
                       <img src={faculty.img2} alt="" />
                     </div>
                   </div>

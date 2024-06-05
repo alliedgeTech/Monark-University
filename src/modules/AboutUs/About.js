@@ -144,7 +144,7 @@ export default function About() {
           trigger: ".it-career-item-left",
           scroller: "body",
           start: "top bottom",
-          end: "center center",
+          end: "top 65%",
           scrub: 0.2,
         },
       });
@@ -156,7 +156,7 @@ export default function About() {
           trigger: ".it-career-item-right",
           scroller: "body",
           start: "top bottom",
-          end: "center center",
+          end: "top 65%",
           scrub: 0.2,
         },
       });
@@ -276,10 +276,14 @@ export default function About() {
           <div className="our-history py-3">
             <OwlCarousel
               className="owl-theme history-carousel"
+              loop={true}
               dots={true}
               autoPlay={true}
-              autoplayTimeout={5000}
               responsive={Responsive}
+              responsiveRefreshRate={0}
+              autoplay={true}
+              autoplayTimeout={3000}
+              autoplayHoverPause={false}
             >
               <div className="item py-5 px-2 m-0">
                 <div className="history-item d-flex align-items-center">
@@ -588,86 +592,8 @@ export default function About() {
                           </div>
                         </div>
                       </div>
-                      <div className="row">
-                        <div className="col-xl-12">
-                          <div className="it-sv-details-top-content mb-50">
-                            <h4 className="it-sv-details-title">
-                              President's Message
-                            </h4>
-                            <p>
-                              Welcome to Monark University. As a President of
-                              Monark University, it gives me immense pleasure to
-                              share with you the vision of this University. The
-                              University aims at imparting quality education and
-                              achieving excellence in all of its academic
-                              programs. In fast changing technological
-                              advancements and global economic environment, we
-                              planned to strive to bring global perspective to
-                              its academic programs and activities. The focus is
-                              on building a strong team of highly qualified
-                              faculty members and dedicated supporting staff to
-                              meet national and global challenges and deliver
-                              world class education using latest technologies
-                              and contemporary teaching methodology. In order to
-                              enhance the knowledge of the students in several
-                              core areas, emphasis is given on wide variety of
-                              academic programs for their multifaceted
-                              development. We have huge academic and physical
-                              infrastructures and facilities with well equipped
-                              labs, workshops, qualified and motivated faculty
-                              members who work with commitment and dedication
-                              for the cause of education and research. The
-                              outcome based course curriculum of our programs
-                              has been designed and developed with the help of
-                              national level experts so that desired competency
-                              and skills can be inculcated in the students to
-                              make them employable. Moreover, world-class
-                              assessment methods and systems are established by
-                              the University for proper implementation of the
-                              curriculum and ensuring quality education. We
-                              extend an invitation to you to visit our sprawling
-                              campus of our University to know more about the
-                              University and its physical and infrastructural
-                              facilities. I also take this opportunity to invite
-                              the students from all parts of the world to join
-                              our academic courses. We will be happy to guide
-                              and help you to succeed in your educational
-                              journey.
-                            </p>
-                          </div>
-                        </div>
-                      </div>
-                      <div className="row">
-                        <div className="col-xl-6 col-lg-6">
-                          <div className="it-sv-details-content-box mb-50">
-                            <h5 className="it-sv-details-title-sm">
-                              <span>
-                                <i className="fa-sharp fa-light fa-check"></i>
-                              </span>
-                              Requirements
-                            </h5>
-                            <p>
-                              Dui id ornare arcu odio ut sem nulla pharetra diam
-                              eget aliquet nibh praesent tristiq.
-                            </p>
-                          </div>
-                        </div>
-                        <div className="col-xl-6 col-lg-6">
-                          <div className="it-sv-details-content-box mb-50">
-                            <h5 className="it-sv-details-title-sm">
-                              <span>
-                                <i className="fa-sharp fa-light fa-check"></i>
-                              </span>
-                              Description
-                            </h5>
-                            <p>
-                              {" "}
-                              "Dui id ornare arcu odio ut sem nulla pharetra
-                              diam eget aliquet"
-                            </p>
-                          </div>
-                        </div>
-                      </div>
+                      
+                      
                     </div>
                   </div>
                 </div>
@@ -679,7 +605,7 @@ export default function About() {
                 <div className="it-sv-details-area mt-50">
                   <div className="container">
                     <div className="row">
-                      <div className="col-xl col-lg">
+                      <div className="col-xl col-lg about-1">
                         <div className="it-sv-details-top-wrap mb-20">
                           <div className="row">
                             <div className="col-xl-6 col-lg-6">
@@ -710,81 +636,8 @@ export default function About() {
                             </div>
                           </div>
                         </div>
-                        <div className="row">
-                          <div className="col-xl-12">
-                            <div className="it-sv-details-top-content mb-50">
-                              <h4 className="it-sv-details-title">
-                                Vice-President's Message
-                              </h4>
-                              <p>
-                                Welcome to Monark University. We are pleased to
-                                welcome you to Monark University. As a blooming
-                                University, we endeavor to impart best in class
-                                education in line with today's market needs. Our
-                                principal responsibilities as an educational
-                                institution is to nurture today’s minds to be
-                                able to create ample opportunities in today’s
-                                marketplace. We wish to create a space of
-                                knowledge along with all the practical aspects
-                                of it. So we have identified all sectors of
-                                education so helping students enhance the scope
-                                for such education. “The purpose of education is
-                                not to validate ignorance but to overcome it.”
-                                We here at Monark University welcome you to a
-                                world to build your career with an institute of
-                                repute. We are offering a plethora of courses
-                                like basic sciences, commerce and administration
-                                as well as applied sciences of engineering,
-                                technology, paramedical and other allied areas
-                                of higher education. We have a dedicated team of
-                                highly trained and professional faculty members
-                                who impart best in class education. We have best
-                                in class infrastructure including but not
-                                limited to classrooms equipped for great
-                                teaching- learning experiences, fully equipped
-                                laboratories, workshop for practical training.
-                                Also we know the importance of curriculum hence
-                                we take special care as to who designs our
-                                curriculum hence a team with deep subject
-                                knowledge as well as experience in industry.
-                                Here we focus on overall development of our
-                                students as they need to be able to make a place
-                                in their respective
-                              </p>
-                            </div>
-                          </div>
-                        </div>
-                        <div className="row">
-                          <div className="col-xl-6 col-lg-6">
-                            <div className="it-sv-details-content-box mb-50">
-                              <h5 className="it-sv-details-title-sm">
-                                <span>
-                                  <i className="fa-sharp fa-light fa-check"></i>
-                                </span>
-                                Requirements
-                              </h5>
-                              <p>
-                                Dui id ornare arcu odio ut sem nulla pharetra
-                                diam eget aliquet nibh praesent tristiq.
-                              </p>
-                            </div>
-                          </div>
-                          <div className="col-xl-6 col-lg-6">
-                            <div className="it-sv-details-content-box mb-50">
-                              <h5 className="it-sv-details-title-sm">
-                                <span>
-                                  <i className="fa-sharp fa-light fa-check"></i>
-                                </span>
-                                Description
-                              </h5>
-                              <p>
-                                {" "}
-                                "Dui id ornare arcu odio ut sem nulla pharetra
-                                diam eget aliquet"
-                              </p>
-                            </div>
-                          </div>
-                        </div>
+                        
+
                       </div>
                     </div>
                   </div>
@@ -825,76 +678,6 @@ export default function About() {
                                     university's reputation and growth.
                                   </p>
                                 </div>
-                              </div>
-                            </div>
-                          </div>
-                          <div className="row">
-                            <div className="col-xl-12">
-                              <div className="it-sv-details-top-content mb-50">
-                                <h4 className="it-sv-details-title">
-                                  Provost's Message
-                                </h4>
-                                <p>
-                                  Greetings from Monark University, Ahmedabad.
-                                  Our prime duty as a university is to nurture
-                                  today’s minds to be able to create ample
-                                  opportunities in today’s marketplace. The
-                                  purpose of education is not restricted to
-                                  imparting knowledge but has shifted towards
-                                  holistic development of the students as needs
-                                  of the society changed. The new education
-                                  system has taken the responsibility of
-                                  bringing forth worthy citizens who are
-                                  proactive in their approach and have the
-                                  required dynamism to create a new order. We as
-                                  a Monark University are committed to provide a
-                                  dynamic, supportive and creative environment
-                                  to the students. Our focus is to provide
-                                  qualitative and value based education. We aim
-                                  to provide an educational exploration and
-                                  strengthen the potential which is innate in
-                                  every individual. We welcome all the students
-                                  who select to be a part of Monark University
-                                  and we assure you that you will feel proud on
-                                  your decision on being associated with us. I
-                                  wish you best wishes for your academic
-                                  excellence at Monark University. “The purpose
-                                  of education is to make good human beings with
-                                  skill and expertise. Enlightened human beings
-                                  can be created by teachers.” – Dr. APJ Abdul
-                                  Kalam
-                                </p>
-                              </div>
-                            </div>
-                          </div>
-                          <div className="row">
-                            <div className="col-xl-6 col-lg-6">
-                              <div className="it-sv-details-content-box mb-50">
-                                <h5 className="it-sv-details-title-sm">
-                                  <span>
-                                    <i className="fa-sharp fa-light fa-check"></i>
-                                  </span>
-                                  Requirements
-                                </h5>
-                                <p>
-                                  Dui id ornare arcu odio ut sem nulla pharetra
-                                  diam eget aliquet nibh praesent tristiq.
-                                </p>
-                              </div>
-                            </div>
-                            <div className="col-xl-6 col-lg-6">
-                              <div className="it-sv-details-content-box mb-50">
-                                <h5 className="it-sv-details-title-sm">
-                                  <span>
-                                    <i className="fa-sharp fa-light fa-check"></i>
-                                  </span>
-                                  Description
-                                </h5>
-                                <p>
-                                  {" "}
-                                  "Dui id ornare arcu odio ut sem nulla pharetra
-                                  diam eget aliquet"
-                                </p>
                               </div>
                             </div>
                           </div>
