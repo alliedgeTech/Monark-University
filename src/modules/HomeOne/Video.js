@@ -1,20 +1,9 @@
 import { useEffect, useState } from "react";
-import ModalVideo from "react-modal-video";
-import Image from "next/image";
-import Courses from "@/data/courses";
 import dynamic from "next/dynamic";
 import "owl.carousel/dist/assets/owl.carousel.css";
 import "owl.carousel/dist/assets/owl.theme.default.css";
 import Link from "next/link";
-import lnews1 from "../../../public/img/video/hdfc-1.jpg";
-import lnews2 from "../../../public/img/video/PressureJet.jpg";
-import lnews3 from "../../../public/img/video/Prodesk.jpg";
-import lnews4 from "../../../public/img/video/suzuki.jpg";
-import lnews5 from "../../../public/img/video/tcs_job_new.png";
-import lnews6 from "../../../public/img/video/torrent.jpg";
-import styles from "yet-another-react-lightbox/styles.css";
-import ApiService from "@/service/service";
-import { apiPaths } from "@/service/apipath";
+import axios from 'axios';
 
 // Import jQuery
 if (typeof window !== "undefined") {
@@ -46,165 +35,76 @@ const Responsive = {
     margin: 20,
   },
 };
+
+// ApiService function
+const ApiService = async ({ method, endpoint, data }) => {
+  try {
+    const response = await axios({
+      method,
+      url: endpoint,
+      data,
+    });
+    return response.data;
+  } catch (error) {
+    throw error;
+  }
+};
+
+// Main component
 export default function Video() {
-  const [isOpen, setIsOpen] = useState(false);
-  const [latestNews,setLatestNews] = useState([])
-  const openModal = () => setIsOpen(!isOpen);
+  const [latestNews, setLatestNews] = useState([]);
+  const [loading, setLoading] = useState(true);
 
   useEffect(() => {
     fetchData();
   }, []);
 
-
   const fetchData = async () => {
     try {
       const result = await ApiService({
-        method: 'GET',
-        endpoint: apiPaths.latestNews,
+        method: "GET",
+        endpoint: "https://mu-l50w.onrender.com/home-updates",
       });
-      // setLatestNews(result);
-      console.log(result)
+      setLatestNews(result);
+      setLoading(false);
     } catch (error) {
-      console.error('Error fetching data:', error);
+      console.error("Error fetching data:", error);
+      setLoading(false);
     }
   };
 
-  // const requestOptions = {
-  //   method: "GET",
-  //   redirect: "follow"
-  // };
-  
-  // fetch("https://mu-l50w.onrender.com/home-updates", requestOptions)
-  //   .then((response) => response.text())
-  //   .then((result) => console.log(result))
-  //   .catch((error) => console.error(error));
-
   return (
-	
-	
-    <div  className="Latest-News container-fluid py-4">
-      <div className="student-placement-heading one mb-20">
-				<h1 className="text-center mb-0 w-100">Latest News</h1>
-			</div>
+    <div className="Latest-News container-fluid py-4">
+      <div className="student-placement-heading d-flex align-items-center justify-content-center mb-20">
+        <div className="line"></div>
+        <h1 className="text-center mb-0 w-100">Latest News</h1>
+        <div className="line"></div>
+      </div>
 
-      <OwlCarousel
-        className="owl-theme px-2"
-        loop={true}
-        autoPlay={true}
-		margin={10}
-        autoplayTimeout={5000}
-        responsive={Responsive}
-      >
-        {latestNews?.map((items , id) => (
-          <div className="item" id={id}>
-          <div className="latest-box d-flex flex-column">
-            <div className="latest-img">
-              <img className="img-fluid" src={items?.image}></img>
+      {loading ? (
+        <p>Loading...</p>
+      ) : (
+        <OwlCarousel
+          className="owl-theme px-2"
+          loop={true}
+          autoPlay={true}
+          margin={10}
+          dots={true}
+          autoplayTimeout={5000}
+          responsive={Responsive}
+        >
+          {latestNews.map((item, index) => (
+            <div className="item">
+              <div className="news-card">
+                <div className="news-head">
+                  <h2>{item.title}</h2>
+                  <p className="news-description-ellips">{item.description}</p>
+                </div>
+              </div>
             </div>
-            <div className="latest-text mt-5">
-              <button
-                className="text-white"
-                style={{borderRadius:'5px', background: "#054B81", padding: "3px 8px" }}
-              >
-                <small>{items?.title}</small>
-              </button>
-				<p className="mt-3">{items?.description}</p>
-            </div>
-          </div>
-        </div>
-        ))
-        }
-        {/* <div className="item">
-          <div className="latest-box d-flex flex-column">
-            <div className="latest-img">
-              <Image className="img-fluid" src={lnews2}></Image>
-            </div>
-            <div className="latest-text pt-5">
-              <button
-                className="text-white"
-                style={{borderRadius:'5px', background: "#054B81", padding: "3px 8px" }}
-              >
-                <small>Placement news</small>
-              </button>
-			  <h5 className="mt-3">Placement Opportunity From HDFC for Any Graduate Students || for B.com/BBA/BA/BE & MBA</h5>
-			  <p>Dear Students, Greetings from Prodesk IT, This message is regarding the campus recruitment drive at…</p>
-
-            </div>
-          </div>
-        </div>
-        <div className="item">
-          <div className="latest-box d-flex flex-column">
-            <div className="latest-img">
-              <Image className="img-fluid" src={lnews3}></Image>
-            </div>
-            <div className="latest-text pt-5">
-              <button
-                className="text-white"
-                style={{borderRadius:'5px', background: "#054B81", padding: "3px 8px" }}
-              >
-                <small>Placement news</small>
-              </button>
-			  <h5 className="mt-3">Placement Opportunity From HDFC for Any Graduate Students || for B.com/BBA/BA/BE & MBA</h5>
-			  <p>Dear Students, Greetings from Prodesk IT, This message is regarding the campus recruitment drive at…</p>
-
-            </div>
-          </div>
-        </div>
-        <div className="item">
-          <div className="latest-box d-flex flex-column">
-            <div className="latest-img">
-              <Image className="img-fluid" src={lnews4}></Image>
-            </div>
-            <div className="latest-text pt-5">
-              <button
-                className="text-white"
-                style={{borderRadius:'5px', background: "#054B81", padding: "3px 8px" }}
-              >
-                <small>Placement news</small>
-              </button>
-			  <h5 className="mt-3">Placement Opportunity From HDFC for Any Graduate Students || for B.com/BBA/BA/BE & MBA</h5>
-			  <p>Dear Students, Greetings from Prodesk IT, This message is regarding the campus recruitment drive at…</p>
-
-            </div>
-          </div>
-        </div>
-        <div className="item">
-          <div className="latest-box d-flex flex-column">
-            <div className="latest-img">
-              <Image className="img-fluid" src={lnews5}></Image>
-            </div>
-            <div className="latest-text pt-5">
-              <button
-                className="text-white"
-                style={{borderRadius:'5px', background: "#054B81", padding: "3px 8px" }}
-              >
-                <small>Placement news</small>
-              </button>
-			  <h5 className="mt-3">Placement Opportunity From HDFC for Any Graduate Students || for B.com/BBA/BA/BE & MBA</h5>
-			  <p>Dear Students, Greetings from Prodesk IT, This message is regarding the campus recruitment drive at…</p>
-
-            </div>
-          </div>
-        </div>
-        <div className="item">
-          <div className="latest-box d-flex flex-column">
-            <div className="latest-img">
-              <Image className="img-fluid" src={lnews6}></Image>
-            </div>
-            <div className="latest-text pt-5">
-              <button
-                className="text-white"
-                style={{borderRadius:'5px', background: "#054B81", padding: "3px 8px" }}
-              >
-                <small>Placement news</small>
-              </button>
-			  <h5 className="mt-3">Placement Opportunity From HDFC for Any Graduate Students || for B.com/BBA/BA/BE & MBA</h5>
-			  <p>Dear Students, Greetings from Prodesk IT, This message is regarding the campus recruitment drive at…</p>
-
-            </div>
-          </div>
-        </div> */}
-      </OwlCarousel>
+          ))}
+        </OwlCarousel>
+      )}
     </div>
   );
 }
