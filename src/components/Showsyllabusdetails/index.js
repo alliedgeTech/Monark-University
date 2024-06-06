@@ -44,7 +44,7 @@ const Showsyllabusdetails = () => {
           <Accordion defaultActiveKey="0">
             {item.tables.map((table, tableIndex) => (
               <Accordion.Item eventKey={tableIndex.toString()} key={tableIndex}>
-                <Accordion.Header>{table.title1}</Accordion.Header>
+                
                 <Accordion.Body>
                   <h4>{table.title1}</h4>
                   <h5>{table.title2}</h5>

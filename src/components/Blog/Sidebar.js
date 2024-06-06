@@ -1,6 +1,5 @@
 import React from "react";
 import { Container, Row, Col, Accordion, Card } from "react-bootstrap";
-import studentclubdetailsdata from "@/data/studentclubdetails";
 import studentclubdata from "@/data/studentclub";
 
 export default function Sidebar() {
@@ -12,10 +11,12 @@ export default function Sidebar() {
             <div key={std.id}>
               {std.accordion && std.accordion.length > 0 ? (
                 std.accordion.map((ac1, index) => (
-                  <Accordion.Item eventKey={index.toString()} key={std.id}>
+                  <Accordion.Item eventKey={index.toString()} key={index}>
                     <Accordion.Header>{ac1.header}</Accordion.Header>
                     <Accordion.Body>
-                      <h5>{ac1.content}</h5>
+                      <div
+                        dangerouslySetInnerHTML={{ __html: ac1.content }}
+                      />
                     </Accordion.Body>
                   </Accordion.Item>
                 ))

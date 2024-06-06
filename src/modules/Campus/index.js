@@ -4,6 +4,7 @@ import BreadCrumbs from "@/components/BreadCrumbs"
 import ScrollTop from "@/components/ScrollTop"
 import BlogArea from "@/components/Studentclubdisplay"
 import Campusdisplay from "@/components/campusdisplay"
+import Studentclub from "@/components/Studentclubdisplay"
 
 
 export default function CampusModules() {
@@ -15,6 +16,7 @@ export default function CampusModules() {
 			/>
 
 			<Campusdisplay/>
+			<Studentclub/>
 			<Newsletter />
 			<ScrollTop />
 		</main>

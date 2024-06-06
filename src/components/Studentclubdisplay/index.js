@@ -3,7 +3,7 @@ import Image from "next/image";
 import studentclubdata from "@/data/studentclub";
 import Sidebar from "@/components/Blog/Sidebar";
 
-export default function BlogArea() {
+export default function Studentclub() {
   return (
     <div className="postbox__area pt-120 pb-120">
       <div className="container">
