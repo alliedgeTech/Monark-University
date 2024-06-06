@@ -55,7 +55,7 @@ const Campusdisplay = () => {
         className="it-gallery-area p-relative grey-bg-2 pt-120 pb-120"
       >
         
-        <div className="container" id="artsandculture">
+        <div className="container bg-white rounded p-3" id="artsandculture">
           <div className="row">
             <div className="col-xl-12">
               <div className="it-gallery-title-box pb-70">
@@ -91,13 +91,8 @@ const Campusdisplay = () => {
         <div className="container" id="campusevent">
           <div className="row">
             <div className="col-xl-12">
-              <div className="it-gallery-title-box text-center pb-70">
-                <span className="it-section-subtitle-5">
-                  <i className="fa-light fa-book"></i>
-                  Moanark Uni.
-                  <i className="fa-light fa-book"></i>
-                </span>
-                <h2 className="it-section-title-3">Campus Life</h2>
+              <div className="it-gallery-title-box three pb-70">
+                <h1 className="it-section-title-3">Campus Life</h1>
               </div>
             </div>
           </div>
@@ -123,16 +118,12 @@ const Campusdisplay = () => {
               .slice(18,34)}
           </div>
         </div>
-        <div className="container" id="nss">
+        <div className="container bg-white rounded p-3" id="nss">
           <div className="row">
             <div className="col-xl-12">
-              <div className="it-gallery-title-box text-center pb-70">
-                <span className="it-section-subtitle-5">
-                  <i className="fa-light fa-book"></i>
-                  Moanark Uni.
-                  <i className="fa-light fa-book"></i>
-                </span>
-                <h2 className="it-section-title-3">NSS</h2>
+              <div className="it-gallery-title-box three pb-70">
+
+                <h1 className="it-section-title-3">NSS</h1>
               </div>
             </div>
           </div>
@@ -161,13 +152,8 @@ const Campusdisplay = () => {
         <div className="container" id="ncc">
           <div className="row">
             <div className="col-xl-12">
-              <div className="it-gallery-title-box text-center pb-70">
-                <span className="it-section-subtitle-5">
-                  <i className="fa-light fa-book"></i>
-                  Moanark Uni.
-                  <i className="fa-light fa-book"></i>
-                </span>
-                <h2 className="it-section-title-3">NCC</h2>
+              <div className="it-gallery-title-box three pb-70">
+                <h1 className="it-section-title-3">NCC</h1>
               </div>
             </div>
           </div>
@@ -193,16 +179,11 @@ const Campusdisplay = () => {
               .slice(66, 82)}
           </div>
         </div>
-        <div className="container" id="sports">
+        <div className="container bg-white rounded p-3" id="sports">
           <div className="row">
             <div className="col-xl-12">
-              <div className="it-gallery-title-box text-center pb-70">
-                <span className="it-section-subtitle-5">
-                  <i className="fa-light fa-book"></i>
-                  Moanark Uni.
-                  <i className="fa-light fa-book"></i>
-                </span>
-                <h2 className="it-section-title-3">Sports</h2>
+              <div className="it-gallery-title-box three pb-70">
+                <h1 className="it-section-title-3">Sports</h1>
               </div>
             </div>
           </div>
@@ -231,13 +212,8 @@ const Campusdisplay = () => {
         <div className="container" id="workshopsandseminars">
           <div className="row">
             <div className="col-xl-12">
-              <div className="it-gallery-title-box text-center pb-70">
-                <span className="it-section-subtitle-5">
-                  <i className="fa-light fa-book"></i>
-                  Moanark Uni.
-                  <i className="fa-light fa-book"></i>
-                </span>
-                <h2 className="it-section-title-3">Workshops & Seminars</h2>
+              <div className="it-gallery-title-box three pb-70">
+                <h1 className="it-section-title-3">Workshops & Seminars</h1>
               </div>
             </div>
           </div>
@@ -263,16 +239,11 @@ const Campusdisplay = () => {
               .slice(102, 108)}
           </div>
         </div>
-        <div className="container" id="yoga">
+        <div className="container bg-white rounded p-3" id="yoga">
           <div className="row">
             <div className="col-xl-12">
-              <div className="it-gallery-title-box text-center pb-70">
-                <span className="it-section-subtitle-5">
-                  <i className="fa-light fa-book"></i>
-                  Moanark Uni.
-                  <i className="fa-light fa-book"></i>
-                </span>
-                <h2 className="it-section-title-3">International Yoga Day</h2>
+              <div className="it-gallery-title-box three pb-70">
+                <h1 className="it-section-title-3">International Yoga Day</h1>
               </div>
             </div>
           </div>
@@ -301,13 +272,8 @@ const Campusdisplay = () => {
         <div className="container" id="teacherday">
           <div className="row">
             <div className="col-xl-12">
-              <div className="it-gallery-title-box text-center pb-70">
-                <span className="it-section-subtitle-5">
-                  <i className="fa-light fa-book"></i>
-                  Moanark Uni.
-                  <i className="fa-light fa-book"></i>
-                </span>
-                <h2 className="it-section-title-3">Teacher's Day</h2>
+              <div className="it-gallery-title-box three pb-70">
+                <h1 className="it-section-title-3">Teacher's Day</h1>
               </div>
             </div>
           </div>

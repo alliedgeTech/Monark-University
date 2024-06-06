@@ -27,12 +27,7 @@ export default function ContactArea() {
       <div className="container">
         <div className="it-contact__wrap fix z-index-3 p-relative">
           <div className="it-contact__shape-1 d-none d-xl-block">
-            <Image
-              src="/img/contact/shape-2-1.png"
-              alt=""
-              width={340}
-              height={340}
-            />
+           
           </div>
                 <div className="it-contact__section-box three pb-20">
                   <h1 className="it-contact__title pb-15">Get in Touch</h1>

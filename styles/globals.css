@@ -1015,3 +1015,24 @@ background: transparent !important;
     padding: 5px 7px !important;
     border-left: 2px solid var(--web-color);
 }
+.it-gallery-item{
+    transition: all 0.4s;
+    overflow: hidden;
+    border-radius: 8px;
+}
+.it-gallery-item:hover{
+    /* transform: scale(1.01) !important; */
+    box-shadow: 0 0 10px #000000c2;
+}
+.it-gallery-item:hover img{
+    transform: scale(1.08) !important;
+}
+.it-contact__icon i{
+    color: var(--web-color) !important;
+}
+.it-footer-social a{
+    color: var(--web-color) !important;
+}
+.it-btn{
+    background: var(--web-color) !important;
+}
