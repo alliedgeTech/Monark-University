@@ -152,25 +152,25 @@ const index = () => {
                 key={index}
                 className={`faculty-info ${index % 2 == 0 ? "even" : ""}`}
               >
-                <div className="faculty-heading  eight w-100">
-                  <h1 className="text-center mb-20">{faculty.name}</h1>
+                <div className="faculty-heading mb-20  eight w-100">
+                  <h1 className="text-center ">{faculty.name}</h1>
                 </div>
 
-                <div className="row">
-                  <div className="col-lg-6 col-12 mt-4">
+                <div className="row px-4">
+                  <div className="col-lg-5 col-12 mt-4">
                     <div className="faculty-img faculty-left">
                       <img src={faculty.img1} />
                     </div>
                   </div>
-                  <div className="col-lg-6 col-12 mt-4">
+                  <div className="col-lg-7 col-12 mt-4">
                     <p className="faculty-right">{faculty.text_1}</p>
                   </div>
                 </div>
-                <div className="row">
-                  <div className="col-lg-6 col-12 mt-4 order-lg-1 order-2">
+                <div className="row px-4">
+                  <div className="col-lg-7 col-12 mt-4 order-lg-1 order-2">
                     <p className="faculty-left">{faculty.text_2}</p>
                   </div>
-                  <div className="col-lg-6 col-12 mt-4 order-lg-2 order-1">
+                  <div className="col-lg-5 col-12 mt-4 order-lg-2 order-1">
                     <div className="faculty-img faculty-right">
                       <img src={faculty.img2} alt="" />
                     </div>

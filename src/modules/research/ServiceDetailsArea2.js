@@ -187,7 +187,7 @@ export default function ServiceDetailsArea() {
               <Accordion.Body>
                 The minimum eligibility criteria for admission to the Ph.D.
                 program at Monark University include:
-                <ul>
+                <ul className="ps-4">
                   <li>
                     Master’s degree in a relevant discipline with a minimum of
                     55% marks or an equivalent grade.
@@ -207,7 +207,7 @@ export default function ServiceDetailsArea() {
               <Accordion.Header>Fee Structure</Accordion.Header>
               <Accordion.Body>
                 The fee structure for the Ph.D. program is as follows:
-                <ul>
+                <ul className="ps-4">
                   <li>Application Fee: Rs. 2,000/- (non-refundable)</li>
                   <li>Registration Fee: Rs. 10,000/-</li>
                   <li>Tuition Fee: Rs. 50,000/- per semester</li>
@@ -220,7 +220,7 @@ export default function ServiceDetailsArea() {
             <Accordion.Item eventKey="3" key="ImportantDates">
               <Accordion.Header>Important Dates</Accordion.Header>
               <Accordion.Body>
-                <ul>
+                <ul className="ps-4">
                   <li>Start of Online Application: 2nd April, 2024</li>
                   <li>End of Online Application: 30th April, 2024</li>
                   <li>Entrance Test Date: To be announced</li>
@@ -233,7 +233,7 @@ export default function ServiceDetailsArea() {
               <Accordion.Header>Contact Information</Accordion.Header>
               <Accordion.Body>
                 For any further queries or information, please contact:
-                <ul>
+                <ul className="ps-4">
                   <li>Dr. Tanmaykumar R. Pandit, Research Coordinator</li>
                   <li>Email: research@monarkuni.ac.in</li>
                   <li>Phone: +91-1234567890</li>

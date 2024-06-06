@@ -218,56 +218,6 @@ export default function About() {
               </div>
             </div>
           </div>
-          <div className="row">
-            <div className="col-lg-6 col-12 mt-lg-0 mt-4">
-              <div className="it-choose-content">
-                <h5>
-                  <i className="fa-solid fa-circle-check"></i>World Class
-                  Trainers
-                </h5>
-                <p>
-                  Experience excellence with our world-class faculty, dedicated
-                  to nurturing your academic journey with expertise and passion.
-                </p>
-              </div>
-            </div>
-            <div className="col-lg-6 col-12 mt-lg-0 mt-4">
-              <div className="it-choose-content">
-                <h5>
-                  <i className="fa-solid fa-circle-check"></i>Easy Learning
-                </h5>
-                <p>
-                  Embark on a journey of effortless learning with our engaging
-                  approach and supportive faculty, making education a seamless
-                  and enjoyable experience.{" "}
-                </p>
-              </div>
-            </div>
-            <div className="col-lg-6 col-12 mt-4">
-              <div className="it-choose-content">
-                <h5>
-                  <i className="fa-solid fa-circle-check"></i>Flexible
-                </h5>
-                <p>
-                  Experience easy, flexible learning with our adaptable approach
-                  and supportive faculty, empowering you to learn at your own
-                  pace and convenience.
-                </p>
-              </div>
-            </div>
-            <div className="col-lg-6 col-12 mt-4">
-              <div className="it-choose-content">
-                <h5>
-                  <i className="fa-solid fa-circle-check"></i>Affordable Price
-                </h5>
-                <p>
-                  Unlock the door to easy, affordable learning with our
-                  accessible approach and budget-friendly options, ensuring
-                  education is within reach for all.
-                </p>
-              </div>
-            </div>
-          </div>
         </div>
       </div>
       {/* Years and trust start*/}

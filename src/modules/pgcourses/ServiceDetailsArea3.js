@@ -133,7 +133,7 @@ export default function ServiceDetailsArea() {
                           {isMounted && (
                             <Slider {...settings}>
                               {course.programOutcomesImages?.map((value) => (
-                                <div key={value.id} className={styles.programOutcomeItem}>
+                                <div key={value.id} className={`service-car-items px-3 ${styles.programOutcomeItem}`}>
                                   <img src={value.image} className="img-fluid rounded" alt={value.name} />
                                   <p>{value.name}</p>
                                 </div>
@@ -144,62 +144,72 @@ export default function ServiceDetailsArea() {
                       </Row>
                     </div>
                     <div className='justify-content-center bg-light'>
-                      <h4 className={styles.boxTitle}>{course.title}</h4>
-                      <Row>
-                        <Col lg={6}>
-                          <div className={styles.detailsContentBox}>
-                            <h5 className={styles.detailsTitleSm}>
-                              <span><i className="fa-sharp fa-light fa-check"></i></span>
+                    <div className="three">
+                      <h1 className={styles.boxTitle}>{course.title}</h1>
+                      </div>
+                      <div className="row">
+                        <div className="col-lg-6 col-md-12 mt-4">
+                        <div className="service-box h-100 p-4">
+                            <h5>
+                              <span><i className="fa-sharp fa-light fa-check mr-10"></i></span>
                               Course Duration
                             </h5>
                             <p>{course.coureDuration}</p>
                           </div>
-                        </Col>
-                        <Col lg={6}>
-                          <div className={styles.detailsContentBoxb}>
-                            <h5 className={styles.detailsTitleSm}>
-                              <span><i className="fa-sharp fa-light fa-check"></i></span>
+                        </div>
+                        <div className="col-lg-6 col-md-12 mt-4">
+                        <div className="service-box h-100 p-4">
+                            <h5>
+                              <span><i className="fa-sharp fa-light fa-check mr-10"></i></span>
                               Eligibility Criteria
                             </h5>
                             <p>{course.eligibilityCriteria}</p>
                           </div>
-                        </Col>
-                        <Col lg={6}>
-                          <div className={styles.detailsContentBox}>
-                            <h5 className={styles.detailsTitleSm}>
-                              <span><i className="fa-sharp fa-light fa-check"></i></span>
+                        </div>
+                        <div className="col-lg-6 col-md-12 mt-4">
+                        <div className="service-box h-100 p-4">
+                            <h5>
+                              <span><i className="fa-sharp fa-light fa-check mr-10"></i></span>
                               Annual Fees
                             </h5>
                             <p>{course.annualFees}</p>
                           </div>
-                        </Col>
-                        <Col lg={6}>
-                          <div className={styles.detailsContentBoxb}>
-                            <h5 className={styles.detailsTitleSm}>
-                              <span><i className="fa-sharp fa-light fa-check"></i></span>
+                        </div>
+                        <div className="col-lg-6 col-md-12 mt-4">
+                        <div className="service-box h-100 p-4">
+                            <h5>
+                              <span><i className="fa-sharp fa-light fa-check mr-10"></i></span>
                               From
                             </h5>
                             <p>Apply now</p>
                           </div>
-                        </Col>
-                      </Row>
+                        </div>
+                      </div>
                     </div>
                   </Row>
                   <div className={styles.laboratoriesSection}>
-                    <h2 className={styles.laboratoriesTitle}>Laboratories</h2>
-                    <div className={styles.laboratoriesContainer}>
+                  <div className="three mb-20">
+                    <h1>Laboratories</h1>
+                    </div>
+                    <div >
                       {course.laboratories?.map((lab, labIndex) => (
-                        <div key={labIndex} className={styles.laboratoryCard}>
-                          <img src={lab.image} alt={lab.title} />
-                          <div className={styles.laboratoryCardContent}>
-                            <h4>{lab.title}</h4>
+                        <>
+                        <div key={labIndex} className="about-1 mb-4">
+                          <div className="row">
+                            <div className="col-lg-6 col-12 px-3">
+                          <img className='img-fluid rounded' src={lab.image} alt={lab.title} />
+
+                            </div>
+                            <div className="col-lg-6 col-12 ps-5">
+                            <h4 className='mb-20'>{lab.title}</h4>
                             <ul>
                               {lab.pera.split('/')?.map((line, lineIndex) => (
                                 <li key={lineIndex}>{line.trim()}</li>
                               ))}
                             </ul>
+                            </div>
                           </div>
-                        </div>
+                        </div></>
                       ))}
                     </div>
                   </div>

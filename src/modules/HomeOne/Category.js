@@ -154,7 +154,16 @@ export default function Category() {
           <button><div className="text-div"><p>More Details</p><p className='dec-p'>More Details</p></div></button>
         </Link>
         </div> */}
-        <button className="btn btn-danger">More details</button>
+        <Link  href="/about-us">
+        <button className="btn hover-btn">
+          <div className="text-div">
+          <small>More details</small>
+          <small>More details</small>
+            
+          </div>
+        </button>
+        </Link>
+
             
           </div>
         </div>

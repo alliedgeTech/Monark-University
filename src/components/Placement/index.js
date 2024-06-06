@@ -6,9 +6,10 @@ const index = () => {
   return (
     <div className="placement ">
       <div className="training-placement py-4">
-        <div className="training-placement-heading container">
-          <h2 className="text-center">Training & Placement Cell</h2>
-          <hr />
+        <div id="training" className="training-placement-heading container">
+          <div className="three">
+          <h1 className="">Training & Placement Cell</h1>
+          </div>
           <div className="row">
             <div className="col-lg-5 col-12">
               <div className="training-img">
@@ -47,10 +48,12 @@ const index = () => {
           </div>
         </div>
       </div>
-      <div className="our-recruiters pt-40">
+      <div id="recruiters" className="our-recruiters pt-40">
         <div className="our-recruiters-heading">
-            <h2 className="text-center">Our Recruiters</h2>
-            <hr />
+          <div className="eight">
+            <h1 className="text-center">Our Recruiters</h1>
+
+          </div>
             <div className="marquee">
                 <marquee behavior="alternate" direction="">
                     <img className="img-fluid" src="https://monarkuni.ac.in/wp-content/uploads/2022/06/3.Toyoto.png" alt="" />
@@ -82,10 +85,13 @@ const index = () => {
             </div>  
         </div>
       </div>
-      <div className="placement-record bg-light py-5 ">
+      <div id="placement_record" className="placement-record bg-light py-5 ">
         <div className="container">
         <div className="placement-record-heading">
-          <h2 className="text-center">Placement Records</h2>
+          <div className="three">
+          <h1 className="">Placement Records</h1>
+
+          </div>
           <hr />
         </div>
         <div className="row">

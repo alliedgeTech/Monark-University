@@ -486,16 +486,16 @@ export default function MenuItems(props) {
             <Link href="/placement">Placement</Link>
             <ul className="it-submenu submenu">
               <li>
-                <Link href="/blog">Training & Placement Cell</Link>
+                <Link href="/placement#training">Training & Placement Cell</Link>
               </li>
               <li>
-                <Link href="/blog-2">Placement News</Link>
+                <Link href="/placement">Placement News</Link>
               </li>
               <li>
-                <Link href="/blog-sidebar">Placement Records</Link>
+                <Link href="/placement#placement_record">Placement Records</Link>
               </li>
               <li>
-                <Link href="/blog/blog-one">Recruiters</Link>
+                <Link href="/placement#recruiters">Recruiters</Link>
               </li>
             </ul>
           </li>
