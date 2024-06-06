@@ -144,16 +144,16 @@ const index = () => {
   return (
     <div>
       <div style={{ marginTop: "75px" }} className={`min-vh-100 bg-light py-4`}>
-        <div className="container-fluid">
+        <div className="container-fluid p-0">
           {facultydata.map((faculty, index) => {
             return (
               <div
                 id={faculty.hastagID}
                 key={index}
-                className={`faculty-info ${index % 2 == 0 ? "even" : ""}`}
+                className={`faculty-info pb-40 ${index % 2 == 0 ? "even" : ""}`}
               >
-                <div className="faculty-heading mb-20  eight w-100">
-                  <h1 className="text-center ">{faculty.name}</h1>
+                <div className="faculty-heading mb-20  three w-100">
+                  <h1 className=" ">{faculty.name}</h1>
                 </div>
 
                 <div className="row px-4">
@@ -178,7 +178,7 @@ const index = () => {
                 </div>
                 <div style={{ marginTop: "40px" }}>
                   <OwlCarousel
-                    className="owl-theme faculty-carousel"
+                    className="owl-theme px-3 faculty-carousel"
                     dots={true}
                     loop={true}
                     autoPlay={true}
@@ -203,10 +203,12 @@ const index = () => {
             );
           })}
 
-          <div className="student-say py-4">
+          <div className="student-say container py-4">
             <div className="say-heading mt-4">
-              <h2 className="text-center">What Students Say..</h2>
-              <hr />
+              <div className="one">
+              <h1 className="text-center">What Students Say..</h1>
+
+              </div>
             </div>
             <OwlCarousel
               className=""

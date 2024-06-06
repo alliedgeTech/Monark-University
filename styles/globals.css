@@ -132,31 +132,32 @@ h1 {
   }
 
   .one h1 {
+    position: relative;
     text-align: center;
     text-transform: uppercase;
     padding-bottom: 5px;
   }
   .one h1:before {
-    width: 28px;
+    width: 7%;
     height: 5px;
     display: block;
     content: "";
     position: absolute;
     bottom: 3px;
     left: 50%;
-    margin-left: -14px;
-    background-color: #b80000;
+    transform: translate(-50%,0);
+    background-color: #000;
   }
   .one h1:after {
-    width: 100px;
+    width: 25%;
     height: 1px;
     display: block;
     content: "";
     position: relative;
     margin-top: 25px;
     left: 50%;
-    margin-left: -50px;
-    background-color: #b80000;
+    transform: translate(-50%,0);
+    background-color: #000;
   }
   /* table */
 
@@ -317,6 +318,10 @@ h1 {
     color: black !important;
     font-weight: 600 !important;
 } */
+
+.it-header-2-bar button{
+    background: var(--web-color) !important;
+}
  .line{
     height: 2px;
     width: 100% ;
@@ -350,6 +355,7 @@ h1 {
 .hero-text h1{
     font-size: 10vw;
     color: var(--web-orange);
+    font-family: Poppins;
 }
 .hero-text p{
     color: var(--web-white);
@@ -367,7 +373,7 @@ h1 {
     color: var(--web-grey-white);
     overflow: hidden;
     transition: all 0.5s ease-in-out;
-    -webkit-text-stroke: 2px rgba(255, 255, 255, 0.874);
+    -webkit-text-stroke: 2px rgba(255, 255, 255, 0);
 }
 .hero-text-animation:hover::before{
     height: 100%;
@@ -873,8 +879,8 @@ h1 {
 }
 .even{
     background: var(--web-color) !important;
-    border-bottom-left-radius: 6vmax;
-    border-bottom-right-radius: 6vmax;
+    border-bottom-left-radius: 8vmax;
+    border-bottom-right-radius: 8vmax;
     box-shadow:0 0 10px var(--web-color) !important;
     box-shadow:0 0 10px #000 !important;
 }
@@ -959,6 +965,15 @@ h1 {
 .nav-link:hover a{
     color: var(--web-color) !important;
 }
+.nav-link2 .active{
+    color: var(--web-orange) !important;
+}
+.it-menu-mobile ul li:hover > a{
+    color: var(--web-orange) !important;
+}
+.nav-link2 .submenu li:hover{
+    color: var(--web-orange) !important;
+}
 .it-header-2-main-menu ul li:hover.has-dropdown::after{
     color: var(--web-color) !important;
 }
@@ -977,15 +992,15 @@ h1 {
 background: transparent !important;
 }
 .about-1{
-    background: var(--web-grey-white);
+    background: var(--web-whit);
     padding: 60px 40px !important;
-    border-radius: 6vmax;
+    border-radius: 45px;
     box-shadow: 0px 10px 20px #00000029;
 }
 .about-2{
-    background: var(--web-grey-white);
+    background: var(--web-white);
     padding: 60px 0  !important;
-    border-radius: 6vmax;
+    border-radius: 45px;
     box-shadow: 0px 10px 20px #00000029;
 }
 

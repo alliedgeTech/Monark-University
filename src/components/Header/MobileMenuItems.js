@@ -8,6 +8,10 @@ export default function MobileMenuItems(props) {
   const [page, setPage] = useState(false);
   const [service, setService] = useState(false);
   const [blog, setBlog] = useState(false);
+  const [about, setAbout] = useState(false);
+  const [academic, setAcademic] = useState(false);
+  const [placement, setPlacement] = useState(false);
+  const [campuslife, setCampuslife] = useState(false);
 
   const openMobileMenu = (menu) => {
     if (menu === "home") {
@@ -15,21 +19,53 @@ export default function MobileMenuItems(props) {
       setPage(false);
       setService(false);
       setBlog(false);
+      setAbout(false);
     } else if (menu === "page") {
       setHome(false);
       setPage(!page);
       setService(false);
       setBlog(false);
+      setAbout(false);
     } else if (menu === "service") {
       setHome(false);
       setPage(false);
       setService(!service);
       setBlog(false);
+      setAbout(false);
     } else if (menu === "blog") {
       setHome(false);
       setPage(false);
       setService(false);
       setBlog(!blog);
+      setAbout(false);
+    }
+    else if(menu=="about"){
+      setHome(false);
+      setPage(false);
+      setService(false);
+      setBlog(false);
+      setAbout(!about);
+    }
+    else if(menu=="academic"){
+      setHome(false);
+      setPage(false);
+      setService(false);
+      setBlog(false);
+      setAcademic(!academic);
+    }
+    else if(menu=="placement"){
+      setHome(false);
+      setPage(false);
+      setService(false);
+      setBlog(false);
+      setPlacement(!placement);
+    }
+    else if(menu=="campuslife"){
+      setHome(false);
+      setPage(false);
+      setService(false);
+      setBlog(false);
+      setCampuslife(!campuslife);
     }
   };
 
@@ -159,7 +195,7 @@ export default function MobileMenuItems(props) {
       ) : (
         <ul>
           {/* Home */}
-          <li className=" p-static">
+          <li className=" p-static nav-link2">
             <Link
               href="/"
               className={home ? "active" : ""}
@@ -171,12 +207,12 @@ export default function MobileMenuItems(props) {
             </Link>
           </li>
           {/* About MU */}
-          <li className="has-dropdown">
+          <li className="has-dropdown nav-link2">
             <Link
               href="/about-us"
-              className={service ? "active" : ""}
+              className={about ? "active" : ""}
               onClick={() => {
-                openMobileMenu("service");
+                openMobileMenu("about");
               }}
             >
               About Mu
@@ -193,7 +229,7 @@ export default function MobileMenuItems(props) {
                 ></path>
               </svg>
             </Link>
-            <ul className={service ? "it-submenu submenu-open" : "it-submenu"}>
+            <ul className={about ? "it-submenu submenu-open" : "it-submenu"}>
               <li>
                 <Link href="/services">Historical Background</Link>
               </li>
@@ -235,7 +271,7 @@ export default function MobileMenuItems(props) {
             </ul>
           </li>
           {/* Admission */}
-          <li className="has-dropdown">
+          <li className="has-dropdown nav-link2">
             <Link
               href="#"
               className={service ? "active" : ""}
@@ -273,7 +309,7 @@ export default function MobileMenuItems(props) {
             </ul>
           </li>
           {/* Faculty */}
-          <li className="has-dropdown">
+          <li className="has-dropdown nav-link2">
             <Link
               href="#"
               className={page ? "active" : ""}
@@ -361,12 +397,12 @@ export default function MobileMenuItems(props) {
             </ul>
           </li>
           {/* Academic */}
-          <li className="has-dropdown">
+          <li className="has-dropdown nav-link2">
             <Link
               href="#"
-              className={blog ? "active" : ""}
+              className={academic ? "active" : ""}
               onClick={() => {
-                openMobileMenu("blog");
+                openMobileMenu("academic");
               }}
             >
               Academic  
@@ -383,7 +419,7 @@ export default function MobileMenuItems(props) {
                 ></path>
               </svg>
             </Link>
-            <ul className={blog ? "it-submenu submenu-open" : "it-submenu"}>
+            <ul className={academic ? "it-submenu submenu-open" : "it-submenu"}>
               <li>
                 <Link href="/course">Academic Calender</Link>
               </li>
@@ -391,7 +427,7 @@ export default function MobileMenuItems(props) {
                 <Link href="/course-2">Circuler</Link>
               </li>
               <li>
-                <Link href="/syllabus">Placement Records</Link>
+                <Link href="/syllabus">Syllabus</Link>
               </li>
               <li>
                 <Link href="/teacher">Exam Schedule</Link>
@@ -402,12 +438,12 @@ export default function MobileMenuItems(props) {
             </ul>
           </li>
           {/*Placement  */}
-          <li className="has-dropdown">
+          <li className="has-dropdown nav-link2">
             <Link
               href="#"
-              className={blog ? "active" : ""}
+              className={placement ? "active" : ""}
               onClick={() => {
-                openMobileMenu("blog");
+                openMobileMenu("placement");
               }}
             >
               Placement
@@ -424,7 +460,7 @@ export default function MobileMenuItems(props) {
                 ></path>
               </svg>
             </Link>
-            <ul className={blog ? "it-submenu submenu-open" : "it-submenu"}>
+            <ul className={placement ? "it-submenu submenu-open" : "it-submenu"}>
               <li>
                 <Link href="/blog">Training & Placement Cell</Link>
               </li>
@@ -440,12 +476,12 @@ export default function MobileMenuItems(props) {
             </ul>
           </li>
           {/* Campus Life */}
-          <li className="has-dropdown">
+          <li className="has-dropdown nav-link2">
             <Link
               href="#"
-              className={blog ? "active" : ""}
+              className={campuslife ? "active" : ""}
               onClick={() => {
-                openMobileMenu("blog");
+                openMobileMenu("campuslife");
               }}
             >
               Campus Life
@@ -462,7 +498,7 @@ export default function MobileMenuItems(props) {
                 ></path>
               </svg>
             </Link>
-            <ul className={blog ? "it-submenu submenu-open" : "it-submenu"}>
+            <ul className={campuslife ? "it-submenu submenu-open" : "it-submenu"}>
               <li>
                 <Link href="/campus#artsandculture">Arts & Culture</Link>
               </li>
@@ -495,7 +531,7 @@ export default function MobileMenuItems(props) {
             </ul>
           </li>
           {/* Infrastructure */}
-          <li className="has-dropdown">
+          <li className="has-dropdown nav-link2">
             <Link
               href="#"
               className={blog ? "active" : ""}
@@ -517,7 +553,7 @@ export default function MobileMenuItems(props) {
                 ></path>
               </svg>
             </Link>
-            <ul className={blog ? "it-submenu submenu-open" : "it-submenu"}>
+            <ul className={blog ? "it-submenu  submenu-open" : "it-submenu"}>
               <li>
                 <Link href="/infrastructure#lab">Laboratories</Link>
               </li>
@@ -537,7 +573,7 @@ export default function MobileMenuItems(props) {
               </li>
             </ul>
           </li>
-          <li>
+          <li className="nav-link2">
             <Link href="/contact">contact</Link>
           </li>
         </ul>

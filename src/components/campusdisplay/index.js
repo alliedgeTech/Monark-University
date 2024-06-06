@@ -54,40 +54,15 @@ const Campusdisplay = () => {
         id="it-gallery"
         className="it-gallery-area p-relative grey-bg-2 pt-120 pb-120"
       >
-        <div className="it-gallery-shape-1 d-none d-lg-block">
-          <Image
-            src="/img/gallery/shape-1-1.png"
-            alt=""
-            width={115}
-            height={117}
-          />
-        </div>
-        <div className="it-gallery-shape-2 d-none d-lg-block">
-          <Image
-            src="/img/gallery/shape-1-2.png"
-            alt=""
-            width={190}
-            height={201}
-          />
-        </div>
-        <div className="it-gallery-shape-3 d-none d-lg-block">
-          <Image
-            src="/img/gallery/shape-1-3.png"
-            alt=""
-            width={98}
-            height={87}
-          />
-        </div>
+        
         <div className="container" id="artsandculture">
           <div className="row">
             <div className="col-xl-12">
-              <div className="it-gallery-title-box text-center pb-70">
-                <span className="it-section-subtitle-5">
-                  <i className="fa-light fa-book"></i>
-                  Moanark Uni.
-                  <i className="fa-light fa-book"></i>
-                </span>
-                <h2 className="it-section-title-3">Arts and Gallery</h2>
+              <div className="it-gallery-title-box pb-70">
+                <div className="three">
+                <h1 className="it-section-title-3">Arts and Gallery</h1>
+
+                </div>
               </div>
             </div>
           </div>

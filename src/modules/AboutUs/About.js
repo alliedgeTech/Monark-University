@@ -180,13 +180,14 @@ export default function About() {
       <div className="it-choose-area p-relative pt-100">
         <div className="it-choose-shape-4 d-none d-md-block"></div>
         <div className="container">
-          <div className="row">
-            <div className="col-lg-6 col-12">
+          
               <div className="it-choose-title-box three">
-                <h1 className="it-section-title">
+                <h1 className="it-section-title mb-20">
                   Historical Background of the Sponsoring Body
                 </h1>
               </div>
+              <div className="row">
+            <div className="col-lg-6 col-12">
               <div className="it-choose-text pb-15">
                 <p>
                   With the blessings of the Goddess Saraswati, Shree Monark
@@ -427,7 +428,7 @@ export default function About() {
                       </h1>
                     </div>
                   </div>
-                  <div class="col-xl-6 col-lg-6 mt-lg-0 ">
+                  <div class="col-xl-6 col-lg-6 mt-lg-0 mt-4 ">
                     <div class="it-career-item it-career-item-left p-relative fix">
                       <div class="it-career-content">
                         <h2 className="text-white mb-20">Vision</h2>
@@ -463,7 +464,7 @@ export default function About() {
                       </div>
                     </div>
                   </div>
-                  <div class="col-xl-6 col-lg-6 mt-lg-0 ">
+                  <div class="col-xl-6 col-lg-6 mt-lg-0 mt-4 ">
                     <div class="it-career-item it-career-item-right p-relative fix">
                       <div class="it-career-content">
                         <h2 className="text-white mb-20">Mission</h2>

@@ -7,7 +7,7 @@ const index = () => {
     <div className="placement ">
       <div className="training-placement py-4">
         <div id="training" className="training-placement-heading container">
-          <div className="three">
+          <div className="three mb-25">
           <h1 className="">Training & Placement Cell</h1>
           </div>
           <div className="row">
