@@ -527,7 +527,7 @@ export default function MenuItems(props) {
                 <Link href="/campus#teacherday">Teacher's Day</Link>
               </li>
               <li>
-                <Link href="/blog/blog-one">Students Club</Link>
+                <Link href="/campus#studentclub">Students Club</Link>
               </li>
             </ul>
           </li>
