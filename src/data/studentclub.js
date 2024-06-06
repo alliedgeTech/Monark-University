@@ -79,7 +79,7 @@ const studentclubdata = [
         id: 6,
         header: "Activities",
         content:
-          "Education Fair Report: <a href='https://monarkuni.ac.in/wp-content/uploads/2022/11/Education_Fair_Report.pdf'>Education Fair Report</a>",
+          " <a target='_blank' href='https://monarkuni.ac.in/wp-content/uploads/2022/11/Education_Fair_Report.pdf'>Education Fair Report</a>",
       },
     ],
   },
@@ -297,7 +297,7 @@ const studentclubdata = [
         id: 4,
         header: "Activities",
         content:
-          "Quiz Competition: <a href='https://monarkuni.ac.in/wp-content/uploads/2022/10/quizFinalDoc.pdf'>Quiz Competition</a><br/>Report Of HOPE ANONYMOUS: <a href='https://monarkuni.ac.in/wp-content/uploads/2022/11/ReportOfCharity.pdf'>Report Of HOPE ANONYMOUS <br/> Report of Eco Friendly Vighnaharta Making Competition <a href='https://monarkuni.ac.in/wp-content/uploads/2022/11/GaneshaMakingReportBrainstormers.pdf'> Report of Eco Friendly Vighnaharta Making Competition",
+          " <a target='_blank' href='https://monarkuni.ac.in/wp-content/uploads/2022/10/quizFinalDoc.pdf'>Quiz Competition</a><br/> <a target='_blank' href='https://monarkuni.ac.in/wp-content/uploads/2022/11/ReportOfCharity.pdf'>Report Of HOPE ANONYMOUS </a><br/> <a target='_blank' href='https://monarkuni.ac.in/wp-content/uploads/2022/11/GaneshaMakingReportBrainstormers.pdf'>Report of Eco Friendly Vighnaharta Making Competition </a> ",
       },
     ],
   },
