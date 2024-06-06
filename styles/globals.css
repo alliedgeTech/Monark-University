@@ -1188,7 +1188,6 @@ p {
     background: var(--web-color) !important;
 }
 
-<<<<<<< HEAD
 .news-description-ellips {
     display: -webkit-box;
     overflow: hidden;
@@ -1196,7 +1195,6 @@ p {
     -webkit-line-clamp: 3;
     -webkit-box-orient: vertical;
 }
-=======
 
 
 
@@ -1204,4 +1202,3 @@ p {
 
 
 
->>>>>>> 63509a12f038447903100553ec76060e09bc8314
