@@ -61,8 +61,11 @@ const Infrastructuredisplay = () => {
     <div className="it-blog-area it-blog-style-3 it-blog-style-6 grey-bg pt-120 pb-90">
       <div className="container" id="lab">
         <div className="row">
-          <div class="it-career-title-box text-center mb-70">
-            <span class="it-section-subtitle">Laboratories</span>
+          <div class="it-career-title-box mb-70">
+            <div className="three mb-20">
+            <h1 class="">Laboratories</h1>
+
+            </div>
             <p>
               We have a huge well equipped laboratories catering to the needs of
               basic sciences, Information & technology, Commerce & Management
@@ -94,14 +97,16 @@ const Infrastructuredisplay = () => {
         </div>
       </div>
       <div id="library">
-        <div className="it-choose-area p-relative pt-180 pb-110">
+        <div className="it-choose-area p-relative pt-180 pb-70">
           <div className="container">
             <div className="row align-items-center">
               <div className="col-xl-6 col-lg-6 mb-30">
                 <div className="it-choose-left">
                   <div className="it-choose-title-box mb-30 university-title-gsap">
-                    <span className="it-section-subtitle" style={{textAlign:'center'}}>Library</span>
-                    <h4 className="it-section-title">University Library</h4>
+                    <div className="three">
+                    <h1 className="it-section-title">University Library</h1>
+
+                    </div>
                   </div>
                   <div className="it-choose-text pb-15 pr-8 university-text-gsap">
                     <p>
@@ -137,14 +142,6 @@ const Infrastructuredisplay = () => {
                       className="img-fluid"
                       alt=""
                     />
-                    <div className="it-choose-shape-1">
-                      <img
-                        src="/img/choose/shape-1-1.png"
-                        width={357}
-                        height={306}
-                        alt=""
-                      />
-                    </div>
                     <div className="it-choose-shape-2">
                       <img
                         src="/img/choose/shape-1-2.png"
@@ -162,7 +159,7 @@ const Infrastructuredisplay = () => {
         </div>
 
         <div
-          className="it-funfact-5-area it-funfact-5-bg p-relative fix yellow-bg pt-100 pb-60"
+          className="it-funfact-5-area it-funfact-5-bg p-relative fix py-5"
           data-background="/img/funfact/bg-2.png"
         >
           <div className="it-funfact-5-shape-1 d-none d-xxl-block">
@@ -178,7 +175,7 @@ const Infrastructuredisplay = () => {
               <div className="row">
                 {librarydata.map((library, num) => (
                   <div key={num} className="col-xl-4  col-lg-4 col-md-6 mb-30">
-                    <div className="it-funfact-5-item text-center counter-gsap">
+                    <div className="it-funfact-5-item rounded-3 text-center counter-gsap">
                       <div className="it-funfact-5-icon">
                         <span>
                           <img src={library.countIcon} className="img-fluid" />
@@ -203,10 +200,12 @@ const Infrastructuredisplay = () => {
           </div>
         </div>
       </div>
-      <div className="container" style={{ marginTop: 150 }} id="hostel">
+      <div className="container"  id="hostel">
         <div className="row">
-          <div class="it-career-title-box text-center mb-70">
-            <span class="it-section-subtitle">Hostel</span>
+          <div class="it-career-title-box  mb-70">
+            <div className="three">
+              <h1 class="">Hostel</h1>
+            </div>
             <p>
               The University also provides in-campus residential facilities for
               boys and girls which offers students an amazing place for living.
