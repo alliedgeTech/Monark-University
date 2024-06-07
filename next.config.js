@@ -33,7 +33,7 @@ const nextConfig = {
             use: {
                 loader: 'babel-loader',
                 options: {
-                    presets: ['next/babel'],
+                    presets: ['next/babel', '@babel/preset-env'], // Include '@babel/preset-env'
                 },
             },
         });
