@@ -38,9 +38,7 @@ const Showsyllabusdetails = () => {
     <Container>
       <Row>
         <Col>
-          <h1>{found.branch}</h1>
-          <h1>{branch.name}</h1>
-          <h1>{item.name}</h1>
+          
           <Accordion defaultActiveKey="0">
             {item.tables.map((table, tableIndex) => (
               <Accordion.Item eventKey={tableIndex.toString()} key={tableIndex}>

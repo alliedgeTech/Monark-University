@@ -3627,6 +3627,8 @@ const syllabusdata = [
         name: "MSc",
         sub: [
           {
+            id:1,
+            name:"Master of Science",
             tables: [
               {
                 id: 1,
@@ -4178,6 +4180,8 @@ const syllabusdata = [
         name: "BSc",
         sub: [
           {
+            id:1,
+            name:"Bachelor of Science",
             tables: [
               {
                 id: 1,
@@ -4389,6 +4393,8 @@ const syllabusdata = [
         name: "BPT",
         sub: [
           {
+            id:1,
+            name:"Bachelor of Physiotherapy",
             tables: [
               {
                 title1: "Department of Physiotherapy ",
@@ -5664,6 +5670,8 @@ const syllabusdata = [
         name: "M.Com",
         sub: [
           {
+            id:1,
+            name:"Master of Commerce",
             tables: [
               {
                 id: 1,
@@ -5855,6 +5863,8 @@ const syllabusdata = [
         name: "B.Com",
         sub: [
           {
+            id:1,
+            name:"Bachelor of Commerce",
             tables: [
               {
                 id: 1,
@@ -6041,6 +6051,8 @@ const syllabusdata = [
         name: "MBA",
         sub: [
           {
+            id:1,
+            name:"Master of Business Administration",
             tables: [
               {
                 id: 1,
@@ -6136,6 +6148,8 @@ const syllabusdata = [
         name: "BBA",
         sub: [
           {
+            id:1,
+            name:"Bachelor of Business Administration",
             tables: [
               {
                 id: 1,
@@ -6226,6 +6240,8 @@ const syllabusdata = [
         name: "LLM",
         sub: [
           {
+            id:1,
+            name:"Masters of Laws ",
             tables: [
               {
                 id: 1,
@@ -6288,6 +6304,8 @@ const syllabusdata = [
         name: "LLB",
         sub: [
           {
+            id:1,
+            name:"Bachelor of Laws",
             tables: [
               {
                 id: 1,
@@ -6367,6 +6385,8 @@ const syllabusdata = [
         name: "MCA",
         sub: [
           {
+            id:1,
+            name:"Master of Computer Applications",
             tables: [
               {
                 id: 1,
@@ -6440,6 +6460,8 @@ const syllabusdata = [
         name: "BCA",
         sub: [
           {
+            id:1,
+            name:"Bachelors of Computer Applications",
             tables: [
               {
                 id: 1,
@@ -6541,6 +6563,8 @@ const syllabusdata = [
         name: "B.Sc Nursing",
         sub: [
           {
+            id:1,
+            name:"Bachelor of Science in Nursing",
             tables: [
               {
                 id: 1,
@@ -6658,6 +6682,8 @@ const syllabusdata = [
         name: "GNM Nursing",
         sub: [
           {
+            id:1,
+            name:"General Nursing and Midwifery",
             tables: [
               {
                 id: 1,
@@ -6797,6 +6823,8 @@ const syllabusdata = [
         name: "Post Basic B.Sc Nursing",
         sub: [
           {
+            id:1,
+            name:" Post Basic Bachelor of Science in Nursing",
             tables: [
               {
                 id: 1,
@@ -6920,6 +6948,8 @@ const syllabusdata = [
         name: "M.Ed",
         sub: [
           {
+            id:1,
+            name:"Master's in Education",
             tables: [
               {
                 id: 1,

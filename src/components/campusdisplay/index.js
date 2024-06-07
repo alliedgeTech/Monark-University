@@ -39,17 +39,7 @@ const Campusdisplay = () => {
   const [open, setOpen] = useState(false);
   return (
     <>
-      <Lightbox
-        open={open}
-        close={() => setOpen(false)}
-        slides={[
-          { src: "/img/campus/cm1.jpg", width: 422, height: 710 },
-          { src: "/img/campus/cm2.jpg", width: 422, height: 337 },
-          { src: "/img/campus/cm3.jpg", width: 422, height: 337 },
-          { src: "/img/campus/cm4.jpg", width: 422, height: 710 },
-          { src: "/img/campus/cm5.jpg", width: 422, height: 710 },
-        ]}
-      />
+      
       <div
         id="it-gallery"
         className="it-gallery-area p-relative grey-bg-2 pt-120 pb-120"

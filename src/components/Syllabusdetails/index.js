@@ -13,7 +13,7 @@ const Syllabusdetails = () => {
   }
 
   // Filter the data to include only the 1st and 4th IDs
-  const filteredData = syllabusdata.filter((item, index) => index === 0 || index === 3);
+  //const filteredData = syllabusdata.filter((item, index) => index === 0 || index === 3);
 
   return (
     <div>
@@ -26,7 +26,7 @@ const Syllabusdetails = () => {
             Teaching scheme & Syllabus
           </h2>
           <Accordion defaultActiveKey="0">
-            {filteredData.map((sl, index) => (
+            {syllabusdata.map((sl, index) => (
               <Accordion.Item eventKey={index.toString()} key={sl.id}>
                 <Accordion.Header>{sl.branch}</Accordion.Header>
                 <Accordion.Body>
@@ -67,29 +67,7 @@ const Syllabusdetails = () => {
         </div>
       </Container>
 
-      <Accordion defaultActiveKey="0">
-        {syllabusdata
-          .filter((_, index) => index !== 3) 
-          .map((sl, index) => (
-            <Accordion.Item eventKey={index.toString()} key={sl.id}>
-              <Accordion.Header>{sl.branch}</Accordion.Header>
-              <Accordion.Body>
-                <Row>
-                  <div>
-                    {sl.subbranch.map((sub) => (
-                      <Accordion key={sub.id}>
-                        <a href={`/showsyllabus?id=${sl.id}&branchId=${sub.id}`}>
-                          {sub.name}
-                        </a>
-                      </Accordion>
-                    ))}
-                  </div>
-                </Row>
-              </Accordion.Body>
-            </Accordion.Item>
-          ))
-          .slice(1, 11)}
-      </Accordion>
+     
     </div>
   );
 };
