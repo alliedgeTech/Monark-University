@@ -60,6 +60,7 @@ const Showsyllabusdetails = () => {
                         <th>P</th>
                         <th>C</th>
                         <th>Category</th>
+                        
                       </tr>
                     </thead>
                     <tbody>
