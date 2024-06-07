@@ -73,6 +73,7 @@ const Showsyllabusdetails = () => {
                           <td>{data.p}</td>
                           <td>{data.c}</td>
                           <td>{data.category}</td>
+                          <td>{data.category}</td>
                         </tr>
                       ))}
                     </tbody>
