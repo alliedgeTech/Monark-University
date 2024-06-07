@@ -1,8 +1,8 @@
 import React from "react";
 import studentclubdata from "@/data/studentclub";
 import Sidebar from "@/components/Blog/Sidebar";
-import { Container,Card } from "react-bootstrap";
-import { Accordion } from 'react-bootstrap/esm/Accordion';
+import { Container, Row, Col, Table, Accordion } from "react-bootstrap";
+
 
 
 export default function Studentclub() {
