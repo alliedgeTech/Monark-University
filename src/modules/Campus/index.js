@@ -7,6 +7,7 @@ import Studentclub from "@/components/Studentclubdisplay"
 
 
 export default function CampusModules() {
+	
 	return (
 		<main>
 			<BreadCrumbs
