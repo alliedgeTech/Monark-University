@@ -13,7 +13,7 @@ const Syllabusdetails = () => {
   }
 
   // Filter the data to include only the 1st and 4th IDs
-  //const filteredData = syllabusdata.filter((item, index) => index === 0 || index === 3);
+  const filteredData = syllabusdata.filter((item, index) => index === 0 || index === 3);
 
   return (
     <div>
