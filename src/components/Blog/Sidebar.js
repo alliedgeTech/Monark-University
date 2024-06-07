@@ -1,5 +1,5 @@
 import React from "react";
-import { Container, Row, Col, Accordion, Card } from "react-bootstrap";
+import { Container, Accordion } from "react-bootstrap";
 import studentclubdata from "@/data/studentclub";
 
 export default function Sidebar() {

@@ -1,4 +1,3 @@
-
 import Newsletter from "@/components/Newsletter"
 import BreadCrumbs from "@/components/BreadCrumbs"
 import ScrollTop from "@/components/ScrollTop"

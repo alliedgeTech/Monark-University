@@ -8,7 +8,7 @@ import Preloader from '@/components/Preloader';
 
 import "bootstrap/dist/css/bootstrap.min.css";
 
-const Syllabusdetails = dynamic(() => import ('@/modules/Showsyllabus'), {
+const Syllabusdetails = dynamic(() => import ('@/modules/showSyllabus'), {
   loading: () => <Preloader />,
 });
 
