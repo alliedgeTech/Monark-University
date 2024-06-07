@@ -2,6 +2,8 @@ import React, { useEffect, useState } from "react";
 import { useRouter } from "next/router";
 import { Container, Row, Col, Accordion, Table } from "react-bootstrap";
 import syllabusdata from "@/data/syllabus";
+import { Accordion } from 'react-bootstrap/esm/Accordion';
+
 
 import "bootstrap/dist/css/bootstrap.min.css";
 
