@@ -2,10 +2,11 @@
 
 export default function Preloader() {
 	return (
-		<div id="preloader" className="h-100 w-100">
-            <div className="preloader">
-                <img className="" src="/img/logo/MONARK_LOGO.png" alt="" />
-            </div>
+		<div id="preloader" className="d-flex align-items-center justify-content-center">
+                <div className="preloader-img-box">
+                    <img className="img-fluid preloader-img"  src="/img/logo/MONARK_LOGO.png" alt="" />
+
+                </div>
         </div>
 	)
 }

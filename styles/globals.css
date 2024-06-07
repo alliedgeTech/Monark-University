@@ -1195,6 +1195,13 @@ p {
     -webkit-line-clamp: 3;
     -webkit-box-orient: vertical;
 }
+#preloader{
+    height: 100vh !important;
+    width: 100vw !important;
+}
+.preloader-img{
+    max-width: 200px !important;
+}
 
 
 
