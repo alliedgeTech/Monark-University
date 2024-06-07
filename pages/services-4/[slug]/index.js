@@ -20,11 +20,9 @@ export default function ServiceDetails() {
 
 	return (
 		<main>
-			
+
 			<HeaderTwo />
-
 			<ServiceDetailsModules item={singleService[0]} />
-
 			<Footer />
 		</main>
 	)
