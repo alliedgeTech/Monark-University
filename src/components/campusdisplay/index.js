@@ -286,7 +286,7 @@ const Campusdisplay = () => {
                   </div>
                 </div>
               ))
-              .slice(111, 125)}
+              .slice(111, 129)}
           </div>
         </div>
       </div>
