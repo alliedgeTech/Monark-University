@@ -498,4 +498,4 @@ const campusdata=[
 },
 
 ]
-export default campusdata
+export default campusdata;

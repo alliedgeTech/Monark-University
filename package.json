@@ -36,6 +36,7 @@
     "sass": "^1.69.5",
     "sharp": "^0.33.4",
     "slick-carousel": "^1.8.1",
+    "yarn": "^1.22.22",
     "yet-another-react-lightbox": "^3.16.0"
   },
   "devDependencies": {
