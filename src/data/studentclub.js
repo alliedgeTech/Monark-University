@@ -1,4 +1,3 @@
-// import context from "react-bootstrap/esm/AccordionContext";
 
 const studentclubdata = [
   {

@@ -1,4 +1,3 @@
-import Link from "next/link";
 
 export default function BreadCrumbs( props ) {
 	const { Img, Title, subTitle  } = props;
