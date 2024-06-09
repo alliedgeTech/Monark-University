@@ -74,7 +74,7 @@ export default function Video() {
   };
 
   return (
-    <div className="Latest-News container-fluid py-4">
+    <div className="Latest-News container py-4">
       <div className="student-placement-heading d-flex align-items-center justify-content-center mb-20">
         <div className="line"></div>
         <h1 className="text-center mb-0 w-100">Latest News</h1>
@@ -94,11 +94,25 @@ export default function Video() {
           responsive={Responsive}
         >
           {latestNews.map((item, index) => (
-            <div className="item">
-              <div className="news-card">
+            <div className="item p-2">
+              <div className="news-card p-3">
                 <div className="news-head">
-                  <h2>{item.title}</h2>
-                  <p className="news-description-ellips">{item.description}</p>
+                  <div className="news-img-box">
+                    <img src={item.image} alt="" />
+                    <button className="hover-btn news-hover-btn">
+                      <div className="text-div">
+                        <small>Read More</small>
+                        <small>Read More</small>
+                      </div>
+                    </button>
+                  </div>
+                  <div className="news-date-btn mt-2">
+                    <small>{item.lastDate}</small>
+                  </div>
+                  <div className="news-info-box mt-4">
+                  <h4>{item.title}</h4>
+                  <small className="news-description-ellips">{item.description}</small>
+                  </div>
                 </div>
               </div>
             </div>

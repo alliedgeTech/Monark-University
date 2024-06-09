@@ -275,14 +275,7 @@ const Campusdisplay = () => {
                     <div className="it-gallery-thumb">
                       <img src={campus.img} className="img-fluid" />
                     </div>
-                    <div className="it-gallery-icon">
-                      <button
-                        className="popup-image"
-                        onClick={() => setOpen(true)}
-                      >
-                        <i className="fa-light fa-plus"></i>
-                      </button>
-                    </div>
+                    
                   </div>
                 </div>
               ))

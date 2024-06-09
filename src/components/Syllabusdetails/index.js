@@ -1,3 +1,4 @@
+
 import React from "react";
 import { useRouter } from "next/router";
 
@@ -17,15 +18,17 @@ const Syllabusdetails = () => {
 
   return (
     <div>
-      <div className="container">
+      <div className="container py-5">
         <div className="mt-5" id="syllabus">
-          <h2
-            className="text-center mb-4"
-            style={{ fontSize: '24px' }}
+          <div className="one">
+          <h1
+            className=""
           >
             Teaching scheme & Syllabus
-          </h2>
-          <div className="accordion" id="accordionExample">
+          </h1>
+            
+          </div>
+          <div className="accordion mt-25" id="accordionExample">
             {syllabusdata.map((sl, index) => (
               <div className="accordion-item" key={sl.id}>
                 <h2 className="accordion-header">
