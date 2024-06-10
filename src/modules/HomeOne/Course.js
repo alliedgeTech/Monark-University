@@ -105,7 +105,7 @@ export default function Course() {
           </div>
           <div className="student-club-text">
           <h4>Multi Activity club</h4>
-          <p>Green clubs in colleges will empower students to participate and take up meaningful environmental activities and projects.</p>
+          <p>Multi Activity club is to give an opportunity to students to perform their inner talent and participate in number of activities, to build their self-confidence also.</p>
           </div>
         </div>
         <div className="student-club-info col-lg-4 mt-lg-0 mt-4 h-100">
@@ -123,7 +123,7 @@ export default function Course() {
           </div>
           <div className="student-club-text">
           <h4>Spiritual Club</h4>
-          <p>Green clubs in colleges will empower students to participate and take up meaningful environmental activities and projects.</p>
+          <p>Our institution has established health club and spiritual club in the month of May-2022 for the benefit of students, faculties and staff members of our college based on the scope and guidelines given by our C.E.O Shree Monark Goswami sir of Monark University.</p>
           </div>
         </div>
         <div className="student-club-info col-lg-8 h-100 mt-4">
@@ -132,7 +132,7 @@ export default function Course() {
           </div>
           <div className="student-club-text">
           <h4>Personality Develop Club</h4>
-          <p>Green clubs in colleges will empower students to participate and take up meaningful environmental activities and projects.</p>
+          <p>This will help club members to gain personal and professional skills in the area of leadership development.</p>
           </div>
         </div>
       </div>
