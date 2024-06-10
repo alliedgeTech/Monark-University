@@ -135,8 +135,8 @@ export default function Team() {
                   {Teachers.map((teacher, id) => {
                     return (
                       <tr>
-                        <td data-th="Supplier Name">{teacher.name}</td>
-                        <td data-th="Invoice Date">{teacher.designation}</td>
+                        <td data-th="Name">{teacher.name}</td>
+                        <td data-th="Designation">{teacher.designation}</td>
                       </tr>
                     );
                   }).slice(11, 31)}
@@ -168,8 +168,8 @@ export default function Team() {
                   {Teachers.map((teacher, id) => {
                     return (
                       <tr>
-                        <td data-th="Supplier Name">{teacher.name}</td>
-                        <td data-th="Invoice Date">{teacher.designation}</td>
+                        <td data-th="Name">{teacher.name}</td>
+                        <td data-th="Designation">{teacher.designation}</td>
                       </tr>
                     );
                   }).slice(45, 49)}
