@@ -2,16 +2,16 @@ import BreadCrumbs from "@/components/BreadCrumbs"
 
 import Newsletter from "@/components/Newsletter"
 import ScrollTop from "@/components/ScrollTop"
-import Examsdisplay from "@/components/Examdisplay"
+import Examdisplay from "@/components/Examdisplay"
 
-export default function Examsmodules() {
+export default function ExamModules() {
 	return (
 		<main>
 			<BreadCrumbs
 				Title="Exam Schedule"
 				
 			/>
-			<Examsdisplay />
+			<Examdisplay />
 			<Newsletter />
 			<ScrollTop />
 		</main>

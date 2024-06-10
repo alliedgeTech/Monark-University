@@ -4,16 +4,16 @@ import HeaderTwo from '@/components/Header/HeaderTwo';
 import Preloader from '@/components/Preloader';	
 import dynamic from 'next/dynamic'
  
-const ExamsModules = dynamic(() => import('@/modules/Examschedule'), {
+const ExamModules = dynamic(() => import('@/modules/Exam'), {
   loading: () => <Preloader />,
 });
 
-export default function Exams() {
+export default function Exam() {
 	return (
 		<main>
 			<HeaderTwo />
 
-			<ExamsModules/>
+			<ExamModules/>
 
 			<Footer />
 		</main>

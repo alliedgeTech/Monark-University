@@ -474,7 +474,7 @@ export default function MenuItems(props) {
                 <Link href="/syllabus">Syllabus</Link>
               </li>
               <li>
-                <Link href="/teacher">Exam Schedule</Link>
+                <Link href="/exam">Exam Schedule</Link>
               </li>
               <li>
                 <Link href="/teacher/teacher-one">Results</Link>
