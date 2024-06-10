@@ -466,8 +466,8 @@ export default function MenuItems(props) {
                 <Link href="/course">Academic Calender</Link>
               </li>
               <li>
-                <Link href="/course-2">
-                  Circuler
+                <Link href="/circular">
+                  Circular
                 </Link>
               </li>
               <li>
