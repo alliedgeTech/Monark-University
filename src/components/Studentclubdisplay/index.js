@@ -7,8 +7,8 @@ import { Container, Row, Col, Table, Accordion } from "react-bootstrap";
 
 export default function Studentclub() {
   return (
-    <div className="postbox__area pt-120 pb-120" id="studentclub">
-      <div className="container">
+    <div className="postbox__area pt-120 pb-120" >
+      <div className="container" id="studentclub">
       {studentclubdata.map((std, index) => (
         <>
         <div className="three my-5">

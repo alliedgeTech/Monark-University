@@ -62,12 +62,12 @@ export default function Footer(props) {
 						<div className="col-lg-3 col-md-6 col-12">
 							<h6>Multi-Skills Development & Training Centre</h6>
 							<ul>
-								<li><a href="">Music & Production</a></li>
-								<li><a href="">Fitness & Nutriton</a></li>
-								<li><a href="">IT Courses</a></li>
-								<li><a href="">Aviation & Management</a></li>
-								<li><a href=""> Medical Laboratory Technology (MLT)</a></li>
-								<li><a href="">Hair Dressing & Beauty</a></li>
+								<li><a href="/faculty#music">Music & Production</a></li>
+								<li><a href="/faculty#fitness">Fitness & Nutriton</a></li>
+								<li><a href="/faculty#it">IT Courses</a></li>
+								<li><a href="/faculty#aviation">Aviation & Management</a></li>
+								<li><a href="/faculty#mlt"> Medical Laboratory Technology (MLT)</a></li>
+								<li><a href="/faculty#hair">Hair Dressing & Beauty</a></li>
 							</ul>
 						</div>
 						<div className="col-lg-5 col-md-6 col-12">

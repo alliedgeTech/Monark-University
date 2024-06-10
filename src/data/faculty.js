@@ -343,15 +343,71 @@ const facultydata = [
     id: 18,
     name: "Fitness & Nutriton",
     heading: "About Fitness & Nutriton",
-    img1: "https://monarkuni.ac.in/wp-content/uploads/2021/06/guitar3-1536x1152.jpg",
+    img1: "https://monarkuni.ac.in/wp-content/uploads/2021/06/photo-1571019613454-1cb2f99b2d8b.jpg",
     text_1:
-      "“We believe in quality not in quantity.” The exposed atmosphere of Monark University can be of great benefit to the aspiring musician & especially for someone who is little confused with the future prospects. We give not only an excellent and unparalleled music degree but also a real time experience through our little initiatives like Workshops, Super Saturdays, MU Connect, & rehearsals at MU’s Stage-Jam Room. Under MU’s expert guidance we aim to groom our students and shape their creativity. We strive to create world class music professionals.",
-    img2: "https://monarkuni.ac.in/wp-content/uploads/2021/06/photo-1598653222000-6b7b7a552625.jpg",
+      "The faculty also covers how a number of key physiological systems (muscular, respiratory, cardiovascular, endocrine and immune systems) are regulated during exercise to help maintain homeostasis. These adjustments are critical for exercise to continue for any significant duration. The faculty will explain about, how the respiratory system adjusts during exercise to ensure proper oxygen delivery and carbon dioxide removal from active muscles, how the cardiovascular system responds to ensure adequate blood flow to various organs, including muscle, during exercise, how the endocrine system plays a major role in regulating key biochemical and physiological responses to exercise and how exercise influences the immune system and your ability to fight infections.",
+    img2: "https://monarkuni.ac.in/wp-content/uploads/2021/06/wp2067583.jpg",
     text_2:
-      "The humble start with an aim and motto – “to contribute quality musician to the music industry,” The faculty of music and production is located at Ahmedabad. The courses which we offer is creatively designed keeping the evolving technology in mind, which help the students receive the best education required to prosper in the music industry. Certainly, the sense of individualism is strong at Monark Uni., as we believe in giving personal attention to each and every students & is not limited to the duration of the course.Students of Monark University are frequently engaged with the top artists of the industry and learn all the tricks & bricks from the faculty itself who are professionals in the music industry with years of experience and unparalleled knowledge of the technical know-hows in the industry.",
+      "The faculty of Fitness and nutrition will teach about various metabolic pathways in the form of carbohydrates, fats and proteins that are activated in order to supply the necessary energy required for the mechanical work of skeletal muscles during exercise. How these pathways are regulated, the methods for assessing the extent to which specific fuels are being utilized and the overall estimation of your metabolic rate will be addressed. Additionally, At The faculty of Fitness and nutrition the aspirant will learn about the importance of chemical energy stored and its requirement for muscular work.",
     //missing photo
    
-    hastagID: "music",
+    hastagID: "fitness",
+  },
+  {
+    id: 19,
+    name: "Hairdressing & Beauty",
+    heading: "About Hairdressing & Beauty",
+    img1: "https://monarkuni.ac.in/wp-content/uploads/2021/06/istockphoto-1183279213-640x640-1.jpg",
+    text_1:
+      "This profession is hardly affected by recession or economic downfalls. To make this possible, hair and beauty experts are required. The Faculty of Hair Dressing & Beauty provides an opportunity to interact with and learn from very successful, highly qualified and experienced professionals. The faculty provides training program for aspiring and existing hairdressers and beauticians. It will enable the aspirant to advance the skills in an ever-growing profession.",
+    img2: "https://monarkuni.ac.in/wp-content/uploads/2021/06/barbering-banner.jpg",
+    text_2:
+      "Hair Dressing & Beauty’  is the destination,  booming throughout  Gujarat  as all people who want to look good not only to boost their confidence but to present themselves well amongst their peers. The faculty provides a unique career that transcends virtually all cultural barriers. Having hairdressing and beauty skills with knowledge is a universally recognized career pathway across the majority of the world. Besides the opportunity to work in a number of hairdressing career paths throughout the world candidate also have the opportunity to travel and work overseas in the same capacity.",
+    //missing photo
+   
+    hastagID: "hair",
+  },
+  {
+    id: 20,
+    name: "Medical Laboratory Technology",
+    heading: "About Medical Laboratory Technology",
+    img1: "https://monarkuni.ac.in/wp-content/uploads/2021/06/SMET-61.jpg",
+    text_1:
+      "The Institute aims to be a leading centre for research in the field of paramedical science. Having completely perceived the significance of specialized instruction of present time, the institute has consistently offered the most obvious opportunity to the understudies to know and develop.",
+    img2: "https://monarkuni.ac.in/wp-content/uploads/2021/06/SMET-57.jpg",
+    text_2:
+      "Faculty of Paramedical & Health Science is established by Monark University in the year 2021 with an aim to impart quality education in the field of Paramedical & Health Science amongst other fields. The institute aims to provide education of the highest standard with the help of state-of-art infrastructure and qualified faculty members.",
+    //missing photo
+   
+    hastagID: "mlt",
+  },
+  {
+    id: 21,
+    name: "Aviation & Management",
+    heading: "About Aviation & Management",
+    img1: "https://monarkuni.ac.in/wp-content/uploads/2021/07/flights-cabin-crew-plane-food-flight-attendant-pilot-1166273.jpg",
+    text_1:
+      "While it does a better job in dealing with the technical details. Hospitality has become an indispensable element, no matter what Industry we are dealing with. Aviation sector is no different; it too requires qualified and skilled professionals, who are capable of taking care of hospitality. Now a day it is the need of aviation sector.",
+    img2: "https://monarkuni.ac.in/wp-content/uploads/2021/07/12c7c30ba7e9a85b2ca11d0963545b29-1536x864.jpg",
+    text_2:
+      "The Aviation sector has been providing numerous job opportunities in the world. ‘The Faculty of Aviation & Management’ at Monark University offers aviation sector oriented course which cater to the needs of the aviation industry. Yes, aptitude of the candidate also plays a huge role. The faculty offers a program that focuses on the smooth running and assistance in management of an airport. If one is keen on improving one’s qualifications, then he/she may go for it. The faculty trains students to take on managerial and administrative posts in an airport",
+    //missing photo
+   
+    hastagID: "aviation",
+  },
+  {
+    id: 22,
+    name: "IT Courses",
+    heading: "About IT Certificate Programs",
+    img1: "https://monarkuni.ac.in/wp-content/uploads/2022/05/lab1-1.jpg",
+    text_1:
+      "While it does a better job in dealing with the technical details. Hospitality has become an indispensable element, no matter what Industry we are dealing with. Aviation sector is no different; it too requires qualified and skilled professionals, who are capable of taking care of hospitality. Now a day it is the need of aviation sector.",
+    img2: "https://monarkuni.ac.in/wp-content/uploads/2021/07/12c7c30ba7e9a85b2ca11d0963545b29-1536x864.jpg",
+    text_2:
+      "At Monark University we offer many Certification Courses in Information & Technology. These courses are open for all with pre-qualification. These type of courses are beneficial for IT & Non-IT persons who are students or employees.",
+    //missing photo
+   
+    hastagID: "it",
   },
 ];
 
