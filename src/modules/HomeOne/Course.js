@@ -137,7 +137,7 @@ export default function Course() {
         </div>
       </div>
       <div className="student-club-btn text-center">
-        <Link href="/">
+        <Link href="/campus#studentclub">
         <button className="mt-5 hover-btn">
           <div className="text-div">
             <small>Know More</small>

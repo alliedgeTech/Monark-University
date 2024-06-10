@@ -100,10 +100,10 @@ export default function Footer(props) {
 							<div className="d-flex flex-column">
 								<h6>Contact detail</h6>
 								<ul>
-									<li><a href="">+91-7970707001</a></li>
-									<li><a href="">+91-2718-247138/215</a></li>
-									<li><a href="">+91-2718-247131</a></li>
-									<li><a href="">info@monarkuni.ac.in</a></li>
+									<li><a href="tel:+91 7970707001">+91-7970707001</a></li>
+									<li><a href="tel:+91 2718-247138/215">+91-2718-247138/215</a></li>
+									<li><a href="tel:+91 2718-247131">+91-2718-247131</a></li>
+									<li><a href="mailto:info@monarkuni.ac.in">info@monarkuni.ac.in</a></li>
 									<li><a href="">At. & Post Vahelal, Naroda-Dahegam Road, Ta. Dascroi, Dist. Ahmedabad-382330</a></li>
 								</ul>
 							</div>
