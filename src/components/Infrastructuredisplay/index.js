@@ -240,10 +240,13 @@ const Infrastructuredisplay = () => {
       </div>
       <div className="container" style={{ marginTop: 150 }} id="ac">
         <div className="row">
-          <div class="it-career-title-box text-center mb-70">
-            <span class="it-section-subtitle">
+          <div class="it-career-title-box  mb-70">
+            <div className="three mb-20">
+            <h1 class="">
               Auditorium & Conference Hall
-            </span>
+            </h1>
+
+            </div>
             <p>
               The University has an enormous Auditorium and Conference hall in
               the campus for various students’ activities, seminars and
@@ -278,10 +281,13 @@ const Infrastructuredisplay = () => {
      
       <div className="container" style={{ marginTop: 150 }} id="ground">
         <div className="row">
-          <div class="it-career-title-box text-center mb-70">
-            <span class="it-section-subtitle">
+          <div class="it-career-title-box  mb-70">
+            <div className="three mb-20">
+            <h1 class="">
               Indoor and Outdoor Sports Ground and Court
-            </span>
+            </h1>
+
+            </div>
             <p>
               The University Campus has brought with it improved infrastructure
               for all sports activities. The students are always encouraged to

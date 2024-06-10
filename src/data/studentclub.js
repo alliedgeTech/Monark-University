@@ -116,7 +116,7 @@ const studentclubdata = [
         id: 5,
         header: "List of Activities",
         content:
-          "<table><tr><th>S.NO</th><th>NAME OF THE ACTIVITY</th><th>SKILL IMPROVEMENT</th></tr><tr><td>1</td><td>Own topic presentation</td><td>Removal of stage fear, hesitancy</td></tr><tr><td>2</td><td>Essay writing</td><td>Thinking, Speaking, writing</td></tr><tr><td>3</td><td>Group discussion</td><td>Listening, Thinking, Speaking</td></tr><tr><td>4</td><td>Debate</td><td>Listening, Thinking, Speaking</td></tr><tr><td>5</td><td>Technical topic presentation</td><td>Thinking, Speaking</td></tr><tr><td>6</td><td>PPT Presentation</td><td>Thinking, Speaking</td></tr><tr><td>7</td><td>Role play</td><td>Thinking, Speaking</td></tr><tr><td>8</td><td>Mock interview</td><td>Listening, Thinking, Speaking</td></tr></table>",
+          "<table className='table table-bordered club-table'><tr><th>S.NO</th><th>NAME OF THE ACTIVITY</th><th>SKILL IMPROVEMENT</th></tr><tr><td>1</td><td>Own topic presentation</td><td>Removal of stage fear, hesitancy</td></tr><tr><td>2</td><td>Essay writing</td><td>Thinking, Speaking, writing</td></tr><tr><td>3</td><td>Group discussion</td><td>Listening, Thinking, Speaking</td></tr><tr><td>4</td><td>Debate</td><td>Listening, Thinking, Speaking</td></tr><tr><td>5</td><td>Technical topic presentation</td><td>Thinking, Speaking</td></tr><tr><td>6</td><td>PPT Presentation</td><td>Thinking, Speaking</td></tr><tr><td>7</td><td>Role play</td><td>Thinking, Speaking</td></tr><tr><td>8</td><td>Mock interview</td><td>Listening, Thinking, Speaking</td></tr></table>",
       },
     ],
   },
@@ -220,7 +220,7 @@ const studentclubdata = [
         id: 2,
         header: "Health Club",
         content:
-          "<table><tr><th>Role</th><th>Name</th><th>Class</th></tr><tr><td>President</td><td>Kuchara Ankita</td><td>3rd Year B.Sc. (N)</td></tr><tr><td>Vice President</td><td>Vankar Vimal</td><td>2nd Year B.Sc. (N)</td></tr><tr><td>Vice President</td><td>Khristi Ronal</td><td>2nd Year B.Sc. (N)</td></tr><tr><td>Yoga Instructor</td><td>Javnika Parikh</td><td>3rd Year G.N.M.</td></tr><tr><td>Yoga Instructor</td><td>Vrutti Patel</td><td>1st Year B.Sc. (N)</td></tr></table>",
+          "<table className='table table-bordered club-table'><tr><th>Role</th><th>Name</th><th>Class</th></tr><tr><td>President</td><td>Kuchara Ankita</td><td>3rd Year B.Sc. (N)</td></tr><tr><td>Vice President</td><td>Vankar Vimal</td><td>2nd Year B.Sc. (N)</td></tr><tr><td>Vice President</td><td>Khristi Ronal</td><td>2nd Year B.Sc. (N)</td></tr><tr><td>Yoga Instructor</td><td>Javnika Parikh</td><td>3rd Year G.N.M.</td></tr><tr><td>Yoga Instructor</td><td>Vrutti Patel</td><td>1st Year B.Sc. (N)</td></tr></table>",
       },
       {
         id: 3,
@@ -232,7 +232,7 @@ const studentclubdata = [
         id: 4,
         header: "Spiritual Club",
         content:
-          "<table><tr><th>Role</th><th>Name</th><th>Class</th></tr><tr><td>President</td><td>Uadhyay Jahnvi</td><td>3rd Year B.Sc. (N)</td></tr><tr><td>Vice President</td><td>Bhunotar Megha</td><td>1st Year G.N.M.</td></tr><tr><td>Member</td><td>Anal Patel</td><td>1st Year G.N.M.</td></tr></table>",
+          "<table className='table table-bordered club-table'><tr><th>Role</th><th>Name</th><th>Class</th></tr><tr><td>President</td><td>Uadhyay Jahnvi</td><td>3rd Year B.Sc. (N)</td></tr><tr><td>Vice President</td><td>Bhunotar Megha</td><td>1st Year G.N.M.</td></tr><tr><td>Member</td><td>Anal Patel</td><td>1st Year G.N.M.</td></tr></table>",
       },
       {
         id: 5,
@@ -264,7 +264,7 @@ const studentclubdata = [
         id: 3,
         header: "Participants",
         content:
-          "<table><tr><td>Devesh</td><td>Zeel</td><td>Priyal</td></tr><tr><td>Pukhraj</td><td>Bhakti</td><td>Yatri</td></tr><tr><td>Sneha</td><td>Pooja</td><td>Dhruvi</td></tr><tr><td>Avni</td><td>Heena</td><td>Dixita</td></tr><tr><td>Dhisha</td><td>Tirth</td><td>Sakshi</td></tr><tr><td>Shruti</td><td>Dhwani</td><td>Jayesh</td></tr><tr><td>Hetvi</td><td>Pinky</td><td>Krisha</td></tr><tr><td>Pankhil</td><td>Archi</td><td>Seema</td></tr></table>",
+          "<table className='table table-bordered club-table'><tr><td>Devesh</td><td>Zeel</td><td>Priyal</td></tr><tr><td>Pukhraj</td><td>Bhakti</td><td>Yatri</td></tr><tr><td>Sneha</td><td>Pooja</td><td>Dhruvi</td></tr><tr><td>Avni</td><td>Heena</td><td>Dixita</td></tr><tr><td>Dhisha</td><td>Tirth</td><td>Sakshi</td></tr><tr><td>Shruti</td><td>Dhwani</td><td>Jayesh</td></tr><tr><td>Hetvi</td><td>Pinky</td><td>Krisha</td></tr><tr><td>Pankhil</td><td>Archi</td><td>Seema</td></tr></table>",
       },
     ],
   },
