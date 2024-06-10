@@ -18,18 +18,18 @@ export default function Footer(props) {
 							<div className="footer-up-links px-4 px-lg-0 d-flex justify-content-between align-items-center h-100">
 								<ul>
 									<li><a href="/">Home</a></li>
-									<li><a href="/"> About MU</a></li>
-									<li><a href="/"> Admission</a></li>
+									<li><a href="/about-us"> About MU</a></li>
+									<li><a href="/services"> Admission</a></li>
 								</ul>
 								<ul>
-									<li><a href="/"> Facaulty</a></li>
-									<li><a href="/"> Academic </a></li>
-									<li><a href="/">Placement </a></li>
+									<li><a href="/faculty"> Facaulty</a></li>
+									<li><a href="/syllabus"> Academic </a></li>
+									<li><a href="/placement">Placement </a></li>
 								</ul>
 								<ul>
-									<li><a href="/">Campus Life</a></li>
-									<li><a href="/"> Infastructure </a></li>
-									<li><a href="/"> Contact Us</a></li>
+									<li><a href="/campus">Campus Life</a></li>
+									<li><a href="/infrastructure"> Infastructure </a></li>
+									<li><a href="/contact"> Contact Us</a></li>
 								</ul>
 							</div>
 						</div>
@@ -75,23 +75,22 @@ export default function Footer(props) {
 								<h6>List of Institutes</h6>
 								<div className="d-flex flex-column flex-lg-row justify-content-around">
 									<ul className='faculty-list-1'>
-										<li><a href="">Faculty of Science</a></li>
-										<li><a href="">Faculty of Nursing</a></li>
-										<li><a href="">Faculty of Nursing</a></li>
-										<li><a href="">Faculty of Law</a></li>
-										<li><a href="">Faculty of Arts</a></li>
-										<li><a href="">Faculty of Education</a></li>
-										<li><a href="">Faculty of Social Work</a></li>
-										<li><a href="">Faculty of Ayurved</a></li>
+										<li><a href="/faculty#science">Faculty of Science</a></li>
+										<li><a href="/faculty#nursing">Faculty of Nursing</a></li>
+										<li><a href="/faculty#law">Faculty of Law</a></li>
+										<li><a href="/faculty#arts">Faculty of Arts</a></li>
+										<li><a href="/faculty#education">Faculty of Education</a></li>
+										<li><a href="/faculty#social_work">Faculty of Social Work</a></li>
+										<li><a href="/faculty#ayurveda">Faculty of Ayurved</a></li>
 									</ul>
 									<ul className='faculty-list-2' >
-										<li><a href="">Faculty of Management</a></li>
-										<li><a href="">Faculty of Commerce</a></li>
-										<li><a href="">Faculty of Engineering & Technology</a></li>
-										<li><a href="">Faculty of Physiotherapy</a></li>
-										<li><a href="">Faculty of Computer Application</a></li>
-										<li><a href="">Faculty of Homeopathy</a></li>
-										<li><a href="">Faculty of Information &  Communication Technology</a></li>
+										<li><a href="/faculty#management">Faculty of Management</a></li>
+										<li><a href="/faculty#commerce">Faculty of Commerce</a></li>
+										<li><a href="/faculty#engineering_Technology">Faculty of Engineering & Technology</a></li>
+										<li><a href="/faculty#physiotherapy">Faculty of Physiotherapy</a></li>
+										<li><a href="/faculty#computer_application">Faculty of Computer Application</a></li>
+										<li><a href="/faculty#homoeopathy">Faculty of Homeopathy</a></li>
+										<li><a href="/faculty#technology">Faculty of Information &  Communication Technology</a></li>
 									</ul>
 								</div>
 							</div>
