@@ -59,19 +59,12 @@ const Campusdisplay = () => {
           <div className="row">
             {campusdata
               .map((campus, index) => (
-                <div key={index} className="col-xl-2 col-lg-2 col-md col-sm ">
-                  <div className="it-gallery-item p-relative">
+                <div key={index} className="col-xl-2 col-lg-2 col-md col-sm p-2">
+                  <div className="it-gallery">
                     <div className="it-gallery-thumb">
                       <img src={campus.img} className="img-fluid" />
                     </div>
-                    <div className="it-gallery-icon">
-                      <button
-                        className="popup-image"
-                        onClick={() => setOpen(true)}
-                      >
-                        <i className="fa-light fa-plus"></i>
-                      </button>
-                    </div>
+                    
                   </div>
                 </div>
               ))
@@ -89,19 +82,12 @@ const Campusdisplay = () => {
           <div className="row">
             {campusdata
               .map((campus, index) => (
-                <div key={index} className="col-xl-3 col-lg-3 col-md col-sm ">
-                  <div className="it-gallery-item p-relative">
+                <div key={index} className="col-xl-3 col-lg-3 col-md col-sm p-2">
+                  <div className="it-gallery">
                     <div className="it-gallery-thumb">
                       <img src={campus.img} className="img-fluid" />
                     </div>
-                    <div className="it-gallery-icon">
-                      <button
-                        className="popup-image"
-                        onClick={() => setOpen(true)}
-                      >
-                        <i className="fa-light fa-plus"></i>
-                      </button>
-                    </div>
+                    
                   </div>
                 </div>
               ))
@@ -120,19 +106,12 @@ const Campusdisplay = () => {
           <div className="row">
             {campusdata
               .map((campus, index) => (
-                <div key={index} className="col-xl-3 col-lg-3 col-md col-sm ">
-                  <div className="it-gallery-item p-relative">
+                <div key={index} className="col-xl-3 col-lg-3 col-md col-sm p-2">
+                  <div className="it-gallery">
                     <div className="it-gallery-thumb">
                       <img src={campus.img} className="img-fluid" />
                     </div>
-                    <div className="it-gallery-icon">
-                      <button
-                        className="popup-image"
-                        onClick={() => setOpen(true)}
-                      >
-                        <i className="fa-light fa-plus"></i>
-                      </button>
-                    </div>
+                    
                   </div>
                 </div>
               ))
@@ -150,19 +129,12 @@ const Campusdisplay = () => {
           <div className="row">
             {campusdata
               .map((campus, index) => (
-                <div key={index} className="col-xl-3 col-lg-3 col-md col-sm ">
-                  <div className="it-gallery-item p-relative">
+                <div key={index} className="col-xl-3 col-lg-3 col-md col-sm p-2">
+                  <div className="it-gallery">
                     <div className="it-gallery-thumb">
                       <img src={campus.img} className="img-fluid" />
                     </div>
-                    <div className="it-gallery-icon">
-                      <button
-                        className="popup-image"
-                        onClick={() => setOpen(true)}
-                      >
-                        <i className="fa-light fa-plus"></i>
-                      </button>
-                    </div>
+
                   </div>
                 </div>
               ))
@@ -180,19 +152,12 @@ const Campusdisplay = () => {
           <div className="row">
             {campusdata
               .map((campus, index) => (
-                <div key={index} className="col-xl-3 col-lg-3 col-md col-sm ">
-                  <div className="it-gallery-item p-relative">
+                <div key={index} className="col-xl-3 col-lg-3 col-md col-sm p-2">
+                  <div className="it-gallery">
                     <div className="it-gallery-thumb">
                       <img src={campus.img} className="img-fluid" />
                     </div>
-                    <div className="it-gallery-icon">
-                      <button
-                        className="popup-image"
-                        onClick={() => setOpen(true)}
-                      >
-                        <i className="fa-light fa-plus"></i>
-                      </button>
-                    </div>
+                    
                   </div>
                 </div>
               ))
@@ -210,19 +175,12 @@ const Campusdisplay = () => {
           <div className="row">
             {campusdata
               .map((campus, index) => (
-                <div key={index} className="col-xl-4 -col-lg-4 col-md col-sm ">
-                  <div className="it-gallery-item p-relative">
+                <div key={index} className="col-xl-4 -col-lg-4 col-md col-sm p-2">
+                  <div className="it-gallery">
                     <div className="it-gallery-thumb">
                       <img src={campus.img} className="img-fluid" />
                     </div>
-                    <div className="it-gallery-icon">
-                      <button
-                        className="popup-image"
-                        onClick={() => setOpen(true)}
-                      >
-                        <i className="fa-light fa-plus"></i>
-                      </button>
-                    </div>
+                    
                   </div>
                 </div>
               ))
@@ -240,19 +198,12 @@ const Campusdisplay = () => {
           <div className="row">
             {campusdata
               .map((campus, index) => (
-                <div key={index} className="col-xl-4 col-lg-4 col-md col-sm ">
-                  <div className="it-gallery-item p-relative">
+                <div key={index} className="col-xl-4 col-lg-4 col-md col-sm p-2">
+                  <div className="it-gallery">
                     <div className="it-gallery-thumb">
                       <img src={campus.img} className="img-fluid" />
                     </div>
-                    <div className="it-gallery-icon">
-                      <button
-                        className="popup-image"
-                        onClick={() => setOpen(true)}
-                      >
-                        <i className="fa-light fa-plus"></i>
-                      </button>
-                    </div>
+                    
                   </div>
                 </div>
               ))
@@ -270,19 +221,12 @@ const Campusdisplay = () => {
           <div className="row">
             {campusdata
               .map((campus, index) => (
-                <div key={index} className="col-xl-3 col-lg-3 col-md col-sm ">
-                  <div className="it-gallery-item p-relative">
+                <div key={index} className="col-xl-3 col-lg-3 col-md col-sm p-2">
+                  <div className="it-gallery">
                     <div className="it-gallery-thumb">
                       <img src={campus.img} className="img-fluid" />
                     </div>
-                    <div className="it-gallery-icon">
-                      <button
-                        className="popup-image"
-                        onClick={() => setOpen(true)}
-                      >
-                        <i className="fa-light fa-plus"></i>
-                      </button>
-                    </div>
+                    
                   </div>
                 </div>
               ))

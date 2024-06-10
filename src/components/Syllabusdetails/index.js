@@ -1,3 +1,4 @@
+
 import React from "react";
 import { useRouter } from "next/router";
 import { Container, Row, Col, Accordion } from "react-bootstrap";
@@ -14,6 +15,7 @@ const Syllabusdetails = () => {
 
   return (
     <div>
+<<<<<<< HEAD
       <Container>
         <div className="mt-100" id="syllabus">
           <h2
@@ -23,6 +25,19 @@ const Syllabusdetails = () => {
             Teaching scheme & Syllabus
           </h2>
           <Accordion defaultActiveKey="0">
+=======
+      <div className="container py-5">
+        <div className="mt-5" id="syllabus">
+          <div className="one">
+          <h1
+            className=""
+          >
+            Teaching scheme & Syllabus
+          </h1>
+            
+          </div>
+          <div className="accordion mt-25" id="accordionExample">
+>>>>>>> a47a09e69d7a4ff3d6885daa138df38f7b94a2b0
             {syllabusdata.map((sl, index) => (
               <Accordion.Item eventKey={index.toString()} key={sl.id}>
                 <Accordion.Header>{sl.branch}</Accordion.Header>

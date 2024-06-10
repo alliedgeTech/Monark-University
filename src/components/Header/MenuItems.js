@@ -500,7 +500,7 @@ export default function MenuItems(props) {
             </ul>
           </li>
           <li className="nav-link has-dropdown">
-            <Link href="campus">Campus Life</Link>
+            <Link href="/campus">Campus Life</Link>
             <ul className="it-submenu submenu">
               <li>
                 <Link href="/campus#artsandculture">Arts & Culture</Link>
@@ -532,7 +532,7 @@ export default function MenuItems(props) {
             </ul>
           </li>
           <li className="nav-link has-dropdown">
-            <Link href="infrastructure">Infrastructure</Link>
+            <Link href="/infrastructure">Infrastructure</Link>
             <ul className="it-submenu submenu">
               <li>
                 <Link href="/infrastructure#lab">Laboratories</Link>

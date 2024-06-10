@@ -38,13 +38,16 @@ const Showsyllabusdetails = () => {
       <Row>
         <Col>
           
-          <Accordion defaultActiveKey="0">
+          <Accordion className="py-5" defaultActiveKey="0">
             {item.tables.map((table, tableIndex) => (
               <Accordion.Item eventKey={tableIndex.toString()} key={tableIndex}>
                 
-                <Accordion.Body>
-                  <h4>{table.title1}</h4>
-                  <h5>{table.title2}</h5>
+                <Accordion.Body className="course-details-credit">
+                  <div className="one mb-5">
+                  <h1>{table.title1}</h1>
+
+                  </div>
+                  <h5 className="my-4">{table.title2}</h5>
                   <h6>{table.title3}</h6>
                   <Table striped bordered hover responsive className="mt-3">
                     <thead>
