@@ -325,6 +325,34 @@ const facultydata = [
       "https://monarkuni.ac.in/wp-content/uploads/2023/08/Ayurveda-5-1024x683.jpg",
     hastagID: "skills",
   },
+  {
+    id: 17,
+    name: "Music & Production",
+    heading: "About Music & Production",
+    img1: "https://monarkuni.ac.in/wp-content/uploads/2021/06/guitar3-1536x1152.jpg",
+    text_1:
+      "“We believe in quality not in quantity.” The exposed atmosphere of Monark University can be of great benefit to the aspiring musician & especially for someone who is little confused with the future prospects. We give not only an excellent and unparalleled music degree but also a real time experience through our little initiatives like Workshops, Super Saturdays, MU Connect, & rehearsals at MU’s Stage-Jam Room. Under MU’s expert guidance we aim to groom our students and shape their creativity. We strive to create world class music professionals.",
+    img2: "https://monarkuni.ac.in/wp-content/uploads/2021/06/photo-1598653222000-6b7b7a552625.jpg",
+    text_2:
+      "The humble start with an aim and motto – “to contribute quality musician to the music industry,” The faculty of music and production is located at Ahmedabad. The courses which we offer is creatively designed keeping the evolving technology in mind, which help the students receive the best education required to prosper in the music industry. Certainly, the sense of individualism is strong at Monark Uni., as we believe in giving personal attention to each and every students & is not limited to the duration of the course.Students of Monark University are frequently engaged with the top artists of the industry and learn all the tricks & bricks from the faculty itself who are professionals in the music industry with years of experience and unparalleled knowledge of the technical know-hows in the industry.",
+    //missing photo
+   
+    hastagID: "music",
+  },
+  {
+    id: 18,
+    name: "Fitness & Nutriton",
+    heading: "About Fitness & Nutriton",
+    img1: "https://monarkuni.ac.in/wp-content/uploads/2021/06/guitar3-1536x1152.jpg",
+    text_1:
+      "“We believe in quality not in quantity.” The exposed atmosphere of Monark University can be of great benefit to the aspiring musician & especially for someone who is little confused with the future prospects. We give not only an excellent and unparalleled music degree but also a real time experience through our little initiatives like Workshops, Super Saturdays, MU Connect, & rehearsals at MU’s Stage-Jam Room. Under MU’s expert guidance we aim to groom our students and shape their creativity. We strive to create world class music professionals.",
+    img2: "https://monarkuni.ac.in/wp-content/uploads/2021/06/photo-1598653222000-6b7b7a552625.jpg",
+    text_2:
+      "The humble start with an aim and motto – “to contribute quality musician to the music industry,” The faculty of music and production is located at Ahmedabad. The courses which we offer is creatively designed keeping the evolving technology in mind, which help the students receive the best education required to prosper in the music industry. Certainly, the sense of individualism is strong at Monark Uni., as we believe in giving personal attention to each and every students & is not limited to the duration of the course.Students of Monark University are frequently engaged with the top artists of the industry and learn all the tricks & bricks from the faculty itself who are professionals in the music industry with years of experience and unparalleled knowledge of the technical know-hows in the industry.",
+    //missing photo
+   
+    hastagID: "music",
+  },
 ];
 
 export default facultydata;
