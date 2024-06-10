@@ -489,7 +489,7 @@ export default function MenuItems(props) {
                 <Link href="/placement#training">Training & Placement Cell</Link>
               </li>
               <li>
-                <Link href="/placement">Placement News</Link>
+                <Link href="/placement#latest-news">Placement News</Link>
               </li>
               <li>
                 <Link href="/placement#placement_record">Placement Records</Link>
