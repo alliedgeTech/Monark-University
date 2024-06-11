@@ -463,7 +463,7 @@ export default function MenuItems(props) {
             <Link href="#">Academic</Link>
             <ul className="it-submenu submenu has-megamenu">
               <li>
-                <Link href="/course">Academic Calender</Link>
+                <Link href="/calander">Academic Calender</Link>
               </li>
               <li>
                 <Link href="/circular">
