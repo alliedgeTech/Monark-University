@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&family=Poppins:wght@400;700&family=Raleway:wght@700&display=swap');
 
 * {
-    scroll-behavior: smooth !important;
+scroll-behavior: initial !important;
     text-decoration: none;
 }
 
@@ -120,6 +120,36 @@ p {
     /* max-width: 255px; */
     background-color: #333;
 }
+.three h4 {
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: 1.5em;
+    padding-bottom: 15px;
+    position: relative;
+    color: #000 !important;
+    font-family: Oswald;
+}
+
+.three h4:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 5px;
+    width: 10%;
+    background-color: #111;
+}
+
+.three h4:after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 2px;
+    height: 1px;
+    width: 40%;
+    /* max-width: 255px; */
+    background-color: #333;
+}
 
 .eight h1 {
     font-family: Raleway;
@@ -161,6 +191,36 @@ p {
 }
 
 .one h1:after {
+    width: 25%;
+    height: 1px;
+    display: block;
+    content: "";
+    position: relative;
+    margin-top: 25px;
+    left: 50%;
+    transform: translate(-50%, 0);
+    background-color: #000;
+}
+.one h4 {
+    position: relative;
+    text-align: center;
+    text-transform: uppercase;
+    padding-bottom: 5px;
+}
+
+.one h4:before {
+    width: 7%;
+    height: 5px;
+    display: block;
+    content: "";
+    position: absolute;
+    bottom: 3px;
+    left: 50%;
+    transform: translate(-50%, 0);
+    background-color: #000;
+}
+
+.one h4:after {
     width: 25%;
     height: 1px;
     display: block;
@@ -496,34 +556,28 @@ p {
 }
 
 @media screen and (max-width:768px) {
-    .student-club-text {
+    /* .student-club-text {
         position: absolute;
         bottom: 5%;
         padding: 0 2vmax;
         opacity: 1 !important;
         transition: all 0.4s;
-    }
+    } */
 }
 
 .student-club-info:hover .student-club-text {
     opacity: 1;
 }
 
-.student-club-text {
-    position: absolute;
-    bottom: 5%;
-    padding: 0 3vmax 0 2vmax;
-    opacity: 0;
-    transition: all 0.4s;
-}
 
+/* 
 .student-club-text h4 {
     color: var(--web-orange);
 }
 
 .student-club-text p {
     color: var(--web-grey-white);
-}
+} */
 
 
 .latest-box {
@@ -1279,4 +1333,33 @@ p {
 }
 .club-table.tbody, td, tfoot, th, thead, tr{
     border-width: 1px !important;
+}
+.nav-tabs{
+    border: none !important;
+}
+.nav-tabs .nav-link.active{
+    background: var(--web-color) !important;
+    border: none !important;
+    border-radius: 12px !important;
+    color: #fff !important;
+}
+.nav-tabs .nav-link:hover{
+    border: none !important;
+    background: var(--web-color) !important;
+    border-radius: 12px !important;
+    color: #fff !important;
+}
+.nav-tabs .nav-link{
+    border: none !important;
+    background: #dadada !important;
+    border-radius: 12px !important;
+    color: #000000 !important;
+    margin: 20px 3px;
+}
+.placement-carousel .item{
+    display: flex !important;;
+    align-items: center !important;
+    justify-content: center !important;;
+    height: 150px !important;
+    width: 150px !important;
 }

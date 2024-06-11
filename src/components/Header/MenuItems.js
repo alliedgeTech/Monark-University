@@ -13,10 +13,9 @@ export default function MenuItems(props) {
       opacity:0,
       stagger:0.1,
     })
-    
-    
-
   },[])
+
+
 
   const { onePage } = props;
 

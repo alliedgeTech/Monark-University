@@ -5,20 +5,19 @@ import Courses from "@/data/courses";
 import dynamic from "next/dynamic";
 import "owl.carousel/dist/assets/owl.carousel.css";
 import "owl.carousel/dist/assets/owl.theme.default.css";
-import carimg1 from "../../../public/img/course/Avinya_Club.png"
-import carimg2 from "../../../public/img/course/go-green.png"
-import carimg3 from "../../../public/img/course/Language_club.png"
-import carimg4 from "../../../public/img/course/Personality_dev_club.png"
-import carimg5 from "../../../public/img/course/sci-gen.png"
-import carimg6 from "../../../public/img/course/Smile_Please_EVent.png"
-import carimg7 from "../../../public/img/course/social_media_club.png"
-import carimg8 from "../../../public/img/course/spiritula_club.png"
-import carimg9 from "../../../public/img/course/Work-From-Home.png"
-import carimg10 from "../../../public/img/course/yoga_club.png"
-import gsap from 'gsap';
-import { ScrollTrigger } from 'gsap/dist/ScrollTrigger';
+import carimg1 from "../../../public/img/course/Avinya_Club.png";
+import carimg2 from "../../../public/img/course/go-green.png";
+import carimg3 from "../../../public/img/course/Language_club.png";
+import carimg4 from "../../../public/img/course/Personality_dev_club.png";
+import carimg5 from "../../../public/img/course/sci-gen.png";
+import carimg6 from "../../../public/img/course/Smile_Please_EVent.png";
+import carimg7 from "../../../public/img/course/social_media_club.png";
+import carimg8 from "../../../public/img/course/spiritula_club.png";
+import carimg9 from "../../../public/img/course/Work-From-Home.png";
+import carimg10 from "../../../public/img/course/yoga_club.png";
+import gsap from "gsap";
+import { ScrollTrigger } from "gsap/dist/ScrollTrigger";
 import { useEffect } from "react";
-
 
 // Import jQuery
 if (typeof window !== "undefined") {
@@ -38,7 +37,7 @@ const Responsive = {
     margin: 5,
   },
   435: {
-	items: 2,
+    items: 2,
     margin: 10,
   },
   768: {
@@ -52,52 +51,237 @@ const Responsive = {
 };
 
 export default function Course() {
-
   useEffect(() => {
     gsap.registerPlugin(ScrollTrigger);
-    let mm=gsap.matchMedia()
+    let mm = gsap.matchMedia();
 
-    mm.add("(min-width:991px)",()=>{
+    mm.add("(min-width:991px)", () => {
       gsap.from(".student-club h1", {
-        opacity:0,
-        scale:0.5,
-        y:100,
+        opacity: 0,
+        scale: 0.5,
+        y: 100,
         scrollTrigger: {
           trigger: ".student-club h1",
-          scroller:'body',
+          scroller: "body",
           start: "top bottom",
-          end: "top 70%",
+          end: "top 90%",
           scrub: 0.2,
         },
       });
 
       gsap.from(".student-club-info", {
-        opacity:0,
-        scale:0.7,
-        x:-100,
-        stagger:0.2,
+        opacity: 0,
+        scale: 0.7,
+        x: -100,
+        stagger: 0.2,
         scrollTrigger: {
           trigger: ".student-club-info",
-          scroller:'body',
+          scroller: "body",
           start: "top bottom",
-          end: "top 60%",
+          end: "top 90%",
           scrub: 0.2,
         },
       });
-  
-      
-      
-    })
-
-
+    });
   }, []);
 
   return (
     <div className="student-club container-fluid py-2  pb-4">
-		<div className="student-club one">
-				<h1 className="mb-0 w-100">Student Clubs</h1>
-			</div>
-    <div className="student-club-main">
+      <div className="student-club one">
+        <h1 className="mb-0 w-100">Student Clubs</h1>
+      </div>
+
+      <div class="student-main p-3">
+        <nav>
+          <div
+            class="nav nav-tabs mb-3 d-flex align-items-center justify-content-evenly"
+            id="nav-tab"
+            role="tablist"
+          >
+            <button
+              class="nav-link active"
+              id="nav-home-tab"
+              data-bs-toggle="tab"
+              data-bs-target="#nav-home"
+              type="button"
+              role="tab"
+              aria-controls="nav-home"
+              aria-selected="true"
+            >
+              <small>Multi Activiti Club</small>
+            </button>
+            <button
+              class="nav-link"
+              id="nav-profile-tab"
+              data-bs-toggle="tab"
+              data-bs-target="#nav-profile"
+              type="button"
+              role="tab"
+              aria-controls="nav-profile"
+              aria-selected="false"
+            >
+              <small>Green Club</small>
+            </button>
+            <button
+              class="nav-link"
+              id="nav-contact-tab"
+              data-bs-toggle="tab"
+              data-bs-target="#nav-contact"
+              type="button"
+              role="tab"
+              aria-controls="nav-contact"
+              aria-selected="false"
+            >
+              <small>Spiritual Club</small>
+            </button>
+            <button
+              class="nav-link"
+              id="nav-develop-tab"
+              data-bs-toggle="tab"
+              data-bs-target="#nav-develop"
+              type="button"
+              role="tab"
+              aria-controls="nav-contact"
+              aria-selected="false"
+            >
+              <small>Personality club</small>
+            </button>
+          </div>
+        </nav>
+        <div class="tab-content mt-25 p-3 rounded bg-light" id="nav-tabContent">
+          <div
+            class="tab-pane fade active show"
+            id="nav-home"
+            role="tabpanel"
+            aria-labelledby="nav-home-tab"
+          >
+            <div className="student-club-info w-100 mt-4 h-100">
+              <div className="row">
+                <div className="col-lg-4 col-md-12 mt-lg-0 mt-4">
+                  <div className="student-club-image">
+                    <img
+                      className="img-fluid"
+                      src="/img/studentclub/multy.jpg"
+                      alt=""
+                    />
+                  </div>
+                </div>
+                <div className="col-lg-8 col-md-12 mt-lg-0 mt-4">
+                  <div className="student-club-text">
+                    <div className="three mb-20">
+                    <h4>Multi Activity club</h4>
+
+                    </div>
+                    <p>
+                    Multi Activity club is to give an opportunity to students to perform their inner talent and participate in number of activities, to build their self-confidence also.This club is organized by the faculty of computer applications of Monark University. In this club students can do so many activities such as acting, dancing, anchoring, writing and many others cultural and curricular activities.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="tab-pane fade"
+            id="nav-profile"
+            role="tabpanel"
+            aria-labelledby="nav-profile-tab"
+          >
+            <div className="student-club-info w-100 mt-4 h-100">
+              <div className="row">
+                <div className="col-lg-4 col-md-12 mt-lg-0 mt-4">
+              <div className="student-club-image">
+                <img
+                  className="img-fluid"
+                  src="/img/studentclub/go_green.jpg"
+                  alt=""
+                />
+              </div>
+                </div>
+                <div className="col-lg-8 col-md-12 mt-lg-0 mt-4">
+              <div className="student-club-text">
+                <div className="three mb-20">
+                <h4>Go Green Clubs</h4>
+
+                </div>
+                <p>
+                Green clubs in colleges will empower students to participate and take up meaningful environmental activities and projects. It is a forum through which students can reach out to influence, engage their parents and neighbourhood communities to promote sound environmental behaviour.
+                </p>
+              </div>
+
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="tab-pane fade"
+            id="nav-contact"
+            role="tabpanel"
+            aria-labelledby="nav-contact-tab"
+          >
+            <div className="student-club-info w-100 col-lg-4 h-100 mt-4">
+              <div className="row">
+                <div className="col-lg-4 col-md-12 mt-lg-0 mt-4">
+              <div className="student-club-image">
+                <img
+                  className="img-fluid"
+                  src="/img/studentclub/spiritual.jpg"
+                  alt=""
+                />
+              </div>
+
+                </div>
+                <div className="col-lg-8 col-md-12 mt-lg-0 mt-4">
+              <div className="student-club-text">
+                <div className="three mb-20">
+                <h4>Spiritual Club</h4>
+
+                </div>
+                <p>
+                Our institution has established health club and spiritual club in the month of May-2022 for the benefit of students, faculties and staff members of our college based on the scope and guidelines given by our C.E.O Shree Monark Goswami sir of Monark University. The club’s vision is to develop sensitivity among students and faculties in general regarding health, yoga, awareness and maintainance of the healthy life style.
+                </p>
+              </div>
+
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="tab-pane fade"
+            id="nav-develop"
+            role="tabpanel"
+            aria-labelledby="nav-develop-tab"
+          >
+            <div className="student-club-info w-100 h-100 mt-4">
+              <div className="row">
+                <div className="col-lg-4 col-md-12 mt-lg-0 mt-4">
+              <div className="student-club-image">
+                <img
+                  className="img-fluid"
+                  src="/img/studentclub/devlop.jpg"
+                  alt=""
+                />
+              </div>
+
+                </div>
+                <div className="col-lg-8 col-md-12 mt-lg-0 mt-4">
+              <div className="student-club-text">
+                <div className="three mb-20">
+                <h4>Personality Develop Club</h4>
+
+                </div>
+                <p>
+                This will help club members to gain personal and professional skills in the area of leadership development. To become better leaders in their families or personal lives as they develop skills to better manage their own lives.
+                </p>
+              </div>
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      {/* <div className="student-club-main">
       <div className="row">
         <div className="student-club-info col-lg-8 mt-lg-0 mt-4 h-100">
           <div className="student-club-image">
@@ -147,7 +331,7 @@ export default function Course() {
 
         </Link>
       </div>
-    </div>
+    </div> */}
     </div>
   );
 }

@@ -66,7 +66,7 @@ export default function Category() {
 
   return (
     <div className="best-university container-fluid">
-      <div className="best-university-heading three">
+      <div className="best-university-heading one">
         <h1>Best University in Ahmedabad</h1>
       </div>
       <div className="row">
@@ -133,7 +133,7 @@ export default function Category() {
             </div>
           </div>
         </div>
-        <div className="col-lg-6 mt-lg-0 mt-4">
+        <div className="col-lg-6 mt-lg-0 mt-4 d-flex align-items-center">
           <div className="best-university-text">
             <p>
               Monark University is one of the leading University in Gujarat,
