@@ -71,16 +71,58 @@ const Calanderdisplay = () => {
     }
   };
   return (
-    <div className="postbox__area pt-120 pb-120">
-      <div className="container" id="calander">
-        <div className="three my-5">
-          <h1 className="it-section-title-3">Academic Calendar</h1>
-        </div>
-        {calander.map((item, index) => (
-          <></>
-        ))}
+    <div className="placement" id="circular">
+    <div id="latest-news" className="Latest-News container py-4">
+      <div className="student-placement-heading d-flex align-items-center justify-content-center mb-20">
+        <div className="line"></div>
+        <h1 className="text-center mb-0 w-100">Academic Calander</h1>
+        <div className="line"></div>
       </div>
+
+      {loading ? (
+        <p>Loading...</p>
+      ) : (
+        <div
+          className="it-funfact-5-area it-funfact-5-bg p-relative fix py-5"
+          data-background="/img/funfact/bg-2.png"
+          id="officersandauthority"
+        >
+          <div className="container">
+            <div className="row"></div>
+            <div className="list-officers-table">
+              <table class="rwd-table">
+                <tbody>
+                  <tr>
+                    
+                    <th>Programs</th>
+                    <th>PDF</th>
+                  </tr>
+                  {calander.map((item, id) => {
+                    return (
+                      <tr>
+                      
+                        <td>{item.programs}</td>
+                        <td>
+                          <a href={item.pdfUrl} target="_blank">
+                            <button className="btn hover-btn">
+                              <div className="text-div">
+                                <small>View</small>
+                                <small>View</small>
+                              </div>
+                            </button>
+                          </a>
+                        </td>
+                      </tr>
+                    );
+                  })}
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      )}
     </div>
+  </div>
   );
 };
 

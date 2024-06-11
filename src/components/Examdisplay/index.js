@@ -103,8 +103,13 @@ const Examdisplay = () => {
                           <td>{item.uploadDate}</td>
                           <td>{item.title}</td>
                           <td>
-                            <a href={item.documentUrl} target="_blank">
-                              <button>Go to Example</button>
+                          <a href={item.documentUrl} target="_blank">
+                              <button className="btn hover-btn">
+                                <div className="text-div">
+                                  <small>Download</small>
+                                  <small>Download</small>
+                                </div>
+                              </button>
                             </a>
                           </td>
                         </tr>

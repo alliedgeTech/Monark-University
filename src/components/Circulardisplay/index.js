@@ -104,7 +104,12 @@ const index = () => {
                           <td>{item.name}</td>
                           <td>
                             <a href={item.documentUrl} target="_blank">
-                              <button>Go to Example</button>
+                              <button className="btn hover-btn">
+                                <div className="text-div">
+                                  <small>Download</small>
+                                  <small>Download</small>
+                                </div>
+                              </button>
                             </a>
                           </td>
                         </tr>
