@@ -4,7 +4,7 @@ import Newsletter from "@/components/Newsletter"
 import ScrollTop from "@/components/ScrollTop"
 import Calanderdisplay from "@/components/Calanderdisplay"
 
-export default function Academiccmodules() {
+export default function CalanderModules() {
 	return (
 		<main>
 			<BreadCrumbs

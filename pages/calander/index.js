@@ -4,16 +4,16 @@ import HeaderTwo from '@/components/Header/HeaderTwo';
 import Preloader from '@/components/Preloader';	
 import dynamic from 'next/dynamic'
  
-const AcademiccModules = dynamic(() => import('@/modules/Academiccalander'), {
+const CalanderModules = dynamic(() => import('@/modules/Calander'), {
   loading: () => <Preloader />,
 });
 
-export default function Academicc() {
+export default function Calander() {
 	return (
 		<main>
 			<HeaderTwo />
 
-			<AcademiccModules/>
+			<CalanderModules/>
 
 			<Footer />
 		</main>
