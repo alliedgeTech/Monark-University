@@ -1114,6 +1114,7 @@ p {
 }
 
 .it-career-item {
+    padding: 30px !important;
     background: var(--web-color) !important;
 }
 
@@ -1190,15 +1191,15 @@ p {
 
 .about-1 {
     background: var(--web-whit);
-    padding: 60px 40px !important;
-    border-radius: 45px;
+    padding: 25px !important;
+    border-radius: 25px;
     box-shadow: 0px 10px 20px #00000029;
 }
 
 .about-2 {
     background: var(--web-white);
-    padding: 60px 0 !important;
-    border-radius: 45px;
+    padding: 25px !important;
+    border-radius: 25px;
     box-shadow: 0px 10px 20px #00000029;
 }
 

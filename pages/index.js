@@ -10,6 +10,7 @@ const HomeOneModules = dynamic(() => import('@/modules/HomeOne'), {
 
 export default function Home() {
 
+
 	return (
 		<main>
 			<Header />

@@ -177,7 +177,7 @@ export default function About() {
 
   return (
     <div id="historicalbackground">
-      <div className="it-choose-area p-relative pt-100">
+      <div className="it-choose-area p-relative pt-15">
         <div className="it-choose-shape-4 d-none d-md-block"></div>
         <div className="container">
           
@@ -224,7 +224,7 @@ export default function About() {
       {/* Years and trust start*/}
       <div>
         <div class="container">
-          <div className="our-history py-3">
+          <div className="our-history pt-2">
             <OwlCarousel
               className="owl-theme history-carousel"
               loop={true}
@@ -413,8 +413,8 @@ export default function About() {
 
           {/* vision and mission start*/}
 
-          <div id="visionandmission" className="mt-30">
-            <div class="it-career-area it-career-bg p-relative py-4">
+          <div id="visionandmission" className="mt-5">
+            <div class="it-career-area it-career-bg p-relative py-2">
               <div class="it-career-shape-2 d-none d-xl-block"></div>
               <div class="it-career-shape-3 d-none d-xl-block"></div>
 
@@ -422,7 +422,7 @@ export default function About() {
               <div class="container">
                 <div class="row">
                   <div class="col-xl-12">
-                    <div class="it-career-title-box three mb-70">
+                    <div class="it-career-title-box three mb-30">
                       <h1 class="it-section-title discover-heading">
                         Discover your gain
                       </h1>
@@ -641,17 +641,19 @@ export default function About() {
                   {/*Approvals & Recognitions starts*/}
                   <div id="recognitionandapproval">
                     <div
-                      className="it-funfact-5-area it-funfact-5-bg p-relative fix pt-100 pb-60"
+                      className="it-funfact-5-area it-funfact-5-bg p-relative fix pt-35 pb-30"
                       data-background="/img/funfact/bg-2.png"
                       layout="fill"
                       objectFit="cover"
                     >
+                      <div className="one mb-25">
                       <h4
                         className="it-section-title-5"
-                        style={{ marginBottom: "100px", textAlign: "center" }}
                       >
                         Approvals & Recognitions
                       </h4>
+
+                      </div>
 
                       <div className="container">
                         <div className="row">

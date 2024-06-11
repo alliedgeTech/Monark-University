@@ -1,19 +1,29 @@
 import Image from "next/image";
 import Link from "next/link";
 import { gsap } from 'gsap';
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
+import Preloader from "../Preloader";
 
 export default function MenuItems(props) {
 
-  useEffect(()=>{
-    
-    let tl=gsap.timeline()
-    tl.from('.nav-link',{
-      y:'-50',
-      opacity:0,
-      stagger:0.1,
-    })
-  },[])
+  const [showPreloader, setShowPreloader] = useState(false);
+
+  useEffect(() => {
+    let tl = gsap.timeline();
+    tl.from('.nav-link', {
+      y: '-50',
+      opacity: 0,
+      stagger: 0.1,
+    });
+  }, []);
+
+  const handleNavigation = (url) => {
+    setShowPreloader(true);
+    setTimeout(() => {
+      setShowPreloader(false);
+      window.location.href = url;
+    }, 1000);
+  };
 
 
 
@@ -555,6 +565,7 @@ export default function MenuItems(props) {
           </li>
         </ul>
       )}
+      {showPreloader && <Preloader />}
     </>
   );
 }

@@ -59,7 +59,7 @@ export default function ServiceDetailsArea() {
         <div className={styles.detailsTopContent}>
           <Row>
             <Col className="col-left">
-              <div className="phd-div py-4 px-2 text-center mb-50">
+              <div className="phd-div p-3 text-center mb-30">
                 <h4 className={styles.detailsTitle}>
                   Ordinance Governing the Award of Doctor of Philosophy (Ph.D.)
                   Program, 2021

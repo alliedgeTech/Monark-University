@@ -38,9 +38,9 @@ const Responsive = {
 export default function Team() {
   return (
     <>
-      <div id="leadership" className="leadrship py-5">
-        <div className="it-team-3-area leader-main p-relative py-5">
-          <div className="container about-2 p-5">
+      <div id="leadership" className="leadrship py-3">
+        <div className="it-team-3-area leader-main p-relative py-4">
+          <div className="container about-2 p-4">
             <div className="row">
               <div className="col-xl-12">
                 <div className="it-event-title-box three pb-40">
@@ -75,8 +75,8 @@ export default function Team() {
             </div>
           </div>
         </div>
-        <div className="it-team-3-area dean-main p-relative py-5">
-          <div className="container about-2 p-5">
+        <div className="it-team-3-area dean-main p-relative py-4">
+          <div className="container about-2 p-4">
             <div className="row">
               <div className="col-xl-12">
                 <div className="it-event-title-box three  pb-30">
@@ -113,7 +113,7 @@ export default function Team() {
             <div className="row"></div>
           </div>
         </div>
-        <div className="it-funfact-5-area it-funfact-5-bg p-relative fix py-5" data-background="/img/funfact/bg-2.png" id="officersandauthority">
+        <div className="it-funfact-5-area it-funfact-5-bg p-relative fix py-3" data-background="/img/funfact/bg-2.png" id="officersandauthority">
           <div className="container">
             <div className="row">
               <div className="col-xl-12">
