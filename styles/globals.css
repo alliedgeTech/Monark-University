@@ -357,11 +357,12 @@ p {
 }
 
 .hero-section {
-    margin-top: 75px;
     z-index: 1;
     position: relative;
 }
-
+.it-header-transparent{
+    background: #fff;
+}
 .hero-img {
     position: relative;
     overflow: hidden;
