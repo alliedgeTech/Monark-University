@@ -30,10 +30,10 @@ export default function Banner() {
 	return (
 		<div className='hero-section'>
 			<div className="hero-img">
-				<video className='w-100' muted autoPlay src="/img/hero/monark_video.mp4" />
+				<video className='w-100' muted loop autoPlay src="/img/hero/monark_video.mp4" />
 				<div className="hero-text ">
 					<h1 className='hero-text-animation' data-text="MONARK UNIVERSITY">MONARK UNIVERSITY</h1>
-					<p className='text-center'>We remain steadfastly acknowledged as a preeminent global management institution, continually pushing the boundaries of management research, leadership, and education.</p>
+					{/* <p className='text-center'>We remain steadfastly acknowledged as a preeminent global management institution, continually pushing the boundaries of management research, leadership, and education.</p> */}
 				</div>
 			</div>
 		</div>
