@@ -517,7 +517,7 @@ export default function About() {
                         <div className="row">
                           <div className="col-xl-6 col-lg-6">
                             <div className="it-sv-details-top-thumb">
-                              <Image src={blankm} className="img-fluid" />
+                              <img src='https://monarkuni.ac.in/wp-content/uploads/2021/06/SMET-175-Copy.jpg' className="img-fluid" />
                             </div>
                           </div>
                           <div className="col-xl-6 col-lg-6">
@@ -561,7 +561,7 @@ export default function About() {
                           <div className="row">
                             <div className="col-xl-6 col-lg-6">
                               <div className="it-sv-details-top-thumb">
-                                <Image src={sb} className="img-fluid" />
+                                <img src='https://monarkuni.ac.in/wp-content/uploads/2021/07/SMET-163.jpg' className="img-fluid" />
                               </div>
                             </div>
                             <div className="col-xl-6 col-lg-6">
@@ -605,7 +605,7 @@ export default function About() {
                             <div className="row">
                               <div className="col-xl-6 col-lg-6 ">
                                 <div className="it-sv-details-top-thumb">
-                                  <Image src={hs} className="img-fluid" />
+                                  <img src='https://monarkuni.ac.in/wp-content/uploads/2021/06/SMET-218-Copy.jpg' className="img-fluid" />
                                 </div>
                               </div>
                               <div className="col-xl-6 col-lg-6">
