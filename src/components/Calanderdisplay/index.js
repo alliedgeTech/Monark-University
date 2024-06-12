@@ -61,7 +61,8 @@ const Calanderdisplay = () => {
     try {
       const result = await CalanderAPI({
         method: "GET",
-        endpoint: "https://mu-l50w.onrender.com/academic-calendars",
+        endpoint:
+          "https://monarkuniversitybacked.onrender.com/academic-calendars",
       });
       setCalander(result);
       setLoading(false);
@@ -72,58 +73,58 @@ const Calanderdisplay = () => {
   };
   return (
     <div className="placement" id="circular">
-    <div id="latest-news" className="Latest-News container py-4">
-      <div className="student-placement-heading d-flex align-items-center justify-content-center mb-20">
-        <div className="one">
-        <h1 className="text-center mb-0 w-100">Academic Calander</h1>
-
-        </div>
-      </div>
-
-      {loading ? (
-        <p>Loading...</p>
-      ) : (
-        <div
-          className="it-funfact-5-area it-funfact-5-bg p-relative fix py-5"
-          data-background="/img/funfact/bg-2.png"
-          id="officersandauthority"
-        >
-          <div className="container">
-            <div className="row"></div>
-            <div className="list-officers-table">
-              <table class="rwd-table">
-                <tbody>
-                  <tr>
-                    
-                    <th>Programs</th>
-                    <th>PDF</th>
-                  </tr>
-                  {calander.map((item, id) => {
-                    return (
-                      <tr>
-                      
-                        <td>{item.programs}</td>
-                        <td>
-                          <a href={item.pdfUrl} target="_blank">
-                            <button className="btn hover-btn">
-                              <div className="text-div">
-                                <small>View</small>
-                                <small>View</small>
-                              </div>
-                            </button>
-                          </a>
-                        </td>
-                      </tr>
-                    );
-                  })}
-                </tbody>
-              </table>
-            </div>
+      <div id="latest-news" className="Latest-News container py-4">
+        <div className="student-placement-heading d-flex align-items-center justify-content-center mb-20">
+          <div className="one">
+            <h1 className="text-center mb-0 w-100">Academic Calander</h1>
           </div>
         </div>
-      )}
+
+        {loading ? (
+          <p>Loading...</p>
+        ) : (
+          <div
+            className="it-funfact-5-area it-funfact-5-bg p-relative fix py-5"
+            data-background="/img/funfact/bg-2.png"
+            id="officersandauthority"
+          >
+            <div className="container">
+              <div className="row"></div>
+              <div className="list-officers-table">
+                <table class="rwd-table">
+                  <tbody>
+                    <tr>
+                      <th>Programs</th>
+                      <th>Branch</th>
+
+                      <th>PDF</th>
+                    </tr>
+                    {calander.map((item, id) => {
+                      return (
+                        <tr>
+                          <td>{item.programs}</td>
+                          <td>{item.Branch}</td>
+                          <td>
+                            <a href={item.pdfUrl} target="_blank">
+                              <button className="btn hover-btn">
+                                <div className="text-div">
+                                  <small>View</small>
+                                  <small>View</small>
+                                </div>
+                              </button>
+                            </a>
+                          </td>
+                        </tr>
+                      );
+                    })}
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+        )}
+      </div>
     </div>
-  </div>
   );
 };
 
