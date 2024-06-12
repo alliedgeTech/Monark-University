@@ -3,7 +3,7 @@ import axios from "axios";
 /**
  * Add Base URL
  */
-const API_BASE_URL = process.env.yyREACT_APP_API_BASE_URL || "https://mu-l50w.onrender.com";
+const API_BASE_URL = process.env.yyREACT_APP_API_BASE_URL || "https://monarkuniversitybacked.onrender.com";
 
 /**
  * Function to make API requests using Axios
