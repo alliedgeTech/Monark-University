@@ -3,10 +3,6 @@ import Image from "next/image";
 import Link from "next/link";
 import Services from "@/data/services";
 import { useEffect } from "react";
-import best1 from "../../../public/img/category/best-2.jpg";
-import best2 from "../../../public/img/category/best-3.jpg";
-import best3 from "../../../public/img/category/best-7.jpg";
-import best4 from "../../../public/img/category/best-4.jpg";
 import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/dist/ScrollTrigger';
 
@@ -66,12 +62,10 @@ export default function Category() {
 
   return (
     <div className="best-university container-fluid">
-      <div className="best-university-heading one">
-        <h1>Best University in Ahmedabad</h1>
-      </div>
+      
       <div className="row">
-        <div className="col-lg-6">
-          <div className="best-carousel">
+        <div className="col-lg-5">
+          {/* <div className="best-carousel">
             <div
               id="carouselExampleFade"
               className="carousel slide carousel-fade"
@@ -131,11 +125,29 @@ export default function Category() {
                 <span className="visually-hidden">Next</span>
               </button>
             </div>
+          </div> */}
+          <div className="row p-relative">
+            <div className="shape-img">
+                <img className="img-fluid" src="/img/choose/shape-1-3.png" alt="" />
+            </div>
+            <div className="col">
+              <div className="img-box">
+                <img className="img-fluid" src="/img/category/best-1.jpg" alt="" />
+              </div>
+            </div>
+            <div className="col">
+              <div className="img-box img-box-2">
+                <img className="img-fluid" src="/img/category/best-2.jpg" alt="" />
+              </div>
+            </div>
           </div>
         </div>
-        <div className="col-lg-6 mt-lg-0 mt-4 d-flex align-items-center">
+        <div className="col-lg-7">
+        <div className="best-university-heading three mb-3">
+        <h1>Best University in Ahmedabad</h1>
+      </div>
           <div className="best-university-text">
-            <p>
+            <p className="mb-2">
               Monark University is one of the leading University in Gujarat,
               which provides Quality Education to the aspirants. Various study
               options available at Monark University and required Infrastructure
@@ -145,9 +157,7 @@ export default function Category() {
             <p>
               Monark University is committed to engaging with the key issues of
               our natural and social worlds through outstanding teaching,
-              research, and scholarship. Monark University will provide a
-              vibrant and supportive intellectual environment that attracts and
-              connects people from all over the world.
+              research, and scholarship.
             </p>
             {/* <div className="shopcategory-loadmore">
             <Link href="/about-us">
@@ -155,11 +165,19 @@ export default function Category() {
         </Link>
         </div> */}
         <Link  href="/about-us">
-        <button className="btn hover-btn">
+        {/* <button className="btn hover-btn">
           <div className="text-div">
           <small>More details</small>
           <small>More details</small>
             
+          </div>
+        </button> */}
+        <button className="circle-btn d-flex align-items-center justify-content-between px-3">
+          <div className="btn-text">
+            More Details
+          </div>
+          <div className="btn-icon d-flex align-items-center justify-content-center">
+          <i class="fa-solid fa-arrow-right"></i>
           </div>
         </button>
         </Link>

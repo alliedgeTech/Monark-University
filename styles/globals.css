@@ -487,9 +487,7 @@ p {
     overflow: hidden;
 }
 
-.best-university-heading {
-    padding-bottom: 3vmax;
-}
+
 
 .best-university-heading h1 {
     font-size: 4vw;
@@ -1314,7 +1312,7 @@ p {
     opacity: 1;
 }
 .news-hover-btn{
-    background: #796fd6 !important;
+    background: var(--web-orange) !important;
     border-radius: 20px;
     position: absolute;
     top: 70%;
@@ -1420,4 +1418,48 @@ p {
 }
 .student-placement-heading h1{
     color: #000080 !important;
+}
+.best-university .img-box{
+    border-radius: 100px;
+    overflow: hidden;
+    box-shadow: 0 3px 6px #636363;
+}
+.best-university .img-box-2{
+    margin-top:60px ;
+}
+.best-university .shape-img{
+    position: absolute;
+    top: 0;
+    left: 40%;
+    z-index: -1;
+}
+.circle-btn{
+    background: #f5d2b2;
+    height: 60px;
+    width: 200px;
+    border-radius: 30px;
+    transition: all 0.5s;
+}
+.circle-btn:hover{
+    box-shadow: 0 2px 4px #acacac;
+    }
+.circle-btn:hover .btn-icon{
+    box-shadow: 0 2px 2px #c5c5c5;
+}
+.circle-btn:hover .btn-icon i{
+    transform: rotate(-45deg);
+}
+.circle-btn .btn-text{
+    color: var(--web-color);
+    font-weight: 700;
+}
+.circle-btn .btn-icon{
+    background: #b5eca0;
+    height: 40px;
+    width: 40px;
+   border-radius: 50%;
+   transition: all 0.5s ;
+}
+.circle-btn .btn-icon i{
+    transition: all 0.5s;
 }

@@ -124,7 +124,7 @@ export default function About() {
                     responsive={Responsive}
                     responsiveRefreshRate={0}
               autoplay={true}
-              autoplayTimeout={1000}
+              autoplayTimeout={500}
                   >
                     <div className="item">
                       <div className="img-box">
