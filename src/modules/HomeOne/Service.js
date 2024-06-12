@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-
+import syllabusdata from "@/data/syllabus";
 export default function Service() {
   return (
     <>
@@ -75,38 +75,53 @@ export default function Service() {
               role="tabpanel"
               aria-labelledby="after_10-tab"
             >
-				<div className="course-div">
-              <div className="course-heading">
-				<h4>Diploma Engineering</h4>
-			  </div>
-			  <ul className="course-links">
-				<li>
-					<Link href="/services/service?id=1" >Diploma In Automobile Engineering</Link>
-				</li>
-				<li>
-					<Link href="/services/service?id=2" >Diploma In Civil Engineering</Link>
-				</li>
-				<li>
-					<Link href="/services/service?id=3" >Diploma In Computer Engineering</Link>
-				</li>
-				<li>
-					<Link href="/services/service?id=4" >Diploma In Electrical Engineering</Link>
-				</li>
-				<li>
-					<Link href="/services/service?id=5" >Diploma In Electronics And Communications Engineering</Link>
-				</li>
-				<li>
-					<Link href="/services/service?id=6" >Diploma In Information Technology Engineering</Link>
-				</li>
-				<li>
-					<Link href="/services/service?id=7" >Diploma In Mechanical Engineering</Link>
-				</li>
-				<li>
-					<Link href="/services/service?id=8" >Medical LaboratoryTechnology -Assistant(MLT-Assistant)</Link>
-				</li>
-			  </ul>
-
-				</div>
+              <div className="course-div">
+                <div className="course-heading">
+                  <h4>Diploma Engineering</h4>
+                </div>
+                <ul className="course-links">
+                  <li>
+                    <Link href="/services/service?id=1">
+                      Diploma In Automobile Engineering
+                    </Link>
+                  </li>
+                  <li>
+                    <Link href="/services/service?id=2">
+                      Diploma In Civil Engineering
+                    </Link>
+                  </li>
+                  <li>
+                    <Link href="/services/service?id=3">
+                      Diploma In Computer Engineering
+                    </Link>
+                  </li>
+                  <li>
+                    <Link href="/services/service?id=4">
+                      Diploma In Electrical Engineering
+                    </Link>
+                  </li>
+                  <li>
+                    <Link href="/services/service?id=5">
+                      Diploma In Electronics And Communications Engineering
+                    </Link>
+                  </li>
+                  <li>
+                    <Link href="/services/service?id=6">
+                      Diploma In Information Technology Engineering
+                    </Link>
+                  </li>
+                  <li>
+                    <Link href="/services/service?id=7">
+                      Diploma In Mechanical Engineering
+                    </Link>
+                  </li>
+                  <li>
+                    <Link href="/services/service?id=8">
+                      Medical LaboratoryTechnology -Assistant(MLT-Assistant)
+                    </Link>
+                  </li>
+                </ul>
+              </div>
             </div>
             <div
               class="tab-pane fade"
@@ -115,36 +130,33 @@ export default function Service() {
               aria-labelledby="after_12-tab"
             >
               <div className="course-div">
-				<div className="course-heading">
-					<h4>Bachelor Of Engineering (B.E.)</h4>
-				</div>
-				<ul className="course-links">
-				<li>
-					<Link href="/services/service?id=1" >Diploma In Automobile Engineering</Link>
-				</li>
-				<li>
-					<Link href="/services/service?id=2" >Diploma In Civil Engineering</Link>
-				</li>
-				<li>
-					<Link href="/services/service?id=3" >Diploma In Computer Engineering</Link>
-				</li>
-				<li>
-					<Link href="/services/service?id=4" >Diploma In Electrical Engineering</Link>
-				</li>
-				<li>
-					<Link href="/services/service?id=5" >Diploma In Electronics And Communications Engineering</Link>
-				</li>
-				<li>
-					<Link href="/services/service?id=6" >Diploma In Information Technology Engineering</Link>
-				</li>
-				<li>
-					<Link href="/services/service?id=7" >Diploma In Mechanical Engineering</Link>
-				</li>
-				<li>
-					<Link href="/services/service?id=8" >Medical LaboratoryTechnology -Assistant(MLT-Assistant)</Link>
-				</li>
-			  </ul>
-			  </div>
+                <div className="course-heading">
+                  <h4>Bachelor Of Engineering (B.E.)</h4>
+                </div>
+
+                {syllabusdata.map((sl, index) => (
+                  <div key={sl.id}>
+                    {sl.subbranch.map((sub) => (
+                      <div key={sub.id}>
+                       
+                       <div className="course-heading">
+                  <h4>{sub.name}</h4>
+                </div>
+                      
+                        {sub.sub.map((subsub) => (
+                          <div key={subsub.id}>
+                            <a
+                              href={`/showsyllabus?id=${sl.id}&branchId=${sub.id}&subId=${subsub.id}`}
+                            >
+                              {subsub.name}
+                            </a>
+                          </div>
+                        ))}
+                      </div>
+                    ))}
+                  </div>
+                ))}
+              </div>
             </div>
             <div
               class="tab-pane fade"
