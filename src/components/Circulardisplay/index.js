@@ -71,19 +71,19 @@ const index = () => {
     }
   };
   return (
-    <div className="placement" id="circular">
-      <div id="latest-news" className="Latest-News container py-4">
+    <div className="placement mt-4" id="circular">
+      <div id="latest-news" className="Latest-News container py-3">
         <div className="student-placement-heading d-flex align-items-center justify-content-center mb-20">
-          <div className="line"></div>
-          <h1 className="text-center mb-0 w-100">Circular</h1>
-          <div className="line"></div>
+          <div className="one">
+            <h1 className=" mb-0">Circular</h1>
+          </div>
         </div>
 
         {loading ? (
           <p>Loading...</p>
         ) : (
           <div
-            className="it-funfact-5-area it-funfact-5-bg p-relative fix py-5"
+            className="it-funfact-5-area it-funfact-5-bg p-relative fix py-3"
             data-background="/img/funfact/bg-2.png"
             id="officersandauthority"
           >

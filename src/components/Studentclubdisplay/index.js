@@ -7,17 +7,17 @@ import { Container, Row, Col, Table, Accordion } from "react-bootstrap";
 
 export default function Studentclub() {
   return (
-    <div className="postbox__area pt-120 pb-120" >
+    <div className="postbox__area pt-20 pb-20" >
       <div className="container" id="studentclub">
       {studentclubdata.map((std, index) => (
         <>
-        <div className="three my-5">
+        <div className="three my-3">
               <h1 className="it-section-title-3">{std.club}</h1>
 
         </div>
           <div className="row">
-          <div className="h-100 col-xl-6 col-lg-6">
-            <div className="postbox__details-wrapper">
+          <div className="col-xl-6 col-lg-6">
+            <div className="postbox__details-wrapper mb-lg-0 mb-10">
               
                 <div key={index}>
                   
@@ -36,9 +36,9 @@ export default function Studentclub() {
               
             </div>
           </div>
-          <div className="h-100 col-xl-6 col-lg-6">
+          <div className="col-xl-6 col-lg-6">
           <Container>
-      <div className="mt-100">
+      <div className="">
         <Accordion>
           
             <div key={std.id}>

@@ -18,9 +18,9 @@ export default function OnepageHomeOneModules() {
 			<Banner />
 			<Category />
 			<About />
+			<Service />
 			<Course />
 			<Video />
-			<Service />
 			<Funfact />
 			<Testimonial />
 			<Team />

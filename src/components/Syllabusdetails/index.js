@@ -15,13 +15,7 @@ const Syllabusdetails = () => {
   return (
     <div>
       <Container>
-        <div className="mt-100" id="syllabus">
-          <h2
-            className="it-section-title-3"
-            style={{ textAlign: "center", marginBottom: 50 }}
-          >
-            Teaching scheme & Syllabus
-          </h2>
+        <div id="syllabus">
           <Accordion defaultActiveKey="0">
             <div className="container py-5">
               <div className="mt-5" id="syllabus">

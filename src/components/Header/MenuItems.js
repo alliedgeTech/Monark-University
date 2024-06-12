@@ -469,8 +469,8 @@ export default function MenuItems(props) {
             </ul>
           </li>
           <li className="nav-link has-dropdown">
-            <Link href="#">Academic</Link>
-            <ul className="it-submenu submenu has-megamenu">
+            <Link href="/calander">Academic</Link>
+            <ul className="it-submenu submenu">
               <li>
                 <Link href="/calander">Academic Calender</Link>
               </li>

@@ -89,6 +89,11 @@ p {
         line-height: 22px !important;
     }
 }
+.it-header-2-main-menu ul li > .submenu.has-megamenu {
+    left: -350px !important;
+    width: 700px !important;
+    padding-left: 25px !important;
+  }
 
 .three h1 {
     font-weight: 500;
@@ -1000,6 +1005,11 @@ p {
 .it-feature-3-item {
     background: var(--web-grey-white) !important;
     border-radius: 8px !important;
+    transition: all 0.5s ease-in-out !important;
+    }
+    .it-category-icon span{
+    transition: all 0.5s ease-in-out !important;
+
 }
 
 .it-category-item:hover {
@@ -1055,19 +1065,18 @@ p {
 }
 
 .even {
-    background: var(--web-color) !important;
+    background: #f2f2f2 !important;
     border-bottom-left-radius: 8vmax;
     border-bottom-right-radius: 8vmax;
-    box-shadow: 0 0 10px var(--web-color) !important;
-    box-shadow: 0 0 10px #000 !important;
+    box-shadow: 0 0 10px #fff !important;
 }
 
 .even h1 {
-    color: var(--web-white) !important;
+    /* color: var(--web-white) !important; */
 }
 
 .even p {
-    color: var(--web-white) !important;
+    /* color: var(--web-white) !important; */
 }
 
 .history-card {
@@ -1364,4 +1373,44 @@ p {
     justify-content: center !important;;
     height: 150px !important;
     width: 150px !important;
+}
+.it-category-icon span::after{
+    border: none !important;
+}
+.it-header-2-main-menu ul li > .submenu{
+    padding: 20px !important;
+}
+.it-choose-left{
+    margin-bottom: 0 !important;
+}
+@media screen and (max-width:768px) {
+    .it-funfact-5-item {
+        padding: 20px 4px !important;
+        border-radius: 5px !important;
+        background-color: var(--it-common-white);
+    }
+    .it-funfact-5-number span {
+        font-size: 20px !important;
+        font-weight: 700;
+        margin-bottom: 0;
+        text-transform: capitalize;
+    }
+    .it-funfact-5-icon {
+        height: 40px !important;
+        width: 40px !important;
+        border-radius: 50%;
+        margin: 0 auto;
+        position: relative;
+    }
+    .it-funfact-5-content span {
+        font-size: 12px !important;
+        font-weight: 500;
+        text-transform: capitalize;
+        color: #4D5756;
+    }
+    
+}
+.course-div{
+    height: 200px;
+    overflow-y: scroll;
 }

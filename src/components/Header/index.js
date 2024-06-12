@@ -60,7 +60,7 @@ export default function Header(props) {
                         </Link>
                       </div>
                     </div>
-                    <div className=" d-none d-xl-block">
+                    <div className=" d-none d-xl-block ms-auto">
                       <div className="it-header-2-main-menu w-100">
                         <nav className="it-menu-content">
                           <MenuItems onePage={menuFormat} />

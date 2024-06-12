@@ -42,13 +42,13 @@ const Campusdisplay = () => {
       
       <div
         id="it-gallery"
-        className="it-gallery-area p-relative grey-bg-2 pt-120 pb-120"
+        className="it-gallery-area p-relative grey-bg-2 pt-20 pb-20"
       >
         
         <div className="container bg-white rounded p-3" id="artsandculture">
           <div className="row">
             <div className="col-xl-12">
-              <div className="it-gallery-title-box pb-70">
+              <div className="it-gallery-title-box pb-20">
                 <div className="three">
                 <h1 className="it-section-title-3">Arts and Gallery</h1>
 
@@ -74,7 +74,7 @@ const Campusdisplay = () => {
         <div className="container" id="campusevent">
           <div className="row">
             <div className="col-xl-12">
-              <div className="it-gallery-title-box three pb-70">
+              <div className="it-gallery-title-box three pb-20">
                 <h1 className="it-section-title-3">Campus Life</h1>
               </div>
             </div>
@@ -97,7 +97,7 @@ const Campusdisplay = () => {
         <div className="container bg-white rounded p-3" id="nss">
           <div className="row">
             <div className="col-xl-12">
-              <div className="it-gallery-title-box three pb-70">
+              <div className="it-gallery-title-box three pb-20">
 
                 <h1 className="it-section-title-3">NSS</h1>
               </div>
@@ -121,7 +121,7 @@ const Campusdisplay = () => {
         <div className="container" id="ncc">
           <div className="row">
             <div className="col-xl-12">
-              <div className="it-gallery-title-box three pb-70">
+              <div className="it-gallery-title-box three pb-20">
                 <h1 className="it-section-title-3">NCC</h1>
               </div>
             </div>
@@ -144,7 +144,7 @@ const Campusdisplay = () => {
         <div className="container bg-white rounded p-3" id="sports">
           <div className="row">
             <div className="col-xl-12">
-              <div className="it-gallery-title-box three pb-70">
+              <div className="it-gallery-title-box three pb-20">
                 <h1 className="it-section-title-3">Sports</h1>
               </div>
             </div>
@@ -167,7 +167,7 @@ const Campusdisplay = () => {
         <div className="container" id="workshopsandseminars">
           <div className="row">
             <div className="col-xl-12">
-              <div className="it-gallery-title-box three pb-70">
+              <div className="it-gallery-title-box three pb-20">
                 <h1 className="it-section-title-3">Workshops & Seminars</h1>
               </div>
             </div>
@@ -190,7 +190,7 @@ const Campusdisplay = () => {
         <div className="container bg-white rounded p-3" id="yoga">
           <div className="row">
             <div className="col-xl-12">
-              <div className="it-gallery-title-box three pb-70">
+              <div className="it-gallery-title-box three pb-20">
                 <h1 className="it-section-title-3">International Yoga Day</h1>
               </div>
             </div>
@@ -213,7 +213,7 @@ const Campusdisplay = () => {
         <div className="container" id="teacherday">
           <div className="row">
             <div className="col-xl-12">
-              <div className="it-gallery-title-box three pb-70">
+              <div className="it-gallery-title-box three pb-20">
                 <h1 className="it-section-title-3">Teacher's Day</h1>
               </div>
             </div>

@@ -58,11 +58,11 @@ const Infrastructuredisplay = () => {
 
   const [state, setState] = useState(true);
   return (
-    <div className="it-blog-area it-blog-style-3 it-blog-style-6 grey-bg pt-120 pb-90">
+    <div className="it-blog-area it-blog-style-3 it-blog-style-6 grey-bg pt-20 pb-90">
       <div className="container" id="lab">
         <div className="row">
-          <div class="it-career-title-box mb-70">
-            <div className="three mb-20">
+          <div class="it-career-title-box mb-10">
+            <div className="three mb-5">
             <h1 class="">Laboratories</h1>
 
             </div>
@@ -97,17 +97,17 @@ const Infrastructuredisplay = () => {
         </div>
       </div>
       <div id="library">
-        <div className="it-choose-area p-relative pt-180 pb-70">
+        <div className="it-choose-area p-relative py-3">
           <div className="container">
-            <div className="row align-items-center">
-              <div className="col-xl-6 col-lg-6 mb-30">
-                <div className="it-choose-left">
                   <div className="it-choose-title-box mb-30 university-title-gsap">
                     <div className="three">
                     <h1 className="it-section-title">University Library</h1>
 
                     </div>
                   </div>
+            <div className="row align-items-center">
+              <div className="col-xl-7 col-lg-6">
+                <div className="it-choose-left">
                   <div className="it-choose-text pb-15 pr-8 university-text-gsap">
                     <p>
                       The Central Library of Monark University is user-focused,
@@ -117,11 +117,28 @@ const Infrastructuredisplay = () => {
                       Liberal Arts, Commerce, Science, and Education etc. The
                       Library implemented SOUL 3.0 software (Library Automation
                       Software), which supports all housekeeping operations of
-                      the library. The library system and staff is meticulously
+                      the library.The library system and staff is meticulously
                       focused for providing comfortable, user friendly
                       environment so as to enables learning and knowledge
-                      creation. Also, the library has a membership of National
-                      Digital Library (NDL). More than 10 million documents are
+                      creation.Also, the library has a membership of National
+                      Digital Library (NDL).
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div className="col-xl-5 col-lg-6">
+                <div className="it-choose-thumb-box text-center text-md-end infra-img-gsap">
+                  <div className="it-choose p-relative">
+                    <img
+                      src="https://monarkuni.ac.in/wp-content/uploads/2021/06/SMET-209.jpg"
+                      className="img-fluid"
+                      alt=""
+                    />
+                  
+                  </div>
+                </div>
+              </div>
+              <p className="mt-4"> More than 10 million documents are
                       available in NDL including e-books, journal articles,
                       video lectures etc. Library LAN has become a part of
                       campus wise network, which has made it possible for the
@@ -129,31 +146,7 @@ const Infrastructuredisplay = () => {
                       information. Reading room of the library having total
                       seating capacity of 200 students at a time. All Collection
                       of the library can also be accessed through web OPAC at
-                      any terminal on the campus network.
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div className="col-xl-6 col-lg-6 mb-30">
-                <div className="it-choose-thumb-box text-center text-md-end infra-img-gsap">
-                  <div className="it-choose-thumb p-relative">
-                    <img
-                      src="https://monarkuni.ac.in/wp-content/uploads/2021/06/SMET-209.jpg"
-                      className="img-fluid"
-                      alt=""
-                    />
-                    <div className="it-choose-shape-2">
-                      <img
-                        src="/img/choose/shape-1-2.png"
-                        width={357}
-                        height={303}
-                        alt=""
-                      />
-                    </div>
-                    <div className="it-choose-shape-3 d-none d-lg-block"></div>
-                  </div>
-                </div>
-              </div>
+                      any terminal on the campus network.</p>
             </div>
           </div>
         </div>
@@ -174,14 +167,14 @@ const Infrastructuredisplay = () => {
             {librarydata && (
               <div className="row">
                 {librarydata.map((library, num) => (
-                  <div key={num} className="col-xl-4  col-lg-4 col-md-6 mb-30">
+                  <div key={num} className="col-xl-4  col-lg-4 col-md-6 col-6 mb-10">
                     <div className="it-funfact-5-item rounded-3 text-center counter-gsap">
                       <div className="it-funfact-5-icon">
                         <span>
                           <img src={library.countIcon} className="img-fluid" />
                         </span>
                       </div>
-                      <div className="it-funfact-5-content mt-25">
+                      <div className="it-funfact-5-content mt-lg-4 mt-0">
                         <h4 className="it-funfact-5-number purecounter">
                           <CountUp
                             start={state ? 0 : library.countNum}
@@ -202,7 +195,7 @@ const Infrastructuredisplay = () => {
       </div>
       <div className="container"  id="hostel">
         <div className="row">
-          <div class="it-career-title-box  mb-70">
+          <div class="it-career-title-box  mb-20">
             <div className="three">
               <h1 class="">Hostel</h1>
             </div>
@@ -238,9 +231,9 @@ const Infrastructuredisplay = () => {
             .slice(4, 6)}
         </div>
       </div>
-      <div className="container" style={{ marginTop: 150 }} id="ac">
+      <div className="container" id="ac">
         <div className="row">
-          <div class="it-career-title-box  mb-70">
+          <div class="it-career-title-box  mb-20">
             <div className="three mb-20">
             <h1 class="">
               Auditorium & Conference Hall
@@ -279,9 +272,9 @@ const Infrastructuredisplay = () => {
         </div>
       </div>
      
-      <div className="container" style={{ marginTop: 150 }} id="ground">
+      <div className="container" id="ground">
         <div className="row">
-          <div class="it-career-title-box  mb-70">
+          <div class="it-career-title-box  mb-20">
             <div className="three mb-20">
             <h1 class="">
               Indoor and Outdoor Sports Ground and Court
