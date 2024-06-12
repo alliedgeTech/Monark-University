@@ -45,7 +45,7 @@ export default function Header(props) {
           >
             <div className="">
               <div className="it-header-2-plr">
-                <div className="it-header-wrap container p-relative">
+                <div className="it-header-wrap container-fluid p-relative">
                   <div className="d-flex justify-content-between">
                     <div className="">
                       <div className="it-header-2-logo">
@@ -60,7 +60,7 @@ export default function Header(props) {
                         </Link>
                       </div>
                     </div>
-                    <div className=" d-none d-xl-block">
+                    <div className=" d-none d-xl-block ms-auto">
                       <div className="it-header-2-main-menu w-100">
                         <nav className="it-menu-content">
                           <MenuItems onePage={menuFormat} />

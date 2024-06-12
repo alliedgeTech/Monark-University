@@ -106,9 +106,9 @@ export default function Video() {
                       </div>
                     </button>
                   </div>
-                  <div className="news-date-btn mt-2">
+                  {/* <div className="news-date-btn mt-2">
                     <small>{item.lastDate}</small>
-                  </div>
+                  </div> */}
                   <div className="news-info-box mt-4">
                   <h4>{item.title}</h4>
                   <small className="news-description-ellips">{item.description}</small>

@@ -86,12 +86,13 @@ export default function Course() {
   }, []);
 
   return (
-    <div className="student-club container-fluid py-2  pb-4">
-      <div className="student-club one">
-        <h1 className="mb-0 w-100">Student Clubs</h1>
+    <div className="student-club container-fluid py-4  pb-4">
+      <div className="container">
+      <div className="student-club-heading mb-4">
+        <h1 className="">Student Clubs</h1>
       </div>
 
-      <div class="student-main p-3">
+      <div class="student-main p-2">
         <nav>
           <div
             class="nav nav-tabs mb-3 d-flex align-items-center justify-content-evenly"
@@ -148,7 +149,7 @@ export default function Course() {
             </button>
           </div>
         </nav>
-        <div class="tab-content mt-25 p-3 rounded" id="nav-tabContent">
+        <div class="tab-content mt-3 px-3  rounded" id="nav-tabContent">
           <div
             class="tab-pane fade active show"
             id="nav-home"
@@ -279,6 +280,8 @@ export default function Course() {
             </div>
           </div>
         </div>
+      </div>
+
       </div>
 
       
