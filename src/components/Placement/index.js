@@ -65,7 +65,7 @@ const index = () => {
     try {
       const result = await ApiService({
         method: "GET",
-        endpoint: "https://mu-l50w.onrender.com/home-updates",
+        endpoint: "https://monarkuniversitybacked.onrender.com/home-updates",
       });
       setLatestNews(result);
       setLoading(false);

@@ -148,7 +148,7 @@ export default function Course() {
             </button>
           </div>
         </nav>
-        <div class="tab-content mt-25 p-3 rounded bg-light" id="nav-tabContent">
+        <div class="tab-content mt-25 p-3 rounded" id="nav-tabContent">
           <div
             class="tab-pane fade active show"
             id="nav-home"

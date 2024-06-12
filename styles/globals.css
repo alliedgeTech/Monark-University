@@ -1299,11 +1299,11 @@ p {
 .news-card{
     border-radius: 12px ;
     overflow: hidden;
-    box-shadow: 0 1px 2px var(--web-color);
-    background: #f2f2f2;
+    box-shadow: 0 1px 2px #636363;
+    background: #ffffff;
 }
 .news-card:hover{
-    background: #dadada;
+    background: #eeeeee;
 }
 .news-card:hover .news-img-box::before{
     height: 100%;
@@ -1314,6 +1314,7 @@ p {
     opacity: 1;
 }
 .news-hover-btn{
+    background: #796fd6 !important;
     border-radius: 20px;
     position: absolute;
     top: 70%;
@@ -1331,7 +1332,6 @@ p {
     height: 0%;
     width: 100%;
     transition: all 0.5s;
-    background: linear-gradient(#0000005b,#000000fa);
 }
 .news-img-box{
     position: relative;
@@ -1413,4 +1413,11 @@ p {
 .course-div{
     height: 200px;
     overflow-y: scroll;
+}
+.Latest-News{
+    /* background: linear-gradient(45deg,#829B85,#B5B583); */
+    background: #EAEEF6;
+}
+.student-placement-heading h1{
+    color: #000080 !important;
 }

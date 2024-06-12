@@ -31,7 +31,7 @@ const Responsive = {
     margin: 10,
   },
   1024: {
-    items: 3,
+    items: 4,
     margin: 20,
   },
 };
@@ -63,7 +63,7 @@ export default function Video() {
     try {
       const result = await ApiService({
         method: "GET",
-        endpoint: "https://mu-l50w.onrender.com/home-updates",
+        endpoint: "https://monarkuniversitybacked.onrender.com/home-updates",
       });
       setLatestNews(result);
       setLoading(false);
@@ -74,18 +74,18 @@ export default function Video() {
   };
 
   return (
-    <div className="Latest-News container py-3">
-      <div className="student-placement-heading d-flex align-items-center justify-content-center mb-20">
-        <div className="line"></div>
-        <h1 className="text-center mb-0 w-100">Latest News</h1>
-        <div className="line"></div>
+    <div className="Latest-News py-5 px-lg-5 px-2">
+      <div className="student-placement-heading mb-20">
+        <div className="three">
+        <h1 className="mb-0">Latest News</h1>
+        </div>
       </div>
 
       {loading ? (
         <p>Loading...</p>
       ) : (
         <OwlCarousel
-          className="owl-theme px-2"
+          className="owl-theme"
           loop={true}
           autoPlay={true}
           margin={10}
@@ -99,10 +99,10 @@ export default function Video() {
                 <div className="news-head">
                   <div className="news-img-box">
                     <img src={item.image} alt="" />
-                    <button className="hover-btn news-hover-btn">
+                    <button className="hover-btn news-hover-btn px-4">
                       <div className="text-div">
-                        <small>Read More</small>
-                        <small>Read More</small>
+                        <small>Read</small>
+                        <small>More</small>
                       </div>
                     </button>
                   </div>
