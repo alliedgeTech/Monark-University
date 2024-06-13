@@ -4,6 +4,7 @@ import after12data from "@/data/after12data"
 import Link from "next/link";
 import syllabusdata from "@/data/syllabus";
 import { useEffect } from "react";
+import pgcourse from "@/data/pgcourse";
 export default function Service() {
 
   useEffect(() => {
@@ -145,11 +146,54 @@ export default function Service() {
                 
               </div>
               <div class="carousel-item item">
-                <img className="img-fluid" src="http://localhost:3000/img/category/best-1.jpg" alt="" />
+              <div className="course-div">
+                  <div className=" three mb-20">
+                    <h4>Bechlor Courses</h4>
+                  </div>
+                  <div className="course-links">
+                    <div className="row pb-5">
+                      {pgcourse.map((item,index)=>{
+                        return(
+                          <>
+                      <div className="col-lg-3 col-md-6 col-12 mt-4">
+                        <Link href={`/services-2/ser?id=${item.id}`}>
+                          <div className="course-link-box px-2 py-3  d-flex align-items-center ">
+
+    <img className="" src={item.img} alt="" />
+                            <h6 className="ps-3 mb-0">
+                            {item.name}
+
+                            </h6>
+                          </div>
+                          </Link>
+                      </div>
+                          </>
+                        )
+                      })}
+                    </div>
+                  </div>
+                </div>
                 
               </div>
               <div class="carousel-item item">
-                <img className="img-fluid" src="http://localhost:3000/img/category/best-1.jpg" alt="" />
+                <div className="course-div pb-3">
+                  <div className="three mb-30">
+                    <h4>PHD</h4>
+                  </div>
+                  <div className="row"></div>
+                  <div className="col-lg-3 col-md-6 col-12">
+                    <Link href="/services-4">
+                      <div className="course-link-box px-2 py-3 d-flex align-items-center">
+                      <img className="" src="/img/service/book.png" alt="" />
+                      <h6 className="ps-3 mb-0">
+                              PHD
+
+                              </h6>
+                      </div>
+                    </Link>
+                  </div>
+
+                </div>
                 
               </div>
             </div>
