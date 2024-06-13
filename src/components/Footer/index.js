@@ -15,23 +15,7 @@ export default function Footer(props) {
 							</div>
 						</div>
 						<div className="col-lg-8 col-md-9 col-sm-12 mt-4 mt-lg-0">
-							<div className="footer-up-links px-4 px-lg-0 d-flex justify-content-between align-items-center h-100">
-								<ul>
-									<li><a href="/">Home</a></li>
-									<li><a href="/about-us"> About MU</a></li>
-									<li><a href="/services"> Admission</a></li>
-								</ul>
-								<ul>
-									<li><a href="/faculty"> Facaulty</a></li>
-									<li><a href="/syllabus"> Academic </a></li>
-									<li><a href="/placement">Placement </a></li>
-								</ul>
-								<ul>
-									<li><a href="/campus">Campus Life</a></li>
-									<li><a href="/infrastructure"> Infastructure </a></li>
-									<li><a href="/contact"> Contact Us</a></li>
-								</ul>
-							</div>
+							
 						</div>
 					</div>
 				</div>

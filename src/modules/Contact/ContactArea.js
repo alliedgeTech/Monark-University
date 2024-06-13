@@ -1,37 +1,48 @@
 import React, { useRef } from "react";
 import emailjs from "@emailjs/browser";
-import Image from "next/image";
 
 export default function ContactArea() {
   const form = useRef();
 
-  const sendEmail = (e) => {
+  const sendEmail = async (e) => {
     e.preventDefault();
 
-    emailjs
-      .sendForm("YOUR_SERVICE_ID", "YOUR_TEMPLATE_ID", form.current, {
-        publicKey: "YOUR_PUBLIC_KEY",
-      })
-      .then(
-        () => {
-          console.log("SUCCESS!");
+    const formData = {
+      name: form.current.user_name.value,
+      email: form.current.user_email.value,
+      phone: form.current.user_phone.value,
+      subject: form.current.user_subject.value,
+      message: form.current.user_message.value,
+    };
+
+    try {
+      // Send data to your custom API
+      const response = await fetch("https://monarkuniversitybacked.onrender.com/contacts", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
         },
-        (error) => {
-          console.log("FAILED...", error.text);
-        }
-      );
+        body:JSON.stringify(formData),
+      });
+
+      if (response.ok) {
+        console.log("Data sent to API successfully!");
+      } else {
+        console.error("Failed to send data to API:", response.statusText);
+      }
+    } catch (error) {
+      console.error("Error occurred while sending data:", error);
+    }
   };
 
   return (
     <div className="it-contact__area pt-120 pb-120">
       <div className="container">
         <div className="it-contact__wrap fix z-index-3 p-relative">
-          <div className="it-contact__shape-1 d-none d-xl-block">
-           
+          <div className="it-contact__shape-1 d-none d-xl-block"></div>
+          <div className="it-contact__section-box three pb-20">
+            <h1 className="it-contact__title pb-15">Get in Touch</h1>
           </div>
-                <div className="it-contact__section-box three pb-20">
-                  <h1 className="it-contact__title pb-15">Get in Touch</h1>
-                </div>
           <div className="row align-items-end">
             <div className="col-xl-7">
               <div className="it-contact__right-box">
@@ -64,7 +75,6 @@ export default function ContactArea() {
                         <div className="it-contact__text">
                           <span>Gmail</span>
                           <a href="mailto:info@monarkuni.ac.in">info@monarkuni.ac.in</a>
-                          {/* <span>[2nd sat Holiday]</span> */}
                         </div>
                       </div>
                     </li>
@@ -78,18 +88,14 @@ export default function ContactArea() {
                         <div className="it-contact__text">
                           <span>contact</span>
                           <a href="tel:+99358954565">+91-7970707001</a>
-						  <a href="tel:+99358954565">+91-2718-247138/215</a>
+                          <a href="tel:+99358954565">+91-2718-247138/215</a>
                         </div>
                       </div>
                     </li>
                   </ul>
                 </div>
                 <div className="it-contact__bottom-box d-flex align-items-center justify-content-between">
-                  <div className="it-contact__scrool smooth">
-                    {/* <a href="#it-newsletter">
-                      <i className="fa-solid fa-arrow-down"></i>Customer Care
-                    </a> */}
-                  </div>
+                  <div className="it-contact__scrool smooth"></div>
                   <div className="it-footer-social">
                     <a href="https://www.facebook.com/monark.university">
                       <i className="fa-brands fa-facebook-f"></i>
@@ -98,7 +104,7 @@ export default function ContactArea() {
                       <i className="fa-brands fa-instagram"></i>
                     </a>
                     <a href="https://www.linkedin.com/company/monark-university/">
-					<i class="fa-brands fa-linkedin"></i>
+                      <i className="fa-brands fa-linkedin"></i>
                     </a>
                     <a href="https://x.com/monarkuni">
                       <i className="fa-brands fa-twitter"></i>
@@ -161,36 +167,36 @@ export default function ContactArea() {
                       </div>
                     </div>
                   </div>
+                  <button type="submit" className="it-btn">
+                    <span>
+                      Send Message
+                      <svg
+                        width="17"
+                        height="14"
+                        viewBox="0 0 17 14"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M11 1.24023L16 7.24023L11 13.2402"
+                          stroke="currentcolor"
+                          strokeWidth="1.5"
+                          strokeMiterlimit="10"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                        />
+                        <path
+                          d="M1 7.24023H16"
+                          stroke="currentcolor"
+                          strokeWidth="1.5"
+                          strokeMiterlimit="10"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                        />
+                      </svg>
+                    </span>
+                  </button>
                 </form>
-                <button type="submit" className="it-btn">
-                  <span>
-                    Send Message
-                    <svg
-                      width="17"
-                      height="14"
-                      viewBox="0 0 17 14"
-                      fill="none"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
-                      <path
-                        d="M11 1.24023L16 7.24023L11 13.2402"
-                        stroke="currentcolor"
-                        strokeWidth="1.5"
-                        strokeMiterlimit="10"
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                      />
-                      <path
-                        d="M1 7.24023H16"
-                        stroke="currentcolor"
-                        strokeWidth="1.5"
-                        strokeMiterlimit="10"
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                      />
-                    </svg>
-                  </span>
-                </button>
               </div>
             </div>
           </div>

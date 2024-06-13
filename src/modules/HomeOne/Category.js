@@ -137,7 +137,7 @@ export default function Category() {
             </div>
             <div className="col">
               <div className="img-box img-box-2">
-                <img className="img-fluid" src="/img/category/best-2.jpg" alt="" />
+                <img className="img-fluid" src="/img/category/best-3.jpg" alt="" />
               </div>
             </div>
           </div>

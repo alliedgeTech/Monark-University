@@ -22,25 +22,33 @@ h1 {
     text-transform: uppercase;
     font-family: "Open Sans" !important;
     font-weight: 900 !important;
-}
-
-h2 {
-    font-size: 32px;
-}
-
-h3 {
-    font-size: 28px;
-}
-
-h4 {
+    color: #000 !important;
+    }
+    
+    h2 {
+        font-family: "Open Sans" !important;
+        color: #000 !important;
+        font-size: 32px;
+        }
+        
+        h3 {
+            font-size: 28px;
+            font-family: "Open Sans" !important;
+            color: #000 !important;
+            }
+            
+            h4 {
+            font-family: "Open Sans" !important;
     font-size: 24px;
-}
-
-h5 {
+    }
+    
+    h5 {
+    color: #000 !important;
     font-size: 20px;
-}
-
-h6 {
+    }
+    
+    h6 {
+    color: #000 !important;
     font-size: 16px;
 }
 
@@ -463,11 +471,11 @@ p {
 
 .hero-text h1 {
     font-size: 10vw;
-    color: var(--web-orange);
+    color: var(--web-orange) !important;
     font-family:'Open Sans';
 }
 .hero-text h1 span{
-    color: var(--web-color);
+    color: var(--web-white);
 }
 
 .hero-text p {
@@ -510,12 +518,14 @@ p {
 .best-university {
     position: relative;
     z-index: 2;
-    background: #f5d2b2;
+    background: #eeeeee;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     margin-top: -6vmax;
     padding: 5vmax 4vmax !important;
+    border-bottom-left-radius: 6vmax;
+    border-bottom-right-radius: 6vmax;
 }
 
 .best-university .row {
@@ -528,7 +538,9 @@ p {
 }
 
 .student-club {
-    background: #f5d2b2;
+    background: #eeeeee;
+    border-top-left-radius: 6vmax;
+    border-top-right-radius: 6vmax;
 }
 
 .student-club-image {
@@ -1074,10 +1086,10 @@ p {
 }
 
 .even {
-    background: #f2f2f2 !important;
+    background: #EAEEF6 !important;
     border-bottom-left-radius: 8vmax;
     border-bottom-right-radius: 8vmax;
-    box-shadow: 0 0 10px #fff !important;
+    box-shadow: 0 0 10px #9e9e9e !important;
 }
 
 .even h1 {
@@ -1151,9 +1163,9 @@ p {
 }
 
 .it-blog-item {
-    border: 4px solid grey;
     border-radius: 20px;
     overflow: hidden;
+    box-shadow: 0 2px 6px #000 !important;
 }
 
 .it-blog-item:hover .it-blog-thumb img {
@@ -1173,11 +1185,15 @@ p {
 .nav-link{
     padding: 1px 10px !important;
 }
+
 .nav-link:hover{
-    background: #c9c9ca;
+    
 }
-.nav-link:hover a {
-    color: var(--web-color) !important;
+.nav-link:hover > a{
+    color: var(--web-orange) !important;
+}
+.nav-link li:hover > a{
+    color: var(--web-orange) !important;
 }
 
 .nav-link2 .active {
@@ -1214,7 +1230,7 @@ p {
 }
 
 .about-1 {
-    background: var(--web-whit);
+    background: #eeeeee;
     padding: 25px !important;
     border-radius: 25px;
     box-shadow: 0px 10px 20px #00000029;
@@ -1311,6 +1327,7 @@ p {
     background: skyblue !important;
 }
 .news-card{
+    min-height: 445px;
     border-radius: 12px ;
     overflow: hidden;
     box-shadow: 0 1px 2px #636363;
@@ -1354,7 +1371,7 @@ p {
     box-shadow: 0 1px 2px 0.5px #525252;
 }
 .news-info-box h4{
-    color: var(--web-color);
+    color: rgb(70, 30, 70) !important;
 }
 .club-table.tbody, td, tfoot, th, thead, tr{
     border-width: 1px !important;
@@ -1432,17 +1449,12 @@ p {
     }
     
 }
-.course-div{
-    height: 200px;
-    overflow-y: scroll;
-}
+
 .Latest-News{
     /* background: linear-gradient(45deg,#829B85,#B5B583); */
     background: #EAEEF6;
 }
-.student-placement-heading h1{
-    color: #000080 !important;
-}
+
 .student-club-heading{
     border-bottom: 2px solid gray;
 }
@@ -1492,3 +1504,127 @@ p {
 .circle-btn .btn-icon i{
     transition: all 0.5s;
 }
+
+.course-div .course-header h4{
+    padding: 5px 0px;
+    }
+    .course-div .course-heading h4{
+    padding: 5px 0px;
+}
+    .course-div .sub_courses{
+        display: block;
+        border-bottom: 2px solid #497597;
+}
+.mu_course{
+    border-top: 2px solid #dadada;
+}
+.mu_course .tab-content{
+    background: var(--web-white) !important;
+}
+
+.placement-record{
+    background: #eeeeee;
+}
+
+
+
+.item .row{
+    max-width:100% !important;
+    height: 100% !important; 
+    margin: 0 auto;
+}
+.img_box{
+    overflow: hidden;
+    border-radius: 25px;
+    height: 100% !important;
+    width: 100%;
+}
+.img_box img{
+    height: 100% !important;
+    width: 100% !important;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+.img_box:hover img{
+    transform: scale(1.1);
+}
+.box-text{
+    bottom: 5%;
+    left: 0;
+    right: 0;
+    z-index: 111;
+    transform: translate(0%,-5%);
+    color: white;
+}
+.button_box p{
+    opacity: 1;
+    transition: all 0.5s;
+}
+.button_box button{
+    transition: all 0.5s;
+    opacity: 0;
+}
+.img_box:hover .button_box p{
+    transform: translateY(-30px);
+    opacity: 0;
+}
+.img_box:hover .button_box button{
+    transform: translateY(-40px) !important;
+    opacity: 1;
+}
+.carousel-buttons{
+    width: max-content;
+    box-shadow: 0px 10px 20px #00000029;
+    border-radius: 12px !important;
+    overflow: visible;
+}
+.carousel-buttons button{
+    padding: 12px 22px;
+    color: #000000;
+    font-weight: 600;
+}
+.carousel-buttons .active{
+    background: var(--web-orange);
+    font-weight: 600;
+    transform: scale(1.2);
+    color: #fff;border-radius: 8px;
+    color: #fff;
+}
+.course-heading-home h1{
+    font-family: Oswald !important;
+    font-weight: 600 !important;
+}
+.course-heading-home span{
+    color: rgb(255, 111, 0) !important;
+}
+
+.course-link-box{
+    box-shadow: 0 4px 4px #dadada;
+border-bottom: 2px solid transparent;
+transition: all 0.5s;
+}
+.course-link-box:hover{
+    background: #f8f8f8;
+    border-bottom: 2px solid var(--web-color);
+    transform: translateY(-5px) scale(1.05);
+}
+
+.course-link-box img{
+    height: 50px !important;
+    width: 50px !important; 
+}
+.course-link-box h6{
+    font-size: 13px;
+}
+@media screen and (max-width:430px) {
+    .carousel-buttons{
+        justify-content: space-between;
+        width: 100%;
+        padding: 0 4px;
+    }
+    .carousel-buttons button{
+        padding: 10px 7px !important; 
+    }
+}
+
+

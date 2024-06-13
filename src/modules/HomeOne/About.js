@@ -57,7 +57,7 @@ export default function About() {
   }, []);
 
   return (
-    <div className="student-placement py-4 container-fluid">
+    <div className="student-placement pb-2 pt-4 container-fluid">
       <div className="student-placement-heading one">
         <h1 className="mb-0 w-100">Student Placement</h1>
       </div>

@@ -122,7 +122,8 @@ const index = () => {
           </div>
         </div>
       </div>
-      <div id="latest-news" className="Latest-News container py-4">
+      <div id="latest-news" className="Latest-News py-4">
+      <div className="container">
       <div className="student-placement-heading d-flex align-items-center justify-content-center mb-20">
         <div className="line"></div>
         <h1 className="text-center mb-0 w-100">Latest News</h1>
@@ -167,6 +168,7 @@ const index = () => {
           ))}
         </OwlCarousel>
       )}
+      </div>
     </div>
       <div id="recruiters" className="our-recruiters pt-40">
         <div className="our-recruiters-heading">
@@ -353,14 +355,13 @@ const index = () => {
       </Marquee> 
         </div>
       </div>
-      <div id="placement_record" className="placement-record bg-light py-5 ">
+      <div id="placement_record" className="placement-record py-5 ">
         <div className="container">
         <div className="placement-record-heading">
-          <div className="three">
+          <div className="three mb-25">
           <h1 className="">Placement Records</h1>
 
           </div>
-          <hr />
         </div>
         <div className="row">
           <div className="col-lg-4 col-md-4 col-12 mt-lg-5 mt-4 h-100">

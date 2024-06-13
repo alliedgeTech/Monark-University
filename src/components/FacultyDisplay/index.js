@@ -144,13 +144,13 @@ const index = () => {
   return (
     <div>
       <div style={{ marginTop: "75px" }} className={`min-vh-100 bg-light py-4`}>
-        <div className="container-fluid p-0">
+        <div className="container p-0">
           {facultydata.map((faculty, index) => {
             return (
               <div
                 id={faculty.hastagID}
                 key={index}
-                className={`faculty-info pb-40 ${index % 2 == 0 ? "even" : ""}`}
+                className={`faculty-info about-1 mb-45 pb-40 ${index % 2 == 0 ? "even" : ""}`}
               >
                 <div className="faculty-heading mb-20  three w-100">
                   <h1 className=" ">{faculty.name}</h1>
