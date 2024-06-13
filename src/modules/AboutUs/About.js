@@ -204,16 +204,7 @@ export default function About() {
             <div className="col-lg-6 col-12">
               <div className="it-choose-thumb-box mx-2 text-center text-md-end">
                 <div className="it-choose-thumb p-relative">
-                  <Image src={fullimg} className="img-fluid" alt="" />
-                  <div className="it-choose-shape-1"></div>
-                  <div className="it-choose-shape-2">
-                    <Image
-                      src="/img/choose/shape-1-2.png"
-                      width={357}
-                      height={303}
-                      alt=""
-                    />
-                  </div>
+                  <img src="/img/choose/monarknew.jpg" className="img-fluid" alt="" />
                   <div className="it-choose-shape-3 d-none d-lg-block"></div>
                 </div>
               </div>

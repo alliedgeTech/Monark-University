@@ -72,7 +72,7 @@ const index = () => {
   };
   return (
     <div className="placement mt-4" id="circular">
-      <div id="latest-news" className="Latest-News container py-3">
+      <div id="latest-news" className="bg-light container-fluid py-3">
         <div className="student-placement-heading d-flex align-items-center justify-content-center mb-20">
           <div className="one">
             <h1 className=" mb-0">Circular</h1>

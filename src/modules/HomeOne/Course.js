@@ -86,7 +86,7 @@ export default function Course() {
   }, []);
 
   return (
-    <div className="student-club container-fluid py-4  pb-4">
+    <div className="student-club container-fluid py-5  pb-4">
       <div className="container">
       <div className="student-club-heading mb-4">
         <h1 className="">Student Clubs</h1>

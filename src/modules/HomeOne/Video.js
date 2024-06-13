@@ -31,7 +31,7 @@ const Responsive = {
     margin: 10,
   },
   1024: {
-    items: 4,
+    items: 3,
     margin: 20,
   },
 };
@@ -75,50 +75,53 @@ export default function Video() {
 
   return (
     <div className="Latest-News py-5 px-lg-5 px-2">
-      <div className="student-placement-heading mb-20">
-        <div className="three">
-        <h1 className="mb-0">Latest News</h1>
+      <div className="container">
+        <div className="student-placement-heading mb-20">
+          <div className="three">
+          <h1 className="mb-0">Latest News</h1>
+          </div>
         </div>
-      </div>
 
-      {loading ? (
-        <p>Loading...</p>
-      ) : (
-        <OwlCarousel
-          className="owl-theme"
-          loop={true}
-          autoPlay={true}
-          margin={10}
-          dots={true}
-          autoplayTimeout={5000}
-          responsive={Responsive}
-        >
-          {latestNews.map((item, index) => (
-            <div className="item p-2">
-              <div className="news-card p-3">
-                <div className="news-head">
-                  <div className="news-img-box">
-                    <img src={item.image} alt="" />
-                    <button className="hover-btn news-hover-btn px-4">
-                      <div className="text-div">
-                        <small>Read</small>
-                        <small>More</small>
-                      </div>
-                    </button>
-                  </div>
-                  {/* <div className="news-date-btn mt-2">
-                    <small>{item.lastDate}</small>
-                  </div> */}
-                  <div className="news-info-box mt-4">
-                  <h4>{item.title}</h4>
-                  <small className="news-description-ellips">{item.description}</small>
+        {loading ? (
+          <p>Loading...</p>
+        ) : (
+          <OwlCarousel
+            className="owl-theme"
+            loop={true}
+            margin={10}
+            autoPlay={true}
+            responsive={Responsive}
+            responsiveRefreshRate={100}
+            autoplayTimeout={3000}
+          >
+            {latestNews.map((item, index) => (
+              <div className="item p-2">
+                <div className="news-card p-3">
+                  <div className="news-head">
+                    <div className="news-img-box">
+                      <img src={item.image} alt="" />
+                      <button className="hover-btn news-hover-btn px-4">
+                        <div className="text-div">
+                          <small>Read</small>
+                          <small>More</small>
+                        </div>
+                      </button>
+                    </div>
+                    {/* <div className="news-date-btn mt-2">
+                      <small>{item.lastDate}</small>
+                    </div> */}
+                    <div className="news-info-box mt-4">
+                    <h4>{item.title}</h4>
+                    <small className="news-description-ellips">{item.description}</small>
+                    </div>
                   </div>
                 </div>
               </div>
-            </div>
-          ))}
-        </OwlCarousel>
-      )}
+            ))}
+          </OwlCarousel>
+        )}
+
+      </div>
     </div>
   );
 }
