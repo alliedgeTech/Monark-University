@@ -1,5 +1,6 @@
 import Image from "next/image";
 import homecourse from "@/data/coursehomedata"
+import after12data from "@/data/after12data"
 import Link from "next/link";
 import syllabusdata from "@/data/syllabus";
 import { useEffect } from "react";
@@ -42,7 +43,7 @@ export default function Service() {
             <h1>Choose from our extensive <span>selection</span> of <span className="blue"> over 100 +</span>  industry-specific programs.</h1>
           </div>
               </div>
-              <div className="col-lg-6 d-flex align-items-center">
+              <div className="col-lg-6 d-flex align-items-center mt-lg-0 mt-5">
                 <div class="carousel-buttons mr-auto mb-30 d-flex align-items-center">
               <button
                 type="button"
@@ -86,16 +87,17 @@ export default function Service() {
             <div class="carousel-inner mt-30">
               <div class="carousel-item item active">
               <div className="course-div">
-                  <div className="course-header mb-20">
+                  <div className=" three mb-20">
                     <h4>Diploma Engineering</h4>
                   </div>
                   <div className="course-links">
-                    <div className="row py-5">
+                    <div className="row pb-5">
                       {homecourse.map((item,index)=>{
                         return(
                           <>
                       <div className="col-lg-3 col-md-4 col-6 mt-4">
-                          <div className="course-link-box p-2 d-flex align-items-center ">
+                        <Link href={`/services/service?id=${index+1}`}>
+                          <div className="course-link-box px-2 py-3  d-flex align-items-center ">
 
     <img className="" src={item.img} alt="" />
                             <h6 className="ps-3 mb-0">
@@ -103,7 +105,7 @@ export default function Service() {
 
                             </h6>
                           </div>
-                            
+                          </Link>
                       </div>
                           </>
                         )
@@ -113,7 +115,33 @@ export default function Service() {
                 </div>
               </div>
               <div class="carousel-item item">
-                <img className="img-fluid" src="http://localhost:3000/img/category/best-1.jpg" alt="" />
+              <div className="course-div">
+                  <div className=" three mb-20">
+                    <h4>Bechlor Courses</h4>
+                  </div>
+                  <div className="course-links">
+                    <div className="row pb-5">
+                      {after12data.map((item,index)=>{
+                        return(
+                          <>
+                      <div className="col-lg-3 col-md-4 col-6 mt-4">
+                        <Link href={`/services-2/ser?id=${item.id}`}>
+                          <div className="course-link-box px-2 py-3  d-flex align-items-center ">
+
+    <img className="" src={item.img} alt="" />
+                            <h6 className="ps-3 mb-0">
+                            {item.name}
+
+                            </h6>
+                          </div>
+                          </Link>
+                      </div>
+                          </>
+                        )
+                      })}
+                    </div>
+                  </div>
+                </div>
                 
               </div>
               <div class="carousel-item item">
