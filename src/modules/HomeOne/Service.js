@@ -43,7 +43,7 @@ export default function Service() {
             <h1>Choose from our extensive <span>selection</span> of <span className="blue"> over 100 +</span>  industry-specific programs.</h1>
           </div>
               </div>
-              <div className="col-lg-6 d-flex align-items-center mt-lg-0 mt-5">
+              <div className="col-lg-6 d-flex align-items-center mt-lg-0 mt-4">
                 <div class="carousel-buttons mr-auto mb-30 d-flex align-items-center">
               <button
                 type="button"
@@ -95,7 +95,7 @@ export default function Service() {
                       {homecourse.map((item,index)=>{
                         return(
                           <>
-                      <div className="col-lg-3 col-md-4 col-6 mt-4">
+                      <div className="col-lg-3 col-md-6 col-12 mt-4">
                         <Link href={`/services/service?id=${index+1}`}>
                           <div className="course-link-box px-2 py-3  d-flex align-items-center ">
 
@@ -124,7 +124,7 @@ export default function Service() {
                       {after12data.map((item,index)=>{
                         return(
                           <>
-                      <div className="col-lg-3 col-md-4 col-6 mt-4">
+                      <div className="col-lg-3 col-md-6 col-12 mt-4">
                         <Link href={`/services-2/ser?id=${item.id}`}>
                           <div className="course-link-box px-2 py-3  d-flex align-items-center ">
 
