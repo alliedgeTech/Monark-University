@@ -4,7 +4,6 @@ import "owl.carousel/dist/assets/owl.carousel.css";
 import "owl.carousel/dist/assets/owl.theme.default.css";
 import Link from "next/link";
 import axios from "axios";
-import Campusdisplay from "../campusdisplay";
 
 if (typeof window !== "undefined") {
   var $ = require("jquery");
