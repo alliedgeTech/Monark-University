@@ -2,18 +2,19 @@ import React, { useRef } from "react";
 import emailjs from "@emailjs/browser";
 // import { ToastContainer, toast } from 'react-toastify';
 // import 'react-toastify/dist/ReactToastify.css';
+import { toast, Toaster } from "react-hot-toast";
+
 
 
 export default function ContactArea() {
   const form = useRef();
 
- 
-  
-const clearData=()=>{
-  alert("form submitted successfully");
-  // toast.success('Form submitted Successfully!');
-  // document.getElementById("myform").reset();
-}
+  const clearData = () => {
+    // alert("form submitted successfully");
+    // toast.success('Form submitted Successfully!');
+     document.getElementById("myform").reset();
+    toast.success("Form submitted Successfully");
+  };
   const sendEmail = async (e) => {
     e.preventDefault();
 
@@ -27,13 +28,16 @@ const clearData=()=>{
 
     try {
       // Send data to your custom API
-      const response = await fetch("https://monarkuniversitybacked.onrender.com/contacts", {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-        },
-        body:JSON.stringify(formData),
-      });
+      const response = await fetch(
+        "https://monarkuniversitybacked.onrender.com/contacts",
+        {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+          },
+          body: JSON.stringify(formData),
+        }
+      );
 
       if (response.ok) {
         console.log("Data sent to API successfully!");
@@ -46,9 +50,7 @@ const clearData=()=>{
   };
 
   return (
-    
     <div className="it-contact__area pt-120 pb-120">
-       
       <div className="container">
         <div className="it-contact__wrap fix z-index-3 p-relative">
           <div className="it-contact__shape-1 d-none d-xl-block"></div>
@@ -86,7 +88,9 @@ const clearData=()=>{
                         </div>
                         <div className="it-contact__text">
                           <span>Gmail</span>
-                          <a href="mailto:info@monarkuni.ac.in">info@monarkuni.ac.in</a>
+                          <a href="mailto:info@monarkuni.ac.in">
+                            info@monarkuni.ac.in
+                          </a>
                         </div>
                       </div>
                     </li>
@@ -147,7 +151,7 @@ const clearData=()=>{
                           type="email"
                           placeholder="Email"
                           name="user_email"
-                            required="true"
+                          required="true"
                         />
                       </div>
                     </div>
@@ -158,7 +162,7 @@ const clearData=()=>{
                           type="text"
                           placeholder="Phone"
                           name="user_phone"
-                            required="true"
+                          required="true"
                         />
                       </div>
                     </div>
@@ -169,7 +173,7 @@ const clearData=()=>{
                           type="text"
                           placeholder="Subject"
                           name="user_subject"
-                            required="true"
+                          required="true"
                         />
                       </div>
                     </div>
@@ -179,13 +183,12 @@ const clearData=()=>{
                         <textarea
                           placeholder="Message"
                           name="user_message"
-                          
                         ></textarea>
                       </div>
                     </div>
                   </div>
                   <button type="submit" className="it-btn" onClick={clearData}>
-                    <span >
+                    <span>
                       Send Message
                       <svg
                         width="17"
@@ -213,6 +216,7 @@ const clearData=()=>{
                       </svg>
                     </span>
                   </button>
+                  <Toaster position="bottom-center" reverseOrder={false} />
                   {/* <ToastContainer autoClose={3000} /> */}
                 </form>
               </div>
