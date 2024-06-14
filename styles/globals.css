@@ -470,15 +470,15 @@ p {
     }
     @media screen and (max-width:768px) {
         .hero-text {
-            top: 40%;
+            top: 60% !important;
             left: 50%;
             bottom: initial !important;
-            transform: translate(-50%,-50%);
+            transform: translate(-50%,-60%) !important;
             width: 95%;
             }
             .hero-img video {
                 width: 100vw!important;
-                height: 326px;
+                height: 275px;
                 margin-top: 28px;
             }
         
