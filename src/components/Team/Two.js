@@ -5,8 +5,8 @@ export default function SingleTeamTwo( props ) {
 	const { teamClass, Slug, Img, Teacher, Designation, imgWidth, imgHeight } = props;
 	
 	return (
-		<div className={teamClass ? teamClass : 'it-team-3-item text-center'}> 
-			<div className="it-team-3-thumb fix">
+		<>
+			{/* <div className="it-team-3-thumb fix">
 				<Image src={Img ? Img : '/img/team/team-3-1.jpg'} alt="" width={imgWidth ? imgWidth : 309} height={imgHeight ? imgHeight : 357} />
 			</div>
 			<div className="it-team-3-content">
@@ -27,7 +27,17 @@ export default function SingleTeamTwo( props ) {
 					</h4>
 					<span>{Designation ? Designation : 'Teacher'}</span>
 				</div>
-			</div>
-		</div>
+			</div> */}
+			<div class="faculty-card">
+  <div class="content">
+    <div class="front">
+      <img src="/img/category/best-1.jpg" alt="" />
+    </div>
+    <div class="back">
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, quibusdam?</p>
+    </div>
+  </div>
+</div>
+		</>
 	)
 }

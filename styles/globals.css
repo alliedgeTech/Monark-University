@@ -457,22 +457,33 @@ p {
     height: 100%;
     width: 100%;
     content: "";
-    background: linear-gradient(#0000001a,#00000041);
+    background: linear-gradient(#00000078,#000000ce);
 }
 
 .hero-text {
     position: absolute;
-    top: 50%;
+    bottom: 15%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%,0%);
     text-align: center;
-    width: 95%;
+    width: 70%;
+    }
+    @media screen and (max-width:768px) {
+        .hero-text {
+            top: 40%;
+            left: 50%;
+            bottom: initial !important;
+            transform: translate(-50%,-50%);
+            width: 95%;
+            }
+        
+    
 }
 
 .hero-text h1 {
-    font-size: 10vw;
-    color: var(--web-orange) !important;
-    font-family:'Open Sans';
+    font-size: 4vw;
+    color: #fff !important;
+    font-family:'Poppins' !important;
 }
 .hero-text h1 span{
     color: var(--web-white);
@@ -965,7 +976,39 @@ p {
 }
 
 .it-sv-details-top-thumb img {
-    border-radius: 12px;
+    height: 270px !important;
+}
+.it-sv-details-top-thumb {
+    position: relative;
+    border: 7px solid var(--web-color);
+    transition: all 0.5s;
+}
+.it-sv-details-top-wrap:hover .it-sv-details-top-thumb{
+    border: 7px solid var(--web-orange);
+    transform: translate(-5px) scale(1.05);
+
+}
+.it-sv-details-top-thumb::before{
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 50%;
+    transform: translate(-50%,0);
+    height: 7px;
+    width: 50%;
+    margin-top: -7px;
+    background: #dadada;
+}
+.it-sv-details-top-thumb::after{
+    position: absolute;
+    content: "";
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%,0);
+    height: 7px;
+    width: 50%;
+    margin-bottom: -7px;
+    background: #dadada;
 }
 
 .it-feature-item {
@@ -1636,5 +1679,53 @@ color: #dadada !important;
         padding: 10px 7px !important; 
     }
 }
+.it-breadcrumb-bg::after {
+    background: linear-gradient(#000000ce,#000000da) !important;
+}
 
+
+.faculty-carousel{
+    height: 400px !important;
+}
+.faculty-carousel .item{
+    height: 300px !important;
+}
+.faculty-card {
+    float: left;
+  }
+  
+  .content {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    box-shadow: 0 0 15px rgba(0,0,0,0.1);
+  
+    transition: transform 1s;
+    transform-style: preserve-3d;
+  }
+  
+  .faculty-card:hover .content {
+    transform: rotateY( 180deg ) ;
+    transition: transform 0.5s;
+  }
+  
+  .front,
+  .back {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    line-height: 300px;
+    color: #03446A;
+    text-align: center;
+    font-size: 60px;
+    border-radius: 12px;
+    overflow: hidden;
+    backface-visibility: hidden;
+  }
+  
+  .back {
+    background: #0000009e;
+    color: white;
+    transform: rotateY( 180deg );
+  }
 

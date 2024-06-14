@@ -30,7 +30,7 @@ export default function Banner() {
 					src="https://res.cloudinary.com/dnjgopun8/video/upload/v1718208681/WhatsApp_Video_2024-06-12_at_21.37.33_c738530a_uepvqc.mp4 " />
 				<div className="hero-text ">
 					<h1 className='' data-text="MONARK UNIVERSITY">MONARK <span>UNIVERSITY</span></h1>
-					{/* <p className='text-center'>We remain steadfastly acknowledged as a preeminent global management institution, continually pushing the boundaries of management research, leadership, and education.</p> */}
+					<p className='text-center'>We remain steadfastly acknowledged as a preeminent global management institution, continually pushing the boundaries of management research, leadership, and education.</p>
 				</div>
 			</div>
 		</div>

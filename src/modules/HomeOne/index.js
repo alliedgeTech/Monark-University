@@ -20,10 +20,10 @@ export default function HomeOneModules() {
 			
 			<Banner />
 			<Category />
+			<Service />
 			<About />
 			<Course />
 			<Video />
-			<Service />
 			<Funfact />
 			<Testimonial />
 			<Team />

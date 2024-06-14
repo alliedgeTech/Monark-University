@@ -405,61 +405,44 @@ export default function About() {
           {/* vision and mission start*/}
 
           <div id="visionandmission" className="mt-5">
-            <div class="it-career-area it-career-bg p-relative py-2">
-              <div class="it-career-shape-2 d-none d-xl-block"></div>
-              <div class="it-career-shape-3 d-none d-xl-block"></div>
-
-              <div class="it-career-shape-6 d-none d-xl-block"></div>
+            <div class="it-career-area it-career-bg py-2">
               <div class="container">
-                <div class="row">
-                  <div class="col-xl-12">
                     <div class="it-career-title-box three mb-30">
                       <h1 class="it-section-title discover-heading">
                         Discover your gain
                       </h1>
                     </div>
+
+                <div class="row about-1">
+                  <div className="col-lg-6 col-md-5 col-12 mt-lg-0 mt-4">
+                    <div className="vision-img">
+                      <img className="img-fluid" src="/img/vision/vision1.jpg" alt="" />
+                    </div>
                   </div>
-                  <div class="col-xl-6 col-lg-6 mt-lg-0 mt-4 ">
-                    <div class="it-career-item it-career-item-left p-relative fix">
-                      <div class="it-career-content">
-                        <h2 className="text-white mb-20">Vision</h2>
-                        <p>
+                  <div className="col-lg-6 col-md-7 col-12 mt-lg-0 mt-4">
+                    <div className="three">
+                      <h1>Vision</h1>
+                    </div>
+                  <p>
                           Monark University will be an inclusive and engaged
                           research-intensive university that inspires creativity
                           through outstanding achievements in learning, with up
                           to date curriculum and contemporary delivery to meet
                           the demands of the global higher education landscape.
                         </p>
-                      </div>
-                      <div class="it-career-thumb">
-                        <img
-                          alt=""
-                          loading="lazy"
-                          width="309"
-                          height="252"
-                          decoding="async"
-                          data-nimg="1"
-                          src="/_next/image?url=%2Fimg%2Fcareer%2Fthumb-1.png&amp;w=640&amp;q=75"
-                        />
-                      </div>
-                      <div class="it-career-shape-1">
-                        <img
-                          alt=""
-                          loading="lazy"
-                          width="642"
-                          height="350"
-                          decoding="async"
-                          data-nimg="1"
-                          src="/_next/image?url=%2Fimg%2Fcareer%2Fshape-1.png&amp;w=1920&amp;q=75"
-                        />
-                      </div>
+                  </div>
+                  </div>
+                  <div className="row flex-row-reverse about-2 mt-4">
+                  <div className="col-lg-6 col-md-5 col-12 mt-lg-0 mt-4">
+                    <div className="vision-img">
+                      <img src="/img/vision/mission1.jpg" alt="" />
                     </div>
                   </div>
-                  <div class="col-xl-6 col-lg-6 mt-lg-0 mt-4 ">
-                    <div class="it-career-item it-career-item-right p-relative fix">
-                      <div class="it-career-content">
-                        <h2 className="text-white mb-20">Mission</h2>
-                        <p>
+                  <div className="col-lg-6 col-md-7 col-12 mt-lg-0 mt-4">
+                    <div className="three">
+                      <h1>Mission</h1>
+                    </div>
+                  <p>
                           Monark University is committed to engaging with the
                           key issues of our natural and social worlds through
                           outstanding teaching, research, and scholarship.
@@ -467,30 +450,6 @@ export default function About() {
                           supportive intellectual environment that attracts and
                           connects people from all over the world.
                         </p>
-                      </div>
-                      <div class="it-career-thumb">
-                        <img
-                          alt=""
-                          loading="lazy"
-                          width="309"
-                          height="252"
-                          decoding="async"
-                          data-nimg="1"
-                          src="/_next/image?url=%2Fimg%2Fcareer%2Fthumb-2.png&amp;w=640&amp;q=75"
-                        />
-                      </div>
-                      <div class="it-career-shape-1">
-                        <img
-                          alt=""
-                          loading="lazy"
-                          width="642"
-                          height="350"
-                          decoding="async"
-                          data-nimg="1"
-                          src="/_next/image?url=%2Fimg%2Fcareer%2Fshape-1.png&amp;w=1920&amp;q=75"
-                        />
-                      </div>
-                    </div>
                   </div>
                 </div>
               </div>
@@ -503,16 +462,16 @@ export default function About() {
               <div className="it-sv-details-area mt-50">
                 <div className="container">
                   <div className="row">
-                    <div className="col-xl col-lg about-1">
+                    <div className="col-xl col-lg">
                       <div className="it-sv-details-top-wrap mb-20">
                         <div className="row">
-                          <div className="col-xl-6 col-lg-6">
+                          <div className="col-xl-4 col-lg-6">
                             <div className="it-sv-details-top-thumb">
-                              <img src='https://monarkuni.ac.in/wp-content/uploads/2021/06/SMET-175-Copy.jpg' className="img-fluid" />
+                              <img  src='https://monarkuni.ac.in/wp-content/uploads/2021/06/SMET-175-Copy.jpg' className="img-fluid" />
                             </div>
                           </div>
-                          <div className="col-xl-6 col-lg-6">
-                            <div className="it-sv-details-top-content">
+                          <div className="col-xl-8 col-lg-6">
+                            <div className="it-sv-details-top-content three">
                               <h4 className="it-sv-details-title">
                                 About President
                               </h4>
@@ -547,18 +506,18 @@ export default function About() {
                 <div className="it-sv-details-area mt-50">
                   <div className="container">
                     <div className="row">
-                      <div className="col-xl col-lg about-1">
+                      <div className="col-xl col-lg">
                         <div className="it-sv-details-top-wrap mb-20">
-                          <div className="row">
-                            <div className="col-xl-6 col-lg-6">
+                          <div className="row flex-row-reverse">
+                            <div className="col-xl-4 col-lg-6">
                               <div className="it-sv-details-top-thumb">
                                 <img src='https://monarkuni.ac.in/wp-content/uploads/2021/07/SMET-163.jpg' className="img-fluid" />
                               </div>
                             </div>
-                            <div className="col-xl-6 col-lg-6">
-                              <div className="it-sv-details-top-content">
+                            <div className="col-xl-8 col-lg-6">
+                              <div className="it-sv-details-top-content three">
                                 <h4 className="it-sv-details-title">
-                                  About Vice-President{" "}
+                                  About Vice-President
                                 </h4>
                                 <p>
                                   Dr. Satishbharthi Goswami is the Vice
@@ -591,16 +550,16 @@ export default function About() {
                   <div className="it-sv-details-area mt-50">
                     <div className="container">
                       <div className="row">
-                        <div className="col-xl col-lg about-1">
+                        <div className="col-xl col-lg">
                           <div className="it-sv-details-top-wrap mb-20">
                             <div className="row">
-                              <div className="col-xl-6 col-lg-6 ">
+                              <div className="col-xl-4 col-lg-6 ">
                                 <div className="it-sv-details-top-thumb">
                                   <img src='https://monarkuni.ac.in/wp-content/uploads/2021/06/SMET-218-Copy.jpg' className="img-fluid" />
                                 </div>
                               </div>
-                              <div className="col-xl-6 col-lg-6">
-                                <div className="it-sv-details-top-content">
+                              <div className="col-xl-8 col-lg-6">
+                                <div className="it-sv-details-top-content three">
                                   <h4 className="it-sv-details-title">
                                     About Provost
                                   </h4>
