@@ -476,6 +476,11 @@ p {
             transform: translate(-50%,-50%);
             width: 95%;
             }
+            .hero-img video {
+                width: 100vw!important;
+                height: 326px;
+                margin-top: 28px;
+            }
         
     
 }
