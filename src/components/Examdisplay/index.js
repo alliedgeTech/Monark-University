@@ -61,7 +61,7 @@ const Examdisplay = () => {
     try {
       const result = await ExamAPI({
         method: "GET",
-        endpoint: "https://mu-l50w.onrender.com/exam-schedules",
+        endpoint: "https://monarkuniversitybacked.onrender.com/exam-schedules",
       });
       setExam(result);
       setLoading(false);

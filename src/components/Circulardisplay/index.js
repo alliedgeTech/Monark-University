@@ -61,7 +61,7 @@ const index = () => {
     try {
       const result = await CircularAPI({
         method: "GET",
-        endpoint: "https://mu-l50w.onrender.com/circulars",
+        endpoint: "https://monarkuniversitybacked.onrender.com/circulars",
       });
       setCircular(result);
       setLoading(false);

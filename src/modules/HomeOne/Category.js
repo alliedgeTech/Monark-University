@@ -144,7 +144,7 @@ export default function Category() {
         </div>
         <div className="col-lg-7">
         <div className="best-university-heading three mb-3">
-        <h1>Best University in Ahmedabad</h1>
+        <h1>Best University <span>in Ahmedabad</span> </h1>
       </div>
           <div className="best-university-text">
             <p className="mb-2">
