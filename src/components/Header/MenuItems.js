@@ -388,8 +388,8 @@ export default function MenuItems(props) {
         <li><Link href="/about-us#leadership">Leadership</Link></li>
         <li><Link href="/about-us#officersandauthority">Officers & Authority</Link></li>
         <li><Link target="_blank" href="https://monarkuni.ac.in/wp-content/uploads/2021/06/1_About-MU-Gazatte-Ex.-18-Act-15-of-2021.pdf">Gazette Act-15 of 2021</Link></li>
-        <li><Link href="https://monarkuni.ac.in/wp-content/uploads/2021/06/2_About-MU-Education-Department-Notification.pdf">Education Department Notification</Link></li>
-        <li><Link href="https://monarkuni.ac.in/wp-content/uploads/2022/07/UGC-LETTER_ORIGINAL-COPY.pdf">UGC Approval Letter</Link></li>
+        <li><Link target="_blank" href="https://monarkuni.ac.in/wp-content/uploads/2021/06/2_About-MU-Education-Department-Notification.pdf">Education Department Notification</Link></li>
+        <li><Link target="_blank" href="https://monarkuni.ac.in/wp-content/uploads/2022/07/UGC-LETTER_ORIGINAL-COPY.pdf">UGC Approval Letter</Link></li>
         <li><Link href="/about-us#committeessgrc">Committees SGRC</Link></li>
     </ul>
 </li>
@@ -486,7 +486,7 @@ export default function MenuItems(props) {
                 <Link href="/exam">Exam Schedule</Link>
               </li>
               <li>
-                <Link href="/teacher/teacher-one">Results</Link>
+                <Link target="_blank" href="https://monark.icrp.in/academic/">Results</Link>
               </li>
               
             </ul>

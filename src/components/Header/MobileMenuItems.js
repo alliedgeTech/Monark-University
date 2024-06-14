@@ -231,42 +231,44 @@ export default function MobileMenuItems(props) {
             </Link>
             <ul className={about ? "it-submenu submenu-open" : "it-submenu"}>
               <li>
-                <Link href="/services">Historical Background</Link>
+                <Link href="/about-us#historicalbackground">Historical Background</Link>
               </li>
               <li>
-                <Link href="/services/two">President's Message</Link>
+                <Link href="/about-us#visionandmission">Vision & Mission</Link>
               </li>
               <li>
-                <Link href="/services/three">Provost Message</Link>
+                <Link href="/about-us#presidentmessage">President's Message</Link>
               </li>
               <li>
-                <Link href="/services/details">Leadership</Link>
+                <Link href="/about-us#presidentmessage">Vice President's Message</Link>
               </li>
               <li>
-                <Link href="/services/details">Gazette Act-15 Of 2021</Link>
+                <Link href="/about-us#provostmessage">Provost Message</Link>
               </li>
               <li>
-                <Link href="/services/details">UGC Approval Letter</Link>
+                <Link href="/about-us#leadership">Leadership</Link>
               </li>
               <li>
-                <Link href="/services/details">Vision & Mission</Link>
+                <Link target="_blank" href="https://monarkuni.ac.in/wp-content/uploads/2021/06/1_About-MU-Gazatte-Ex.-18-Act-15-of-2021.pdf">Gazette Act-15 Of 2021</Link>
               </li>
               <li>
-                <Link href="/services/details">Vice President's Message</Link>
+                <Link target="_blank" href="https://monarkuni.ac.in/wp-content/uploads/2022/07/UGC-LETTER_ORIGINAL-COPY.pdf">UGC Approval Letter</Link>
+              </li>
+              
+              
+              <li>
+                <Link href="/about-us#recognitionandapproval">Recognition & Approval</Link>
               </li>
               <li>
-                <Link href="/services/details">Recognition & Approval</Link>
+                <Link href="/about-us#officersandauthority">Officers & Authority</Link>
               </li>
               <li>
-                <Link href="/services/details">Officers & Authority</Link>
-              </li>
-              <li>
-                <Link href="/services/details">
+                <Link target="_blank" href="https://monarkuni.ac.in/wp-content/uploads/2021/06/2_About-MU-Education-Department-Notification.pdf">
                   Education Department Notification
                 </Link>
               </li>
               <li>
-                <Link href="/services/details">Committees SGRC</Link>
+                <Link href="/about-us#committeessgrc">Committees SGRC</Link>
               </li>
             </ul>
           </li>
@@ -399,7 +401,7 @@ export default function MobileMenuItems(props) {
           {/* Academic */}
           <li className="has-dropdown nav-link2">
             <Link
-              href="#"
+              href="/calander"
               className={academic ? "active" : ""}
               onClick={() => {
                 openMobileMenu("academic");
@@ -421,19 +423,19 @@ export default function MobileMenuItems(props) {
             </Link>
             <ul className={academic ? "it-submenu submenu-open" : "it-submenu"}>
               <li>
-                <Link href="/course">Academic Calender</Link>
+                <Link href="/calander">Academic Calender</Link>
               </li>
               <li>
-                <Link href="/course-2">Circuler</Link>
+                <Link href="/circular">Circuler</Link>
               </li>
               <li>
                 <Link href="/syllabus">Syllabus</Link>
               </li>
               <li>
-                <Link href="/teacher">Exam Schedule</Link>
+                <Link href="/exam">Exam Schedule</Link>
               </li>
               <li>
-                <Link href="/teacher/teacher-one">Results</Link>
+                <Link target="_blank" href="https://monark.icrp.in/academic/">Results</Link>
               </li>
             </ul>
           </li>
@@ -526,7 +528,7 @@ export default function MobileMenuItems(props) {
                 <Link href="/campus#teacherday">Teacher's Day</Link>
               </li>
               <li>
-                <Link href="/blog/blog-one">Students Club</Link>
+                <Link href="/campus#studentclub">Students Club</Link>
               </li>
             </ul>
           </li>
