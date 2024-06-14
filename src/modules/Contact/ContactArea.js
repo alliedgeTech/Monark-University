@@ -1,9 +1,19 @@
 import React, { useRef } from "react";
 import emailjs from "@emailjs/browser";
+// import { ToastContainer, toast } from 'react-toastify';
+// import 'react-toastify/dist/ReactToastify.css';
+
 
 export default function ContactArea() {
   const form = useRef();
 
+ 
+  
+const clearData=()=>{
+  alert("form submitted successfully");
+  // toast.success('Form submitted Successfully!');
+  // document.getElementById("myform").reset();
+}
   const sendEmail = async (e) => {
     e.preventDefault();
 
@@ -36,7 +46,9 @@ export default function ContactArea() {
   };
 
   return (
+    
     <div className="it-contact__area pt-120 pb-120">
+       
       <div className="container">
         <div className="it-contact__wrap fix z-index-3 p-relative">
           <div className="it-contact__shape-1 d-none d-xl-block"></div>
@@ -115,7 +127,7 @@ export default function ContactArea() {
             </div>
             <div className="col-xl-5">
               <div className="it-contact__form-box">
-                <form ref={form} onSubmit={sendEmail}>
+                <form ref={form} onSubmit={sendEmail} id="myform">
                   <div className="row">
                     <div className="col-12 mb-25">
                       <div className="it-contact-input-box">
@@ -124,6 +136,7 @@ export default function ContactArea() {
                           type="text"
                           placeholder="Name"
                           name="user_name"
+                          required="true"
                         />
                       </div>
                     </div>
@@ -134,6 +147,7 @@ export default function ContactArea() {
                           type="email"
                           placeholder="Email"
                           name="user_email"
+                            required="true"
                         />
                       </div>
                     </div>
@@ -144,6 +158,7 @@ export default function ContactArea() {
                           type="text"
                           placeholder="Phone"
                           name="user_phone"
+                            required="true"
                         />
                       </div>
                     </div>
@@ -154,6 +169,7 @@ export default function ContactArea() {
                           type="text"
                           placeholder="Subject"
                           name="user_subject"
+                            required="true"
                         />
                       </div>
                     </div>
@@ -163,12 +179,13 @@ export default function ContactArea() {
                         <textarea
                           placeholder="Message"
                           name="user_message"
+                          
                         ></textarea>
                       </div>
                     </div>
                   </div>
-                  <button type="submit" className="it-btn">
-                    <span>
+                  <button type="submit" className="it-btn" onClick={clearData}>
+                    <span >
                       Send Message
                       <svg
                         width="17"
@@ -196,6 +213,7 @@ export default function ContactArea() {
                       </svg>
                     </span>
                   </button>
+                  {/* <ToastContainer autoClose={3000} /> */}
                 </form>
               </div>
             </div>
