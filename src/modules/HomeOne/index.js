@@ -12,7 +12,7 @@ import Career from "./Career"
 import Blog from "./Blog"
 import Newsletter from "@/components/Newsletter"
 import ScrollTop from "@/components/ScrollTop"
-
+import CounterDisplay from "@/components/CounterDisplay"
 
 export default function HomeOneModules() {
 	return (
@@ -20,6 +20,7 @@ export default function HomeOneModules() {
 			
 			<Banner />
 			<Category />
+			<CounterDisplay />
 			<Service />
 			<About />
 			<Course />

@@ -5,9 +5,9 @@ import footerImg from "../../../public/img/logo/MONARK_LOGO.png"
 export default function Footer(props) {
 	const { footerLogo, footerClass } = props
 	return (
-		<footer className='footer container-fluid pt-20'>
+		<footer className='footer  pt-3'>
 			<div className="container">
-				<div className="footer-up py-1">
+				{/* <div className="footer-up py-1">
 					<div className="row">
 						<div className="col-lg-4 col-md-3 col-sm-12">
 							<div className='footer-logo d-flex'>
@@ -18,9 +18,9 @@ export default function Footer(props) {
 							
 						</div>
 					</div>
-				</div>
-				<hr style={{background:'#dadada',height:'1px'}} />
-				<div className="footer-middle py-4">
+				</div> */}
+				{/* <hr style={{background:'#dadada',height:'1px'}} /> */}
+				<div className="footer-middle pb-3">
 					<div className="row">
 						<div className="col-lg-2 col-md-6 col-12">
 							<div className="d-flex flex-column">
@@ -95,8 +95,8 @@ export default function Footer(props) {
 					</div>
 				</div>
 			</div>
-				<div className="footer-bottom py-2	" style={{background:'#001A39'}}>
-					<p className='text-center mb-0 text-white'>Copyright © 2024 Monark University</p>
+				<div className="footer-bottom	text-center" style={{background:'#001A39'}}>
+					<small className=' mb-0 text-white'>Copyright © 2024 Monark University</small>
 				</div>
 		</footer>
 	)

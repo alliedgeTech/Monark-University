@@ -12,10 +12,11 @@ export default function ContactArea() {
   const clearData = () => {
     // alert("form submitted successfully");
     // toast.success('Form submitted Successfully!');
-     document.getElementById("myform").reset();
+     
     toast.success("Form submitted Successfully");
   };
   const sendEmail = async (e) => {
+    
     e.preventDefault();
 
     const formData = {
@@ -131,7 +132,7 @@ export default function ContactArea() {
             </div>
             <div className="col-xl-5">
               <div className="it-contact__form-box">
-                <form ref={form} onSubmit={sendEmail} id="myform">
+                <form ref={form} onSubmit={sendEmail}>
                   <div className="row">
                     <div className="col-12 mb-25">
                       <div className="it-contact-input-box">

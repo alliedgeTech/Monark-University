@@ -38,7 +38,6 @@ h1 {
             }
             
             h4 {
-            font-family: "Open Sans" !important;
     font-size: 24px;
     }
     
@@ -1733,4 +1732,75 @@ color: #dadada !important;
     color: white;
     transform: rotateY( 180deg );
   }
+  .counter-box{
+    border: 3px solid rgb(202, 122, 57);
+    padding: 25px 0 !important;
+    background: #ededed;
+  }
+  .counter-box-main{
+    background: #d2d2d2;
+    border-radius: 20px;
+    box-shadow: 0 3px 5px #5a6fce;
+    padding: 50px 0 !important;
+  }
+  .counter-box-1{
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+.counter-box-2{
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+.counter-box-3{
+    border-bottom-left-radius: 30px;
+    border-top-right-radius: 30px;
+}
+.counter-box-4{
+      border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+  }
+  .counter-box img,.counter-box-main img{
+    height: 50px;
+    width: 50px;
+  }
+  .counter-box .count-text,.counter-box-main .count-text{
+    color: var(--web-color);
+    font-weight: 700;
+    font-size: 30px;
+  }
+  .counter-div:hover .why_mu{
+    box-shadow: 0 0 10px rgba(148, 79, 29, 0.917);
+    border: 3px solid var(--web-orange);
+    height: 155px;
+    width: 155px;
+  }
+ 
+.counter-div .why_mu{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%) !important;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    background: var(--web-color);
+    transition: all 0.5s;
+}
+.counter-div .why_mu{
+    color: var(--web-white);
+    font-size: 26px;
+    letter-spacing: 1px;
+    font-family: 'Open Sans', sans-serif;
+}
+.counter-div .why_mu span{
+    margin-top: 4px;
+    color: var(--web-orange);
+    font-size: 40px;
+    font-family: 'Oswald';
+}
 
+.counter-heading h1{
+    font-family: 'Oswald' !important;
+    font-weight: 600;
+    font-size: 35px;
+}
