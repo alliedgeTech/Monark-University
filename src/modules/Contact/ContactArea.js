@@ -1,10 +1,22 @@
 import React, { useRef } from "react";
 import emailjs from "@emailjs/browser";
+// import { ToastContainer, toast } from 'react-toastify';
+// import 'react-toastify/dist/ReactToastify.css';
+import { toast, Toaster } from "react-hot-toast";
+
+
 
 export default function ContactArea() {
   const form = useRef();
 
+  const clearData = () => {
+    // alert("form submitted successfully");
+    // toast.success('Form submitted Successfully!');
+     
+    toast.success("Form submitted Successfully");
+  };
   const sendEmail = async (e) => {
+    
     e.preventDefault();
 
     const formData = {
@@ -17,13 +29,16 @@ export default function ContactArea() {
 
     try {
       // Send data to your custom API
-      const response = await fetch("https://monarkuniversitybacked.onrender.com/contacts", {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-        },
-        body:JSON.stringify(formData),
-      });
+      const response = await fetch(
+        "https://monarkuniversitybacked.onrender.com/contacts",
+        {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+          },
+          body: JSON.stringify(formData),
+        }
+      );
 
       if (response.ok) {
         console.log("Data sent to API successfully!");
@@ -74,7 +89,9 @@ export default function ContactArea() {
                         </div>
                         <div className="it-contact__text">
                           <span>Gmail</span>
-                          <a href="mailto:info@monarkuni.ac.in">info@monarkuni.ac.in</a>
+                          <a href="mailto:info@monarkuni.ac.in">
+                            info@monarkuni.ac.in
+                          </a>
                         </div>
                       </div>
                     </li>
@@ -124,6 +141,7 @@ export default function ContactArea() {
                           type="text"
                           placeholder="Name"
                           name="user_name"
+                          required="true"
                         />
                       </div>
                     </div>
@@ -134,6 +152,7 @@ export default function ContactArea() {
                           type="email"
                           placeholder="Email"
                           name="user_email"
+                          required="true"
                         />
                       </div>
                     </div>
@@ -144,6 +163,7 @@ export default function ContactArea() {
                           type="text"
                           placeholder="Phone"
                           name="user_phone"
+                          required="true"
                         />
                       </div>
                     </div>
@@ -154,6 +174,7 @@ export default function ContactArea() {
                           type="text"
                           placeholder="Subject"
                           name="user_subject"
+                          required="true"
                         />
                       </div>
                     </div>
@@ -167,7 +188,7 @@ export default function ContactArea() {
                       </div>
                     </div>
                   </div>
-                  <button type="submit" className="it-btn">
+                  <button type="submit" className="it-btn" onClick={clearData}>
                     <span>
                       Send Message
                       <svg
@@ -196,6 +217,8 @@ export default function ContactArea() {
                       </svg>
                     </span>
                   </button>
+                  <Toaster position="bottom-center" reverseOrder={false} />
+                  {/* <ToastContainer autoClose={3000} /> */}
                 </form>
               </div>
             </div>

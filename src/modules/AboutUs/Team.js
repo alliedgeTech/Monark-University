@@ -57,6 +57,7 @@ export default function Team() {
               autoplayTimeout={5000}
               dots={true}
               responsive={Responsive}
+              margin={10}
             >
               {Teachers.map((teacher) => {
                 return (
