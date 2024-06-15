@@ -148,12 +148,15 @@ const index = () => {
                 <div className="news-head">
                   <div className="news-img-box">
                     <img src={item.image} alt="" />
-                    <button className="hover-btn news-hover-btn">
+                   
+                    <button className="hover-btn news-hover-btn" >
                       <div className="text-div">
                         <small>Read More</small>
                         <small>Read More</small>
                       </div>
                     </button>
+              
+
                   </div>
                   {/* <div className="news-date-btn mt-2">
                     <small>{item.lastDate}</small>

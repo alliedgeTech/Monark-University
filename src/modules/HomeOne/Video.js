@@ -3,7 +3,7 @@ import dynamic from "next/dynamic";
 import "owl.carousel/dist/assets/owl.carousel.css";
 import "owl.carousel/dist/assets/owl.theme.default.css";
 import Link from "next/link";
-import axios from 'axios';
+import axios from "axios";
 
 // Import jQuery
 if (typeof window !== "undefined") {
@@ -55,10 +55,6 @@ export default function Video() {
   const [latestNews, setLatestNews] = useState([]);
   const [loading, setLoading] = useState(true);
 
-  useEffect(() => {
-    fetchData();
-  }, []);
-
   const fetchData = async () => {
     try {
       const result = await ApiService({
@@ -72,13 +68,17 @@ export default function Video() {
       setLoading(false);
     }
   };
-
+ 
+  useEffect(() => {
+    fetchData();
+  }, []);
+  
   return (
     <div className="Latest-News py-5 px-lg-5 px-2">
       <div className="container">
         <div className="student-placement-heading mb-20">
           <div className="three">
-          <h1 className="mb-0">Latest News</h1>
+            <h1 className="mb-0">Latest News</h1>
           </div>
         </div>
 
@@ -95,24 +95,25 @@ export default function Video() {
             autoplayTimeout={3000}
           >
             {latestNews.map((item, index) => (
-              <div className="item p-2">
+              <div className="item p-2" key={index}>
                 <div className="news-card p-3">
                   <div className="news-head">
                     <div className="news-img-box">
                       <img src={item.image} alt="" />
-                      <button className="hover-btn news-hover-btn px-4">
-                        <div className="text-div">
-                          <small>Read</small>
-                          <small>More</small>
-                        </div>
-                      </button>
+                      <Link href={`/newsdetails?_id=${item._id}`}>
+                        <button className="hover-btn news-hover-btn px-4">
+                          <div className="text-div">
+                            <small>Read</small>
+                            <small>More</small>
+                          </div>
+                        </button>
+                      </Link>
                     </div>
-                    {/* <div className="news-date-btn mt-2">
-                      <small>{item.lastDate}</small>
-                    </div> */}
                     <div className="news-info-box mt-4">
-                    <h4>{item.title}</h4>
-                    <small className="news-description-ellips">{item.description}</small>
+                      <h4>{item.title}</h4>
+                      <small className="news-description-ellips">
+                        {item.description}
+                      </small>
                     </div>
                   </div>
                 </div>
@@ -120,7 +121,6 @@ export default function Video() {
             ))}
           </OwlCarousel>
         )}
-
       </div>
     </div>
   );
