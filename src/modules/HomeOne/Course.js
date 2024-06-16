@@ -108,9 +108,9 @@ export default function Course() {
   return (
     <div className="student-club container-fluid py-5  pb-4">
       <div className="container">
-        <div className="student-club-heading mb-4">
+        <div className="course-heading-home w-50 mb-40">
           <h1 className="">
-            Explore Our Vibrant Student Clubs and Communities
+            Explore Our <span>Vibrant</span>  Student Clubs and <span>Communities</span>
           </h1>
         </div>
 
@@ -118,7 +118,7 @@ export default function Course() {
           id="carouselExampleIndicators2"
           class="carousel carousel2 slide mt-5"
         >
-          <div class="carousel-buttons carousel-club-buttons  flex-wrap gap-4 mx-auto mb-30 d-flex align-items-center">
+          <div class="carousel-buttons carousel-club-buttons gap-4 flex-wrap mx-auto mb-30 d-flex align-items-center">
             <button
               type="button"
               className="ski-button active"
@@ -158,9 +158,9 @@ export default function Course() {
             </button>
           </div>
 
-          <div class="carousel-inner mt-10">
+          <div class="carousel-inner py-4 px-3 mt-10">
             <div class="carousel-item item active">
-              <div className="student-club-info w-100 mt-4 h-100">
+              <div className="student-club-info about-2 w-100 mt-4 h-100">
                 <div className="row">
                   <div className="col-lg-4 col-md-12 mt-lg-0 mt-4">
                     <div className="student-club-image">
@@ -174,7 +174,7 @@ export default function Course() {
                   <div className="col-lg-8 col-md-12 mt-lg-0 mt-4">
                     <div className="student-club-text">
                       <div className="three mb-20">
-                        <h4>Multi Activity club</h4>
+                        <h4>01. Multi Activity club</h4>
                       </div>
                       <p>
                         Multi Activity club is to give an opportunity to
@@ -192,7 +192,7 @@ export default function Course() {
               </div>
             </div>
             <div class="carousel-item item">
-              <div className="student-club-info w-100 mt-4 h-100">
+              <div className="student-club-info about-2 w-100 mt-4 h-100">
                 <div className="row">
                   <div className="col-lg-4 col-md-12 mt-lg-0 mt-4">
                     <div className="student-club-image">
@@ -206,7 +206,7 @@ export default function Course() {
                   <div className="col-lg-8 col-md-12 mt-lg-0 mt-4">
                     <div className="student-club-text">
                       <div className="three mb-20">
-                        <h4>Go Green Clubs</h4>
+                        <h4>02. Go Green Clubs</h4>
                       </div>
                       <p>
                         Green clubs in colleges will empower students to
@@ -222,7 +222,7 @@ export default function Course() {
               </div>
             </div>
             <div class="carousel-item item">
-              <div className="student-club-info w-100 col-lg-4 h-100 mt-4">
+              <div className="student-club-info about-2 w-100 col-lg-4 h-100 mt-4">
                 <div className="row">
                   <div className="col-lg-4 col-md-12 mt-lg-0 mt-4">
                     <div className="student-club-image">
@@ -236,7 +236,7 @@ export default function Course() {
                   <div className="col-lg-8 col-md-12 mt-lg-0 mt-4">
                     <div className="student-club-text">
                       <div className="three mb-20">
-                        <h4>Spiritual Club</h4>
+                        <h4>03. Spiritual Club</h4>
                       </div>
                       <p>
                         Our institution has established health club and
@@ -254,7 +254,7 @@ export default function Course() {
               </div>
             </div>
             <div class="carousel-item item">
-              <div className="student-club-info w-100 h-100 mt-4">
+              <div className="student-club-info about-2 w-100 h-100 mt-4">
                 <div className="row">
                   <div className="col-lg-4 col-md-12 mt-lg-0 mt-4">
                     <div className="student-club-image">
@@ -268,7 +268,7 @@ export default function Course() {
                   <div className="col-lg-8 col-md-12 mt-lg-0 mt-4">
                     <div className="student-club-text">
                       <div className="three mb-20">
-                        <h4>Personality Develop Club</h4>
+                        <h4>04. Personality Develop Club</h4>
                       </div>
                       <p>
                         This will help club members to gain personal and

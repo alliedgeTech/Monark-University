@@ -1142,13 +1142,7 @@ p {
     box-shadow: 0 0 10px #9e9e9e !important;
 }
 
-.even h1 {
-    /* color: var(--web-white) !important; */
-}
 
-.even p {
-    /* color: var(--web-white) !important; */
-}
 
 .history-card {
     background: #1566a5;
@@ -1236,9 +1230,7 @@ p {
     padding: 1px 10px !important;
 }
 
-.nav-link:hover{
-    
-}
+
 .nav-link:hover > a{
     color: var(--web-orange) !important;
 }
