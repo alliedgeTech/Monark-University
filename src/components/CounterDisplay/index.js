@@ -53,6 +53,7 @@ const index = () => {
                         <div className="col-6">
                             <div className="counter-box counter-box-1 d-flex align-items-center flex-column">
                                 <img src="/img/counter/school.png" alt="" />
+                                <h6>Institues</h6>
                                 <div className="count-text mt-4 d-flex align-items-center justify-content-center">
                                 <CountUp
                             start={0}
@@ -67,6 +68,7 @@ const index = () => {
                         <div className="col-6">
                             <div className="counter-box counter-box-2 d-flex align-items-center flex-column">
                                 <img src="/img/counter/network.png" alt="" />
+                                <h6>Departments</h6>
                                 <div className="count-text mt-4 d-flex align-items-center justify-content-center">
                                 <CountUp
                             start={0}
@@ -81,6 +83,7 @@ const index = () => {
                         <div className="col-6 mt-4">
                             <div className="counter-box counter-box-3 d-flex align-items-center flex-column">
                                 <img src="/img/counter/teacher.png" alt="" />
+                                <h6>Faculty</h6>
                                 <div className="count-text mt-4 d-flex align-items-center justify-content-center">
                                 <CountUp
                             start={0}
@@ -95,6 +98,7 @@ const index = () => {
                         <div className="col-6 mt-4">
                             <div className="counter-box counter-box-4 d-flex align-items-center flex-column">
                                 <img src="/img/counter/data.png" alt="" />
+                            <h6>Programs</h6>
                                 <div className="count-text mt-4 d-flex align-items-center justify-content-center">
                                 <CountUp
                             start={0}
@@ -113,7 +117,8 @@ const index = () => {
                     <div className="d-flex counter-heading align-items-center-justify-content-between h-100 flex-column">
                         <h1>Experience Unmatched Academic Diversity with Leading Experts and Programs</h1>
                         <div className="counter-box-main mt-4 d-flex align-items-center flex-column">
-                                <img src="/img/counter/data.png" alt="" />
+                                <img src="/img/counter/graduated.png" alt="" />
+                                <h6>Students</h6>
                                 <div className="count-text mt-4 d-flex align-items-center justify-content-center">
                                 <CountUp
                             start={0}

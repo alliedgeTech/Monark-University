@@ -589,12 +589,12 @@ p {
     margin-top: 30px;
 }
 
-.student-club-btn button {
+/* .student-club-btn button {
     border-radius: 10px;
     color: var(--web-white);
     padding: 4px 12px;
     background: var(--web-orange);
-}
+} */
 
 .student-club-info {
     position: relative;
@@ -610,9 +610,9 @@ p {
     } */
 }
 
-.student-club-info:hover .student-club-text {
+/* .student-club-info:hover .student-club-text {
     opacity: 1;
-}
+} */
 
 
 /* 
@@ -1432,24 +1432,23 @@ p {
 .nav-tabs .nav-link.active{
     background: var(--web-color) !important;
     border: none !important;
-    border-radius: 20px !important;
+    /* border-radius: 20px !important; */
     color: #fff !important;
     opacity: 1 !important;
 }
-.nav-tabs .nav-link:hover{
+/* .nav-tabs .nav-link:hover{
     border: none !important;
     background: var(--web-color) !important;
     border-radius: 20px !important;
     color: #fff !important;
     opacity: 1 !important;
-}
+} */
 .nav-tabs .nav-link{
     border: none !important;
-    background: var(--web-orange) !important;
-    border-radius: 20px !important;
+    background: #dadada !important;
+    /* border-radius: 20px !important; */
     padding: 5px 15px !important;
     color: #000000 !important;
-    opacity: 0.8 !important;
     margin: 20px 3px;
 }
 .placement-carousel .img-box{
@@ -1623,18 +1622,18 @@ p {
     transform: translateY(-40px) !important;
     opacity: 1;
 }
-.carousel-buttons{
+.carousel-orange-buttons{
     width: max-content;
     box-shadow: 0px 10px 20px #00000029;
     border-radius: 12px !important;
     overflow: visible;
 }
-.carousel-buttons button{
+.carousel-orange-buttons button{
     padding: 12px 22px;
     color: #000000;
     font-weight: 600;
 }
-.carousel-buttons .active{
+.carousel-orange-buttons .active{
     background: var(--web-orange);
     font-weight: 600;
     transform: scale(1.2);
@@ -1674,12 +1673,12 @@ color: #dadada !important;
     transition: all 0.5s;
 }
 @media screen and (max-width:430px) {
-    .carousel-buttons{
+    .carousel-orange-buttons{
         justify-content: space-between;
         width: 100%;
         padding: 0 4px;
     }
-    .carousel-buttons button{
+    .carousel-orange-buttons button{
         padding: 10px 7px !important; 
     }
 }
@@ -1738,9 +1737,10 @@ color: #dadada !important;
     background: #ededed;
   }
   .counter-box-main{
-    background: #d2d2d2;
+    background: #bdbdbd;
     border-radius: 20px;
-    box-shadow: 0 3px 5px #5a6fce;
+    border: 1px solid black;
+    /* box-shadow: 0 3px 5px #5a6fce; */
     padding: 50px 0 !important;
   }
   .counter-box-1{
@@ -1804,3 +1804,51 @@ color: #dadada !important;
     font-weight: 600;
     font-size: 35px;
 }
+.ski-button {
+    padding: 10px 22px;
+    border: none;
+    /* border-radius: 5px; */
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    cursor: pointer;
+    color: var(--web-color);
+    transition: all 1000ms;
+    font-size: 15px;
+    position: relative;
+    overflow: hidden;
+    outline: 2px solid var(--web-color);
+  }
+  
+  .ski-button:hover {
+    color: #ffffff !important;
+    transform: scale(1.1);
+    outline: 2px solid var(--web-color);
+    box-shadow: 4px 5px 17px -4px var(--web-color);
+  }
+  .ski-button.active {
+    color: #ffffff !important;
+    transform: scale(1.1);
+    outline: 2px solid var(--web-color);
+    box-shadow: 4px 5px 17px -4px var(--web-color);
+    background: var(--web-color);
+  }
+  
+  .ski-button::before {
+    content: "";
+    position: absolute;
+    left: -50px;
+    top: 0;
+    width: 0;
+    height: 100%;
+    background-color: var(--web-color);
+    transform: skewX(45deg);
+    z-index: -1;
+    transition: width 1000ms;
+  }
+  
+  .ski-button:hover::before {
+    width: 250%;
+  }
+
+  

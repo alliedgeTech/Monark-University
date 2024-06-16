@@ -45,7 +45,7 @@ export default function Service() {
           </div>
               </div>
               <div className="col-lg-6 d-flex align-items-center mt-lg-0 mt-4">
-                <div class="carousel-buttons mr-auto mb-30 d-flex align-items-center">
+                <div class="carousel-buttons carousel-orange-buttons mr-auto mb-30 d-flex align-items-center">
               <button
                 type="button"
                 data-bs-target="#carouselExampleIndicators"
