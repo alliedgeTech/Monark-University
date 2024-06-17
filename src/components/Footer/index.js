@@ -38,7 +38,7 @@ export default function Footer(props) {
 								<ul>
 									<li><a href="">Placement</a></li>
 									<li><a href="">Alumni</a></li>
-									<li><a href="">Career @ MU</a></li>
+									<li><a href="/career">Career @ MU</a></li>
 								</ul>
 
 							</div>
