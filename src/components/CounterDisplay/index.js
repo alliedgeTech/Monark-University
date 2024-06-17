@@ -46,7 +46,12 @@ const index = () => {
     <div className="counter py-4">
       <div className="container">
         <div className="counter-div">
-            <div className="row flex-row-reverse">
+            <div className="row">
+            <div className="col-lg-6 col-md-12 col-12 mt-lg-0 mt-4">
+                    <div className="d-flex counter-heading course-heading-home align-items-center-justify-content-between h-100 flex-column">
+                        <h1>Experience Unmatched <span>Academic Diversity</span> with Leading <span>Experts</span> and Programs</h1>
+                    </div>
+                </div>
                 <div className="col-lg-6 col-md-12 col-12 mt-lg-0 mt-4">
                     <div className="row py-2 p-relative">
                         <p className="why_mu d-flex align-items-center justify-content-center flex-column">Why <span>MU</span></p>
@@ -113,24 +118,7 @@ const index = () => {
                     </div>
 
                 </div>
-                <div className="col-lg-6 col-md-12 col-12 mt-lg-0 mt-4">
-                    <div className="d-flex counter-heading course-heading-home align-items-center-justify-content-between h-100 flex-column">
-                        <h1>Experience Unmatched <span>Academic Diversity</span> with Leading <span>Experts</span> and Programs</h1>
-                        {/* <div className="counter-box-main mt-4 d-flex align-items-center flex-column">
-                                <img src="/img/counter/graduated.png" alt="" />
-                                <h6>Students</h6>
-                                <div className="count-text mt-4 d-flex align-items-center justify-content-center">
-                                <CountUp
-                            start={0}
-                            end={50}
-                            duration={6}
-                            onEnd={() => setState(false)}
-                            />
-                                    +
-                                </div>
-                            </div> */}
-                    </div>
-                </div>
+                
             </div>
         </div>
       </div>

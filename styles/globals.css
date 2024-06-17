@@ -535,11 +535,10 @@ p {
 
 
 .best-university-heading h1 {
-    font-size: 4vw;
+    font-family: Oswald !important;
 }
 
 .best-university-heading h1 span {
-    font-size: 4vw;
     color: var(--web-orange) !important;
 }
 
@@ -588,7 +587,7 @@ p {
     width: 100%;
     height: 100%;
     content: "";
-    background: linear-gradient(#0000000a, #000000da);
+    background: linear-gradient(#0000000d, #00000049);
 }
 
 .student-club-main {
@@ -1998,4 +1997,20 @@ tr {
     left: 80px;
     z-index: -1;
 }
-
+.width_50{
+    width: 50%;
+}
+@media screen and (max-width:768px) {
+    .width_50{
+        width: 100%;
+    }
+    
+}
+.truncate {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2; /* number of lines to show */
+            line-clamp: 2;
+    -webkit-box-orient: vertical;
+ }

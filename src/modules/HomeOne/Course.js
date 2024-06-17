@@ -108,7 +108,7 @@ export default function Course() {
   return (
     <div className="student-club container-fluid py-5  pb-4">
       <div className="container">
-        <div className="course-heading-home w-50 mb-40">
+        <div className="course-heading-home width_50 mb-40">
           <h1 className="">
             Explore Our <span>Vibrant</span>  Student Clubs and <span>Communities</span>
           </h1>

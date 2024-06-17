@@ -110,7 +110,7 @@ export default function Video() {
                       </Link>
                     </div>
                     <div className="news-info-box mt-4">
-                      <h4>{item.title}</h4>
+                      <h4 className="truncate" >{item.title}</h4>
                       <small className="news-description-ellips">
                         {item.description}
                       </small>

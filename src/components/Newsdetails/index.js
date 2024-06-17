@@ -77,13 +77,13 @@ export default function Newsdetails() {
                 </div>
                 <div className="postbox__content pb-20">
                   <h6>
-                    Candidate Required Profile:{" "}
+                    Candidate Required Profile:
                     {newsItem.candidateRequiredProfile}
                   </h6>
                 </div>
                 <div className="postbox__details-tag">
                   <a href={newsItem.registrationLink} target="_blank">
-                    {" "}
+                    
                     Register Here
                   </a>
                   <div className="postbox__details-share-wrapper">
