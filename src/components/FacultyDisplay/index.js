@@ -5,6 +5,7 @@ import "owl.carousel/dist/assets/owl.theme.default.css";
 import facultydata from "../../data/faculty";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/dist/ScrollTrigger";
+import { useRouter } from "next/router";
 
 // Import jQuery
 if (typeof window !== "undefined") {
@@ -75,7 +76,6 @@ const index = () => {
             gsap.from(entry.target, {
               x: 100,
             });
-            
           });
         }
       });
@@ -132,84 +132,78 @@ const index = () => {
       });
       animatedElements2.forEach((element) => {
         observer2.observe(element);
-      })
-      
+      });
     };
     // Start observing each element
-    
-
-    
   }, []);
+
+  const router = useRouter();
+  const { id } = router.query;
+  const faculty = facultydata.find((fac) => fac.id == id);
+  if (!faculty) {
+    return <p>Loading...</p>;
+  }
 
   return (
     <div>
-      <div style={{ marginTop: "75px" }} className={`min-vh-100 bg-light py-4`}>
+      <div style={{ marginTop: "75px" }} className="faculty-info">
         <div className="container p-0">
-          {facultydata.map((faculty, index) => {
-            return (
-              <div
-                id={faculty.hastagID}
-                key={index}
-                className={`faculty-info about-1 mb-45 pb-40 ${index % 2 == 0 ? "even" : ""}`}
-              >
-                <div className="faculty-heading mb-20  three w-100">
-                  <h1 className=" ">{faculty.name}</h1>
-                </div>
+          <div
+            className={` mb-45 pb-40`}
+          >
+            <div className="faculty-heading mb-20  three w-100">
+              <h1 className=" ">{faculty.name}</h1>
+            </div>
 
-                <div className="row px-4">
-                  <div className="col-lg-5 col-12 mt-4">
-                    <div className="faculty-img faculty-left">
-                      <img src={faculty.img1} />
-                    </div>
-                  </div>
-                  <div className="col-lg-7 col-12 mt-4">
-                    <p className="faculty-right">{faculty.text_1}</p>
-                  </div>
-                </div>
-                <div className="row px-4">
-                  <div className="col-lg-7 col-12 mt-4 order-lg-1 order-2">
-                    <p className="faculty-left">{faculty.text_2}</p>
-                  </div>
-                  <div className="col-lg-5 col-12 mt-4 order-lg-2 order-1">
-                    <div className="faculty-img faculty-right">
-                      <img src={faculty.img2} alt="" />
-                    </div>
-                  </div>
-                </div>
-                <div style={{ marginTop: "40px" }}>
-                  <OwlCarousel
-                    className="owl-theme px-3 faculty-carousel"
-                    dots={true}
-                    loop={true}
-                    autoPlay={true}
-                    autoplayTimeout={5000}
-                    responsive={Responsive}
-                  >
-                    <div className="item">
-                      <img src={faculty.car_1} alt="" />
-                    </div>
-                    <div className="item">
-                      <img src={faculty.car_2} alt="" />
-                    </div>
-                    <div className="item">
-                      <img src={faculty.car_3} alt="" />
-                    </div>
-                    <div className="item">
-                      <img src={faculty.car_4} alt="" />
-                    </div>
-                  </OwlCarousel>
+            <div className="row">
+              <div className="col-lg-6 col-12 mt-4">
+                <div className="faculty-img faculty-left">
+                  <img src={faculty.img1} />
                 </div>
               </div>
-            );
-          })}
-
-        
+              <div className="col-lg-6 col-12 mt-4">
+                <p className="faculty-right">{faculty.text_1}</p>
+              </div>
+            </div>
+            <div className="row px-4">
+              <div className="col-lg-7 col-12 mt-4 order-lg-1 order-2">
+                <p className="faculty-left">{faculty.text_2}</p>
+              </div>
+              <div className="col-lg-5 col-12 mt-4 order-lg-2 order-1">
+                <div className="faculty-img faculty-right">
+                  <img src={faculty.img2} alt="" />
+                </div>
+              </div>
+            </div>
+            <div style={{ marginTop: "40px" }}>
+              <OwlCarousel
+                className="owl-theme px-3 faculty-carousel"
+                dots={true}
+                loop={true}
+                autoPlay={true}
+                autoplayTimeout={5000}
+                responsive={Responsive}
+              >
+                <div className="item">
+                  <img src={faculty.car_1} alt="" />
+                </div>
+                <div className="item">
+                  <img src={faculty.car_2} alt="" />
+                </div>
+                <div className="item">
+                  <img src={faculty.car_3} alt="" />
+                </div>
+                <div className="item">
+                  <img src={faculty.car_4} alt="" />
+                </div>
+              </OwlCarousel>
+            </div>
+          </div>
 
           <div className="student-say container py-4">
             <div className="say-heading mt-4">
               <div className="one">
-              <h1 className="text-center">What Students Say..</h1>
-
+                <h1 className="text-center">What Students Say..</h1>
               </div>
             </div>
             <OwlCarousel

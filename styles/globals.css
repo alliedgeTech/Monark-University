@@ -738,6 +738,7 @@ p {
 
 .faculty-info {
     padding-top: 5vmin;
+    background-color: #EDEDED;
 }
 
 .faculty-img {
@@ -1781,16 +1782,6 @@ tr {
 .it-breadcrumb-bg::after {
     background: linear-gradient(#000000ce, #000000da) !important;
 }
-
-
-.faculty-carousel {
-    height: 400px !important;
-}
-
-.faculty-carousel .item {
-    height: 300px !important;
-}
-
 .faculty-card {
     float: left;
 }
