@@ -1962,27 +1962,40 @@ tr {
     width: 250%;
 }
 .alumini-student{
-    background: #eeeeee;
+    /* background: #eeeeee; */
+    border-top: 2px solid rgba(128, 128, 128, 0.573);
     padding: 40px 5px !important;
 }
-.alumini-heading h4{
-    font-weight: 400 !important;
-    color: gray;
+.alumini-heading h5{
+    font-weight: 600 !important;
+    text-transform: uppercase;
+    color: #7f7878!important;
 }
 .alumini-heading h1{
-    font-weight: 700 !important;
+    font-weight: 800 !important;
     font-size: 34px !important;
+    font-family: Poppins !important;
+    text-align:start;
 }
 .alumini-heading h1 span{
     font-family: Lilita One !important;
     font-size: 40px;
-    color: var(--web-orange);
+    color: var(--web-color);
 }
+
 .alumini-card{
     max-height: 400px !important;
     border-radius: 20px;
     overflow: hidden;
-    background: var(--web-white);
+    background: var(--web-grey-white);
     box-shadow: 0 3px 5px #bababa;
+}
+.line-round{
+    position: absolute;
+    width: 130px;
+    height: 80px !important;
+    top: 20px;
+    left: 80px;
+    z-index: -1;
 }
 

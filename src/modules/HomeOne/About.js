@@ -240,15 +240,16 @@ export default function About() {
         </div>
       </Marquee>
     </div>
-    <div className="alumini-student mb-30 container-fluid">
-      <div className="row flex-row-reverse">
-        <div className="col-lg-4 col-12">
-          <div className="alumini-heading">
-            <h4>You May Also Be One Of Them</h4>
-            <h1>Our <span>Alumni</span> are Employed by Leading <span>Global</span> Companies</h1>
+    <div className="alumini-student mb-30 container">
+      <div className="row">
+        <div className="col-lg-5 col-12 d-flex align-items-center">
+          <div className="alumini-heading p-relative">
+            <h5>You May Also Be One Of Them</h5>
+            <h1 className="mt-4">Our Alums Employed by the <span>World's</span> Leading <span className="blue">Organizations</span></h1>
+            <img className="img-fluid d-lg-block d-none line-round" src="https://cdn.pixabay.com/photo/2014/12/10/10/08/district-562975_1280.png" alt="" />
           </div>
         </div>
-        <div className="col-lg-8 col-12 px-3">
+        <div className="col-lg-7 col-12 px-3">
           <div className="alumini-carousel">
             <OwlCarousel
             className="owl-theme"
