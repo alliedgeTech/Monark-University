@@ -57,7 +57,7 @@ const index = () => {
                                 <div className="count-text mt-4 d-flex align-items-center justify-content-center">
                                 <CountUp
                             start={0}
-                            end={50}
+                            end={13}
                             duration={6}
                             onEnd={() => setState(false)}
                             />
@@ -68,11 +68,11 @@ const index = () => {
                         <div className="col-6">
                             <div className="counter-box counter-box-2 d-flex align-items-center flex-column">
                                 <img src="/img/counter/network.png" alt="" />
-                                <h6>Departments</h6>
+                                <h6>Student</h6>
                                 <div className="count-text mt-4 d-flex align-items-center justify-content-center">
                                 <CountUp
                             start={0}
-                            end={100}
+                            end={7000}
                             duration={6}
                             onEnd={() => setState(false)}
                             />
@@ -87,7 +87,7 @@ const index = () => {
                                 <div className="count-text mt-4 d-flex align-items-center justify-content-center">
                                 <CountUp
                             start={0}
-                            end={250}
+                            end={300}
                             duration={6}
                             onEnd={() => setState(false)}
                             />
@@ -102,7 +102,7 @@ const index = () => {
                                 <div className="count-text mt-4 d-flex align-items-center justify-content-center">
                                 <CountUp
                             start={0}
-                            end={50}
+                            end={100}
                             duration={6}
                             onEnd={() => setState(false)}
                             />
@@ -114,9 +114,9 @@ const index = () => {
 
                 </div>
                 <div className="col-lg-6 col-md-12 col-12 mt-lg-0 mt-4">
-                    <div className="d-flex counter-heading align-items-center-justify-content-between h-100 flex-column">
-                        <h1>Experience Unmatched Academic Diversity with Leading Experts and Programs</h1>
-                        <div className="counter-box-main mt-4 d-flex align-items-center flex-column">
+                    <div className="d-flex counter-heading course-heading-home align-items-center-justify-content-between h-100 flex-column">
+                        <h1>Experience Unmatched <span>Academic Diversity</span> with Leading <span>Experts</span> and Programs</h1>
+                        {/* <div className="counter-box-main mt-4 d-flex align-items-center flex-column">
                                 <img src="/img/counter/graduated.png" alt="" />
                                 <h6>Students</h6>
                                 <div className="count-text mt-4 d-flex align-items-center justify-content-center">
@@ -128,7 +128,7 @@ const index = () => {
                             />
                                     +
                                 </div>
-                            </div>
+                            </div> */}
                     </div>
                 </div>
             </div>

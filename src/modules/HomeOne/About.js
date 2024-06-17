@@ -18,19 +18,19 @@ const OwlCarousel = dynamic(() => import("react-owl-carousel"), {
 
 const Responsive = {
   0: {
-    items: 2,
+    items: 1,
     margin: 5,
   },
   435: {
-    items: 3,
+    items: 1,
     margin: 10,
   },
   768: {
-    items: 4,
+    items: 2,
     margin: 10,
   },
   1024: {
-    items: 7,
+    items: 3,
     margin: 20,
   },
 };
@@ -56,342 +56,182 @@ export default function About() {
     });
   }, []);
 
-  return (
-    <div className="student-placement pb-2 pt-4 container-fluid">
-      <div className="student-placement-heading one">
-        <h1 className="mb-0 w-100">Student Placement</h1>
+
+  return (<>
+    <div className="student-placement pb-2 pt-4 container">
+      <div className="course-heading-home text-center mb-20">
+        <h1 className="mb-0">Your Exceptional Placement <span>Opportunities</span> with Comprehensive Milestone <span>Packages</span></h1>
       </div>
-
-      {/* <OwlCarousel
-                    className="owl px-3"
-                    loop={true}
-                    autoPlay={true}
-                    responsive={Responsive}
-                    responsiveRefreshRate={100}
-              autoplay={true}
-              autoplayTimeout={1000}
-                  >
-                    <div className="item">
-                      <div className="img-box">
-                    <img className="img-fluid" src="https://monarkuni.ac.in/wp-content/uploads/2022/06/3.Toyoto.png" alt="" />
-
-                      </div>
-                    </div>
-                    <div className="item">
-                      <div className="img-box">
-                    <img className="img-fluid" src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Axis_Bank_logo.svg/2560px-Axis_Bank_logo.svg.png" alt="" />
-
-                      </div>
-                    </div>
-                    <div className="item">
-                      <div className="img-box">
-                    <img className="img-fluid" src="https://www.logo.wine/a/logo/Microsoft_Azure/Microsoft_Azure-Logo.wine.svg" alt="" />
-
-                      </div>
-                    </div>
-                    <div className="item">
-                      <div className="img-box">
-                    <img className="img-fluid" src="https://monarkuni.ac.in/wp-content/uploads/2021/06/snlfinanciallogo-300x53.jpg" alt="" />
-
-                      </div>
-                    </div>
-                    <div className="item">
-                      <div className="img-box">
-                    <img className="img-fluid" src="https://monarkuni.ac.in/wp-content/uploads/2021/06/smc.jpg" alt="" />
-
-                      </div>
-                    </div>
-                    <div className="item">
-                      <div className="img-box">
-                    <img className="img-fluid" src="https://monarkuni.ac.in/wp-content/uploads/2021/06/prakshal-300x81.jpg" alt="" />
-
-                      </div>
-                    </div>
-                    <div className="item">
-                      <div className="img-box">
-                    <img className="img-fluid" src="https://monarkuni.ac.in/wp-content/uploads/2021/06/practo_logo.jpg" alt="" />
-
-                      </div>
-                    </div>
-                    <div className="item">
-                      <div className="img-box">
-                    <img className="img-fluid" src="https://monarkuni.ac.in/wp-content/uploads/2021/06/nj-300x83.jpg" alt="" />
-
-                      </div>
-                    </div>
-                    <div className="item">
-                      <div className="img-box">
-                    <img className="img-fluid" src="https://monarkuni.ac.in/wp-content/uploads/2021/06/microlink-solution-pvt-ltd-11318313387.jpg" alt="" />
-
-                      </div>
-                    </div>
-                    <div className="item">
-                      <div className="img-box">
-                    <img className="img-fluid" src="https://monarkuni.ac.in/wp-content/uploads/2021/06/mazda1.jpg" alt="" />
-
-                      </div>
-                    </div>
-                    <div className="item">
-                      <div className="img-box">
-                    <img className="img-fluid" src="https://monarkuni.ac.in/wp-content/uploads/2021/06/fp.jpg" alt="" />
-
-                      </div>
-                    </div>
-                    <div className="item">
-                      <div className="img-box">
-                    <img className="img-fluid" src="https://monarkuni.ac.in/wp-content/uploads/2021/06/essae-teraoka-ltd-350x120-1.jpg" alt="" />
-
-                      </div>
-                    </div>
-                    <div className="item">
-                      <div className="img-box">
-                    <img className="img-fluid" src="https://monarkuni.ac.in/wp-content/uploads/2021/06/EPOCH.jpg" alt="" />
-
-                      </div>
-                    </div>
-                    <div className="item">
-                      <div className="img-box">
-                    <img className="img-fluid" src="https://monarkuni.ac.in/wp-content/uploads/2021/06/ECLINICAL.jpg" alt="" />
-
-                      </div>
-                    </div>
-                    <div className="item">
-                      <div className="img-box">
-                    <img className="img-fluid" src="https://monarkuni.ac.in/wp-content/uploads/2021/06/bharti-axa-life-insurance-logo2.jpg" alt="" />
-
-                      </div>
-                    </div>
-                    <div className="item">
-                      <div className="img-box">
-                    <img className="img-fluid" src="https://monarkuni.ac.in/wp-content/uploads/2021/06/aricent.jpg" alt="" />
-
-                      </div>
-                    </div>
-                    <div className="item">
-                      <div className="img-box">
-                    <img className="img-fluid" src="https://monarkuni.ac.in/wp-content/uploads/2021/06/925608981-2813930-1_s.jpg" alt="" />
-
-                      </div>
-                    </div>
-                    <div className="item">
-                      <div className="img-box">
-                    <img className="img-fluid" src="https://monarkuni.ac.in/wp-content/uploads/2022/06/2.-BYJUS.png" alt="" />
-
-                      </div>
-                    </div>
-                    <div className="item">
-                      <div className="img-box">
-                    <img className="img-fluid" src="https://monarkuni.ac.in/wp-content/uploads/2022/06/4.-Maruti-Suzuki.jpg" alt="" />
-
-                      </div>
-                    </div>
-                    <div className="item">
-                      <div className="img-box">
-                    <img className="img-fluid" src="https://monarkuni.ac.in/wp-content/uploads/2022/06/5.-torrent-300x93.png" alt="" />
-
-                      </div>
-                    </div>
-                    <div className="item">
-                      <div className="img-box">
-                    <img className="img-fluid" src="https://monarkuni.ac.in/wp-content/uploads/2022/06/6.-Zydus-Cadila-300x225.jpg" alt="" />
-
-                      </div>
-                    </div>
-                    <div className="item">
-                      <div className="img-box">
-                    <img className="img-fluid" src="https://monarkuni.ac.in/wp-content/uploads/2022/06/9.-IBM-300x143.jpg" alt="" />
-
-                      </div>
-                    </div>
-                    <div className="item">
-                      <div className="img-box">
-                    <img className="img-fluid" src="https://monarkuni.ac.in/wp-content/uploads/2022/06/8.-VODAFONE-IMAGE.jpg" alt="" />
-
-                      </div>
-                    </div>
-                    <div className="item">
-                      <div className="img-box">
-                    <img className="img-fluid" src="https://monarkuni.ac.in/wp-content/uploads/2022/06/11.-Jindal-Steel-Power-300x107.png" alt="" />
-
-                      </div>
-                    </div>
-                    <div className="item">
-                      <div className="img-box">
-                    <img className="img-fluid" src="https://monarkuni.ac.in/wp-content/uploads/2022/06/18.-ICICI-2-300x188.jpg" alt="" />
-
-                      </div>
-                    </div>
-                  </OwlCarousel> */}
       <Marquee className="placement-carousel" behavior="alternate" direction="">
-        <div className="img-box">
+        <div className="img-box" data-delay="1">
           <img
             className="img-fluid"
             src="https://monarkuni.ac.in/wp-content/uploads/2022/06/3.Toyoto.png"
             alt=""
           />
         </div>
-        <div className="img-box">
+        <div className="img-box" data-delay="2">
           <img
             className="img-fluid"
             src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Axis_Bank_logo.svg/2560px-Axis_Bank_logo.svg.png"
             alt=""
           />
         </div>
-        <div className="img-box">
+        <div className="img-box" data-delay="3">
           <img
             className="img-fluid"
             src="https://www.logo.wine/a/logo/Microsoft_Azure/Microsoft_Azure-Logo.wine.svg"
             alt=""
           />
         </div>
-        <div className="img-box">
+        <div className="img-box" data-delay="4">
           <img
             className="img-fluid"
             src="https://monarkuni.ac.in/wp-content/uploads/2021/06/snlfinanciallogo-300x53.jpg"
             alt=""
           />
         </div>
-        <div className="img-box">
+        <div className="img-box" data-delay="5">
           <img
             className="img-fluid"
             src="https://monarkuni.ac.in/wp-content/uploads/2021/06/smc.jpg"
             alt=""
           />
         </div>
-        <div className="img-box">
+        <div className="img-box" data-delay="6">
           <img
             className="img-fluid"
             src="https://monarkuni.ac.in/wp-content/uploads/2021/06/prakshal-300x81.jpg"
             alt=""
           />
         </div>
-        <div className="img-box">
+        <div className="img-box" data-delay="7">
           <img
             className="img-fluid"
             src="https://monarkuni.ac.in/wp-content/uploads/2021/06/practo_logo.jpg"
             alt=""
           />
         </div>
-        <div className="img-box">
+        <div className="img-box" data-delay="8">
           <img
             className="img-fluid"
             src="https://monarkuni.ac.in/wp-content/uploads/2021/06/nj-300x83.jpg"
             alt=""
           />
         </div>
-        <div className="img-box">
+        <div className="img-box" data-delay="9">
           <img
             className="img-fluid"
             src="https://monarkuni.ac.in/wp-content/uploads/2021/06/microlink-solution-pvt-ltd-11318313387.jpg"
             alt=""
           />
         </div>
-        <div className="img-box">
+        <div className="img-box" data-delay="10">
           <img
             className="img-fluid"
             src="https://monarkuni.ac.in/wp-content/uploads/2021/06/mazda1.jpg"
             alt=""
           />
         </div>
-        <div className="img-box">
+        <div className="img-box" data-delay="11">
           <img
             className="img-fluid"
             src="https://monarkuni.ac.in/wp-content/uploads/2021/06/fp.jpg"
             alt=""
           />
         </div>
-        <div className="img-box">
+        <div className="img-box" data-delay="12">
           <img
             className="img-fluid"
             src="https://monarkuni.ac.in/wp-content/uploads/2021/06/essae-teraoka-ltd-350x120-1.jpg"
             alt=""
           />
         </div>
-        <div className="img-box">
+        <div className="img-box" data-delay="13">
           <img
             className="img-fluid"
             src="https://monarkuni.ac.in/wp-content/uploads/2021/06/EPOCH.jpg"
             alt=""
           />
         </div>
-        <div className="img-box">
+        <div className="img-box" data-delay="14">
           <img
             className="img-fluid"
             src="https://monarkuni.ac.in/wp-content/uploads/2021/06/ECLINICAL.jpg"
             alt=""
           />
         </div>
-        <div className="img-box">
+        <div className="img-box" data-delay="15">
           <img
             className="img-fluid"
             src="https://monarkuni.ac.in/wp-content/uploads/2021/06/bharti-axa-life-insurance-logo2.jpg"
             alt=""
           />
         </div>
-        <div className="img-box">
+        <div className="img-box" data-delay="16">
           <img
             className="img-fluid"
             src="https://monarkuni.ac.in/wp-content/uploads/2021/06/aricent.jpg"
             alt=""
           />
         </div>
-        <div className="img-box">
+        <div className="img-box" data-delay="17">
           <img
             className="img-fluid"
             src="https://monarkuni.ac.in/wp-content/uploads/2021/06/925608981-2813930-1_s.jpg"
             alt=""
           />
         </div>
-        <div className="img-box">
+        <div className="img-box" data-delay="18">
           <img
             className="img-fluid"
             src="https://monarkuni.ac.in/wp-content/uploads/2022/06/2.-BYJUS.png"
             alt=""
           />
         </div>
-        <div className="img-box">
+        <div className="img-box" data-delay="19">
           <img
             className="img-fluid"
             src="https://monarkuni.ac.in/wp-content/uploads/2022/06/4.-Maruti-Suzuki.jpg"
             alt=""
           />
         </div>
-        <div className="img-box">
+        <div className="img-box" data-delay="20">
           <img
             className="img-fluid"
             src="https://monarkuni.ac.in/wp-content/uploads/2022/06/5.-torrent-300x93.png"
             alt=""
           />
         </div>
-        <div className="img-box">
+        <div className="img-box" data-delay="21"> 
           <img
             className="img-fluid"
             src="https://monarkuni.ac.in/wp-content/uploads/2022/06/6.-Zydus-Cadila-300x225.jpg"
             alt=""
           />
         </div>
-        <div className="img-box">
+        <div className="img-box" data-delay="22">
           <img
             className="img-fluid"
             src="https://monarkuni.ac.in/wp-content/uploads/2022/06/9.-IBM-300x143.jpg"
             alt=""
           />
         </div>
-        <div className="img-box">
+        <div className="img-box" data-delay="23">
           <img
             className="img-fluid"
             src="https://monarkuni.ac.in/wp-content/uploads/2022/06/8.-VODAFONE-IMAGE.jpg"
             alt=""
           />
         </div>
-        <div className="img-box">
-          <img
+        <div className="img-box" data-delay="24" >
+          <img 
             className="img-fluid"
             src="https://monarkuni.ac.in/wp-content/uploads/2022/06/11.-Jindal-Steel-Power-300x107.png"
             alt=""
           />
         </div>
-        <div className="img-box">
+        <div className="img-box" data-delay="25">
           <img
             className="img-fluid"
             src="https://monarkuni.ac.in/wp-content/uploads/2022/06/18.-ICICI-2-300x188.jpg"
@@ -400,5 +240,53 @@ export default function About() {
         </div>
       </Marquee>
     </div>
+    <div className="alumini-student mb-30 container-fluid">
+      <div className="row flex-row-reverse">
+        <div className="col-lg-4 col-12">
+          <div className="alumini-heading">
+            <h4>You May Also Be One Of Them</h4>
+            <h1>Our <span>Alumni</span> are Employed by Leading <span>Global</span> Companies</h1>
+          </div>
+        </div>
+        <div className="col-lg-8 col-12 px-3">
+          <div className="alumini-carousel">
+            <OwlCarousel
+            className="owl-theme"
+            autoPlay={true}
+            margin={10}
+            loop={true}
+            responsive={Responsive}
+            responsiveRefreshRate={0}
+            autoplay={true}
+            autoplayTimeout={3000}
+            autoplayHoverPause={false}
+            >
+              <div className="item px-2 py-3">
+                <div className="alumini-card">
+
+            <img className="img-fluid" src="https://pngimg.com/d/student_PNG82.png" alt="" />
+                </div>
+
+              </div>
+              <div className="item px-2 py-3">
+              <div className="alumini-card">
+                  
+            <img className="img-fluid" src="https://static.vecteezy.com/system/resources/thumbnails/024/724/632/small_2x/a-happy-smiling-young-college-student-with-a-book-in-hand-isolated-on-a-transparent-background-generative-ai-png.png" alt="" />
+                  </div>
+
+              </div>
+              <div className="item px-2 py-3">
+              <div className="alumini-card">
+                  
+            <img className="img-fluid" src="https://pngimg.com/d/student_PNG127.png" alt="" />
+                  </div>
+
+              </div>
+            </OwlCarousel>
+          </div>
+        </div>
+      </div>
+    </div>
+  </>
   );
 }
