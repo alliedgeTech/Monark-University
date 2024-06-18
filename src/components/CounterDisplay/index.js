@@ -65,10 +65,11 @@ const Index = () => {
           <div className="row">
             <div className="col-lg-6 col-md-12 col-12 d-flex align-items-end mt-lg-0 mt-4">
               <div className="counter-heading alumini-heading p-relative pb-4 course-heading-home">
-                <img className="capimg d-lg-block d-none" src="/img/logo/cap2.png" alt="" />
-                <h1 className="mt-25">
-                  <span>Experience</span> Academic Diversity Like{" "}
-                  <span>Never</span> Before with Leading <span>Experts</span>{" "}
+                {/* <img className="capimg" src="/img/logo/cap2.png" alt="" /> */}
+                <i class="fa-solid fa-graduation-cap"></i>
+                <h1 className="mt-10">
+                  <span>Experience</span> Academic Diversity Like
+                  <span>Never</span> Before with Leading <span>Experts</span>
                   and <span>Comprehensive</span> Programs
                 </h1>
               </div>

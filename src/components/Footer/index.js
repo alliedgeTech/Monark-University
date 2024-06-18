@@ -19,10 +19,9 @@ export default function Footer(props) {
 						</div>
 					</div>
 				</div> */}
-				{/* <hr style={{background:'#dadada',height:'1px'}} /> */}
 				<div className="footer-middle pb-3">
 					<div className="row">
-						<div className="col-lg-2 col-md-6 col-12">
+						<div className="col-lg-3 col-md-6 col-12">
 							<div className="d-flex flex-column">
 								<h6>Enroll With Us</h6>
 								<ul>
@@ -43,7 +42,7 @@ export default function Footer(props) {
 
 							</div>
 						</div>
-						<div className="col-lg-3 col-md-6 col-12">
+						{/* <div className="col-lg-3 col-md-6 col-12">
 							<h6>Multi-Skills Development & Training Centre</h6>
 							<ul>
 								<li><a href="/faculty#music">Music & Production</a></li>
@@ -53,8 +52,8 @@ export default function Footer(props) {
 								<li><a href="/faculty#mlt"> Medical Laboratory Technology (MLT)</a></li>
 								<li><a href="/faculty#hair">Hair Dressing & Beauty</a></li>
 							</ul>
-						</div>
-						<div className="col-lg-5 col-md-6 col-12">
+						</div> */}
+						<div className="col-lg-6 col-md-6 col-12">
 						<div className="d-flex flex-column ">
 								<h6>List of Institutes</h6>
 								<div className="d-flex flex-column flex-lg-row justify-content-around">
@@ -80,7 +79,7 @@ export default function Footer(props) {
 							</div>
 						</div>
 						
-						<div className="col-lg-2 col-md-6 col-12">
+						<div className="col-lg-3 col-md-6 col-12">
 							<div className="d-flex flex-column">
 								<h6>Contact detail</h6>
 								<ul>

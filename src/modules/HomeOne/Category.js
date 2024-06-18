@@ -159,19 +159,8 @@ export default function Category() {
               our natural and social worlds through outstanding teaching,
               research, and scholarship.
             </p>
-            {/* <div className="shopcategory-loadmore">
-            <Link href="/about-us">
-          <button><div className="text-div"><p>More Details</p><p className='dec-p'>More Details</p></div></button>
-        </Link>
-        </div> */}
-        <Link  href="/about-us">
-        {/* <button className="btn hover-btn">
-          <div className="text-div">
-          <small>More details</small>
-          <small>More details</small>
-            
-          </div>
-        </button> */}
+
+        <Link  href="/mumirror">
         <button className="circle-btn d-flex align-items-center justify-content-between px-3">
           <div className="btn-text">
             More Details
@@ -181,8 +170,6 @@ export default function Category() {
           </div>
         </button>
         </Link>
-
-            
           </div>
         </div>
       </div>
