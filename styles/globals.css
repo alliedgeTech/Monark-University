@@ -2014,7 +2014,7 @@ tr {
     /* number of lines to show */
     line-clamp: 2;
     -webkit-box-orient: vertical;
-<<<<<<< HEAD
+
  }
  .it-btn input[type="file"] {
     display: none;
@@ -2025,8 +2025,8 @@ tr {
     font-size: 14px;
     color: #555;
   }
-=======
-}
+
+
 
 @media screen and (max-width: 991px) {
     .alumini-heading i {
@@ -2135,4 +2135,4 @@ tr {
   }
    */
   
->>>>>>> 3e3e90e5ea0796b55ede48107e796db86f6649f7
+
