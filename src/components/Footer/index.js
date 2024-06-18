@@ -19,10 +19,9 @@ export default function Footer(props) {
 						</div>
 					</div>
 				</div> */}
-				{/* <hr style={{background:'#dadada',height:'1px'}} /> */}
 				<div className="footer-middle pb-3">
 					<div className="row">
-						<div className="col-lg-2 col-md-6 col-12">
+						<div className="col-lg-3 col-md-6 col-12">
 							<div className="d-flex flex-column">
 								<h6>Enroll With Us</h6>
 								<ul>
@@ -43,7 +42,7 @@ export default function Footer(props) {
 
 							</div>
 						</div>
-						<div className="col-lg-3 col-md-6 col-12">
+						{/* <div className="col-lg-3 col-md-6 col-12">
 							<h6>Multi-Skills Development & Training Centre</h6>
 							<ul>
 								<li><a href="/faculty#music">Music & Production</a></li>
@@ -53,8 +52,8 @@ export default function Footer(props) {
 								<li><a href="/faculty#mlt"> Medical Laboratory Technology (MLT)</a></li>
 								<li><a href="/faculty#hair">Hair Dressing & Beauty</a></li>
 							</ul>
-						</div>
-						<div className="col-lg-5 col-md-6 col-12">
+						</div> */}
+						<div className="col-lg-6 col-md-6 col-12">
 						<div className="d-flex flex-column ">
 								<h6>List of Institutes</h6>
 								<div className="d-flex flex-column flex-lg-row justify-content-around">
@@ -80,16 +79,30 @@ export default function Footer(props) {
 							</div>
 						</div>
 						
-						<div className="col-lg-2 col-md-6 col-12">
+						<div className="col-lg-3 col-md-6 col-12" >
 							<div className="d-flex flex-column">
 								<h6>Contact detail</h6>
-								<ul>
+								<ul style={{listStyle:'none'}}>
 									<li><a href="tel:+91 7970707001">+91-7970707001</a></li>
 									<li><a href="tel:+91 2718-247138/215">+91-2718-247138/215</a></li>
 									<li><a href="tel:+91 2718-247131">+91-2718-247131</a></li>
 									<li><a href="mailto:info@monarkuni.ac.in">info@monarkuni.ac.in</a></li>
 									<li><a href="">At. & Post Vahelal, Naroda-Dahegam Road, Ta. Dascroi, Dist. Ahmedabad-382330</a></li>
 								</ul>
+							</div>
+							<div className="d-flex align=items-center mt-3">
+								<Link target='_blank'  href="https://www.facebook.com/monark.university" >
+									<button className='footer-btn'><i class="fa-brands fa-facebook"></i></button>
+								</Link>
+								<Link target='_blank' href="https://x.com/monarkuni?mx=2" >
+									<button className='footer-btn'><i class="fa-brands fa-twitter"></i></button>
+								</Link>
+								<Link target='_blank' href="https://www.instagram.com/hgce_vahelal/" >
+									<button className='footer-btn'><i class="fa-brands fa-instagram"></i></button>
+								</Link>
+								<Link target='_blank' href="https://www.linkedin.com/company/monark-university/" >
+									<button className='footer-btn'><i class="fa-brands fa-linkedin"></i></button>
+								</Link>
 							</div>
 						</div>
 					</div>
