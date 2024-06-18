@@ -1,0 +1,33 @@
+/* styles/Flipbook.module.css */
+.flipbook-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 75px;
+  }
+  
+  .flipbook {
+    width: 100%;
+    height: 100%;
+    max-width: 800px;
+    max-height: 600px;
+  }
+  
+  .demoPage {
+    width: 100%;
+    height: 100%;
+  }
+  
+  @media (max-width: 768px) {
+    .flipbook {
+      max-width: 100%;
+      max-height: 400px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .flipbook {
+      max-width: 100%;
+      max-height: 300px;
+    }
+  }
+  
