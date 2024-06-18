@@ -27,7 +27,7 @@ export default function Banner() {
 		<div className='hero-section'>
 			<div className="hero-img">
 				<video className='w-100 img-fluid' muted loop autoPlay playsInline controls
-					src="https://res.cloudinary.com/dnjgopun8/video/upload/v1718208681/WhatsApp_Video_2024-06-12_at_21.37.33_c738530a_uepvqc.mp4 " />
+					src="https://res.cloudinary.com/dnjgopun8/video/upload/v1718686490/videoplayback_2_pwabqu.mp4" />
 				<div className="hero-text ">
 					<h1 className='' data-text="MONARK UNIVERSITY">MONARK <span>UNIVERSITY</span></h1>
 					<p className='text-center d-none d-lg-block'>We remain steadfastly acknowledged as a preeminent global management institution, continually pushing the boundaries of management research, leadership, and education.</p>

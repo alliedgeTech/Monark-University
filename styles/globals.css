@@ -462,7 +462,7 @@ p {
     height: 100%;
     width: 100%;
     content: "";
-    background: linear-gradient(#00000078, #000000ce);
+    background: linear-gradient(#0000004c, #00000093);
 }
 
 .hero-text {
@@ -1824,7 +1824,7 @@ tr {
 .counter-box {
     box-shadow: inset -10px -10px 15px rgba(255, 255, 255, 0.5),
         inset 10px 10px 15px rgba(70, 70, 70, 0.12);
-    padding: 25px 0 !important;
+    padding: 20px 0 !important;
     background: #ededed;
 }
 
@@ -2005,3 +2005,18 @@ tr {
             line-clamp: 2;
     -webkit-box-orient: vertical;
  }
+ .capimg {
+    position: absolute;
+    width: 30vmax;
+    z-index: -1;
+    top: -80%;
+    left: -100px;
+    transform: rotate(15deg);
+    rotate: deg(45deg);
+}
+@media screen and (min-width: 991px) {
+    .capimg {
+       display: none !important;
+   }
+    
+}
