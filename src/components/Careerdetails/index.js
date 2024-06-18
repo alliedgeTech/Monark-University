@@ -1,20 +1,32 @@
-import React, { useRef } from "react";
+import React, { useRef , useState} from "react";
 import { toast, Toaster } from "react-hot-toast";
 
 export default function CareerForm() {
   const form = useRef();
+  const [fileName, setFileName] = useState("No file chosen");
+
   const handleFileChange = (event) => {
-    const selectedFile = event.target.files[0];
-    if (selectedFile) {
-      // Update the label to show the file name
-      const fileLabel = document.querySelector(".file-upload-label");
-      fileLabel.textContent = selectedFile.name;
+    const file = event.target.files[0];
+    if (file) {
+      setFileName(file.name);
     } else {
-      // Reset the label if no file is chosen
-      const fileLabel = document.querySelector(".file-upload-label");
-      fileLabel.textContent = "No file chosen";
+      setFileName("No file chosen");
     }
   };
+
+  // const handleFileChange = (event) => {
+  //   const selectedFile = event.target.files[0];
+  //   if (selectedFile) {
+  //     // Update the label to show the file name
+  //     const fileLabel = document.querySelector(".file-upload-label");
+  //     fileLabel.textContent = selectedFile.name;
+  //   } else {
+  //     // Reset the label if no file is chosen
+  //     const fileLabel = document.querySelector(".file-upload-label");
+  //     fileLabel.textContent = "No file chosen";
+  //   }
+  // };
+
   const sendEmail = async (e) => {
     e.preventDefault();
 
@@ -489,7 +501,7 @@ export default function CareerForm() {
                     <div className="col-12 mb-25">
                       <div className="it-contact-input-box">
                         <label>Upload PDF*</label>
-                        <button type="button" className="it-btn">
+                        <label className="it-btn">
                           Choose File
                           <input
                             type="file"
@@ -497,11 +509,10 @@ export default function CareerForm() {
                             name="user_pdf"
                             required
                             onChange={handleFileChange}
+                           
                           />
-                        </button>
-                        <span className="file-upload-label">
-                          No file chosen
-                        </span>
+                        </label>
+                        <span className="file-upload-label">{fileName}</span>
                       </div>
                     </div>
 
