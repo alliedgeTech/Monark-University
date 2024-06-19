@@ -676,7 +676,7 @@ export default function About() {
                                     className="it-btn-border"
                                   >
                                     <span>
-                                      'Learn More'
+                                      Learn More
                                       <svg
                                         width="17"
                                         height="14"
@@ -722,7 +722,7 @@ export default function About() {
                                     className="it-btn-border"
                                   >
                                     <span>
-                                      'Learn More'
+                                      Learn More
                                       <svg
                                         width="17"
                                         height="14"
@@ -768,7 +768,7 @@ export default function About() {
                                     className="it-btn-border"
                                   >
                                     <span>
-                                      'Learn More'
+                                      Learn More
                                       <svg
                                         width="17"
                                         height="14"
@@ -817,7 +817,7 @@ export default function About() {
                                     className="it-btn-border"
                                   >
                                     <span>
-                                      'Learn More'
+                                      Learn More
                                       <svg
                                         width="17"
                                         height="14"
@@ -866,7 +866,7 @@ export default function About() {
                                     className="it-btn-border"
                                   >
                                     <span>
-                                      'Learn More'
+                                      Learn More
                                       <svg
                                         width="17"
                                         height="14"
@@ -915,7 +915,7 @@ export default function About() {
                                     className="it-btn-border"
                                   >
                                     <span>
-                                      'Learn More'
+                                      Learn More
                                       <svg
                                         width="17"
                                         height="14"
@@ -964,7 +964,7 @@ export default function About() {
                                     className="it-btn-border"
                                   >
                                     <span>
-                                      'Learn More'
+                                      Learn More
                                       <svg
                                         width="17"
                                         height="14"

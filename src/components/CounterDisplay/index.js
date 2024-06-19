@@ -75,7 +75,7 @@ const Index = () => {
               </div>
             </div>
             <div className="col-lg-6 col-md-12 col-12 mt-lg-0 mt-4">
-              <div className="row py-2 px-5 p-relative">
+              <div className="row py-lg-2 px-lg-5 px-2 py-1 p-relative">
                 <p className="why_mu d-flex align-items-center justify-content-center flex-column">
                   Why <span>MU</span>
                 </p>

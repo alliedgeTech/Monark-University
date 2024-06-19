@@ -13,6 +13,7 @@ import Blog from "./Blog"
 import Newsletter from "@/components/Newsletter"
 import ScrollTop from "@/components/ScrollTop"
 import CounterDisplay from "@/components/CounterDisplay"
+import Lifemu from "@/components/Lifemu"
 
 export default function HomeOneModules() {
 	return (
@@ -23,6 +24,7 @@ export default function HomeOneModules() {
 			<CounterDisplay />
 			<Service />
 			<About />
+			<Lifemu/>
 			<Course />
 			<Video />
 			<Funfact />

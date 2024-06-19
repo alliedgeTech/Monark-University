@@ -34,7 +34,6 @@ h2 {
 h3 {
     font-size: 28px;
     font-family: "Open Sans" !important;
-    color: #000 !important;
 }
 
 h4 {
@@ -566,8 +565,7 @@ p {
 
 .student-club {
     background: #eeeeee;
-    border-top-left-radius: 6vmax;
-    border-top-right-radius: 6vmax;
+   border-top: 2px solid #dadada;
 }
 
 .student-club-image {
@@ -1747,14 +1745,16 @@ tr {
 }
 
 .course-link-box:hover {
-    background: #f8f8f8;
+    background:  linear-gradient(to right,#f0a77cfb,#f0691b);
     border-bottom: 2px solid var(--web-color);
     transform: translateY(-5px) scale(1.05);
+    color: #fff !important;
 }
 
 .course-link-box:hover h6 {
-    color: #000 !important;
+    color: #ffffff !important;
 }
+
 
 .course-link-box img {
     height: 50px !important;
@@ -1785,6 +1785,7 @@ tr {
 
 .faculty-card {
     float: left;
+    min-height: 200px !important;
 }
 
 .content {
@@ -1837,22 +1838,7 @@ tr {
     padding: 50px 0 !important;
 }
 
-/* .counter-box-1{
-    border-top-left-radius: 30px;
-    border-bottom-right-radius: 30px;
-}
-.counter-box-2{
-    border-top-right-radius: 30px;
-    border-bottom-left-radius: 30px;
-}
-.counter-box-3{
-    border-bottom-left-radius: 30px;
-    border-top-right-radius: 30px;
-}
-.counter-box-4{
-      border-top-left-radius: 30px;
-    border-bottom-right-radius: 30px;
-  } */
+
 .counter-box img,
 .counter-box-main img {
     height: 50px;
@@ -1980,10 +1966,11 @@ tr {
 
 .alumini-card {
     max-height: 400px !important;
-    border-radius: 20px;
+    border-radius: 12px;
     overflow: hidden;
-    background: var(--web-grey-white);
-    box-shadow: 0 3px 5px #bababa;
+    background: #dadada;
+    /* border: 1px solid #8e8e8e; */
+    box-shadow: 0 5px 5px #b0b0b0;
 }
 
 .line-round {
@@ -2110,29 +2097,68 @@ tr {
       max-height: 300px;
     }
   }
-  /* .page {
-    width: 100%;
-    height: 100%;
-    background: white;
-  }
-  
-  .page-content {
-    padding: 20px;
-  }
-  
-  .page-cover {
-    background-color: #f0f0f0;
-  }
-  
-  .page-header {
-    font-size: 24px;
-  }
-  
-  .page-footer {
-    text-align: center;
-    font-size: 16px;
+.life-section{
+    background: #eeeeee;
+}
+.life-section .life-heading h4{
     color: gray;
-  }
-   */
-  
+}
+@media screen and (max-width:768px) {
+    .life-section .life-heading h1{
+        font-size: 60px !important;
+    }
+}
+.life-section .life-heading h1{
+    color: var(--web-color) !important;
+    font-family: Oswald !important;
+    font-size: 100px;
+    
+}
+.life-section .life-heading h1 span{
+    color: var(--web-orange) !important;
+    font-family: Oswald !important;
+}
+.life-section .life-heading h2{
+    color: #4e4e4e !important;
+    font-weight: 500 !important;
+    font-family: Poppins !important;
+}
+.life-section .img-box{
+    border-radius: 12px;
+    overflow: hidden;
+    transition: all 0.5s !important;
+    max-height: 300px !important;
+    height: 100% !important;
+}
+.life-section .img-box img{
+    width: 100% !important;
+    height: 100% !important;
+}
+.life-section .img-box:hover{
+    transform: translateY(4px) scale(0.95);
+    box-shadow: 0 5px 5px #dadada;
+}
+.comiti-submenu{
+    display: none;
+}
+.comiti-drop:hover .comiti-submenu{
+    display: block;
+}
+.toggle-dark{
+    display: none !important;
+    position: fixed;
+    bottom: 120px;
+    right: 50px;
+
+    z-index: 99999;
+}
+.toggle-dark.active{
+    display: block !important;
+}
+.darks i{
+    font-size: 20px !important;
+}
+.darks{
+    background: #978a82;
+}
 

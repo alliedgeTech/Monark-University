@@ -265,21 +265,21 @@ export default function About() {
               <div className="item px-2 py-3">
                 <div className="alumini-card">
 
-            <img className="img-fluid" src="https://pngimg.com/d/student_PNG82.png" alt="" />
+            <img className="img-fluid" src="/img/blog/pic1.png" alt="" />
                 </div>
 
               </div>
               <div className="item px-2 py-3">
               <div className="alumini-card">
                   
-            <img className="img-fluid" src="https://static.vecteezy.com/system/resources/thumbnails/024/724/632/small_2x/a-happy-smiling-young-college-student-with-a-book-in-hand-isolated-on-a-transparent-background-generative-ai-png.png" alt="" />
+            <img className="img-fluid" src="/img/blog/pic2.png" alt="" />
                   </div>
 
               </div>
               <div className="item px-2 py-3">
               <div className="alumini-card">
                   
-            <img className="img-fluid" src="https://pngimg.com/d/student_PNG127.png" alt="" />
+            <img className="img-fluid" src="/img/blog/pic3.png" alt="" />
                   </div>
 
               </div>
