@@ -50,7 +50,7 @@ const index = () => {
              responsive={Responsive}
              responsiveRefreshRate={0}
              autoplay={true}
-             autoplayTimeout={6000}
+             autoplayTimeout={3000}
              autoplayHoverPause={false}
           >
             <div className="item">

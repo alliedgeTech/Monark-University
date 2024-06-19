@@ -34,7 +34,6 @@ h2 {
 h3 {
     font-size: 28px;
     font-family: "Open Sans" !important;
-    color: #000 !important;
 }
 
 h4 {
@@ -2139,6 +2138,27 @@ tr {
     transform: translateY(4px) scale(0.95);
     box-shadow: 0 5px 5px #dadada;
 }
+.comiti-submenu{
+    display: none;
+}
+.comiti-drop:hover .comiti-submenu{
+    display: block;
+}
+.toggle-dark{
+    display: none !important;
+    position: fixed;
+    bottom: 120px;
+    right: 50px;
 
-  
+    z-index: 99999;
+}
+.toggle-dark.active{
+    display: block !important;
+}
+.darks i{
+    font-size: 20px !important;
+}
+.darks{
+    background: #978a82;
+}
 

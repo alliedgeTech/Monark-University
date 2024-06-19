@@ -316,8 +316,19 @@ export default function MenuItems(props) {
                   UGC Approval Letter
                 </Link>
               </li>
-              <li>
+              <li className="has-dropdown comiti-drop">
                 <Link href="/about-us#committeessgrc">Committees SGRC</Link>
+                <ul className="it-submenu submenu comiti-submenu">
+                  <li>
+                    <Link href="/">Committees1</Link>
+                  </li>
+                  <li>
+                    <Link href="/">Committees1</Link>
+                  </li>
+                  <li>
+                    <Link href="/">Committees1</Link>
+                  </li>
+                </ul>
               </li>
             </ul>
           </li>
@@ -419,9 +430,9 @@ export default function MenuItems(props) {
               <li>
                 <Link href="/campus2#yoga">Yoga Day</Link>
               </li>
-              <li>
+              {/* <li>
                 <Link href="/campus#teacherday">Teacher's Day</Link>
-              </li>
+              </li> */}
               <li>
                 <Link href="/campus3#studentclub">Students Club</Link>
               </li>
