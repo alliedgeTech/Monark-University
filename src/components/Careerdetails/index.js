@@ -1,4 +1,4 @@
-import React, { useRef , useState} from "react";
+import React, { useRef, useState } from "react";
 import { toast, Toaster } from "react-hot-toast";
 
 export default function CareerForm() {
@@ -26,65 +26,24 @@ export default function CareerForm() {
   //     fileLabel.textContent = "No file chosen";
   //   }
   // };
-
   const sendEmail = async (e) => {
     e.preventDefault();
-
-    const formData = {
-      fullname: form.current.user_name.value,
-      dob: form.current.user_birthday.value,
-      email: form.current.user_email.value,
-      phone: form.current.user_phone.value,
-      subject: form.current.user_subject.value,
-      message: form.current.user_message.value,
-      gender: form.current.user_gender.value,
-      category: form.current.user_category.value,
-      address: form.current.user_address.value,
-      city: form.current.user_city.value,
-      country: form.current.user_country.value,
-      position: form.current.user_position.value,
-      faculty: form.current.user_faculty.value,
-      tenPercentage: form.current.user_ten.value,
-      twelvePercentage: form.current.user_twelve.value,
-      // UG Academic Qualification
-      ugDegree: form.current.user_ugdegree.value,
-      ugUniversity: form.current.user_uguni.value,
-      ugPercentage: form.current.user_ugpercenatage.value,
-      ugPassingYear: form.current.user_ugpassing.value,
-      // PG Academic Qualification
-      pgDegree: form.current.user_pgdegree.value,
-      pgUniversity: form.current.user_pguni.value,
-      pgPercentage: form.current.user_pgpercenatage.value,
-      pgPassingYear: form.current.user_pgpassing.value,
-      // PHD Research
-      phdArea: form.current.user_area.value,
-      phdUniversity: form.current.user_phduni.value,
-      phdPassingYear: form.current.user_phdpassing.value,
-      // Experience
-      academicExperience: form.current.user_academic.value,
-      industryExperience: form.current.user_industry.value,
-      researchExperience: form.current.user_research.value,
-      totalExperience: form.current.user_texperience.value,
-      // Join Immediately
-      joinImmediately: form.current.user_subject.value === "Yes" ? "Yes" : "No",
-      noticePeriod: form.current.user_notice.value,
-      // Alternate Contact Details
-      altPhone: form.current.user_altphone.value,
-      altEmail: form.current.user_altemail.value,
-    };
-
+  
+    const formData = new FormData(form.current);
+    const fileInput = form.current.querySelector('input[type="file"]');
+    if (fileInput && fileInput.files && fileInput.files.length > 0) {
+      formData.append('resume', fileInput.files[0]); // Append the file, not the filename
+    }
+  
     try {
       const response = await fetch(
         "https://monarkuniversitybacked.onrender.com/applications",
         {
           method: "POST",
-          headers: {
-            "Content-Type": "application/json",
-          },
-          body: JSON.stringify(formData),
+          body: formData,
         }
       );
-
+  
       if (response.ok) {
         toast.success("Form submitted successfully");
         form.current.reset(); // Reset the form on successful submission
@@ -118,7 +77,7 @@ export default function CareerForm() {
                           type="text"
                           placeholder="Candidate Full Name"
                           name="user_name"
-                          required
+                          required="true"
                         />
                       </div>
                     </div>
@@ -129,14 +88,14 @@ export default function CareerForm() {
                           type="date"
                           placeholder="Date of birth"
                           name="user_birthday"
-                          required
+                          required="true"
                         />
                       </div>
                     </div>
                     <div className="col-12 mb-25">
                       <div className="it-contact-input-box">
                         <label>Gender*</label>
-                        <select name="user_gender" required>
+                        <select name="user_gender">
                           <option value="male">Male</option>
                           <option value="female">Female</option>
                         </select>
@@ -145,7 +104,7 @@ export default function CareerForm() {
                     <div className="col-12 mb-25">
                       <div className="it-contact-input-box">
                         <label>Category*</label>
-                        <select name="user_category" required>
+                        <select name="user_category">
                           <option value="sebc">SEBC</option>
                           <option value="general">General</option>
                           <option value="st">ST</option>
@@ -172,7 +131,28 @@ export default function CareerForm() {
                           type="text"
                           placeholder="City"
                           name="user_city"
-                          required
+                          
+                        />
+                      </div>
+                    </div>
+                    <div className="col-6 mb-25">
+                      <div className="it-contact-input-box">
+                        <label>Postal Code*</label>
+                        <input
+                          type="text"
+                          placeholder="Postal Code"
+                          name="user_postal"
+                        />
+                      </div>
+                    </div>
+                    <div className="col-6 mb-25">
+                      <div className="it-contact-input-box">
+                        <label>State*</label>
+                        <input
+                          type="text"
+                          placeholder="State"
+                          name="user_state"
+                          
                         />
                       </div>
                     </div>
@@ -183,7 +163,7 @@ export default function CareerForm() {
                           type="text"
                           placeholder="Country"
                           name="user_country"
-                          required
+                          
                         />
                       </div>
                     </div>
@@ -194,14 +174,14 @@ export default function CareerForm() {
                           type="text"
                           placeholder="Mobile NO>"
                           name="user_phone"
-                          required
+                          required="true"
                         />
                       </div>
                     </div>
                     <div className="col-12 mb-25">
                       <div className="it-contact-input-box">
                         <label>Position Apply For*</label>
-                        <select name="user_position" required>
+                        <select name="user_position" required="true">
                           <option value="proffesor">Proffesor</option>
                           <option value="assistant_proffesor">
                             Assistant Proffesor
@@ -216,7 +196,7 @@ export default function CareerForm() {
                     <div className="col-12 mb-25">
                       <div className="it-contact-input-box">
                         <label>Faculty*</label>
-                        <select name="user_faculty" required>
+                        <select name="user_faculty" >
                           <option value="eng">Engineering & Technology</option>
                           <option value="management">Management</option>
                           <option value="science">Science</option>
@@ -247,13 +227,17 @@ export default function CareerForm() {
                     <div className="col-12 mb-25">
                       <div className="it-contact-input-box">
                         <label>10th Percentage</label>
-                        <input type="text" placeholder="" name="user_ten" />
+                        <input type="number" placeholder="" name="user_ten" />
                       </div>
                     </div>
                     <div className="col-12 mb-25">
                       <div className="it-contact-input-box">
                         <label>12th Percentage</label>
-                        <input type="text" placeholder="" name="user_twelve" />
+                        <input
+                          type="number"
+                          placeholder=""
+                          name="user_twelve"
+                        />
                       </div>
                     </div>
                     <div className="col-12 mb-25">
@@ -263,7 +247,7 @@ export default function CareerForm() {
                           type="email"
                           placeholder="Email"
                           name="user_email"
-                          required
+                          required="true"
                         />
                       </div>
                     </div>
@@ -275,7 +259,7 @@ export default function CareerForm() {
                           type="text"
                           placeholder=""
                           name="user_ugdegree"
-                          required
+                          required="true"
                         />
                       </div>
                     </div>
@@ -286,7 +270,7 @@ export default function CareerForm() {
                           type="text"
                           placeholder=""
                           name="user_uguni"
-                          required
+                          required="true"
                         />
                       </div>
                     </div>
@@ -294,10 +278,10 @@ export default function CareerForm() {
                       <div className="it-contact-input-box">
                         <label>Percentage/CGPA*</label>
                         <input
-                          type="text"
+                          type="number"
                           placeholder=""
                           name="user_ugpercenatage"
-                          required
+                          required="true"
                         />
                       </div>
                     </div>
@@ -305,10 +289,10 @@ export default function CareerForm() {
                       <div className="it-contact-input-box">
                         <label>Year of passing*</label>
                         <input
-                          type="text"
+                          type="number"
                           placeholder=""
                           name="user_ugpassing"
-                          required
+                          required="true"
                         />
                       </div>
                     </div>
@@ -320,7 +304,7 @@ export default function CareerForm() {
                           type="text"
                           placeholder=""
                           name="user_pgdegree"
-                          required
+                          required="true"
                         />
                       </div>
                     </div>
@@ -331,7 +315,7 @@ export default function CareerForm() {
                           type="text"
                           placeholder=""
                           name="user_pguni"
-                          required
+                          required="true"
                         />
                       </div>
                     </div>
@@ -339,10 +323,10 @@ export default function CareerForm() {
                       <div className="it-contact-input-box">
                         <label>Percentage/CGPA*</label>
                         <input
-                          type="text"
+                          type="number"
                           placeholder=""
                           name="user_pgpercenatage"
-                          required
+                          required="true"
                         />
                       </div>
                     </div>
@@ -350,10 +334,10 @@ export default function CareerForm() {
                       <div className="it-contact-input-box">
                         <label>Year of passing*</label>
                         <input
-                          type="text"
+                          type="number"
                           placeholder=""
                           name="user_pgpassing"
-                          required
+                          required="true"
                         />
                       </div>
                     </div>
@@ -365,7 +349,7 @@ export default function CareerForm() {
                           type="text"
                           placeholder=""
                           name="user_area"
-                          required
+                          
                         />
                       </div>
                     </div>
@@ -376,7 +360,7 @@ export default function CareerForm() {
                           type="text"
                           placeholder=""
                           name="user_phduni"
-                          required
+                          
                         />
                       </div>
                     </div>
@@ -385,10 +369,10 @@ export default function CareerForm() {
                       <div className="it-contact-input-box">
                         <label>Year of passing*</label>
                         <input
-                          type="text"
+                          type="number"
                           placeholder=""
                           name="user_phdpassing"
-                          required
+                          
                         />
                       </div>
                     </div>
@@ -397,7 +381,7 @@ export default function CareerForm() {
                       <div className="it-contact-input-box">
                         <label>Academic</label>
                         <input
-                          type="text"
+                          type="number"
                           placeholder=""
                           name="user_academic"
                         />
@@ -407,7 +391,7 @@ export default function CareerForm() {
                       <div className="it-contact-input-box">
                         <label>Industry</label>
                         <input
-                          type="text"
+                          type="number"
                           placeholder=""
                           name="user_industry"
                         />
@@ -417,7 +401,7 @@ export default function CareerForm() {
                       <div className="it-contact-input-box">
                         <label>Research</label>
                         <input
-                          type="text"
+                          type="number"
                           placeholder=""
                           name="user_research"
                         />
@@ -427,7 +411,7 @@ export default function CareerForm() {
                       <div className="it-contact-input-box">
                         <label>Total Experience</label>
                         <input
-                          type="text"
+                          type="number"
                           placeholder=""
                           name="user_texperience"
                         />
@@ -442,7 +426,7 @@ export default function CareerForm() {
                               type="radio"
                               name="user_subject"
                               value="Yes"
-                              required
+                              
                             />
                             Yes
                           </label>
@@ -451,7 +435,7 @@ export default function CareerForm() {
                               type="radio"
                               name="user_subject"
                               value="No"
-                              required
+                              
                             />
                             No
                           </label>
@@ -471,7 +455,7 @@ export default function CareerForm() {
                           type="text"
                           placeholder=""
                           name="user_altphone"
-                          required
+                          
                         />
                       </div>
                     </div>
@@ -482,7 +466,7 @@ export default function CareerForm() {
                           type="text"
                           placeholder="Subject"
                           name="user_altemail"
-                          required
+                          
                         />
                       </div>
                     </div>
@@ -493,7 +477,7 @@ export default function CareerForm() {
                           type="text"
                           placeholder="Subject"
                           name="user_subject"
-                          required
+                          
                         />
                       </div>
                     </div>
@@ -506,16 +490,14 @@ export default function CareerForm() {
                           <input
                             type="file"
                             accept=".pdf"
-                            name="user_pdf"
-                            required
+                            name="resumeUrl"
+                            required="true"
                             onChange={handleFileChange}
-                           
                           />
                         </label>
                         <span className="file-upload-label">{fileName}</span>
                       </div>
                     </div>
-
                     <div className="col-12 mb-25">
                       <div className="it-contact-textarea-box">
                         <label>Message</label>
