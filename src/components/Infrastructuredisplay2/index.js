@@ -59,7 +59,7 @@ const Infrastructuredisplay = () => {
   const [state, setState] = useState(true);
   return (
     <div className="it-blog-area it-blog-style-3 it-blog-style-6 grey-bg pt-20 pb-90">
-      <div className="container" id="lab">
+      {/* <div className="container" id="lab">
         <div className="row">
           <div class="it-career-title-box mb-10">
             <div className="three mb-5">
@@ -95,8 +95,8 @@ const Infrastructuredisplay = () => {
             })
             .slice(0, 4)}
         </div>
-      </div>
-      {/* <div id="library">
+      </div> */}
+      <div id="library">
         <div className="it-choose-area p-relative py-3">
           <div className="container">
                   <div className="it-choose-title-box mb-30 university-title-gsap">
@@ -230,8 +230,8 @@ const Infrastructuredisplay = () => {
             })
             .slice(4, 6)}
         </div>
-      </div> */}
-      <div className="container" id="ac">
+      </div>
+      {/* <div className="container" id="ac">
         <div className="row">
           <div class="it-career-title-box  mb-20">
             <div className="three mb-20">
@@ -312,7 +312,7 @@ const Infrastructuredisplay = () => {
             })
             .slice(10, 13)}
         </div>
-      </div>
+      </div> */}
     </div>
   );
 };

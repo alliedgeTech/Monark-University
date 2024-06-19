@@ -394,13 +394,13 @@ export default function MenuItems(props) {
             </ul>
           </li>
           <li className="nav-link has-dropdown">
-            <Link href="/campus">Campus Life</Link>
+            <Link href="/campus2">Campus Life</Link>
             <ul className="it-submenu submenu">
               <li>
-                <Link href="/campus#artsandculture">Arts & Culture</Link>
+                <Link href="/campus2#artsandculture">Arts & Culture</Link>
               </li>
               <li>
-                <Link href="/campus#campusevent">Campus Event</Link>
+                <Link href="/campus2#campusevent">Campus Event</Link>
               </li>
               <li>
                 <Link href="/campus#nss">Community Services</Link>
@@ -412,18 +412,18 @@ export default function MenuItems(props) {
                 <Link href="/campus#sports">Sports</Link>
               </li>
               <li>
-                <Link href="/campus#workshopsandseminars">
+                <Link href="/campus2#workshopsandseminars">
                   Workshops & Seminars
                 </Link>
               </li>
               <li>
-                <Link href="/campus#yoga">Yoga Day</Link>
+                <Link href="/campus2#yoga">Yoga Day</Link>
               </li>
               <li>
                 <Link href="/campus#teacherday">Teacher's Day</Link>
               </li>
               <li>
-                <Link href="/campus#studentclub">Students Club</Link>
+                <Link href="/campus3#studentclub">Students Club</Link>
               </li>
             </ul>
           </li>
@@ -434,10 +434,10 @@ export default function MenuItems(props) {
                 <Link href="/infrastructure#lab">Laboratories</Link>
               </li>
               <li>
-                <Link href="/infrastructure#library">Library</Link>
+                <Link href="/infrastructure2#library">Library</Link>
               </li>
               <li>
-                <Link href="/infrastructure#hostel">Hostel</Link>
+                <Link href="/infrastructure2#hostel">Hostel</Link>
               </li>
               <li>
                 <Link href="/infrastructure#ac">

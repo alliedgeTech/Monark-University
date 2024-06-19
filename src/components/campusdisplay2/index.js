@@ -41,7 +41,7 @@ const Campusdisplay = () => {
         className="it-gallery-area p-relative grey-bg-2 pt-20 pb-20"
       >
         
-        {/* <div className="container bg-white rounded p-3" id="artsandculture">
+        <div className="container bg-white rounded p-3" id="artsandculture">
           <div className="row">
             <div className="col-xl-12">
               <div className="it-gallery-title-box pb-20">
@@ -89,8 +89,8 @@ const Campusdisplay = () => {
               ))
               .slice(18,34)}
           </div>
-        </div> */}
-        <div className="container bg-white rounded p-3" id="nss">
+        </div>
+        {/* <div className="container bg-white rounded p-3" id="nss">
           <div className="row">
             <div className="col-xl-12">
               <div className="it-gallery-title-box three pb-20">
@@ -159,8 +159,8 @@ const Campusdisplay = () => {
               ))
               .slice(82, 102)}
           </div>
-        </div>
-        {/* <div className="container" id="workshopsandseminars">
+        </div> */}
+        <div className="container" id="workshopsandseminars">
           <div className="row">
             <div className="col-xl-12">
               <div className="it-gallery-title-box three pb-20">
@@ -205,7 +205,7 @@ const Campusdisplay = () => {
               ))
               .slice(108, 111)}
           </div>
-        </div> */}
+        </div>
         {/* <div className="container" id="teacherday">
           <div className="row">
             <div className="col-xl-12">
