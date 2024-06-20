@@ -25,6 +25,35 @@ export default function MenuItems(props) {
     }, 1000);
   };
 
+  // Check localStorage for dark mode preference
+  const [darkMode, setDarkMode] = useState(false);
+
+  useEffect(() => {
+    // Only access localStorage on the client side
+    if (typeof window !== "undefined") {
+      const savedDarkMode = localStorage.getItem("darkMode");
+      if (savedDarkMode) {
+        setDarkMode(savedDarkMode === "true");
+      }
+    }
+  }, []);
+
+  useEffect(() => {
+    if (darkMode) {
+      document.body.classList.add("darkmode");
+    } else {
+      document.body.classList.remove("darkmode");
+    }
+    // Save dark mode preference to localStorage
+    if (typeof window !== "undefined") {
+      localStorage.setItem("darkMode", darkMode);
+    }
+  }, [darkMode]);
+
+  const toggleDarkMode = () => {
+    setDarkMode(!darkMode);
+  };
+
   const { onePage } = props;
 
   const onepageHomeMenu = (
@@ -463,7 +492,11 @@ export default function MenuItems(props) {
           <li className="nav-link">
             <Link href="/contact">contact</Link>
           </li>
+          <button className="dark-btn" onClick={toggleDarkMode}>
+        <i className="fa-regular fa-sun"></i>
+      </button>
         </ul>
+        
       )}
       {showPreloader && <Preloader />}
     </>

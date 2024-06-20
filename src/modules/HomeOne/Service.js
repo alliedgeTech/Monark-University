@@ -28,7 +28,7 @@ export default function Service() {
 
   return (
     <>
-      <div className="mu_course pt-4 bg-light">
+      <div className="mu_course pt-4">
         <div className="container">
           <div class="highlight_section container mt-5 py-5">
             <div

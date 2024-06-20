@@ -73,7 +73,7 @@ const Calanderdisplay = () => {
   };
   return (
     <div className="placement" id="circular">
-      <div id="latest-news" className="bg-light container-fluid py-4">
+      <div id="latest-news" className="container-fluid py-4">
         <div className="student-placement-heading d-flex align-items-center justify-content-center mb-20">
           <div className="one">
             <h1 className="text-center mb-0 w-100">Academic Calander</h1>

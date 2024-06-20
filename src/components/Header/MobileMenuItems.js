@@ -1,6 +1,6 @@
 import facultydata from "@/data/faculty";
 import Link from "next/link";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 
 export default function MobileMenuItems(props) {
   const { onePage } = props;
@@ -95,6 +95,35 @@ export default function MobileMenuItems(props) {
       </Link>
     </li>
   );
+
+  // Check localStorage for dark mode preference
+  const [darkMode, setDarkMode] = useState(false);
+
+  useEffect(() => {
+    // Only access localStorage on the client side
+    if (typeof window !== "undefined") {
+      const savedDarkMode = localStorage.getItem("darkMode");
+      if (savedDarkMode) {
+        setDarkMode(savedDarkMode === "true");
+      }
+    }
+  }, []);
+
+  useEffect(() => {
+    if (darkMode) {
+      document.body.classList.add("darkmode");
+    } else {
+      document.body.classList.remove("darkmode");
+    }
+    // Save dark mode preference to localStorage
+    if (typeof window !== "undefined") {
+      localStorage.setItem("darkMode", darkMode);
+    }
+  }, [darkMode]);
+
+  const toggleDarkMode = () => {
+    setDarkMode(!darkMode);
+  };
 
   return (
     <>
@@ -195,6 +224,9 @@ export default function MobileMenuItems(props) {
         </ul>
       ) : (
         <ul>
+          <button className="dark-btn" onClick={toggleDarkMode}>
+        <i className="fa-regular fa-sun"></i>
+      </button>
           {/* Home */}
           <li className=" p-static nav-link2">
             <Link

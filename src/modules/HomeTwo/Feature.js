@@ -3,7 +3,7 @@ import Services from "@/data/services"
 
 export default function Feature() {
 	return (
-		<div className="it-feature-area grey-bg it-feature-2-style pt-120 pb-120">
+		<div className="it-feature-area it-feature-2-style pt-120 pb-120">
 			<div className="container">
 				<div className="row">
 					{

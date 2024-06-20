@@ -21,7 +21,7 @@ export default function Gallery() {
 				]}
 			/>
 
-			<div id="it-gallery" className="it-gallery-area p-relative grey-bg-2 pt-120 pb-120">
+			<div id="it-gallery" className="it-gallery-area p-relative pt-120 pb-120">
 				<div className="it-gallery-shape-1 d-none d-lg-block">
 					<Image src="/img/gallery/shape-1-1.png" alt="" width={115} height={117} />
 				</div>

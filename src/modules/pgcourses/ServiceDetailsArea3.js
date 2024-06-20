@@ -143,7 +143,7 @@ export default function ServiceDetailsArea() {
                         </Col>
                       </Row>
                     </div>
-                    <div className='justify-content-center bg-light'>
+                    <div className='justify-content-center '>
                     <div className="three">
                       <h1 className={styles.boxTitle}>{course.title}</h1>
                       </div>

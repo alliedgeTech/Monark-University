@@ -157,7 +157,7 @@ export default function ServiceDetailsArea() {
                         </Col>
                       </Row>
                     </div>
-                    <div className=" pb-40 bg-light">
+                    <div className=" pb-40">
                       <div className="three">
                         <h1 className={styles.boxTitle}>{course.title}</h1>
                       </div>

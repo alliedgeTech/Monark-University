@@ -4,7 +4,7 @@ import Services from "@/data/services"
 
 export default function Feature() {
 	return (
-		<div id="it-service" className="it-feature-3-area it-feature-3-bg grey-bg pt-120 pb-90">
+		<div id="it-service" className="it-feature-3-area it-feature-3-bg pt-120 pb-90">
 			<Image src="/img/feature/feature-bg.png" alt="" fill={true} />
 			<div className="container">
 				<div className="row justify-content-center">

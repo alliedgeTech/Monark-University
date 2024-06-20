@@ -147,7 +147,7 @@ export default function Team() {
           </div>
         </div>
         
-        <div className="it-funfact-5-area it-funfact-5-bg p-relative fix bg-white py-5" data-background="/img/funfact/bg-2.png" id="committeessgrc">
+        <div className="it-funfact-5-area it-funfact-5-bg p-relative fix py-5" data-background="/img/funfact/bg-2.png" id="committeessgrc">
           <div className="container">
             <div className="row">
               <div className="col-xl-12">

@@ -58,7 +58,7 @@ const Infrastructuredisplay = () => {
 
   const [state, setState] = useState(true);
   return (
-    <div className="it-blog-area it-blog-style-3 it-blog-style-6 grey-bg pt-20 pb-90">
+    <div className="it-blog-area it-blog-style-3 it-blog-style-6 pt-20 pb-90">
       <div className="container" id="lab">
         <div className="row">
           <div class="it-career-title-box mb-10">

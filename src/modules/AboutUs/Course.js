@@ -6,7 +6,7 @@ import Courses from "@/data/courses"
 
 export default function Course() {
 	return (
-		<div className="it-course-area it-sub-bg-none p-relative grey-bg pt-120 pb-120">
+		<div className="it-course-area it-sub-bg-none p-relative pt-120 pb-120">
 			<div className="it-course-shape-1 d-none d-xl-block">
 				<Image src="/img/course/shape-1-1.png" alt="" width={365} height={264} />
 			</div>

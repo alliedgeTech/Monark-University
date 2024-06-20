@@ -5,7 +5,7 @@ import Blogs from "@/data/blogs"
 
 export default function Blog() {
 	return (
-		<div id="it-blog" className="it-blog-area it-blog-style-3 grey-bg pt-90 pb-90">
+		<div id="it-blog" className="it-blog-area it-blog-style-3 pt-90 pb-90">
 			<div className="container">
 				<div className="it-blog-title-wrap mb-60">
 					<div className="row align-items-end">

@@ -65,8 +65,6 @@ export default function CareerForm() {
           <div className="it-contact__section-box three pb-20">
             <h1 className="it-contact__title pb-15">Grow With MU</h1>
           </div>
-          <div className="row align-items-end">
-            <div className="col-xl-6">
               <div className="it-contact__form-box">
                 <form ref={form} onSubmit={sendEmail}>
                   <div className="row">
@@ -541,8 +539,7 @@ export default function CareerForm() {
                   <Toaster position="bottom-center" reverseOrder={false} />
                 </form>
               </div>
-            </div>
-          </div>
+            
         </div>
       </div>
     </div>

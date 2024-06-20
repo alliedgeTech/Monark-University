@@ -4,7 +4,7 @@ import syllabusdetailsdata from "@/data/syllabus";
 
 export default function CourseArea() {
 	return (
-		<div className="it-course-area p-relative grey-bg pt-120 pb-120">
+		<div className="it-course-area p-relative pt-120 pb-120">
 			<div className="container">
 				<div className="row">
 				{
