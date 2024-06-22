@@ -14,11 +14,12 @@ import Newsletter from "@/components/Newsletter"
 import ScrollTop from "@/components/ScrollTop"
 import CounterDisplay from "@/components/CounterDisplay"
 import Lifemu from "@/components/Lifemu"
+import Enquiry from "@/components/Enquirydisplay"
 
 export default function HomeOneModules() {
 	return (
 		<main>
-			
+			<Enquiry/>
 			<Banner />
 			<Category />
 			<CounterDisplay />
