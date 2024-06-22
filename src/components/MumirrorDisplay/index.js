@@ -1,77 +1,64 @@
-// import React, { useEffect, useRef, useState } from 'react';
-// import HTMLFlipBook from "react-pageflip";
-// import * as pdfjsLib from 'pdfjs-dist/webpack';
-// import page1 from "../../../public/img/pdf/p1.pdf";
-// import page2 from "../../../public/img/pdf/p2.pdf";
-// import page3 from "../../../public/img/pdf/p3.pdf";
-// import page4 from "../../../public/img/pdf/p4.pdf";
+import React from "react";
+import HTMLFlipBook from "react-pageflip";
 
-// pdfjsLib.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjsLib.version}/pdf.worker.min.js`;
-
-// const renderPDFPage = (pdfUrl, pageNumber, canvas) => {
-//   return pdfjsLib.getDocument(pdfUrl).promise.then(pdf => {
-//     return pdf.getPage(pageNumber).then(page => {
-//       const viewport = page.getViewport({ scale: 1 });
-//       const context = canvas.getContext('2d');
-//       canvas.height = viewport.height;
-//       canvas.width = viewport.width;
-
-//       const renderContext = {
-//         canvasContext: context,
-//         viewport: viewport,
-//       };
-//       return page.render(renderContext).promise;
-//     });
-//   });
-// };
-
-// const Index = () => {
-//   const canvasRefs = useRef([]);
-//   const [pdfLoaded, setPdfLoaded] = useState(false);
-
-//   const pdfFiles = [page1, page2, page3, page4];
-
-//   useEffect(() => {
-//     const renderAllPDFPages = async () => {
-//       const renderPromises = pdfFiles.map(async (pdfFile, index) => {
-//         const canvas = canvasRefs.current[index];
-//         if (canvas) {
-//           await renderPDFPage(pdfFile, 1, canvas);
-//         }
-//       });
-      
-//       await Promise.all(renderPromises);
-//       setPdfLoaded(true);
-//     };
-
-//     renderAllPDFPages();
-//   }, []);
-
-//   return (
-//     <div className="container" style={{ marginTop: '75px' }}>
-//       {pdfLoaded && (
-//         <HTMLFlipBook className="" height={400} width={400}>
-//           {pdfFiles.map((_, index) => (
-//             <div key={index} className="">
-//               <canvas ref={el => canvasRefs.current[index] = el} />
-//             </div>
-//           ))}
-//         </HTMLFlipBook>
-//       )}
-//     </div>
-//   );
-// };
-
-// export default Index;
-import React from 'react'
+const Page = React.forwardRef((props, ref) => {
+  return (
+    <div className="demoPage" ref={ref}>
+      {/* <p>{props.children}</p> */}
+      {/* <p>Page number: {props.number}</p> */}
+      <img src={props.imageUrl} alt={`Page ${props.number}`} />
+    </div>
+  );
+});
 
 const index = () => {
+  // Array of objects containing page numbers and image URLs
+  const pages = [
+    {
+      number: 1,
+      imageUrl:
+        "https://res.cloudinary.com/dnjgopun8/image/upload/v1719051178/1719050971272-6ab278fb-915d-411e-ab0a-02c6025169440_1_zmy2bm.jpg",
+    },
+    {
+      number: 2,
+      imageUrl:
+        "https://res.cloudinary.com/dnjgopun8/image/upload/v1719051178/1719050971272-6ab278fb-915d-411e-ab0a-02c6025169440_2_nflhfz.jpg",
+    },
+    {
+      number: 3,
+      imageUrl:
+        "https://res.cloudinary.com/dnjgopun8/image/upload/v1719051177/1719050971272-6ab278fb-915d-411e-ab0a-02c6025169440_3_cok0ei.jpg",
+    },
+    {
+      number: 4,
+      imageUrl:
+        "https://res.cloudinary.com/dnjgopun8/image/upload/v1719051178/1719050971272-6ab278fb-915d-411e-ab0a-02c6025169440_4_uhzlgw.jpg",
+    },
+    {
+      number: 5,
+      imageUrl:
+        "https://res.cloudinary.com/dnjgopun8/image/upload/v1719051178/1719050971272-6ab278fb-915d-411e-ab0a-02c6025169440_5_vzy7m9.jpg",
+    },
+    {
+      number: 6,
+      imageUrl:
+        "https://res.cloudinary.com/dnjgopun8/image/upload/v1719051178/1719050971272-6ab278fb-915d-411e-ab0a-02c6025169440_6_jvldki.jpg",
+    },
+  ];
+
   return (
-    <div className='mt-80'>
-      <h1>mu mirror</h1>
+    <div className="mt-100 mb-200">
+      <HTMLFlipBook style={{ marginLeft: 300 }} width={400} height={600}>
+        {pages.map((page) => (
+          <Page
+            key={page.number}
+            number={page.number}
+            imageUrl={page.imageUrl}
+          ></Page>
+        ))}
+      </HTMLFlipBook>
     </div>
-  )
-}
+  );
+};
 
-export default index
-
+export default index;

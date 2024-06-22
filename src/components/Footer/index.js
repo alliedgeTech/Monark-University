@@ -19,8 +19,8 @@ export default function Footer(props) {
 								<h6>Print & Media</h6>
 								<ul style={{listStyle:'none'}}>
 									<li><i class="fa-solid fa-circle-chevron-right mr-10"></i><Link href="">Media & Coverage</Link></li>
-									<li><i class="fa-solid fa-circle-chevron-right mr-10"></i><Link href="">MU Mirror</Link></li>
-									<li><i class="fa-solid fa-circle-chevron-right mr-10"></i><Link href="">MU By Rj Akash</Link></li>
+									<li><i class="fa-solid fa-circle-chevron-right mr-10"></i><Link href="/mumirror">MU Mirror</Link></li>
+									<li><i class="fa-solid fa-circle-chevron-right mr-10"></i><Link href="https://www.facebook.com/rjakash88/videos/560419008857402/?extid=CL-UNK-UNK-UNK-AN_GK0T-GK1C">MU By Rj Akash</Link></li>
 								</ul>
 								<h6>Grow With Us</h6>
 								<ul style={{listStyle:'none'}}>
