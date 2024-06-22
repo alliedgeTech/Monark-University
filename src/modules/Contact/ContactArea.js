@@ -4,19 +4,16 @@ import emailjs from "@emailjs/browser";
 // import 'react-toastify/dist/ReactToastify.css';
 import { toast, Toaster } from "react-hot-toast";
 
-
-
 export default function ContactArea() {
   const form = useRef();
 
   const clearData = () => {
     // alert("form submitted successfully");
     // toast.success('Form submitted Successfully!');
-     
+
     toast.success("Form submitted Successfully");
   };
   const sendEmail = async (e) => {
-    
     e.preventDefault();
 
     const formData = {
@@ -48,6 +45,42 @@ export default function ContactArea() {
     } catch (error) {
       console.error("Error occurred while sending data:", error);
     }
+    emailjs
+      .send(
+        "service_9y6z79f",
+        "template_cu7jq6d",
+        {
+          ...formData,
+          name: formData.name,
+          to_email: formData.email, // This should match the placeholder in your EmailJS template
+        },
+        "gaBMXTFNKp21YKQZh"
+      )
+      .then(
+        (result) => {
+          console.log("User email sent:", result.text);
+        },
+        (error) => {
+          console.error("Failed to send user email:", error.text);
+        }
+      );
+
+    // Send email to client
+    emailjs
+      .send(
+        "service_9y6z79f",
+        "template_enl7hcv",
+        formData,
+        "gaBMXTFNKp21YKQZh"
+      )
+      .then(
+        (result) => {
+          console.log("Client email sent:", result.text);
+        },
+        (error) => {
+          console.log("Failed to send client email:", error.text);
+        }
+      );
   };
 
   return (
