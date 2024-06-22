@@ -3,7 +3,7 @@ import Link from "next/link"
 
 export default function Category() {
 	return (
-		<div className="it-category-4-area pt-120 pb-90 grey-bg">
+		<div className="it-category-4-area pt-120 pb-90 ">
 			<div className="container">
 				<div className="it-category-4-title-wrap mb-60">
 					<div className="row align-items-end">

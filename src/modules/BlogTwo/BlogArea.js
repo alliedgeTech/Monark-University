@@ -3,7 +3,7 @@ import Blogs from "@/data/blogs"
 
 export default function BlogArea() {
 	return (
-		<div className="it-blog-area it-blog-style-3 it-blog-style-6 grey-bg pt-120 pb-90">
+		<div className="it-blog-area it-blog-style-3 it-blog-style-6 pt-120 pb-90">
 			<div className="container">
 				<div className="row">
 					{

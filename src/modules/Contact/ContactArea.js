@@ -91,10 +91,10 @@ export default function ContactArea() {
           <div className="it-contact__section-box three pb-20">
             <h1 className="it-contact__title pb-15">Get in Touch</h1>
           </div>
-          <div className="row align-items-end">
-            <div className="col-xl-7">
+          <div className="row">
+            <div className="col-xl-6">
               <div className="it-contact__right-box">
-                <div className="it-contact__content mb-55">
+                <div className="it-contact__content">
                   <ul>
                     <li>
                       <div className="it-contact__list d-flex align-items-start">
@@ -144,7 +144,7 @@ export default function ContactArea() {
                     </li>
                   </ul>
                 </div>
-                <div className="it-contact__bottom-box d-flex align-items-center justify-content-between">
+                <div className="it-contact__bottom-box d-flex align-items-center justify-content-between mt-20">
                   <div className="it-contact__scrool smooth"></div>
                   <div className="it-footer-social">
                     <a href="https://www.facebook.com/monark.university">
@@ -163,7 +163,7 @@ export default function ContactArea() {
                 </div>
               </div>
             </div>
-            <div className="col-xl-5">
+            <div className="col-xl-6">
               <div className="it-contact__form-box">
                 <form ref={form} onSubmit={sendEmail}>
                   <div className="row">

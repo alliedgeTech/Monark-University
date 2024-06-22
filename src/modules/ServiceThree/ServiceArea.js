@@ -3,7 +3,7 @@ import SingleFeatureThree from "@/components/Feature/Three"
 
 export default function ServiceThreeArea() {
 	return (
-		<div className="it-feature-area grey-bg it-feature-style-2 pt-120 pb-120">
+		<div className="it-feature-area it-feature-style-2 pt-120 pb-120">
 			<div className="container">
 				<div className="row">
 					{

@@ -72,7 +72,7 @@ const Examdisplay = () => {
   };
   return (
     <div className="placement" id="exams">
-      <div id="latest-news" className="Latest-News container py-4">
+      <div id="latest-news" className="container py-4">
         <div className="student-placement-heading d-flex align-items-center justify-content-center mb-20">
           <div className="line"></div>
           <h1 className="text-center mb-0 w-100">Exam Schedule</h1>

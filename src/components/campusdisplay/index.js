@@ -38,7 +38,7 @@ const Campusdisplay = () => {
       
       <div
         id="it-gallery"
-        className="it-gallery-area p-relative grey-bg-2 pt-20 pb-20"
+        className="it-gallery-area p-relative pt-20 pb-20"
       >
         
         {/* <div className="container bg-white rounded p-3" id="artsandculture">
@@ -90,7 +90,7 @@ const Campusdisplay = () => {
               .slice(18,34)}
           </div>
         </div> */}
-        <div className="container bg-white rounded p-3" id="nss">
+        <div className="container  rounded p-3" id="nss">
           <div className="row">
             <div className="col-xl-12">
               <div className="it-gallery-title-box three pb-20">
@@ -137,7 +137,7 @@ const Campusdisplay = () => {
               .slice(66, 82)}
           </div>
         </div>
-        <div className="container bg-white rounded p-3" id="sports">
+        <div className="container rounded p-3" id="sports">
           <div className="row">
             <div className="col-xl-12">
               <div className="it-gallery-title-box three pb-20">

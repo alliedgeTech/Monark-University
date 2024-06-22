@@ -3,7 +3,7 @@ import Services2 from "@/data/after12"
 
 export default function ServiceTwoArea() {
 	return (
-		<div className="it-feature-3-area it-feature-3-bg it-feature-3-style grey-bg pt-120 pb-90">
+		<div className="it-feature-3-area it-feature-3-bg it-feature-3-style pt-120 pb-90">
 			<div className="container">
 				<div className="row">
 					{

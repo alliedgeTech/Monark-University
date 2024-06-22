@@ -139,7 +139,7 @@ export default function Header(props) {
             <MobileMenuItems onePage={menuFormat} />
           </div>
           <div className="itoffcanvas__info">
-            <h3 className="offcanva-title">Get In Touch</h3>
+            <h3 className="mb-4 text-white">Get In Touch</h3>
             <div className="it-info-wrapper mb-20 d-flex align-items-center">
               <div className="itoffcanvas__info-icon">
                 <a href="#">

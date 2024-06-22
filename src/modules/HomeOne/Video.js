@@ -52,8 +52,8 @@ const ApiService = async ({ method, endpoint, data }) => {
 
 // Main component
 export default function Video() {
-  const [latestNews, setLatestNews] = useState([]);
   const [loading, setLoading] = useState(true);
+  const [latestNews, setLatestNews] = useState([]);
 
   const fetchData = async () => {
     try {

@@ -7,37 +7,26 @@ export default function Footer(props) {
 	return (
 		<footer className='footer  pt-3'>
 			<div className="container">
-				{/* <div className="footer-up py-1">
-					<div className="row">
-						<div className="col-lg-4 col-md-3 col-sm-12">
-							<div className='footer-logo d-flex'>
-								<Image className='img-fluid' style={{maxWidth:'140px'}} src={footerImg}></Image>
-							</div>
-						</div>
-						<div className="col-lg-8 col-md-9 col-sm-12 mt-4 mt-lg-0">
-							
-						</div>
-					</div>
-				</div> */}
+				
 				<div className="footer-middle pb-3">
 					<div className="row">
 						<div className="col-lg-3 col-md-6 col-12">
 							<div className="d-flex flex-column">
 								<h6>Enroll With Us</h6>
-								<ul>
-									<li><Link href="">How to apply</Link></li>
+								<ul style={{listStyle:'none'}}>
+									<li><i class="fa-solid fa-circle-chevron-right mr-10"></i><Link href="">How to apply</Link></li>
 								</ul>
 								<h6>Print & Media</h6>
-								<ul>
-									<li><Link href="">Media & Coverage</Link></li>
-									<li><Link href="">MU Mirror</Link></li>
-									<li><Link href="">MU By Rj Akash</Link></li>
+								<ul style={{listStyle:'none'}}>
+									<li><i class="fa-solid fa-circle-chevron-right mr-10"></i><Link href="">Media & Coverage</Link></li>
+									<li><i class="fa-solid fa-circle-chevron-right mr-10"></i><Link href="/mumirror">MU Mirror</Link></li>
+									<li><i class="fa-solid fa-circle-chevron-right mr-10"></i><Link href="https://www.facebook.com/rjakash88/videos/560419008857402/?extid=CL-UNK-UNK-UNK-AN_GK0T-GK1C">MU By Rj Akash</Link></li>
 								</ul>
 								<h6>Grow With Us</h6>
-								<ul>
-									<li><Link href="/placement">Placement</Link></li>
-									<li><Link href="">Alumni</Link></li>
-									<li><Link href="/career">Career @ MU</Link></li>
+								<ul style={{listStyle:'none'}}>
+									<li><i class="fa-solid fa-circle-chevron-right mr-10"></i><Link href="/placement">Placement</Link></li>
+									<li><i class="fa-solid fa-circle-chevron-right mr-10"></i><Link href="">Alumni</Link></li>
+									<li><i class="fa-solid fa-circle-chevron-right mr-10"></i><Link href="/career">Career @ MU</Link></li>
 								</ul>
 
 							</div>

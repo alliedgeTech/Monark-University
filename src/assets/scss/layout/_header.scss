@@ -116,10 +116,10 @@
             & li {
                 list-style-type: none;
                 display: inline-block;
-                margin: 0 19px;
+                margin: 0 7px;
                 position: relative;
                 @media #{$xl}{                 
-                    margin: 0 16px;
+                    margin: 0 7px;
                 }
                 &:last-child{
                     margin-right: 0;

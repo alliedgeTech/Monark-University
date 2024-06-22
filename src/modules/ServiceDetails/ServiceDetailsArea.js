@@ -109,7 +109,7 @@ export default function ServiceDetailsArea() {
             </Col>
           </Row>
         </div>
-        <div className="pb-40 pt-10 mt-50 px-4 bg-light">
+        <div className="pb-40 pt-10 mt-50 px-4">
           <div className="three">
             <h1 className={styles.boxTitle}>{item.title}</h1>
           </div>
@@ -160,8 +160,10 @@ export default function ServiceDetailsArea() {
             </div>
           </div>
         </div>
-        <div className={styles.laboratoriesSection}>
-          <h2 className={styles.laboratoriesTitle}>Laboratories</h2>
+        <div className="">
+          <div className="eight mb-30">
+            <h1 className="">Laboratories</h1>
+          </div>
           <div>
             {item.laboratories.map((lab, index) => (
               <div key={index} className="about-1 mb-4">
@@ -174,8 +176,11 @@ export default function ServiceDetailsArea() {
                               />
                             </div>
                             <div className="col-lg-6 col-12 ps-5">
-                              <h4 className="mb-20">{lab.title}</h4>
-                              <ul>
+                              <div className="three">
+                                <h4 className="mb-20">{lab.title}</h4>
+
+                              </div>
+                              <ul className="service-ul">
                                 {lab.pera.split("/")?.map((line, lineIndex) => (
                                   <li key={lineIndex}>{line.trim()}</li>
                                 ))}

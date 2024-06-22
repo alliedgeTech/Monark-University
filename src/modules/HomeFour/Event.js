@@ -4,7 +4,7 @@ import Events from "@/data/events"
 
 export default function Event() {
 	return (
-		<div id="it-event" className="it-event-2-area it-event-style-4 p-relative pt-90 grey-bg">
+		<div id="it-event" className="it-event-2-area it-event-style-4 p-relative pt-90">
 			<div className="container">
 				<div className="it-event-2-title-wrap mb-60">
 					<div className="row align-items-end">
