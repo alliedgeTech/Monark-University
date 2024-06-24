@@ -225,7 +225,7 @@ export default function MobileMenuItems(props) {
       ) : (
         <ul>
           <button className="dark-btn" onClick={toggleDarkMode}>
-        <i className="fa-regular fa-sun"></i>
+        <i className="fa-solid fa-moon"></i>
       </button>
           {/* Home */}
           <li className=" p-static nav-link2">

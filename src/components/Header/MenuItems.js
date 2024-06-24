@@ -493,7 +493,7 @@ export default function MenuItems(props) {
             <Link href="/contact">contact</Link>
           </li>
           <button className="dark-btn" onClick={toggleDarkMode}>
-        <i className="fa-regular fa-sun"></i>
+        <i className="fa-solid fa-moon"></i>
       </button>
         </ul>
         

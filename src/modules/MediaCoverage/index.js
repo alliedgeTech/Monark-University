@@ -1,14 +1,13 @@
-import BlogArea from "./BlogArea";
 import Newsletter from "@/components/Newsletter";
 import BreadCrumbs from "@/components/BreadCrumbs";
 import ScrollTop from "@/components/ScrollTop";
-import Campusdisplay from "@/components/MediaCoverage";
+import MediaCoverageImage from "@/components/MediaCoverage";
 
-export default function BlogModules() {
+export default function MediaCoverageModules() {
   return (
     <main>
-      <BreadCrumbs Title="Blog" subTitle="Blog" />
-      <Campusdisplay />
+      <BreadCrumbs Title="Media & Coverage" />
+      <MediaCoverageImage />
       <Newsletter />
       <ScrollTop />
     </main>
