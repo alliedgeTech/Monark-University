@@ -15,7 +15,7 @@ export default function Footer(props) {
                 <ul style={{ listStyle: "none" }}>
                   <li>
                     <i class="fa-solid fa-circle-chevron-right mr-10"></i>
-                    <Link href="">How to apply</Link>
+                    <Link href="/applynow">How to apply</Link>
                   </li>
                 </ul>
                 <h6>Print & Media</h6>
