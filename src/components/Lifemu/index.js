@@ -75,7 +75,7 @@ const Index = () => {
           Our Latest <span>EVENTS</span>
         </h1>
         <h2 className="width_50 mx-auto mt-4">
-          Highlights: An Overview of Former University Activities
+          An Overview of Former University Activities
         </h2>
       </div>
       <div className="container">
