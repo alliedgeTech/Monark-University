@@ -8,8 +8,8 @@ export default function CareerModules() {
 	return (
 		<main>
 			<BreadCrumbs
-				Title="Contact"
-				subTitle="Contact"
+				Title="Career"
+				subTitle="Career"
 			/>
 			<CareerForm />
 			<Newsletter />
