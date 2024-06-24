@@ -2,9 +2,8 @@ import React, { useEffect, useState } from "react";
 import dynamic from "next/dynamic";
 import "owl.carousel/dist/assets/owl.carousel.css";
 import "owl.carousel/dist/assets/owl.theme.default.css";
-import Link from "next/link";
+
 import axios from "axios";
-import { Container, Row, Col, Table, Accordion } from "react-bootstrap";
 
 if (typeof window !== "undefined") {
   var $ = require("jquery");
