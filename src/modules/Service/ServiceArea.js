@@ -3,6 +3,8 @@ import Services from "@/data/diploma";
 
 export default function ServiceArea() {
   return (
+    <>
+    
     <div className="it-category-area pt-30 pb-20">
       <div className="container">
         <div className="three mb-30">
@@ -24,5 +26,6 @@ export default function ServiceArea() {
         </div>
       </div>
     </div>
+    </>
   );
 }

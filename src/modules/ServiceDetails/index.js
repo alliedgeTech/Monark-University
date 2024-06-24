@@ -1,19 +1,21 @@
-import BreadCrumbs from "@/components/BreadCrumbs"
-import ServiceDetailsArea from "./ServiceDetailsArea"
-import Newsletter from "@/components/Newsletter"
-import ScrollTop from "@/components/ScrollTop"
+import BreadCrumbs from "@/components/BreadCrumbs";
+import ServiceDetailsArea from "./ServiceDetailsArea";
+import Newsletter from "@/components/Newsletter";
+import ScrollTop from "@/components/ScrollTop";
 
-export default function ServiceDetailsModules(singleService) {
-	console.log(singleService)
-	return (
-		<main>
-			<BreadCrumbs
-				Title="After 10 Details"
-				subTitle="Service"
-			/>
-			<ServiceDetailsArea item={singleService.item} />
-			<Newsletter />
-			<ScrollTop />
-		</main>
-	)
+export default function ServiceDetailsModules(singleService, props) {
+  console.log(singleService);
+  const { Title } = props;
+  console.log(props);
+  return (
+    <main>
+      <BreadCrumbs
+        Title={`After`}
+        subTitle="Service"
+      />
+      <ServiceDetailsArea item={singleService.item} Title={Title} />
+      <Newsletter />
+      <ScrollTop />
+    </main>
+  );
 }

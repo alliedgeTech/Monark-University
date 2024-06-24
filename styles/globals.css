@@ -2263,3 +2263,70 @@ tr {
     z-index: 99999;
     background: var(--web-orange);
 }
+/* General styles for the form inputs */
+.it-contact-input-box select {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    appearance: none;
+    background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M7 10l5 5 5-5z"/></svg>') no-repeat right 10px center;
+    background-size: 16px;
+    color: #333;
+    transition: border-color 0.3s ease;
+  }
+  
+  .it-contact-input-box select:focus {
+    outline: none;
+    border-color: #007BFF;
+    box-shadow: 0 0 5px #007BFF;
+  }
+  
+  /* Optional: Add some hover effect */
+  .it-contact-input-box select:hover {
+    border-color: #0056b3;
+  }
+  .action-button {
+    position: fixed;
+    top: 80%;
+    left: 20px;
+    transform: translateY(-50%);
+    padding: 10px 15px;
+    background-color: #ec691f;
+    color: white;
+    border: none;
+    border-radius: 50%; /* Makes the button circular */
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    line-height: 20px;
+    transition: background-color 0.3s ease;
+    z-index: 9;
+  }
+  
+  .action-button:hover {
+    background-color: darkorange;
+  }
+  
+  .open {
+    background-color: #ec691f; /* Darker orange when active */
+  }
+  
+ /* CSS for the additional buttons */
+
+  
+  .additional-button {
+    margin-top: 10px;
+    padding: 5px 10px;
+    background-color: #0070f3;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none; /* Remove underline from links */
+  }
+  
+  .additional-button:hover {
+    background-color: #0056b3;
+  }

@@ -7,7 +7,8 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import styles from "./ServiceDetailsArea.module.css";
 
-export default function ServiceDetailsArea() {
+export default function ServiceDetailsArea(props) {
+  
   const [isMounted, setIsMounted] = useState(false);
   const [item, setItem] = useState(null);
   const router = useRouter();

@@ -1,16 +1,17 @@
 import BreadCrumbs from "@/components/BreadCrumbs"
-import CourseArea from "./CourseArea"
+
 import Newsletter from "@/components/Newsletter"
 import ScrollTop from "@/components/ScrollTop"
+import InquiryForm from "@/components/Inquirydisplay"
 
-export default function CourseModules(props) {
+export default function InquiryModules() {
 	return (
 		<main>
 			<BreadCrumbs
-				Title="Course"
-				subTitle="Course"
+				Title="Inquiry"
+				subTitle="Career"
 			/>
-			<CourseArea />
+			<InquiryForm />
 			<Newsletter />
 			<ScrollTop />
 		</main>
