@@ -657,21 +657,59 @@ export default function About() {
                                   <h4 className="it-sv-details-title">
                                     About Provost
                                   </h4>
-                                  <p>
-                                    Greetings from Monark University, Ahmedabad.
-                                    Our prime duty as a university is to nurture
-                                    today’s minds to be able to create ample
-                                    opportunities in today’s marketplace. The
-                                    purpose of education is not restricted to
-                                    imparting knowledge but has shifted towards
-                                    holistic development of the students as
-                                    needs of the society changed. The new
-                                    education system has taken the
-                                    responsibility of bringing forth worthy
-                                    citizens who are proactive in their approach
-                                    and have the required dynamism to create a
-                                    new order.
-                                  </p>
+                                  <p className="lead">
+                                  Greetings from Monark University, Ahmedabad.
+Our prime duty as a university is to nurture today’s minds to be able to create ample opportunities in today’s marketplace. The purpose of education is not restricted to imparting knowledge but has shifted towards holistic development of the students as needs of the society changed. The new education system has taken the responsibility of bringing forth worthy citizens who are proactive in their approach and have the required dynamism to create a new order.
+
+                              </p>
+                              <p>
+                                {isExpanded ? (
+                                  <>
+                                    We as a Monark University are committed to provide a dynamic, supportive and creative environment to the students. Our focus is to provide qualitative and value based education. We aim to provide an educational exploration and strengthen the potential which is innate in every individual.
+                                    <br />
+                                    We welcome all the students who select to be a part of Monark University and we assure you that you will feel proud on your decision on being associated with us. I wish you best wishes for your academic excellence at Monark University.
+
+                                    <br />
+                                    “The purpose of education is to make good human beings with skill and expertise. Enlightened human beings can be created by teachers.” – Dr. APJ Abdul Kalam
+                                    <br />
+                                    <span
+                                      className="read-more"
+                                      onClick={toggleExpand}
+                                      style={{
+                                        color: "blue",
+                                        cursor: "pointer",
+                                        textDecoration: "underline",
+                                      }}
+                                    >
+                                      Read Less
+                                    </span>
+                                  </>
+                                ) : (
+                                  <>
+                                    The University aims at imparting quality
+                                    education and achieving excellence in all of
+                                    its academic programs...&nbsp;&nbsp;
+                                    <span
+                                      className="read-more"
+                                      onClick={toggleExpand}
+                                      style={{
+                                        color: "blue",
+                                        cursor: "pointer",
+                                        textDecoration: "underline",
+                                      }}
+                                    >
+                                      Read More
+                                    </span>
+                                  </>
+                                )}
+                              </p>
+                              <p className="text-right">
+                                <strong>Dr. Jayesh K. Ratnadhariya</strong>
+                                <br />
+                                Provost
+                                <br />
+                                Monark University
+                              </p>
                                 </div>
                               </div>
                             </div>
