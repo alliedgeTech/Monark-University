@@ -14,10 +14,11 @@ import vi from "../../../public/img/choose/VIPNET.png";
 import ncc from "../../../public/img/choose/NCC.jpg";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/dist/ScrollTrigger";
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 import dynamic from "next/dynamic";
 import "owl.carousel/dist/assets/owl.carousel.css";
 import "owl.carousel/dist/assets/owl.theme.default.css";
+import "animate.css";
 
 // Import jQuery
 if (typeof window !== "undefined") {
@@ -174,19 +175,22 @@ export default function About() {
       });
     });
   }, []);
+  const [isExpanded, setIsExpanded] = useState(false);
 
+  const toggleExpand = () => {
+    setIsExpanded(!isExpanded);
+  };
   return (
     <div id="historicalbackground">
       <div className="it-choose-area p-relative pt-15">
         <div className="it-choose-shape-4 d-none d-md-block"></div>
         <div className="container">
-          
-              <div className="it-choose-title-box three">
-                <h1 className="it-section-title mb-20">
-                  Historical Background of the Sponsoring Body
-                </h1>
-              </div>
-              <div className="row">
+          <div className="it-choose-title-box three">
+            <h1 className="it-section-title mb-20">
+              Historical Background of the Sponsoring Body
+            </h1>
+          </div>
+          <div className="row">
             <div className="col-lg-6 col-12">
               <div className="it-choose-text pb-15">
                 <p>
@@ -204,7 +208,11 @@ export default function About() {
             <div className="col-lg-6 col-12">
               <div className="it-choose-thumb-box mx-2 text-center text-md-end">
                 <div className="it-choose-thumb p-relative">
-                  <img src="/img/choose/monarknew.jpg" className="img-fluid" alt="" />
+                  <img
+                    src="/img/choose/monarknew.jpg"
+                    className="img-fluid"
+                    alt=""
+                  />
                   <div className="it-choose-shape-3 d-none d-lg-block"></div>
                 </div>
               </div>
@@ -407,32 +415,36 @@ export default function About() {
           <div id="visionandmission" className="mt-5">
             <div class="it-career-area it-career-bg py-2">
               <div class="container">
-                    <div class="it-career-title-box three mb-30">
-                      <h1 class="it-section-title discover-heading">
-                        Discover your gain
-                      </h1>
-                    </div>
+                <div class="it-career-title-box three mb-30">
+                  <h1 class="it-section-title discover-heading">
+                    Discover your gain
+                  </h1>
+                </div>
 
                 <div class="row about-1">
                   <div className="col-lg-6 col-md-5 col-12 mt-lg-0 mt-4">
                     <div className="vision-img">
-                      <img className="img-fluid" src="/img/vision/vision1.jpg" alt="" />
+                      <img
+                        className="img-fluid"
+                        src="/img/vision/vision1.jpg"
+                        alt=""
+                      />
                     </div>
                   </div>
                   <div className="col-lg-6 col-md-7 col-12 mt-lg-0 mt-4">
                     <div className="three">
                       <h1>Vision</h1>
                     </div>
-                  <p>
-                          Monark University will be an inclusive and engaged
-                          research-intensive university that inspires creativity
-                          through outstanding achievements in learning, with up
-                          to date curriculum and contemporary delivery to meet
-                          the demands of the global higher education landscape.
-                        </p>
+                    <p>
+                      Monark University will be an inclusive and engaged
+                      research-intensive university that inspires creativity
+                      through outstanding achievements in learning, with up to
+                      date curriculum and contemporary delivery to meet the
+                      demands of the global higher education landscape.
+                    </p>
                   </div>
-                  </div>
-                  <div className="row flex-row-reverse about-2 mt-4">
+                </div>
+                <div className="row flex-row-reverse about-2 mt-4">
                   <div className="col-lg-6 col-md-5 col-12 mt-lg-0 mt-4">
                     <div className="vision-img">
                       <img src="/img/vision/mission1.jpg" alt="" />
@@ -442,14 +454,14 @@ export default function About() {
                     <div className="three">
                       <h1>Mission</h1>
                     </div>
-                  <p>
-                          Monark University is committed to engaging with the
-                          key issues of our natural and social worlds through
-                          outstanding teaching, research, and scholarship.
-                          Monark University will provide a vibrant and
-                          supportive intellectual environment that attracts and
-                          connects people from all over the world.
-                        </p>
+                    <p>
+                      Monark University is committed to engaging with the key
+                      issues of our natural and social worlds through
+                      outstanding teaching, research, and scholarship. Monark
+                      University will provide a vibrant and supportive
+                      intellectual environment that attracts and connects people
+                      from all over the world.
+                    </p>
                   </div>
                 </div>
               </div>
@@ -459,46 +471,120 @@ export default function About() {
 
             {/* President message start*/}
             <div id="presidentmessage">
-              <div className="it-sv-details-area mt-50">
+              <div className="it-sv-details-area mt-50 animate__animated animate__fadeIn">
                 <div className="container">
                   <div className="row">
-                    <div className="col-xl col-lg">
+                    <div className="col-12">
                       <div className="it-sv-details-top-wrap mb-20">
-                        <div className="row">
-                          <div className="col-xl-4 col-lg-6">
-                            <div className="it-sv-details-top-thumb">
-                              <img  src='https://monarkuni.ac.in/wp-content/uploads/2021/06/SMET-175-Copy.jpg' className="img-fluid" />
+                        <div className="row align-items-center">
+                          <div className="col-md-4">
+                            <div className="it-sv-details-top-thumb animate__animated animate__fadeInLeft">
+                              <img
+                                src="https://monarkuni.ac.in/wp-content/uploads/2021/06/SMET-175-Copy.jpg"
+                                className="img-fluid rounded shadow"
+                                alt="President Image"
+                              />
                             </div>
                           </div>
-                          <div className="col-xl-8 col-lg-6">
-                            <div className="it-sv-details-top-content three">
-                              <h4 className="it-sv-details-title">
-                                About President
+                          <div className="col-md-8">
+                            <div className="it-sv-details-top-content three animate__animated animate__fadeInRight">
+                              <h4 className="it-sv-details-title display-4 animate__animated animate__bounceIn">
+                              President's Message
                               </h4>
+                              <p className="lead">
+                                Welcome to Monark University. As a President of
+                                Monark University, it gives me immense pleasure
+                                to share with you the vision of this University.
+                              </p>
                               <p>
-                                Dr. Hasmukhbharthi M. Goswami is the esteemed
-                                President of Monark University. He brings a
-                                wealth of experience in academic leadership and
-                                a strong commitment to educational excellence.
-                                Under his guidance, Monark University aims to
-                                foster innovation, research, and holistic
-                                development. Dr. Goswami is dedicated to
-                                creating a dynamic and inclusive learning
-                                environment that empowers students to achieve
-                                their fullest potential. His vision is to
-                                elevate the university to new heights of
-                                academic and institutional success.
+                                {isExpanded ? (
+                                  <>
+                                    The University aims at imparting quality
+                                    education and achieving excellence in all of
+                                    its academic programs. In fast changing
+                                    technological advancements and global
+                                    economic environment, we planned to strive
+                                    to bring global perspective to its academic
+                                    programs and activities. The focus is on
+                                    building a strong team of highly qualified
+                                    faculty members and dedicated supporting
+                                    staff to meet national and global challenges
+                                    and deliver world class education using
+                                    latest technologies and contemporary
+                                    teaching methodology. In order to enhance
+                                    the knowledge of the students in several
+                                    core areas, emphasis is given on wide
+                                    variety of academic programs for their
+                                    multifaceted development.
+                                    <br />
+                                    We have huge academic and physical
+                                    infrastructures and facilities with well
+                                    equipped labs, workshops, qualified and
+                                    motivated faculty members who work with
+                                    commitment and dedication for the cause of
+                                    education and research. The outcome based
+                                    course curriculum of our programs has been
+                                    designed and developed with the help of
+                                    national level experts so that desired
+                                    competency and skills can be inculcated in
+                                    the students to make them employable.
+                                    Moreover, world-class assessment methods and
+                                    systems are established by the University
+                                    for proper implementation of the curriculum
+                                    and ensuring quality education.
+                                    <br />
+                                    We extend an invitation to you to visit our
+                                    sprawling campus of our University to know
+                                    more about the University and its physical
+                                    and infrastructural facilities. I also take
+                                    this opportunity to invite the students from
+                                    all parts of the world to join our academic
+                                    courses. We will be happy to guide and help
+                                    you to succeed in your educational journey.
+                                    <br />
+                                    <span
+                                      className="read-more"
+                                      onClick={toggleExpand}
+                                      style={{  color: "blue",
+                                        cursor: "pointer",
+                                        textDecoration:"underline"}}
+                                    >
+                                      Read Less
+                                    </span>
+                                  </>
+                                ) : (
+                                  <>
+                                    The University aims at imparting quality
+                                    education and achieving excellence in all of
+                                    its academic programs...&nbsp;&nbsp;   
+                                    <span
+                                      className="read-more"
+                                      onClick={toggleExpand}
+                                      style={{  color: "blue",
+                                        cursor: "pointer",
+                                        textDecoration:"underline"}}
+                                    >
+                                      Read More
+                                    </span>
+                                  </>
+                                )}
+                              </p>
+                              <p className="text-right">
+                                <strong>Dr. Hasmukhbharthi M. Goswami</strong>
+                                <br />
+                                President
+                                <br />
+                                Monark University
                               </p>
                             </div>
                           </div>
                         </div>
                       </div>
-                      
-                      
                     </div>
                   </div>
                 </div>
               </div>
+
               {/* President message end*/}
 
               {/* Vice President message start*/}
@@ -511,7 +597,10 @@ export default function About() {
                           <div className="row flex-row-reverse">
                             <div className="col-xl-4 col-lg-6">
                               <div className="it-sv-details-top-thumb">
-                                <img src='https://monarkuni.ac.in/wp-content/uploads/2021/07/SMET-163.jpg' className="img-fluid" />
+                                <img
+                                  src="https://monarkuni.ac.in/wp-content/uploads/2021/07/SMET-163.jpg"
+                                  className="img-fluid"
+                                />
                               </div>
                             </div>
                             <div className="col-xl-8 col-lg-6">
@@ -537,8 +626,6 @@ export default function About() {
                             </div>
                           </div>
                         </div>
-                        
-
                       </div>
                     </div>
                   </div>
@@ -555,7 +642,10 @@ export default function About() {
                             <div className="row">
                               <div className="col-xl-4 col-lg-6 ">
                                 <div className="it-sv-details-top-thumb">
-                                  <img src='https://monarkuni.ac.in/wp-content/uploads/2021/06/SMET-218-Copy.jpg' className="img-fluid" />
+                                  <img
+                                    src="https://monarkuni.ac.in/wp-content/uploads/2021/06/SMET-218-Copy.jpg"
+                                    className="img-fluid"
+                                  />
                                 </div>
                               </div>
                               <div className="col-xl-8 col-lg-6">
@@ -597,12 +687,9 @@ export default function About() {
                       objectFit="cover"
                     >
                       <div className="one mb-25">
-                      <h4
-                        className="it-section-title-5"
-                      >
-                        Approvals & Recognitions
-                      </h4>
-
+                        <h4 className="it-section-title-5">
+                          Approvals & Recognitions
+                        </h4>
                       </div>
 
                       <div className="container">

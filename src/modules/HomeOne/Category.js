@@ -3,6 +3,7 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import gsap from 'gsap';
+import Link from "next/link";
 
 export default function Category() {
   const settings = {
@@ -87,8 +88,18 @@ export default function Category() {
                   outstanding teaching, research, and scholarship.
                 </p>
               </div>
-            </Slider>
+            </Slider>            
+          </div>   
+          <Link  href="/mumirror">
+        <button className="circle-btn d-flex align-items-center justify-content-between px-3 ml-100">
+          <div className="btn-text">
+            MU Mirror
+            </div>
+          <div className="btn-icon d-flex align-items-center justify-content-center">
+          <i class="fa-solid fa-arrow-right"></i>
           </div>
+        </button>
+        </Link>
         </div>
       </div>
     </div>

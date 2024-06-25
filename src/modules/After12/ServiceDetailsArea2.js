@@ -7,6 +7,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import styles from "./ServiceDetailsArea.module.css";
 import "bootstrap/dist/css/bootstrap.min.css";
+import Link from "next/link";
 
 export default function ServiceDetailsArea() {
   const [isMounted, setIsMounted] = useState(false);
@@ -203,7 +204,7 @@ export default function ServiceDetailsArea() {
                               </span>
                               From
                             </h5>
-                            <p>Apply now</p>
+                            <Link href="/applynow">Apply now</Link>
                           </div>
                         </div>
                       </div>

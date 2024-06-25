@@ -345,9 +345,19 @@ export default function MenuItems(props) {
                   UGC Approval Letter
                 </Link>
               </li>
-              <li className="">
+              <li className="has-dropdown comiti-drop">
                 <Link href="/about-us#committeessgrc">Committees SGRC</Link>
-              
+                <ul className="it-submenu submenu comiti-submenu">
+                  <li>
+                    <Link href="/">Committees1</Link>
+                  </li>
+                  <li>
+                    <Link href="/">Committees1</Link>
+                  </li>
+                  <li>
+                    <Link href="/">Committees1</Link>
+                  </li>
+                </ul>
               </li>
             </ul>
           </li>
@@ -405,6 +415,11 @@ export default function MenuItems(props) {
           <li className="nav-link has-dropdown">
             <Link href="/placement">Placement</Link>
             <ul className="it-submenu submenu">
+            <li>
+                <Link href="/inquiry">
+                Register Now
+                </Link>
+              </li>
               <li>
                 <Link href="/placement#training">
                   Training & Placement Cell
