@@ -6,6 +6,7 @@ import Diploma from "@/data/diploma";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import styles from "./ServiceDetailsArea.module.css";
+import Link from "next/link";
 
 export default function ServiceDetailsArea() {
   
@@ -156,7 +157,7 @@ export default function ServiceDetailsArea() {
                   </span>
                   From
                 </h5>
-                <p>Apply now</p>
+                <Link href="/applynow">Apply now</Link>
               </div>
             </div>
           </div>
