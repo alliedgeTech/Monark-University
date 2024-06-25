@@ -612,19 +612,88 @@ export default function About() {
                                 <h4 className="it-sv-details-title">
                                   About Vice-President
                                 </h4>
+                                <p className="lead">
+                                  Welcome to Monark University. We are pleased
+                                  to welcome you to Monark University. As a
+                                  blooming University, we endeavor to impart
+                                  best in class education in line with today's
+                                  market needs. Our principal responsibilities
+                                  as an educational institution is to nurture
+                                  today’s minds to be able to create ample
+                                  opportunities in today’s marketplace. We wish
+                                  to create a space of knowledge along with all
+                                  the practical aspects of it. So we have
+                                  identified all sectors of education so helping
+                                  students enhance the scope for such education.
+                                </p>
                                 <p>
-                                  Dr. Satishbharthi Goswami is the Vice
-                                  President of Monark University. He is known
-                                  for his strategic vision and dedication to
-                                  advancing the university's mission. With a
-                                  strong background in academia and
-                                  administration, Dr. Goswami plays a pivotal
-                                  role in fostering an environment of innovation
-                                  and excellence. He is committed to enhancing
-                                  the university's academic programs and
-                                  supporting faculty and student development.
-                                  His leadership is instrumental in driving
-                                  Monark University's growth and success.
+                                  {isExpanded ? (
+                                    <>
+                                      “The purpose of education is not to
+                                      validate ignorance but to overcome it.”{" "}
+                                      <br />
+                                      We here at Monark University welcome you
+                                      to a world to build your career with an
+                                      institute of repute. We are offering a
+                                      plethora of courses like basic sciences,
+                                      commerce and administration as well as
+                                      applied sciences of engineering,
+                                      technology, paramedical and other allied
+                                      areas of higher education. We have a
+                                      dedicated team of highly trained and
+                                      professional faculty members who impart
+                                      best in class education. We have best in
+                                      class infrastructure including but not
+                                      limited to classrooms equipped for great
+                                      teaching- learning experiences, fully
+                                      equipped laboratories, workshop for
+                                      practical training. Also we know the
+                                      importance of curriculum hence we take
+                                      special care as to who designs our
+                                      curriculum hence a team with deep subject
+                                      knowledge as well as experience in
+                                      industry. Here we focus on overall
+                                      development of our students as they need
+                                      to be able to make a place in their
+                                      respective
+                                      <br />
+                                      <span
+                                        className="read-more"
+                                        onClick={toggleExpand}
+                                        style={{
+                                          color: "blue",
+                                          cursor: "pointer",
+                                          textDecoration: "underline",
+                                        }}
+                                      >
+                                        Read Less
+                                      </span>
+                                    </>
+                                  ) : (
+                                    <>
+                                      The University aims at imparting quality
+                                      education and achieving excellence in all
+                                      of its academic programs...&nbsp;&nbsp;
+                                      <span
+                                        className="read-more"
+                                        onClick={toggleExpand}
+                                        style={{
+                                          color: "blue",
+                                          cursor: "pointer",
+                                          textDecoration: "underline",
+                                        }}
+                                      >
+                                        Read More
+                                      </span>
+                                    </>
+                                  )}
+                                </p>
+                                <p className="text-right">
+                                  <strong>Dr. Satishbharthi M. Goswami</strong>
+                                  <br />
+                                  Vice President
+                                  <br />
+                                  Monark University
                                 </p>
                               </div>
                             </div>
@@ -658,58 +727,85 @@ export default function About() {
                                     About Provost
                                   </h4>
                                   <p className="lead">
-                                  Greetings from Monark University, Ahmedabad.
-Our prime duty as a university is to nurture today’s minds to be able to create ample opportunities in today’s marketplace. The purpose of education is not restricted to imparting knowledge but has shifted towards holistic development of the students as needs of the society changed. The new education system has taken the responsibility of bringing forth worthy citizens who are proactive in their approach and have the required dynamism to create a new order.
-
-                              </p>
-                              <p>
-                                {isExpanded ? (
-                                  <>
-                                    We as a Monark University are committed to provide a dynamic, supportive and creative environment to the students. Our focus is to provide qualitative and value based education. We aim to provide an educational exploration and strengthen the potential which is innate in every individual.
+                                    Greetings from Monark University, Ahmedabad.
+                                    Our prime duty as a university is to nurture
+                                    today’s minds to be able to create ample
+                                    opportunities in today’s marketplace. The
+                                    purpose of education is not restricted to
+                                    imparting knowledge but has shifted towards
+                                    holistic development of the students as
+                                    needs of the society changed. The new
+                                    education system has taken the
+                                    responsibility of bringing forth worthy
+                                    citizens who are proactive in their approach
+                                    and have the required dynamism to create a
+                                    new order.
+                                  </p>
+                                  <p>
+                                    {isExpanded ? (
+                                      <>
+                                        We as a Monark University are committed
+                                        to provide a dynamic, supportive and
+                                        creative environment to the students.
+                                        Our focus is to provide qualitative and
+                                        value based education. We aim to provide
+                                        an educational exploration and
+                                        strengthen the potential which is innate
+                                        in every individual.
+                                        <br />
+                                        We welcome all the students who select
+                                        to be a part of Monark University and we
+                                        assure you that you will feel proud on
+                                        your decision on being associated with
+                                        us. I wish you best wishes for your
+                                        academic excellence at Monark
+                                        University.
+                                        <br />
+                                        “The purpose of education is to make
+                                        good human beings with skill and
+                                        expertise. Enlightened human beings can
+                                        be created by teachers.” – Dr. APJ Abdul
+                                        Kalam
+                                        <br />
+                                        <span
+                                          className="read-more"
+                                          onClick={toggleExpand}
+                                          style={{
+                                            color: "blue",
+                                            cursor: "pointer",
+                                            textDecoration: "underline",
+                                          }}
+                                        >
+                                          Read Less
+                                        </span>
+                                      </>
+                                    ) : (
+                                      <>
+                                        The University aims at imparting quality
+                                        education and achieving excellence in
+                                        all of its academic
+                                        programs...&nbsp;&nbsp;
+                                        <span
+                                          className="read-more"
+                                          onClick={toggleExpand}
+                                          style={{
+                                            color: "blue",
+                                            cursor: "pointer",
+                                            textDecoration: "underline",
+                                          }}
+                                        >
+                                          Read More
+                                        </span>
+                                      </>
+                                    )}
+                                  </p>
+                                  <p className="text-right">
+                                    <strong>Dr. Jayesh K. Ratnadhariya</strong>
                                     <br />
-                                    We welcome all the students who select to be a part of Monark University and we assure you that you will feel proud on your decision on being associated with us. I wish you best wishes for your academic excellence at Monark University.
-
+                                    Provost
                                     <br />
-                                    “The purpose of education is to make good human beings with skill and expertise. Enlightened human beings can be created by teachers.” – Dr. APJ Abdul Kalam
-                                    <br />
-                                    <span
-                                      className="read-more"
-                                      onClick={toggleExpand}
-                                      style={{
-                                        color: "blue",
-                                        cursor: "pointer",
-                                        textDecoration: "underline",
-                                      }}
-                                    >
-                                      Read Less
-                                    </span>
-                                  </>
-                                ) : (
-                                  <>
-                                    The University aims at imparting quality
-                                    education and achieving excellence in all of
-                                    its academic programs...&nbsp;&nbsp;
-                                    <span
-                                      className="read-more"
-                                      onClick={toggleExpand}
-                                      style={{
-                                        color: "blue",
-                                        cursor: "pointer",
-                                        textDecoration: "underline",
-                                      }}
-                                    >
-                                      Read More
-                                    </span>
-                                  </>
-                                )}
-                              </p>
-                              <p className="text-right">
-                                <strong>Dr. Jayesh K. Ratnadhariya</strong>
-                                <br />
-                                Provost
-                                <br />
-                                Monark University
-                              </p>
+                                    Monark University
+                                  </p>
                                 </div>
                               </div>
                             </div>
