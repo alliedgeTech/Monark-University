@@ -489,7 +489,7 @@ export default function About() {
                           <div className="col-md-8">
                             <div className="it-sv-details-top-content three animate__animated animate__fadeInRight">
                               <h4 className="it-sv-details-title display-4 animate__animated animate__bounceIn">
-                              President's Message
+                                President's Message
                               </h4>
                               <p className="lead">
                                 Welcome to Monark University. As a President of
@@ -545,9 +545,11 @@ export default function About() {
                                     <span
                                       className="read-more"
                                       onClick={toggleExpand}
-                                      style={{  color: "blue",
+                                      style={{
+                                        color: "blue",
                                         cursor: "pointer",
-                                        textDecoration:"underline"}}
+                                        textDecoration: "underline",
+                                      }}
                                     >
                                       Read Less
                                     </span>
@@ -556,13 +558,15 @@ export default function About() {
                                   <>
                                     The University aims at imparting quality
                                     education and achieving excellence in all of
-                                    its academic programs...&nbsp;&nbsp;   
+                                    its academic programs...&nbsp;&nbsp;
                                     <span
                                       className="read-more"
                                       onClick={toggleExpand}
-                                      style={{  color: "blue",
+                                      style={{
+                                        color: "blue",
                                         cursor: "pointer",
-                                        textDecoration:"underline"}}
+                                        textDecoration: "underline",
+                                      }}
                                     >
                                       Read More
                                     </span>
@@ -654,19 +658,19 @@ export default function About() {
                                     About Provost
                                   </h4>
                                   <p>
-                                    Dr. Urmilaben S. Goswami is the Provost of
-                                    Monark University. She is renowned for her
-                                    academic expertise and leadership in higher
-                                    education. Dr. Goswami is dedicated to
-                                    enhancing the university's academic
-                                    standards and fostering a culture of
-                                    research and innovation. She plays a crucial
-                                    role in curriculum development and faculty
-                                    support, ensuring a high-quality education
-                                    for all students. Her commitment to academic
-                                    excellence and holistic student development
-                                    significantly contributes to the
-                                    university's reputation and growth.
+                                    Greetings from Monark University, Ahmedabad.
+                                    Our prime duty as a university is to nurture
+                                    today’s minds to be able to create ample
+                                    opportunities in today’s marketplace. The
+                                    purpose of education is not restricted to
+                                    imparting knowledge but has shifted towards
+                                    holistic development of the students as
+                                    needs of the society changed. The new
+                                    education system has taken the
+                                    responsibility of bringing forth worthy
+                                    citizens who are proactive in their approach
+                                    and have the required dynamism to create a
+                                    new order.
                                   </p>
                                 </div>
                               </div>
