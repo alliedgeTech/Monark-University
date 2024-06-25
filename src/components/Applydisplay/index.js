@@ -16,15 +16,14 @@ export default function ApplyForm() {
       phone: form.current.user_phone.value,
       state: form.current.user_state.value,
       city: form.current.user_city.value,
-      graduation: form.current.user_graduation.value,
-      course: form.current.user_course.value,
+      courseInterestedIn: form.current.user_course.value,
       qualification: form.current.user_qualification.value,
     };
 
     try {
       // Send data to your custom API
       const response = await fetch(
-        "https://monarkuniversitybacked.onrender.com/enquiry",
+        "https://monarkuniversitybacked.onrender.com/student",
         {
           method: "POST",
           headers: {
