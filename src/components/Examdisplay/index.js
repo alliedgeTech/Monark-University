@@ -100,7 +100,7 @@ const Examdisplay = () => {
                     {exam.map((item, id) => {
                       return (
                         <tr>
-                          <td>{item.uploadDate}</td>
+                          <td>{item.uploadDate.toString().split('T')[0]}</td>
                           <td>{item.title}</td>
                           <td>
                           <a href={item.documentUrl} target="_blank">

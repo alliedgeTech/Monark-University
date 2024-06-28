@@ -1,22 +1,18 @@
-
 import Footer from '@/components/Footer';
 import HeaderTwo from '@/components/Header/HeaderTwo';
 import Preloader from '@/components/Preloader';	
 import dynamic from 'next/dynamic'
  
-const CourseModules = dynamic(() => import('@/modules/Course'), {
-	
+const InquiryModules = dynamic(() => import('@/modules/Inquiry'), {
   loading: () => <Preloader />,
-  
 });
 
-export default function Course(props) {
-	
+export default function Inquiry() {
 	return (
 		<main>
 			<HeaderTwo />
 
-			<CourseModules />
+			<InquiryModules />
 
 			<Footer />
 		</main>

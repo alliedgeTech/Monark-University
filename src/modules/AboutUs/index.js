@@ -1,34 +1,23 @@
-import About from "./About"
-import BreadCrumbs from "@/components/BreadCrumbs"
-import Funfact from "./Funfact"
-import Testimonial from "./Testimonial"
-import Course from "./Course"
-import Team from "./Team"
-import Newsletter from "@/components/Newsletter"
-import ScrollTop from "@/components/ScrollTop"
+import About from "./About";
+import BreadCrumbs from "@/components/BreadCrumbs";
+
+import Team from "./Team";
+import Newsletter from "@/components/Newsletter";
+import ScrollTop from "@/components/ScrollTop";
+import ActionButton from "@/components/Actionbutton";
 
 export default function AboutUsModules() {
-	return (
-		<main>
-			<BreadCrumbs
-				Title="About MU"
-				
-			/>
-			
-			<About />
-			
-			
-			
-			
+  return (
+    <main>
+      <BreadCrumbs Title="About MU" />
 
-		
-			
-			<Team />
+      <About />
 
-			<Newsletter />
+      <Team />
 
-			<ScrollTop />
-			
-		</main>
-	)
+      <Newsletter />
+      <ActionButton />
+      <ScrollTop />
+    </main>
+  );
 }

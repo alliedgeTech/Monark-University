@@ -3,7 +3,7 @@ import CourseArea from "./CourseArea"
 import Newsletter from "@/components/Newsletter"
 import ScrollTop from "@/components/ScrollTop"
 
-export default function CourseModules() {
+export default function CourseModules(props) {
 	return (
 		<main>
 			<BreadCrumbs

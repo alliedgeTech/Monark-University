@@ -1,13 +1,16 @@
-import React from 'react'
-
+import React from "react";
+import Link from "next/link";
 const index = () => {
   return (
     <div>
-        <div className="enquiry">
-            <button className='text-white'>Enquiry Now</button>
-        </div>
+      <div className="enquiry">
+        <Link href={"/inquiry"}>
+          {" "}
+          <button className="text-white">Enquiry Now</button>
+        </Link>
+      </div>
     </div>
-  )
-}
+  );
+};
 
-export default index
+export default index;

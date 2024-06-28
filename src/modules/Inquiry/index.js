@@ -2,16 +2,16 @@ import BreadCrumbs from "@/components/BreadCrumbs"
 
 import Newsletter from "@/components/Newsletter"
 import ScrollTop from "@/components/ScrollTop"
-import CareerForm from "@/components/Careerdetails"
+import InquiryForm from "@/components/Inquirydisplay"
 
-export default function CareerModules() {
+export default function InquiryModules() {
 	return (
 		<main>
 			<BreadCrumbs
-				Title="Career"
+				Title="Inquiry"
 				subTitle="Career"
 			/>
-			<CareerForm />
+			<InquiryForm />
 			<Newsletter />
 			<ScrollTop />
 		</main>

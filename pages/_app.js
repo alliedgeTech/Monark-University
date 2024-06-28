@@ -10,6 +10,7 @@ import '@/assets/css/flaticon_mycollection.css'
 import '@/assets/scss/main.scss'
 import '@/assets/css/spacing.css'
 import '@/assets/css/meanmenu.css'
+import 'animate.css';
 
 function App({ Component, pageProps }) {
     return (

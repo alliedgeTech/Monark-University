@@ -415,6 +415,11 @@ export default function MenuItems(props) {
           <li className="nav-link has-dropdown">
             <Link href="/placement">Placement</Link>
             <ul className="it-submenu submenu">
+            <li>
+                <Link href="/inquiry">
+                Register Now
+                </Link>
+              </li>
               <li>
                 <Link href="/placement#training">
                   Training & Placement Cell
@@ -493,7 +498,7 @@ export default function MenuItems(props) {
             <Link href="/contact">contact</Link>
           </li>
           <button className="dark-btn" onClick={toggleDarkMode}>
-        <i className="fa-regular fa-sun"></i>
+        <i className="fa-solid fa-moon"></i>
       </button>
         </ul>
         

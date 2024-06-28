@@ -3,7 +3,7 @@ import HeaderTwo from '@/components/Header/HeaderTwo';
 import Preloader from '@/components/Preloader';	
 import dynamic from 'next/dynamic'
  
-const EnquiryModules = dynamic(() => import('@/modules/Enquiry'), {
+const EnquiryModules = dynamic(() => import('@/modules/Inquiry'), {
   loading: () => <Preloader />,
 });
 
