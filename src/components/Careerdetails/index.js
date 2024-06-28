@@ -14,25 +14,14 @@ export default function CareerForm() {
     }
   };
 
-  // const handleFileChange = (event) => {
-  //   const selectedFile = event.target.files[0];
-  //   if (selectedFile) {
-  //     // Update the label to show the file name
-  //     const fileLabel = document.querySelector(".file-upload-label");
-  //     fileLabel.textContent = selectedFile.name;
-  //   } else {
-  //     // Reset the label if no file is chosen
-  //     const fileLabel = document.querySelector(".file-upload-label");
-  //     fileLabel.textContent = "No file chosen";
-  //   }
-  // };
+
   const sendEmail = async (e) => {
     e.preventDefault();
   
     const formData = new FormData(form.current);
     const fileInput = form.current.querySelector('input[type="file"]');
     if (fileInput && fileInput.files && fileInput.files.length > 0) {
-      formData.append('resume', fileInput.files[0]); // Append the file, not the filename
+      formData.append('resume', fileInput.files[0]); 
     }
   
     try {
@@ -46,7 +35,7 @@ export default function CareerForm() {
   
       if (response.ok) {
         toast.success("Form submitted successfully");
-        form.current.reset(); // Reset the form on successful submission
+        form.current.reset(); 
       } else {
         toast.error("Failed to submit the form");
         console.error("Failed to send data to API:", response.statusText);
@@ -482,8 +471,8 @@ export default function CareerForm() {
 
                     <div className="col-12 mb-25">
                       <div className="it-contact-input-box">
-                        <label>Upload PDF*</label>
-                        <label className="it-btn">
+                        <label className="">Upload PDF*</label>
+                        <label className="it-btn text-white">
                           Choose File
                           <input
                             type="file"
