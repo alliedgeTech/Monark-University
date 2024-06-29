@@ -18,10 +18,52 @@ export default function CareerForm() {
   const sendEmail = async (e) => {
     e.preventDefault();
 
-    const formData = new FormData(form.current);
+    const formData = new FormData();
+
+    formData.append("fullName", form.current.user_name.value);
+    formData.append("dateOfBirth", form.current.user_birthday.value);
+    formData.append("gender", form.current.user_gender.value);
+    formData.append("category", form.current.user_category.value);
+    formData.append("address", form.current.user_address.value);
+    formData.append("city", form.current.user_city.value);
+    formData.append("state", form.current.user_state.value);
+    formData.append("postalCode", form.current.user_postal.value);
+    formData.append("country", form.current.user_country.value);
+    formData.append("phone", form.current.user_phone.value);
+    formData.append("email", form.current.user_email.value);
+    formData.append("positionApplyFor", form.current.user_position.value);
+    formData.append("faculty", form.current.user_faculty.value);
+    formData.append("tenthPercentage", form.current.user_ten.value);
+    formData.append("twelfthPercentage", form.current.user_twelve.value);
+    formData.append("ugDegree", form.current.user_ugdegree.value);
+    formData.append("ugUniversityName", form.current.user_uguni.value);
+    formData.append("ugCGPA", form.current.user_ugpercenatage.value);
+    formData.append("ugYearOfPassing", form.current.user_ugpassing.value);
+    formData.append("pgDegree", form.current.user_pgdegree.value);
+    formData.append("pgUniversityName", form.current.user_pguni.value);
+    formData.append("pgCGPA", form.current.user_pgpercenatage.value);
+    formData.append("pgYearOfPassing", form.current.user_pgpassing.value);
+    formData.append("phdDegree", form.current.user_area.value);
+    formData.append("phdUniversityName", form.current.user_phduni.value);
+    formData.append("phdCGPA", form.current.user_phdcgpa.value);
+    formData.append("phdYearOfPassing", form.current.user_phdpassing.value);
+
+    formData.append("academicExperience", form.current.user_academic.value);
+    formData.append("industryExperience", form.current.user_industry.value);
+    formData.append("researchExperience", form.current.user_research.value);
+    formData.append("totalExperience", form.current.user_texperience.value);
+    formData.append("canJoinImmediately", form.current.user_joining.value);
+    formData.append("noticePeriod", form.current.user_notice.value);
+    formData.append("alternateMobileNo", form.current.user_altphone.value);
+    formData.append("alternateEmail", form.current.user_altemail.value);
+
     const fileInput = form.current.querySelector('input[type="file"]');
     if (fileInput && fileInput.files && fileInput.files.length > 0) {
+<<<<<<< HEAD
+      formData.append("resumeUrl", fileInput.files[0]);
+=======
       formData.append('resume', fileInput.files[0]); // Append the file, not the filename
+>>>>>>> d948e0145e8ee4db395068c238bf6399c5600104
     }
 
     try {
@@ -335,6 +377,12 @@ export default function CareerForm() {
                     />
                   </div>
                 </div>
+                <div className="col-6 mb-25">
+                  <div className="it-contact-input-box">
+                    <label>CGPA*</label>
+                    <input type="number" placeholder="" name="user_phdcgpa" />
+                  </div>
+                </div>
                 <h4>Experience (In Years)</h4>
                 <div className="col-6 mb-25">
                   <div className="it-contact-input-box">
@@ -369,11 +417,11 @@ export default function CareerForm() {
                     <label>Can you Join Immediately ?</label>
                     <div>
                       <label>
-                        <input type="radio" name="user_subject" value="Yes" />
+                        <input type="radio" name="user_joining" value="Yes" />
                         Yes
                       </label>
                       <label>
-                        <input type="radio" name="user_subject" value="No" />
+                        <input type="radio" name="user_joining" value="No" />
                         No
                       </label>
                     </div>
