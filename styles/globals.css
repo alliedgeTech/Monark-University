@@ -1124,6 +1124,7 @@ p {
     background: var(--web-grey-white) !important;
     border-radius: 8px !important;
     transition: all 0.5s ease-in-out !important;
+    height: 280px !important;
 }
 
 .it-category-icon span {
@@ -1157,6 +1158,12 @@ p {
 
 .it-feature-3-item:hover .it-feature-3-content h4 {
     color: var(--web-white);
+}
+.it-feature-3-item:hover .it-feature-3-title{
+    color: #fff !important;
+}
+.it-feature-3-item:hover .it-feature-3-content p{
+    color: #fff !important;
 }
 
 .it-feature-3-item:hover .it-feature-3-content p {

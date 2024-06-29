@@ -14,18 +14,7 @@ export default function CareerForm() {
     }
   };
 
-  // const handleFileChange = (event) => {
-  //   const selectedFile = event.target.files[0];
-  //   if (selectedFile) {
-  //     // Update the label to show the file name
-  //     const fileLabel = document.querySelector(".file-upload-label");
-  //     fileLabel.textContent = selectedFile.name;
-  //   } else {
-  //     // Reset the label if no file is chosen
-  //     const fileLabel = document.querySelector(".file-upload-label");
-  //     fileLabel.textContent = "No file chosen";
-  //   }
-  // };
+
   const sendEmail = async (e) => {
     e.preventDefault();
 
@@ -70,7 +59,11 @@ export default function CareerForm() {
 
     const fileInput = form.current.querySelector('input[type="file"]');
     if (fileInput && fileInput.files && fileInput.files.length > 0) {
+<<<<<<< HEAD
       formData.append("resumeUrl", fileInput.files[0]);
+=======
+      formData.append('resume', fileInput.files[0]); // Append the file, not the filename
+>>>>>>> d948e0145e8ee4db395068c238bf6399c5600104
     }
 
     try {
@@ -84,7 +77,7 @@ export default function CareerForm() {
 
       if (response.ok) {
         toast.success("Form submitted successfully");
-        form.current.reset(); // Reset the form on successful submission
+        form.current.reset(); 
       } else {
         toast.error("Failed to submit the form");
         console.error("Failed to send data to API:", response.statusText);
@@ -467,32 +460,32 @@ export default function CareerForm() {
                   </div>
                 </div>
 
-                <div className="col-12 mb-25">
-                  <div className="it-contact-input-box">
-                    <label>Upload PDF*</label>
-                    <label className="it-btn">
-                      Choose File
-                      <input
-                        type="file"
-                        accept=".pdf"
-                        name="resumeUrl"
-                        required="true"
-                        onChange={handleFileChange}
-                      />
-                    </label>
-                    <span className="file-upload-label">{fileName}</span>
+                    <div className="col-12 mb-25">
+                      <div className="it-contact-input-box">
+                        <label>Upload PDF*</label>
+                        <label className="it-btn">
+                          Choose File
+                          <input
+                            type="file"
+                            accept=".pdf"
+                            name="resumeUrl"
+                            required="true"
+                            onChange={handleFileChange}
+                          />
+                        </label>
+                        <span className="file-upload-label">{fileName}</span>
+                      </div>
+                    </div>
+                    <div className="col-12 mb-25">
+                      <div className="it-contact-textarea-box">
+                        <label>Message</label>
+                        <textarea
+                          placeholder="Message"
+                          name="user_message"
+                        ></textarea>
+                      </div>
+                    </div>
                   </div>
-                </div>
-                <div className="col-12 mb-25">
-                  <div className="it-contact-textarea-box">
-                    <label>Message</label>
-                    <textarea
-                      placeholder="Message"
-                      name="user_message"
-                    ></textarea>
-                  </div>
-                </div>
-              </div>
 
               <button type="submit" className="it-btn">
                 <span>
