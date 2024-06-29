@@ -70,7 +70,7 @@ const Index = () => {
 
   return (
     <div className="life-section py-5">
-      <div className="life-heading text-center">
+      <div className="life-heading text-center" data-aos="fade-up">
         <h1>
           Our Latest <span>EVENTS</span>
         </h1>

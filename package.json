@@ -17,6 +17,7 @@
     "@reduxjs/toolkit": "^2.2.1",
     "@szhsin/react-accordion": "^1.2.3",
     "animate.css": "^4.1.1",
+    "aos": "^2.3.4",
     "axios": "^1.7.2",
     "bootstrap": "^5.3.3",
     "css-loader": "^7.1.2",

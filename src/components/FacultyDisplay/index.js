@@ -6,6 +6,8 @@ import facultydata from "../../data/faculty";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/dist/ScrollTrigger";
 import { useRouter } from "next/router";
+import 'aos/dist/aos.css'; // Import AOS CSS
+import aos from 'aos'; // Import AOS library
 
 // Import jQuery
 if (typeof window !== "undefined") {
@@ -59,82 +61,10 @@ const Responsive2 = {
 
 const index = () => {
   useEffect(() => {
-    // Select all elements with the class 'animatedElement'
-    const animatedElements = document.querySelectorAll(".faculty-heading");
-    const animatedElements1 = document.querySelectorAll(".faculty-left");
-    const animatedElements2 = document.querySelectorAll(".faculty-right");
-
-    // Create an Intersection Observer instance
-    const observer = new IntersectionObserver((entries) => {
-      entries.forEach((entry) => {
-        // If the element is intersecting the viewport
-        if (entry.isIntersecting) {
-          // Animate the element using GSAP
-          gsap.registerPlugin(ScrollTrigger);
-          let mm = gsap.matchMedia();
-          mm.add("(min-width:991px)", () => {
-            gsap.from(entry.target, {
-              x: 100,
-            });
-          });
-        }
-      });
-    }, {});
-    const observer1 = new IntersectionObserver((entries) => {
-      entries.forEach((entry) => {
-        // If the element is intersecting the viewport
-        if (entry.isIntersecting) {
-          // Animate the element using GSAP
-          gsap.registerPlugin(ScrollTrigger);
-          let mm = gsap.matchMedia();
-          mm.add("(min-width:991px)", () => {
-            gsap.from(entry.target, {
-              x: -100,
-            });
-          });
-        }
-      });
-    }, {});
-    const observer2 = new IntersectionObserver((entries) => {
-      entries.forEach((entry) => {
-        // If the element is intersecting the viewport
-        if (entry.isIntersecting) {
-          // Animate the element using GSAP
-          gsap.registerPlugin(ScrollTrigger);
-          let mm = gsap.matchMedia();
-          mm.add("(min-width:991px)", () => {
-            gsap.from(entry.target, {
-              x: 100,
-            });
-          });
-        }
-      });
-    }, {});
-
-    // Start observing each element
-    animatedElements.forEach((element) => {
-      observer.observe(element);
-    });
-    animatedElements1.forEach((element) => {
-      observer1.observe(element);
-    });
-    animatedElements2.forEach((element) => {
-      observer2.observe(element);
-    });
-
-    // Clean up the observer when the component unmounts
-    return () => {
-      animatedElements.forEach((element) => {
-        observer.unobserve(element);
-      });
-      animatedElements1.forEach((element) => {
-        observer1.unobserve(element);
-      });
-      animatedElements2.forEach((element) => {
-        observer2.observe(element);
-      });
-    };
-    // Start observing each element
+    aos.init({
+      offset: 200, // Offset (in pixels) from the original trigger point
+      duration: 800, // Duration of animation (in milliseconds)
+    }); 
   }, []);
 
   const router = useRouter();
@@ -147,35 +77,41 @@ const index = () => {
   return (
     <div>
       <div style={{ marginTop: "75px" }} className="faculty-info">
-        <div className="container p-0">
+        <div className="p-0">
           <div
             className={` mb-45 pb-40`}
           >
-            <div className="faculty-heading mb-20  three w-100">
+            <div className="faculty-heading mb-30  eight w-100" data-aos="zoom-in">
               <h1 className=" ">{faculty.name}</h1>
             </div>
 
-            <div className="row">
-              <div className="col-lg-6 col-12 mt-4">
-                <div className="faculty-img faculty-left">
+            <div className="row row-1">
+              <div className="col-lg-6 col-12 p-0 ">
+                <div className="faculty-img faculty-left" data-aos="fade-right">
                   <img src={faculty.img1} />
                 </div>
               </div>
-              <div className="col-lg-6 col-12 mt-4">
-                <p className="faculty-right">{faculty.text_1}</p>
+              <div className="col-lg-6 col-12 p-0 px-5 pt-4 ">
+                <div className="d-flex align-items-start" data-aos="fade-left">
+                <i class="fa-regular fa-hand-point-right mr-10 mt-2"></i><p className="faculty-right">{faculty.text_1}</p>
+
+                </div>
               </div>
             </div>
-            <div className="row px-4">
-              <div className="col-lg-7 col-12 mt-4 order-lg-1 order-2">
-                <p className="faculty-left">{faculty.text_2}</p>
+            <div className="row row-2">
+              <div className="col-lg-6 col-12 p-0 px-5 pt-4  order-lg-1 order-2">
+                <div className="d-flex align-items-start" data-aos="fade-left">
+                <i class="fa-regular fa-hand-point-right mr-10 mt-2"></i><p className="faculty-left">{faculty.text_2}</p>
+
+                </div>
               </div>
-              <div className="col-lg-5 col-12 mt-4 order-lg-2 order-1">
-                <div className="faculty-img faculty-right">
+              <div className="col-lg-6 col-12 p-0  order-lg-2 order-1">
+                <div className="faculty-img faculty-right" data-aos="fade-left">
                   <img src={faculty.img2} alt="" />
                 </div>
               </div>
             </div>
-            <div style={{ marginTop: "40px" }}>
+            <div style={{ marginTop: "40px" }} data-aos="fade-up">
               <OwlCarousel
                 className="owl-theme px-3 faculty-carousel"
                 dots={true}
@@ -202,7 +138,7 @@ const index = () => {
 
           <div className="student-say container py-4">
             <div className="say-heading mt-4">
-              <div className="one">
+              <div className="one" data-aos="fade-up">
                 <h1 className="text-center">What Students Say..</h1>
               </div>
             </div>

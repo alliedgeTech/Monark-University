@@ -288,25 +288,25 @@ export default function MenuItems(props) {
             <Link href="/about-us">About MU</Link>
             <ul className="about-us-submenu submenu">
               <li>
-                <Link href="/about-us#historicalbackground">
+                <Link href="/about-us2">
                   Historical Background
                 </Link>
               </li>
               <li>
-                <Link href="/about-us#visionandmission">Vision & Mission</Link>
+                <Link href="/about-us3">Vision & Mission</Link>
               </li>
               <li>
-                <Link href="/about-us#presidentmessage">
+                <Link href="/about-us3#presidentmessage">
                   President's Message
                 </Link>
               </li>
               <li>
-                <Link href="/about-us#vicepresidentmessage">
+                <Link href="/about-us3#vicepresidentmessage">
                   Vice President's Message
                 </Link>
               </li>
               <li>
-                <Link href="/about-us#provostmessage">Provost Message</Link>
+                <Link href="/about-us3#provostmessage">Provost Message</Link>
               </li>
               <li>
                 <Link href="/about-us#recognitionandapproval">

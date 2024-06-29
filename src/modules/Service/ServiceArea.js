@@ -8,7 +8,7 @@ export default function ServiceArea() {
     <div className="it-category-area pt-30 pb-20">
       <div className="container">
         <div className="three mb-30">
-          <h1>Diploma Engineering</h1>
+          <h1>Diploma Courses</h1>
         </div>
         <div className="row">
           {Services.map((service) => {

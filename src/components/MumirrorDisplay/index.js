@@ -48,7 +48,7 @@ const index = () => {
 
   return (
     <div className="mt-100 mb-200">
-      <HTMLFlipBook style={{ marginLeft: 300 }} width={400} height={600}>
+      <HTMLFlipBook className="mx-auto" width={400} height={600}>
         {pages.map((page) => (
           <Page
             key={page.number}

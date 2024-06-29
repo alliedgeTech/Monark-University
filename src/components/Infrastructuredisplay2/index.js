@@ -4,11 +4,19 @@ import CountUp from "react-countup";
 import librarydata from "@/data/library";
 import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/dist/ScrollTrigger';
+import 'aos/dist/aos.css'; // Import AOS CSS
+import aos from 'aos'; // Import AOS library
 
 const Infrastructuredisplay = () => {
 
   useEffect(() => {
     gsap.registerPlugin(ScrollTrigger);
+
+    aos.init({
+      offset: 200, // Offset (in pixels) from the original trigger point
+      duration: 800, // Duration of animation (in milliseconds)
+    });
+
     let mm=gsap.matchMedia()
 
     mm.add("(min-width:991px)",()=>{
@@ -59,49 +67,12 @@ const Infrastructuredisplay = () => {
   const [state, setState] = useState(true);
   return (
     <div className="it-blog-area it-blog-style-3 it-blog-style-6 pt-20 pb-90">
-      {/* <div className="container" id="lab">
-        <div className="row">
-          <div class="it-career-title-box mb-10">
-            <div className="three mb-5">
-            <h1 class="">Laboratories</h1>
-
-            </div>
-            <p>
-              We have a huge well equipped laboratories catering to the needs of
-              basic sciences, Information & technology, Commerce & Management
-              and languages. Students can search for a better solution here. A
-              place for great experiments “Where science meets innovation”.
-              <svg
-                class="title-shape-2"
-                width="168"
-                height="65"
-                viewBox="0 0 168 65"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              ></svg>
-            </p>
-          </div>
-          {infrastructuredata
-            .map((inf, i) => {
-              return (
-                <div key={i} className="col-xl-6 col-lg-6 col-md-6 mb-30">
-                  <div className={"it-blog-item"}>
-                    <div className="it-blog-thumb fix">
-                      <img src={inf.img} className="img-fluid" />
-                    </div>
-                  </div>
-                </div>
-              );
-            })
-            .slice(0, 4)}
-        </div>
-      </div> */}
       <div id="library">
         <div className="it-choose-area p-relative py-3">
           <div className="container">
                   <div className="it-choose-title-box mb-30 university-title-gsap">
                     <div className="three">
-                    <h1 className="it-section-title">University Library</h1>
+                    <h1 className="it-section-title" data-aos="fade-up">University Library</h1>
 
                     </div>
                   </div>
@@ -197,7 +168,7 @@ const Infrastructuredisplay = () => {
         <div className="row">
           <div class="it-career-title-box  mb-20">
             <div className="three">
-              <h1 class="">Hostel</h1>
+              <h1 class="" data-aos="fade-up">Hostel</h1>
             </div>
             <p>
               The University also provides in-campus residential facilities for
@@ -231,88 +202,6 @@ const Infrastructuredisplay = () => {
             .slice(4, 6)}
         </div>
       </div>
-      {/* <div className="container" id="ac">
-        <div className="row">
-          <div class="it-career-title-box  mb-20">
-            <div className="three mb-20">
-            <h1 class="">
-              Auditorium & Conference Hall
-            </h1>
-
-            </div>
-            <p>
-              The University has an enormous Auditorium and Conference hall in
-              the campus for various students’ activities, seminars and
-              Conferences. The secret to success is written on the doors of our
-              auditorium. “A place with all facilities”.” We are here with great
-              difference”.
-              <svg
-                class="title-shape-2"
-                width="168"
-                height="65"
-                viewBox="0 0 168 65"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              ></svg>
-            </p>
-          </div>
-          {infrastructuredata
-            .map((inf, i) => {
-              return (
-                <div key={i} className="col-xl-6 col-lg-6 col-md-6 mb-30">
-                  <div className={"it-blog-item"}>
-                    <div className="it-blog-thumb fix">
-                      <img src={inf.img} className="img-fluid" />
-                    </div>
-                  </div>
-                </div>
-              );
-            })
-            .slice(6, 10)}
-        </div>
-      </div>
-     
-      <div className="container" id="ground">
-        <div className="row">
-          <div class="it-career-title-box  mb-20">
-            <div className="three mb-20">
-            <h1 class="">
-              Indoor and Outdoor Sports Ground and Court
-            </h1>
-
-            </div>
-            <p>
-              The University Campus has brought with it improved infrastructure
-              for all sports activities. The students are always encouraged to
-              make use of this astonishing facility regularly for their overall
-              development. University has abundant facilities for numerous
-              indoor & outdoor games like Bad-Minton, chess, carom, table
-              tennis, cricket, and so on.
-              <svg
-                class="title-shape-2"
-                width="168"
-                height="65"
-                viewBox="0 0 168 65"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              ></svg>
-            </p>
-          </div>
-          {infrastructuredata
-            .map((inf, i) => {
-              return (
-                <div key={i} className="col-xl-4 col-lg-4 col-md-6 mb-30">
-                  <div className={"it-blog-item"}>
-                    <div className="it-blog-thumb fix">
-                      <img src={inf.img} className="img-fluid" />
-                    </div>
-                  </div>
-                </div>
-              );
-            })
-            .slice(10, 13)}
-        </div>
-      </div> */}
     </div>
   );
 };

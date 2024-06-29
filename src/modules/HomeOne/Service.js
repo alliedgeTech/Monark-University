@@ -37,7 +37,7 @@ export default function Service() {
             >
               <div className="row flex-row-reverse">
                 <div className="col-lg-6">
-                  <div className="course-heading-home">
+                  <div className="course-heading-home" data-aos="fade-left">
                     <h1>
                       Choose from our extensive <span>selection</span> of{" "}
                       <span className="blue"> over 100 +</span>{" "}
@@ -45,7 +45,7 @@ export default function Service() {
                     </h1>
                   </div>
                 </div>
-                <div className="col-lg-6 d-flex align-items-center mt-lg-0 mt-4">
+                <div className="col-lg-6 d-flex align-items-center mt-lg-0 mt-4" data-aos="zoom-in-right">
                   <div class="carousel-buttons carousel-orange-buttons mr-auto mb-30 d-flex align-items-center">
                     <button
                       type="button"
@@ -100,7 +100,7 @@ export default function Service() {
                                 <Link
                                   href={`/services/service?id=${index + 1}`}
                                 >
-                                  <div className="course-link-box px-2 py-3  d-flex align-items-center ">
+                                  <div className="course-link-box px-2 py-3  d-flex align-items-center " data-aos="fade-up">
                                     <img className="" src={item.img} alt="" />
                                     <h6 className="ps-3 mb-0">{item.name}</h6>
                                   </div>
@@ -111,7 +111,7 @@ export default function Service() {
                         })}
                         <div className="col-lg-3 col-md-6 col-12 mt-4">
                           <Link href="/faculty?id=17">
-                            <div className="course-link-box px-2 py-3  d-flex align-items-center ">
+                            <div className="course-link-box px-2 py-3  d-flex align-items-center " data-aos="fade-up">
                               <img
                                 className=""
                                 src="/img/service/music.png"
