@@ -266,11 +266,12 @@ export default function About() {
                       <OwlCarousel
                       data-aos="fade-left"
                         className="owl-theme"
-                        dots={false}
-                        loop={true}
                         autoPlay={true}
-                        autoplayTimeout={5000}
-                        responsive={Responsive}
+            margin={10}
+            loop={true}
+            responsive={Responsive}
+            responsiveRefreshRate={0}
+            
                       >
                         <div className="item">
                           <p>
@@ -366,7 +367,7 @@ export default function About() {
                         <OwlCarousel
                         data-aos="fade-right"
                           className="owl-theme"
-                          dots={false}
+                          dots={true}
                           loop={true}
                           autoPlay={true}
                           autoplayTimeout={5000}
@@ -453,7 +454,7 @@ export default function About() {
                           <OwlCarousel
                           data-aos="fade-left"
                             className="owl-theme"
-                            dots={false}
+                            dots={true}
                             loop={true}
                             autoPlay={true}
                             autoplayTimeout={5000}
