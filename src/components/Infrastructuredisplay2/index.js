@@ -109,7 +109,7 @@ const Infrastructuredisplay = () => {
                   </div>
                 </div>
               </div>
-              <p className="mt-4"> More than 10 million documents are
+              <p className="mt-4" data-aos='fade-up'> More than 10 million documents are
                       available in NDL including e-books, journal articles,
                       video lectures etc. Library LAN has become a part of
                       campus wise network, which has made it possible for the
@@ -138,7 +138,7 @@ const Infrastructuredisplay = () => {
             {librarydata && (
               <div className="row">
                 {librarydata.map((library, num) => (
-                  <div key={num} className="col-xl-4  col-lg-4 col-md-6 col-6 mb-10">
+                  <div data-aos='zoom-out' key={num} className="col-xl-4  col-lg-4 col-md-6 col-6 mb-10">
                     <div className="it-funfact-5-item rounded-3 text-center counter-gsap">
                       <div className="it-funfact-5-icon">
                         <span>
@@ -170,7 +170,7 @@ const Infrastructuredisplay = () => {
             <div className="three">
               <h1 class="" data-aos="fade-up">Hostel</h1>
             </div>
-            <p>
+            <p data-aos='fade-right'>
               The University also provides in-campus residential facilities for
               boys and girls which offers students an amazing place for living.
               The Hostel rooms are spacious and well furnished with internet
@@ -191,7 +191,7 @@ const Infrastructuredisplay = () => {
             .map((inf, i) => {
               return (
                 <div key={i} className="col-xl-6 col-lg-6 col-md-6 mb-30">
-                  <div className={"it-blog-item"}>
+                  <div className={"it-blog-item"} data-aos='zoom-in-left'>
                     <div className="it-blog-thumb fix">
                       <img src={inf.img} className="img-fluid" />
                     </div>

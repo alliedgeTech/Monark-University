@@ -2739,3 +2739,10 @@ tr {
 .blue-link{
     color: blue !important;
 }
+.it-feature-title{
+    color: #000 !important;
+}
+.it-feature-item:hover .it-feature-title{
+    color: #fff !important;
+
+}
