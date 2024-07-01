@@ -2,6 +2,8 @@ import React, { useEffect, useState } from "react";
 import dynamic from "next/dynamic";
 import "owl.carousel/dist/assets/owl.carousel.css";
 import "owl.carousel/dist/assets/owl.theme.default.css";
+import 'aos/dist/aos.css'; 
+import aos from 'aos'; 
 
 import axios from "axios";
 
@@ -53,6 +55,10 @@ const Calanderdisplay = () => {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
+    aos.init({
+      offset: 50, // Offset (in pixels) from the original trigger point
+      duration: 700, // Duration of animation (in milliseconds)
+    });
     fetchData();
   }, []);
 
@@ -74,7 +80,7 @@ const Calanderdisplay = () => {
     <div className="placement" id="circular">
       <div id="latest-news" className="container-fluid py-4">
         <div className="student-placement-heading d-flex align-items-center justify-content-center mb-20">
-          <div className="one">
+          <div className="one" data-aos="fade-up">
             <h1 className="text-center mb-0 w-100">Academic Calander</h1>
           </div>
         </div>
@@ -91,8 +97,8 @@ const Calanderdisplay = () => {
               <div className="row"></div>
               <div className="list-officers-table">
                 <table class="rwd-table">
-                  <tbody>
-                    <tr>
+                  <tbody data-aos="fade-right">
+                    <tr data-aos="fade-right">
                       <th>Programs</th>
                       <th>Branch</th>
 
@@ -100,7 +106,7 @@ const Calanderdisplay = () => {
                     </tr>
                     {calander.map((item, id) => {
                       return (
-                        <tr>
+                        <tr data-aos="fade-right">
                           <td>{item.programs}</td>
                           <td>{item.Branch}</td>
                           <td>

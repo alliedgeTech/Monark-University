@@ -108,3 +108,4 @@ const studentsaydata=[
         text:'The Management Programmes at RCBBA are designed to equip practicing managers to act as agents of change-catalysts in effective decision making. It is matters of a certain degree of pride that RCBBA contributing towards the expansion of knowledge base in its field of endeavor-through research, through innovation in management theory and practice and new initiatives across the globe. Let it be my privilege to welcome you to the world of RCBBA.',
     },
 ]
+export default studentsaydata;

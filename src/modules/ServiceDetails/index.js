@@ -10,7 +10,7 @@ export default function ServiceDetailsModules(singleService, props) {
   return (
     <main>
       <BreadCrumbs
-        Title={`After`}
+        Title={`After 10`}
         subTitle="Service"
       />
       <ServiceDetailsArea item={singleService.item} Title={Title} />

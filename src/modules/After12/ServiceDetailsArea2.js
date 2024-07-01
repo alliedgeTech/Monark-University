@@ -8,6 +8,42 @@ import "slick-carousel/slick/slick-theme.css";
 import styles from "./ServiceDetailsArea.module.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Link from "next/link";
+import dynamic from "next/dynamic";
+import "owl.carousel/dist/assets/owl.carousel.css";
+import "owl.carousel/dist/assets/owl.theme.default.css";
+import 'aos/dist/aos.css'; 
+import aos from 'aos'; 
+
+// Import jQuery
+if (typeof window !== "undefined") {
+  var $ = require("jquery");
+  window.$ = window.jQuery = require("jquery");
+}
+
+// Dynamically import OwlCarousel without SSR
+const OwlCarousel = dynamic(() => import("react-owl-carousel"), {
+  ssr: false,
+});
+
+// Responsive settings for OwlCarousel
+const Responsive = {
+  0: {
+    items: 1,
+    margin: 5,
+  },
+  435: {
+    items: 1,
+    margin: 10,
+  },
+  556: {
+    items: 2,
+    margin: 10,
+  },
+  1024: {
+    items: 3,
+    margin: 20,
+  },
+};
 
 export default function ServiceDetailsArea() {
   const [isMounted, setIsMounted] = useState(false);
@@ -17,6 +53,7 @@ export default function ServiceDetailsArea() {
   const { id } = router.query;
 
   useEffect(() => {
+    
     setIsMounted(true);
     if (id) {
       const foundItem = After12.find((data) => data?.id == id);
@@ -28,39 +65,14 @@ export default function ServiceDetailsArea() {
       console.log("foundItemData", foundItem?.corse);
     }
   }, [id]);
+  useEffect(()=>{
+    aos.init({
+      offset: 100, // Offset (in pixels) from the original trigger point
+      duration: 700, // Duration of animation (in milliseconds)
+    });
+  },[onclick])
 
-  const settings = {
-    dots: true,
-    infinite: true,
-    speed: 500,
-    slidesToShow: 4,
-    slidesToScroll: 1,
-    autoplay: true,
-    autoplaySpeed: 3000,
-    responsive: [
-      {
-        breakpoint: 1024,
-        settings: {
-          slidesToShow: 3,
-          slidesToScroll: 1,
-        },
-      },
-      {
-        breakpoint: 600,
-        settings: {
-          slidesToShow: 2,
-          slidesToScroll: 1,
-        },
-      },
-      {
-        breakpoint: 480,
-        settings: {
-          slidesToShow: 1,
-          slidesToScroll: 1,
-        },
-      },
-    ],
-  };
+  
 
   if (!item) {
     return <div>Loading...</div>;
@@ -79,9 +91,9 @@ export default function ServiceDetailsArea() {
                 <Accordion.Body>
                   <Row>
                     <div className={styles.detailsTopWrap}>
-                      <Row>
-                        <Col lg={6} className="text-center">
-                          <div className={styles.chooseThumbBox}>
+                      <div className="row">
+                        <div className="col-lg-5 col-12">
+                        <div className={styles.chooseThumbBox} data-aos="fade-right">
                             <div className={styles.chooseThumb}>
                               <img
                                 src={course.titleImage}
@@ -90,49 +102,60 @@ export default function ServiceDetailsArea() {
                               />
                             </div>
                           </div>
-                        </Col>
-                        <Col lg={6}>
-                          <h4 className={styles.detailsTitle}>
+                        </div>
+                        <div className="col-lg-7 col-12">
+                        <h4 className='oswald' data-aos="fade-up">
                             {course.title}
                           </h4>
-                          <p>{course.titlePera}</p>
-                        </Col>
-                      </Row>
-                      <Row>
-                        <Col className="col-left">
-                          <h4 className={styles.detailsTitle}>
+                          <p> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; {course.titlePera}</p>
+                        </div>
+                      </div>
+                      <div className="row">
+                        <div className="col-12">
+                        <h4 className='oswald' data-aos="fade-right">
                             Program Outcomes
                           </h4>
-                          <p>{course.programOutcomesPera}</p>
-                        </Col>
-                        <Col className="col-right pb-20">
+                          <p data-aos="fade-up"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; {course.programOutcomesPera}</p>
+                        </div>
+                        <div className="col-12">
                           {isMounted && (
-                            <Slider {...settings}>
-                              {course.programOutcomesImages?.map((value) => (
+                            <OwlCarousel
+                            data-aos="zoom-out"
+                className="owl-theme px-2"
+          loop={true}
+          autoPlay={true}
+          margin={10}
+          dots={true}
+          autoplayTimeout={5000}
+          responsive={Responsive}>
+            {course.programOutcomesImages?.map((value) => (
                                 <div
                                   key={value.id}
-                                  className={`service-car-items px-3 ${styles.programOutcomeItem}`}
+                                  className={'item '}
                                 >
                                   <img
                                     src={value.image}
-                                    className="img-fluid rounded"
+                                    className="img-fluid "
                                     alt={value.name}
                                   />
                                   <p>{value.name}</p>
                                 </div>
                               ))}
-                            </Slider>
+
+                            </OwlCarousel>
+                            
                           )}
-                        </Col>
-                      </Row>
+                        </div>
+                      </div>
+                      
                     </div>
                     <div className=" pb-40">
-                      <div className="three">
+                      <div className="three" data-aos="fade-right">
                         <h1 className={styles.boxTitle}>{course.title}</h1>
                       </div>
                       <div className="row">
                         <div className="col-lg-6 col-md-12 mt-4">
-                          <div className="service-box h-100 p-4">
+                          <div data-aos="fade-up" className="service-box h-100 p-4">
                             <h5>
                               <span>
                                 <i className="fa-sharp fa-light fa-check mr-10"></i>
@@ -143,7 +166,7 @@ export default function ServiceDetailsArea() {
                           </div>
                         </div>
                         <div className="col-lg-6 col-md-12 mt-4">
-                          <div className="service-box h-100 p-4">
+                          <div data-aos="fade-up" className="service-box h-100 p-4">
                             <h5>
                               <span>
                                 <i className="fa-sharp fa-light fa-check mr-10"></i>
@@ -154,7 +177,7 @@ export default function ServiceDetailsArea() {
                           </div>
                         </div>
                         <div className="col-lg-6 col-md-12 mt-4">
-                          <div className="service-box h-100 p-4">
+                          <div data-aos="fade-up" className="service-box h-100 p-4">
                             <h5>
                               <span>
                                 <i className="fa-sharp fa-light fa-check mr-10"></i>
@@ -165,7 +188,7 @@ export default function ServiceDetailsArea() {
                           </div>
                         </div>
                         <div className="col-lg-6 col-md-12 mt-4">
-                          <div className="service-box h-100 p-4">
+                          <div data-aos="fade-up" className="service-box h-100 p-4">
                             <h5>
                               <span>
                                 <i className="fa-sharp fa-light fa-check mr-10"></i>
@@ -179,12 +202,12 @@ export default function ServiceDetailsArea() {
                     </div>
                   </Row>
                   <div className={styles.laboratoriesSection}>
-                    <div className="three mb-20">
+                    <div className="three mb-20" data-aos="fade-up">
                       <h1>Laboratories</h1>
                     </div>
                     {course.laboratories?.map((lab, labIndex) => (
                       <>
-                        <div key={labIndex} className="about-1 mb-4">
+                        <div key={labIndex} className="about-1 mb-4" data-aos="fade-right">
                           <div className="row">
                             <div className="col-lg-6 col-12 px-3">
                               <img
@@ -195,7 +218,7 @@ export default function ServiceDetailsArea() {
                             </div>
                             <div className="col-lg-6 col-12 ps-5">
                               <h4 className="mb-20">{lab.title}</h4>
-                              <ul>
+                              <ul className="service-ul">
                                 {lab.pera.split("/")?.map((line, lineIndex) => (
                                   <li key={lineIndex}>{line.trim()}</li>
                                 ))}

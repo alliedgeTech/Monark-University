@@ -1,7 +1,10 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { useRouter } from "next/router";
 import { Container, Row, Col, Accordion } from "react-bootstrap";
 import syllabusdata from "@/data/syllabus";
+import 'aos/dist/aos.css'; 
+import aos from 'aos'; 
+
 
 import "bootstrap/dist/css/bootstrap.min.css";
 
@@ -11,6 +14,12 @@ const Syllabusdetails = () => {
   if (!syllabusdata || syllabusdata.length === 0) {
     return <div>Loading...</div>;
   }
+  useEffect(()=>{
+    aos.init({
+      offset: 100, // Offset (in pixels) from the original trigger point
+      duration: 700, // Duration of animation (in milliseconds)
+    });
+  })
 
   return (
     <div>
@@ -19,7 +28,7 @@ const Syllabusdetails = () => {
           <Accordion defaultActiveKey="0">
             <div className="container py-5">
               <div className="mt-5" id="syllabus">
-                <div className="one">
+                <div className="one" data-aos='fade-up'>
                   <h1
                     className=""
                   >
@@ -28,7 +37,7 @@ const Syllabusdetails = () => {
                 </div>
                 <div className="accordion mt-25" id="accordionExample">
                   {syllabusdata.map((sl, index) => (
-                    <Accordion.Item eventKey={index.toString()} key={sl.id}>
+                    <Accordion.Item data-aos='fade-right' eventKey={index.toString()} key={sl.id}>
                       <Accordion.Header>{sl.branch}</Accordion.Header>
                       <Accordion.Body>
                         <Row>

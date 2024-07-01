@@ -4,6 +4,8 @@ import "owl.carousel/dist/assets/owl.carousel.css";
 import "owl.carousel/dist/assets/owl.theme.default.css";
 import Link from "next/link";
 import axios from "axios";
+import 'aos/dist/aos.css'; 
+import aos from 'aos'; 
 
 
 if (typeof window !== "undefined") {
@@ -54,6 +56,10 @@ const Examdisplay = () => {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
+    aos.init({
+      offset: 100, // Offset (in pixels) from the original trigger point
+      duration: 700, // Duration of animation (in milliseconds)
+    });
     fetchData();
   }, []);
 
@@ -73,10 +79,8 @@ const Examdisplay = () => {
   return (
     <div className="placement" id="exams">
       <div id="latest-news" className="container py-4">
-        <div className="student-placement-heading d-flex align-items-center justify-content-center mb-20">
-          <div className="line"></div>
+        <div data-aos='fade-up' className="student-placement-heading eight d-flex align-items-center justify-content-center mb-20">
           <h1 className="text-center mb-0 w-100">Exam Schedule</h1>
-          <div className="line"></div>
         </div>
 
         {loading ? (
@@ -92,14 +96,14 @@ const Examdisplay = () => {
               <div className="list-officers-table">
                 <table class="rwd-table">
                   <tbody>
-                    <tr>
+                    <tr data-aos='fade-right'>
                       <th>Date</th>
                       <th>Exam</th>
                       <th>Download</th>
                     </tr>
                     {exam.map((item, id) => {
                       return (
-                        <tr>
+                        <tr data-aos='fade-right'>
                           <td>{item.uploadDate.toString().split('T')[0]}</td>
                           <td>{item.title}</td>
                           <td>

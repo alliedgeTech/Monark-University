@@ -1,30 +1,38 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { Container, Row, Col, Accordion } from "react-bootstrap";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import styles from "./ServiceDetailsArea.module.css";
-
+import 'aos/dist/aos.css'; 
+import aos from 'aos'; 
 export default function ServiceDetailsArea() {
+
+  useEffect(()=>{
+    aos.init({
+      offset: 100, // Offset (in pixels) from the original trigger point
+      duration: 700, // Duration of animation (in milliseconds)
+    });
+  })
 
 
   return (
     <div className={styles.serviceDetailsArea}>
       <Container>
         <div className={styles.detailsTopWrap}>
-          <Row>
-            <Col lg={6} className="text-center">
-              <div className={styles.chooseThumbBox}>
+          <div className="row">
+            <div className="col-lg-4">
+            <div className={styles.chooseThumbBox} data-aos='fade-right'>
                 <div className={`${styles.chooseThumb} phd-img`}>
                   <img
                     src="https://monarkuni.ac.in/wp-content/uploads/2022/05/infra1-800x725.jpg"
-                    className="img-fluid rounded"
+                    className="img-fluid  "
                     alt=""
                   />
                 </div>
               </div>
-            </Col>
-            <Col lg={6}>
-              <h3 className="">PH.D.</h3>
+            </div>
+            <div className="col-lg-8" data-aos='fade-left'>
+            <h3 className="oswald">PH.D.</h3>
               <p>
                 We @ Monark University, offering the research oriented degree
                 course: Doctor of Philosophy (Ph.D.) which is a doctorate
@@ -41,9 +49,10 @@ export default function ServiceDetailsArea() {
                 this point of time.
                 
               </p>
-            </Col>
-          </Row>
-          <p className="mt-10">We offer Ph.D. program in Full-Time and Part-Time mode with the
+            </div>
+          </div>
+          
+          <p className="mt-10" data-aos='fade-up'>We offer Ph.D. program in Full-Time and Part-Time mode with the
                 stipulated time durations mentioned in the University’s Doctor
                 of Philosophy (Ph.D.) Ordinances, 2021. This program is uniquely
                 designed in such a manner that effective contributions in the
@@ -58,17 +67,17 @@ export default function ServiceDetailsArea() {
 
         <div className={styles.detailsTopContent}>
           <Row>
-            <Col className="col-left">
-              <div className="phd-div p-3 text-center mb-30">
+            <Col className="col-left" >
+              <div className="phd-div p-3 text-center mb-30" data-aos='fade-up'>
                 <h4 className={styles.detailsTitle}>
                   Ordinance Governing the Award of Doctor of Philosophy (Ph.D.)
                   Program, 2021
                 </h4>
               </div>
-              <h3>
+              <h3 data-aos='fade-right'>
                 Have any Query Regarding Application & Submission of PhD. ?
               </h3>
-              <p>
+              <p data-aos='fade-up'>
                 For any query regarding online application & submission, kindly
                 communicate to Dr. Tanmaykumar R. Pandit (Research Coordinator)
                 at research@monarkuni.ac.in
@@ -77,8 +86,8 @@ export default function ServiceDetailsArea() {
           </Row>
         </div>
         <div className="mt-10">
-          <Accordion defaultActiveKey="AdmissionProcess">
-            <Accordion.Item eventKey="0" key="AdmissionProcess">
+          <Accordion defaultActiveKey="AdmissionProcess" >
+            <Accordion.Item eventKey="0" key="AdmissionProcess" data-aos='fade-right'>
               <Accordion.Header>Admission Process</Accordion.Header>
               <Accordion.Body>
                 For any query regarding online application & submission, kindly
@@ -94,6 +103,7 @@ export default function ServiceDetailsArea() {
                 individual’s application form in online mode using the following
                 link:
                 <a
+                className="blue-link"
                   href="https://monark.icrp.in/academic/admission/form_student_registration.aspx"
                 >
                   https://monark.icrp.in/academic/admission/form_student_registration.aspx
@@ -134,7 +144,7 @@ export default function ServiceDetailsArea() {
                 Gujarat, India.
               </Accordion.Body>
             </Accordion.Item>
-            <Accordion.Item eventKey="1" key="EligibilityCriteria">
+            <Accordion.Item eventKey="1" key="EligibilityCriteria" data-aos='fade-right'>
               <Accordion.Header>Eligibility Criteria</Accordion.Header>
               <Accordion.Body>
                 The minimum eligibility criteria for admission to the Ph.D.
@@ -155,7 +165,7 @@ export default function ServiceDetailsArea() {
                 </ul>
               </Accordion.Body>
             </Accordion.Item>
-            <Accordion.Item eventKey="2" key="FeeStructure">
+            <Accordion.Item eventKey="2" key="FeeStructure" data-aos='fade-right'>
               <Accordion.Header>Fee Structure</Accordion.Header>
               <Accordion.Body>
                 The fee structure for the Ph.D. program is as follows:
@@ -169,7 +179,7 @@ export default function ServiceDetailsArea() {
                 university regulations.
               </Accordion.Body>
             </Accordion.Item>
-            <Accordion.Item eventKey="3" key="ImportantDates">
+            <Accordion.Item eventKey="3" key="ImportantDates" data-aos='fade-right'>
               <Accordion.Header>Important Dates</Accordion.Header>
               <Accordion.Body>
                 <ul className="ps-4">
@@ -181,7 +191,7 @@ export default function ServiceDetailsArea() {
                 </ul>
               </Accordion.Body>
             </Accordion.Item>
-            <Accordion.Item eventKey="4" key="ContactInformation">
+            <Accordion.Item eventKey="4" key="ContactInformation" data-aos='fade-right'>
               <Accordion.Header>Contact Information</Accordion.Header>
               <Accordion.Body>
                 For any further queries or information, please contact:

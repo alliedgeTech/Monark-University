@@ -1,5 +1,5 @@
-import 'aos/dist/aos.css'; // Import AOS CSS
-import aos from 'aos'; // Import AOS library
+import 'aos/dist/aos.css'; 
+import aos from 'aos'; 
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/dist/ScrollTrigger";
 import { useEffect, useState } from "react";

@@ -4,6 +4,8 @@ import "owl.carousel/dist/assets/owl.carousel.css";
 import "owl.carousel/dist/assets/owl.theme.default.css";
 import Link from "next/link";
 import axios from "axios";
+import 'aos/dist/aos.css'; 
+import aos from 'aos'; 
 
 if (typeof window !== "undefined") {
   var $ = require("jquery");
@@ -53,6 +55,10 @@ const index = () => {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
+    aos.init({
+      offset: 100, // Offset (in pixels) from the original trigger point
+      duration: 700, // Duration of animation (in milliseconds)
+    });
     fetchData();
   }, []);
 
@@ -73,7 +79,7 @@ const index = () => {
     <div className="placement mt-4" id="circular">
       <div id="latest-news" className="container-fluid py-3">
         <div className="student-placement-heading d-flex align-items-center justify-content-center mb-20">
-          <div className="one">
+          <div className="one" data-aos='fade-up'>
             <h1 className=" mb-0">Circular</h1>
           </div>
         </div>
@@ -91,14 +97,14 @@ const index = () => {
               <div className="list-officers-table">
                 <table class="rwd-table">
                   <tbody>
-                    <tr>
+                    <tr data-aos='fade-right'>
                       <th>Date</th>
                       <th>Circular</th>
                       <th>Download</th>
                     </tr>
                     {circular.map((item, id) => {
                       return (
-                        <tr>
+                        <tr data-aos='fade-right'>
                           <td>{item.uploadDate.toString().split('T')[0]}</td>
                           <td>{item.name}</td>
                           <td>

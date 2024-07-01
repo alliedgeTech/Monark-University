@@ -6,6 +6,7 @@ import facultydata from "../../data/faculty";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/dist/ScrollTrigger";
 import { useRouter } from "next/router";
+import studentsaydata from "../../data/studentsay"
 import 'aos/dist/aos.css'; // Import AOS CSS
 import aos from 'aos'; // Import AOS library
 
@@ -46,11 +47,11 @@ const Responsive2 = {
     margin: 5,
   },
   435: {
-    items: 2,
+    items: 1,
     margin: 10,
   },
   768: {
-    items: 2,
+    items: 1,
     margin: 10,
   },
   1024: {
@@ -81,7 +82,7 @@ const index = () => {
           <div
             className={` mb-45 pb-40`}
           >
-            <div className="faculty-heading mb-30  eight w-100" data-aos="zoom-in">
+            <div className="faculty-heading mb-30  eight w-100" data-aos="fade-up">
               <h1 className=" ">{faculty.name}</h1>
             </div>
 
@@ -100,7 +101,7 @@ const index = () => {
             </div>
             <div className="row row-2">
               <div className="col-lg-6 col-12 p-0 px-5 pt-4  order-lg-1 order-2">
-                <div className="d-flex align-items-start" data-aos="fade-left">
+                <div className="d-flex align-items-start" data-aos="fade-right">
                 <i class="fa-regular fa-hand-point-right mr-10 mt-2"></i><p className="faculty-left">{faculty.text_2}</p>
 
                 </div>
@@ -143,132 +144,37 @@ const index = () => {
               </div>
             </div>
             <OwlCarousel
-              className=""
+              className="owl-theme"
               loop={true}
               autoPlay={true}
               autoplayTimeout={5000}
               responsive={Responsive2}
             >
-              <div class="item">
-                <div className="test-card d-flex align-items-center flex-column">
-                  <div className="test-img">
-                    <img
-                      className=""
-                      src="https://monarkuni.ac.in/wp-content/uploads/2021/07/WhatsApp-Image-2021-07-15-at-10.38.55-AM.jpeg"
-                      alt=""
-                    />
-                  </div>
-                  <div className="test-name">
-                    <h6>Jainish Vasani</h6>
-                  </div>
-                  <div className="test-text">
-                    <i class="fa-solid fa-quote-left"></i>
-                    <small>
-                      Excellent content and assignments that build on your
-                      knowledge, reinforce, and then expand. I recently secured
-                      new employment using PHP and couldnt have done so without
-                      the Professional Web Development courses.
-                    </small>
-                    <i class="fa-solid fa-quote-right"></i>
-                  </div>
-                </div>
-              </div>
-              <div class="item">
-                <div className="test-card d-flex align-items-center flex-column">
-                  <div className="test-img">
-                    <img
-                      className=""
-                      src="https://monarkuni.ac.in/wp-content/uploads/2021/07/WhatsApp-Image-2021-07-15-at-10.38.55-AM.jpeg"
-                      alt=""
-                    />
-                  </div>
-                  <div className="test-name">
-                    <h6>Jainish Vasani</h6>
-                  </div>
-                  <div className="test-text">
-                    <i class="fa-solid fa-quote-left"></i>
-                    <small>
-                      Excellent content and assignments that build on your
-                      knowledge, reinforce, and then expand. I recently secured
-                      new employment using PHP and couldnt have done so without
-                      the Professional Web Development courses.
-                    </small>
-                    <i class="fa-solid fa-quote-right"></i>
+              {studentsaydata.map((students)=>(
+                <div class="item" data-aos="fade-up">
+                  <div className="test-card d-flex align-items-center flex-column">
+                    <div className="test-img">
+                      <img
+                        className=""
+                        src={students.img}
+                        alt=""
+                      />
+                    </div>
+                    <div className="test-name">
+                      <h6>{students.name}</h6>
+                    </div>
+                    <div className="test-text">
+                      <i class="fa-solid fa-quote-left"></i>
+                      <small>
+                        {students.text}
+                      </small>
+                      <i class="fa-solid fa-quote-right"></i>
+                    </div>
                   </div>
                 </div>
-              </div>
-              <div class="item">
-                <div className="test-card d-flex align-items-center flex-column">
-                  <div className="test-img">
-                    <img
-                      className=""
-                      src="https://monarkuni.ac.in/wp-content/uploads/2021/07/WhatsApp-Image-2021-07-15-at-10.38.55-AM.jpeg"
-                      alt=""
-                    />
-                  </div>
-                  <div className="test-name">
-                    <h6>Jainish Vasani</h6>
-                  </div>
-                  <div className="test-text">
-                    <i class="fa-solid fa-quote-left"></i>
-                    <small>
-                      Excellent content and assignments that build on your
-                      knowledge, reinforce, and then expand. I recently secured
-                      new employment using PHP and couldnt have done so without
-                      the Professional Web Development courses.
-                    </small>
-                    <i class="fa-solid fa-quote-right"></i>
-                  </div>
-                </div>
-              </div>
-              <div class="item">
-                <div className="test-card d-flex align-items-center flex-column">
-                  <div className="test-img">
-                    <img
-                      className=""
-                      src="https://monarkuni.ac.in/wp-content/uploads/2021/07/WhatsApp-Image-2021-07-15-at-10.38.55-AM.jpeg"
-                      alt=""
-                    />
-                  </div>
-                  <div className="test-name">
-                    <h6>Jainish Vasani</h6>
-                  </div>
-                  <div className="test-text">
-                    <i class="fa-solid fa-quote-left"></i>
-                    <small>
-                      Excellent content and assignments that build on your
-                      knowledge, reinforce, and then expand. I recently secured
-                      new employment using PHP and couldnt have done so without
-                      the Professional Web Development courses.
-                    </small>
-                    <i class="fa-solid fa-quote-right"></i>
-                  </div>
-                </div>
-              </div>
-              <div class="item">
-                <div className="test-card d-flex align-items-center flex-column">
-                  <div className="test-img">
-                    <img
-                      className=""
-                      src="https://monarkuni.ac.in/wp-content/uploads/2021/07/WhatsApp-Image-2021-07-15-at-10.38.55-AM.jpeg"
-                      alt=""
-                    />
-                  </div>
-                  <div className="test-name">
-                    <h6>Jainish Vasani</h6>
-                  </div>
-                  <div className="test-text">
-                    <i class="fa-solid fa-quote-left"></i>
-                    <small>
-                      Excellent content and assignments that build on your
-                      knowledge, reinforce, and then expand. I recently secured
-                      new employment using PHP and couldnt have done so without
-                      the Professional Web Development courses.
-                    </small>
-                    <i class="fa-solid fa-quote-right"></i>
-                  </div>
-                </div>
-              </div>
+                
+              ))}
+             
             </OwlCarousel>
           </div>
         </div>

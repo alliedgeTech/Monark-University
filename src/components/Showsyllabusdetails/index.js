@@ -3,6 +3,8 @@ import { useRouter } from "next/router";
 import { Container, Row, Col, Table, Accordion } from "react-bootstrap";
 import syllabusdata from "@/data/syllabus";
 import "bootstrap/dist/css/bootstrap.min.css";
+import 'aos/dist/aos.css'; 
+import aos from 'aos'; 
 
 const Showsyllabusdetails = () => {
   const router = useRouter();
@@ -28,6 +30,12 @@ const Showsyllabusdetails = () => {
       }
     }
   }, [id, branchId, subId]);
+  useEffect(()=>{
+    aos.init({
+      offset: 100, // Offset (in pixels) from the original trigger point
+      duration: 700, // Duration of animation (in milliseconds)
+    });
+  })
 
   if (!item) {
     return <div>Loading...</div>;
@@ -43,15 +51,15 @@ const Showsyllabusdetails = () => {
               <Accordion.Item eventKey={tableIndex.toString()} key={tableIndex}>
                 
                 <Accordion.Body className="course-details-credit">
-                  <div className="one mb-5">
+                  <div className="one mb-5" data-aos='fade-up'>
                   <h1>{table.title1}</h1>
 
                   </div>
-                  <h5 className="my-4">{table.title2}</h5>
-                  <h6>{table.title3}</h6>
+                  <h5 data-aos='fade-right' className="my-4">{table.title2}</h5>
+                  <h6 data-aos='fade-right'>{table.title3}</h6>
                   <Table striped bordered hover responsive className="mt-3">
                     <thead>
-                      <tr>
+                      <tr data-aos='fade-right'>
                         <th>Sr. No.</th>
                         <th>Course Code</th>
                         <th>Name of Course</th>
@@ -65,7 +73,7 @@ const Showsyllabusdetails = () => {
                     </thead>
                     <tbody>
                       {table.tabledata.map((data) => (
-                        <tr key={data.id}>
+                        <tr key={data.id} data-aos='fade-right'>
                           <td>{data.no}</td>
                           <td>{data.coursecode}</td>
                           <td>{data.coursename}</td>

@@ -10,6 +10,8 @@ import dynamic from "next/dynamic";
 import "owl.carousel/dist/assets/owl.carousel.css";
 import "owl.carousel/dist/assets/owl.theme.default.css";
 import Link from "next/link";
+import 'aos/dist/aos.css'; 
+import aos from 'aos'; 
 // Import jQuery
 if (typeof window !== "undefined") {
   var $ = require("jquery");
@@ -49,6 +51,10 @@ export default function ServiceDetailsArea() {
   const { id } = router.query;
   console.log("iddd", id);
   useEffect(() => {
+    aos.init({
+      offset: 100, // Offset (in pixels) from the original trigger point
+      duration: 700, // Duration of animation (in milliseconds)
+    });
     setIsMounted(true);
     if (id) {
       const foundItem = Diploma.find((data) => data?.id == id);
@@ -98,9 +104,13 @@ export default function ServiceDetailsArea() {
     <div className={styles.serviceDetailsArea}>
       <Container>
         <div className={styles.detailsTopWrap}>
-          <Row>
-            <Col lg={6} className="text-center">
-              <div className={styles.chooseThumbBox}>
+          <div className="eight" data-aos="fade-up">
+        <h1   className='oswald '>{item.title}</h1>
+          </div>
+
+          <div className="row mt-40">
+            <div className="col-lg-5 col-12">
+            <div className={styles.chooseThumbBox} data-aos="fade-right">
                 <div className={styles.chooseThumb}>
                   <img
                     src={item.titleImage}
@@ -109,25 +119,28 @@ export default function ServiceDetailsArea() {
                   />
                 </div>
               </div>
-            </Col>
-            <Col lg={6}>
-              <h4 className='oswald'>{item.title}</h4>
-              <p> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; {item.titlePera}</p>
-            </Col>
-          </Row>
+            </div>
+            <div className="col-lg-7 col-12" data-aos="fade-left">
+            <p> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; {item.titlePera}</p>
+            </div>
+          </div>
+          
         </div>
 
         <div className={styles.detailsTopContent}>
           
           <div>
             <div className="mb-20">
-              <h4 className="oswald">Program Outcomes</h4>
-              <p> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; {item.programOutcomesPera}</p>
+              <div className="three" data-aos="fade-right">
+                <h4 className="oswald">Program Outcomes</h4>
+              </div>
+              <p data-aos="fade-up"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; {item.programOutcomesPera}</p>
             </div>
             <div className="service-car">
               {isMounted && (
                 
                 <OwlCarousel
+                data-aos="zoom-out"
                 className="owl-theme px-2"
           loop={true}
           autoPlay={true}
@@ -155,12 +168,12 @@ export default function ServiceDetailsArea() {
           </div>
         </div>
         <div className="pb-40 pt-10 mt-50 px-4">
-          <div className="three">
+          <div className="three" data-aos="fade-right">
             <h1 className={styles.boxTitle}>{item.title}</h1>
           </div>
           <div className="row w-100">
             <div className="col-lg-6 col-md-12 mt-4">
-              <div className="service-box h-100 p-4">
+              <div data-aos="fade-up" className="service-box h-100 p-4">
                 <h5>
                   <span>
                     <i className="fa-sharp fa-light fa-check mr-10"></i>
@@ -171,7 +184,7 @@ export default function ServiceDetailsArea() {
               </div>
             </div>
             <div className="col-lg-6 col-md-12 mt-4">
-              <div className="service-box h-100 p-4">
+              <div data-aos="fade-up" className="service-box h-100 p-4">
                 <h5>
                   <span>
                     <i className="fa-sharp fa-light fa-check mr-10"></i>
@@ -182,7 +195,7 @@ export default function ServiceDetailsArea() {
               </div>
             </div>
             <div className="col-lg-6 col-md-12 mt-4">
-              <div className="service-box h-100 p-4">
+              <div data-aos="fade-up" className="service-box h-100 p-4">
                 <h5>
                   <span>
                     <i className="fa-sharp fa-light fa-check mr-10"></i>
@@ -193,7 +206,7 @@ export default function ServiceDetailsArea() {
               </div>
             </div>
             <div className="col-lg-6 col-md-12 mt-4">
-              <div className="service-box h-100 p-4">
+              <div data-aos="fade-up" className="service-box h-100 p-4">
                 <h5>
                   <span>
                     <i className="fa-sharp fa-light fa-check mr-10"></i>
@@ -206,12 +219,12 @@ export default function ServiceDetailsArea() {
           </div>
         </div>
         <div className="">
-          <div className="eight mb-30">
+          <div className="eight mb-30" data-aos="fade-up">
             <h1 className="">Laboratories</h1>
           </div>
           <div>
             {item.laboratories.map((lab, index) => (
-              <div key={index} className="about-1 mb-4">
+              <div key={index} className="about-1 mb-4" data-aos="fade-right">
                 <div className="row">
                             <div className="col-lg-6 col-12 px-3">
                               <img
