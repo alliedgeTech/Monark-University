@@ -6,7 +6,40 @@ import Diploma from "@/data/diploma";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import styles from "./ServiceDetailsArea.module.css";
+import dynamic from "next/dynamic";
+import "owl.carousel/dist/assets/owl.carousel.css";
+import "owl.carousel/dist/assets/owl.theme.default.css";
 import Link from "next/link";
+// Import jQuery
+if (typeof window !== "undefined") {
+  var $ = require("jquery");
+  window.$ = window.jQuery = require("jquery");
+}
+
+// Dynamically import OwlCarousel without SSR
+const OwlCarousel = dynamic(() => import("react-owl-carousel"), {
+  ssr: false,
+});
+
+// Responsive settings for OwlCarousel
+const Responsive = {
+  0: {
+    items: 1,
+    margin: 5,
+  },
+  435: {
+    items: 1,
+    margin: 10,
+  },
+  556: {
+    items: 2,
+    margin: 10,
+  },
+  1024: {
+    items: 3,
+    margin: 20,
+  },
+};
 
 export default function ServiceDetailsArea() {
   
@@ -78,38 +111,48 @@ export default function ServiceDetailsArea() {
               </div>
             </Col>
             <Col lg={6}>
-              <h4 className={styles.detailsTitle}>{item.title}</h4>
-              <p>{item.titlePera}</p>
+              <h4 className='oswald'>{item.title}</h4>
+              <p> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; {item.titlePera}</p>
             </Col>
           </Row>
         </div>
 
         <div className={styles.detailsTopContent}>
-          <Row>
-            <Col className="col-left">
-              <h4 className={styles.detailsTitle}>Program Outcomes</h4>
-              <p>{item.programOutcomesPera}</p>
-            </Col>
-            <Col className="col-right">
+          
+          <div>
+            <div className="mb-20">
+              <h4 className="oswald">Program Outcomes</h4>
+              <p> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; {item.programOutcomesPera}</p>
+            </div>
+            <div className="service-car">
               {isMounted && (
-                <Slider {...settings}>
-                  {item.programOutcomesImages.map((value) => (
+                
+                <OwlCarousel
+                className="owl-theme px-2"
+          loop={true}
+          autoPlay={true}
+          margin={10}
+          dots={true}
+          autoplayTimeout={5000}
+          responsive={Responsive}
+                >
+                    {item.programOutcomesImages.map((value) => (
                     <div
                       key={value.id}
-                      className={`service-car-items px-3 ${styles.programOutcomeItem}`}
+                      className='item'
                     >
                       <img
                         src={value.image}
-                        className="img-fluid rounded"
+                        className="img-fluid "
                         alt={value.name}
                       />
                       <p>{value.name}</p>
                     </div>
                   ))}
-                </Slider>
+                </OwlCarousel>
               )}
-            </Col>
-          </Row>
+            </div>
+          </div>
         </div>
         <div className="pb-40 pt-10 mt-50 px-4">
           <div className="three">

@@ -2396,16 +2396,31 @@ tr {
     margin: 20px 0;
     border-radius: 6px;
     align-self: center;
-    width: 50vw;
+    width: 70vw;
+  }
+  .timeline__event h4{
+    font-family: Poppins !important;
+    text-transform: uppercase;
+    color: #fff !important;
+    font-weight: 500; 
+    font-size: 18px;  
+    margin-bottom: 0 !important;
+  }
+  .timeline__event i{
+    font-weight: 700 !important;
+    color: #fff !important;
   }
   .timeline__event:nth-child(2n+1) {
     flex-direction: row-reverse;
   }
   .timeline__event:nth-child(2n+1) .timeline__event__date {
     border-radius: 0 6px 6px 0;
-  }
-  .timeline__event:nth-child(2n+1) .timeline__event__content {
+    color: #fff !important;
+    background: var(--web-orange);
+}
+.timeline__event:nth-child(2n+1) .timeline__event__content {
     border-radius: 6px 0 0 6px;
+    background: var(--web-color);
   }
   .timeline__event:nth-child(2n+1) .timeline__event__icon:before {
     content: "";
@@ -2444,10 +2459,13 @@ tr {
     letter-spacing: 1.5px;
   }
   .timeline__event__content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     padding: 20px;
     box-shadow: 0 30px 60px -12px rgba(50, 50, 93, 0.25), 0 18px 36px -18px rgba(0, 0, 0, 0.3), 0 -12px 36px -8px rgba(0, 0, 0, 0.025);
-    background: #fff;
-    width: calc(40vw - 84px);
+    background: var(--web-orange);
+    width: calc(60vw - 84px);
     border-radius: 0 6px 6px 0;
   }
   .timeline__event__date {
@@ -2514,14 +2532,14 @@ tr {
     background: #dadada;
   }
   .timeline__event--type2 .timeline__event__date {
-    color: #565656;
-    background: #dadada;
+    color: #ffffff;
+    background: var(--web-color)
   }
   .timeline__event--type2:nth-child(2n+1) .timeline__event__icon:before, .timeline__event--type2:nth-child(2n+1) .timeline__event__icon:after {
     background: #565656;
   }
   .timeline__event--type2 .timeline__event__icon {
-    background: #565656;
+    background: var(--web-light-black);
     color: #dadada;
   }
   .timeline__event--type2 .timeline__event__icon:before, .timeline__event--type2 .timeline__event__icon:after {
@@ -2693,4 +2711,15 @@ tr {
 .accordion-header{
     margin-left: auto !important;
     margin-right: auto !important;
+}
+.bg-change{
+    background: var(--web-eee);
+}
+.oswald{
+    font-family: oswald !important;
+    margin-bottom: 10px;
+}
+.service-car .item:hover img{
+    transform: scale(0.9);
+    border-radius: 12px;
 }

@@ -59,11 +59,7 @@ export default function CareerForm() {
 
     const fileInput = form.current.querySelector('input[type="file"]');
     if (fileInput && fileInput.files && fileInput.files.length > 0) {
-<<<<<<< HEAD
       formData.append("resumeUrl", fileInput.files[0]);
-=======
-      formData.append('resume', fileInput.files[0]); // Append the file, not the filename
->>>>>>> d948e0145e8ee4db395068c238bf6399c5600104
     }
 
     try {

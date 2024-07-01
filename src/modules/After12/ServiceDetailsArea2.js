@@ -69,39 +69,7 @@ export default function ServiceDetailsArea() {
   return (
     <div className={styles.serviceDetailsArea}>
       <Container>
-        {/* <div className={styles.detailsTopContent}>
-          <Row>
-            <Col lg={6} className="text-center">
-              <div className={styles.chooseThumbBox}>
-                <div className={styles.chooseThumb}>
-                  <img src={item.titleImage} className="img-fluid rounded" alt="" />
-                </div>
-              </div>
-            </Col>
-            <Col lg={6}>
-              <h4 className={styles.detailsTitle}>{item.title}</h4>
-              <p>{item.titlePera}</p>
-            </Col>
-          </Row>
-          <Row>
-            <Col className="col-left">
-              <h4 className={styles.detailsTitle}>Program Outcomes</h4>
-              <p>{item.programOutcomesPera}</p>
-            </Col>
-            <Col className="col-right">
-              {isMounted && (
-                <Slider {...settings}>
-                  {item.programOutcomesImages?.map((value) => (
-                    <div key={value.id} className={styles.programOutcomeItem}>
-                      <img src={value.image} className="img-fluid rounded" alt={value.name} />
-                      <p>{value.name}</p>
-                    </div>
-                  ))}
-                </Slider>
-              )}
-            </Col>
-          </Row>
-        </div> */}
+        
 
         <div className="mt-100">
           <Accordion defaultActiveKey="0">

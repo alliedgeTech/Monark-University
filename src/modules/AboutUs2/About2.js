@@ -1,17 +1,5 @@
-import Image from "next/image";
-import Link from "next/link";
-import fullimg from "../../../public/img/choose/monarknew.jpg";
-import blankm from "../../../public/img/choose/NS.jpg";
-import sb from "../../../public/img/choose/sb.jpg";
-import hs from "../../../public/img/choose/hs.jpg";
-import ai from "../../../public/img/choose/AICTE.png";
-import nc from "../../../public/img/choose/NCTE.png";
-import gn from "../../../public/img/choose/GNC.jpg";
-import bc from "../../../public/img/choose/BCI.png";
-import na from "../../../public/img/choose/NAAC.png";
-import is from "../../../public/img/choose/ISTE.jpg";
-import vi from "../../../public/img/choose/VIPNET.png";
-import ncc from "../../../public/img/choose/NCC.jpg";
+import 'aos/dist/aos.css'; // Import AOS CSS
+import aos from 'aos'; // Import AOS library
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/dist/ScrollTrigger";
 import { useEffect, useState } from "react";
@@ -95,6 +83,10 @@ const apvrs = [
 export default function About() {
   useEffect(() => {
     gsap.registerPlugin(ScrollTrigger);
+    aos.init({
+      offset: 100, // Offset (in pixels) from the original trigger point
+      duration: 700, // Duration of animation (in milliseconds)
+    });
     let mm = gsap.matchMedia();
 
     mm.add("(min-width:991px)", () => {
@@ -233,12 +225,13 @@ export default function About() {
       2001
     </div>
     <div class="timeline__event__content ">
-      <div class="timeline__event__title">
-      <h4>Shree Monark education trust</h4>
+      <div class="timeline__event__title d-flex align-items-center gap-2">
+        <i class="fa-solid fa-hand-point-right"></i>
+      <h4 className="mb-0">Shree Monark education trust</h4>
       </div>
     </div>
   </div>
-  <div class="timeline__event animated fadeInUp delay-2s timeline__event--type2">
+  <div data-aos="fade-up" class="timeline__event animated fadeInUp delay-2s timeline__event--type2">
     <div class="timeline__event__icon">
       <i class="lni-burger"></i>
 
@@ -247,12 +240,13 @@ export default function About() {
     2005
     </div>
     <div class="timeline__event__content">
-      <div class="timeline__event__title">
-      <h4>Smt. Maniba Mahila B.Ed. College</h4>
+      <div class="timeline__event__title d-flex align-items-center gap-2">
+        <i class="fa-solid fa-hand-point-right"></i>
+      <h4>Smt. Maniba  Mahila B.Ed. College</h4>
       </div>
     </div>
   </div>
-  <div class="timeline__event animated fadeInUp delay-1s timeline__event--type2">
+  <div data-aos="fade-up" class="timeline__event animated fadeInUp delay-1s timeline__event--type2">
     <div class="timeline__event__icon">
       <i class="lni-slim"></i>
 
@@ -261,13 +255,14 @@ export default function About() {
     2007
     </div>
     <div class="timeline__event__content">
-      <div class="timeline__event__title">
-      <h4>Hasmukh Goswami College of Engineering</h4>
+      <div class="timeline__event__title d-flex align-items-center gap-2">
+        <i class="fa-solid fa-hand-point-right"></i>
+      <h4>Hasmukh  Goswami College of Engineering</h4>
       </div>
 
     </div>
   </div>
-  <div class="timeline__event animated fadeInUp timeline__event--type2">
+  <div data-aos="fade-up" class="timeline__event animated fadeInUp timeline__event--type2">
     <div class="timeline__event__icon">
       <i class="lni-cake"></i>
 
@@ -276,12 +271,13 @@ export default function About() {
     2007
     </div>
     <div class="timeline__event__content">
-      <div class="timeline__event__title">
-      <h4>Piyuni pre-school teacher education</h4>
+      <div class="timeline__event__title d-flex align-items-center gap-2">
+        <i class="fa-solid fa-hand-point-right"></i>
+      <h4>Piyuni  pre-school teacher education</h4>
       </div>
     </div>
   </div>
-  <div class="timeline__event animated fadeInUp timeline__event--type2">
+  <div data-aos="fade-up" class="timeline__event animated fadeInUp timeline__event--type2">
     <div class="timeline__event__icon">
       <i class="lni-cake"></i>
 
@@ -290,12 +286,13 @@ export default function About() {
     2007
     </div>
     <div class="timeline__event__content">
-      <div class="timeline__event__title">
-      <h4>Jeel adhyapan mandir</h4>
+      <div class="timeline__event__title d-flex align-items-center gap-2">
+        <i class="fa-solid fa-hand-point-right"></i>
+       <h4>Jeel adhyapan mandir</h4>
       </div>
     </div>
   </div>
-  <div class="timeline__event animated fadeInUp timeline__event--type2">
+  <div data-aos="fade-up" class="timeline__event animated fadeInUp timeline__event--type2">
     <div class="timeline__event__icon">
       <i class="lni-cake"></i>
 
@@ -304,12 +301,13 @@ export default function About() {
     2007
     </div>
     <div class="timeline__event__content">
-      <div class="timeline__event__title">
-      <h4>Satish adhyapan mandir</h4>
+      <div class="timeline__event__title d-flex align-items-center gap-2">
+        <i class="fa-solid fa-hand-point-right"></i>
+       <h4>Satish adhyapan mandir</h4>
       </div>
     </div>
   </div>
-  <div class="timeline__event animated fadeInUp timeline__event--type2">
+  <div data-aos="fade-up" class="timeline__event animated fadeInUp timeline__event--type2">
     <div class="timeline__event__icon">
       <i class="lni-cake"></i>
 
@@ -318,12 +316,13 @@ export default function About() {
     2008
     </div>
     <div class="timeline__event__content">
-      <div class="timeline__event__title">
-      <h4>Maniba College of education</h4>
+      <div class="timeline__event__title d-flex align-items-center gap-2">
+        <i class="fa-solid fa-hand-point-right"></i>
+      <h4 >Maniba College of education</h4>
       </div>
     </div>
   </div>
-  <div class="timeline__event animated fadeInUp timeline__event--type2">
+  <div data-aos="fade-up" class="timeline__event animated fadeInUp timeline__event--type2">
     <div class="timeline__event__icon">
       <i class="lni-cake"></i>
 
@@ -332,12 +331,13 @@ export default function About() {
     2008
     </div>
     <div class="timeline__event__content">
-      <div class="timeline__event__title">
-      <h4>Manguba M.Ed College</h4>
+      <div class="timeline__event__title d-flex align-items-center gap-2">
+        <i class="fa-solid fa-hand-point-right"></i>
+      <h4 >Manguba M.Ed College</h4>
       </div>
     </div>
   </div>
-  <div class="timeline__event animated fadeInUp timeline__event--type2">
+  <div data-aos="fade-up" class="timeline__event animated fadeInUp timeline__event--type2">
     <div class="timeline__event__icon">
       <i class="lni-cake"></i>
 
@@ -346,12 +346,13 @@ export default function About() {
     2011
     </div>
     <div class="timeline__event__content">
-      <div class="timeline__event__title">
-      <h4>Rudra College of business administration</h4>
+      <div class="timeline__event__title d-flex align-items-center gap-2">
+        <i class="fa-solid fa-hand-point-right"></i>
+      <h4>Rudra  College of business administration</h4>
       </div>
     </div>
   </div>
-  <div class="timeline__event animated fadeInUp timeline__event--type2">
+  <div data-aos="fade-up" class="timeline__event animated fadeInUp timeline__event--type2">
     <div class="timeline__event__icon">
       <i class="lni-cake"></i>
 
@@ -360,12 +361,13 @@ export default function About() {
     2011
     </div>
     <div class="timeline__event__content">
-      <div class="timeline__event__title">
-      <h4>Piyuni Goswami College of commerce</h4>
+      <div class="timeline__event__title d-flex align-items-center gap-2">
+        <i class="fa-solid fa-hand-point-right"></i>
+      <h4>Piyuni  Goswami College of commerce</h4>
       </div>
     </div>
   </div>
-  <div class="timeline__event animated fadeInUp timeline__event--type2">
+  <div data-aos="fade-up" class="timeline__event animated fadeInUp timeline__event--type2">
     <div class="timeline__event__icon">
       <i class="lni-cake"></i>
 
@@ -374,12 +376,13 @@ export default function About() {
     2015
     </div>
     <div class="timeline__event__content">
-      <div class="timeline__event__title">
-      <h4>Jeel Goswami College of Science and research</h4>
+      <div class="timeline__event__title d-flex align-items-center gap-2">
+        <i class="fa-solid fa-hand-point-right"></i>
+      <h4>Jeel Goswami College  of Science and research</h4>
       </div>
     </div>
   </div>
-  <div class="timeline__event animated fadeInUp timeline__event--type2">
+  <div data-aos="fade-up" class="timeline__event animated fadeInUp timeline__event--type2">
     <div class="timeline__event__icon">
       <i class="lni-cake"></i>
 
@@ -388,12 +391,13 @@ export default function About() {
     2015
     </div>
     <div class="timeline__event__content">
-      <div class="timeline__event__title">
-      <h4>Satish Goswami College of Physiotherapist</h4>
+      <div class="timeline__event__title d-flex align-items-center gap-2">
+        <i class="fa-solid fa-hand-point-right"></i>
+      <h4>Satish  Goswami College of Physiotherapist</h4>
       </div>
     </div>
   </div>
-  <div class="timeline__event animated fadeInUp timeline__event--type2">
+  <div data-aos="fade-up" class="timeline__event animated fadeInUp timeline__event--type2">
     <div class="timeline__event__icon">
       <i class="lni-cake"></i>
 
@@ -402,12 +406,13 @@ export default function About() {
     2018
     </div>
     <div class="timeline__event__content">
-      <div class="timeline__event__title">
-      <h4>Urmila Goswami College of Nursing</h4>
+      <div class="timeline__event__title d-flex align-items-center gap-2">
+        <i class="fa-solid fa-hand-point-right"></i>
+      <h4>Urmila  Goswami College of Nursing</h4>
       </div>
     </div>
   </div>
-  <div class="timeline__event animated fadeInUp timeline__event--type2">
+  <div data-aos="fade-up" class="timeline__event animated fadeInUp timeline__event--type2">
     <div class="timeline__event__icon">
       <i class="lni-cake"></i>
 
@@ -416,12 +421,13 @@ export default function About() {
     2019
     </div>
     <div class="timeline__event__content">
-      <div class="timeline__event__title">
-      <h4>Mohan Goswami College of law</h4>
+      <div class="timeline__event__title d-flex align-items-center gap-2">
+        <i class="fa-solid fa-hand-point-right"></i>
+      <h4>Mohan  Goswami College of law</h4>
       </div>
     </div>
   </div>
-  <div class="timeline__event animated fadeInUp timeline__event--type2">
+  <div data-aos="fade-up" class="timeline__event animated fadeInUp timeline__event--type2">
     <div class="timeline__event__icon">
       <i class="lni-cake"></i>
 
@@ -430,12 +436,13 @@ export default function About() {
     2019
     </div>
     <div class="timeline__event__content">
-      <div class="timeline__event__title">
-      <h4>Piyuni Goswami College of arts</h4>
+      <div class="timeline__event__title d-flex align-items-center gap-2">
+        <i class="fa-solid fa-hand-point-right"></i>
+      <h4>Piyuni  Goswami College of arts</h4>
       </div>
     </div>
   </div>
-  <div class="timeline__event animated fadeInUp timeline__event--type2">
+  <div data-aos="fade-up" class="timeline__event animated fadeInUp timeline__event--type2">
     <div class="timeline__event__icon">
       <i class="lni-cake"></i>
 
@@ -444,12 +451,13 @@ export default function About() {
     2019
     </div>
     <div class="timeline__event__content">
-      <div class="timeline__event__title">
-      <h4>Rudra Goswami College of computer application</h4>
+      <div class="timeline__event__title d-flex align-items-center gap-2">
+        <i class="fa-solid fa-hand-point-right"></i>
+      <h4>Rudra Goswami  College of computer application</h4>
       </div>
     </div>
   </div>
-  <div class="timeline__event animated fadeInUp timeline__event--type2">
+  <div data-aos="fade-up" class="timeline__event animated fadeInUp timeline__event--type2">
     <div class="timeline__event__icon">
       <i class="lni-cake"></i>
 
@@ -458,8 +466,9 @@ export default function About() {
     2021
     </div>
     <div class="timeline__event__content">
-      <div class="timeline__event__title">
-      <h4>Monark University</h4>
+      <div class="timeline__event__title d-flex align-items-center gap-2">
+        <i class="fa-solid fa-hand-point-right"></i>
+       <h4>Monark University</h4>
       </div>
     </div>
   </div>
@@ -482,7 +491,7 @@ export default function About() {
                 <div className="history-item d-flex align-items-center">
                   <div className="history-card w-100 px-2">
                     <div className="history-card-heading d-flex align-items-center justify-content-center">
-                      <h5 className="mb-0">2001</h5>
+                      <h5 >2001</h5>
                     </div>
                     <h4>Shree Monark education trust</h4>
                   </div>
