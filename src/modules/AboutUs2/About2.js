@@ -176,39 +176,43 @@ export default function About() {
     <div id="historicalbackground">
       <div className="it-choose-area p-relative pt-15">
         <div className="it-choose-shape-4 d-none d-md-block"></div>
-        <div className="container">
-          <div className="it-choose-title-box three">
-            <h1 className="it-section-title mb-20">
-              Historical Background of the Sponsoring Body
-            </h1>
-          </div>
-          <div className="row">
-            <div className="col-lg-6 col-12">
-              <div className="it-choose-text pb-15">
-                <p>
-                  With the blessings of the Goddess Saraswati, Shree Monark
-                  Education Trust (SMET) being the sponsoring/promoting body of
-                  the Monark University was established in the year 2001 as a
-                  result of the vision of its founder Chairman, Shri
-                  Mohanbharthi R. Goswami, a farmer and philanthropist, to
-                  promote world-class academic institutions. The following
-                  erstwhile institutions promoted by the Trust at fast pace have
-                  now come under the purview of the Monark University.
-                </p>
-              </div>
+        <div className="container mt-20 ">
+          <div className="deg45">
+          <div className="up px-lg-5 px-3 py-2 py-lg-5 deg-45">
+            <div className="it-choose-title-box three curve">
+              <h1 className="it-section-title mb-20 ">
+                Historical Background
+              </h1>
             </div>
-            <div className="col-lg-6 col-12">
-              <div className="it-choose-thumb-box mx-2 text-center text-md-end">
-                <div className="it-choose-thumb p-relative">
-                  <img
-                    src="/img/choose/monarknew.jpg"
-                    className="img-fluid"
-                    alt=""
-                  />
-                  <div className="it-choose-shape-3 d-none d-lg-block"></div>
+            <div className="row">
+              <div className="col-lg-6 col-12">
+                <div className="it-choose-text pb-15">
+                  <p>
+                    With the blessings of the Goddess Saraswati, Shree Monark
+                    Education Trust (SMET) being the sponsoring/promoting body of
+                    the Monark University was established in the year 2001 as a
+                    result of the vision of its founder Chairman, Shri
+                    Mohanbharthi R. Goswami, a farmer and philanthropist, to
+                    promote world-class academic institutions. The following
+                    erstwhile institutions promoted by the Trust at fast pace have
+                    now come under the purview of the Monark University.
+                  </p>
+                </div>
+              </div>
+              <div className="col-lg-6 col-12">
+                <div className="it-choose-thumb-box mx-2 text-center text-md-end">
+                  <div className="it-choose p-relative in-img">
+                    <img
+                      src="/img/choose/monarknew.jpg"
+                      className="img-fluid "
+                      alt=""
+                    />
+                    <div className="it-choose-shape-3 d-none d-lg-block"></div>
+                  </div>
                 </div>
               </div>
             </div>
+          </div>
           </div>
         </div>
       </div>

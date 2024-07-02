@@ -104,7 +104,7 @@ export default function ServiceDetailsArea() {
     <div className={styles.serviceDetailsArea}>
       <Container>
         <div className={styles.detailsTopWrap}>
-          <div className="eight" data-aos="fade-up">
+          <div className="three" data-aos="fade-up">
         <h1   className='oswald '>{item.title}</h1>
           </div>
 
@@ -130,7 +130,7 @@ export default function ServiceDetailsArea() {
         <div className={styles.detailsTopContent}>
           
           <div>
-            <div className="mb-20">
+            <div className="mb-5">
               <div className="three" data-aos="fade-right">
                 <h4 className="oswald">Program Outcomes</h4>
               </div>
@@ -167,13 +167,14 @@ export default function ServiceDetailsArea() {
             </div>
           </div>
         </div>
-        <div className="pb-40 pt-10 mt-50 px-4">
+        <div className="pb-20  px-4">
           <div className="three" data-aos="fade-right">
-            <h1 className={styles.boxTitle}>{item.title}</h1>
+            <h1 className=''>{item.title}</h1>
           </div>
           <div className="row w-100">
-            <div className="col-lg-6 col-md-12 mt-4">
-              <div data-aos="fade-up" className="service-box h-100 p-4">
+            <div className="col-lg-3 col-md-12 mt-4">
+              <div className="deg15">
+              <div data-aos="fade-up" className="service-box deg-15 h-100 p-4">
                 <h5>
                   <span>
                     <i className="fa-sharp fa-light fa-check mr-10"></i>
@@ -182,9 +183,12 @@ export default function ServiceDetailsArea() {
                 </h5>
                 <p>{item.coureDuration}</p>
               </div>
+
+              </div>
             </div>
-            <div className="col-lg-6 col-md-12 mt-4">
-              <div data-aos="fade-up" className="service-box h-100 p-4">
+            <div className="col-lg-3 col-md-12 mt-4">
+              <div className="deg15">
+              <div data-aos="fade-up" className="service-box deg-15 h-100 p-4">
                 <h5>
                   <span>
                     <i className="fa-sharp fa-light fa-check mr-10"></i>
@@ -193,9 +197,12 @@ export default function ServiceDetailsArea() {
                 </h5>
                 <p>{item.eligibilityCriteria}</p>
               </div>
+
+              </div>
             </div>
-            <div className="col-lg-6 col-md-12 mt-4">
-              <div data-aos="fade-up" className="service-box h-100 p-4">
+            <div className="col-lg-3 col-md-12 mt-4">
+              <div className="deg15">
+              <div data-aos="fade-up" className="service-box deg-15 h-100 p-4">
                 <h5>
                   <span>
                     <i className="fa-sharp fa-light fa-check mr-10"></i>
@@ -204,9 +211,12 @@ export default function ServiceDetailsArea() {
                 </h5>
                 <p>{item.annualFees}</p>
               </div>
+
+              </div>
             </div>
-            <div className="col-lg-6 col-md-12 mt-4">
-              <div data-aos="fade-up" className="service-box h-100 p-4">
+            <div className="col-lg-3 col-md-12 mt-4">
+              <div className="deg15">
+              <div data-aos="fade-up" className="service-box deg-15 h-100 p-4">
                 <h5>
                   <span>
                     <i className="fa-sharp fa-light fa-check mr-10"></i>
@@ -214,6 +224,8 @@ export default function ServiceDetailsArea() {
                   From
                 </h5>
                 <Link href="/applynow">Apply now</Link>
+              </div>
+
               </div>
             </div>
           </div>
@@ -224,25 +236,27 @@ export default function ServiceDetailsArea() {
           </div>
           <div>
             {item.laboratories.map((lab, index) => (
-              <div key={index} className="about-1 mb-4" data-aos="fade-right">
+              <div key={index} className="up my-5 lab-box px-lg-5 px-4 py-5" data-aos="fade-right">
                 <div className="row">
-                            <div className="col-lg-6 col-12 px-3">
+                            <div className="col-lg-5 col-12 px-3">
                               <img
-                                className="img-fluid rounded"
+                                className="img-fluid"
                                 src={lab.image}
                                 alt={lab.title}
                               />
                             </div>
-                            <div className="col-lg-6 col-12 ps-5">
-                              <div className="three">
-                                <h4 className="mb-20">{lab.title}</h4>
+                            <div className="col-lg-7 col-12 px-3 mt-lg-0 mt-4">
+                              <div className="lab-white">
+                                <div className="three">
+                                  <h4 className="mb-20 oswald">{lab.title}</h4>
 
+                                </div>
+                                <ul style={{listStyle:'none'}} className="service-ul">
+                                  {lab.pera.split("/")?.map((line, lineIndex) => (
+                                    <li key={lineIndex}><i class="fa-regular fa-hand-point-right mr-10"></i>{line.trim()}</li>
+                                  ))}
+                                </ul>
                               </div>
-                              <ul className="service-ul">
-                                {lab.pera.split("/")?.map((line, lineIndex) => (
-                                  <li key={lineIndex}>{line.trim()}</li>
-                                ))}
-                              </ul>
                             </div>
                           </div>
               </div>
