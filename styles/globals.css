@@ -2856,3 +2856,19 @@ tr {
     border: 2px solid var(--web-orange);
     background: var(--web-white);
 }
+.dean-img{
+    position: relative;
+}
+.dean-img .shape-img{
+    position: absolute;
+    top: -30px;
+    right: -40px;
+    z-index: -1;
+}
+.dean-img > img{
+    height: 330px;
+    width: 330px;
+    border-radius: 50%;
+    overflow: hidden;
+    box-shadow: 0px 0px  15px var(--web-color);
+}

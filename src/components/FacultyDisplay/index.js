@@ -137,6 +137,27 @@ const index = () => {
             </div>
           </div>
 
+          <div className="row mt-40">
+            <div className="col-lg-7">
+              <div className="three">
+              <h4 className="poppins">dean message</h4>
+
+              </div>
+              <p>
+                Lorem ipsum dolor sit. Maiores reiciendis aspernatur earum. Labore explicabo vitae ipsam animi unde magni distinctio quae iste iusto illum. Omnis! Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus earum soluta reiciendis? Inventore nisi, illum fugit odio culpa hic obcaecati error dignissimos repellendus velit fuga quaerat autem ea officia voluptatem dolore quas dolor laudantium perspiciatis quidem aperiam. Accusamus laudantium autem facere velit voluptates dicta, eum esse laborum voluptas dignissimos aperiam. Debitis doloremque cumque nam illum unde dignissimos, impedit quia nulla.
+              </p>
+            </div>
+            <div className="col-lg-5 mt-4 d-flex align-items-center justify-content-center">
+              <div className="dean-img">
+                <div className="shape-img">
+                <img src="/img/choose/shape-1-3.png" className="img-fluid shape" alt="" />
+
+                </div>
+                <img className="img-fluid" src="https://monarkuni.ac.in/wp-content/uploads/2021/06/SMET-175-Copy.jpg" alt="" />
+              </div>
+            </div>
+          </div>
+
           <div className="student-say container py-4">
             <div className="say-heading mt-4">
               <div className="one" data-aos="fade-up">
