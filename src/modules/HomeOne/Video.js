@@ -4,6 +4,8 @@ import "owl.carousel/dist/assets/owl.carousel.css";
 import "owl.carousel/dist/assets/owl.theme.default.css";
 import Link from "next/link";
 import axios from "axios";
+import 'aos/dist/aos.css'; 
+import aos from 'aos'; 
 
 // Import jQuery
 if (typeof window !== "undefined") {
@@ -70,13 +72,17 @@ export default function Video() {
   };
  
   useEffect(() => {
+    aos.init({
+      offset: 100, // Offset (in pixels) from the original trigger point
+      duration: 700, // Duration of animation (in milliseconds)
+    });
     fetchData();
   }, []);
   
   return (
     <div className="Latest-News py-5 px-lg-5 px-2">
       <div className="container">
-        <div className="student-placement-heading mb-20">
+        <div data-aos='fade-right' className="student-placement-heading mb-20">
           <div className="three">
             <h1 className="mb-0">Latest News</h1>
           </div>
@@ -95,7 +101,7 @@ export default function Video() {
             autoplayTimeout={3000}
           >
             {latestNews.map((item, index) => (
-              <div className="item p-2" key={index}>
+              <div data-aos='zoom-in' className="item p-2" key={index}>
                 <div className="news-card p-3">
                   <div className="news-head">
                     <div className="news-img-box">

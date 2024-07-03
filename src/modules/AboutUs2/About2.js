@@ -178,7 +178,7 @@ export default function About() {
         <div className="it-choose-shape-4 d-none d-md-block"></div>
         <div className="container mt-20 ">
           <div className="deg45">
-          <div className="up px-lg-5 px-3 py-2 py-lg-5 deg-45">
+          <div className="px-lg-5 px-md-5 px-3 py-4 py-lg-5 deg-45">
             <div className="it-choose-title-box three curve">
               <h1 className="it-section-title mb-20 ">
                 Historical Background
