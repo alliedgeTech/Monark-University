@@ -8,6 +8,8 @@ import "owl.carousel/dist/assets/owl.theme.default.css";
 import Link from "next/link";
 import axios from 'axios';
 import Marquee from "react-fast-marquee";
+import 'aos/dist/aos.css'; 
+import aos from 'aos'; 
 
 // Import jQuery
 if (typeof window !== "undefined") {
@@ -59,6 +61,10 @@ const index = () => {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
+    aos.init({
+      offset: 100, // Offset (in pixels) from the original trigger point
+      duration: 700, // Duration of animation (in milliseconds)
+    });
     fetchData();
   }, []);
 
@@ -81,21 +87,21 @@ const index = () => {
       <div id="training" className="training-placement py-4">
 
         <div  className="training-placement-heading container">
-          <div className="three mb-25">
+          <div className="three mb-25" data-aos='fade-up'>
           <h1 className="">Training & Placement Cell</h1>
           </div>
           <div className="row">
-            <div className="col-lg-5 col-12">
-              <div className="training-img">
+            <div className="col-lg-4 col-12">
+              <div className="training-img" data-aos='zoom-in-right'>
                 <img
                   className="img-fluid"
-                  src="https://monarkuni.ac.in/wp-content/uploads/2021/12/WhatsApp-Image-2021-12-24-at-6.48.09-PM.jpeg"
+                  src="/img/placement/placement.jpg"
                   alt=""
                 />
               </div>
             </div>
-            <div className="col-lg-7 col-12">
-              <div className="training-text">
+            <div className="col-lg-8 col-12">
+              <div className="training-text" data-aos='fade-left'>
                 <p>
                   The ultimate aim of the institute is not only just creating
                   the engineers, but to eventually producing and delivering
@@ -107,7 +113,11 @@ const index = () => {
                   guidance and direction of the top management and
                   Director/Principal in the process of placement. The management
                   of the institute has resolved and is committed to achieve 100%
-                  placement of the students. The Management has stepped forward
+                  placement of the students. 
+                </p>
+              </div>
+            </div>
+            <p data-aos='fade-up'>The Management has stepped forward
                   to frame out long-term strategies to develop and strengthen
                   Institute-Industries Relationship. The campus
                   recruitment/placement process has already commenced. The
@@ -115,19 +125,14 @@ const index = () => {
                   in-house training courses/ workshops/seminars/guest lecturers
                   for imparting extra knowledge and providing exposure,
                   practical knowledge a skill to the student community and
-                  faculties.
-                </p>
-              </div>
-            </div>
+                  faculties.</p>
           </div>
         </div>
       </div>
       <div id="latest-news" className="Latest-News py-4">
       <div className="container">
-      <div className="student-placement-heading d-flex align-items-center justify-content-center mb-20">
-        <div className="line"></div>
+      <div data-aos='fade-up' className="student-placement-heading eight d-flex align-items-center justify-content-center mb-20">
         <h1 className="text-center mb-0 w-100">Latest News</h1>
-        <div className="line"></div>
       </div>
 
       {loading ? (
@@ -143,7 +148,7 @@ const index = () => {
           responsive={Responsive}
         >
           {latestNews.map((item, index) => (
-            <div className="item p-2">
+            <div className="item p-2" data-aos='zoom-in'>
               <div className="news-card p-3">
                 <div className="news-head">
                   <div className="news-img-box">
@@ -175,7 +180,7 @@ const index = () => {
     </div>
       <div id="recruiters" className="our-recruiters pt-40">
         <div className="our-recruiters-heading">
-          <div className="eight">
+          <div className="eight" data-aos='fade-up'>
             <h1 className="text-center">Our Recruiters</h1>
 
           </div>
@@ -361,14 +366,14 @@ const index = () => {
       <div id="placement_record" className="placement-record py-5 ">
         <div className="container">
         <div className="placement-record-heading">
-          <div className="three mb-25">
+          <div className="three mb-25" data-aos='fade-up'>
           <h1 className="">Placement Records</h1>
 
           </div>
         </div>
         <div className="row">
           <div className="col-lg-4 col-md-4 col-12 mt-lg-5 mt-4 h-100">
-            <div className="record-box">
+            <div className="record-box" data-aos='zoom-out'>
               <div className="icon-box d-flex flex-column align-items-center">
                 <i class="fa-regular fa-credit-card mb-4"></i>
                 <h4>Placement Record</h4>
@@ -390,7 +395,7 @@ const index = () => {
             </div>
           </div>
           <div className="col-lg-4 col-md-4 col-12 mt-lg-0 mt-4 h-100">
-            <div className="record-box">
+            <div className="record-box" data-aos='zoom-out'>
               <div className="icon-box d-flex flex-column align-items-center">
               <i class="fa-solid fa-dice-d20 mb-4"></i>
                 <h4>Placement Activities</h4>
@@ -410,7 +415,7 @@ const index = () => {
             </div>
           </div>
           <div className="col-lg-4 col-md-4 col-12 mt-lg-5 mt-4 h-100">
-            <div className="record-box">
+            <div className="record-box" data-aos='zoom-out'>
               <div className="icon-box d-flex flex-column align-items-center">
               <i class="fa-solid fa-clock-rotate-left mb-4"></i>
                 <h4>Year 2022-2023 (Cont.)</h4>

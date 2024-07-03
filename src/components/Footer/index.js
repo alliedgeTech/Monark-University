@@ -7,6 +7,31 @@ export default function Footer(props) {
   return (
     <footer className="footer  pt-3">
       <div className="container">
+      <div className="footer-up py-4">
+        <div className="row">
+          <div className="col-lg-3 d-flex align-items-center justify-content-center col-md-6 col-6">
+            <div className="footer-pdf-btn">
+          <button>Student Club</button>
+        </div>
+          </div>
+          <div className="col-lg-3 d-flex align-items-center justify-content-center col-md-6 col-6">
+            <div className="footer-pdf-btn">
+          <button>NPE-2020</button>
+        </div>
+          </div>
+          <div className="col-lg-3 mt-lg-0 mt-4 d-flex align-items-center justify-content-center col-md-6 col-6">
+            <div className="footer-pdf-btn">
+          <button>ABC ID Creation</button>
+        </div>
+          </div>
+          <div className="col-lg-3 mt-lg-0 mt-4 d-flex align-items-center justify-content-center col-md-6 col-6">
+            <div className="footer-pdf-btn">
+          <button>Student Club</button>
+        </div>
+          </div>
+        </div>
+        
+      </div>
         <div className="footer-middle pb-3">
           <div className="row">
             <div className="col-lg-3 col-md-6 col-12">

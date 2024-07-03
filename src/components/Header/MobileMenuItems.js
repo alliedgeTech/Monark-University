@@ -264,19 +264,19 @@ export default function MobileMenuItems(props) {
             </Link>
             <ul className={about ? "it-submenu submenu-open" : "it-submenu"}>
               <li>
-                <Link href="/about-us#historicalbackground">Historical Background</Link>
+                <Link href="/about-us2">Historical Background</Link>
               </li>
               <li>
-                <Link href="/about-us#visionandmission">Vision & Mission</Link>
+                <Link href="/about-us3">Vision & Mission</Link>
               </li>
               <li>
-                <Link href="/about-us#presidentmessage">President's Message</Link>
+                <Link href="/about-us3#presidentmessage">President's Message</Link>
               </li>
               <li>
-                <Link href="/about-us#presidentmessage">Vice President's Message</Link>
+                <Link href="/about-us3#presidentmessage">Vice President's Message</Link>
               </li>
               <li>
-                <Link href="/about-us#provostmessage">Provost Message</Link>
+                <Link href="/about-us3#provostmessage">Provost Message</Link>
               </li>
               <li>
                 <Link href="/about-us#leadership">Leadership</Link>

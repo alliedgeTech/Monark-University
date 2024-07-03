@@ -778,6 +778,8 @@ p {
 
 .faculty-img {
     overflow: hidden;
+    height: 300px;
+    width: 100%;
 }
 
 .faculty-img:hover img {
@@ -1288,6 +1290,10 @@ p {
 
 .nav-link {
     padding: 1px 10px !important;
+    font-family: Poppins !important;
+}
+.nav-link a{
+    font-family: Poppins !important;
 }
 
 
@@ -1355,26 +1361,38 @@ p {
 }
 
 .service-box {
-    background: var(--web-eee);
-    box-shadow: 0 0 5px var(--web-orange);
-    padding: 5px 7px !important;
-    border-left: 4px solid transparent;
-    border-top-right-radius:32px ;
-    border-bottom-right-radius: 32px;
+    
     transition: all 0.4s;
 }
+
+.deg15{
+    background: var(--web-eee);
+    transform: skew(15deg);
+    min-height:100% !important ;
+    border-left: 2px solid var(--web-orange);
+    transition: all 0.5s;
+    box-shadow: 0 0 10px var(--web-light-black);
+}
+.deg-15{
+    transform: skew(-15deg) !important;
+}
 .service-box a{
+    font-size: 12px;
     color: var(--web-black);
+}
+.service-box h5{
+    font-size: 15px;
+}
+.service-box p{
+    font-size: 12px;
 }
 .service-box a:hover{
-    color: var(--web-black);
+    color: blue;
+    text-decoration: underline !important;
 }
-.service-box:hover{
-    background: var(--web-white);
-    box-shadow: 0 2px 5px var(--web-eee);
-    border-left: 4px solid var(--web-color);
-    transform: translateX(-5px) scale(0.93);
-
+.deg15:hover{
+    transform: skew(15deg) scale(0.95);
+    border-left: 2px solid var(--web-color);
 }
 
 .it-gallery {
@@ -1933,7 +1951,8 @@ tr {
 }
 
 .counter-div .why_mu {
-    color: var(--web-white);
+    color: #000 !important;
+    font-weight: 500;
     font-size: 26px;
     letter-spacing: 1px;
     font-family: 'Open Sans', sans-serif;
@@ -2101,6 +2120,7 @@ tr {
 }
 
 .alumini-heading i {
+    color: var(--web-black) !important;
     font-size: 8vmax;
     transform: rotate(-20deg);
     margin-left: -40px;
@@ -2699,18 +2719,8 @@ tr {
     
     background: transparent !important;
 }
-.faculty-info .row-1 .faculty-img{
-    
-    border-bottom-right-radius: 100px;
-    border-top-right-radius: 100px;
-    overflow: hidden;
-}
-.faculty-info .row-2 .faculty-img{
-    
-    border-top-left-radius: 100px;
-    border-bottom-left-radius: 100px;
-    overflow: hidden;
-}
+
+
 .faculty-info .row-2{
     background: transparent !important;
     
@@ -2738,4 +2748,178 @@ tr {
 }
 .blue-link{
     color: blue !important;
+}
+.it-feature-title{
+    color: #000 !important;
+}
+.it-feature-item:hover .it-feature-title{
+    color: #fff !important;
+}
+.up{
+    box-shadow: 0 0 10px #565656;
+    background: var(--web-footer);
+}
+.in-img{
+    position: relative;
+    overflow: hidden;
+    border-radius: 20px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+.in-img::before{
+    content: "";
+    background: #00000028;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset !important;
+}
+.deg45{
+    transform: skew(5deg) ;
+    box-shadow: 0 0 10px #828282;
+    background: var(--web-eee);
+    border-left: 3px solid var(--web-color);
+    border-right: 3px solid var(--web-color);
+    border-top: 3px solid var(--web-orange);
+    border-bottom: 3px solid var(--web-orange);
+}
+@media screen and (max-width: 768px) {
+    .deg45{
+        border-radius: 20px;
+        transform: skew(0deg) ;
+        box-shadow: 0 0 10px #828282;
+        background: var(--web-eee);
+        border-left: 3px solid var(--web-color);
+        border-right: 3px solid var(--web-color);
+        border-top: 3px solid var(--web-orange);
+        border-bottom: 3px solid var(--web-orange);
+    }
+    .deg-45{
+        transform: skew(0deg) !important;
+    }
+    
+}
+.deg-45{
+    transform: skew(-5deg) ;
+}
+.lab-white{
+    background: var(--web-white);
+    padding: 15px 30px;
+    border-left: 2px solid var(--web-light-black);
+}
+.lab-box img{
+    transition:all 0.6s ease-in-out !important ;
+   
+}
+.lab-box:hover img{
+    transform: rotateY(180deg) scale(0.9);
+}
+.poppins{
+    font-family: Poppins !important;
+}
+.row-1{
+    position: relative !important;
+}
+@media screen and (max-width:991px) {
+    .row-1::before{
+        display: none;
+    }
+    .row-2::before{
+        display: none;
+    }
+    
+}
+.row-1::before{
+    position: absolute;
+    content: "";
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 20%;
+    background: var(--web-color);
+}
+.row-2{
+    position: relative !important;
+}
+.row-2::before{
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 20%;
+    background: var(--web-orange);
+}
+.row-1 .faculty-white{
+    padding: 20px 10px;
+    border: 2px solid var(--web-color);
+    background: var(--web-white);
+}
+.row-2 .faculty-white{
+    padding: 20px 10px;
+    border: 2px solid var(--web-orange);
+    background: var(--web-white);
+}
+.dean-img{
+    position: relative;
+}
+.dean-img .shape-img{
+    position: absolute;
+    top: -50px;
+    right: -50px;
+    z-index: -1;
+    transform: rotateX(180deg);
+}
+.dean-text p{
+    font-weight: 500;
+
+}
+.dean-text .shape-img2{
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    z-index: -1;
+    opacity: 0.2;
+    transform: rotateY(180deg);
+}
+@media screen and (max-width: 991px) {
+    .dean-img .shape-img,.dean-text .shape-img2{
+        display: none ;
+    }
+    
+}
+.dean-img > img{
+    height: 330px;
+    width: 330px;
+    border-radius: 50%;
+    overflow: hidden;
+    box-shadow: 0px 0px  15px var(--web-color);
+}
+.footer-pdf-btn button{
+    padding: 8px 18px;
+    border-radius: 20px;
+    font-weight: 500;
+    animation: changecolor 1s infinite linear;
+}
+@keyframes changecolor {
+    0%{
+        color: #fff;
+        background: var(--web-color);
+    }
+    50%{
+        color: #000000;
+        background:var(--web-white);
+    }
+    100%{
+        color: #fff;
+        background: var(--web-orange);
+    }
+}
+.abc-section .img-box{
+    overflow: hidden;
+}
+.abc-section .img-box:hover img{
+    transform: scale(1.03);
 }

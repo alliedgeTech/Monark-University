@@ -3,6 +3,9 @@ import dynamic from "next/dynamic";
 import "owl.carousel/dist/assets/owl.carousel.css";
 import "owl.carousel/dist/assets/owl.theme.default.css";
 import axios from "axios";
+import 'aos/dist/aos.css'; 
+import aos from 'aos'; 
+
 
 if (typeof window !== "undefined") {
   var $ = require("jquery");
@@ -65,6 +68,10 @@ const Index = () => {
   };
 
   useEffect(() => {
+    aos.init({
+      offset: 100, // Offset (in pixels) from the original trigger point
+      duration: 700, // Duration of animation (in milliseconds)
+    });
     FetchData();
   }, []);
 
@@ -100,7 +107,7 @@ const Index = () => {
                     <div className="col">
                       <div className="row-6 mt-4">
                         {/* <h2>{item.title}</h2> */}
-                        <div className="img-box">
+                        <div className="img-box" data-aos='zoom-in'>
                           <img
                             className="img-fluid h-100"
                             src={item.eventImages[0]}
@@ -111,7 +118,7 @@ const Index = () => {
                       <div className="row-6">
                         <div className="row">
                           <div className="col-6 mt-4">
-                            <div className="img-box">
+                            <div className="img-box" data-aos='zoom-in'>
                               <img
                                 className="img-fluid h-100"
                                 src={item.eventImages[1]}
@@ -120,7 +127,7 @@ const Index = () => {
                             </div>
                           </div>
                           <div className="col-6 mt-4">
-                            <div className="img-box">
+                            <div className="img-box" data-aos='zoom-in'>
                               <img
                                 className="img-fluid h-100"
                                 src={item.eventImages[2]}
@@ -137,7 +144,7 @@ const Index = () => {
                       <div className="row-6">
                         <div className="row">
                           <div className="col-6 mt-4">
-                            <div className="img-box">
+                            <div className="img-box" data-aos='zoom-in'>
                               <img
                                 className="img-fluid h-100"
                                 src={item.eventImages[3]}
@@ -146,7 +153,7 @@ const Index = () => {
                             </div>
                           </div>
                           <div className="col-6 mt-4">
-                            <div className="img-box">
+                            <div className="img-box" data-aos='zoom-in'>
                               <img
                                 className="img-fluid h-100"
                                 src={item.eventImages[4]}
@@ -157,7 +164,7 @@ const Index = () => {
                         </div>
                       </div>
                       <div className="row-6 mt-4">
-                        <div className="img-box">
+                        <div className="img-box" data-aos='zoom-in'>
                           <img
                             className="img-fluid h-100"
                             src={item.eventImages[0]}

@@ -18,6 +18,8 @@ import carimg10 from "../../../public/img/course/yoga_club.png";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/dist/ScrollTrigger";
 import { useEffect } from "react";
+import 'aos/dist/aos.css'; 
+import aos from 'aos'; 
 
 // Import jQuery
 if (typeof window !== "undefined") {
@@ -53,6 +55,10 @@ const Responsive = {
 export default function Course() {
   useEffect(() => {
     gsap.registerPlugin(ScrollTrigger);
+    aos.init({
+      offset: 100, // Offset (in pixels) from the original trigger point
+      duration: 700, // Duration of animation (in milliseconds)
+    });
     let mm = gsap.matchMedia();
 
     mm.add("(min-width:991px)", () => {
@@ -108,7 +114,7 @@ export default function Course() {
   return (
     <div className="student-club container-fluid py-5  pb-4">
       <div className="container">
-        <div className="course-heading-home width_50 mb-40">
+        <div data-aos='fade-right' className="course-heading-home width_50 mb-40">
           <h1 className="">
             Explore Our <span>Vibrant</span>  Student Clubs and <span>Communities</span>
           </h1>
@@ -120,6 +126,7 @@ export default function Course() {
         >
           <div class="carousel-buttons carousel-club-buttons gap-4 flex-wrap mx-auto mb-30 d-flex align-items-center">
             <button
+            data-aos='fade-up'
               type="button"
               className="ski-button active"
               data-bs-target="#carouselExampleIndicators2"
@@ -130,6 +137,7 @@ export default function Course() {
               Multi Activiti Club
             </button>
             <button
+            data-aos='fade-up'
               type="button"
               className="ski-button"
               data-bs-target="#carouselExampleIndicators2"
@@ -139,6 +147,7 @@ export default function Course() {
               Green Club
             </button>
             <button
+            data-aos='fade-up'
               type="button"
               className="ski-button"
               data-bs-target="#carouselExampleIndicators2"
@@ -148,6 +157,7 @@ export default function Course() {
               Spiritual Club
             </button>
             <button
+            data-aos='fade-up'
               type="button"
               className="ski-button"
               data-bs-target="#carouselExampleIndicators2"
@@ -159,7 +169,7 @@ export default function Course() {
           </div>
 
           <div class="carousel-inner py-4 px-3 mt-10">
-            <div class="carousel-item item active">
+            <div data-aos='fade-right' class="carousel-item item active">
               <div className="student-club-info about-2 w-100 mt-4 h-100">
                 <div className="row">
                   <div className="col-lg-4 col-md-12 mt-lg-0 mt-4">
@@ -191,7 +201,7 @@ export default function Course() {
                 </div>
               </div>
             </div>
-            <div class="carousel-item item">
+            <div data-aos='fade-right' class="carousel-item item">
               <div className="student-club-info about-2 w-100 mt-4 h-100">
                 <div className="row">
                   <div className="col-lg-4 col-md-12 mt-lg-0 mt-4">
@@ -221,7 +231,7 @@ export default function Course() {
                 </div>
               </div>
             </div>
-            <div class="carousel-item item">
+            <div data-aos='fade-right' class="carousel-item item">
               <div className="student-club-info about-2 w-100 col-lg-4 h-100 mt-4">
                 <div className="row">
                   <div className="col-lg-4 col-md-12 mt-lg-0 mt-4">
@@ -253,7 +263,7 @@ export default function Course() {
                 </div>
               </div>
             </div>
-            <div class="carousel-item item">
+            <div data-aos='fade-right' class="carousel-item item">
               <div className="student-club-info about-2 w-100 h-100 mt-4">
                 <div className="row">
                   <div className="col-lg-4 col-md-12 mt-lg-0 mt-4">

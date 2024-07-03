@@ -167,68 +167,81 @@ export default function ServiceDetailsArea() {
                     </div>
                     <div className='justify-content-center '>
                     <div className="three" data-aos="fade-right">
-                      <h1 className={styles.boxTitle}>{course.title}</h1>
+                      <h1 className=''>{course.title}</h1>
                       </div>
-                      <div className="row">
+                      <div className="row px-3">
                         <div className="col-lg-6 col-md-12 mt-4">
-                        <div data-aos="fade-up" className="service-box h-100 p-4">
+                          <div className="deg15">
+                        <div data-aos="fade-up" className="service-box deg-15 h-100 p-4">
                             <h5>
                               <span><i className="fa-sharp fa-light fa-check mr-10"></i></span>
                               Course Duration
                             </h5>
                             <p>{course.coureDuration}</p>
                           </div>
+                          </div>
                         </div>
                         <div className="col-lg-6 col-md-12 mt-4">
-                        <div data-aos="fade-up" className="service-box h-100 p-4">
+                          <div className="deg15">
+                        <div data-aos="fade-up" className="service-box deg-15 h-100 p-4">
                             <h5>
                               <span><i className="fa-sharp fa-light fa-check mr-10"></i></span>
                               Eligibility Criteria
                             </h5>
                             <p>{course.eligibilityCriteria}</p>
                           </div>
+                          </div>
                         </div>
                         <div className="col-lg-6 col-md-12 mt-4">
-                        <div data-aos="fade-up" className="service-box h-100 p-4">
+                          <div className="deg15">
+                        <div data-aos="fade-up" className="service-box deg-15 h-100 p-4">
                             <h5>
                               <span><i className="fa-sharp fa-light fa-check mr-10"></i></span>
                               Annual Fees
                             </h5>
                             <p>{course.annualFees}</p>
                           </div>
+                          </div>
                         </div>
                         <div className="col-lg-6 col-md-12 mt-4">
-                        <div data-aos="fade-up" className="service-box h-100 p-4">
+                          <div className="deg15">
+                        <div data-aos="fade-up" className="service-box deg-15 h-100 p-4">
                             <h5>
                               <span><i className="fa-sharp fa-light fa-check mr-10"></i></span>
                               From
                             </h5>
                             <Link href="/applynow">Apply now</Link>
                           </div>
+                          </div>
                         </div>
                       </div>
                     </div>
                   </Row>
                   <div className={styles.laboratoriesSection}>
-                  <div className="three mb-20" data-aos="fade-up">
+                  <div className="three mb-10" data-aos="fade-up">
                     <h1>Laboratories</h1>
                     </div>
                     <div >
                       {course.laboratories?.map((lab, labIndex) => (
                         <>
-                        <div key={labIndex} className="about-1 mb-4" data-aos="fade-right">
+                        <div key={labIndex} className="up my-5 lab-box px-lg-5 px-4 py-5" data-aos="fade-right">
                           <div className="row">
                             <div className="col-lg-6 col-12 px-3">
                           <img className='img-fluid rounded' src={lab.image} alt={lab.title} />
 
                             </div>
                             <div className="col-lg-6 col-12 ps-5">
-                            <h4 className='mb-20'>{lab.title}</h4>
-                            <ul>
-                              {lab.pera.split('/')?.map((line, lineIndex) => (
-                                <li key={lineIndex}>{line.trim()}</li>
-                              ))}
-                            </ul>
+                              <div className="lab-white">
+                                <div className="three">
+                              <h4 className='mb-20 oswald'>{lab.title}</h4>
+
+                                </div>
+                              <ul style={{listStyle:'none'}}>
+                                {lab.pera.split('/')?.map((line, lineIndex) => (
+                                  <li key={lineIndex}> <i class="fa-regular fa-hand-point-right mr-10"></i>{line.trim()}</li>
+                                ))}
+                              </ul>
+                              </div>
                             </div>
                           </div>
                         </div></>

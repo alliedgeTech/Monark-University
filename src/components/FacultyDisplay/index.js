@@ -78,35 +78,35 @@ const index = () => {
   return (
     <div>
       <div style={{ marginTop: "75px" }} className="faculty-info">
-        <div className="p-0">
+        <div className="container">
           <div
-            className={` mb-45 pb-40`}
+            className=''
           >
-            <div className="faculty-heading mb-30  eight w-100" data-aos="fade-up">
+            <div className="faculty-heading mb-30  one w-100" data-aos="fade-up">
               <h1 className=" ">{faculty.name}</h1>
             </div>
 
-            <div className="row row-1">
-              <div className="col-lg-6 col-12 p-0 ">
+            <div className="row row-1 py-lg-5 py-2">
+              <div className="col-lg-5 col-12 p-0 d-flex align-items-center justify-content-center">
                 <div className="faculty-img faculty-left" data-aos="fade-right">
                   <img src={faculty.img1} />
                 </div>
               </div>
-              <div className="col-lg-6 col-12 p-0 px-5 pt-4 ">
-                <div className="d-flex align-items-start" data-aos="fade-left">
+              <div className="col-lg-7 col-12 p-0 px-5 pt-4 h-100 d-flex align-items-center justify-content-center">
+                <div className="d-flex align-items-start justify-content-center faculty-white" data-aos="fade-left">
                 <i class="fa-regular fa-hand-point-right mr-10 mt-2"></i><p className="faculty-right">{faculty.text_1}</p>
 
                 </div>
               </div>
             </div>
-            <div className="row row-2">
-              <div className="col-lg-6 col-12 p-0 px-5 pt-4  order-lg-1 order-2">
-                <div className="d-flex align-items-start" data-aos="fade-right">
+            <div className="row row-2 py-lg-5 py-1 mt-lg-4 mt-0">
+              <div className="col-lg-7 col-12 p-0 px-5 pt-4  order-lg-1 order-h-100 d-flex align-items-center justify-content-center">
+                <div className="d-flex align-items-start justify-content-center faculty-white" data-aos="fade-right">
                 <i class="fa-regular fa-hand-point-right mr-10 mt-2"></i><p className="faculty-left">{faculty.text_2}</p>
 
                 </div>
               </div>
-              <div className="col-lg-6 col-12 p-0  order-lg-2 order-1">
+              <div className="col-lg-5 col-12 mt-4 mt-lg-0 p-0  order-lg-2 order-1 d-flex align-items-center justify-content-center" >
                 <div className="faculty-img faculty-right" data-aos="fade-left">
                   <img src={faculty.img2} alt="" />
                 </div>
@@ -134,6 +134,34 @@ const index = () => {
                   <img src={faculty.car_4} alt="" />
                 </div>
               </OwlCarousel>
+            </div>
+          </div>
+
+          <div className="row mt-40 p-relative ">
+            <div className="col-lg-7">
+              <div className="dean-text p-relative">
+              <div className="shape-img2">
+                      <img src="\img\bgs\dotspng.png" className="img-fluid shape" alt="" />
+
+                      </div>
+                <div className="three">
+                <h4 className="poppins">dean message</h4>
+
+                </div>
+                <p>
+                  Lorem ipsum dolor sit. Maiores reiciendis aspernatur earum. Labore explicabo vitae ipsam animi unde magni distinctio quae iste iusto illum. Omnis! Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus earum soluta reiciendis? Inventore nisi, illum fugit odio culpa hic obcaecati error dignissimos repellendus velit fuga quaerat autem ea officia voluptatem dolore quas dolor laudantium perspiciatis quidem aperiam. Accusamus laudantium autem facere velit voluptates dicta, eum esse laborum voluptas dignissimos aperiam. Debitis doloremque cumque nam illum unde dignissimos, impedit quia nulla.
+                </p>
+              </div>
+            </div>
+            <div className="col-lg-5 mt-4 d-flex align-items-center justify-content-center">
+              <div className="dean-img">
+                <div className="shape-img">
+                      <img src="\img\bgs\dotspng.png" className="img-fluid shape" alt="" />
+
+                      </div>
+                
+                <img className="img-fluid" src="https://monarkuni.ac.in/wp-content/uploads/2021/06/SMET-175-Copy.jpg" alt="" />
+              </div>
             </div>
           </div>
 

@@ -39,7 +39,7 @@ export default function Service() {
                 <div className="col-lg-6">
                   <div className="course-heading-home" data-aos="fade-left">
                     <h1>
-                      Choose from our extensive <span>selection</span> of{" "}
+                         <span>selection</span> of{" "}
                       <span className="blue"> over 100 +</span>{" "}
                       industry-specific programs.
                     </h1>
@@ -88,7 +88,7 @@ export default function Service() {
               <div class="carousel-inner mt-30">
                 <div class="carousel-item item active">
                   <div className="course-div">
-                    <div className=" three mb-20">
+                    <div className=" three mb-20" data-aos='fade-right'>
                       <h4>Diploma Engineering</h4>
                     </div>
                     <div className="course-links">
@@ -139,7 +139,7 @@ export default function Service() {
                             <>
                               <div className="col-lg-3 col-md-6 col-12 mt-4">
                                 <Link href={`/services-2/ser?id=${item.id}`}>
-                                  <div className="course-link-box px-2 py-3  d-flex align-items-center ">
+                                  <div className="course-link-box px-2 py-3  d-flex alig data-aos='fade-up'n-items-center ">
                                     <img className="" src={item.img} alt="" />
                                     <h6 className="ps-3 mb-0">{item.name}</h6>
                                   </div>
@@ -150,7 +150,7 @@ export default function Service() {
                         })}
                         <div className="col-lg-3 col-md-6 col-12 mt-4">
                           <Link href="/faculty?id=17">
-                            <div className="course-link-box px-2 py-3  d-flex align-items-center ">
+                            <div className="course-link-box px-2 py-3  d-flex align-items-center " data-aos='fade-up'>
                               <img
                                 className=""
                                 src="/img/service/music.png"
@@ -168,7 +168,7 @@ export default function Service() {
                 </div>
                 <div class="carousel-item item">
                   <div className="course-div">
-                    <div className=" three mb-20">
+                    <div className=" three mb-20" data-aos='fade-right'>
                       <h4>Bechlor Courses</h4>
                     </div>
                     <div className="course-links">
@@ -178,7 +178,7 @@ export default function Service() {
                             <>
                               <div className="col-lg-3 col-md-6 col-12 mt-4">
                                 <Link href={`/services-2/ser?id=${item.id}`}>
-                                  <div className="course-link-box px-2 py-3  d-flex align-items-center ">
+                                  <div className="course-link-box px-2 py-3  d-flex align-items-center " data-aos='fade-up'>
                                     <img className="" src={item.img} alt="" />
                                     <h6 className="ps-3 mb-0">{item.name}</h6>
                                   </div>
@@ -189,7 +189,7 @@ export default function Service() {
                         })}
                         <div className="col-lg-3 col-md-6 col-12 mt-4">
                           <Link href="/faculty?id=17">
-                            <div className="course-link-box px-2 py-3  d-flex align-items-center ">
+                            <div className="course-link-box px-2 py-3  d-flex align-items-center " data-aos='fade-up'>
                               <img
                                 className=""
                                 src="/img/service/music.png"
@@ -207,13 +207,13 @@ export default function Service() {
                 </div>
                 <div class="carousel-item item">
                   <div className="course-div pb-3">
-                    <div className="three mb-30">
+                    <div className="three mb-30" data-aos='fade-right'>
                       <h4>PHD</h4>
                     </div>
                     <div className="row"></div>
                     <div className="col-lg-3 col-md-6 col-12">
                       <Link href="/services-4">
-                        <div className="course-link-box px-2 py-3 d-flex align-items-center">
+                        <div className="course-link-box px-2 py-3 d-flex align-items-center" data-aos='fade-up'>
                           <img
                             className=""
                             src="/img/service/book.png"
