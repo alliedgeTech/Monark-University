@@ -8,7 +8,6 @@ export default function AboutUsModules() {
     <main>
       {/* <BreadCrumbs Title="Abc" /> */}
         <Abc/>
-      <ActionButton />
       <ScrollTop />
     </main>
   );

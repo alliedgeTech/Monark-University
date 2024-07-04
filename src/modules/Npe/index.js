@@ -8,7 +8,6 @@ export default function AboutUsModules() {
     <main>
       <BreadCrumbs Title="NPE 2020" />
         <Npe/>
-      <ActionButton />
       <ScrollTop />
     </main>
   );

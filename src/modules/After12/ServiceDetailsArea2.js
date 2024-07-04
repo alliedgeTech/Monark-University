@@ -92,7 +92,7 @@ export default function ServiceDetailsArea() {
                   <Row>
                     <div className={styles.detailsTopWrap}>
                       <div className="row">
-                        <div className="col-lg-5 col-12">
+                        <div className="col-lg-5 col-12 d-flex align-items-center">
                         <div className={styles.chooseThumbBox} data-aos="fade-right">
                             <div className={styles.chooseThumb}>
                               <img
@@ -103,11 +103,14 @@ export default function ServiceDetailsArea() {
                             </div>
                           </div>
                         </div>
-                        <div className="col-lg-7 col-12">
-                        <h4 className='oswald' data-aos="fade-up">
-                            {course.title}
-                          </h4>
-                          <p> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; {course.titlePera}</p>
+                        <div className="col-lg-7 col-12 d-flex align-items-center">
+                          <div className="">
+                            <h4 className='oswald' data-aos="fade-up">
+                                {course.title}
+                              </h4>
+                              <p> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; {course.titlePera}</p>
+
+                          </div>
                         </div>
                       </div>
                       <div className="row">
@@ -221,15 +224,15 @@ export default function ServiceDetailsArea() {
                       <>
                         <div key={labIndex} className="up my-5 lab-box px-lg-5 px-4 py-5" data-aos="fade-right">
                           <div className="row">
-                            <div className="col-lg-5 col-12 px-3">
+                            <div className="col-lg-5 col-12 d-flex align-items-center px-3">
                               <img
                                 className="img-fluid rounded"
                                 src={lab.image}
                                 alt={lab.title}
                               />
                             </div>
-                            <div className="col-lg-7 col-12 ps-5">
-                              <div className="lab-white">
+                            <div className="col-lg-7 col-12 mt-lg-0 mt-4 d-flex align-items-center ps-5">
+                              <div className="lab-white w-100">
                                 <h4 className="mb-20">{lab.title}</h4>
                                 <ul style={{listStyle:'none'}} className="service-ul">
                                   {lab.pera.split("/")?.map((line, lineIndex) => (

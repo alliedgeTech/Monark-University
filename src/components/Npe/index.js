@@ -138,13 +138,13 @@ const index = () => {
                 <h4 className="oswald">Sensitization Workshop on Common Curriculum
                 and Credit Framework under NEP-2020</h4>
             </div>
-            <p>Bachelor of Science – Honours – <strong>Click Here</strong></p>
-            <p>Bachelor of Business Administration – Honours – <strong>Click Here</strong></p>
-            <p>Bachelor of Library & Information Science – <strong>Click Here</strong></p>
-            <p>Bachelor of Computer Applications – Honours – <strong>Click Here</strong></p>
-            <p>Bachelor of Commerce – Honours – <strong>Click Here</strong></p>
-            <p>Bachelor of Arts – Honours – <strong>Click Here</strong></p>
-            <p>Integrated Bachelor & Master of Science – Information Technology – <strong>Click Here</strong></p>
+            <p>Bachelor of Science – Honours – <Link target="_blank" href='https://res.cloudinary.com/dnjgopun8/image/upload/v1720070561/B.Sc_._NEP_2020_Curriculum_1_qjgy74.pdf'><strong>Click Here</strong></Link> </p>
+            <p>Bachelor of Business Administration – Honours – <Link target="_blank" href='https://res.cloudinary.com/dnjgopun8/image/upload/v1720071270/B.B.A._NEP_2020_Curriculum_2_bwsq7y.pdf'><strong>Click Here</strong></Link> </p>
+            <p>Bachelor of Library & Information Science – <Link target="_blank" href='https://res.cloudinary.com/dnjgopun8/image/upload/v1720071407/Library-Science_NEP-2020-Curriculum_MU_3_xklffo.pdf'><strong>Click Here</strong></Link></p>
+            <p>Bachelor of Computer Applications – Honours – <Link target="_blank" href='https://res.cloudinary.com/dnjgopun8/image/upload/v1720071462/NEP-Curriculum_MU-NEP-Curriculum_Comp.-Appl.-2_4_fhfwvq.pdf'><strong>Click Here</strong></Link></p>
+            <p>Bachelor of Commerce – Honours – <Link target="_blank" href='https://res.cloudinary.com/dnjgopun8/image/upload/v1720071518/B.com-curricular_NEP_2023_5_paloxt.pdf'><strong>Click Here</strong></Link></p>
+            <p>Bachelor of Arts – Honours – <Link target="_blank" href='https://res.cloudinary.com/dnjgopun8/image/upload/v1720071640/b.a_6_d2jymp.pdf'><strong>Click Here</strong></Link></p>
+            <p>Integrated Bachelor & Master of Science – Information Technology – <Link target="_blank" href='https://res.cloudinary.com/dnjgopun8/image/upload/v1720071709/Course-Code-NEP-2020-Updated_7_artlu5.pdf'><strong>Click Here</strong></Link></p>
         </div>
       </div>
     </div>

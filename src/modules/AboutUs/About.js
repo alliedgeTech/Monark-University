@@ -212,7 +212,9 @@ export default function About() {
                                 </div>
                                 <div className="it-feature-button">
                                   <Link
-                                    href="#"
+                                  target="_blank"
+
+                                    href="https://www.aicte-india.org/"
                                     className="it-btn-border"
                                     style={{ display: "inline-block" }}
                                   >
@@ -266,6 +268,7 @@ export default function About() {
                                 </div>
                                 <div className="it-feature-button">
                                   <Link
+                                  target="_blank"
                                     href="https://ncte.gov.in/website/index.aspx"
                                     className="it-btn-border"
                                   >
@@ -312,6 +315,7 @@ export default function About() {
                                 </div>
                                 <div className="it-feature-button">
                                   <Link
+                                  target="_blank"
                                     href="https://www.gujaratnursingcouncil.org/"
                                     className="it-btn-border"
                                   >
@@ -358,6 +362,7 @@ export default function About() {
                                 </div>
                                 <div className="it-feature-button">
                                   <Link
+                                  target="_blank"
                                     href="https://www.barcouncilofindia.org/home"
                                     className="it-btn-border"
                                   >
@@ -407,6 +412,7 @@ export default function About() {
                                 </div>
                                 <div className="it-feature-button">
                                   <Link
+                                  target="_blank"
                                     href="http://naac.gov.in/index.php/en/"
                                     className="it-btn-border"
                                   >
@@ -456,6 +462,7 @@ export default function About() {
                                 </div>
                                 <div className="it-feature-button">
                                   <Link
+                                  target="_blank"
                                     href="http://www.isteonline.in/"
                                     className="it-btn-border"
                                   >
@@ -505,6 +512,7 @@ export default function About() {
                                 </div>
                                 <div className="it-feature-button">
                                   <Link
+                                  target="_blank"
                                     href="https://vigyanprasar.gov.in/vipnet/"
                                     className="it-btn-border"
                                   >
@@ -554,6 +562,7 @@ export default function About() {
                                 </div>
                                 <div className="it-feature-button">
                                   <Link
+                                  target="_blank"
                                     href="https://indiancc.mygov.in/"
                                     className="it-btn-border"
                                   >

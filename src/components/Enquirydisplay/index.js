@@ -5,7 +5,6 @@ const index = () => {
     <div>
       <div className="enquiry">
         <Link href={"/inquiry"}>
-          {" "}
           <button className="text-white">Enquiry Now</button>
         </Link>
       </div>

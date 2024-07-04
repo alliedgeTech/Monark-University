@@ -300,27 +300,29 @@ export default function MenuItems(props) {
                   President's Message
                 </Link>
               </li>
-              <li>
-                <Link href="/about-us3#vicepresidentmessage">
-                  Vice President's Message
-                </Link>
-              </li>
-              <li>
-                <Link href="/about-us3#provostmessage">Provost Message</Link>
-              </li>
+              
               <li>
                 <Link href="/about-us#recognitionandapproval">
                   Recognition & Approval
                 </Link>
               </li>
               <li>
-                <Link href="/about-us#leadership">Leadership</Link>
+                <Link href="/about-us3#vicepresidentmessage">
+                  Vice President's Message
+                </Link>
               </li>
+              
+              
+              
               <li>
                 <Link href="/about-us#officersandauthority">
                   Officers & Authority
                 </Link>
               </li>
+              <li>
+                <Link href="/about-us3#provostmessage">Provost Message</Link>
+              </li>
+              
               <li>
                 <Link
                   target="_blank"
@@ -328,6 +330,9 @@ export default function MenuItems(props) {
                 >
                   Gazette Act-15 of 2021
                 </Link>
+              </li>
+              <li>
+                <Link href="/about-us#leadership">Leadership</Link>
               </li>
               <li>
                 <Link

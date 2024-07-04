@@ -16,7 +16,6 @@ export default function AboutUsModules() {
       <Team />
 
       <Newsletter />
-      <ActionButton />
       <ScrollTop />
     </main>
   );

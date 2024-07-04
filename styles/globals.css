@@ -1379,19 +1379,23 @@ p {
     transform: skew(-15deg) !important;
 }
 .service-box a{
-    font-size: 12px;
-    color: var(--web-black);
-}
-.service-box h5{
-    font-size: 15px;
-}
-.service-box p{
-    font-size: 12px;
+    font-size: 14px;
+    padding: 5px 10px;
+    border-radius: 12px;
+    background: var(--web-orange);
+    color: #fff !important;
 }
 .service-box a:hover{
-    color: blue;
     text-decoration: underline !important;
 }
+
+.service-box h5{
+    font-size: 16px;
+}
+.service-box p{
+    font-size: 14px;
+}
+
 .deg15:hover{
     transform: skew(15deg) scale(0.95);
     border-left: 2px solid var(--web-color);
@@ -2937,4 +2941,73 @@ tr {
 }
 .npe-pdf1 a{
     color: var(--web-color);
+}
+.highlight-section{
+    background: var(--web-color);
+}
+.highlight-section h3{
+    color: var(--web-orange) !important;
+    text-transform: uppercase;
+}
+.highlight-section p{
+    color: #fff !important;
+}
+.high-img-box{
+    border-radius: 20px ;
+    overflow: hidden;
+}
+.high-img-box .high-button {
+    position: absolute;
+    font-weight: 600;
+    font-size: 18px;
+    height: 40px;
+    z-index: 111;
+    width: 130px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border-radius: 20px; */
+    background: #fff;
+    top: 0;
+    right: 0;
+    border-bottom-left-radius: 20px;
+}
+
+.high-button::before {
+    content: "";
+    position: absolute;
+    overflow: hidden;
+    top: 39px;
+    right: -1px;
+    border-top-right-radius: 20px;
+    box-shadow: 7px -7px 0 0 #fff;
+    height: 20px;
+    width: 20px;
+    background: rgba(122, 82, 82, 0);
+}
+
+.high-button::after {
+    content: "";
+    position: absolute;
+    overflow: hidden;
+    top: -1px;
+    left: -19px;
+    border-top-right-radius: 20px;
+    box-shadow: 7px -7px 0 0 #fff;
+    height: 20px;
+    width: 20px;
+    background: rgba(113, 113, 113, 0);
+}
+.msg-strong-box{
+    margin-top: 30px;
+    background: #dadada;
+    padding: 20px 10px;
+    border-top: 2px solid var(--web-color);
+    border-bottom: 2px solid var(--web-color);
+}
+.bg-change .msg-strong-box{
+    background: #fff;
+    padding: 20px 10px;
+    border-top: 2px solid var(--web-color);
+    border-bottom: 2px solid var(--web-color);
 }

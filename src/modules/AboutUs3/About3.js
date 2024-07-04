@@ -387,9 +387,13 @@ export default function About() {
                               knowledge along with all the practical aspects of
                               it. So we have identified all sectors of education
                               so helping students enhance the scope for such
-                              education. “The purpose of education is not to
-                              validate ignorance but to overcome it.”
+                              education. 
                             </p>
+                            <div className="msg-strong-box">
+                            <strong>“The purpose of education is not to
+                            validate ignorance but to overcome it.”</strong>
+
+                            </div>
                           </div>
                           <div className="item">
                             <p>
@@ -425,7 +429,7 @@ export default function About() {
           </div>
 
           <div id="provostmessage">
-            <div className="it-sv-details-area mt-50 bg-change py-3">
+            <div className="it-sv-details-area mt-50 bg-change py-4">
               <div className="container">
                 <div className="three mb-20">
                   <h4>Provost Message</h4>
@@ -474,13 +478,13 @@ Our prime duty as a university is to nurture today’s minds to be able to creat
                             <div className="item">
                               <p>
                                 <i class="fa-regular fa-circle-right mr-15"></i>
-                                We welcome all the students who select to be a part of Monark University and we assure you that you will feel proud on your decision on being associated with us. I wish you best wishes for your academic excellence at Monark University.
+                                We warmly welcome all the students who choose to join Monark University, a prestigious institution known for its academic excellence and vibrant community. We assure you that your decision to be a part of our university will be one that you will cherish and feel proud of. At Monark University, we are committed to providing a supportive learning environment where you can thrive and achieve your academic goals. We wish you the very best as you embark on this exciting journey with us, confident that you will find success and fulfillment during your time at Monark University.
                               </p>
                               <p className="mt-20">
-                                <strong>
-                              “The purpose of education is to make good human beings with skill and expertise. Enlightened human beings can be created by teachers.” – Dr. APJ Abdul Kalam
-
-                                </strong>
+                                <div className="msg-strong-box">
+                                  <strong>“The purpose of education is to make good human beings with skill and expertise. Enlightened human beings can be created by teachers.” – Dr. APJ Abdul Kalam
+                                  </strong>
+                                </div>
                               </p>
                             </div>
                           </OwlCarousel>

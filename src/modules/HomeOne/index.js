@@ -15,6 +15,7 @@ import ScrollTop from "@/components/ScrollTop"
 import CounterDisplay from "@/components/CounterDisplay"
 import Lifemu from "@/components/Lifemu"
 import Enquiry from "@/components/Enquirydisplay"
+import Highlight from "@/components/Highlight"
 
 export default function HomeOneModules() {
 	return (
@@ -23,6 +24,7 @@ export default function HomeOneModules() {
 			<Banner />
 			<Category />
 			<CounterDisplay />
+			<Highlight/>
 			<Service />
 			<About />
 			<Lifemu/>

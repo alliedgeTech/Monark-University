@@ -68,8 +68,8 @@ const Index = () => {
                 {/* <img className="capimg" src="/img/logo/cap2.png" alt="" /> */}
                 <i class="fa-solid fa-graduation-cap"></i>
                 <h1 className="mt-10" data-aos="zoom-in">
-                  <span>Experience</span> Academic Diversity Like
-                  <span>Never</span> Before with Leading <span>Experts</span>
+                  <span>Experience</span> Academic Diversity Like 
+                  <span> Never</span> Before with Leading <span>Experts</span>
                   and <span>Comprehensive</span> Programs
                 </h1>
               </div>
