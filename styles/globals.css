@@ -1557,7 +1557,7 @@ tr {
 .nav-tabs .nav-link {
     border: none !important;
     background: #dadada !important;
-    /* border-radius: 20px !important; */
+    border-radius: 20px !important;
     padding: 5px 15px !important;
     color: #000000 !important;
     margin: 20px 3px;
