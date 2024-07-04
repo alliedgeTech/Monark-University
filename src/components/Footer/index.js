@@ -5,33 +5,41 @@ import footerImg from "../../../public/img/logo/MONARK_LOGO.png";
 export default function Footer(props) {
   const { footerLogo, footerClass } = props;
   return (
-    <footer className="footer  pt-3">
-      <div className="container">
-      <div className="footer-up py-4">
+    <footer className="footer  pt-0">
+      <div className="footer-up py-4 mb-20 px-2">
         <div className="row">
           <div className="col-lg-3 d-flex align-items-center justify-content-center col-md-6 col-6">
             <div className="footer-pdf-btn">
-          <button>Student Club</button>
+              <Link target="_blank" href='https://res.cloudinary.com/dnjgopun8/image/upload/v1719990298/MONARK_UNIVERSITY_BROCHURE_FINAL_2024_RE_.PDF_bb9bz5.pdf'>
+                <button>Brochure</button>
+              </Link>
         </div>
           </div>
           <div className="col-lg-3 d-flex align-items-center justify-content-center col-md-6 col-6">
             <div className="footer-pdf-btn">
+              <Link href='/npe'>
           <button>NPE-2020</button>
+              </Link>
         </div>
           </div>
           <div className="col-lg-3 mt-lg-0 mt-4 d-flex align-items-center justify-content-center col-md-6 col-6">
             <div className="footer-pdf-btn">
-          <button>ABC ID Creation</button>
+              <Link href='/abc'>
+                <button>ABC ID Creation</button>
+              </Link>
         </div>
           </div>
           <div className="col-lg-3 mt-lg-0 mt-4 d-flex align-items-center justify-content-center col-md-6 col-6">
             <div className="footer-pdf-btn">
+              <Link href='campus3#studentclub'>
           <button>Student Club</button>
+              </Link>
         </div>
           </div>
         </div>
         
       </div>
+      <div className="container">
         <div className="footer-middle pb-3">
           <div className="row">
             <div className="col-lg-3 col-md-6 col-12">
@@ -258,7 +266,7 @@ export default function Footer(props) {
       </div>
       <div
         className="footer-bottom	text-center"
-        style={{ background: "#001A39" }}
+        
       >
         <small className=" mb-0 text-white">
           Copyright © 2024 Monark University

@@ -254,8 +254,8 @@ p {
     text-align: center;
     text-transform: uppercase !important;
     padding-bottom: 5px;
-    font-family: 'Open-Sans' !important;
-
+    font-family: 'Poppins' !important;
+    color: var(--web-black) !important;
 }
 
 .one h4:before {
@@ -699,7 +699,9 @@ p {
     font-size: 16px;
     line-height: 23px;
 }
-
+.footer-up{
+    background: var(--web-color);
+}
 .footer-up-links li {
     color: rgb(0, 0, 0);
     margin: 8px auto;
@@ -2078,8 +2080,14 @@ tr {
 .width_50 {
     width: 50%;
 }
+.width_75 {
+    width: 85%;
+}
 
 @media screen and (max-width:768px) {
+    .width_75 {
+        width: 100%;
+    }
     .width_50 {
         width: 100%;
     }
@@ -2899,27 +2907,34 @@ tr {
 }
 .footer-pdf-btn button{
     padding: 8px 18px;
-    border-radius: 20px;
     font-weight: 500;
-    animation: changecolor 1s infinite linear;
+    background: var(--web-orange);
+    color: #fff;
+    animation: glow 0.7s infinite alternate linear;
 }
-@keyframes changecolor {
+@keyframes glow {
     0%{
-        color: #fff;
-        background: var(--web-color);
-    }
-    50%{
-        color: #000000;
-        background:var(--web-white);
+        transform: scale(0.90);
+        box-shadow: 0 0 0px var(--web-orange);
     }
     100%{
-        color: #fff;
-        background: var(--web-orange);
+        transform: scale(1.1);
+        box-shadow: 0 0 20px var(--web-orange);
     }
 }
+
 .abc-section .img-box{
     overflow: hidden;
 }
 .abc-section .img-box:hover img{
     transform: scale(1.03);
+}
+.abc-section h5{
+    color: var(--web-color) !important;
+}
+.footer-bottom{
+    background: var(--web-color);
+}
+.npe-pdf1 a{
+    color: var(--web-color);
 }
