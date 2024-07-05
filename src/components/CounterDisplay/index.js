@@ -69,7 +69,7 @@ const Index = () => {
                 <i class="fa-solid fa-graduation-cap"></i>
                 <h1 className="mt-10" data-aos="zoom-in">
                   <span>Experience</span> Academic Diversity Like 
-                  <span> Never</span> Before with Leading <span>Experts</span>
+                  <span> Never</span> Before with Leading <span>Experts </span>
                   and <span>Comprehensive</span> Programs
                 </h1>
               </div>

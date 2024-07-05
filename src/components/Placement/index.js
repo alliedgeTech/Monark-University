@@ -129,53 +129,53 @@ const index = () => {
           </div>
         </div>
       </div>
-      <div id="latest-news" className="Latest-News py-4">
+      <div className="Latest-News py-5 px-lg-5 px-2">
       <div className="container">
-      <div data-aos='fade-up' className="student-placement-heading eight d-flex align-items-center justify-content-center mb-20">
-        <h1 className="text-center mb-0 w-100">Latest News</h1>
-      </div>
+        <div data-aos='fade-right' className="student-placement-heading mb-20">
+          <div className="three">
+            <h1 className="mb-0">Placement News</h1>
+          </div>
+        </div>
 
-      {loading ? (
-        <p>Loading...</p>
-      ) : (
-        <OwlCarousel
-          className="owl-theme px-2"
-          loop={true}
-          autoPlay={true}
-          margin={10}
-          dots={true}
-          autoplayTimeout={5000}
-          responsive={Responsive}
-        >
-          {latestNews.map((item, index) => (
-            <div className="item p-2" data-aos='zoom-in'>
-              <div className="news-card p-3">
-                <div className="news-head">
-                  <div className="news-img-box">
-                    <img src={item.image} alt="" />
-                   
-                    <button className="hover-btn news-hover-btn" >
-                      <div className="text-div">
-                        <small>Read More</small>
-                        <small>Read More</small>
-                      </div>
-                    </button>
-              
-
-                  </div>
-                  {/* <div className="news-date-btn mt-2">
-                    <small>{item.lastDate}</small>
-                  </div> */}
-                  <div className="news-info-box mt-4">
-                  <h4>{item.title}</h4>
-                  <small className="news-description-ellips">{item.description}</small>
+        {loading ? (
+          <p>Loading...</p>
+        ) : (
+          <OwlCarousel
+            className="owl-theme"
+            loop={true}
+            margin={10}
+            autoPlay={true}
+            responsive={Responsive}
+            responsiveRefreshRate={100}
+            autoplayTimeout={3000}
+          >
+            {latestNews.map((item, index) => (
+              <div data-aos='zoom-in' className="item p-2" key={index}>
+                <div className="news-card p-3">
+                  <div className="news-head">
+                    <div className="news-img-box">
+                      <img src={item.image} alt="" />
+                      <Link href={`/newsdetails?_id=${item._id}`}>
+                        <button className="hover-btn news-hover-btn px-4">
+                          <div className="text-div">
+                            <small>Read</small>
+                            <small>More</small>
+                          </div>
+                        </button>
+                      </Link>
+                    </div>
+                    <div className="news-info-box mt-4">
+                      <h4 className="truncate" >{item.title}</h4>
+                      <small className="news-description-ellips">
+                        {item.description}
+                      </small>
+                    </div>
                   </div>
                 </div>
               </div>
-            </div>
-          ))}
-        </OwlCarousel>
-      )}
+            ))}
+          </OwlCarousel>
+        )}
       </div>
     </div>
       <div id="recruiters" className="our-recruiters pt-40">

@@ -18,6 +18,20 @@ const facultydata = [
     car_4:
       "https://monarkuni.ac.in/wp-content/uploads/2023/08/eng-tech-2-1024x683.jpg",
     hastagID: "engineering_Technology",
+    after10:[
+      {
+        link:'/services/service?id=1',
+        lname:'Automobile Engineering',
+      },
+      {
+        link:'/services/service?id=2',
+        lname:'Civil Engineering',
+      }
+    ],
+    after12:[
+
+    ],
+    
   },
   {
     id: 2,

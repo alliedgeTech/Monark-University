@@ -1181,115 +1181,8 @@
                     "pera": ""
                 }
             ]
-        },
-        {
-            "id": 2,
-            "title": "BBA in International Business",
-            "icon": "flaticon-bars",
-            "titlePera": "Bachelor of Business Administration in International Business is a Business management course of three years. In addition, it makes you learn about the multilateral agencies or international business bodies and their role in the foreign trade.  It is a course that gives deep insight about buying, selling and marketing products all over the world. This course plan that prepares individuals to be highly adept with skills to deal internationally",
-            "titleImage": "https://monarkuni.ac.in/wp-content/uploads/2021/06/SMET-125.jpg",
-            "programOutcomesPera": "The course teaches participants to be adept with the tricks of the trade and hit the ground running as soon as they pass out./It teaches individuals to get an understanding of various cultures and in turn prepare them to deal with diversity at the workplace/The course enables individuals to be global business entrepreneurs who can strategically cope up with the dynamics of the international trade world.",
-            "programOutcomesImages": [
-                {
-                    "id": 1,
-                    "image": "https://monarkuni.ac.in/wp-content/uploads/2021/06/i02_DATA-SCIENTIST.jpg",
-                    "name": "Data Analyst"
-                },
-                {
-                    "id": 2,
-                    "image": "https://monarkuni.ac.in/wp-content/uploads/2021/06/i09_TECHNICAL-SUPPORT.jpg",
-                    "name": "Foreign Investor"
-                }
-            ],
-            "coureDuration": "3 Years",
-            "eligibilityCriteria": "Candidates must have passed 10+2 or equivalent from a recognized board in India.",
-            "annualFees": "24000 INR",
-            "laboratories": [
-                {
-                    "id": 1,
-                    "title": "Computer Lab",
-                    "subTitle": "",
-                    "image": "https://monarkuni.ac.in/wp-content/uploads/2021/06/SMET-206.jpg",
-                    "pera": "Computer Centre with Internet facilities has been set up and managed by experienced Computer professionals. We have a very well equipped computer lab with 50 computers for the information &   Technology subject with internet facility."
-                },
-                {
-                    "id": 2,
-                    "title": "Library & Reading Room",
-                    "subTitle": "",
-                    "image": "https://monarkuni.ac.in/wp-content/uploads/2021/06/i08_SMET-227.jpg",
-                    "pera": "The college has well equipped library and reading room. It has more than 2248 references and recommended books for the BBA Course. Besides, there are periodicals, journals, weekly and monthly magazines, newspapers, considering the need to keep students abreast with latest development in the field of education, science and technology."
-                }
-            ]
-        },
-        {
-            "id": 3,
-            "title": "BBA in Retail Management",
-            "icon": "flaticon-bars",
-            "titlePera": "BBA in Retail Management is so designed as to give a student a top-to-bottom knowledge of the functioning and supervision of a retail establishment. Students are also trained in direct-dealing with customers including problem-solving and interactions to boost relationships and sales.This course includes the study of retail trading which includes buying, marketing, merchandising, operations, inventory control, personnel and finance. The degree course is a detailed study of topics like retail supply chain management, store location and management, retail customer service, quality, accounting, marketing, and computer technology, etc.",
-            "titleImage": "https://monarkuni.ac.in/wp-content/uploads/2021/06/SMET-125.jpg",
-            "programOutcomesPera": "Course enables a student to tap into this potentially rewarding industry and provides them with the required skills to succeed. Since the course has a very versatile curriculum involving aspects of economics, marketing, visual merchandising, sales, branding as well as customer support./The sheer number and variety of job roles available for a BBA Retail Management graduate are also great incentives to take up this course.",
-            "programOutcomesImages": [
-                {
-                    "id": 1,
-                    "image": "https://monarkuni.ac.in/wp-content/uploads/2021/06/i02_consumer-goods.jpg",
-                    "name": "Retail Manager"
-                },
-                {
-                    "id": 2,
-                    "image": "https://monarkuni.ac.in/wp-content/uploads/2021/06/i09_TECHNICAL-SUPPORT.jpg",
-                    "name": "Advertising Manager"
-                },
-                {
-                    "id": 3,
-                    "image": "https://monarkuni.ac.in/wp-content/uploads/2021/07/i01_01-Banking-and-Finance-Jobs-in-London.jpg",
-                    "name": "Administrative Officer"
-                },
-                {
-                    "id": 4,
-                    "image": "https://monarkuni.ac.in/wp-content/uploads/2021/06/i05_academic-researcher.jpg",
-                    "name": "Brand Manager"
-                },
-                {
-                    "id": 5,
-                    "image": "https://monarkuni.ac.in/wp-content/uploads/2021/06/i07_MARKETING.jpg",
-                    "name": "Customer Care Executive"
-                },
-                {
-                    "id": 6,
-                    "image": "https://monarkuni.ac.in/wp-content/uploads/2021/06/i03_Technical-Sales-Representative.jpg",
-                    "name": "Communications Manager"
-                },
-                {
-                    "id": 7,
-                    "image": "https://monarkuni.ac.in/wp-content/uploads/2021/06/i03_Highwayengineer-3.png",
-                    "name": "Department Manager"
-                },
-                {
-                    "id": 8,
-                    "image": "https://monarkuni.ac.in/wp-content/uploads/2021/06/i03_project-manager.jpg",
-                    "name": "Logistics and Warehouse Manager"
-                }
-            ],
-            "coureDuration": "3 Years",
-            "eligibilityCriteria": "Candidates must have passed 10+2 or equivalent from a recognized board in India.",
-            "annualFees": "24000 INR",
-            "laboratories": [
-                {
-                    "id": 1,
-                    "title": "Computer Lab",
-                    "subTitle": "",
-                    "image": "https://monarkuni.ac.in/wp-content/uploads/2021/06/SMET-206.jpg",
-                    "pera": "Computer Centre with Internet facilities has been set up and managed by experienced Computer professionals. We have a very well equipped computer lab with 50 computers for the information &   Technology subject with internet facility"
-                },
-                {
-                    "id": 2,
-                    "title": "Library & Reading Room",
-                    "subTitle": "",
-                    "image": "https://monarkuni.ac.in/wp-content/uploads/2021/06/i08_SMET-227.jpg",
-                    "pera": "The college has well equipped library and reading room. It has more than 2248 references and recommended books for the BBA Course. Besides, there are periodicals, journals, weekly and monthly magazines, newspapers, considering the need to keep students abreast with latest development in the field of education, science and technology"
-                }
-            ]
         }
+        
     ]
 },
 {
@@ -2027,11 +1920,11 @@
         },
         {
             "id": 2,
-            "title": "(B.Sc. + M.Sc.) IT IMS & Cloud Technology",
+            "title": "(B.Sc. + M.Sc.) IT Software & Mobile Application Development",
             "icon": "flaticon-bars",
-            "titlePera": "(B.Sc. + M.Sc.) IT IMS & Cloud Technology is a five-year graduation program executed in 10 semesters..The aim of this program is to impart industry oriented emerging Information technology skills. The student will get proficiency in Network Management, Server Administration, Firewall management and cloud management. The program is designed to fill the gap between industry requirements and academics which will enable student to become industry ready.",
+            "titlePera": "(B.Sc. + M.Sc.) IT Software & Mobile Application Development is a five-year graduation program executed in 10 semesters. The aim of this program is to impart industry oriented emerging Information technology skills. The student will get proficiency in Mobile Application Development and Device Application Development. The program is designed to fill the gap between industry requirements and academics which will enable student to become industry ready.",
             "titleImage": "https://monarkuni.ac.in/wp-content/uploads/2021/06/ComputerScienceImage-1024x682.jpg",
-            "programOutcomesPera": "Program develops an understanding of latest IT technologies in the field of Information technology infrastructure including cloud. It enables to prepare a complex computer system, connecting it with network, configuring and managing network infrastructure, configure and admin of firewall, windows server admin and Linux server admin, Azure Web Service (AWS) cloud management and Azure cloud management with virtualization.",
+            "programOutcomesPera": "The course focuses on core technical knowledge of and skills in the software development lifecycle, from requirements, design, implementation, to testing with emerging technologies and industry recognized best practices. This will include the key technological advancements in software architecture design solutions, data analysis and security, as well as web-based and mobile applications development both iOS and Android, in frameworks such as Java and Python. You will also undertake a software development project in a teamwork environment and an in-depth individual research project. Guided by an experienced tutor, the projects will help develop your research skills and experience the work of IT professionals.",
             "programOutcomesImages": [
                 {
                     "id": 1,
@@ -2096,7 +1989,7 @@
             ],
             "coureDuration": "5 Years (10 Semesters)",
             "eligibilityCriteria": "Candidates must have passed 10+2 or equivalent from a recognized board in India.",
-            "annualFees": "65,000.00 /  70,000.00",
+            "annualFees": "75,000.00 /  90,000.00",
             "laboratories": [
                 {
                     "id": 1,
