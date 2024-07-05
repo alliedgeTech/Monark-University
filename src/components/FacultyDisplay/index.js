@@ -193,7 +193,7 @@ const index = () => {
                     </div>
                     <div className="test-text">
                       <i class="fa-solid fa-quote-left"></i>
-                      <small>
+                      <small className="stu-say-text">
                         {students.text}
                       </small>
                       <i class="fa-solid fa-quote-right"></i>

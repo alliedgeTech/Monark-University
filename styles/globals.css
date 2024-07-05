@@ -819,7 +819,7 @@ p {
 
 .test-text {
     padding: 10px 20px;
-    min-height: 280px;
+    min-height: 180px;
 }
 
 .test-text small {
@@ -1434,6 +1434,14 @@ p {
     -webkit-line-clamp: 3;
     -webkit-box-orient: vertical;
     color: var(--web-light-black);
+}
+.stu-say-text{
+    display: -webkit-box;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+
 }
 
 #preloader {
