@@ -41,7 +41,7 @@ const index = () => {
               <Link href="https://www.abc.gov.in/">
                 <h5 className="oswald">Option A (www.abc.gov.in)</h5>
               </Link>
-              <Link href='https://res.cloudinary.com/dnjgopun8/image/upload/v1719989993/Help-Manual-for-ABC-Account-Creation-for-who-does-not-have-Digilocker-Account_t8ncqw.pdf '>
+              {/* <Link href='https://res.cloudinary.com/dnjgopun8/image/upload/v1719989993/Help-Manual-for-ABC-Account-Creation-for-who-does-not-have-Digilocker-Account_t8ncqw.pdf '>
               <p className="mt-20 mb-1">
               <i class="fa-regular fa-angles-right mr-10"></i>
                 Help Manual for ABC Account Creation-for who does not have
@@ -53,18 +53,18 @@ const index = () => {
                 <i class="fa-regular fa-angles-right mr-10"></i>
                 Help Manual for ABC Account Creation-for Existing Digilocker Account Holders
                 </p>
-              </Link>
+              </Link> */}
             </div>
             <div className="col-lg-6 col-12">
               <Link href="https://www.digilocker.gov.in/">
                 <h5 className="oswald">Option B (www.digilocker.gov.in)</h5>
               </Link>
-              <Link href='https://res.cloudinary.com/dnjgopun8/image/upload/v1719989669/ABC-ID-Creation-Flow-using-digilocker-platform_cveh73.pdf'>
+              {/* <Link href='https://res.cloudinary.com/dnjgopun8/image/upload/v1719989669/ABC-ID-Creation-Flow-using-digilocker-platform_cveh73.pdf'>
                 <p>
                 <i class="fa-regular fa-angles-right mr-10"></i>
                 Help Manual – ABC ID Creation Flow using digilocker platform
                 </p>
-              </Link>
+              </Link> */}
             </div>
           </div>
         </div>

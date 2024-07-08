@@ -1,7 +1,6 @@
 import React, { useEffect } from "react";
 import HTMLFlipBook from "react-pageflip";
 import 'bootstrap/dist/css/bootstrap.min.css';
-import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 import Link from "next/link";
 
 const Page = React.forwardRef((props, ref) => {
@@ -96,13 +95,11 @@ const Index = () => {
                 2025
             </button>
             </Link>
-            
-
-            </div>
+  </div>
 
           <div className="book">
           <HTMLFlipBook className="book mx-auto" width={400} height={600}>
-              <div className="start-box d-flex align-items-center justify-content-center">
+              <div className="start-box d-lg-block d-none d-flex align-items-center justify-content-center">
                 <h1>2023</h1>
               </div>
               {pages.map((page) => (
@@ -112,7 +109,7 @@ const Index = () => {
                   imageUrl={page.imageUrl}
                 />
               ))}
-              <div className="start-box d-flex align-items-center justify-content-center">
+              <div className="start-box d-lg-block d-none d-flex align-items-center justify-content-center">
                 <h1>End 2023</h1>
               </div>
             </HTMLFlipBook>

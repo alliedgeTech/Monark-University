@@ -3028,11 +3028,7 @@ tr {
     width: 400px;
     height: 600px;
 }
-@media screen and (max-width:991px) {
-    .start-box{
-        display: none !important;
-    }
-}
+
 
 .faculty-item{
     background: var(--web-white);
