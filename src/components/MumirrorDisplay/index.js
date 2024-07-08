@@ -99,7 +99,7 @@ const Index = () => {
 
           <div className="book">
           <HTMLFlipBook className="book mx-auto" width={400} height={600}>
-              <div className="start-box d-lg-block d-none d-flex align-items-center justify-content-center">
+              <div className="start-box  d-flex align-items-center justify-content-center">
                 <h1>2023</h1>
               </div>
               {pages.map((page) => (
@@ -109,7 +109,7 @@ const Index = () => {
                   imageUrl={page.imageUrl}
                 />
               ))}
-              <div className="start-box d-lg-block d-none d-flex align-items-center justify-content-center">
+              <div className="start-box  d-flex align-items-center justify-content-center">
                 <h1>End 2023</h1>
               </div>
             </HTMLFlipBook>
