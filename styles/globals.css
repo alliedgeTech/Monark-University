@@ -2140,7 +2140,7 @@ tr {
 }
 
 .demoPage {
-    background: #bababa;
+    border: 1px solid black;
 }
 
 .alumini-heading i {
@@ -3024,9 +3024,8 @@ tr {
     border-bottom: 2px solid var(--web-color);
 }
 .start-box{
-    background: rgb(200, 200, 200);
-    width: 400px;
-    height: 600px;
+    background: rgb(255, 255, 255);
+    width: 370px !important;
 }
 
 

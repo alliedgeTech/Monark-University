@@ -98,10 +98,8 @@ const Index = () => {
   </div>
 
           <div className="book">
-          <HTMLFlipBook className="book mx-auto" width={400} height={600}>
-              <div className="start-box  d-flex align-items-center justify-content-center">
-                <h1>2023</h1>
-              </div>
+          <HTMLFlipBook className="book mx-auto" width={370} height={570}>
+              
               {pages.map((page) => (
                 <Page
                   key={page.number}
@@ -109,9 +107,7 @@ const Index = () => {
                   imageUrl={page.imageUrl}
                 />
               ))}
-              <div className="start-box  d-flex align-items-center justify-content-center">
-                <h1>End 2023</h1>
-              </div>
+              
             </HTMLFlipBook>
           </div>
       </div>
