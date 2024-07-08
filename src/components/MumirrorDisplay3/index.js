@@ -73,7 +73,7 @@ const Index = () => {
               <button
                 data-aos='fade-up'
                 type="button"
-                className="ski-button y2023"
+                className="ski-button "
             >
                 2023
             </button>
@@ -91,7 +91,7 @@ const Index = () => {
             <button
                 data-aos='fade-up'
                 type="button"
-                className="ski-button"
+                className="ski-button y2023"
             >
                 2025
             </button>
@@ -103,7 +103,7 @@ const Index = () => {
           <div className="book">
           <HTMLFlipBook className="book mx-auto" width={400} height={600}>
               <div className="start-box d-flex align-items-center justify-content-center">
-                <h1>2023</h1>
+                <h1>2025</h1>
               </div>
               {pages.map((page) => (
                 <Page
@@ -113,7 +113,7 @@ const Index = () => {
                 />
               ))}
               <div className="start-box d-flex align-items-center justify-content-center">
-                <h1>End 2023</h1>
+                <h1>End 2025</h1>
               </div>
             </HTMLFlipBook>
           </div>

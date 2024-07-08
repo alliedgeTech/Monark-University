@@ -146,10 +146,10 @@ export default function Category() {
           </div>
           <Link href="/mumirror">
             <button
-              className="circle-btn d-flex align-items-center justify-content-between"
+              className="circle-btn d-flex align-items-center ms-auto justify-content-between"
               data-aos="zoom-out"
             >
-              <div className="btn-text ps-3">MU Mirror</div>
+              <div className="btn-text">MU Mirror</div>
               <div className="btn-icon d-flex align-items-center justify-content-center">
                 <i class="fa-solid fa-arrow-right"></i>
               </div>

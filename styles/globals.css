@@ -511,10 +511,10 @@ p {
 
 @media screen and (max-width:768px) {
     .hero-text {
-        top: 60% !important;
+        top: 150px !important;
         left: 50%;
         bottom: initial !important;
-        transform: translate(-50%, -60%) !important;
+        transform: translate(-50%, 0%) !important;
         width: 95%;
     }
 
@@ -585,7 +585,7 @@ p {
     background-repeat: no-repeat;
     background-size: cover;
     margin-top: -6vmax;
-    padding: 5vmax 4vmax !important;
+    padding: 2vmax 4vmax !important;
     border-bottom-left-radius: 6vmax;
     border-bottom-right-radius: 6vmax;
 }
@@ -818,7 +818,7 @@ p {
 }
 
 .test-text {
-    padding: 10px 20px;
+    padding: 5px 20px;
     min-height: 180px;
 }
 
@@ -1689,6 +1689,8 @@ tr {
     width: 220px;
     border-radius: 30px;
     transition: all 0.5s;
+    animation: glow 1s infinite alternate-reverse linear;
+
 }
 
 .circle-btn:hover {
@@ -1707,13 +1709,15 @@ tr {
     color: var(--web-grey-white);
     font-weight: 700;
     text-transform: uppercase;
+    padding-left: 32px;
 }
 
 .circle-btn .btn-icon {
+    margin-right: 18px;
     background: var(--web-color);
     color: var(--web-grey-white);
-    height: 40px;
-    width: 40px;
+    height: 38px;
+    width: 38px;
     border-radius: 50%;
     transition: all 0.5s;
 }
@@ -1974,7 +1978,7 @@ tr {
 }
 .counter-div .why_mu img{
     animation: flipper 3s infinite linear;
-    width: 120px;
+    min-width: 150px;
 }
 @keyframes flipper {
     0%{
@@ -2951,14 +2955,14 @@ tr {
     color: var(--web-color);
 }
 .highlight-section{
-    background: var(--web-color);
+    background: var(--web-efef);
 }
 .highlight-section h3{
     color: var(--web-orange) !important;
     text-transform: uppercase;
 }
 .highlight-section p{
-    color: #fff !important;
+    /* color: #fff !important; */
 }
 .high-img-box{
     border-radius: 20px ;
@@ -2970,12 +2974,12 @@ tr {
     font-size: 18px;
     height: 40px;
     z-index: 111;
-    width: 130px;
+    width: 140px;
     display: flex;
     align-items: center;
     justify-content: center;
     /* border-radius: 20px; */
-    background: #fff;
+    background: var(--web-efef);
     top: 0;
     right: 0;
     border-bottom-left-radius: 20px;
@@ -2988,7 +2992,7 @@ tr {
     top: 39px;
     right: -1px;
     border-top-right-radius: 20px;
-    box-shadow: 7px -7px 0 0 #fff;
+    box-shadow: 7px -7px 0 0 var(--web-efef);
     height: 20px;
     width: 20px;
     background: rgba(122, 82, 82, 0);
@@ -3001,7 +3005,7 @@ tr {
     top: -1px;
     left: -19px;
     border-top-right-radius: 20px;
-    box-shadow: 7px -7px 0 0 #fff;
+    box-shadow: 7px -7px 0 0 var(--web-efef);
     height: 20px;
     width: 20px;
     background: rgba(113, 113, 113, 0);
@@ -3018,4 +3022,53 @@ tr {
     padding: 20px 10px;
     border-top: 2px solid var(--web-color);
     border-bottom: 2px solid var(--web-color);
+}
+.start-box{
+    background: rgb(200, 200, 200);
+    width: 400px;
+    height: 600px;
+}
+@media screen and (max-width:991px) {
+    .start-box{
+        display: none !important;
+    }
+}
+
+.faculty-item{
+    background: var(--web-white);
+    padding:20px;
+    border-radius: 20px;
+}
+.inline{
+    display: inline-block;
+    padding: 7px 10px;
+    width: 50%;
+    border: 1px solid rgba(132, 132, 132, 0.404);
+}
+.inline p{
+    margin-bottom: 0 !important;
+}
+.inline:hover{ 
+    background: var(--web-orange);
+}
+.inline:hover p,.inline:hover i{ 
+    color: #fff !important;
+}
+@media screen and (max-width:991px) {
+    .inline{
+        display: block;
+        width: 100% !important;
+    }
+    
+}
+.high-heading-box h1{
+    color: var(--web-light-black) !important;
+}
+.high-heading-box h1 span{
+    color: var(--web-orange);
+}
+
+.year .y2023{
+    background-color: var(--web-color);
+    color: #fff;
 }
