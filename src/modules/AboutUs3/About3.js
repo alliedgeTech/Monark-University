@@ -189,7 +189,7 @@ export default function About() {
               <div className="vision-img" data-aos="zoom-in-right">
                 <img
                   className="img-fluid filp"
-                  src="/img/vision/vission.jpg"
+                  src="/img/vision/vision2.jpeg"
                   alt=""
                 />
               </div>
@@ -215,7 +215,7 @@ export default function About() {
           <div className="row flex-row-reverse  vision px-lg-5 px-md-5 px-3 py-4 py-lg-5 deg-45 mt-4 p-relative">
             <div className="col-lg-6 col-md-5 col-12 mt-lg-0 mt-4">
               <div className="vision-img" data-aos="fade-in">
-                <img src="/img/vision/mission.jpg" alt="" />
+                <img src="/img/vision/vision2.jpeg" alt="" />
               </div>
             </div>
             <div className="col-lg-6 col-md-7 col-12 mt-lg-0 mt-4">
