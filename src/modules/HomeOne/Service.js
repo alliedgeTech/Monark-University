@@ -79,7 +79,8 @@ export default function Service() {
                       data-bs-slide-to="3"
                       aria-label="Slide 4"
                     >
-                      Rearch
+                      
+                      Research
                     </button>
                   </div>
                 </div>

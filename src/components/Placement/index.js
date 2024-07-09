@@ -158,16 +158,16 @@ const index = () => {
                   <div className="row flex-row-reverse">
                     <div className="col-md-4">
                       <div
-                        className="it-sv-details-top-thumb Left"
+                        className="it-sv-details-top-thumb tpo-img Left"
                         data-aos="fade-left"
                       >
                         <img
                           src="/img/pro/tpoimg.jpg"
-                          className="h-100 w-100 rounded shadow"
+                          className="h-100 w-100 shadow mb-0"
                           alt="President Image"
                         />
                       </div>
-                      <p className="text-right mt-4">
+                      <p className="text-right mt-1">
                       Warm regards, <br />
 
                         <p className="mb-0"><strong>Prof. Nilesh J. Parekh

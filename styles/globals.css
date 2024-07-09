@@ -3087,7 +3087,7 @@ tr {
   -webkit-appearance: button;
   background-color: #ffffff !important;
   background-image: none;
-  color: #fff !important;
+  color: #000000 !important;
   cursor: pointer;
   font-family:Poppins !important;
   font-size: 100%;
@@ -3126,6 +3126,7 @@ tr {
     --progress: 0% !important;
 }
 .btn-31.active .text{
+    color: #fff;
     -webkit-animation: move-up-alternate 0.3s ease forwards;
   animation: move-up-alternate 0.3s ease forwards;
 }
@@ -3166,11 +3167,12 @@ tr {
 .btn-31 .text {
   display: block;
   font-weight: 500;
-  mix-blend-mode: difference;
+  /* mix-blend-mode: difference; */
   position: relative;
 }
 
 .btn-31:hover .text {
+    color: #fff;
   -webkit-animation: move-up-alternate 0.3s ease forwards;
   animation: move-up-alternate 0.3s ease forwards;
 }
@@ -3209,4 +3211,13 @@ tr {
   to {
     transform: translateY(0);
   }
+}
+.tpo-img img{
+    height: 380px !important;
+}
+@media screen and (max-width:768px) {
+    .tpo-img img{
+        height: 100% !important;
+    }
+    
 }
