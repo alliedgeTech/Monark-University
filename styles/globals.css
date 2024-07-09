@@ -2730,6 +2730,12 @@ tr {
     .middle-texts{
         position: relative !important;
         width: 100%;
+        right: 0%;
+    }
+    .middle-texts-left{
+        position: relative !important;
+        width: 100%;
+        left: 0%;
     }
     .vision img{
         border-radius: 20px;
