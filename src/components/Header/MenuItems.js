@@ -421,14 +421,12 @@ export default function MenuItems(props) {
             <Link href="/placement">Placement</Link>
             <ul className="it-submenu submenu">
             <li>
-                <Link href="/inquiry">
-                Register Now
-                </Link>
-              </li>
-              <li>
                 <Link href="/placement#training">
                   Training & Placement Cell
                 </Link>
+              </li>
+              <li>
+                <Link href="/placement#recruiters">Recruiters</Link>
               </li>
               <li>
                 <Link href="/placement#latest-news">Placement News</Link>
@@ -439,8 +437,11 @@ export default function MenuItems(props) {
                 </Link>
               </li>
               <li>
-                <Link href="/placement#recruiters">Recruiters</Link>
+                <Link href="/register">
+                Register Now
+                </Link>
               </li>
+              
             </ul>
           </li>
           <li className="nav-link has-dropdown">

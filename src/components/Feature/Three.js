@@ -13,7 +13,7 @@ export default function SingleFeatureThree( props ) {
 						{Title ? Title : 'Best Coaching'}
 					</Link>
 				</h4>
-				<p className="text-center">Course: {Description ? Description : '1'}</p>
+				{/* <p className="text-center">Course: {Description ? Description : '1'}</p> */}
 			</div>
 			<div className="it-feature-3-btn">
 				<Link className="it-btn-theme-sm" href={`/services-3/ser/?id=${Slug ? Slug : 'details'}`}>

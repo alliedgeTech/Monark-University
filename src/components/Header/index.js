@@ -54,7 +54,7 @@ export default function Header(props) {
                             className="img-fluid"
                             width={60}
                             height={60}
-                            src="/img/logo/MONARK_LOGO.png"
+                            src="/img/logo/MULOGOR.png"
                             alt=""
                           />
                         </Link>

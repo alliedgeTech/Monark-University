@@ -130,7 +130,7 @@ export default function Header(props) {
             <Link href="/">
               <img
                 className="img-fluid w-25"
-                src="/img/logo/MONARK_LOGO.png"
+                src="/img/logo/MULOGOR.png"
                 alt=""
               />
             </Link>

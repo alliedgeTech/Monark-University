@@ -1131,7 +1131,7 @@ p {
     background: var(--web-white) !important;
     border-radius: 8px !important;
     transition: all 0.5s ease-in-out !important;
-    min-height: 380px !important;
+    min-height: 300px !important;
     box-shadow: 0 0 10px #dadada !important;
 }
 
@@ -1690,7 +1690,13 @@ tr {
     border-radius: 30px;
     transition: all 0.5s;
     animation: glow 1s infinite alternate-reverse linear;
-
+    margin-left: auto;
+}
+@media screen and (max-width: 768px) {
+    .circle-btn{
+        margin-left: auto ;
+        margin-right: auto ;
+    }
 }
 
 .circle-btn:hover {
@@ -2064,14 +2070,13 @@ tr {
 
 .alumini-heading h1 {
     font-weight: 800 !important;
-    font-size: 34px !important;
-    font-family: Poppins !important;
+    font-size: 36px !important;
+    font-family: oswald !important;
     text-align: start;
 }
 
 .alumini-heading h1 span {
-    font-family: Lilita One !important;
-    font-size: 40px;
+    font-family: oswald !important;
     color: var(--web-color);
 }
 

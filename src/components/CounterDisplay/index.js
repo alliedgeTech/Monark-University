@@ -85,7 +85,7 @@ const Index = () => {
                     className="counter-box counter-box-1 d-flex align-items-center flex-column"
                   >
                     <img src="/img/counter/school.png" alt="" />
-                    <h6 className="text-black">Institutes</h6>
+                    <h6 className="text-black mt-3">Institutes</h6>
                     <div className="count-text mt-2 d-flex align-items-center justify-content-center">
                       {startCount1 && (
                         <CountUp start={0} end={13} duration={6} />
@@ -99,7 +99,7 @@ const Index = () => {
                     className="counter-box counter-box-2 d-flex align-items-center flex-column"
                   >
                     <img src="/img/counter/network.png" alt="" />
-                    <h6 className="text-black">Students</h6>
+                    <h6 className="text-black mt-3">Students</h6>
                     <div className="count-text mt-2 d-flex align-items-center justify-content-center">
                       {startCount2 && (
                         <CountUp start={0} end={7000} duration={6} />
@@ -113,7 +113,7 @@ const Index = () => {
                     className="counter-box counter-box-3 d-flex align-items-center flex-column"
                   >
                     <img src="/img/counter/teacher.png" alt="" />
-                    <h6 className="text-black">Faculty</h6>
+                    <h6 className="text-black mt-3">Faculty</h6>
                     <div className="count-text mt-2 d-flex align-items-center justify-content-center">
                       {startCount3 && (
                         <CountUp start={0} end={300} duration={6} />
@@ -127,7 +127,7 @@ const Index = () => {
                     className="counter-box counter-box-4 d-flex align-items-center flex-column"
                   >
                     <img src="/img/counter/data.png" alt="" />
-                    <h6 className="text-black">Programs</h6>
+                    <h6 className="text-black mt-3">Programs</h6>
                     <div className="count-text mt-2 d-flex align-items-center justify-content-center">
                       {startCount4 && (
                         <CountUp start={0} end={100} duration={6} />

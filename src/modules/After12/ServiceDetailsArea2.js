@@ -85,6 +85,7 @@ export default function ServiceDetailsArea() {
             <div className="nav nav-tabs mb-3" id="nav-tab" role="tablist">
               {courses.map((course, index) => (
                 <button
+                data-aos='fade-up'
                   key={index}
                   className={`nav-link ${index === activeTab ? 'active' : ''}`}
                   onClick={() => setActiveTab(index)}
@@ -116,7 +117,7 @@ export default function ServiceDetailsArea() {
                     <div className="row">
                       <div className="col-lg-5 col-12 d-flex align-items-center">
                         <div className={styles.chooseThumbBox}>
-                          <div className={styles.chooseThumb}>
+                          <div className={styles.chooseThumb} data-aos='fade-right'>
                             <img
                               src={course.titleImage}
                               className="img-fluid rounded"
@@ -127,15 +128,15 @@ export default function ServiceDetailsArea() {
                       </div>
                       <div className="col-lg-7 col-12 d-flex align-items-center">
                         <div>
-                          <h4 className="oswald">{course.title}</h4>
-                          <p>{course.titlePera}</p>
+                          <h4 data-aos='fade-up' className="oswald">{course.title}</h4>
+                          <p data-aos='fade-left'>{course.titlePera}</p>
                         </div>
                       </div>
                     </div>
                     <div className="row">
                       <div className="col-12">
-                        <h4 className="oswald">Program Outcomes</h4>
-                        <p>{course.programOutcomesPera}</p>
+                        <h4 data-aos='fade-up' className="oswald">Program Outcomes</h4>
+                        <p data-aos='fade-right'>{course.programOutcomesPera}</p>
                         {isMounted && (
   <OwlCarousel
     data-aos="zoom-out"
@@ -167,33 +168,33 @@ export default function ServiceDetailsArea() {
                       <h1>{course.title}</h1>
                     </div>
                     <div className="row px-4">
-                      <div className="col-lg-6 col-md-12 mt-4">
-                        <div>
-                          <div className="service-box">
+                      <div data-aos='zoom-in' className="col-lg-6 col-md-12 mt-4">
+                        <div className="deg15">
+                          <div className="service-box p-4 deg-15">
                             <h5>Course Duration</h5>
                             <p>{course.coureDuration}</p>
                           </div>
                         </div>
                       </div>
-                      <div className="col-lg-6 col-md-12 mt-4">
-                        <div>
-                          <div className="service-box">
+                      <div data-aos='zoom-in' className="col-lg-6 col-md-12 mt-4">
+                        <div className="deg15">
+                          <div className="service-box p-4 deg-15">
                             <h5>Eligibility Criteria</h5>
                             <p>{course.eligibilityCriteria}</p>
                           </div>
                         </div>
                       </div>
-                      <div className="col-lg-6 col-md-12 mt-4">
-                        <div>
-                          <div className="service-box">
+                      <div data-aos='zoom-in' className="col-lg-6 col-md-12 mt-4">
+                        <div className="deg15">
+                          <div className="service-box p-4 deg-15">
                             <h5>Annual Fees</h5>
                             <p>{course.annualFees}</p>
                           </div>
                         </div>
                       </div>
-                      <div className="col-lg-6 col-md-12 mt-4">
-                        <div>
-                          <div className="service-box">
+                      <div data-aos='zoom-in' className="col-lg-6 col-md-12 mt-4">
+                        <div className="deg15">
+                          <div className="service-box p-4 deg-15">
                             <h5>Apply Now</h5>
                             <a href="/applynow">Apply now</a>
                           </div>
@@ -210,6 +211,7 @@ export default function ServiceDetailsArea() {
                     <div
                       key={labIndex}
                       className="up my-5 lab-box px-lg-5 px-4 py-5"
+                      data-aos='zoom-in'
                     >
                       <div className="row">
                         <div className="col-lg-5 col-12 d-flex align-items-center px-3">

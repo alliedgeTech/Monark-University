@@ -82,12 +82,12 @@ const index = () => {
                     <small className="high-button">1. Highlight</small>
                   </div>
                 </div>
-                <div className="col-lg-7 d-flex align-items-center">
+                <div className="col-lg-7 mt-lg-0 mt-4 d-flex align-items-center">
                   <div className="high-text" data-aos='fade-up'>
                     <h3 className="oswald">Ahmedabad’s First Techno Campus
                     </h3>
                     <p className="mt-20">
-                    Step into the future at our cutting-edge techno campus, where innovation meets education. Our state-of-the-art facilities and forward-thinking curriculum are designed to equip students with the skills and knowledge to thrive in the tech-driven world.
+                      Step into the future at our cutting-edge techno campus, where innovation meets education. Our state-of-the-art facilities and forward-thinking curriculum are designed to equip students with the skills and knowledge to thrive in the tech-driven world.
                     </p>
                   </div>
                 </div>
@@ -102,10 +102,10 @@ const index = () => {
                       src="https://images.shiksha.com/mediadata/images/1626701580phphurJ1Q.jpeg"
                       alt=""
                     />
-                    <small className="high-button">1. Highlight</small>
+                    <small className="high-button">2. Highlight</small>
                   </div>
                 </div>
-                <div className="col-lg-7 d-flex align-items-center">
+                <div className="col-lg-7 mt-lg-0 mt-4 d-flex align-items-center">
                   <div className="high-text" data-aos='fade-up'>
                     <h3 className="oswald">Ahmedabad’s 1st University Offering BBA with Built-in Aviation Management & Data Analytics
                     </h3>
@@ -125,10 +125,10 @@ const index = () => {
                       src="https://images.shiksha.com/mediadata/images/1626701580phphurJ1Q.jpeg"
                       alt=""
                     />
-                    <small className="high-button">1. Highlight</small>
+                    <small className="high-button">3. Highlight</small>
                   </div>
                 </div>
-                <div className="col-lg-7 d-flex align-items-center">
+                <div className="col-lg-7 mt-lg-0 mt-4 d-flex align-items-center">
                   <div className="high-text" data-aos='fade-up'>
                     <h3 className="oswald">Ahmedabad’s 1st Self-Financed Ayurved Medical College
 
