@@ -51,7 +51,7 @@ export default function Category() {
 
   useEffect(() => {
     aos.init({
-      offset: 100, // Offset (in pixels) from the original trigger point
+      offset: 50, // Offset (in pixels) from the original trigger point
       duration: 800, // Duration of animation (in milliseconds)
     });
   });
