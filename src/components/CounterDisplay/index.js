@@ -70,7 +70,7 @@ const Index = () => {
                 <h1 className="mt-10" data-aos="zoom-in">
                   <span>Experience</span> Academic Diversity Like 
                   <span> Never</span> Before with Leading <span>Experts </span>
-                  and <span>Comprehensive</span> Programs
+                  and <span>Comprehensive</span> programmes
                 </h1>
               </div>
             </div>
@@ -127,7 +127,7 @@ const Index = () => {
                     className="counter-box counter-box-4 d-flex align-items-center flex-column"
                   >
                     <img src="/img/counter/data.png" alt="" />
-                    <h6 className="text-black mt-3">Programs</h6>
+                    <h6 className="text-black mt-3">programmes</h6>
                     <div className="count-text mt-2 d-flex align-items-center justify-content-center">
                       {startCount4 && (
                         <CountUp start={0} end={100} duration={6} />

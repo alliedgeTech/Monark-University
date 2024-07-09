@@ -36,14 +36,14 @@ export default function ServiceDetailsArea() {
               <p>
                 We @ Monark University, offering the research oriented degree
                 course: Doctor of Philosophy (Ph.D.) which is a doctorate
-                program comprised of an advanced academic work integrated with
+                programme comprised of an advanced academic work integrated with
                 deep research and innovative execution. Aim of the course is to
                 develop novel or advanced concepts of existing principle/
                 theories/ perspectives for advancement of the society. Research
                 is a tool for gaining knowledge and making learning more
                 accessible. Since research is an endless journey; We are
                 providing a platform for researchers to pursue the Ph.D. degree
-                program and to start-up their research career in their
+                programme and to start-up their research career in their
                 respective area of interest/ discipline because without
                 research, the society individuals could not possibly survived to
                 this point of time.
@@ -52,9 +52,9 @@ export default function ServiceDetailsArea() {
             </div>
           </div>
           
-          <p className="mt-10" data-aos='fade-up'>We offer Ph.D. program in Full-Time and Part-Time mode with the
+          <p className="mt-10" data-aos='fade-up'>We offer Ph.D. programme in Full-Time and Part-Time mode with the
                 stipulated time durations mentioned in the University’s Doctor
-                of Philosophy (Ph.D.) Ordinances, 2021. This program is uniquely
+                of Philosophy (Ph.D.) Ordinances, 2021. This programme is uniquely
                 designed in such a manner that effective contributions in the
                 various disciplines could be achieved from the researchers
                 through the supervision & mentoring supports from the expert
@@ -71,7 +71,7 @@ export default function ServiceDetailsArea() {
               <div className="phd-div p-3 text-center mb-30" data-aos='fade-up'>
                 <h4 className={styles.detailsTitle}>
                   Ordinance Governing the Award of Doctor of Philosophy (Ph.D.)
-                  Program, 2021
+                  programme, 2021
                 </h4>
               </div>
               <h3 data-aos='fade-right'>
@@ -94,7 +94,7 @@ export default function ServiceDetailsArea() {
                 communicate to Dr. Tanmaykumar R. Pandit (Research Coordinator)
                 at research@monarkuni.ac.in Procedure for Online Application:
                 Monark University invites online applications for admission to
-                Ph.D. program for the academic year 2023-24. Online application
+                Ph.D. programme for the academic year 2023-24. Online application
                 for Ph.D. will be commenced from 2nd April, 2024 and concluded
                 on 30th April, 2024. Tentative date for the entrance test will
                 be declared soon on this website.
@@ -109,7 +109,7 @@ export default function ServiceDetailsArea() {
                   https://monark.icrp.in/academic/admission/form_student_registration.aspx
                 </a>
                 <br />
-                Step-2: Select Ph.D. program and click on “I Agree” to proceed
+                Step-2: Select Ph.D. programme and click on “I Agree” to proceed
                 further.
                 <br />
                 Step-3: Fill all the necessary details (marked with *) and
@@ -148,7 +148,7 @@ export default function ServiceDetailsArea() {
               <Accordion.Header>Eligibility Criteria</Accordion.Header>
               <Accordion.Body>
                 The minimum eligibility criteria for admission to the Ph.D.
-                program at Monark University include:
+                programme at Monark University include:
                 <ul className="ps-4">
                   <li>
                     Master’s degree in a relevant discipline with a minimum of
@@ -168,7 +168,7 @@ export default function ServiceDetailsArea() {
             <Accordion.Item eventKey="2" key="FeeStructure" data-aos='fade-right'>
               <Accordion.Header>Fee Structure</Accordion.Header>
               <Accordion.Body>
-                The fee structure for the Ph.D. program is as follows:
+                The fee structure for the Ph.D. programme is as follows:
                 <ul className="ps-4">
                   <li>Application Fee: Rs. 2,000/- (non-refundable)</li>
                   <li>Registration Fee: Rs. 10,000/-</li>

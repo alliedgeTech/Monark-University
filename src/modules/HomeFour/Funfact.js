@@ -8,7 +8,7 @@ export default function Funfact() {
     const counters = [
         {
             countNum: 6879,
-            countTitle: 'Learners & counting',
+            countTitle: 'Students & counting',
 			postfix: '+'
         },
         {

@@ -41,7 +41,7 @@ export default function Service() {
                     <h1>
                          <span>selection</span> of{" "}
                       <span className="blue"> over 100 +</span>{" "}
-                      industry-specific programs.
+                      industry-specific programmes.
                     </h1>
                   </div>
                 </div>

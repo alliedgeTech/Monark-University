@@ -134,7 +134,7 @@ export default function Course() {
               aria-current="true"
               aria-label="Slide 1"
             >
-              Multi Activiti Club
+              MULTI ACTIVITY CLUB
             </button>
             <button
             data-aos='fade-up'
@@ -187,7 +187,7 @@ export default function Course() {
                         <h4>01. Multi Activity club</h4>
                       </div>
                       <p>
-                        Multi Activity club is to give an opportunity to
+                        Multi activity club is to give an opportunity to
                         students to perform their inner talent and participate
                         in number of activities, to build their self-confidence
                         also.This club is organized by the faculty of computer

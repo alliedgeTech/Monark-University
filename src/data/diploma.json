@@ -5,7 +5,7 @@
         "icon": "flaticon-web-design",
         "titlePera": "Diploma in Automobile Engineering is a three year course spanning over six semesters. The course aims to train the student for a deeper understanding of the automobiles at various stages such as designing, manufacturing, customer relationships and market analysis. It also takes a comprehensive view of sales and management.  The course offers technological education in areas such as automobile design, vehicle engineering, electrical and electronic systems used in vehicles, braking, material science, engines, fuels and lubricants. It is a branch of engineering that combines elements of mechanical, electrical, electronic, software and safety engineering in design, manufacture and service of automobiles, buses, and trucks as well as their subsystems.",
         "titleImage": "https://monarkuni.ac.in/wp-content/uploads/2021/06/SMET-279.jpg",
-        "programOutcomesPera":"Automobile Engineers have job opportunities in various fields like automobile maintenance and service, production, research & development and transport departments. With the advent of E-Mobility (e-Bikes, Electric car) a lot of opportunities are accessible for these graduates after completing B.Tech in Automobile Engineering. The students who complete the course successfully can join modern automobile industries like Volvo, Ashok Leyland, Telco, Ford, Hyundai, Maruti, etc. They can also become entrepreneurs by operating service centres for automobiles.",
+        "programOutcomesPera":"Automobile Engineers have job opportunities in various fields like automobile maintenance and service, production, research & development and transport departments. With the advent of E-Mobility (e-bikes, Electric car) a lot of opportunities are accessible for these graduates after completing B.Tech in Automobile Engineering. The students who complete the course successfully can join modern automobile industries like Volvo, Ashok Leyland, Telco, Ford, Hyundai, Maruti, etc. They can also become entrepreneurs by operating service centres for automobiles.",
         "programOutcomesImages":[
             {
                 "id":1,
@@ -55,7 +55,7 @@
                 "title":"Automobile System Lab",
                 "subTitle":"Equipped with",
                 "image":"https://monarkuni.ac.in/wp-content/uploads/2021/06/SMET-155.jpg",
-                "pera":"Gear Box Cut Section/Differential Gear Cut Section/Steering System Cut Section/Single Plate Clutch Cut Section/Breaking System Cut Section"
+                "pera":"Gear Box Cut Section/Differential Gear Cut Section/Steering System Cut Section/Single Plate Clutch Cut Section/Braking System Cut Section"
 
             }
         ]
@@ -125,7 +125,7 @@
         "icon": "flaticon-coding",
         "titlePera": "Diploma in Computer Engineering is a three year course spanning over six semesters. The aim of the program is to focus on the study and development of computer software and hardware. Computer engineering can be said to be an integrated discipline, consisting of elements of electrical engineering, computer science and electronics engineering. The course offers the education in areas such as Software development and testing, database designing, hardware, networking and computer architecture.",
         "titleImage": "https://monarkuni.ac.in/wp-content/uploads/2021/06/SMET-207.jpg",
-        "programOutcomesPera": "The program enables the student to use the techniques, skills and tools necessary for science and engineering practice. The program aims to develop the understanding of recent scenario in information technology and way to digitalization for making positive contributions to community and society by applying skills and abilities learned. It helps to apply design and development principles in the development of software & hardware interface of varying complexity.",
+        "programOutcomesPera": "The program enables the student to use the techniques, skills and tools necessary for science and engineering practice. The program aims to develop the understanding of recent scenario in information technology and way to digitization for making positive contributions to community and society by applying skills and abilities learned. It helps to apply design and development principles in the development of software & hardware interface of varying complexity.",
         "programOutcomesImages": [
             {
                 "id": 1,
@@ -299,7 +299,7 @@
         "icon": "flaticon-promotion",
         "titlePera": "Diploma in Information Technology is a three year course spanning over six semesters. The aim of this course is to study information technology in detail in the area of computers which can store, retrieve, transmit and share the data. The information can be in the context of a business or other areas of the market. This course is also considered as a subset of information and communications technology.",
         "titleImage": "https://monarkuni.ac.in/wp-content/uploads/2021/06/SMET-207.jpg",
-        "programOutcomesPera": "The aspirant can use the techniques, skills and tools necessary for science and engineering practice. One can design and conduct experiments to analyze and interpret data and pursue various industrial roles to develop and understand the recent scenario in information technology and the way to digitalization. The aspirant can make positive contributions to community and society by applying skills and abilities learned.",
+        "programOutcomesPera": "The aspirant can use the techniques, skills and tools necessary for science and engineering practice. One can design and conduct experiments to analyze and interpret data and pursue various industrial roles to develop and understand the recent scenario in information technology and the way to digitization. The aspirant can make positive contributions to community and society by applying skills and abilities learned.",
         "programOutcomesImages": [
             {
                 "id": 1,
@@ -433,7 +433,7 @@
                 "title": "Heat Transfer Lab",
                 "subTitle": "Equipped with",
                 "image": "https://monarkuni.ac.in/wp-content/uploads/2021/06/SMET-150.jpg",
-                "pera": "Stefan Boltz Mann Apparatus/Thermal Conducfriction Of Insulation Of Insulation Powder/Pin Fin Apparatus/Shell & Tube/Thermal Conductivity Measuring Apparatus"
+                "pera": "Stefan Boltz Mann Apparatus/Thermal Conducfriction Of insulation Of Insulation Powder/Pin Fin Apparatus/Shell & Tube/Thermal Conductivity Measuring Apparatus"
             }
         ]
     },
@@ -443,7 +443,7 @@
         "icon": "flaticon-mobile-development",
         "titlePera": "Medical Laboratory Technology (Assistant) is a Six month programme that includes only Six month Theory, Practical. The course lays a foundation into the aspects of the technologies that are integrated into the healthcare system, which aims in improving the quality of the healthcare system. Medical Laboratory Technology (Assistant) concentrates on imparting a thorough knowledge of the diagnosis treatment and prevention of diseases through the use of clinical laboratory Equipment.",
         "titleImage": "https://monarkuni.ac.in/wp-content/uploads/2021/06/SMET-69.jpg",
-        "programOutcomesPera": "After the completion of these course students will be able to Understand all aspects of Biochemistry, Pathology Microbiology & Blood Bank, and its application in the healthcare delivery system.  Students will be able to prepare various stains and reagents; will be able to collect blood sample, and also able to perform operation and maintenance of pathology lab instrument. This program also equips candidates with the knowledge to prepare various media and its sterilization and preparation of slant and also able to performing ESR, PSV.",
+        "programOutcomesPera": "After the completion of these course students will be able to Understand all aspects of Biochemistry, Pathology Microbiology & Blood Bank, and its application in the healthcare delivery system.  Students will be able to prepare various stains and reagents; will be able to collect blood sample, and also able to perform operation and maintenance of pathology Laboratoryinstrument. This program also equips candidates with the knowledge to prepare various media and its sterilization and preparation of slant and also able to performing ESR, PSV.",
         "programOutcomesImages": [
             {
                 "id": 1,

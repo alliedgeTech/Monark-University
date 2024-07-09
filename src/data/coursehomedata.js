@@ -37,7 +37,7 @@ const homecourse = [
     {
         id:8,
         img:'/img/service/courseh8.png',
-        name:'LaboratoryTechnology-Assistant',
+        name:'Laboratory Technology-Assistant',
     }
 ]
 export default homecourse;

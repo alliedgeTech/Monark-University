@@ -533,10 +533,10 @@ const facultydata = [
       heading: "About Faculty of Pharmacy",
       img1: "https://monarkuni.ac.in/wp-content/uploads/2023/08/Pharmacy-1-1536x1024.jpg",
       text_1:
-        " Providing high-quality professional education, we create opportunities for ongoing quality improvement in order to develop lifelong learners who can meet the profession of pharmacy’s future demands and challenges while retaining a committed, exceptional, and diverse faculty and staff. Our Institute has grown into one of the rapidly expanding pharmacy institutions. We are preparing our students to meet the ever-increasing demands of not only society or business, but also academics. Merging best practices, practical training, and ethical guidelines, innovative teaching and learning methods are successfully used to prepare students for growth in the field of health care today.",
+        " Providing high-quality professional education, we create opportunities for ongoing quality improvement in order to develop lifelong Students who can meet the profession of pharmacy’s future demands and challenges while retaining a committed, exceptional, and diverse faculty and staff. Our Institute has grown into one of the rapidly expanding pharmacy institutions. We are preparing our students to meet the ever-increasing demands of not only society or business, but also academics. Merging best practices, practical training, and ethical guidelines, innovative teaching and learning methods are successfully used to prepare students for growth in the field of health care today.",
       img2: "https://monarkuni.ac.in/wp-content/uploads/2023/08/Pharmacy-2-1536x1024.jpg",
       text_2:
-        "The Faculty of Pharmacy was established by Monark University in the year 2022 with the mission to equipped students with quality education and research skills in the field of pharmaceutical science. The institute has been approved by the All India Council for Technical Education (AICTE), New Delhi and Pharmacy Council of India (PCI), New Delhi. Our college runs D.Pharm (Diploma in Pharmacy) and B.Pharm (Bachelor of Pharmacy) courses. We offer students a platform where they can flourish academically and do advanced research in the field of pharmacy. We also encourage learners to cultivate moral, social, and professional values, which helps them to meet the local and worldwide demands of the pharmacy profession. The institute has state-of-the-art infrastructure, cutting-edge equipment, and a stimulating intellectual environment that supports outstanding education. The college offers a sizable library, classrooms with multimedia, and laboratories that are well-equipped.",
+        "The Faculty of Pharmacy was established by Monark University in the year 2022 with the mission to equipped students with quality education and research skills in the field of pharmaceutical science. The institute has been approved by the All India Council for Technical Education (AICTE), New Delhi and Pharmacy Council of India (PCI), New Delhi. Our college runs D.Pharm (Diploma in Pharmacy) and B.Pharm (Bachelor of Pharmacy) courses. We offer students a platform where they can flourish academically and do advanced research in the field of pharmacy. We also encourage Students to cultivate moral, social, and professional values, which helps them to meet the local and worldwide demands of the pharmacy profession. The institute has state-of-the-art infrastructure, cutting-edge equipment, and a stimulating intellectual environment that supports outstanding education. The college offers a sizable library, classrooms with multimedia, and laboratories that are well-equipped.",
       car_1:
         "https://monarkuni.ac.in/wp-content/uploads/2023/08/Pharmacy-5-1024x683.jpg",
       car_2:
@@ -562,10 +562,10 @@ const facultydata = [
       heading: "About Faculty of Ayurveda",
       img1: "https://monarkuni.ac.in/wp-content/uploads/2023/08/Ayurveda-1-1536x1024.jpg",
       text_1:
-        "The program aims at developing and nurturing the student’s interpersonal skills, it allows them to develop the competencies vital for their bright future.",
+        "The programme aims at developing and nurturing the student’s interpersonal skills, it allows them to develop the competencies vital for their bright future.",
       img2: "https://monarkuni.ac.in/wp-content/uploads/2023/08/Ayurveda-3-1536x1024.jpg",
       text_2:
-        "Ayurved means ‘Knowledge of life’ it is perceived as one of the most ancient sciences.  It is a constitute college of Monark University, Vahelal Ahmedabad. The University is equipped with full bedded Ayush learning Monark Ayurveda medical Hospital. ",
+        "Ayurved means ‘Knowledge of life’ it is perceived as one of the most ancient sciences.  It is a constituent college of Monark University, Vahelal Ahmedabad. The University is equipped with full bedded Ayush learning Monark Ayurvedic Medical Hospital. ",
       car_1:
         "https://monarkuni.ac.in/wp-content/uploads/2023/08/Ayurveda-9-1024x683.jpg",
       car_2:
@@ -590,14 +590,14 @@ const facultydata = [
     },
     {
       id: 14,
-      name: "Faculty of Homoeopathy",
-      heading: "About Faculty of Homoeopathy",
+      name: "Faculty of Homeopathy",
+      heading: "About Faculty of Homeopathy",
       img1: "https://monarkuni.ac.in/wp-content/uploads/2023/03/homeo3-1.jpg",
       text_1:
-        "Objective of the institute is to committed endeavors to strengthen, promote and propagate the healing science of Homoeopathy to serve various health needs of mankind. The staff fraternity of the institution is determined to achieve the highest standard of academic excellence necessary to make significant contribution in several fields related to Homoeopathic discipline.",
+        "Objective of the institute is to committed endeavors to strengthen, promote and propagate the healing science of Homeopathy to serve various health needs of mankind. The staff fraternity of the institution is determined to achieve the highest standard of academic excellence necessary to make significant contribution in several fields related to Homoeopathic discipline.",
       img2: "https://monarkuni.ac.in/wp-content/uploads/2023/03/homeo1.jpg",
       text_2:
-        "Homoeopathy is a science of dynamised micro-Immnunology based on the law of Analogy. It is the System of Medicine which works on the principle of ‘Like Cures Like’ (Similia Similibus Curanter).This system of therapeutics is internationally accepted and is being practised in India through Homoeopathy Central Council Act 1973 passed by the Parliament of India.",
+        "Homeopathy is a science of dynamized micro-   Immnunology based on the law of Analogy. It is the System of Medicine which works on the principle of ‘Like Cures Like’ (Similia Similibus Curanter).This system of therapeutics is internationally accepted and is being practised in India through Homeopathy Central Council Act 1973 passed by the Parliament of India.",
       //missing photo
       car_1:
         "https://monarkuni.ac.in/wp-content/uploads/2023/08/Ayurveda-9-1024x683.jpg",
@@ -607,7 +607,7 @@ const facultydata = [
         "https://monarkuni.ac.in/wp-content/uploads/2023/08/Ayurveda-4-1024x683.jpg",
       car_4:
         "https://monarkuni.ac.in/wp-content/uploads/2023/08/Ayurveda-5-1024x683.jpg",
-      hastagID: "homoeopathy",
+      hastagID: "Homeopathy",
       after10:[
 
       ],

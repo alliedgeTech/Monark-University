@@ -20,7 +20,7 @@ export default function Course() {
 								<span className="it-section-subtitle-2">Our Courses</span>
 								<h4 className="it-section-title">
 									Creating A Community Of <br />
-									Life Long Learners.
+									Life Long Students.
 								</h4>
 							</div>
 						</div>

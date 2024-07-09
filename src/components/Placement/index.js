@@ -199,7 +199,7 @@ const index = () => {
                             education goes beyond classroom learning. It
                             encompasses practical exposure and real-world
                             application, which are essential for your
-                            professional development. Our training programs are
+                            professional development. Our training programmess are
                             meticulously designed to bridge the gap between
                             academia and industry requirements. They aim to
                             equip you with not just theoretical knowledge but
@@ -236,7 +236,7 @@ const index = () => {
                             University to shape a bright and fulfilling future.
                             <br />                            <i class="fa-regular fa-circle-right mr-15"></i>
                             I encourage you to actively participate in
-                            our training programs and engage in the placement
+                            our training programmes and engage in the placement
                             process. Your proactive involvement will undoubtedly
                             enhance your employability and pave the way for
                             exciting career prospects.

@@ -65,7 +65,7 @@ const index = () => {
                 <div className="three"></div>
                 <h5>Teacher Education</h5>
                 <p>
-                  The policy suggests changes in teacher education programs and
+                  The policy suggests changes in teacher education programmes and
                   continuous professional development for teachers.
                 </p>
               </div>

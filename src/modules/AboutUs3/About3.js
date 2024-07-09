@@ -281,13 +281,13 @@ export default function About() {
                             share with you the vision of this University. The
                             University aims at imparting quality education and
                             achieving excellence in all of its academic
-                            programs.
+                            programmes.
                           </p>
                           <p>
                             <i class="fa-regular fa-circle-right mr-15"></i>
                             In fast changing technological advancements and
                             global economic environment, we planned to strive to
-                            bring global perspective to its academic programs
+                            bring global perspective to its academic programmes
                             and activities. The focus is on building a strong
                             team of highly qualified faculty members and
                             dedicated supporting staff to meet national and
@@ -299,7 +299,7 @@ export default function About() {
                             curriculum and ensuring quality education. In order
                             to enhance the knowledge of the students in several
                             core areas, emphasis is given on wide variety of
-                            academic programs for their multifaceted
+                            academic programmes for their multifaceted
                             development.
                           </p>
                         </div>
@@ -311,7 +311,7 @@ export default function About() {
                             qualified and motivated faculty members who work
                             with commitment and dedication for the cause of
                             education and research. The outcome based course
-                            curriculum of our programs has been designed and
+                            curriculum of our programmes has been designed and
                             developed with the help of national level experts so
                             that desired competency and skills can be inculcated
                             in the students to make them employable.

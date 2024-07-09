@@ -7,7 +7,7 @@ const studentclubdetailsdata=[
     {
         id:2,
         header:"Mission",
-        content:"The Smile Please Event Organizing Club plans and oversees the smooth execution of all the different programs, functions and events during the academic year."
+        content:"The Smile Please Event Organizing Club plans and oversees the smooth execution of all the different programmes, functions and events during the academic year."
     },
     {
         id:3,
