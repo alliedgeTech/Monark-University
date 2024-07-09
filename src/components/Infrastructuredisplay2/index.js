@@ -13,7 +13,7 @@ const Infrastructuredisplay = () => {
     gsap.registerPlugin(ScrollTrigger);
 
     aos.init({
-      offset: 200, // Offset (in pixels) from the original trigger point
+      offset: 100, // Offset (in pixels) from the original trigger point
       duration: 800, // Duration of animation (in milliseconds)
     });
 

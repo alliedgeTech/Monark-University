@@ -25,7 +25,7 @@ body.darkmode{
     --web-header:rgba(241, 241, 241, 0.736);
     --web-footer:#f2f2f2;
     --web-light-black:#373737;
-    --web-light-blue:#96c2e4;
+    --web-light-blue:#e7e7e7;
 }
 .darkmode{
     --web-light-blue:#2c3136;
