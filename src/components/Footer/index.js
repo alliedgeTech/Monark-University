@@ -18,7 +18,7 @@ export default function Footer(props) {
           <div className="col-lg-3 d-flex align-items-center justify-content-center col-md-6 col-6">
             <div className="footer-pdf-btn">
               <Link href='/npe'>
-          <button>NPE-2020</button>
+          <button>NEP-2020</button>
               </Link>
         </div>
           </div>

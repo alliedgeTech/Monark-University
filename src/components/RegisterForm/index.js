@@ -73,7 +73,7 @@ export default function InquiryForm() {
                 </div>
                 <div className="col-6 mb-25">
                   <div className="it-contact-input-box">
-                    <label>Email*</label>
+                    <label>Department*</label>
                     <input
                       type="email"
                       placeholder="Email"
