@@ -63,7 +63,7 @@ export default function Service() {
                       data-bs-slide-to="1"
                       aria-label="Slide 2"
                     >
-                      After 12
+                      UG Course
                     </button>
                     <button
                       type="button"

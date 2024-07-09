@@ -85,7 +85,7 @@ export default function ServiceDetailsArea() {
             <div className="nav nav-tabs mb-3" id="nav-tab" role="tablist">
               {courses.map((course, index) => (
                 <button
-                data-aos='fade-up'
+                
                   key={index}
                   className={`nav-link ${index === activeTab ? 'active' : ''}`}
                   onClick={() => setActiveTab(index)}

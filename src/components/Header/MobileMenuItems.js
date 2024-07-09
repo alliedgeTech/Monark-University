@@ -339,7 +339,7 @@ export default function MobileMenuItems(props) {
                 <Link href="/services">After 10th</Link>
               </li>
               <li>
-                <Link href="/services-2">After 12th</Link>
+                <Link href="/services-2">UG Course</Link>
               </li>
               <li>
                 <Link href="/services-3">Pg Courses</Link>
