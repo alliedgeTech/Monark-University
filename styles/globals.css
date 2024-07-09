@@ -2707,10 +2707,10 @@ tr {
     padding: 20px 30px;
     border-radius: 20px;
     top: 50%;
-    right: 0;
+    right: 5%;
     width: 65%;
     transform: translate(0%,-50%);
-    background: var(--web-light-blue);
+    background: var(--web-white);
 }
 .vision img{
     border-radius: 20px;
@@ -2721,10 +2721,10 @@ tr {
     padding: 20px 30px;
     border-radius: 20px;
     top: 50%;
-    left: 0;
+    left: 5%;
     width: 65%;
     transform: translate(0%,-50%);
-    background: var(--web-light-blue);
+    background: var(--web-white);
 }
 @media screen and (max-width:991px) {
     .middle-texts{

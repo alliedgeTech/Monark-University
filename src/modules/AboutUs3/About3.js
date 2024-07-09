@@ -183,8 +183,8 @@ export default function About() {
               Discover your gain
             </h1>
           </div>
-
-          <div class="row vision p-relative">
+          <div className="deg45">
+          <div class="row vision px-lg-5 px-md-5 px-3 py-4 py-lg-5 deg-45 p-relative">
             <div className="col-lg-6 col-md-5 col-12 mt-lg-0 mt-4">
               <div className="vision-img" data-aos="zoom-in-right">
                 <img
@@ -209,7 +209,10 @@ export default function About() {
               </div>
             </div>
           </div>
-          <div className="row flex-row-reverse  vision  mt-4 p-relative">
+
+          </div>
+          <div className="deg45 mt-50">
+          <div className="row flex-row-reverse  vision px-lg-5 px-md-5 px-3 py-4 py-lg-5 deg-45 mt-4 p-relative">
             <div className="col-lg-6 col-md-5 col-12 mt-lg-0 mt-4">
               <div className="vision-img" data-aos="fade-in">
                 <img src="/img/vision/mission.jpg" alt="" />
@@ -229,6 +232,8 @@ export default function About() {
                 </p>
               </div>
             </div>
+          </div>
+
           </div>
         </div>
       </div>
