@@ -116,11 +116,11 @@ export default function ServiceDetailsArea() {
 
       <div className="mt-20">
           <nav>
-            <div className="nav nav-tabs mb-3 d-flex flex-wrap align-items-center gap-2" id="nav-tab" role="tablist">
+            <div className="mb-3 d-flex flex-wrap" id="nav-tab" role="tablist">
               {courses.map((course, index) => (
                 <button
                   key={index}
-                  className={`nav-link ${index === activeTab ? 'active' : ''}`}
+                  className={`nav-link btn-31 ms-3 mt-2 ${index === activeTab ? 'active' : ''}`}
                   onClick={() => setActiveTab(index)}
                   id={`nav-${index}`}
                   data-bs-toggle="tab"
@@ -130,7 +130,12 @@ export default function ServiceDetailsArea() {
                   aria-controls={`nav-${course.id}`}
                   aria-selected={index === activeTab ? 'true' : 'false'}
                 >
-                  {course.title}
+
+                  <span className="text-container">
+                  <span class="text">
+                    {course.title}
+                  </span>
+                  </span>
                 </button>
               ))}
             </div>
