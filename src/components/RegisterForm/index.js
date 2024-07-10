@@ -1,10 +1,11 @@
-import React, { useRef, useState } from "react";
+import React, { useRef } from "react";
 import { toast, Toaster } from "react-hot-toast";
 
 export default function InquiryForm() {
   const form = useRef();
-  
+
   const clearData = () => {
+    form.current.reset(); // Reset form fields
     toast.success('Form submitted successfully!');
   };
 
@@ -16,11 +17,11 @@ export default function InquiryForm() {
     formData.append('department', form.current.user_department.value);
     formData.append('sem', form.current.user_sem.value);
     formData.append('percentage', form.current.user_percentage.value);
-    formData.append('file', form.current.user_file.files[0]); // handling file upload
+    formData.append('resume', form.current.user_file.files[0]); // handling file upload
 
     try {
       const response = await fetch(
-        "https://monarkuniversitybacked.onrender.com/enquiry",
+        "https://monarkuniversitybacked.onrender.com/Registra",
         {
           method: "POST",
           body: formData, // sending FormData
@@ -32,9 +33,11 @@ export default function InquiryForm() {
         clearData(); // Call clearData() here after successful submission
       } else {
         console.error("Failed to send data to API:", response.statusText);
+        toast.error('Failed to submit form. Please try again.');
       }
     } catch (error) {
       console.error("Error occurred while sending data:", error);
+      toast.error('Error occurred while submitting form. Please try again.');
     }
   };
 
@@ -103,7 +106,7 @@ export default function InquiryForm() {
 
               <button type="submit" className="it-btn">
                 <span>
-                  Send Message
+                  Register
                   <svg
                     width="17"
                     height="14"
