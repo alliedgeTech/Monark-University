@@ -3227,3 +3227,11 @@ tr {
     }
     
 }
+.filter-year select{
+    background: var(--web-white);
+    color: var(--web-black);
+    border: 0;
+    width: 170px;
+    border-bottom: 1px solid var(--web-light-black);
+    outline: 0 !important;
+}

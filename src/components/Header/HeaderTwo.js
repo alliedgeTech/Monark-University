@@ -54,7 +54,7 @@ export default function Header(props) {
                             className="img-fluid"
                             width={60}
                             height={60}
-                            src="/img/logo/MONARK_LOGO.png"
+                            src="/img/logo/MULOGOR.png"
                             alt=""
                           />
                         </Link>
@@ -86,7 +86,7 @@ export default function Header(props) {
                   {/* <div className="row align-items-center">
 										<div className="col-xl-2 col-6">
 											<div className="it-header-2-logo">
-												<Link href="/"><Image className='img-fluid' width={60} height={60} src="/img/logo/MONARK_LOGO.png" alt="" /></Link>
+												<Link href="/"><Image className='img-fluid' width={60} height={60} src="/img/logo/MULOGOR.png" alt="" /></Link>
 											</div>
 										</div>
 										<div className="col-xl-10 d-none d-xl-block">

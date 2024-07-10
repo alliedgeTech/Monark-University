@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import footerImg from "../../../public/img/logo/MONARK_LOGO.png";
+import footerImg from "../../../public/img/logo/MULOGOR.png";
 
 export default function Footer(props) {
   const { footerLogo, footerClass } = props;

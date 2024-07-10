@@ -99,7 +99,7 @@ const index = () => {
                   <div className="high-img-box p-relative" data-aos='zoom-in'>
                     <img
                       className="img-fluid"
-                      src="https://images.shiksha.com/mediadata/images/1626701580phphurJ1Q.jpeg"
+                      src="/img/highlight/high2.jpg"
                       alt=""
                     />
                     <small className="high-button">2. Highlight</small>
