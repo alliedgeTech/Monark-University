@@ -20,7 +20,6 @@ import { ScrollTrigger } from "gsap/dist/ScrollTrigger";
 import { useEffect } from "react";
 import 'aos/dist/aos.css'; 
 import aos from 'aos'; 
-import { Button } from "bootstrap/dist/js/bootstrap.bundle.min";
 
 // Import jQuery
 if (typeof window !== "undefined") {
@@ -167,15 +166,6 @@ export default function Course() {
             >
               Personality Develop Club
             </button>
-            <Link href='/campus3#studentclub'>
-            <button
-            data-aos='fade-up'
-              type="button"
-              className="ski-button"
-            >
-              know more
-            </button>
-            </Link>
           </div>
 
           <div class="carousel-inner py-4 px-3 mt-10">
@@ -302,9 +292,7 @@ export default function Course() {
                 </div>
               </div>
             </div>
-
           </div>
-          
         </div>
       </div>
     </div>

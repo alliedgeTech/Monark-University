@@ -4,12 +4,13 @@ import "owl.carousel/dist/assets/owl.carousel.css";
 import "owl.carousel/dist/assets/owl.theme.default.css";
 import Link from "next/link";
 import axios from "axios";
-import "aos/dist/aos.css";
-import aos from "aos";
+import 'aos/dist/aos.css'; 
+import aos from 'aos'; 
+
 
 if (typeof window !== "undefined") {
   var $ = require("jquery");
-  window.$ = window.JQuery = require("jquery");
+  window.$ = window.jQuery = require("jquery");
 }
 
 // Dynamically import OwlCarousel without SSR
@@ -50,36 +51,14 @@ const ExamAPI = async ({ method, endpoint, data }) => {
   }
 };
 
-const DownloadButton = ({ url, filename }) => {
-  const handleDownload = () => {
-    const link = document.createElement('a');
-    link.href = url;
-    link.download = filename;
-    link.target = "_blank";
-
-    document.body.appendChild(link);
-    link.click();
-    document.body.removeChild(link);
-  };
-
-  return (
-    <button onClick={handleDownload} className="btn hover-btn">
-      <div className="text-div">
-        <small>Download</small>
-        <small>Download</small>
-      </div>
-    </button>
-  );
-};
-
 const Examdisplay = () => {
   const [exam, setExam] = useState([]);
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
     aos.init({
-      offset: 50,
-      duration: 700,
+      offset: 50, // Offset (in pixels) from the original trigger point
+      duration: 700, // Duration of animation (in milliseconds)
     });
     fetchData();
   }, []);
@@ -97,14 +76,10 @@ const Examdisplay = () => {
       setLoading(false);
     }
   };
-
   return (
     <div className="placement" id="exams">
       <div id="latest-news" className="container py-4">
-        <div
-          data-aos="fade-up"
-          className="student-placement-heading eight d-flex align-items-center justify-content-center mb-20"
-        >
+        <div data-aos='fade-up' className="student-placement-heading eight d-flex align-items-center justify-content-center mb-20">
           <h1 className="text-center mb-0 w-100">Exam Schedule</h1>
         </div>
 
@@ -119,22 +94,31 @@ const Examdisplay = () => {
             <div className="container">
               <div className="row"></div>
               <div className="list-officers-table">
-                <table className="rwd-table">
+                <table class="rwd-table">
                   <tbody>
-                    <tr data-aos="fade-right">
+                    <tr data-aos='fade-right'>
                       <th>Date</th>
                       <th>Exam</th>
                       <th>Download</th>
                     </tr>
-                    {exam.map((item, id) => (
-                      <tr key={id} data-aos="fade-right">
-                        <td>{item.uploadDate.toString().split("T")[0]}</td>
-                        <td>{item.title}</td>
-                        <td>
-                          <DownloadButton url={item.documentUrl} filename={item.title} />
-                        </td>
-                      </tr>
-                    ))}
+                    {exam.map((item, id) => {
+                      return (
+                        <tr data-aos='fade-right'>
+                          <td>{item.uploadDate.toString().split('T')[0]}</td>
+                          <td>{item.title}</td>
+                          <td>
+                          <Link href={item.documentUrl} target="_blank">
+                              <button className="btn hover-btn">
+                                <div className="text-div">
+                                  <small>Download</small>
+                                  <small>Download</small>
+                                </div>
+                              </button>
+                            </Link>
+                          </td>
+                        </tr>
+                      );
+                    })}
                   </tbody>
                 </table>
               </div>

@@ -1,17 +1,4 @@
 import Image from "next/image";
-import Link from "next/link";
-import fullimg from "../../../public/img/choose/monarknew.jpg";
-import blankm from "../../../public/img/choose/NS.jpg";
-import sb from "../../../public/img/choose/sb.jpg";
-import hs from "../../../public/img/choose/hs.jpg";
-import ai from "../../../public/img/choose/AICTE.png";
-import nc from "../../../public/img/choose/NCTE.png";
-import gn from "../../../public/img/choose/GNC.jpg";
-import bc from "../../../public/img/choose/BCI.png";
-import na from "../../../public/img/choose/NAAC.png";
-import is from "../../../public/img/choose/ISTE.jpg";
-import vi from "../../../public/img/choose/VIPNET.png";
-import ncc from "../../../public/img/choose/NCC.jpg";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/dist/ScrollTrigger";
 import { useEffect, useState } from "react";
