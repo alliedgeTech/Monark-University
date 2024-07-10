@@ -80,7 +80,7 @@ export default function ServiceDetailsArea() {
   return (
     <div className={styles.serviceDetailsArea}>
       <Container>
-        <div className="mt-100">
+        <div className="">
           <nav>
             <div className="d-flex flex-wrap  mb-3" id="nav-tab" role="tablist">
               {courses.map((course, index) => (
