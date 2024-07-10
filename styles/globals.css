@@ -1820,17 +1820,23 @@ tr {
     overflow: visible;
     background: #fff !important;
 }
-
+@media screen and (max-width: 768px) {
+    .carousel-orange-buttons button {
+        padding: 13px 3px !important;
+        color: #000;
+        font-weight: 600;
+    } 
+}
 .carousel-orange-buttons button {
     padding: 12px 22px;
     color: #000;
     font-weight: 600;
-}
+} 
 
 .carousel-orange-buttons .active {
     background: var(--web-orange);
     font-weight: 600;
-    transform: scale(1.2);
+    transform: scale(1.1);
     color: #ffffff !important;
     border-radius: 8px;
 }
@@ -1882,9 +1888,7 @@ tr {
         padding: 0 4px;
     }
 
-    .carousel-orange-buttons button {
-        padding: 10px 7px !important;
-    }
+    
 }
 
 .it-breadcrumb-bg::after {
