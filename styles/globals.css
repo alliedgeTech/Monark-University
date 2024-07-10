@@ -3249,3 +3249,8 @@ tr {
     border-bottom: 1px solid var(--web-light-black);
     outline: 0 !important;
 }
+.file-cv{
+    height: 100% !important;
+    width: 100% !important;
+    display: block !important;
+}
