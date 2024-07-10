@@ -2485,6 +2485,16 @@ tr {
     border-radius: 6px 0 0 6px;
     background: var(--web-color);
   }
+  @media screen and (max-width:788px) {
+    .timeline__event:nth-child(2n+1) .timeline__event__content {
+        border-radius: 0px 0 0 0px;
+      }
+      .timeline__event__content
+      {
+        border-radius: 0px 0px 0px 0px !important;
+      }
+    
+}
   .timeline__event:nth-child(2n+1) .timeline__event__icon:before {
     content: "";
     width: 2px;
