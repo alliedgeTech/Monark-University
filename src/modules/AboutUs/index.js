@@ -9,7 +9,7 @@ import ActionButton from "@/components/Actionbutton";
 export default function AboutUsModules() {
   return (
     <main>
-      <BreadCrumbs Title="About MU" />
+      <BreadCrumbs Title="About MU"   />
 
       <About />
 

@@ -166,6 +166,11 @@ export default function Course() {
             >
               Personality Develop Club
             </button>
+            <Link href='/campus3#studentclub'>
+              <button className="ski-button" data-aos='fade-up'>
+                  Know more
+              </button>
+            </Link>
           </div>
 
           <div class="carousel-inner py-4 px-3 mt-10">

@@ -110,8 +110,8 @@ const Examdisplay = () => {
                           <Link href={item.documentUrl} target="_blank">
                               <button className="btn hover-btn">
                                 <div className="text-div">
-                                  <small>Download</small>
-                                  <small>Download</small>
+                                  <small className="text-white">Download</small>
+                                  <small className="text-white">Download</small>
                                 </div>
                               </button>
                             </Link>

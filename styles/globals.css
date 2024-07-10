@@ -429,7 +429,7 @@ small{
 
 .hover-btn:hover small {
     transform: translateY(-100%) !important;
-    color: var(--web-white) !important;
+    color: #fff !important;
 }
 
 
