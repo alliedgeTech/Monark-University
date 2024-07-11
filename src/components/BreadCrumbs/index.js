@@ -4,7 +4,6 @@ export default function BreadCrumbs( props ) {
 	
 	const breadCrumbsStyle = {
 		backgroundImage: `url(${Img ? Img : "/img/brand/bradimg5.jpg"})`,
-		height:'400px',
 	}
 
 	return (

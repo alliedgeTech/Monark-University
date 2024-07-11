@@ -3293,3 +3293,18 @@ tr {
 .footer-middle a{
     color: var(--web-black) !important;
 }
+.it-breadcrumb-bg{
+    height: 400px !important;
+}
+@media screen and (max-width: 768px) {
+    .it-breadcrumb-bg{
+        height: 250px !important;
+    }
+    
+}
+@media screen and (max-width: 686px) {
+    .it-breadcrumb-bg{
+        width: 100% !important;
+        height: 140px !important;
+    }
+}
