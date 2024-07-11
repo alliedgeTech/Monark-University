@@ -90,6 +90,7 @@ p {
 }
 small{
     color: var(--web-black);
+    font-size: 15px;
 }
 
 @media screen and (max-width: 768px) {
@@ -126,6 +127,9 @@ small{
         font-weight: 400;
         font-size: 14px !important;
         line-height: 22px !important;
+    }
+    small{
+        font-size: 13px;
     }
 }
 
@@ -758,6 +762,8 @@ small{
 
 .it-menu-content ul {
     margin: 0 !important;
+    /* display: flex;
+    align-items: center; */
 }
 
 .it-breadcrumb-area {
@@ -774,6 +780,7 @@ small{
 
 .submenu li a {
     color: black !important;
+
 }
 
 .faculty-info {
@@ -1170,7 +1177,7 @@ small{
 .it-feature-3-item:hover .it-feature-3-content h4 {
     color: var(--web-white);
 }
-.it-feature-3-item:hover .it-feature-3-title{
+.it-feature-3-item:hover .it-feature-3-title a{
     color: #fff !important;
 }
 .it-feature-3-item:hover .it-feature-3-content p{
@@ -1550,7 +1557,7 @@ tr {
     border: none !important;
 }
 
-.nav-tabs .nav-link.active {
+.navigation-link.active2 {
     background: var(--web-color) !important;
     border: none !important;
     /* border-radius: 20px !important; */
@@ -2288,8 +2295,17 @@ tr {
 }
 .dark-btn{
     background: #dadada;
-    border-radius: 12px;
-    padding: 0 7px;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    position: relative;
+}
+.dark-btn i{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 15px !important;
 }
 .it-header-2-main-menu ul li.has-dropdown::after{
     color: var(--web-black) !important;
@@ -2716,6 +2732,7 @@ tr {
 .it-category-title a,.it-feature-3-title a{
     text-transform: uppercase !important;
     /* letter-spacing: 0.1px; */
+    color: #000;
     font-family: Poppins !important;
 }
 
@@ -3260,4 +3277,19 @@ tr {
 .club-more{
     padding: 5px 16px;
     background: var(--web-color);
+}
+
+.navbar-links{
+    height: 75px;
+}
+
+
+.it-header-2-main-menu .submenu  li{
+    height: 35px !important;
+}
+.it-header-2-main-menu .has-megamenu  li{
+    height: 50px !important;
+}
+.footer-middle a{
+    color: var(--web-black) !important;
 }

@@ -150,7 +150,7 @@ const index = () => {
         <div className="it-sv-details-area mt-50 ">
           <div className="container">
             <div className="three mb-20">
-              <h4>Message From Training & Placement Officer</h4>
+              <h1 className="oswald">Message From Training & Placement Officer</h1>
             </div>
             <div className="row">
               <div className="col-12">

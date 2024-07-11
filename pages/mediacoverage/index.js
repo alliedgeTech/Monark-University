@@ -1,5 +1,5 @@
 import Footer from "@/components/Footer";
-import HeaderTwo from "@/components/Header/HeaderTwo";
+import Header from "@/components/Header";
 import MediaCoverageImage from "@/components/MediaCoverage";
 import Preloader from "@/components/Preloader";
 import dynamic from "next/dynamic";
@@ -11,7 +11,7 @@ const MediaCoverageModules = dynamic(() => import("@/modules/MediaCoverage"), {
 export default function MediaCoveragePage() {
   return (
     <main>
-      <HeaderTwo />
+      <Header />
       <MediaCoverageImage />
       <Footer />
     </main>

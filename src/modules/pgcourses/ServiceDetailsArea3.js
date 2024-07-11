@@ -120,7 +120,7 @@ export default function ServiceDetailsArea() {
               {courses.map((course, index) => (
                 <button
                   key={index}
-                  className={`nav-link btn-31 ms-3 mt-2 ${index === activeTab ? 'active' : ''}`}
+                  className={` navigation-link btn-31 ms-3 mt-2 ${index === activeTab ? 'active2' : ''}`}
                   onClick={() => setActiveTab(index)}
                   id={`nav-${index}`}
                   data-bs-toggle="tab"

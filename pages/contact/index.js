@@ -1,5 +1,5 @@
 import Footer from '@/components/Footer';
-import HeaderTwo from '@/components/Header/HeaderTwo';
+import Header from '@/components/Header';
 import Preloader from '@/components/Preloader';	
 import dynamic from 'next/dynamic'
  
@@ -10,7 +10,7 @@ const ContactModules = dynamic(() => import('@/modules/Contact'), {
 export default function Contact() {
 	return (
 		<main>
-			<HeaderTwo />
+			<Header />
 
 			<ContactModules />
 

@@ -87,7 +87,7 @@ export default function ServiceDetailsArea() {
                 <button
                 
                   key={index}
-                  className={`nav-link ms-3 mt-2 btn-31 ${index === activeTab ? 'active' : ''}`}
+                  className={`navigation-link ms-3 mt-2 btn-31 ${index === activeTab ? 'active2' : ''}`}
                   onClick={() => setActiveTab(index)}
                   id={`nav-${index}`}
                   data-bs-toggle="tab"

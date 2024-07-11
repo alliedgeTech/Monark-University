@@ -1,5 +1,5 @@
 import Footer from '@/components/Footer';
-import HeaderTwo from '@/components/Header/HeaderTwo';
+import Header from '@/components/Header';
 import Preloader from '@/components/Preloader';	
 import dynamic from 'next/dynamic'
  
@@ -10,7 +10,7 @@ const AboutUs2Modules = dynamic(() => import('@/modules/AboutUs2'), {
 export default function About() {
 	return (
 		<main>
-			<HeaderTwo/>
+			<Header/>
 
 			<AboutUs2Modules/>
 

@@ -1,6 +1,6 @@
 
 import Footer from '@/components/Footer';
-import HeaderTwo from '@/components/Header/HeaderTwo';
+import Header from '@/components/Header';
 import Preloader from '@/components/Preloader';	
 import dynamic from 'next/dynamic'
  
@@ -14,7 +14,7 @@ export default function Course(props) {
 	
 	return (
 		<main>
-			<HeaderTwo />
+			<Header />
 
 			<CourseModules />
 

@@ -184,7 +184,7 @@ export default function MenuItems(props) {
   return (
     <>
       {onePage == "onepage1" ? (
-        <ul>
+        <ul className="d-flex align-items-center">
           {onepageHomeMenu}
           <li>
             <Link href="#it-course">Course</Link>
@@ -279,12 +279,12 @@ export default function MenuItems(props) {
           </li>
         </ul>
       ) : (
-        <ul>
-          <li className="nav-link p-static">
+        <ul className="d-flex align-items-center navbar-links">
+          <li className="nav-link main-link p-static">
             <Link href="/">home</Link>
           </li>
 
-          <li className="nav-link has-dropdown about-us-dropdown">
+          <li className="nav-link main-link has-dropdown about-us-dropdown">
             <Link href="/about-us">About MU</Link>
             <ul className="about-us-submenu submenu">
               <li>
@@ -367,7 +367,7 @@ export default function MenuItems(props) {
             </ul>
           </li>
 
-          <li className="nav-link has-dropdown">
+          <li className="nav-link main-link has-dropdown">
             <Link href="/services">Admission</Link>
             <ul className="it-submenu submenu">
               <li>
@@ -385,7 +385,7 @@ export default function MenuItems(props) {
             </ul>
           </li>
 
-          <li className="nav-link has-dropdown">
+          <li className="nav-link main-link has-dropdown">
             <Link href="/faculty">Faculty</Link>
             <ul className="it-submenu submenu has-megamenu">
         {facultydata.map((faculty) => (
@@ -395,7 +395,7 @@ export default function MenuItems(props) {
         ))}
       </ul>
           </li>
-          <li className="nav-link has-dropdown">
+          <li className="nav-link main-link has-dropdown">
             <Link href="/calander">Academic</Link>
             <ul className="it-submenu submenu">
               <li>
@@ -417,7 +417,7 @@ export default function MenuItems(props) {
               </li>
             </ul>
           </li>
-          <li className="nav-link has-dropdown">
+          <li className="nav-link main-link has-dropdown">
             <Link href="/placement">Placement</Link>
             <ul className="it-submenu submenu">
             <li>
@@ -444,7 +444,7 @@ export default function MenuItems(props) {
               
             </ul>
           </li>
-          <li className="nav-link has-dropdown">
+          <li className="nav-link main-link has-dropdown">
             <Link href="/campus2">Campus Life</Link>
             <ul className="it-submenu submenu">
               <li>
@@ -478,7 +478,7 @@ export default function MenuItems(props) {
               </li>
             </ul>
           </li>
-          <li className="nav-link has-dropdown">
+          <li className="nav-link main-link has-dropdown">
             <Link href="/infrastructure">Infrastructure</Link>
             <ul className="it-submenu submenu">
               <li>
@@ -500,7 +500,7 @@ export default function MenuItems(props) {
               </li>
             </ul>
           </li>
-          <li className="nav-link">
+          <li className="nav-link main-link">
             <Link href="/contact">contact</Link>
           </li>
           <button className="dark-btn" onClick={toggleDarkMode}>

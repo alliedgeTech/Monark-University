@@ -1,6 +1,6 @@
 
 import Footer from '@/components/Footer';
-import HeaderTwo from '@/components/Header/HeaderTwo';
+import Header from '@/components/Header';
 import Preloader from '@/components/Preloader';	
 import dynamic from 'next/dynamic'
 import { useRouter } from 'next/router';
@@ -14,7 +14,7 @@ export default function Newsdetails() {
 	const { _id } = router.query;
 	return (
 		<main>
-			<HeaderTwo />
+			<Header />
 
 			<Newsmodules _id={_id}/>
 
