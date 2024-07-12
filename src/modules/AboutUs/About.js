@@ -11,9 +11,6 @@ import ncc from "../../../public/img/choose/NCC.jpg";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/dist/ScrollTrigger";
 import { useEffect, useState } from "react";
-import dynamic from "next/dynamic";
-import "owl.carousel/dist/assets/owl.carousel.css";
-import "owl.carousel/dist/assets/owl.theme.default.css";
 import "animate.css";
 export default function About() {
   useEffect(() => {

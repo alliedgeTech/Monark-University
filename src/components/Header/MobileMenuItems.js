@@ -242,7 +242,7 @@ export default function MobileMenuItems(props) {
           {/* About MU */}
           <li className="has-dropdown nav-link2">
             <Link
-              href="/about-us"
+              href="#"
               className={about ? "active" : ""}
               onClick={() => {
                 openMobileMenu("about");

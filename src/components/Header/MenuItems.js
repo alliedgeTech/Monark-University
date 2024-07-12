@@ -22,7 +22,6 @@ const ApiService = async ({ method, endpoint, data }) => {
 export default function MenuItems(props) {
   const [showPreloader, setShowPreloader] = useState(false);
   const [campusData, setCampusData] = useState([]);
-  const [loading, setLoading] = useState(true);
 
   
   
@@ -42,10 +41,8 @@ export default function MenuItems(props) {
           endpoint: `https://monarkuniversitybacked.onrender.com/Campus`,
         });
         setCampusData(result);
-        setLoading(false);
       } catch (error) {
         console.error("Error fetching data:", error);
-        setLoading(false);
       }
     };
 
@@ -53,13 +50,7 @@ export default function MenuItems(props) {
     
   }, []);
 
-  const handleNavigation = (url) => {
-    setShowPreloader(true);
-    setTimeout(() => {
-      setShowPreloader(false);
-      window.location.href = url;
-    }, 1000);
-  };
+  
 
   // Check localStorage for dark mode preference
   const [darkMode, setDarkMode] = useState(false);
@@ -321,7 +312,7 @@ export default function MenuItems(props) {
           </li>
 
           <li className="nav-link main-link has-dropdown about-us-dropdown">
-            <Link href="/about-us">About MU</Link>
+            <Link href="#">About MU</Link>
             <ul className="about-us-submenu submenu">
               <li>
                 <Link href="/about-us2">
@@ -481,9 +472,9 @@ export default function MenuItems(props) {
             </ul>
           </li>
           <li className="nav-link main-link has-dropdown">
-            <Link href="/campus2">Campus Life</Link>
+            <Link href="#">Campus Life</Link>
             <ul className="it-submenu submenu">
-            {campusData.map((campus, index) => (
+            {campusData.map((campus,index) => (
       <li key={index}>
         <Link href={`/campus2?id=${campus._id}`}>{campus.title}</Link>
       </li>

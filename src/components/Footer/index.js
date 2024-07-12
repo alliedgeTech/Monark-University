@@ -3,7 +3,6 @@ import Link from "next/link";
 
 
 export default function Footer(props) {
-  const { footerLogo, footerClass } = props;
   return (
     <footer className="footer  pt-0">
       <div className="footer-up py-4 mb-20 px-2">
@@ -77,7 +76,6 @@ export default function Footer(props) {
                     <i class="fa-solid fa-circle-chevron-right mr-10"></i>
                     <Link href="/placement">Placement</Link>
                   </li>
-                  {/* <li><i class="fa-solid fa-circle-chevron-right mr-10"></i><Link href="">Alumni</Link></li> */}
                   <li>
                     <i class="fa-solid fa-circle-chevron-right mr-10"></i>
                     <Link href="/career">Career @ MU</Link>
@@ -85,17 +83,7 @@ export default function Footer(props) {
                 </ul>
               </div>
             </div>
-            {/* <div className="col-lg-3 col-md-6 col-12">
-							<h6>Multi-Skills Development & Training Centre</h6>
-							<ul>
-								<li><Link href="/faculty#music">Music & Production</Link></li>
-								<li><Link href="/faculty#fitness">Fitness & Nutriton</Link></li>
-								<li><Link href="/faculty#it">IT Courses</Link></li>
-								<li><Link href="/faculty#aviation">Aviation & Management</Link></li>
-								<li><Link href="/faculty#mlt"> Medical Laboratory Technology (MLT)</Link></li>
-								<li><Link href="/faculty#hair">Hair Dressing & Beauty</Link></li>
-							</ul>
-						</div> */}
+            
             <div className="col-lg-6 col-md-6 col-12">
               <div className="d-flex flex-column ">
                 <h6>List of Institutes</h6>

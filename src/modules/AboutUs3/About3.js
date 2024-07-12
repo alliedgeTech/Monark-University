@@ -15,9 +15,8 @@ if (typeof window !== "undefined") {
 }
 
 // Dynamically import OwlCarousel without SSR
-const OwlCarousel = dynamic(() => import("react-owl-carousel"), {
-  ssr: false,
-});
+const OwlCarousel = dynamic(() => import('react-owl-carousel'), { ssr: false });
+
 
 const Responsive = {
   0: {
@@ -113,11 +112,8 @@ export default function About() {
       });
     });
   }, []);
-  const [isExpanded, setIsExpanded] = useState(false);
 
-  const toggleExpand = () => {
-    setIsExpanded(!isExpanded);
-  };
+ 
   return (
     <div id="visionandmission" className="mt-5">
       <div class="it-career-area it-career-bg py-2">

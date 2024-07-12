@@ -1,4 +1,3 @@
-import Newsletter from "@/components/Newsletter"
 import BreadCrumbs from "@/components/BreadCrumbs"
 import ScrollTop from "@/components/ScrollTop"
 import Campusdisplay2 from "@/components/campusdisplay2"
@@ -9,12 +8,8 @@ export default function CampusModules() {
 	return (
 		<main>
 			<BreadCrumbs
-				Title="Campus Life"
-				
-			/>
-
+				Title="Campus Life"/>
 			<Campusdisplay2/>
-			<Newsletter />
 			<ScrollTop />
 		</main>
 	)

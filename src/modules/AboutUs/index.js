@@ -2,9 +2,8 @@ import About from "./About";
 import BreadCrumbs from "@/components/BreadCrumbs";
 
 import Team from "./Team";
-import Newsletter from "@/components/Newsletter";
+
 import ScrollTop from "@/components/ScrollTop";
-import ActionButton from "@/components/Actionbutton";
 
 export default function AboutUsModules() {
   return (
@@ -15,7 +14,6 @@ export default function AboutUsModules() {
 
       <Team />
 
-      <Newsletter />
       <ScrollTop />
     </main>
   );

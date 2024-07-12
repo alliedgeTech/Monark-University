@@ -12,9 +12,7 @@ if (typeof window !== "undefined") {
 }
 
 // Dynamically import OwlCarousel without SSR
-const OwlCarousel = dynamic(() => import("react-owl-carousel"), {
-  ssr: false,
-});
+const OwlCarousel = dynamic(() => import('react-owl-carousel'), { ssr: false });
 
 const Responsive = {
   0: {

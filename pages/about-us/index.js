@@ -11,9 +11,7 @@ export default function About() {
 	return (
 		<main>
 			<Header/>
-
 			<AboutUsModules/>
-
 			<Footer />
 		</main>
 	)
