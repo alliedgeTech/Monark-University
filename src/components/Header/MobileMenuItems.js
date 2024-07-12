@@ -242,7 +242,7 @@ export default function MobileMenuItems(props) {
           {/* About MU */}
           <li className="has-dropdown nav-link2">
             <Link
-              href=""
+              href="/about-us"
               className={about ? "active" : ""}
               onClick={() => {
                 openMobileMenu("about");
@@ -273,11 +273,12 @@ export default function MobileMenuItems(props) {
                 <Link href="/about-us3#presidentmessage">President's Message</Link>
               </li>
               <li>
-                <Link href="/about-us3#presidentmessage">Vice President's Message</Link>
+                <Link href="/about-us3#vicepresidentmessage">Vice President's Message</Link>
               </li>
               <li>
                 <Link href="/about-us3#provostmessage">Provost Message</Link>
               </li>
+              
               <li>
                 <Link href="/about-us#leadership">Leadership</Link>
               </li>
@@ -314,7 +315,7 @@ export default function MobileMenuItems(props) {
           {/* Admission */}
           <li className="has-dropdown nav-link2">
             <Link
-              href=""
+              href="services"
               className={service ? "active" : ""}
               onClick={() => {
                 openMobileMenu("service");
@@ -352,7 +353,7 @@ export default function MobileMenuItems(props) {
           {/* Faculty */}
           <li className="has-dropdown nav-link2">
             <Link
-              href=""
+              href="/faculty"
               className={page ? "active" : ""}
               onClick={() => {
                 openMobileMenu("page");
@@ -384,7 +385,7 @@ export default function MobileMenuItems(props) {
           {/* Academic */}
           <li className="has-dropdown nav-link2">
             <Link
-              href=""
+              href="/calander"
               className={academic ? "active" : ""}
               onClick={() => {
                 openMobileMenu("academic");
@@ -425,7 +426,7 @@ export default function MobileMenuItems(props) {
           {/*Placement  */}
           <li className="has-dropdown nav-link2">
             <Link
-              href=""
+              href="/placement"
               className={placement ? "active" : ""}
               onClick={() => {
                 openMobileMenu("placement");
@@ -458,12 +459,17 @@ export default function MobileMenuItems(props) {
               <li>
                 <Link href="/placement#recruiters">Recruiters</Link>
               </li>
+              <li>
+                <Link href="/register">
+                Register Now
+                </Link>
+              </li>
             </ul>
           </li>
           {/* Campus Life */}
           <li className="has-dropdown nav-link2">
             <Link
-              href=""
+              href="/campus2"
               className={campuslife ? "active" : ""}
               onClick={() => {
                 openMobileMenu("campuslife");
@@ -484,62 +490,7 @@ export default function MobileMenuItems(props) {
               </svg>
             </Link>
             <ul className={campuslife ? "it-submenu submenu-open" : "it-submenu"}>
-              <li>
-                <Link href="/campus2#artsandculture">Arts & Culture</Link>
-              </li>
-              <li>
-                <Link href="/campus2#campusevent">Campus Event</Link>
-              </li>
-              <li>
-                <Link href="/campus#nss">Community Services</Link>
-              </li>
-              <li>
-                <Link href="/campus#ncc">NCC</Link>
-              </li>
-              <li>
-                <Link href="/campus#sports">Sports</Link>
-              </li>
-              <li>
-                <Link href="/campus2#workshopsandseminars">
-                  Workshops & Seminars
-                </Link>
-              </li>
-              <li>
-                <Link href="/campus2#yoga">Yoga Day</Link>
-              </li>
-              {/* <li>
-                <Link href="/campus#teacherday">Teacher's Day</Link>
-              </li> */}
-              <li>
-                <Link href="/campus3#studentclub">Students Club</Link>
-              </li>
-            </ul>
-          </li>
-          {/* Infrastructure */}
-          <li className="has-dropdown nav-link2">
-            <Link
-              href=""
-              className={blog ? "active" : ""}
-              onClick={() => {
-                openMobileMenu("blog");
-              }}
-            >
-              Infrastructure
-              <svg
-                width="9"
-                height="7"
-                viewBox="0 0 9 7"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  d="M4.47035e-08 2.145L1.275 0.854999L4.5 4.08L7.725 0.854999L9 2.145L4.5 6.645L4.47035e-08 2.145Z"
-                  fill="#0E2A46"
-                ></path>
-              </svg>
-            </Link>
-            <ul className={blog ? "it-submenu  submenu-open" : "it-submenu"}>
-              <li>
+            <li>
                 <Link href="/infrastructure#lab">Laboratories</Link>
               </li>
               <li>
@@ -556,8 +507,16 @@ export default function MobileMenuItems(props) {
               <li>
                 <Link href="/infrastructure#ground">Sports Ground & Court</Link>
               </li>
+           
+             
+           
+              <li>
+                <Link href="/campus3#studentclub">Students Club</Link>
+              </li>
             </ul>
           </li>
+          {/* Infrastructure */}
+       
           <li className="nav-link2">
             <Link href="/contact">contact</Link>
           </li>

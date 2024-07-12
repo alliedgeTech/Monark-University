@@ -1,4 +1,3 @@
-import Image from "next/image";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/dist/ScrollTrigger";
 import { useEffect, useState } from "react";
@@ -39,48 +38,6 @@ const Responsive = {
   },
 };
 
-const apvrs = [
-  {
-    Title: "AICTE",
-    Logo: "../../../public/img/choose/AICTE.png",
-    Url: "https://www.aicte-india.org",
-  },
-  {
-    Title: "NCTE",
-    Logo: "../../../public/img/choose/NCTE.png",
-    Url: "https://ncte.gov.in/website/index.aspx",
-  },
-  {
-    Title: "GNC",
-    Logo: "../../../public/img/choose/GNC.png",
-    Url: "https://www.gujaratnursingcouncil.org",
-  },
-  {
-    Title: "BCI",
-    Logo: "../../../public/img/choose/BCI.png",
-    Url: "https://www.barcouncilofindia.org/home",
-  },
-  {
-    Title: "NAAC",
-    Logo: "../../../public/img/choose/NAAC.png",
-    Url: "http://naac.gov.in/index.php/en/",
-  },
-  {
-    Title: "ISTE",
-    Logo: "../../../public/img/choose/ISTE.png",
-    Url: "http://www.isteonline.in/",
-  },
-  {
-    Title: "VIPNET",
-    Logo: "../../../public/img/choose/VIPNET.png",
-    Url: "https://vigyanprasar.gov.in/vipnet/",
-  },
-  {
-    Title: "NCC",
-    Logo: "../../../public/img/choose/NCC.jpeg",
-    Url: "https://indiancc.mygov.in/",
-  },
-];
 export default function About() {
   useEffect(() => {
     gsap.registerPlugin(ScrollTrigger);
@@ -171,56 +128,54 @@ export default function About() {
             </h1>
           </div>
           <div className="deg45">
-          <div class="row vision px-lg-5 px-md-5 px-3 py-4 py-lg-5 deg-45 p-relative">
-            <div className="col-lg-6 col-md-5 col-12 mt-lg-0 mt-4">
-              <div className="vision-img" data-aos="zoom-in-right">
-                <img
-                  className="img-fluid filp"
-                  src="/img/vision/vision2.jpeg"
-                  alt=""
-                />
-              </div>
-            </div>
-            <div className="col-lg-6 col-md-7 col-12 mt-lg-0 mt-4 ">
-              <div className="middle-texts">
-                <div className="three" data-aos="zoom-in">
-                  <h1>Vision</h1>
+            <div class="row vision px-lg-5 px-md-5 px-3 py-4 py-lg-5 deg-45 p-relative">
+              <div className="col-lg-6 col-md-5 col-12 mt-lg-0 mt-4">
+                <div className="vision-img" data-aos="zoom-in-right">
+                  <img
+                    className="img-fluid filp"
+                    src="/img/vision/vision2.jpeg"
+                    alt=""
+                  />
                 </div>
-                <p data-aos="zoom-in">
-                  Monark University will be an inclusive and engaged
-                  research-intensive university that inspires creativity through
-                  outstanding achievements in learning, with up to date
-                  curriculum and contemporary delivery to meet the demands of
-                  the global higher education landscape.
-                </p>
+              </div>
+              <div className="col-lg-6 col-md-7 col-12 mt-lg-0 mt-4 ">
+                <div className="middle-texts">
+                  <div className="three" data-aos="zoom-in">
+                    <h1>Vision</h1>
+                  </div>
+                  <p data-aos="zoom-in">
+                    Monark University will be an inclusive and engaged
+                    research-intensive university that inspires creativity
+                    through outstanding achievements in learning, with up to
+                    date curriculum and contemporary delivery to meet the
+                    demands of the global higher education landscape.
+                  </p>
+                </div>
               </div>
             </div>
-          </div>
-
           </div>
           <div className="deg45 mt-50">
-          <div className="row flex-row-reverse  vision px-lg-5 px-md-5 px-3 py-4 py-lg-5 deg-45 mt-4 p-relative">
-            <div className="col-lg-6 col-md-5 col-12 mt-lg-0 mt-4">
-              <div className="vision-img" data-aos="fade-in">
-                <img src="/img/vision/vision2.jpeg" alt="" />
-              </div>
-            </div>
-            <div className="col-lg-6 col-md-7 col-12 mt-lg-0 mt-4">
-              <div className="middle-texts-left">
-                <div className="three" data-aos="zoom-in-right">
-                  <h1>Mission</h1>
+            <div className="row flex-row-reverse  vision px-lg-5 px-md-5 px-3 py-4 py-lg-5 deg-45 mt-4 p-relative">
+              <div className="col-lg-6 col-md-5 col-12 mt-lg-0 mt-4">
+                <div className="vision-img" data-aos="fade-in">
+                  <img src="/img/vision/vision2.jpeg" alt="" />
                 </div>
-                <p data-aos="zoom-in-right">
-                  Monark University is committed to engaging with the key issues
-                  of our natural and social worlds through outstanding teaching,
-                  research, and scholarship. Monark University will provide a
-                  vibrant and supportive intellectual environment that attracts
-                  and connects people from all over the world.
-                </p>
+              </div>
+              <div className="col-lg-6 col-md-7 col-12 mt-lg-0 mt-4">
+                <div className="middle-texts-left">
+                  <div className="three" data-aos="zoom-in-right">
+                    <h1>Mission</h1>
+                  </div>
+                  <p data-aos="zoom-in-right">
+                    Monark University is committed to engaging with the key
+                    issues of our natural and social worlds through outstanding
+                    teaching, research, and scholarship. Monark University will
+                    provide a vibrant and supportive intellectual environment
+                    that attracts and connects people from all over the world.
+                  </p>
+                </div>
               </div>
             </div>
-          </div>
-
           </div>
         </div>
       </div>
@@ -239,7 +194,10 @@ export default function About() {
                 <div className="it-sv-details-top-wrap mb-20">
                   <div className="row">
                     <div className="col-md-4">
-                      <div className="it-sv-details-top-thumb Left" data-aos="fade-right">
+                      <div
+                        className="it-sv-details-top-thumb Left"
+                        data-aos="fade-right"
+                      >
                         <img
                           src="https://monarkuni.ac.in/wp-content/uploads/2021/06/SMET-175-Copy.jpg"
                           className="img-fluid rounded shadow"
@@ -256,14 +214,13 @@ export default function About() {
                     </div>
                     <div className="col-md-8">
                       <OwlCarousel
-                      data-aos="fade-left"
+                        data-aos="fade-left"
                         className="owl-theme"
                         autoPlay={true}
-            margin={10}
-            loop={true}
-            responsive={Responsive}
-            responsiveRefreshRate={0}
-            
+                        margin={10}
+                        loop={true}
+                        responsive={Responsive}
+                        responsiveRefreshRate={0}
                       >
                         <div className="item">
                           <p>
@@ -340,7 +297,10 @@ export default function About() {
                   <div className="it-sv-details-top-wrap mb-20">
                     <div className="row flex-row-reverse">
                       <div className="col-md-4">
-                        <div className="it-sv-details-top-thumb Left" data-aos="fade-left">
+                        <div
+                          className="it-sv-details-top-thumb Left"
+                          data-aos="fade-left"
+                        >
                           <img
                             src="https://monarkuni.ac.in/wp-content/uploads/2021/07/SMET-163.jpg"
                             className="img-fluid rounded shadow"
@@ -357,7 +317,7 @@ export default function About() {
                       </div>
                       <div className="col-md-8">
                         <OwlCarousel
-                        data-aos="fade-right"
+                          data-aos="fade-right"
                           className="owl-theme"
                           dots={true}
                           loop={true}
@@ -379,12 +339,13 @@ export default function About() {
                               knowledge along with all the practical aspects of
                               it. So we have identified all sectors of education
                               so helping students enhance the scope for such
-                              education. 
+                              education.
                             </p>
                             <div className="msg-strong-box">
-                            <strong>“The purpose of education is not to
-                            validate ignorance but to overcome it.”</strong>
-
+                              <strong>
+                                “The purpose of education is not to validate
+                                ignorance but to overcome it.”
+                              </strong>
                             </div>
                           </div>
                           <div className="item">
@@ -431,7 +392,10 @@ export default function About() {
                     <div className="it-sv-details-top-wrap mb-20">
                       <div className="row ">
                         <div className="col-md-4">
-                          <div className="it-sv-details-top-thumb Left" data-aos="fade-right">
+                          <div
+                            className="it-sv-details-top-thumb Left"
+                            data-aos="fade-right"
+                          >
                             <img
                               src="https://monarkuni.ac.in/wp-content/uploads/2021/06/SMET-218-Copy.jpg"
                               className="img-fluid rounded shadow"
@@ -448,7 +412,7 @@ export default function About() {
                         </div>
                         <div className="col-md-8">
                           <OwlCarousel
-                          data-aos="fade-left"
+                            data-aos="fade-left"
                             className="owl-theme"
                             dots={true}
                             loop={true}
@@ -459,22 +423,53 @@ export default function About() {
                             <div className="item">
                               <p>
                                 <i class="fa-regular fa-circle-right mr-15"></i>
-                                Greetings from Monark University, Ahmedabad.
-Our prime duty as a university is to nurture today’s minds to be able to create ample opportunities in today’s marketplace. The purpose of education is not restricted to imparting knowledge but has shifted towards holistic development of the students as needs of the society changed. The new education system has taken the responsibility of bringing forth worthy citizens who are proactive in their approach and have the required dynamism to create a new order.z
+                                Greetings from Monark University, Ahmedabad. Our
+                                prime duty as a university is to nurture today’s
+                                minds to be able to create ample opportunities
+                                in today’s marketplace. The purpose of education
+                                is not restricted to imparting knowledge but has
+                                shifted towards holistic development of the
+                                students as needs of the society changed. The
+                                new education system has taken the
+                                responsibility of bringing forth worthy citizens
+                                who are proactive in their approach and have the
+                                required dynamism to create a new order.z
                               </p>
                               <p>
                                 <i class="fa-regular fa-circle-right mr-15"></i>
-                                We as a Monark University are committed to provide a dynamic, supportive and creative environment to the students. Our focus is to provide qualitative and value based education. We aim to provide an educational exploration and strengthen the potential which is innate in every individual.
+                                We as a Monark University are committed to
+                                provide a dynamic, supportive and creative
+                                environment to the students. Our focus is to
+                                provide qualitative and value based education.
+                                We aim to provide an educational exploration and
+                                strengthen the potential which is innate in
+                                every individual.
                               </p>
                             </div>
                             <div className="item">
                               <p>
                                 <i class="fa-regular fa-circle-right mr-15"></i>
-                                We warmly welcome all the students who choose to join Monark University, a prestigious institution known for its academic excellence and vibrant community. We assure you that your decision to be a part of our university will be one that you will cherish and feel proud of. At Monark University, we are committed to providing a supportive learning environment where you can thrive and achieve your academic goals. We wish you the very best as you embark on this exciting journey with us, confident that you will find success and fulfillment during your time at Monark University.
+                                We warmly welcome all the students who choose to
+                                join Monark University, a prestigious
+                                institution known for its academic excellence
+                                and vibrant community. We assure you that your
+                                decision to be a part of our university will be
+                                one that you will cherish and feel proud of. At
+                                Monark University, we are committed to providing
+                                a supportive learning environment where you can
+                                thrive and achieve your academic goals. We wish
+                                you the very best as you embark on this exciting
+                                journey with us, confident that you will find
+                                success and fulfillment during your time at
+                                Monark University.
                               </p>
                               <p className="mt-20">
                                 <div className="msg-strong-box">
-                                  <strong>“The purpose of education is to make good human beings with skill and expertise. Enlightened human beings can be created by teachers.” – Dr. APJ Abdul Kalam
+                                  <strong>
+                                    “The purpose of education is to make good
+                                    human beings with skill and expertise.
+                                    Enlightened human beings can be created by
+                                    teachers.” – Dr. APJ Abdul Kalam
                                   </strong>
                                 </div>
                               </p>

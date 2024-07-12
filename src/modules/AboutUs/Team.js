@@ -1,4 +1,4 @@
-import Image from "next/image";
+
 import SingleTeamTwo from "@/components/Team/Two";
 import Teachers from "@/data/teachers";
 import dynamic from "next/dynamic";
