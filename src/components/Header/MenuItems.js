@@ -4,9 +4,28 @@ import { gsap } from "gsap";
 import { useEffect, useState } from "react";
 import Preloader from "../Preloader";
 import facultydata from "@/data/faculty";
+import axios from "axios";
+
+const ApiService = async ({ method, endpoint, data }) => {
+  try {
+    const response = await axios({
+      method,
+      url: endpoint,
+      data,
+    });
+    return response.data;
+  } catch (error) {
+    throw error;
+  }
+};
 
 export default function MenuItems(props) {
   const [showPreloader, setShowPreloader] = useState(false);
+  const [campusData, setCampusData] = useState([]);
+  const [loading, setLoading] = useState(true);
+
+  
+  
 
   useEffect(() => {
     let tl = gsap.timeline();
@@ -15,6 +34,23 @@ export default function MenuItems(props) {
       opacity: 0,
       stagger: 0.1,
     });
+
+    const fetchData = async () => {
+      try {
+        const result = await ApiService({
+          method: "GET",
+          endpoint: `https://monarkuniversitybacked.onrender.com/Campus`,
+        });
+        setCampusData(result);
+        setLoading(false);
+      } catch (error) {
+        console.error("Error fetching data:", error);
+        setLoading(false);
+      }
+    };
+
+    fetchData();
+    
   }, []);
 
   const handleNavigation = (url) => {
@@ -447,32 +483,11 @@ export default function MenuItems(props) {
           <li className="nav-link main-link has-dropdown">
             <Link href="/campus2">Campus Life</Link>
             <ul className="it-submenu submenu">
-              <li>
-                <Link href="/campus2#artsandculture">Arts & Culture</Link>
-              </li>
-              <li>
-                <Link href="/campus2#campusevent">Campus Event</Link>
-              </li>
-              <li>
-                <Link href="/campus#nss">Community Services</Link>
-              </li>
-              <li>
-                <Link href="/campus#ncc">NCC</Link>
-              </li>
-              <li>
-                <Link href="/campus#sports">Sports</Link>
-              </li>
-              <li>
-                <Link href="/campus2#workshopsandseminars">
-                  Workshops & Seminars
-                </Link>
-              </li>
-              <li>
-                <Link href="/campus2#yoga">Yoga Day</Link>
-              </li>
-              {/* <li>
-                <Link href="/campus#teacherday">Teacher's Day</Link>
-              </li> */}
+            {campusData.map((campus, index) => (
+      <li key={index}>
+        <Link href={`/campus2?id=${campus._id}`}>{campus.title}</Link>
+      </li>
+    ))}
               <li>
                 <Link href="/campus3#studentclub">Students Club</Link>
               </li>
