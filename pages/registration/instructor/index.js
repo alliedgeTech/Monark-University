@@ -1,5 +1,5 @@
 import Footer from '@/components/Footer';
-import HeaderTwo from '@/components/Header/HeaderTwo';
+import Header from '@/components/Header';
 import Preloader from '@/components/Preloader';	
 import dynamic from 'next/dynamic'
  
@@ -10,7 +10,7 @@ const InstructorRegistrationModules = dynamic(() => import('@/modules/Instructor
 export default function InstructorRegistration() {
 	return (
 		<main>
-			<HeaderTwo />
+			<Header />
 
 			<InstructorRegistrationModules />
 

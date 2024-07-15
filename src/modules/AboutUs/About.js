@@ -1,9 +1,5 @@
 import Image from "next/image";
 import Link from "next/link";
-import fullimg from "../../../public/img/choose/monarknew.jpg";
-import blankm from "../../../public/img/choose/NS.jpg";
-import sb from "../../../public/img/choose/sb.jpg";
-import hs from "../../../public/img/choose/hs.jpg";
 import ai from "../../../public/img/choose/AICTE.png";
 import nc from "../../../public/img/choose/NCTE.png";
 import gn from "../../../public/img/choose/GNC.jpg";
@@ -15,83 +11,7 @@ import ncc from "../../../public/img/choose/NCC.jpg";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/dist/ScrollTrigger";
 import { useEffect, useState } from "react";
-import dynamic from "next/dynamic";
-import "owl.carousel/dist/assets/owl.carousel.css";
-import "owl.carousel/dist/assets/owl.theme.default.css";
 import "animate.css";
-
-// Import jQuery
-if (typeof window !== "undefined") {
-  var $ = require("jquery");
-  window.$ = window.jQuery = require("jquery");
-}
-
-// Dynamically import OwlCarousel without SSR
-const OwlCarousel = dynamic(() => import("react-owl-carousel"), {
-  ssr: false,
-});
-
-const Responsive = {
-  0: {
-    items: 1,
-    margin: 5,
-  },
-  435: {
-    items: 2,
-    margin: 10,
-  },
-  768: {
-    items: 3,
-    margin: 10,
-  },
-  1024: {
-    items: 4,
-    margin: 10,
-  },
-};
-
-const apvrs = [
-  {
-    Title: "AICTE",
-    Logo: "../../../public/img/choose/AICTE.png",
-    Url: "https://www.aicte-india.org",
-  },
-  {
-    Title: "NCTE",
-    Logo: "../../../public/img/choose/NCTE.png",
-    Url: "https://ncte.gov.in/website/index.aspx",
-  },
-  {
-    Title: "GNC",
-    Logo: "../../../public/img/choose/GNC.png",
-    Url: "https://www.gujaratnursingcouncil.org",
-  },
-  {
-    Title: "BCI",
-    Logo: "../../../public/img/choose/BCI.png",
-    Url: "https://www.barcouncilofindia.org/home",
-  },
-  {
-    Title: "NAAC",
-    Logo: "../../../public/img/choose/NAAC.png",
-    Url: "http://naac.gov.in/index.php/en/",
-  },
-  {
-    Title: "ISTE",
-    Logo: "../../../public/img/choose/ISTE.png",
-    Url: "http://www.isteonline.in/",
-  },
-  {
-    Title: "VIPNET",
-    Logo: "../../../public/img/choose/VIPNET.png",
-    Url: "https://vigyanprasar.gov.in/vipnet/",
-  },
-  {
-    Title: "NCC",
-    Logo: "../../../public/img/choose/NCC.jpeg",
-    Url: "https://indiancc.mygov.in/",
-  },
-];
 export default function About() {
   useEffect(() => {
     gsap.registerPlugin(ScrollTrigger);
@@ -212,7 +132,9 @@ export default function About() {
                                 </div>
                                 <div className="it-feature-button">
                                   <Link
-                                    href="#"
+                                  target="_blank"
+
+                                    href="https://www.aicte-india.org/"
                                     className="it-btn-border"
                                     style={{ display: "inline-block" }}
                                   >
@@ -266,6 +188,7 @@ export default function About() {
                                 </div>
                                 <div className="it-feature-button">
                                   <Link
+                                  target="_blank"
                                     href="https://ncte.gov.in/website/index.aspx"
                                     className="it-btn-border"
                                   >
@@ -312,6 +235,7 @@ export default function About() {
                                 </div>
                                 <div className="it-feature-button">
                                   <Link
+                                  target="_blank"
                                     href="https://www.gujaratnursingcouncil.org/"
                                     className="it-btn-border"
                                   >
@@ -358,6 +282,7 @@ export default function About() {
                                 </div>
                                 <div className="it-feature-button">
                                   <Link
+                                  target="_blank"
                                     href="https://www.barcouncilofindia.org/home"
                                     className="it-btn-border"
                                   >
@@ -407,6 +332,7 @@ export default function About() {
                                 </div>
                                 <div className="it-feature-button">
                                   <Link
+                                  target="_blank"
                                     href="http://naac.gov.in/index.php/en/"
                                     className="it-btn-border"
                                   >
@@ -456,6 +382,7 @@ export default function About() {
                                 </div>
                                 <div className="it-feature-button">
                                   <Link
+                                  target="_blank"
                                     href="http://www.isteonline.in/"
                                     className="it-btn-border"
                                   >
@@ -505,6 +432,7 @@ export default function About() {
                                 </div>
                                 <div className="it-feature-button">
                                   <Link
+                                  target="_blank"
                                     href="https://vigyanprasar.gov.in/vipnet/"
                                     className="it-btn-border"
                                   >
@@ -554,6 +482,7 @@ export default function About() {
                                 </div>
                                 <div className="it-feature-button">
                                   <Link
+                                  target="_blank"
                                     href="https://indiancc.mygov.in/"
                                     className="it-btn-border"
                                   >

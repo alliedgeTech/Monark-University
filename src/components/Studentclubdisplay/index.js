@@ -1,7 +1,6 @@
 import React, { useEffect } from "react";
 import studentclubdata from "@/data/studentclub";
-import Sidebar from "@/components/Blog/Sidebar";
-import { Container, Row, Col, Table, Accordion } from "react-bootstrap";
+import { Container, Accordion } from "react-bootstrap";
 import 'aos/dist/aos.css'; // Import AOS CSS
 import aos from 'aos'; // Import AOS library
 
@@ -10,7 +9,7 @@ import aos from 'aos'; // Import AOS library
 export default function Studentclub() {
   useEffect(()=>{
     aos.init({
-      offset: 100, // Offset (in pixels) from the original trigger point
+      offset: 50, // Offset (in pixels) from the original trigger point
       duration: 700,
     });
   })

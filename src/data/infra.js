@@ -1,19 +1,19 @@
 const infrastructuredata=[
     {
         id:1,
-        img:"https://monarkuni.ac.in/wp-content/uploads/2022/05/lab1.jpg"
+        img:"https://res.cloudinary.com/dnjgopun8/image/upload/v1720603694/DSC03354-min_lpjvau.jpg"
     },
     {
         id:2,
-        img:"https://monarkuni.ac.in/wp-content/uploads/2022/05/lab2.jpg"
+        img:"https://res.cloudinary.com/dnjgopun8/image/upload/v1720603695/DSC03220-min_aso4b5.jpg"
     },
     {
         id:3,
-        img:"https://monarkuni.ac.in/wp-content/uploads/2022/05/lab3.jpg"
+        img:"https://res.cloudinary.com/dnjgopun8/image/upload/v1720603694/DSC03627-min_lnxqvp.jpg"
     },
     {
         id:4,
-        img:"https://monarkuni.ac.in/wp-content/uploads/2022/05/lab4.jpg"
+        img:"https://res.cloudinary.com/dnjgopun8/image/upload/v1720603694/DSC03515-min_gsknz9.jpg"
     },
     {
         id:5,
@@ -23,9 +23,10 @@ const infrastructuredata=[
         id:6,
         img:"https://monarkuni.ac.in/wp-content/uploads/2023/08/DSC03875.jpg"
     },
+    // autitorium
     {
         id:7,
-        img:"https://monarkuni.ac.in/wp-content/uploads/2022/05/audi1.jpg"
+        img:"https://res.cloudinary.com/dnjgopun8/image/upload/v1720603718/IMG_0132_zosrho.jpg"
     },
     {
         id:8,
@@ -33,11 +34,11 @@ const infrastructuredata=[
     },
     {
         id:9,
-        img:"https://monarkuni.ac.in/wp-content/uploads/2022/05/audi3-800x536.jpg"
+        img:"https://res.cloudinary.com/dnjgopun8/image/upload/v1720603694/DSC09507-min_eplraf.jpg"
     },
     {
         id:10,
-        img:"https://monarkuni.ac.in/wp-content/uploads/2022/05/audi4-800x555.jpg"
+        img:"https://res.cloudinary.com/dnjgopun8/image/upload/v1720603694/DSC03408-min_l5c7df.jpg"
     },
     {
         id:11,

@@ -3,8 +3,7 @@ export default function BreadCrumbs( props ) {
 	const { Img, Title, subTitle  } = props;
 	
 	const breadCrumbsStyle = {
-		backgroundImage: `url(${Img ? Img : "/img/brand/bradimg3.jpg"})`,
-		height:'400px',
+		backgroundImage: `url(${Img ? Img : "/img/brand/bradimg5.jpg"})`,
 	}
 
 	return (

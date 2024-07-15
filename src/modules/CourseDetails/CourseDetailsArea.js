@@ -45,7 +45,7 @@ export default function CourseDetailsArea({item}) {
 							</div>
 							<div className="it-course-details-nav pb-60">
 								<nav>
-									<TabList className="nav nav-tab" id="nav-tab" role="tablist">
+									<TabList className="nav nav-tab " id="nav-tab" role="tablist">
 										<Tab><button>overview</button></Tab>
 										<Tab><button>curriculum</button></Tab>
 										<Tab><button>instructor</button></Tab>

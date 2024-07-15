@@ -3,7 +3,7 @@ import { useRouter } from "next/router";
 import dynamic from 'next/dynamic';
 import syllabusdata from "@/data/syllabus";
 import Footer from '@/components/Footer';
-import HeaderTwo from '@/components/Header/HeaderTwo';
+import Header from '@/components/Header';
 import Preloader from '@/components/Preloader';
 
 import "bootstrap/dist/css/bootstrap.min.css";
@@ -22,7 +22,7 @@ const SyllabusDetailsPage = () => {
 
   return (
     <div>
-      <HeaderTwo />
+      <Header />
       <Syllabusdetails id={id} />
       <Footer />
     </div>

@@ -50,38 +50,70 @@ const CircularAPI = async ({ method, endpoint, data }) => {
   }
 };
 
-const index = () => {
+const Index = () => {
   const [circular, setCircular] = useState([]);
+  const [filteredCircular, setFilteredCircular] = useState([]);
   const [loading, setLoading] = useState(true);
+  const [year, setYear] = useState("");
 
   useEffect(() => {
     aos.init({
-      offset: 100, // Offset (in pixels) from the original trigger point
+      offset: 50, // Offset (in pixels) from the original trigger point
       duration: 700, // Duration of animation (in milliseconds)
     });
     fetchData();
   }, []);
 
+  useEffect(() => {
+    filterCircularsByYear(year);
+  }, [year, circular]);
+
   const fetchData = async () => {
+    setLoading(true);
     try {
       const result = await CircularAPI({
         method: "GET",
         endpoint: "https://monarkuniversitybacked.onrender.com/circulars",
       });
       setCircular(result);
+      setFilteredCircular(result);
       setLoading(false);
     } catch (error) {
       console.error("Error fetching data:", error);
       setLoading(false);
     }
   };
+
+  const filterCircularsByYear = (year) => {
+    if (year === "") {
+      setFilteredCircular(circular);
+    } else {
+      const filtered = circular.filter(
+        (item) => new Date(item.uploadDate).getFullYear().toString() === year
+      );
+      setFilteredCircular(filtered);
+    }
+  };
+
+  const handleYearChange = (e) => {
+    setYear(e.target.value);
+  };
+
   return (
     <div className="placement mt-4" id="circular">
       <div id="latest-news" className="container-fluid py-3">
         <div className="student-placement-heading d-flex align-items-center justify-content-center mb-20">
           <div className="one" data-aos='fade-up'>
-            <h1 className=" mb-0">Circular</h1>
+            <h1 className="mb-0">Circular</h1>
           </div>
+        </div>
+        <div className="filter-year mb-30 container">
+          <select  name="" id="" value={year} onChange={handleYearChange}>
+            <option value="">Select the Year</option>
+            <option value="2023">2023</option>
+            <option value="2024">2024</option>
+            <option value="2025">2025</option>
+          </select>
         </div>
 
         {loading ? (
@@ -95,31 +127,29 @@ const index = () => {
             <div className="container">
               <div className="row"></div>
               <div className="list-officers-table">
-                <table class="rwd-table">
+                <table className="rwd-table">
                   <tbody>
                     <tr data-aos='fade-right'>
                       <th>Date</th>
                       <th>Circular</th>
                       <th>Download</th>
                     </tr>
-                    {circular.map((item, id) => {
-                      return (
-                        <tr data-aos='fade-right'>
-                          <td>{item.uploadDate.toString().split('T')[0]}</td>
-                          <td>{item.name}</td>
-                          <td>
-                            <a href={item.documentUrl} target="_blank">
-                              <button className="btn hover-btn">
-                                <div className="text-div">
-                                  <small>Download</small>
-                                  <small>Download</small>
-                                </div>
-                              </button>
-                            </a>
-                          </td>
-                        </tr>
-                      );
-                    })}
+                    {filteredCircular.map((item, id) => (
+                      <tr data-aos='fade-right' key={id}>
+                        <td>{item.uploadDate.toString().split('T')[0]}</td>
+                        <td>{item.name}</td>
+                        <td>
+                          <a href={item.documentUrl} target="_blank">
+                            <button className="btn hover-btn">
+                              <div className="text-div">
+                                <small className="text-white">Download</small>
+                                <small className="text-white">Download</small>
+                              </div>
+                            </button>
+                          </a>
+                        </td>
+                      </tr>
+                    ))}
                   </tbody>
                 </table>
               </div>
@@ -131,4 +161,4 @@ const index = () => {
   );
 };
 
-export default index;
+export default Index;

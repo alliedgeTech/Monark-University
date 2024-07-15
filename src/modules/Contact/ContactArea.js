@@ -3,6 +3,7 @@ import emailjs from "@emailjs/browser";
 // import { ToastContainer, toast } from 'react-toastify';
 // import 'react-toastify/dist/ReactToastify.css';
 import { toast, Toaster } from "react-hot-toast";
+import Link from "next/link";
 
 export default function ContactArea() {
   const form = useRef();
@@ -84,7 +85,7 @@ export default function ContactArea() {
   };
 
   return (
-    <div className="it-contact__area pt-120 pb-120">
+    <div className="it-contact__area py-4">
       <div className="container">
         <div className="it-contact__wrap fix z-index-3 p-relative">
           <div className="it-contact__shape-1 d-none d-xl-block"></div>
@@ -105,11 +106,11 @@ export default function ContactArea() {
                         </div>
                         <div className="it-contact__text">
                           <span>Our Address</span>
-                          <a href="#">
+                          <Link href="#">
                             At. & Post Vahelal, Naroda-Dahegam Road,
                             <br />
                             Ta. Dascroi, Dist. Ahmedabad-382330 (Gujarat) India.
-                          </a>
+                          </Link>
                         </div>
                       </div>
                     </li>
@@ -122,9 +123,9 @@ export default function ContactArea() {
                         </div>
                         <div className="it-contact__text">
                           <span>Gmail</span>
-                          <a href="mailto:info@monarkuni.ac.in">
+                          <Link href="mailto:info@monarkuni.ac.in">
                             info@monarkuni.ac.in
-                          </a>
+                          </Link>
                         </div>
                       </div>
                     </li>
@@ -137,29 +138,45 @@ export default function ContactArea() {
                         </div>
                         <div className="it-contact__text">
                           <span>contact</span>
-                          <a href="tel:+99358954565">+91-7970707001</a>
-                          <a href="tel:+99358954565">+91-2718-247138/215</a>
+                          <Link href="tel:+7970707001">+91-7970707001</Link>
+                          <Link href="tel:+2718-247138">+91-2718-247138/215</Link>
                         </div>
                       </div>
                     </li>
                   </ul>
                 </div>
                 <div className="it-contact__bottom-box d-flex align-items-center justify-content-between mt-20">
-                  <div className="it-contact__scrool smooth"></div>
-                  <div className="it-footer-social">
-                    <a href="https://www.facebook.com/monark.university">
-                      <i className="fa-brands fa-facebook-f"></i>
-                    </a>
-                    <a href="https://www.instagram.com/monarkuniversity/">
-                      <i className="fa-brands fa-instagram"></i>
-                    </a>
-                    <a href="https://www.linkedin.com/company/monark-university/">
-                      <i className="fa-brands fa-linkedin"></i>
-                    </a>
-                    <a href="https://x.com/monarkuni">
-                      <i className="fa-brands fa-twitter"></i>
-                    </a>
-                  </div>
+                <div className="d-flex align=items-center mt-3">
+                <Link
+                  target="_blank"
+                  href="https://www.facebook.com/monark.university"
+                >
+                  <button className="footer-btn">
+                    <i class="fa-brands fa-facebook"></i>
+                  </button>
+                </Link>
+                <Link target="_blank" href="https://x.com/monarkuni?mx=2">
+                  <button className="footer-btn">
+                    <i class="fa-brands fa-twitter"></i>
+                  </button>
+                </Link>
+                <Link
+                  target="_blank"
+                  href="https://www.instagram.com/hgce_vahelal/"
+                >
+                  <button className="footer-btn">
+                    <i class="fa-brands fa-instagram"></i>
+                  </button>
+                </Link>
+                <Link
+                  target="_blank"
+                  href="https://www.linkedin.com/company/monark-university/"
+                >
+                  <button className="footer-btn">
+                    <i class="fa-brands fa-linkedin"></i>
+                  </button>
+                </Link>
+              </div>
                 </div>
               </div>
             </div>

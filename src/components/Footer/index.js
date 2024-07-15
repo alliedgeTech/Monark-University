@@ -1,37 +1,44 @@
-import Image from "next/image";
+
 import Link from "next/link";
-import footerImg from "../../../public/img/logo/MONARK_LOGO.png";
+
 
 export default function Footer(props) {
-  const { footerLogo, footerClass } = props;
   return (
-    <footer className="footer  pt-3">
-      <div className="container">
-      <div className="footer-up py-4">
+    <footer className="footer  pt-0">
+      <div className="footer-up py-4 mb-20 px-2">
         <div className="row">
           <div className="col-lg-3 d-flex align-items-center justify-content-center col-md-6 col-6">
             <div className="footer-pdf-btn">
-          <button>Student Club</button>
+              <Link target="_blank" href='https://res.cloudinary.com/dnjgopun8/image/upload/v1719990298/MONARK_UNIVERSITY_BROCHURE_FINAL_2024_RE_.PDF_bb9bz5.pdf'>
+                <button>Brochure</button>
+              </Link>
         </div>
           </div>
           <div className="col-lg-3 d-flex align-items-center justify-content-center col-md-6 col-6">
             <div className="footer-pdf-btn">
-          <button>NPE-2020</button>
+              <Link href='/npe'>
+          <button>NEP-2020</button>
+              </Link>
         </div>
           </div>
           <div className="col-lg-3 mt-lg-0 mt-4 d-flex align-items-center justify-content-center col-md-6 col-6">
             <div className="footer-pdf-btn">
-          <button>ABC ID Creation</button>
+              <Link href='/abc'>
+                <button>ABC ID Creation</button>
+              </Link>
         </div>
           </div>
           <div className="col-lg-3 mt-lg-0 mt-4 d-flex align-items-center justify-content-center col-md-6 col-6">
             <div className="footer-pdf-btn">
+              <Link href='campus3#studentclub'>
           <button>Student Club</button>
+              </Link>
         </div>
           </div>
         </div>
         
       </div>
+      <div className="container">
         <div className="footer-middle pb-3">
           <div className="row">
             <div className="col-lg-3 col-md-6 col-12">
@@ -69,7 +76,6 @@ export default function Footer(props) {
                     <i class="fa-solid fa-circle-chevron-right mr-10"></i>
                     <Link href="/placement">Placement</Link>
                   </li>
-                  {/* <li><i class="fa-solid fa-circle-chevron-right mr-10"></i><Link href="">Alumni</Link></li> */}
                   <li>
                     <i class="fa-solid fa-circle-chevron-right mr-10"></i>
                     <Link href="/career">Career @ MU</Link>
@@ -77,17 +83,7 @@ export default function Footer(props) {
                 </ul>
               </div>
             </div>
-            {/* <div className="col-lg-3 col-md-6 col-12">
-							<h6>Multi-Skills Development & Training Centre</h6>
-							<ul>
-								<li><Link href="/faculty#music">Music & Production</Link></li>
-								<li><Link href="/faculty#fitness">Fitness & Nutriton</Link></li>
-								<li><Link href="/faculty#it">IT Courses</Link></li>
-								<li><Link href="/faculty#aviation">Aviation & Management</Link></li>
-								<li><Link href="/faculty#mlt"> Medical Laboratory Technology (MLT)</Link></li>
-								<li><Link href="/faculty#hair">Hair Dressing & Beauty</Link></li>
-							</ul>
-						</div> */}
+            
             <div className="col-lg-6 col-md-6 col-12">
               <div className="d-flex flex-column ">
                 <h6>List of Institutes</h6>
@@ -258,7 +254,7 @@ export default function Footer(props) {
       </div>
       <div
         className="footer-bottom	text-center"
-        style={{ background: "#001A39" }}
+        
       >
         <small className=" mb-0 text-white">
           Copyright © 2024 Monark University

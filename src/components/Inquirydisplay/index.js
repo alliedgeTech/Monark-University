@@ -122,7 +122,7 @@ export default function InquiryForm() {
 
                 <div className="col-6 mb-25">
                   <div className="it-contact-input-box">
-                    <label>Programs*</label>
+                    <label>programmes*</label>
                     <select name="user_programs" required="true">
                       <option value="proffesor">Proffesor</option>
                       <option value="assistant_proffesor">

@@ -16,7 +16,7 @@ const studentclubdata = [
         id: 2,
         header: "Mission",
         content:
-          "The Smile Please Event Organizing Club plans and oversees the smooth execution of all the different programs, functions and events during the academic year.Each event is different in its nature so process of planning & execution of each event differs from one to another.This club involves conceptualize themes of the event, identifying its target audience and works with all aspects followed by mock drills before actually launching the event.",
+          "The Smile Please Event Organizing Club plans and oversees the smooth execution of all the different programmes, functions and events during the academic year.Each event is different in its nature so process of planning & execution of each event differs from one to another.This club involves conceptualize themes of the event, identifying its target audience and works with all aspects followed by mock drills before actually launching the event.",
       },
       {
         id: 3,
@@ -310,7 +310,7 @@ const studentclubdata = [
         id: 1,
         header: "Aim",
         content:
-          "Discipline is the bridge between goals and achievement which brings the moral, ethical values of well being. It provides platform to learners and also strives hard to bring in the core human values in the process of learning. This club is formed to restrict certain behaviors or attitudes that seems harmful or against university policies, educational norms and college traditions",
+          "Discipline is the bridge between goals and achievement which brings the moral, ethical values of well being. It provides platform to Students and also strives hard to bring in the core human values in the process of learning. This club is formed to restrict certain behaviors or attitudes that seems harmful or against university policies, educational norms and college traditions",
       },
       {
         id: 2,

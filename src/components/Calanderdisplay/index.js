@@ -99,7 +99,7 @@ const Calanderdisplay = () => {
                 <table class="rwd-table">
                   <tbody data-aos="fade-right">
                     <tr data-aos="fade-right">
-                      <th>Programs</th>
+                      <th>programmes</th>
                       <th>Branch</th>
 
                       <th>PDF</th>

@@ -24,7 +24,7 @@ export default function Banner() {
 					<div className="col-xl-6 col-lg-7">
 						<div className="it-hero-3-title-wrap it-hero-3-ptb">
 							<div className="it-hero-3-title-box">
-								<h1 className="it-hero-3-title">an online Education Platform For Global <span>Learners</span></h1>
+								<h1 className="it-hero-3-title">an online Education Platform For Global <span>Students</span></h1>
 								<p>We are experienced in educationl platform and skilled strategies <br />
 								for the success of our online learning.</p>
 							</div>

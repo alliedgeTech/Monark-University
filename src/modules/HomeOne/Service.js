@@ -41,7 +41,7 @@ export default function Service() {
                     <h1>
                          <span>selection</span> of{" "}
                       <span className="blue"> over 100 +</span>{" "}
-                      industry-specific programs.
+                      industry-specific programmes.
                     </h1>
                   </div>
                 </div>
@@ -63,7 +63,7 @@ export default function Service() {
                       data-bs-slide-to="1"
                       aria-label="Slide 2"
                     >
-                      After 12
+                      UG Course
                     </button>
                     <button
                       type="button"
@@ -79,7 +79,8 @@ export default function Service() {
                       data-bs-slide-to="3"
                       aria-label="Slide 4"
                     >
-                      Rearch
+                      
+                      Research
                     </button>
                   </div>
                 </div>
@@ -177,7 +178,7 @@ export default function Service() {
                           return (
                             <>
                               <div className="col-lg-3 col-md-6 col-12 mt-4">
-                                <Link href={`/services-2/ser?id=${item.id}`}>
+                                <Link href={`/services-3/ser?id=${item.id}`}>
                                   <div className="course-link-box px-2 py-3  d-flex align-items-center " data-aos='fade-up'>
                                     <img className="" src={item.img} alt="" />
                                     <h6 className="ps-3 mb-0">{item.name}</h6>

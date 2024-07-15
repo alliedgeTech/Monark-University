@@ -1,4 +1,4 @@
-import Image from "next/image";
+
 import SingleTeamTwo from "@/components/Team/Two";
 import Teachers from "@/data/teachers";
 import dynamic from "next/dynamic";
@@ -12,9 +12,7 @@ if (typeof window !== "undefined") {
 }
 
 // Dynamically import OwlCarousel without SSR
-const OwlCarousel = dynamic(() => import("react-owl-carousel"), {
-  ssr: false,
-});
+const OwlCarousel = dynamic(() => import('react-owl-carousel'), { ssr: false });
 
 const Responsive = {
   0: {

@@ -13,7 +13,7 @@
             "icon": "flaticon-bars",
             "titlePera": "Bachelor’s  in Automobile Engineering is a four year course spanning over eight semesters. The course aims to provide outstanding engineering temperament & real-time experience, catering the escalating needs of the emerging automobile industry. The course offers a range of sub-disciplines, starting from designing the vehicles to manufacturing components, assembling and testing them for safety. The course deals with the study of various engines and their construction, electrical systems, chassis and body, alternate fuels, vehicle dynamics, system and component design, safety, economics and quality of an automobile.",
             "titleImage": "https://monarkuni.ac.in/wp-content/uploads/2021/06/SMET-279.jpg",
-            "programOutcomesPera": "Automobile Engineers have job opportunities in various fields like automobile maintenance and service, production, research & development and transport departments.With the advent of E-Mobility (e-Bikes, Electric car) a lot of opportunities are accessible for these graduates after completing B.Tech in Automobile Engineering. The students who complete the course successfully can join modern automobile industries like Volvo, Ashok Leyland, Telco, Ford, Hyundai, Maruti, etc. They can also become entrepreneurs by operating service centres for automobiles.",
+            "programOutcomesPera": "Automobile Engineers have job opportunities in various fields like automobile maintenance and service, production, research & development and transport departments.With the advent of E-Mobility (e-bikes, Electric car) a lot of opportunities are accessible for these graduates after completing B.Tech in Automobile Engineering. The students who complete the course successfully can join modern automobile industries like Volvo, Ashok Leyland, Telco, Ford, Hyundai, Maruti, etc. They can also become entrepreneurs by operating service centres for automobiles.",
             "programOutcomesImages": [
                 {
                     "id": 1,
@@ -62,7 +62,7 @@
                     "title": "Automobile System Lab",
                     "subTitle": "Equipped with",
                     "image": "https://monarkuni.ac.in/wp-content/uploads/2021/06/SMET-155.jpg",
-                    "pera": "Gear Box Cut Section/Differential Gear Cut Section/Steering System Cut Section/Single Plate Clutch Cut Section/Breaking System Cut Section"
+                    "pera": "Gear Box Cut Section/Differential Gear Cut Section/Steering System Cut Section/Single Plate Clutch Cut Section/Braking System Cut Section"
                 }
             ]
         },
@@ -70,7 +70,7 @@
             "id": 2,
             "title": "B.E. in Civil Engineering",
             "icon": "flaticon-bars",
-            "titlePera": "Bachelor in Civil Engineering is a four years course spanning over eight semesters. The aim of this course is to create the expertise in design, development and maintenance of civil engineering projects such as buildings, cannals, tunnels, airports, bridges etc. The course offers plan, design and supervision of construction facilities which are essential to modern life like space satellites and launching facilities, offshore drilling structures, bridges, buildings, highways and other transport systems, tunnels, airport, dams, harbors and other infrastructure.",
+            "titlePera": "Bachelor in Civil Engineering is a four years course spanning over eight semesters. The aim of this course is to create the expertise in design, development and maintenance of civil engineering projects such as buildings, canals, tunnels, airports, bridges etc. The course offers plan, design and supervision of construction facilities which are essential to modern life like space satellites and launching facilities, offshore drilling structures, bridges, buildings, highways and other transport systems, tunnels, airport, dams, harbors and other infrastructure.",
             "titleImage": "https://monarkuni.ac.in/wp-content/uploads/2021/06/SMET-220-1.jpg",
             "programOutcomesPera": "Application of knowledge for mathematics, science and engineering./To design and conduct experiments and analyze data./To identify, formulate problems, understand professional and ethical responsibility./Understand the impact of engineering solutions in global, economic, environmental and societal context./To make use of techniques, skills and modern engineering tools./To apply probability and statistics to address uncertainty; analyze and solve problems in at least four technical areas appropriate to civil engineering./To Design a system, component, or process in at least two civil engineering contexts; include principles of sustainability in design./To gain knowledge of basic concepts in project management, business, public policy, and leadership; analyze issues in professional ethics; and explain the importance of professional licensure.",
             "programOutcomesImages": [
@@ -272,7 +272,7 @@
             "id": 5,
             "title": "B.E. in Electronics and Communication Engineering",
             "icon": "flaticon-bars",
-            "titlePera": "Bachelor in Electronics & Communication Engineering is a four years course spanning over eight semesters. The course aims to deal with analogue transmission, basic electronics, microprocessors, solid state devices, digital and analogue communication, analogue integrated circuits, microwave engineering, satellite communication, antennae and wave progression. The course offers research, design, developement and testing of electronic equipment used in various systems and also covers the manufacturing of communications and broadcast systems.",
+            "titlePera": "Bachelor in Electronics & Communication Engineering is a four years course spanning over eight semesters. The course aims to deal with analogue transmission, basic electronics, microprocessors, solid state devices, digital and analogue communication, analogue integrated circuits, microwave engineering, satellite communication, antennae and wave progression. The course offers research, design, development and testing of electronic equipment used in various systems and also covers the manufacturing of communications and broadcast systems.",
             "titleImage": "https://monarkuni.ac.in/wp-content/uploads/2021/06/SMET-202.jpg",
             "programOutcomesPera": "Electronics and Communication graduates will be able to apply the fundamental concepts of electronics and communication engineering to design a variety of components and systems for applications including signal processing, image processing, communication, networking, embedded systems, VLSI and control system.",
             "programOutcomesImages": [
@@ -328,7 +328,7 @@
             "icon": "flaticon-bars",
             "titlePera": "Bachelor in Information Technology is a four year course spanning over eight semesters. The aim of this course is to get the expertise in the fundamentals of networking, computing and programming systems. Information technology covers wide area in our daily lives from building a spaceship to delivering food at doorsteps. The course offers various courses on emerging topics to equip our students with the latest developments in Information Technology.",
             "titleImage": "https://monarkuni.ac.in/wp-content/uploads/2021/06/SMET-207.jpg",
-            "programOutcomesPera": "Develop an understanding of the currents trends in Information Technology and the modern aspects of digitalization.          To identify, design, and analyze complex computer systems and implement and interpret the results from those systems. To select and apply current techniques, skills and tools necessary for computing practice and integrate IT-based solutions into the user environment effectively. To analyze the local and global impact of computing on individuals, organizations, and society. To apply ethical principles and responsibilities during professional practice.",
+            "programOutcomesPera": "Develop an understanding of the current trends in Information Technology and the modern aspects of digitization.          To identify, design, and analyze complex computer systems and implement and interpret the results from those systems. To select and apply current techniques, skills and tools necessary for computing practice and integrate IT-based solutions into the user environment effectively. To analyze the local and global impact of computing on individuals, organizations, and society. To apply ethical principles and responsibilities during professional practice.",
             "programOutcomesImages": [
                 {
                     "id": 1,
@@ -471,7 +471,7 @@
                     "title": "Heat Transfer Lab",
                     "subTitle": "Equipped with",
                     "image": "https://monarkuni.ac.in/wp-content/uploads/2021/06/SMET-150.jpg",
-                    "pera": "Stefan Boltz Mann Apparatus/Thermal Conducfriction Of Insulation Of Insulation Powder/Pin Fin Apparatus/Shell & Tube/Thermal Conductivity Measuring Apparatus"
+                    "pera": "Stefan Boltz Mann Apparatus/Thermal Conducfriction Of insulation Of insulation Powder/Pin Fin Apparatus/Shell & Tube/Thermal Conductivity Measuring Apparatus"
                 }
             ]
         }
@@ -489,14 +489,14 @@
             "id": 1,
             "title": "B.Sc in Chemistry",
             "icon": "flaticon-bars",
-            "titlePera": "B.Sc. Chemistry is an undergraduate three-year programme that is divided into six semesters. Chemistry strives to enrich and expand and it also strives society to prepare the students to live and work in scientifically and challenging demanding global environment. We want to develop curiosity among the students in the broad field of chemistry and find the practical applications of theory portions in day to day life. The programme focuses on area like Inorganic and Organic Chemistry, Physical Chemistry and more.",
+            "titlePera": "B.Sc. Chemistry is an undergraduate three-year programme that is divided into six semesters. Chemistry strives to enrich and expand, and it also prepares society to prepare the students to live and work in scientifically and challenging demanding global environment. It aims to develop curiosity among the students in the broad field of chemistry and find the practical applications of theory portions in day to day life. The programme focuses on areas like Inorganic and Organic Chemistry, Physical Chemistry and more.",
             "titleImage": "https://monarkuni.ac.in/wp-content/uploads/2021/05/SMET-74.jpg",
-            "programOutcomesPera": "After completion of this course, students will demonstrate an understanding of major concepts in all disciplines of chemistry. Students will employ critical thinking and the scientific method to design, carry out, record and analyze the results of chemical experiments and get an awareness of the impact of chemistry on the environment, society, and other cultures outside the scientific community. The employment areas for the B.Sc. chemistry graduates include pharmaceutical industries, chemical manufactures, forensic science department, plastic industries, agro industries etc. Apart from these they are also recruited in the field such as oil, gas and power sectors and defence services. Students can continue their studies after this course by pursuing a master's degree.",
+            "programOutcomesPera": "After completion of this course, students will demonstrate an understanding of major concepts in all disciplines of chemistry. Students will employ critical thinking and the scientific method to design, carry out, record, and analyze the results of chemical experiments and get an awareness of the impact of chemistry on the environment, society, and other cultures outside the scientific community. The employment areas for the B.Sc. chemistry graduates include pharmaceutical industries, chemical manufactures, forensic science departments, plastic industries, agro industries, etc. Apart from these, they are also recruited in the field such as oil, gas and power sectors and defence services. Students can continue their studies after this course by pursuing a master's degree.",
             "programOutcomesImages": [
                 {
                     "id": 1,
                     "image": "http://monarkuni.ac.in/wp-content/uploads/2021/05/GettyImages-940372496.jpg",
-                    "name": "Lab Technician"
+                    "name": "LaboratoryTechnician"
                 },
                 {
                     "id": 2,
@@ -530,7 +530,7 @@
             "laboratories": [
                 {
                     "id": 1,
-                    "title": "Chemistry Lab -1",
+                    "title": "Chemistry Laboratory-1",
                     "subTitle": "Equipped with",
                     "image": [
                         "https://monarkuni.ac.in/wp-content/uploads/2021/05/SMET-70.jpg",
@@ -540,7 +540,7 @@
                 },
                 {
                     "id": 2,
-                    "title": "Chemistry Lab -2",
+                    "title": "Chemistry Laboratory-2",
                     "subTitle": "",
                     "image": [
                         "https://monarkuni.ac.in/wp-content/uploads/2021/06/SMET-76.jpg",
@@ -571,7 +571,7 @@
                 {
                     "id": 3,
                     "image": "http://monarkuni.ac.in/wp-content/uploads/2021/06/i05_Biological-Forensic-Analyst.jpg",
-                    "name": "Lab technician"
+                    "name": "Laboratorytechnician"
                 },
                 {
                     "id": 4,
@@ -581,7 +581,7 @@
                 {
                     "id": 5,
                     "image": "http://monarkuni.ac.in/wp-content/uploads/2021/06/i04_Food-Laboratory-Testing-and-Techniques-1024x573-1.jpg",
-                    "name": "Food Security and testing Lab technician"
+                    "name": "Food Security and testing Laboratorytechnician"
                 },
                 {
                     "id": 6,
@@ -605,17 +605,17 @@
             "laboratories": [
                 {
                     "id": 1,
-                    "title": "Microbiology Lab -1",
+                    "title": "Microbiology Laboratory-1",
                     "subTitle": "Equipped with",
                     "image": [
                        "https://monarkuni.ac.in/wp-content/uploads/2021/06/SMET-65.jpg",
                        "https://monarkuni.ac.in/wp-content/uploads/2021/06/SMET-63.jpg"
                     ],
-                    "pera": "Autoclave,-incubator/shaker, -Binocular Microscope/Hot Air oven,-Centrifudge/Electro phoresis,-water bath/Ocullarmicrometer,-Colorimeter/Colony micrometer, Stage Micrometer"
+                    "pera": "Autoclave,incubator/shaker, Binocular Microscope/Hot Air oven,Centrifudge/Electro phoresis,water bath/Ocullarmicrometer,Colorimeter/Colony micrometer, Stage Micrometer"
                 },
                 {
                     "id": 2,
-                    "title": "Microbiology Lab -2",
+                    "title": "Microbiology Laboratory-2",
                     "subTitle": "",
                     "image": [
                         "https://monarkuni.ac.in/wp-content/uploads/2021/06/SMET-59.jpg",
@@ -629,7 +629,7 @@
             "id": 3,
             "title": "B.Sc. Zoology",
             "icon": "flaticon-bars",
-            "titlePera": "B.Sc. Zoology is an undergraduate three-year programme that is divided into six semesters. It is a branch of Biology that deal with complete details of an animal kingdom, their structure, evolution, classification,  habits,  physiological process, distribution their life and genetic structure.",
+            "titlePera": "B.Sc. Zoology is an undergraduate three-year programme that is divided into six semesters. It is a branch of Biology that deals with complete details of an animal kingdom, their structure, evolution, classification,  habits,  physiological process, distribution their lives and genetic structure.",
             "titleImage": "https://monarkuni.ac.in/wp-content/uploads/2021/06/SMET-82.jpg",
             "programOutcomesPera": "Students who pursue this course can have many opportunities in the field of wildlife, their conservation, environmental management, ecosystem monitoring, animal welfare, pharmaceutical, laboratories, agricultural farm, museum, government job like Range forest officers, Scientific officer, marine science, fishery biologist and hatcheries. B.sc. in Zoology course has a great future ahead. There are many colleges, institutes and universities providing further master degree courses in specialization which are career orienting and open many job opportunities after completing it.",
             "programOutcomesImages": [
@@ -670,7 +670,7 @@
             "laboratories": [
                 {
                     "id": 1,
-                    "title": "Zoology Lab -1",
+                    "title": "Zoology Laboratory-1",
                     "subTitle": "Equipped with",
                     "image": [
                         "https://monarkuni.ac.in/wp-content/uploads/2021/06/SMET-83.jpg", 
@@ -725,7 +725,7 @@
             "laboratories": [
                 {
                     "id": 1,
-                    "title": "Physics Lab -1",
+                    "title": "Physics Laboratory-1",
                     "subTitle": "Equipped with",
                     "image": [
                         "https://monarkuni.ac.in/wp-content/uploads/2021/06/SMET-85.jpg",
@@ -735,7 +735,7 @@
                 },
                 {
                     "id": 2,
-                    "title": "Physics Lab -2",
+                    "title": "Physics Laboratory-2",
                     "subTitle": "",
                     "image": [
                         "https://monarkuni.ac.in/wp-content/uploads/2021/06/SMET-89.jpg",
@@ -749,7 +749,7 @@
             "id": 5,
             "title": "B.Sc. Mathematics",
             "icon": "flaticon-bars",
-            "titlePera": "B.Sc. Mathematics is an undergraduate three-year programme that is divided into six semesters. This program will help students to have better understanding in topics of advanced mathematics like algebra, calculus, Real analysis, geometry and can improve their analytical ability.",
+            "titlePera": "B.Sc. Mathematics is an undergraduate three-year programme that is divided into six semesters. This program will help students to have better understanding in topics of advanced mathematics like algebra, calculus, real analysis, geometry and can improve their analytical ability.",
             "titleImage": "https://monarkuni.ac.in/wp-content/uploads/2021/06/970412-1024x640.jpg",
             "programOutcomesPera": "After completing BSc Mathematics, various employment options become available in actuarial sciences, statistics, mathematical modelling, computer sciences, cryptography etc. Also students can continue their studies after this course by pursuing a master's degree in Mathematics, Statistics, Applied Mathematics etc.",
             "programOutcomesImages": [
@@ -803,7 +803,7 @@
                 {
                     "id": 1,
                     "image": "http://monarkuni.ac.in/wp-content/uploads/2021/05/GettyImages-940372496.jpg",
-                    "name": "Lab Technician"
+                    "name": "LaboratoryTechnician"
                 },
                 {
                     "id": 2,
@@ -832,13 +832,13 @@
             "laboratories": [
                 {
                     "id": 1,
-                    "title": "Biotechnology Lab -1",
+                    "title": "Biotechnology Laboratory-1",
                     "subTitle": "Equipped with",
                     "image": [
                         "https://monarkuni.ac.in/wp-content/uploads/2021/06/SMET-57.jpg",
                         "https://monarkuni.ac.in/wp-content/uploads/2021/06/SMET-54-1.jpg"
                     ],
-                    "pera": "Autoclave,-incubator/shaker, -Binocular Microscope/Hot Air oven,-Centrifudg/Electro phoresis,-water bath/Ocullarmicrometer,-Colorimeter/Colony micrometer, Stage Micrometer"
+                    "pera": "Autoclave,incubator/shaker, Binocular Microscope/Hot Air oven,Centrifudg/Electro phoresis,water bath/Ocullarmicrometer,Colorimeter/Colony micrometer, Stage Micrometer"
                 }
             ]
         }
@@ -900,14 +900,14 @@
                     "title": "Computer Lab",
                     "subTitle": "",
                     "image": "https://monarkuni.ac.in/wp-content/uploads/2021/06/SMET-206.jpg",
-                    "pera": "Computer Centre with Internet facilities has been set up and managed by experienced Computer professionals. We have a very well equipped computer lab with 50 computers for the information &   Technology subject with internet facility."
+                    "pera": "Computer Centre with Internet facilities has been set up and managed by experienced computer professionals. We have a very well equipped computer Laboratorywith 50 computers for the information &   Technology subject with internet facility."
                 },
                 {
                     "id": 2,
                     "title": "Library & Reading Room",
                     "subTitle": "",
                     "image": "https://monarkuni.ac.in/wp-content/uploads/2021/06/i08_SMET-227.jpg",
-                    "pera": "The college has well equipped library and reading room. It has more than 2248 references and recommended books for the BBA Course. Besides, there are periodicals, journals, weekly and monthly magazines, newspapers, considering the need to keep students abreast with latest development in the field of education, science and technology."
+                    "pera": "The college has well equipped library and reading room. It has more than 2,248 references and recommended books for the BBA Course. Besides, there are periodicals, journals, weekly and monthly magazines, newspapers, considering the need to keep students abreast with latest development in the field of education, science and technology."
                 }
             ]
         },
@@ -964,14 +964,14 @@
                     "title": "Computer Lab",
                     "subTitle": "",
                     "image": "https://monarkuni.ac.in/wp-content/uploads/2021/06/SMET-206.jpg",
-                    "pera": "Computer Centre with Internet facilities has been set up and managed by experienced Computer professionals. We have a very well equipped computer lab with 50 computers for the information &   Technology subject with internet facility."
+                    "pera": "Computer Centre with Internet facilities has been set up and managed by experienced computer professionals. We have a very well equipped computer Laboratorywith 50 computers for the information &   Technology subject with internet facility."
                 },
                 {
                     "id": 2,
                     "title": "Library & Reading Room",
                     "subTitle": "",
                     "image": "https://monarkuni.ac.in/wp-content/uploads/2021/06/i08_SMET-227.jpg",
-                    "pera": "The college has well equipped library and reading room. It has more than 2248 references and recommended books for the BBA Course. Besides, there are periodicals, journals, weekly and monthly magazines, newspapers, considering the need to keep students abreast with latest development in the field of education, science and technology."
+                    "pera": "The college has well equipped library and reading room. It has more than 2,248 references and recommended books for the BBA Course. Besides, there are periodicals, journals, weekly and monthly magazines, newspapers, considering the need to keep students abreast with latest development in the field of education, science and technology."
                 }
             ]
         },
@@ -979,7 +979,7 @@
             "id": 3,
             "title": "BBA in Marketing Management",
             "icon": "flaticon-bars",
-            "titlePera": "BBA in Marketing is popular course among the students wherein they study Marketing tools, concepts, research and analysis, pricing, product design, selling and distribution, promotion, advertising, other marketing concepts. Person who have good communication skills and sales skills they will be successful in marketing field. Marketing executives make a good living. This is a job that requires people to work on-field as well. Besides a good salary, marketing executives also have many perks and benefits.",
+            "titlePera": "BBA in Marketing is popular course among the students wherein they study Marketing tools, concepts, research and analysis, pricing, product design, selling and distribution, promotion, advertising, other marketing concepts. Persons who have good communication skills and sales skills they will be successful in marketing field. Marketing executives make a good living. This is a job that requires people to work on-field as well. Besides a good salary, marketing executives also have many perks and benefits.",
             "titleImage": "https://monarkuni.ac.in/wp-content/uploads/2021/06/SMET-125.jpg",
             "programOutcomesPera": "Marketing is a crucial business activity – due to this, there is a provision of numerous job opportunities./Course will help students in improving their management skills. They will study all about advertising, business mathematics, statistics, digital marketing, and various other topics in this course./Students will demonstrate analytical skills in identification and resolution of problems pertaining to marketing management.",
             "programOutcomesImages": [
@@ -1033,14 +1033,14 @@
                     "title": "Computer Lab",
                     "subTitle": "",
                     "image": "https://monarkuni.ac.in/wp-content/uploads/2021/06/SMET-206.jpg",
-                    "pera": "Computer Centre with Internet facilities has been set up and managed by experienced Computer professionals. We have a very well equipped computer lab with 50 computers for the information &   Technology subject with internet facility."
+                    "pera": "Computer Centre with Internet facilities has been set up and managed by experienced computer professionals. We have a very well equipped computer Laboratorywith 50 computers for the information &   Technology subject with internet facility."
                 },
                 {
                     "id": 2,
                     "title": "Library & Reading Room",
                     "subTitle": "",
                     "image": "https://monarkuni.ac.in/wp-content/uploads/2021/06/i08_SMET-227.jpg",
-                    "pera": "The college has well equipped library and reading room. It has more than 2248 references and recommended books for the BBA Course. Besides, there are periodicals, journals, weekly and monthly magazines, newspapers, considering the need to keep students abreast with latest development in the field of education, science and technology."
+                    "pera": "The college has well equipped library and reading room. It has more than 2,248 references and recommended books for the BBA Course. Besides, there are periodicals, journals, weekly and monthly magazines, newspapers, considering the need to keep students abreast with latest development in the field of education, science and technology."
                 }
             ]
         }
@@ -1058,7 +1058,7 @@
             "id": 1,
             "title": "Bachelor of Ayurvedic Medicine and Surgery (B.A.M.S.)",
             "icon": "flaticon-bars",
-            "titlePera": "Ayurved means ‘Knowledge of life’ it is perceived as one of the most ancient sciences.  It is a constitute college of Monark University, Vahelal Ahmedabad. The University is equipped with full bedded Ayush learning Monark Ayurveda medical Hospital. The program aims at developing and nurturing the student’s interpersonal skills, it allows them to develop the competencies vital for their bright future.",
+            "titlePera": "Ayurved means ‘Knowledge of life’ it is perceived as one of the most ancient sciences.  It is a constituent college of Monark University, Vahelal Ahmedabad. The University is equipped with full bedded Ayush learning Monark Ayurvedic Medical Hospital. The program aims at developing and nurturing the student’s interpersonal skills, it allows them to develop the competencies vital for their bright future.",
             "titleImage": "https://monarkuni.ac.in/wp-content/uploads/2023/03/WhatsApp-Image-2023-03-23-at-11.39.00-1-1024x577.jpeg",
             "programOutcomesPera": "BAMS Graduate after completion of their program can serve in 1)The BAMS qualified candidates can be hired both in government as well as private Ayurveda clinics 2) They can also pursue their private practice in the Ayurveda 3) The different areas of employment for BAMS jobs are the Pharma industry, Life science industry and healthcare community 4) They can also become the entrepreneur by opening their own production unit, repackaging unit etc. They may also explore their future in academic institutes after Post graduation",
             "programOutcomesImages": [
@@ -1127,7 +1127,7 @@
             "id": 1,
             "title": "Bachelor of Homeopathy Medicine and Surgery (B.H.M.S.)",
             "icon": "flaticon-bars",
-            "titlePera": "Homoeopathy is a science of dynamised micro-Immnunology based on the law of Analogy. It is the System of Medicine which works on the principle of ‘Like Cures Like’ (Similia Similibus Curanter).This system of therapeutics is internationally accepted and is being practised in India through Homoeopathy Central Council Act 1973 passed by the Parliament of India",
+            "titlePera": "Homeopathy is a science of dynamized micro-   Immnunology based on the law of Analogy. It is the System of Medicine which works on the principle of ‘Like Cures Like’ (Similia Similibus Curanter).This system of therapeutics is internationally accepted and is being practised in India through Homeopathy Central Council Act 1973 passed by the Parliament of India",
             "titleImage": "https://monarkuni.ac.in/wp-content/uploads/2023/03/homeo3-1.jpg",
             "programOutcomesPera": "",
             "programOutcomesImages": [
@@ -1181,115 +1181,8 @@
                     "pera": ""
                 }
             ]
-        },
-        {
-            "id": 2,
-            "title": "BBA in International Business",
-            "icon": "flaticon-bars",
-            "titlePera": "Bachelor of Business Administration in International Business is a Business management course of three years. In addition, it makes you learn about the multilateral agencies or international business bodies and their role in the foreign trade.  It is a course that gives deep insight about buying, selling and marketing products all over the world. This course plan that prepares individuals to be highly adept with skills to deal internationally",
-            "titleImage": "https://monarkuni.ac.in/wp-content/uploads/2021/06/SMET-125.jpg",
-            "programOutcomesPera": "The course teaches participants to be adept with the tricks of the trade and hit the ground running as soon as they pass out./It teaches individuals to get an understanding of various cultures and in turn prepare them to deal with diversity at the workplace/The course enables individuals to be global business entrepreneurs who can strategically cope up with the dynamics of the international trade world.",
-            "programOutcomesImages": [
-                {
-                    "id": 1,
-                    "image": "https://monarkuni.ac.in/wp-content/uploads/2021/06/i02_DATA-SCIENTIST.jpg",
-                    "name": "Data Analyst"
-                },
-                {
-                    "id": 2,
-                    "image": "https://monarkuni.ac.in/wp-content/uploads/2021/06/i09_TECHNICAL-SUPPORT.jpg",
-                    "name": "Foreign Investor"
-                }
-            ],
-            "coureDuration": "3 Years",
-            "eligibilityCriteria": "Candidates must have passed 10+2 or equivalent from a recognized board in India.",
-            "annualFees": "24000 INR",
-            "laboratories": [
-                {
-                    "id": 1,
-                    "title": "Computer Lab",
-                    "subTitle": "",
-                    "image": "https://monarkuni.ac.in/wp-content/uploads/2021/06/SMET-206.jpg",
-                    "pera": "Computer Centre with Internet facilities has been set up and managed by experienced Computer professionals. We have a very well equipped computer lab with 50 computers for the information &   Technology subject with internet facility."
-                },
-                {
-                    "id": 2,
-                    "title": "Library & Reading Room",
-                    "subTitle": "",
-                    "image": "https://monarkuni.ac.in/wp-content/uploads/2021/06/i08_SMET-227.jpg",
-                    "pera": "The college has well equipped library and reading room. It has more than 2248 references and recommended books for the BBA Course. Besides, there are periodicals, journals, weekly and monthly magazines, newspapers, considering the need to keep students abreast with latest development in the field of education, science and technology."
-                }
-            ]
-        },
-        {
-            "id": 3,
-            "title": "BBA in Retail Management",
-            "icon": "flaticon-bars",
-            "titlePera": "BBA in Retail Management is so designed as to give a student a top-to-bottom knowledge of the functioning and supervision of a retail establishment. Students are also trained in direct-dealing with customers including problem-solving and interactions to boost relationships and sales.This course includes the study of retail trading which includes buying, marketing, merchandising, operations, inventory control, personnel and finance. The degree course is a detailed study of topics like retail supply chain management, store location and management, retail customer service, quality, accounting, marketing, and computer technology, etc.",
-            "titleImage": "https://monarkuni.ac.in/wp-content/uploads/2021/06/SMET-125.jpg",
-            "programOutcomesPera": "Course enables a student to tap into this potentially rewarding industry and provides them with the required skills to succeed. Since the course has a very versatile curriculum involving aspects of economics, marketing, visual merchandising, sales, branding as well as customer support./The sheer number and variety of job roles available for a BBA Retail Management graduate are also great incentives to take up this course.",
-            "programOutcomesImages": [
-                {
-                    "id": 1,
-                    "image": "https://monarkuni.ac.in/wp-content/uploads/2021/06/i02_consumer-goods.jpg",
-                    "name": "Retail Manager"
-                },
-                {
-                    "id": 2,
-                    "image": "https://monarkuni.ac.in/wp-content/uploads/2021/06/i09_TECHNICAL-SUPPORT.jpg",
-                    "name": "Advertising Manager"
-                },
-                {
-                    "id": 3,
-                    "image": "https://monarkuni.ac.in/wp-content/uploads/2021/07/i01_01-Banking-and-Finance-Jobs-in-London.jpg",
-                    "name": "Administrative Officer"
-                },
-                {
-                    "id": 4,
-                    "image": "https://monarkuni.ac.in/wp-content/uploads/2021/06/i05_academic-researcher.jpg",
-                    "name": "Brand Manager"
-                },
-                {
-                    "id": 5,
-                    "image": "https://monarkuni.ac.in/wp-content/uploads/2021/06/i07_MARKETING.jpg",
-                    "name": "Customer Care Executive"
-                },
-                {
-                    "id": 6,
-                    "image": "https://monarkuni.ac.in/wp-content/uploads/2021/06/i03_Technical-Sales-Representative.jpg",
-                    "name": "Communications Manager"
-                },
-                {
-                    "id": 7,
-                    "image": "https://monarkuni.ac.in/wp-content/uploads/2021/06/i03_Highwayengineer-3.png",
-                    "name": "Department Manager"
-                },
-                {
-                    "id": 8,
-                    "image": "https://monarkuni.ac.in/wp-content/uploads/2021/06/i03_project-manager.jpg",
-                    "name": "Logistics and Warehouse Manager"
-                }
-            ],
-            "coureDuration": "3 Years",
-            "eligibilityCriteria": "Candidates must have passed 10+2 or equivalent from a recognized board in India.",
-            "annualFees": "24000 INR",
-            "laboratories": [
-                {
-                    "id": 1,
-                    "title": "Computer Lab",
-                    "subTitle": "",
-                    "image": "https://monarkuni.ac.in/wp-content/uploads/2021/06/SMET-206.jpg",
-                    "pera": "Computer Centre with Internet facilities has been set up and managed by experienced Computer professionals. We have a very well equipped computer lab with 50 computers for the information &   Technology subject with internet facility"
-                },
-                {
-                    "id": 2,
-                    "title": "Library & Reading Room",
-                    "subTitle": "",
-                    "image": "https://monarkuni.ac.in/wp-content/uploads/2021/06/i08_SMET-227.jpg",
-                    "pera": "The college has well equipped library and reading room. It has more than 2248 references and recommended books for the BBA Course. Besides, there are periodicals, journals, weekly and monthly magazines, newspapers, considering the need to keep students abreast with latest development in the field of education, science and technology"
-                }
-            ]
         }
+        
     ]
 },
 {
@@ -1421,7 +1314,7 @@
             "id": 1,
             "title": "B.Sc Nursing",
             "icon": "flaticon-bars",
-            "titlePera": "Nursing is the glue that holds a patient’s health care journey together. Nurses play a pivotal role and ensuring that care and welfare of the society as they personalized form of care that goes on to create the highest form of medical wellness within the community. The faculty of nursing offer a four-year bachelor’s degree program (B.Sc Nursing) and three year diploma course (G.N.M) which is uniquely designed to develop a league of nursing experts with effective skillets which are essential for providing the highest care to the patient. Nursing can be described as both an art and a science; a heart and a mind. At its heart, lies a fundamental respect for human dignity and an intuition for a patient’s needs. This is supported by the mind, in the form of rigorous core learning. Due to the vast range of specialism and complex skills in the nursing profession, each nurse will have specific strengths, passions, and expertise. Responsibilities can range from making acute treatment decisions to providing inoculations in schools. The key unifying characteristic in every role is the skill and drive that it takes to be a nurse. Through long-term monitoring of patients’ behaviour and knowledge-based expertise, nurses are best placed to take an all-encompassing view of a patient’s wellbeing.",
+            "titlePera": "Nursing is the glue that holds a patient’s health care journey together. Nurses play a pivotal role and ensuring that care and welfare of the society as they personalized form of care that goes on to create the highest form of medical wellness within the community. The faculty of nursing offer a four-year bachelor’s degree program (B.Sc Nursing) and three year diploma course (G.N.M) which is uniquely designed to develop a league of nursing experts with effective skills which are essential for providing the highest care to the patient. Nursing can be described as both an art and a science; a heart and a mind. At its heart, lies a fundamental respect for human dignity and an intuition for a patient’s needs. This is supported by the mind, in the form of rigorous core learning. Due to the vast range of specialism and complex skills in the nursing profession, each nurse will have specific strengths, passions, and expertise. Responsibilities can range from making acute treatment decisions to providing immunizations in schools. The key unifying characteristic in every role is the skill and drive that it takes to be a nurse. Through long-term monitoring of patients’ behaviour and knowledge-based expertise, nurses are best placed to take an all-encompassing view of a patient’s wellbeing.",
             "titleImage": "https://monarkuni.ac.in/wp-content/uploads/2021/06/65-652343_nurse-transparent-hd-png-download.png",
             "programOutcomesPera": "Prepare graduates to assume responsibilities as professional, competent nurses and midwives at basic level in providing promotive, preventive, curative and rehabilitative services./Prepare nurses who can make independent decisions in nursing situations, protect the rights of and facilitate individuals and groups in pursuit of health, function in the hospital, community nursing services and conduct research studies in the areas of nursing practice. They are also expected to assume the role of teacher, supervisor and manager in a clinical /public health setting.",
             "programOutcomesImages": [
@@ -1476,56 +1369,56 @@
                 },
                 {
                     "id": 3,
-                    "title": "Pre-Clinical Science lab 1",
+                    "title": "Pre-Clinical Science Laboratory1",
                     "subTitle": "",
                     "image": "https://monarkuni.ac.in/wp-content/uploads/2021/06/pre-clinical-science-lab-1-1024x504.jpg",
                     "pera": ""
                 },
                 {
                     "id": 4,
-                    "title": "Pre-Clinical Science lab 2",
+                    "title": "Pre-Clinical Science Laboratory2",
                     "subTitle": "",
                     "image": "https://monarkuni.ac.in/wp-content/uploads/2021/06/pre-clinical-science-lab-2-1024x682.jpg",
                     "pera": ""
                 },
                 {
                     "id": 5,
-                    "title": "Community Health Nursing lab 1",
+                    "title": "Community Health Nursing Laboratory1",
                     "subTitle": "",
                     "image": "https://monarkuni.ac.in/wp-content/uploads/2021/06/SMET-252.jpg",
                     "pera": ""
                 },
                 {
                     "id": 6,
-                    "title": "Community Health Nursing lab 2",
+                    "title": "Community Health Nursing Laboratory2",
                     "subTitle": "",
                     "image": "https://monarkuni.ac.in/wp-content/uploads/2021/06/community-health-nursing-lab-2-1024x682.jpg",
                     "pera": ""
                 },
                 {
                     "id": 7,
-                    "title": "Fundamental Of Nursing Lab 1",
+                    "title": "Fundamental Of Nursing Laboratory1",
                     "subTitle": "",
                     "image": "https://monarkuni.ac.in/wp-content/uploads/2021/06/fundamental-of-nursing-1-1024x768.jpg",
                     "pera": ""
                 },
                 {
                     "id": 8,
-                    "title": "Fundamental Of Nursing Lab 2",
+                    "title": "Fundamental Of Nursing Laboratory2",
                     "subTitle": "",
                     "image": "https://monarkuni.ac.in/wp-content/uploads/2021/06/SMET-251.jpg",
                     "pera": ""
                 },
                 {
                     "id": 9,
-                    "title": "Midwifery and Child Health Nursing Lab 1",
+                    "title": "Midwifery and Child Health Nursing Laboratory1",
                     "subTitle": "",
                     "image": "https://monarkuni.ac.in/wp-content/uploads/2021/06/Midwifery-Child-health-1-1024x353.jpg",
                     "pera": ""
                 },
                 {
                     "id": 10,
-                    "title": "Midwifery and Child Health Nursing Lab 2",
+                    "title": "Midwifery and Child Health Nursing Laboratory2",
                     "subTitle": "",
                     "image": "https://monarkuni.ac.in/wp-content/uploads/2021/06/midwifery-and-child-health-2-1024x682.jpg",
                     "pera": ""
@@ -1562,7 +1455,7 @@
             "icon": "flaticon-bars",
             "titlePera": "Bachelor of Commerce (B.Com) is a 3-year undergraduate program in business. B.Com is designed to impart managerial skills to students while focusing on a particular business area. In the program, the aspirants will learn about the general business principles, and at the same time, study core commerce subjects such as finance, economics, accounting, actuarial studies, business management etc. In the program, candidates are taught core subjects related to commerce and finance. In the three-year duration, the candidates are also given options to choose from a few elective subjects too. The programme is usually spread over six semesters during which the student is taught topics like financial accounting, corporate tax, economics, company law, auditing, business management, etc.",
             "titleImage": "https://monarkuni.ac.in/wp-content/uploads/2021/06/about-1.jpg",
-            "programOutcomesPera": "The students will be ready for employment in functional areas like accounting, taxation, banking, insurance and corporate law. The student will develop an attitude for working effectively and efficiently in a business environment. Learners will gain knowledge of various disciplines of commerce, business, accounting, economics, and finance, auditing and marketing.",
+            "programOutcomesPera": "The students will be ready for employment in functional areas such as accounting, taxation, banking, insurance and corporate law. The student will develop an attitude for working effectively and efficiently in a business environment. Students will gain knowledge of various disciplines of commerce, business, accounting, economics, and finance, auditing and marketing.",
             "programOutcomesImages": [
                 {
                     "id": 1,
@@ -1614,7 +1507,7 @@
                     "title": "Computer Lab",
                     "subTitle": "",
                     "image": "https://monarkuni.ac.in/wp-content/uploads/2021/06/SMET-206.jpg",
-                    "pera": "Computer Centre with Internet facilities has been set up and managed by experienced Computer professionals. We have a very well equipped computer lab with 100 computers for the information &   Technology subject with internet facility."
+                    "pera": "Computer Centre with Internet facilities has been set up and managed by experienced computer professionals. We have a very well equipped computer Laboratorywith 100 computers for the information &   Technology subject with internet facility."
                 },
                 {
                     "id": 2,
@@ -1640,7 +1533,7 @@
             "id": 1,
             "title": "Bachelor of law",
             "icon": "flaticon-bars",
-            "titlePera": "The 3-year Bachelor of Law is a postgraduate programme offered by various law institutes and universities in the country. The programme targets various fields of law including labour law, criminal law, contractual law, family law, legal writing and many others. In order to apply for this programme, candidates have to complete their graduation. The 3-year LLB programme is mandatory for those who want to practice law and also for the candidates who want to pursue LL.M or Master of Law programmes. The course offers a broad understanding of constitutional law and its different sections enable law aspirants in understanding the various case studies in the legal history of India. Classroom learning and internships are a part of the programme to impart elaborate education.",
+            "titlePera": "The 3-year Bachelor of Law is a postgraduate programme offered by various law institutes and universities in the country. The programme targets various fields of law including labour law, criminal law, contractual law, family law, legal writing and many others. In order to apply for this programme, candidates have to complete their graduation. The 3-year LLB programme is mandatory for those who want to practice law and also for the candidates who want to pursue LL.M or Master of Law programmes. The course offers a broad understanding of constitutional law and its different sections enables law aspirants in understanding the various case studies in the legal history of India. Classroom learning and internships are a part of the programme to impart elaborate education.",
             "titleImage": "https://monarkuni.ac.in/wp-content/uploads/2021/06/SMET-234.jpg",
             "programOutcomesPera": "Students will possess knowledge and understanding of substantive and procedural law;Students will possess the ability to perform:a) legal analysis and reasoning/b) legal research/c) problem solving/d) written communication in the legal context/e) oral communication in the legal context/Students will understand the exercise of proper professional and ethical responsibilities to clients and the legal system; and/Students will demonstrate the professional skills of collaboration, counseling and negotiation needed for competent and ethical participation as a member of the legal profession. All students will also demonstrate a basic understanding of business fundamentals and be able to read and understand basic financial documents.",
             "programOutcomesImages": [
@@ -1686,7 +1579,7 @@
                     "title": "Moot Court",
                     "subTitle": "",
                     "image": "https://monarkuni.ac.in/wp-content/uploads/2021/06/SMET-229.jpg",
-                    "pera": "Due to its social orientation, the Faculty of Law is has a designated legal clinic which serves a social; course by taking up legal cases pro bono for the development of the underprivileged classe."
+                    "pera": "Due to its social orientation, the Faculty of Law is has a designated legal clinic which serves a social; course by taking up legal cases pro bono for the development of the underprivileged classes."
                 }
             ]
         }
@@ -1767,7 +1660,7 @@
                     "title": "Computer Lab",
                     "subTitle": "",
                     "image": "https://monarkuni.ac.in/wp-content/uploads/2021/06/SMET-206.jpg",
-                    "pera": "Computer Centre with Internet facilities has been set up and managed by experienced Computer professionals. We have a very well equipped computer lab with 100 computers for the information &   Technology subject with internet facility"
+                    "pera": "Computer Centre with Internet facilities has been set up and managed by experienced computer professionals. We have a very well equipped computer Laboratorywith 100 computers for the information &   Technology subject with internet facility"
                 },
                 {
                     "id": 2,
@@ -1836,7 +1729,7 @@
                     "title": "Computer Lab",
                     "subTitle": "",
                     "image": "https://monarkuni.ac.in/wp-content/uploads/2021/06/SMET-206.jpg",
-                    "pera": " The computer lab provides students hands on experience in various software with high speed internet access. Students get aware of the basics of computer."
+                    "pera": " The computer Laboratoryprovides students hands on experience in various software with high speed internet access. Students get aware of the basics of computer."
                 },
                 {
                     "id": 2,
@@ -1863,7 +1756,7 @@
             "icon": "flaticon-bars",
             "titlePera": "Bachelor of Social Work (B.S.W) is a three-year undergraduate degree that offers knowledge and skills to aspirants to prepare them for a professional career in social welfare BSW enables students to apply their knowledge and consciously applying these practices in the real world to help masses suffering from poverty, violence, mental illness, homelessness, and diseases like AIDS and cancer.  The course is ideal for people who wish to bring the change in society by offering help to the marginalized and unprivileged. BSW help aspirants to develop the required skill sets for solving various economic and social issues.",
             "titleImage": "https://monarkuni.ac.in/wp-content/uploads/2021/07/Child-welfare-social-workers.jpg",
-            "programOutcomesPera": "To enable students to understand history, philosophy, values, ethics and functions of social work profession, and its linkages with other social science disciplines./To equip students with knowledge on core and ancillary methods of professional social work, and its practice base./To make learners- the young professionals sensitive to the needs of the people at individuals, group and community levels and to social problems in changing social, cultural and techno-economic context./To develop young professionals with good communication skills and quest for a self motivated life-long learning, focusing on skilling and re-skilling in their respective field of social work practice./To imbibe in the learners the values of social justice, human rights, empathy, hard and honest work- thereby developing in them the vision to work towards an egalitarian society.",
+            "programOutcomesPera": "To enables students to understand history, philosophy, values, ethics and functions of social work profession, and its linkages with other social science disciplines./To equip students with knowledge on core and ancillary methods of professional social work, and its practice base./To make Students- the young professionals sensitive to the needs of the people at individuals, group and community levels and to social problems in changing social, cultural and techno-economic context./To develop young professionals with good communication skills and quest for a self motivated life-long learning, focusing on skilling and re-skilling in their respective field of social work practice./To imbibe in the Students the values of social justice, human rights, empathy, hard and honest work- thereby developing in them the vision to work towards an egalitarian society.",
             "programOutcomesImages": [
                 {
                     "id": 1,
@@ -1940,7 +1833,7 @@
             "id": 1,
             "title": "(B.Sc. + M.Sc.) IT IMS & Cloud Technology",
             "icon": "flaticon-bars",
-            "titlePera": "(B.Sc. + M.Sc.) IT IMS & Cloud Technology is a five-year graduation program executed in 10 semesters..The aim of this program is to impart industry oriented emerging Information technology skills. The student will get proficiency in Network Management, Server Administration, Firewall management and cloud management. The program is designed to fill the gap between industry requirements and academics which will enable student to become industry ready.",
+            "titlePera": "(B.Sc. + M.Sc.) IT IMS & Cloud Technology is a five-year graduation program executed in 10 semesters..The aim of this program is to impart industry oriented emerging Information technology skills. The student will get proficiency in Network Management, Server Administration, Firewall management and cloud management. The program is designed to fill the gap between industry requirements and academics which will enables student to become industry ready.",
             "titleImage": "https://monarkuni.ac.in/wp-content/uploads/2021/06/ComputerScienceImage-1024x682.jpg",
             "programOutcomesPera": "Program develops an understanding of latest IT technologies in the field of Information technology infrastructure including cloud. It enables to prepare a complex computer system, connecting it with network, configuring and managing network infrastructure, configure and admin of firewall, windows server admin and Linux server admin, Azure Web Service (AWS) cloud management and Azure cloud management with virtualization.",
             "programOutcomesImages": [
@@ -2027,11 +1920,11 @@
         },
         {
             "id": 2,
-            "title": "(B.Sc. + M.Sc.) IT IMS & Cloud Technology",
+            "title": "(B.Sc. + M.Sc.) IT Software & Mobile Application Development",
             "icon": "flaticon-bars",
-            "titlePera": "(B.Sc. + M.Sc.) IT IMS & Cloud Technology is a five-year graduation program executed in 10 semesters..The aim of this program is to impart industry oriented emerging Information technology skills. The student will get proficiency in Network Management, Server Administration, Firewall management and cloud management. The program is designed to fill the gap between industry requirements and academics which will enable student to become industry ready.",
+            "titlePera": "(B.Sc. + M.Sc.) IT Software & Mobile Application Development is a five-year graduation program executed in 10 semesters. The aim of this program is to impart industry oriented emerging Information technology skills. The student will get proficiency in Mobile Application Development and Device Application Development. The program is designed to fill the gap between industry requirements and academics which will enables student to become industry ready.",
             "titleImage": "https://monarkuni.ac.in/wp-content/uploads/2021/06/ComputerScienceImage-1024x682.jpg",
-            "programOutcomesPera": "Program develops an understanding of latest IT technologies in the field of Information technology infrastructure including cloud. It enables to prepare a complex computer system, connecting it with network, configuring and managing network infrastructure, configure and admin of firewall, windows server admin and Linux server admin, Azure Web Service (AWS) cloud management and Azure cloud management with virtualization.",
+            "programOutcomesPera": "The course focuses on core technical knowledge of and skills in the software development lifecycle, from requirements, design, implementation, to testing with emerging technologies and industry recognized best practices. This will include the key technological advancements in software architecture design solutions, data analysis and security, as well as web-based and mobile applications development both iOS and Android, in frameworks such as Java and Python. You will also undertake a software development project in a teamwork environment and an in-depth individual research project. Guided by an experienced tutor, the projects will help develop your research skills and experience the work of IT professionals.",
             "programOutcomesImages": [
                 {
                     "id": 1,
@@ -2096,7 +1989,7 @@
             ],
             "coureDuration": "5 Years (10 Semesters)",
             "eligibilityCriteria": "Candidates must have passed 10+2 or equivalent from a recognized board in India.",
-            "annualFees": "65,000.00 /  70,000.00",
+            "annualFees": "75,000.00 /  90,000.00",
             "laboratories": [
                 {
                     "id": 1,
@@ -2118,7 +2011,7 @@
             "id": 3,
             "title": "(B.Sc. + M.Sc.) IT Cyber Security and Digital Forensics",
             "icon": "flaticon-bars",
-            "titlePera": "It is a five-year graduation program executed in 10 semesters. The aim of this program is to impart industry oriented emerging Information technology skills. The student will get proficiency in Network Management, Server Administration, Ethical Hacking , Penetration Testing, Incident Handling, Cloud Security , Cyber Crime and Cyber law.",
+            "titlePera": "It is a five-year graduation program executed in 10 semesters. The aim of this program is to impart industry oriented emerging Information technology skills. The student will get proficiency in Network Management, Server Administration, Ethical Hacking , Penetration Testing, Incident Handling, Cloud Security , Cyber Crime and Cyber Law.",
             "titleImage": "https://monarkuni.ac.in/wp-content/uploads/2021/06/ComputerScienceImage-1024x682.jpg",
             "programOutcomesPera": "Program develops an understanding of latest IT technologies in the field of Information technology infrastructure including cloud. The graduate will be able to articulate and solve problems related to the Cyber Security and Digital Forensics field and can take up interdisciplinary projects. It will prepare entrepreneurs and workforce for the public and private sector in related fields.",
             "programOutcomesImages": [
@@ -2202,9 +2095,9 @@
             "id": 4,
             "title": "(B.Sc. + M.Sc.) IT Animation, VFX and Game Design",
             "icon": "flaticon-bars",
-            "titlePera": "(B.Sc. + M.Sc.) IT Animation, VFX and Game Design is a five-year graduation program executed in 10 semesters. The aim of this program is to impart industry oriented emerging Information technology skills. The student will get proficiency in Animation, VFX, Game Design and UI/UX. The program is designed to fill the gap between industry requirements and academics which will enable student to become industry ready.",
+            "titlePera": "(B.Sc. + M.Sc.) IT Animation, VFX and Game Design is a five-year graduation program executed in 10 semesters. The aim of this program is to impart industry oriented emerging Information technology skills. The student will get proficiency in Animation, VFX, Game Design and UI/UX. The program is designed to fill the gap between industry requirements and academics which will enables student to become industry ready.",
             "titleImage": "https://monarkuni.ac.in/wp-content/uploads/2021/06/ComputerScienceImage-1024x682.jpg",
-            "programOutcomesPera": "The program is structured in a unique way to familiarize the students with various approaches, methods and techniques of Animation Technology. It will guide students to develop competencies and skills needed for becoming an effective Animator. The Industry mentor’s skills and knowledge will guide students to master traditional & digital tools to produce stills and moving images. The program gives students an opportunity to explore different approaches in computer animation. The program is designed at par industry and enable students to manage Animation Projects from its Conceptual Stage to the final Product creation. The students will get an opportunity to use their skills in industry and they can pursue their career as a modelling artist, sculpting artist , texture artist, concept artist, rigging artist, vfx artist ,lighting artist, fx artist, compositors, editors.",
+            "programOutcomesPera": "The program is structured in a unique way to familiarize the students with various approaches, methods and techniques of Animation Technology. It will guide students to develop competencies and skills needed for becoming an effective Animator. The Industry mentor’s skills and knowledge will guide students to master traditional & digital tools to produce stills and moving images. The program gives students an opportunity to explore different approaches in computer animation. The program is designed at par industry and enables students to manage Animation Projects from its Conceptual Stage to the final Product creation. The students will get an opportunity to use their skills in industry and they can pursue their career as a modelling artist, sculpting artist , texture artist, concept artist, rigging artist, vfx artist ,lighting artist, fx artist, compositors, editors.",
             "programOutcomesImages": [
                 {
                     "id": 1,
@@ -2333,14 +2226,14 @@
             "laboratories": [
                 {
                     "id": 1,
-                    "title": "Lab 1",
+                    "title": "Laboratory1",
                     "subTitle": "",
                     "image": "https://monarkuni.ac.in/wp-content/uploads/2021/06/SMET-60-1.jpg",
                     "pera": ""
                 },
                 {
                     "id": 2,
-                    "title": "Lab 2",
+                    "title": "Laboratory2",
                     "subTitle": "",
                     "image": "https://monarkuni.ac.in/wp-content/uploads/2021/06/SMET-61-1.jpg",
                     "pera": ""

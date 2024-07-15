@@ -1,11 +1,11 @@
 import Footer from "@/components/Footer";
 import ErrorModules from "@/modules/Error";
-import HeaderTwo from "@/components/Header/HeaderTwo";
+import Header from "@/components/Header";
 
 export default function Home() {
   return (
     <>
-      <HeaderTwo />
+      <Header />
       <ErrorModules />
       <Footer />
     </>

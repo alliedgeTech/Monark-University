@@ -56,7 +56,7 @@ export default function Course() {
   useEffect(() => {
     gsap.registerPlugin(ScrollTrigger);
     aos.init({
-      offset: 100, // Offset (in pixels) from the original trigger point
+      offset: 50, // Offset (in pixels) from the original trigger point
       duration: 700, // Duration of animation (in milliseconds)
     });
     let mm = gsap.matchMedia();
@@ -134,7 +134,7 @@ export default function Course() {
               aria-current="true"
               aria-label="Slide 1"
             >
-              Multi Activiti Club
+              MULTI ACTIVITY CLUB
             </button>
             <button
             data-aos='fade-up'
@@ -166,6 +166,11 @@ export default function Course() {
             >
               Personality Develop Club
             </button>
+            <Link href='/campus3#studentclub'>
+              <button className="ski-button" data-aos='fade-up'>
+                  Know more
+              </button>
+            </Link>
           </div>
 
           <div class="carousel-inner py-4 px-3 mt-10">
@@ -187,7 +192,7 @@ export default function Course() {
                         <h4>01. Multi Activity club</h4>
                       </div>
                       <p>
-                        Multi Activity club is to give an opportunity to
+                        Multi activity club is to give an opportunity to
                         students to perform their inner talent and participate
                         in number of activities, to build their self-confidence
                         also.This club is organized by the faculty of computer

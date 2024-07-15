@@ -12,7 +12,7 @@ const Infrastructuredisplay = () => {
   useEffect(() => {
     gsap.registerPlugin(ScrollTrigger);
     aos.init({
-      offset: 100, // Offset (in pixels) from the original trigger point
+      offset: 50, // Offset (in pixels) from the original trigger point
       duration: 700, // Duration of animation (in milliseconds)
     });
     let mm=gsap.matchMedia()

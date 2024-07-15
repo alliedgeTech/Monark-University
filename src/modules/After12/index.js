@@ -8,7 +8,7 @@ export default function ServiceDetailsModules(singleService) {
 	return (
 		<main>
 			<BreadCrumbs
-				Title="After 12 Details"
+				Title="UG Details"
 				subTitle="Service-2"
 			/>
 			<ServiceDetailsArea item={singleService.item} />

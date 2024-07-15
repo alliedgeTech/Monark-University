@@ -4,9 +4,27 @@ import { gsap } from "gsap";
 import { useEffect, useState } from "react";
 import Preloader from "../Preloader";
 import facultydata from "@/data/faculty";
+import axios from "axios";
+
+const ApiService = async ({ method, endpoint, data }) => {
+  try {
+    const response = await axios({
+      method,
+      url: endpoint,
+      data,
+    });
+    return response.data;
+  } catch (error) {
+    throw error;
+  }
+};
 
 export default function MenuItems(props) {
   const [showPreloader, setShowPreloader] = useState(false);
+  const [campusData, setCampusData] = useState([]);
+
+  
+  
 
   useEffect(() => {
     let tl = gsap.timeline();
@@ -15,15 +33,24 @@ export default function MenuItems(props) {
       opacity: 0,
       stagger: 0.1,
     });
+
+    const fetchData = async () => {
+      try {
+        const result = await ApiService({
+          method: "GET",
+          endpoint: `https://monarkuniversitybacked.onrender.com/Campus`,
+        });
+        setCampusData(result);
+      } catch (error) {
+        console.error("Error fetching data:", error);
+      }
+    };
+
+    fetchData();
+    
   }, []);
 
-  const handleNavigation = (url) => {
-    setShowPreloader(true);
-    setTimeout(() => {
-      setShowPreloader(false);
-      window.location.href = url;
-    }, 1000);
-  };
+  
 
   // Check localStorage for dark mode preference
   const [darkMode, setDarkMode] = useState(false);
@@ -184,7 +211,7 @@ export default function MenuItems(props) {
   return (
     <>
       {onePage == "onepage1" ? (
-        <ul>
+        <ul className="d-flex align-items-center">
           {onepageHomeMenu}
           <li>
             <Link href="#it-course">Course</Link>
@@ -279,13 +306,13 @@ export default function MenuItems(props) {
           </li>
         </ul>
       ) : (
-        <ul>
-          <li className="nav-link p-static">
+        <ul className="d-flex align-items-center navbar-links">
+          <li className="nav-link main-link p-static">
             <Link href="/">home</Link>
           </li>
 
-          <li className="nav-link has-dropdown about-us-dropdown">
-            <Link href="/about-us">About MU</Link>
+          <li className="nav-link main-link has-dropdown about-us-dropdown">
+            <Link href="#">About MU</Link>
             <ul className="about-us-submenu submenu">
               <li>
                 <Link href="/about-us2">
@@ -300,27 +327,29 @@ export default function MenuItems(props) {
                   President's Message
                 </Link>
               </li>
-              <li>
-                <Link href="/about-us3#vicepresidentmessage">
-                  Vice President's Message
-                </Link>
-              </li>
-              <li>
-                <Link href="/about-us3#provostmessage">Provost Message</Link>
-              </li>
+              
               <li>
                 <Link href="/about-us#recognitionandapproval">
                   Recognition & Approval
                 </Link>
               </li>
               <li>
-                <Link href="/about-us#leadership">Leadership</Link>
+                <Link href="/about-us3#vicepresidentmessage">
+                  Vice President's Message
+                </Link>
               </li>
+              
+              
+              
               <li>
                 <Link href="/about-us#officersandauthority">
                   Officers & Authority
                 </Link>
               </li>
+              <li>
+                <Link href="/about-us3#provostmessage">Provost Message</Link>
+              </li>
+              
               <li>
                 <Link
                   target="_blank"
@@ -328,6 +357,9 @@ export default function MenuItems(props) {
                 >
                   Gazette Act-15 of 2021
                 </Link>
+              </li>
+              <li>
+                <Link href="/about-us#leadership">Leadership</Link>
               </li>
               <li>
                 <Link
@@ -362,14 +394,14 @@ export default function MenuItems(props) {
             </ul>
           </li>
 
-          <li className="nav-link has-dropdown">
+          <li className="nav-link main-link has-dropdown">
             <Link href="/services">Admission</Link>
             <ul className="it-submenu submenu">
               <li>
                 <Link href="/services">After 10th</Link>
               </li>
               <li>
-                <Link href="/services-2">After 12th</Link>
+                <Link href="/services-2">UG Course</Link>
               </li>
               <li>
                 <Link href="/services-3">Pg Courses</Link>
@@ -380,7 +412,7 @@ export default function MenuItems(props) {
             </ul>
           </li>
 
-          <li className="nav-link has-dropdown">
+          <li className="nav-link main-link has-dropdown">
             <Link href="/faculty">Faculty</Link>
             <ul className="it-submenu submenu has-megamenu">
         {facultydata.map((faculty) => (
@@ -390,7 +422,7 @@ export default function MenuItems(props) {
         ))}
       </ul>
           </li>
-          <li className="nav-link has-dropdown">
+          <li className="nav-link main-link has-dropdown">
             <Link href="/calander">Academic</Link>
             <ul className="it-submenu submenu">
               <li>
@@ -412,18 +444,16 @@ export default function MenuItems(props) {
               </li>
             </ul>
           </li>
-          <li className="nav-link has-dropdown">
+          <li className="nav-link main-link has-dropdown">
             <Link href="/placement">Placement</Link>
             <ul className="it-submenu submenu">
             <li>
-                <Link href="/inquiry">
-                Register Now
-                </Link>
-              </li>
-              <li>
                 <Link href="/placement#training">
                   Training & Placement Cell
                 </Link>
+              </li>
+              <li>
+                <Link href="/placement#recruiters">Recruiters</Link>
               </li>
               <li>
                 <Link href="/placement#latest-news">Placement News</Link>
@@ -434,45 +464,27 @@ export default function MenuItems(props) {
                 </Link>
               </li>
               <li>
-                <Link href="/placement#recruiters">Recruiters</Link>
-              </li>
-            </ul>
-          </li>
-          <li className="nav-link has-dropdown">
-            <Link href="/campus2">Campus Life</Link>
-            <ul className="it-submenu submenu">
-              <li>
-                <Link href="/campus2#artsandculture">Arts & Culture</Link>
-              </li>
-              <li>
-                <Link href="/campus2#campusevent">Campus Event</Link>
-              </li>
-              <li>
-                <Link href="/campus#nss">Community Services</Link>
-              </li>
-              <li>
-                <Link href="/campus#ncc">NCC</Link>
-              </li>
-              <li>
-                <Link href="/campus#sports">Sports</Link>
-              </li>
-              <li>
-                <Link href="/campus2#workshopsandseminars">
-                  Workshops & Seminars
+                <Link href="/register">
+                Register Now
                 </Link>
               </li>
-              <li>
-                <Link href="/campus2#yoga">Yoga Day</Link>
-              </li>
-              {/* <li>
-                <Link href="/campus#teacherday">Teacher's Day</Link>
-              </li> */}
+              
+            </ul>
+          </li>
+          <li className="nav-link main-link has-dropdown">
+            <Link href="#">Campus Life</Link>
+            <ul className="it-submenu submenu">
+            {campusData.map((campus,index) => (
+      <li key={index}>
+        <Link href={`/campus2?id=${campus._id}`}>{campus.title}</Link>
+      </li>
+    ))}
               <li>
                 <Link href="/campus3#studentclub">Students Club</Link>
               </li>
             </ul>
           </li>
-          <li className="nav-link has-dropdown">
+          <li className="nav-link main-link has-dropdown">
             <Link href="/infrastructure">Infrastructure</Link>
             <ul className="it-submenu submenu">
               <li>
@@ -494,7 +506,7 @@ export default function MenuItems(props) {
               </li>
             </ul>
           </li>
-          <li className="nav-link">
+          <li className="nav-link main-link">
             <Link href="/contact">contact</Link>
           </li>
           <button className="dark-btn" onClick={toggleDarkMode}>

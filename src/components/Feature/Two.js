@@ -13,7 +13,7 @@ export default function SingleFeatureTwo( props ) {
 						{Title ? Title : 'Best Coaching'}
 					</Link>
 				</h4>
-				<p>{Description ? Description : 'In pellentesque massa vida placerat duis. Cursus sit amet dictum sit amet.'}</p>
+				{/* <p>{Description ? Description : 'In pellentesque massa vida placerat duis. Cursus sit amet dictum sit amet.'}</p> */}
 			</div>
 			<div className="it-feature-3-btn">
 				<Link className="it-btn-theme-sm" href={`/services-2/ser/?id=${Slug ? Slug : 'details'}`}>

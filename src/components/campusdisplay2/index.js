@@ -1,151 +1,122 @@
+import React, { useEffect, useState } from "react";
+import { useRouter } from "next/router";
+import axios from "axios";
+import dynamic from "next/dynamic";
+import "owl.carousel/dist/assets/owl.carousel.css";
+import "owl.carousel/dist/assets/owl.theme.default.css";
 
-import React, { useEffect } from "react";
-import { useState } from "react";
-import "yet-another-react-lightbox/styles.css";
-import campusdata from "@/data/campus";
-import gsap from 'gsap';
-import { ScrollTrigger } from 'gsap/dist/ScrollTrigger';
-import 'aos/dist/aos.css'; 
-import aos from 'aos';
+// Import jQuery
+if (typeof window !== "undefined") {
+  var $ = require("jquery");
+  window.$ = window.jQuery = require("jquery");
+}
+
+// Dynamically import OwlCarousel without SSR
+const OwlCarousel = dynamic(() => import('react-owl-carousel'), { ssr: false });
+
+const Responsive = {
+  0: {
+    items: 1,
+    margin: 5,
+  },
+  435: {
+    items: 1,
+    margin: 10,
+  },
+  768: {
+    items: 1,
+    margin: 10,
+  },
+  1024: {
+    items: 1,
+    margin: 20,
+  },
+};
+
+const ApiService = async ({ method, endpoint, data }) => {
+  try {
+    const response = await axios({
+      method,
+      url: endpoint,
+      data,
+    });
+    return response.data;
+  } catch (error) {
+    throw error;
+  }
+};
 
 const Campusdisplay = () => {
+  const [campusData, setCampusData] = useState([]);
+  const [loading, setLoading] = useState(true);
+  const router = useRouter();
+  const { id } = router.query;
 
   useEffect(() => {
-    gsap.registerPlugin(ScrollTrigger);
-    aos.init({
-      offset: 100, // Offset (in pixels) from the original trigger point
-      duration: 700, // Duration of animation (in milliseconds)
-    });
-    let mm=gsap.matchMedia()
+    const fetchData = async () => {
+      if (!id) return;
 
-    mm.add("(min-width:991px)",()=>{
-      gsap.from(".best-university-heading h1", {
-        opacity:0,
-        scale:0.5,
-        y:100,
-        scrollTrigger: {
-          trigger: ".best-university-heading h1",
-          scroller:'body',
-          start: "top bottom",
-          end: "top 70%",
-          scrub: 0.2,
-        },
-      });
-  
-      
-    })
+      try {
+        const result = await ApiService({
+          method: "GET",
+          endpoint: `https://monarkuniversitybacked.onrender.com/Campus`,
+        });
+        setCampusData(result);
+        setLoading(false);
+      } catch (error) {
+        console.error("Error fetching data:", error);
+        setLoading(false);
+      }
+    };
 
+    fetchData();
+  }, [id]);
 
-  }, []);
+  if (loading) return <div>Loading...</div>;
+  if (!campusData || campusData.length === 0) return <div>No data found</div>;
 
-  const [open, setOpen] = useState(false);
+  const campusToShow = campusData.find((campus) => campus._id === id);
+
+  if (!campusToShow) return <div>Campus not found</div>;
+
   return (
-    <>
-      
-      <div
-        id="it-gallery"
-        className="it-gallery-area p-relative pt-20 pb-20"
-      >
-        
-        <div className="container  rounded p-3" id="artsandculture">
-          <div className="row">
-            <div className="col-xl-12">
-              <div className="it-gallery-title-box pb-20">
-                <div className="three" data-aos="fade-up">
-                <h1 className="it-section-title-3">Arts and Gallery</h1>
+    <div className="campus-life-section">
+      <div className="container py-5">
+        <div className="campus-texts">
+          <div className="three campus-heading">
+            <h1>{campusToShow.title}</h1>
+          </div>
+          <p>{campusToShow.description}</p>
+        </div>
+        <div className="campus-gallery">
+          <OwlCarousel
+            className="owl-theme"
+            autoPlay={true}
+            margin={10}
+            loop={true}
+            responsive={Responsive}
+            responsiveRefreshRate={0}
+            autoplay={true}
+            autoplayTimeout={3000}
+            autoplayHoverPause={false}
+          >
+            <div className="item" >
+              <div className="row">
 
+            {campusToShow.images.map((image, index) => (
+              <div className="col-lg-4 mb-4">
+                <div className="campus-images">
+                  <img src={image} alt="" />
                 </div>
               </div>
+            ))}
             </div>
-          </div>
-          <div className="row">
-            {campusdata
-              .map((campus, index) => (
-                <div key={index} className="col-xl-2 col-lg-2 col-md col-sm p-2">
-                  <div className="it-gallery" >
-                    <div className="it-gallery-thumb" data-aos="zoom-out">
-                      <img src={campus.img} className="img-fluid" />
-                    </div>
-                    
-                  </div>
-                </div>
-              ))
-              .slice(0, 18)}
-          </div>
-        </div>
-        <div className="container" id="campusevent">
-          <div className="row">
-            <div className="col-xl-12">
-              <div className="it-gallery-title-box three pb-20" data-aos="fade-up">
-                <h1 className="it-section-title-3">Campus Life</h1>
               </div>
-            </div>
-          </div>
-          <div className="row">
-            {campusdata
-              .map((campus, index) => (
-                <div key={index} className="col-xl-3 col-lg-3 col-md col-sm p-2">
-                  <div className="it-gallery">
-                    <div className="it-gallery-thumb" data-aos="zoom-out">
-                      <img src={campus.img} className="img-fluid" />
-                    </div>
-                    
-                  </div>
-                </div>
-              ))
-              .slice(18,34)}
-          </div>
+          </OwlCarousel>
         </div>
-        
-        <div className="container" id="workshopsandseminars">
-          <div className="row">
-            <div className="col-xl-12">
-              <div className="it-gallery-title-box three pb-20" data-aos="fade-up">
-                <h1 className="it-section-title-3">Workshops & Seminars</h1>
-              </div>
-            </div>
-          </div>
-          <div className="row">
-            {campusdata
-              .map((campus, index) => (
-                <div key={index} className="col-xl-4 -col-lg-4 col-md col-sm p-2">
-                  <div className="it-gallery">
-                    <div className="it-gallery-thumb" data-aos="zoom-out">
-                      <img src={campus.img} className="img-fluid" />
-                    </div>
-                    
-                  </div>
-                </div>
-              ))
-              .slice(102, 108)}
-          </div>
-        </div>
-        <div className="container  rounded p-3" id="yoga">
-          <div className="row">
-            <div className="col-xl-12">
-              <div className="it-gallery-title-box three pb-20" data-aos="fade-up">
-                <h1 className="it-section-title-3">International Yoga Day</h1>
-              </div>
-            </div>
-          </div>
-          <div className="row">
-            {campusdata
-              .map((campus, index) => (
-                <div key={index} className="col-xl-4 col-lg-4 col-md col-sm p-2">
-                  <div className="it-gallery">
-                    <div className="it-gallery-thumb" data-aos="zoom-out">
-                      <img src={campus.img} className="img-fluid" />
-                    </div>
-                    
-                  </div>
-                </div>
-              ))
-              .slice(108, 111)}
-          </div>
-        </div>
-       
       </div>
-    </>
+    </div>
   );
 };
+
 export default Campusdisplay;

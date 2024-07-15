@@ -57,7 +57,7 @@ const Examdisplay = () => {
 
   useEffect(() => {
     aos.init({
-      offset: 100, // Offset (in pixels) from the original trigger point
+      offset: 50, // Offset (in pixels) from the original trigger point
       duration: 700, // Duration of animation (in milliseconds)
     });
     fetchData();
@@ -107,14 +107,14 @@ const Examdisplay = () => {
                           <td>{item.uploadDate.toString().split('T')[0]}</td>
                           <td>{item.title}</td>
                           <td>
-                          <a href={item.documentUrl} target="_blank">
+                          <Link href={item.documentUrl} target="_blank">
                               <button className="btn hover-btn">
                                 <div className="text-div">
-                                  <small>Download</small>
-                                  <small>Download</small>
+                                  <small className="text-white">Download</small>
+                                  <small className="text-white">Download</small>
                                 </div>
                               </button>
-                            </a>
+                            </Link>
                           </td>
                         </tr>
                       );

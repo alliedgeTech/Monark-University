@@ -1,18 +1,17 @@
-import React from "react";
+import React, { useEffect } from "react";
 import HTMLFlipBook from "react-pageflip";
+import 'bootstrap/dist/css/bootstrap.min.css';
+import Link from "next/link";
 
 const Page = React.forwardRef((props, ref) => {
   return (
     <div className="demoPage" ref={ref}>
-      {/* <p>{props.children}</p> */}
-      {/* <p>Page number: {props.number}</p> */}
       <img src={props.imageUrl} alt={`Page ${props.number}`} />
     </div>
   );
 });
 
-const index = () => {
-  // Array of objects containing page numbers and image URLs
+const Index = () => {
   const pages = [
     {
       number: 1,
@@ -46,19 +45,73 @@ const index = () => {
     },
   ];
 
+  useEffect(() => {
+    const carousel = document.getElementById('carouselExampleIndicators2');
+    const buttons = document.querySelectorAll('.carousel-club-buttons button');
+
+    const handleSlide = (event) => {
+      buttons.forEach((button) => button.classList.remove('active'));
+      buttons[event.to].classList.add('active');
+    };
+
+    if (carousel) {
+      carousel.addEventListener('slide.bs.carousel', handleSlide);
+    }
+
+    return () => {
+      if (carousel) {
+        carousel.removeEventListener('slide.bs.carousel', handleSlide);
+      }
+    };
+  }, []);
+
   return (
-    <div className="mt-100 mb-200">
-      <HTMLFlipBook className="mx-auto" width={400} height={600}>
-        {pages.map((page) => (
-          <Page
-            key={page.number}
-            number={page.number}
-            imageUrl={page.imageUrl}
-          ></Page>
-        ))}
-      </HTMLFlipBook>
-    </div>
+    <div className="mt-100 mb-200 year">
+            <div className="d-flex align-items-center justify-content-center gap-4 mb-30">
+              <Link href='/mumirror'>
+              <button
+                data-aos='fade-up'
+                type="button"
+                className="ski-button y2023"
+            >
+                2023
+            </button>
+              </Link>
+            <Link href='/mumirror2'>
+            <button
+                data-aos='fade-up'
+                type="button"
+                className="ski-button"
+            >
+                2024
+            </button></Link>
+            
+            <Link href='/mumirror3'>
+            <button
+                data-aos='fade-up'
+                type="button"
+                className="ski-button"
+            >
+                2025
+            </button>
+            </Link>
+  </div>
+
+          <div className="book">
+          <HTMLFlipBook className="book mx-auto" width={370} height={570}>
+              
+              {pages.map((page) => (
+                <Page
+                  key={page.number}
+                  number={page.number}
+                  imageUrl={page.imageUrl}
+                />
+              ))}
+              
+            </HTMLFlipBook>
+          </div>
+      </div>
   );
 };
 
-export default index;
+export default Index;

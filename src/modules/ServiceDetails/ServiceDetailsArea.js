@@ -52,7 +52,7 @@ export default function ServiceDetailsArea() {
   console.log("iddd", id);
   useEffect(() => {
     aos.init({
-      offset: 100, // Offset (in pixels) from the original trigger point
+      offset: 50, // Offset (in pixels) from the original trigger point
       duration: 700, // Duration of animation (in milliseconds)
     });
     setIsMounted(true);
@@ -109,7 +109,7 @@ export default function ServiceDetailsArea() {
           </div>
 
           <div className="row mt-40">
-            <div className="col-lg-5 col-12">
+            <div className="col-lg-5 col-12 d-flex align-items-center">
             <div className={styles.chooseThumbBox} data-aos="fade-right">
                 <div className={styles.chooseThumb}>
                   <img
@@ -120,7 +120,7 @@ export default function ServiceDetailsArea() {
                 </div>
               </div>
             </div>
-            <div className="col-lg-7 col-12" data-aos="fade-left">
+            <div className="col-lg-7 col-12 d-flex align-items-center" data-aos="fade-left">
             <p> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; {item.titlePera}</p>
             </div>
           </div>
@@ -172,9 +172,9 @@ export default function ServiceDetailsArea() {
             <h1 className=''>{item.title}</h1>
           </div>
           <div className="row w-100">
-            <div className="col-lg-3 col-md-12 mt-4">
-              <div className="deg15">
-              <div data-aos="fade-up" className="service-box deg-15 h-100 p-4">
+            <div data-aos='zoom-in' className="col-lg-3 col-md-12 mt-4">
+              <div  className="deg15">
+              <div  className="service-box deg-15 h-100 p-4">
                 <h5>
                   <span>
                     <i className="fa-sharp fa-light fa-check mr-10"></i>
@@ -186,9 +186,9 @@ export default function ServiceDetailsArea() {
 
               </div>
             </div>
-            <div className="col-lg-3 col-md-12 mt-4">
-              <div className="deg15">
-              <div data-aos="fade-up" className="service-box deg-15 h-100 p-4">
+            <div data-aos='zoom-in' className="col-lg-3 col-md-12 mt-4">
+              <div  className="deg15">
+              <div  className="service-box deg-15 h-100 p-4">
                 <h5>
                   <span>
                     <i className="fa-sharp fa-light fa-check mr-10"></i>
@@ -200,9 +200,9 @@ export default function ServiceDetailsArea() {
 
               </div>
             </div>
-            <div className="col-lg-3 col-md-12 mt-4">
-              <div className="deg15">
-              <div data-aos="fade-up" className="service-box deg-15 h-100 p-4">
+            <div data-aos='zoom-in' className="col-lg-3 col-md-12 mt-4">
+              <div  className="deg15">
+              <div  className="service-box deg-15 h-100 p-4">
                 <h5>
                   <span>
                     <i className="fa-sharp fa-light fa-check mr-10"></i>
@@ -214,9 +214,9 @@ export default function ServiceDetailsArea() {
 
               </div>
             </div>
-            <div className="col-lg-3 col-md-12 mt-4">
-              <div className="deg15">
-              <div data-aos="fade-up" className="service-box deg-15 h-100 p-4">
+            <div data-aos='zoom-in' className="col-lg-3 col-md-12 mt-4">
+              <div  className="deg15">
+              <div  className="service-box deg-15 h-100 p-4">
                 <h5>
                   <span>
                     <i className="fa-sharp fa-light fa-check mr-10"></i>
@@ -230,23 +230,23 @@ export default function ServiceDetailsArea() {
             </div>
           </div>
         </div>
-        <div className="">
-          <div className="eight mb-30" data-aos="fade-up">
+        <div className="mt-10">
+          <div className="one mb-30" data-aos="fade-up">
             <h1 className="">Laboratories</h1>
           </div>
           <div>
             {item.laboratories.map((lab, index) => (
-              <div key={index} className="up my-5 lab-box px-lg-5 px-4 py-5" data-aos="fade-right">
+              <div key={index} className="up my-5 lab-box px-lg-5 px-4 py-5" data-aos="zoom-in">
                 <div className="row">
-                            <div className="col-lg-5 col-12 px-3">
+                            <div className="col-lg-5 col-12 d-flex align-items-center px-3">
                               <img
                                 className="img-fluid"
                                 src={lab.image}
                                 alt={lab.title}
                               />
                             </div>
-                            <div className="col-lg-7 col-12 px-3 mt-lg-0 mt-4">
-                              <div className="lab-white">
+                            <div className="col-lg-7 col-12 d-flex align-items-center px-3 mt-lg-0 mt-4">
+                              <div className="lab-white w-100">
                                 <div className="three">
                                   <h4 className="mb-20 oswald">{lab.title}</h4>
 

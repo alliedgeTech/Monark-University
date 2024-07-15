@@ -1,6 +1,6 @@
 
 import Footer from '@/components/Footer';
-import HeaderTwo from '@/components/Header/HeaderTwo';
+import Header from '@/components/Header';
 import Preloader from '@/components/Preloader';	
 import dynamic from 'next/dynamic'
  
@@ -11,7 +11,7 @@ const FaqModules = dynamic(() => import('@/modules/Faq'), {
 export default function Faq() {
 	return (
 		<main>
-			<HeaderTwo />
+			<Header />
 
 			<FaqModules />
 

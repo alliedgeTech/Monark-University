@@ -1,6 +1,6 @@
 import { Providers } from '@/redux/providers';
 
-import "bootstrap/dist/css/bootstrap.min.css";
+import 'bootstrap/dist/css/bootstrap.css';
 import "../styles/globals.css";
 import '@/assets/css/nice-select.css'
 import '@/assets/css/bootstrap.min.css'

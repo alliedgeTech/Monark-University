@@ -10,7 +10,7 @@
             "id": 1,
             "title": "Master in Automobile Engineering",
             "icon": "flaticon-bars",
-            "titlePera": "Masters in Automobile Engineering is a two years course spanning over four semesters. The course is designed to enable the graduate engineers with appropriate background to specialize their careers towards automotive engineering. The course also covers the main domain of vehicle such as chassis, body, drive train, safety, driver assistance systems and others. For a better learning experience, students are exposed to case studies and problem based learning, brainstorming, written tests, computer simulation, group discussions, industrial training seminars and projects. The course offers specialised knowledge of industrial design approaches and research topics with regard to real world vehicle requirements, market development and legislative constraints.",
+            "titlePera": "Masters in Automobile Engineering is a two years course spanning over four semesters. The course is designed to enables the graduate engineers with appropriate background to specialize their careers towards automotive engineering. The course also covers the main domain of vehicle such as chassis, body, drive train, safety, driver assistance systems and others. For a better learning experience, students are exposed to case studies and problem based learning, brainstorming, written tests, computer simulation, group discussions, industrial training seminars and projects. The course offers specialised knowledge of industrial design approaches and research topics with regard to real world vehicle requirements, market development and legislative constraints.",
             "titleImage": "https://monarkuni.ac.in/wp-content/uploads/2021/06/SMET-279.jpg",
             "programOutcomesPera": "Automobile Engineers have job opportunities in various fields like automobile maintenance and service, production, research & development and transport departments. With the advent of E-Mobility (e-Bikes, Electric car) a lot of opportunities are accessible for these graduates after completing B.Tech in Automobile Engineering. The students who complete the course successfully can join modern automobile industries like Volvo, Ashok Leyland, Telco, Ford, Hyundai, Maruti, etc. They can also become entrepreneurs by operating service centres for automobiles.",
             "programOutcomesImages": [
@@ -61,7 +61,7 @@
                     "title": "Automobile System Lab",
                     "subTitle": "Equipped with",
                     "image": "https://monarkuni.ac.in/wp-content/uploads/2021/06/SMET-155.jpg",
-                    "pera": "Gear Box Cut Section/Differential Gear Cut Section/Steering System Cut Section/Single Plate Clutch Cut Section/Breaking System Cut Section"
+                    "pera": "Gear Box Cut Section/Differential Gear Cut Section/Steering System Cut Section/Single Plate Clutch Cut Section/Braking System Cut Section"
                 }
             ]
         },
@@ -327,7 +327,7 @@
             "icon": "flaticon-bars",
             "titlePera": "Master of Engineering in Information Technology is a postgraduate degree course which spans 2 years and these 2 years are divided into 4 semesters.  Apply principles of mathematics, science, and engineering in a variety of contexts.  The major areas of focus in the course are the Research, development, designing, modifying and managing the software programs.     Identify, design, and analyze complex computer systems and implement and interpret the results from those systems.  Select and apply current techniques, skills, and tools necessary for computing practice and integrate IT-based solutions into the user environment effectively.   ",
             "titleImage": "https://monarkuni.ac.in/wp-content/uploads/2021/06/SMET-207.jpg",
-            "programOutcomesPera": "Develop an understanding of the currents trends in Information Technology and the modern aspects of digitalization. To identify, design, and analyze complex computer systems and implement and interpret the results from those systems. To select and apply current techniques, skills and tools necessary for computing practice and integrate IT-based solutions into the user environment effectively. To analyze the local and global impact of computing on individuals, organizations, and society. To apply ethical principles and responsibilities during professional practice.",
+            "programOutcomesPera": "Develop an understanding of the current trends in Information Technology and the modern aspects of digitization. To identify, design, and analyze complex computer systems and implement and interpret the results from those systems. To select and apply current techniques, skills and tools necessary for computing practice and integrate IT-based solutions into the user environment effectively. To analyze the local and global impact of computing on individuals, organizations, and society. To apply ethical principles and responsibilities during professional practice.",
             "programOutcomesImages": [
                 {
                     "id": 1,
@@ -470,7 +470,7 @@
                     "title": "Heat Transfer Lab",
                     "subTitle": "Equipped with",
                     "image": "https://monarkuni.ac.in/wp-content/uploads/2021/06/SMET-150.jpg",
-                    "pera": "Stefan Boltz Mann Apparatus/Thermal Conducfriction Of Insulation Of Insulation Powder/Pin Fin Apparatus/Shell & Tube/Thermal Conductivity Measuring Apparatus"
+                    "pera": "Stefan Boltz Mann Apparatus/Thermal Conducfriction Of insulation Of Insulation Powder/Pin Fin Apparatus/Shell & Tube/Thermal Conductivity Measuring Apparatus"
                 }
             ]
         }
@@ -490,7 +490,7 @@
             "icon": "flaticon-bars",
             "titlePera": "M.Sc. in Chemistry is a postgraduate two-year programme that is divided into four semesters. This Programme deal with study of matter, the composition, properties, and structure of substances. The discipline deals with compounds and elements that consist of molecules, atoms and ions. Advancements in chemistry have a great impact on the world which range from new medicines to new materials to new sources of energy",
             "titleImage": "https://monarkuni.ac.in/wp-content/uploads/2021/05/SMET-74.jpg",
-            "programOutcomesPera": "After successful completion of this course a student will be able to determine molecular structure by using UV, IR and NMR., Study of medicinal chemistry for lead compound, Synthesis of Natural products and drugs by using proper mechanisms, solve the reaction mechanisms and assign the final product. There are various higher study options available for candidates who have completed their PG in Chemistry. They can join various other PG and research courses related to the topic of interest such as Master of Philosophy in applies chemistry or basic chemistry. They can opt for Ph.D. in different fields of chemistry. The employment areas after this programme includes pharmaceutical industries, chemical manufactures, forensic science department, plastic industries, agro industries etc. Apart from these they are also recruited in the field such as oil, gas and power sectors, defence services.",
+            "programOutcomesPera": "After successful completion of this course a student will be able to determine molecular structure by using UV, IR and NMR., Study of medicinal chemistry for lead compound, Synthesis of Natural products and drugs by using proper mechanisms, solve the reaction mechanisms and assign the final product. There are various higher study options available for candidates who have completed their PG in Chemistry. They can join various other PG and research courses related to the topic of interest such as Master of Philosophy in applies chemistry or basic chemistry. They can opt for Ph.D. in different fields of chemistry. The employment areas after this programme includes pharmaceutical industries, chemical manufactures, forensic science departments, plastic industries, agro industries, etc. Apart from these, they are also recruited in the field such as oil, gas and power sectors, defence services.",
             "programOutcomesImages": [
                 {
                     "id": 1,
@@ -524,7 +524,7 @@
             "laboratories": [
                 {
                     "id": 1,
-                    "title": "Chemistry Lab -1",
+                    "title": "Chemistry Laboratory-1",
                     "subTitle": "Equipped with",
                     "image": [
                         "https://monarkuni.ac.in/wp-content/uploads/2021/05/SMET-70.jpg",
@@ -534,7 +534,7 @@
                 },
                 {
                     "id": 2,
-                    "title": "Chemistry Lab -2",
+                    "title": "Chemistry Laboratory-2",
                     "subTitle": "",
                     "image": [
                         "https://monarkuni.ac.in/wp-content/uploads/2021/06/SMET-76.jpg",
@@ -584,17 +584,17 @@
             "laboratories": [
                 {
                     "id": 1,
-                    "title": "Microbiology Lab -1",
+                    "title": "Microbiology Laboratory-1",
                     "subTitle": "Equipped with",
                     "image": [
                         "https://monarkuni.ac.in/wp-content/uploads/2021/06/SMET-65.jpg",
                         "https://monarkuni.ac.in/wp-content/uploads/2021/06/SMET-63.jpg"
                     ],
-                    "pera": "Autoclave,-incubator/shaker, -Binocular Microscope/Hot Air oven,-Centrifudge/Electro phoresis,-water bath/Ocullarmicrometer,-Colorimeter/Colony micrometer, Stage Micrometer"
+                    "pera": "Autoclave,incubator/shaker, Binocular Microscope/Hot Air oven,Centrifudge/Electro phoresis,water bath/Ocullarmicrometer,Colorimeter/Colony micrometer, Stage Micrometer"
                 },
                 {
                     "id": 2,
-                    "title": "Microbiology Lab -2",
+                    "title": "Microbiology Laboratory-2",
                     "subTitle": "",
                     "image": [
                         "https://monarkuni.ac.in/wp-content/uploads/2021/06/SMET-59.jpg",
@@ -665,7 +665,7 @@
             "laboratories": [
                 {
                     "id": 1,
-                    "title": "Zoology Lab -1",
+                    "title": "Zoology Laboratory-1",
                     "subTitle": "Equipped with",
                     "image": [
                         "https://monarkuni.ac.in/wp-content/uploads/2021/06/SMET-83.jpg",
@@ -740,7 +740,7 @@
             "laboratories": [
                 {
                     "id": 1,
-                    "title": "Physics Lab -1",
+                    "title": "Physics Laboratory-1",
                     "subTitle": "Equipped with",
                     "image": [
                         "https://monarkuni.ac.in/wp-content/uploads/2021/06/SMET-85.jpg",
@@ -750,7 +750,7 @@
                 },
                 {
                     "id": 2,
-                    "title": "Physics Lab -2",
+                    "title": "Physics Laboratory-2",
                     "subTitle": "",
                     "image": [
                        "https://monarkuni.ac.in/wp-content/uploads/2021/06/SMET-89.jpg",
@@ -847,13 +847,13 @@
             "laboratories": [
                 {
                     "id": 1,
-                    "title": "Biotechnology Lab -1",
+                    "title": "Biotechnology Laboratory-1",
                     "subTitle": "Equipped with",
                     "image": [
                         "https://monarkuni.ac.in/wp-content/uploads/2021/06/SMET-57.jpg",
                         "https://monarkuni.ac.in/wp-content/uploads/2021/06/SMET-54-1.jpg"
                     ],
-                    "pera": "Autoclave,-incubator/shaker, -Binocular Microscope/Hot Air oven,-Centrifudge/Electro phoresis,-water bath/Ocullarmicrometer,-Colorimeter/Colony micrometer, Stage Micrometer"
+                    "pera": "Autoclave,incubator/shaker, Binocular Microscope/Hot Air oven,Centrifudge/Electro phoresis,water bath/Ocullarmicrometer,Colorimeter/Colony micrometer, Stage Micrometer"
                 }
             ]
         }
@@ -915,14 +915,14 @@
                     "title": "Computer Lab",
                     "subTitle": "",
                     "image": "https://monarkuni.ac.in/wp-content/uploads/2021/06/SMET-206.jpg",
-                    "pera": "Computer Centre with Internet facilities has been set up and managed by experienced Computer professionals. We have a very well equipped computer lab with 50 computers for the information &   Technology subject with internet facility."
+                    "pera": "Computer Centre with Internet facilities has been set up and managed by experienced computer professionals. We have a very well equipped computer Laboratorywith 50 computers for the information &   Technology subject with internet facility."
                 },
                 {
                     "id": 2,
                     "title": "Library & Reading Room",
                     "subTitle": "",
                     "image": "https://monarkuni.ac.in/wp-content/uploads/2021/06/i08_SMET-227.jpg",
-                    "pera": "The college has well equipped library and reading room. It has more than 2248 references and recommended books for the BBA Course. Besides, there are periodicals, journals, weekly and monthly magazines, newspapers, considering the need to keep students abreast with latest development in the field of education, science and technology."
+                    "pera": "The college has well equipped library and reading room. It has more than 2,248 references and recommended books for the BBA Course. Besides, there are periodicals, journals, weekly and monthly magazines, newspapers, considering the need to keep students abreast with latest development in the field of education, science and technology."
                 }
             ]
         },
@@ -979,14 +979,14 @@
                     "title": "Computer Lab",
                     "subTitle": "",
                     "image": "https://monarkuni.ac.in/wp-content/uploads/2021/06/SMET-206.jpg",
-                    "pera": "Computer Centre with Internet facilities has been set up and managed by experienced Computer professionals. We have a very well equipped computer lab with 50 computers for the information &   Technology subject with internet facility."
+                    "pera": "Computer Centre with Internet facilities has been set up and managed by experienced computer professionals. We have a very well equipped computer Laboratorywith 50 computers for the information &   Technology subject with internet facility."
                 },
                 {
                     "id": 2,
                     "title": "Library & Reading Room",
                     "subTitle": "",
                     "image": "https://monarkuni.ac.in/wp-content/uploads/2021/06/i08_SMET-227.jpg",
-                    "pera": "The college has well equipped library and reading room. It has more than 2248 references and recommended books for the MBA Course. Besides, there are periodicals, journals, weekly and monthly magazines, newspapers, considering the need to keep students abreast with latest development in the field of education, science and technology."
+                    "pera": "The college has well equipped library and reading room. It has more than 2,248 references and recommended books for the MBA Course. Besides, there are periodicals, journals, weekly and monthly magazines, newspapers, considering the need to keep students abreast with latest development in the field of education, science and technology."
                 }
             ]
         },
@@ -994,7 +994,7 @@
             "id": 3,
             "title": "MBA in Marketing Management",
             "icon": "flaticon-bars",
-            "titlePera": "MBA in Marketing is popular course among the students wherein they study Marketing tools, concepts, research and analysis, pricing, product design, selling and distribution, promotion, advertising, other marketing concepts. Person who have good communication skills and sales skills they will be successful in marketing field. Marketing executives make a good living. This is a job that requires people to work on-field as well. Besides a good salary, marketing executives also have many perks and benefits.",
+            "titlePera": "MBA in Marketing is popular course among the students wherein they study Marketing tools, concepts, research and analysis, pricing, product design, selling and distribution, promotion, advertising, other marketing concepts. Persons who have good communication skills and sales skills they will be successful in marketing field. Marketing executives make a good living. This is a job that requires people to work on-field as well. Besides a good salary, marketing executives also have many perks and benefits.",
             "titleImage": "https://monarkuni.ac.in/wp-content/uploads/2021/06/SMET-125.jpg",
             "programOutcomesPera": "Marketing is a crucial business activity – due to this, there is a provision of numerous job opportunities./Course will help students in improving their management skills. They will study all about advertising, business mathematics, statistics, digital marketing, and various other topics in this course./Students will demonstrate analytical skills in identification and resolution of problems pertaining to marketing management.",
             "programOutcomesImages": [
@@ -1048,14 +1048,14 @@
                     "title": "Computer Lab",
                     "subTitle": "",
                     "image": "https://monarkuni.ac.in/wp-content/uploads/2021/06/SMET-206.jpg",
-                    "pera": "Computer Centre with Internet facilities has been set up and managed by experienced Computer professionals. We have a very well equipped computer lab with 50 computers for the information &   Technology subject with internet facility."
+                    "pera": "Computer Centre with Internet facilities has been set up and managed by experienced computer professionals. We have a very well equipped computer Laboratorywith 50 computers for the information &   Technology subject with internet facility."
                 },
                 {
                     "id": 2,
                     "title": "Library & Reading Room",
                     "subTitle": "",
                     "image": "https://monarkuni.ac.in/wp-content/uploads/2021/06/i08_SMET-227.jpg",
-                    "pera": "The college has well equipped library and reading room. It has more than 2248 references and recommended books for the MBA Course. Besides, there are periodicals, journals, weekly and monthly magazines, newspapers, considering the need to keep students abreast with latest development in the field of education, science and technology."
+                    "pera": "The college has well equipped library and reading room. It has more than 2,248 references and recommended books for the MBA Course. Besides, there are periodicals, journals, weekly and monthly magazines, newspapers, considering the need to keep students abreast with latest development in the field of education, science and technology."
                 }
             ]
         },
@@ -1087,14 +1087,14 @@
                     "title": "Computer Lab",
                     "subTitle": "",
                     "image": "https://monarkuni.ac.in/wp-content/uploads/2021/06/SMET-206.jpg",
-                    "pera": "The college has well equipped library and reading room. It has more than 2248 references and recommended books for the MBA Course. Besides, there are periodicals, journals, weekly and monthly magazines, newspapers, considering the need to keep students abreast with latest development in the field of education, science and technology."
+                    "pera": "The college has well equipped library and reading room. It has more than 2,248 references and recommended books for the MBA Course. Besides, there are periodicals, journals, weekly and monthly magazines, newspapers, considering the need to keep students abreast with latest development in the field of education, science and technology."
                 },
                 {
                     "id": 2,
                     "title": "Library & Reading Room",
                     "subTitle": "",
                     "image": "https://monarkuni.ac.in/wp-content/uploads/2021/06/i08_SMET-227.jpg",
-                    "pera": "Computer Centre with Internet facilities has been set up and managed by experienced Computer professionals. We have a very well equipped computer lab with 50 computers for the information &   Technology subject with internet facility."
+                    "pera": "Computer Centre with Internet facilities has been set up and managed by experienced computer professionals. We have a very well equipped computer Laboratorywith 50 computers for the information &   Technology subject with internet facility."
                 }
             ]
         },
@@ -1156,14 +1156,14 @@
                     "title": "Computer Lab",
                     "subTitle": "",
                     "image": "https://monarkuni.ac.in/wp-content/uploads/2021/06/SMET-206.jpg",
-                    "pera": "Computer Centre with Internet facilities has been set up and managed by experienced Computer professionals. We have a very well equipped computer lab with 50 computers for the information &   Technology subject with internet facility."
+                    "pera": "Computer Centre with Internet facilities has been set up and managed by experienced computer professionals. We have a very well equipped computer Laboratorywith 50 computers for the information &   Technology subject with internet facility."
                 },
                 {
                     "id": 2,
                     "title": "Library & Reading Room",
                     "subTitle": "",
                     "image": "https://monarkuni.ac.in/wp-content/uploads/2021/06/i08_SMET-227.jpg",
-                    "pera": "The college has well equipped library and reading room. It has more than 2248 references and recommended books for the MBA Course. Besides, there are periodicals, journals, weekly and monthly magazines, newspapers, considering the need to keep students abreast with latest development in the field of education, science and technology."
+                    "pera": "The college has well equipped library and reading room. It has more than 2,248 references and recommended books for the MBA Course. Besides, there are periodicals, journals, weekly and monthly magazines, newspapers, considering the need to keep students abreast with latest development in the field of education, science and technology."
                 }
             ]
         },
@@ -1220,14 +1220,14 @@
                     "title": "Computer Lab",
                     "subTitle": "",
                     "image": "https://monarkuni.ac.in/wp-content/uploads/2021/06/SMET-206.jpg",
-                    "pera": "Computer Centre with Internet facilities has been set up and managed by experienced Computer professionals. We have a very well equipped computer lab with 50 computers for the information &   Technology subject with internet facility."
+                    "pera": "Computer Centre with Internet facilities has been set up and managed by experienced computer professionals. We have a very well equipped computer Laboratorywith 50 computers for the information &   Technology subject with internet facility."
                 },
                 {
                     "id": 2,
                     "title": "Library & Reading Room",
                     "subTitle": "",
                     "image": "https://monarkuni.ac.in/wp-content/uploads/2021/06/i08_SMET-227.jpg",
-                    "pera": "The college has well equipped library and reading room. It has more than 2248 references and recommended books for the MBA Course. Besides, there are periodicals, journals, weekly and monthly magazines, newspapers, considering the need to keep students abreast with latest development in the field of education, science and technology."
+                    "pera": "The college has well equipped library and reading room. It has more than 2,248 references and recommended books for the MBA Course. Besides, there are periodicals, journals, weekly and monthly magazines, newspapers, considering the need to keep students abreast with latest development in the field of education, science and technology."
                 }
             ]
         }
@@ -1280,7 +1280,7 @@
                     "title": "Computer Lab",
                     "subTitle": "",
                     "image": "https://monarkuni.ac.in/wp-content/uploads/2021/06/SMET-206.jpg",
-                    "pera": "Computer Centre with Internet facilities has been set up and managed by experienced Computer professionals. We have a very well equipped computer lab with 100 computers for the information &   Technology subject with internet facility."
+                    "pera": "Computer Centre with Internet facilities has been set up and managed by experienced computer professionals. We have a very well equipped computer Laboratorywith 100 computers for the information &   Technology subject with internet facility."
                 },
                 {
                     "id": 2,
@@ -1344,7 +1344,7 @@
                     "title": "Computer Lab",
                     "subTitle": "",
                     "image": "https://monarkuni.ac.in/wp-content/uploads/2021/06/SMET-206.jpg",
-                    "pera": "Computer Centre with Internet facilities has been set up and managed by experienced Computer professionals. We have a very well equipped computer lab with 100 computers for the information &   Technology subject with internet facility."
+                    "pera": "Computer Centre with Internet facilities has been set up and managed by experienced computer professionals. We have a very well equipped computer Laboratorywith 100 computers for the information &   Technology subject with internet facility."
                 },
                 {
                     "id": 2,
@@ -1403,7 +1403,7 @@
                     "title": "Computer Lab",
                     "subTitle": "",
                     "image": "https://monarkuni.ac.in/wp-content/uploads/2021/06/SMET-206.jpg",
-                    "pera": "Computer Centre with Internet facilities has been set up and managed by experienced Computer professionals. We have a very well equipped computer lab with 100 computers for the information &   Technology subject with internet facility."
+                    "pera": "Computer Centre with Internet facilities has been set up and managed by experienced computer professionals. We have a very well equipped computer Laboratorywith 100 computers for the information &   Technology subject with internet facility."
                 },
                 {
                     "id": 2,
@@ -1561,7 +1561,7 @@
                     "title": "Computer Lab",
                     "subTitle": "",
                     "image": "https://monarkuni.ac.in/wp-content/uploads/2021/06/SMET-206.jpg",
-                    "pera": "Computer Centre with Internet facilities has been set up and managed by experienced Computer professionals. We have a very well equipped computer lab with 100 computers for the information &   Technology subject with internet facility"
+                    "pera": "Computer Centre with Internet facilities has been set up and managed by experienced computer professionals. We have a very well equipped computer Laboratorywith 100 computers for the information &   Technology subject with internet facility"
                 },
                 {
                     "id": 2,
@@ -1620,7 +1620,7 @@
                     "title": "Computer Lab",
                     "subTitle": "",
                     "image": "https://monarkuni.ac.in/wp-content/uploads/2021/06/SMET-206.jpg",
-                    "pera": "Computer Centre with Internet facilities has been set up and managed by experienced Computer professionals. We have a very well equipped computer lab with 50 computers for the information &   Technology subject with internet facility."
+                    "pera": "Computer Centre with Internet facilities has been set up and managed by experienced computer professionals. We have a very well equipped computer Laboratorywith 50 computers for the information &   Technology subject with internet facility."
                 },
                 {
                     "id": 2,
@@ -1657,7 +1657,7 @@
                 {
                     "id": 2,
                     "image": "http://monarkuni.ac.in/wp-content/uploads/2021/05/GettyImages-940372496.jpg",
-                    "name": "Lab Technician"
+                    "name": "LaboratoryTechnician"
                 },
                 {
                     "id": 3,
@@ -1674,7 +1674,7 @@
                     "title": "Computer Lab",
                     "subTitle": "",
                     "image": "https://monarkuni.ac.in/wp-content/uploads/2021/06/SMET-206.jpg",
-                    "pera": "Computer Centre with Internet facilities has been set up and managed by experienced Computer professionals. We have a very well equipped computer lab with 50 computers for the information &   Technology subject with internet facility."
+                    "pera": "Computer Centre with Internet facilities has been set up and managed by experienced computer professionals. We have a very well equipped computer Laboratorywith 50 computers for the information &   Technology subject with internet facility."
                 },
                 {
                     "id": 2,
@@ -1844,7 +1844,7 @@
             "icon": "flaticon-bars",
             "titlePera": "Diploma in Medical Laboratory Technology (DMLT) is a one – year programme that includes eight month Theory, Practical and four month Internship. The course lays a foundation into the aspects of the technologies that are integrated into the healthcare system, which aims in improving the quality of the healthcare system. Diploma in Medical Laboratory Technology (DMLT) concentrates on imparting a thorough knowledge of the diagnosis treatment and prevention of diseases through the use of clinical laboratory Equipment.",
             "titleImage": "https://monarkuni.ac.in/wp-content/uploads/2021/06/SMET-69.jpg",
-            "programOutcomesPera": "After the completion of these course students will be able to perform medical tests with the help of medical instruments and the treatment of diseases, this program also equips candidates with the knowledge and skills required to handle the advanced lab equipment and perform accurate medical laboratory tests.",
+            "programOutcomesPera": "After the completion of these course students will be able to perform medical tests with the help of medical instruments and the treatment of diseases, this program also equips candidates with the knowledge and skills required to handle the advanced Laboratoryequipment and perform accurate medical laboratory tests.",
             "programOutcomesImages": [
                 
             ],
@@ -1854,14 +1854,14 @@
             "laboratories": [
                 {
                     "id": 1,
-                    "title": "Lab 1",
+                    "title": "Laboratory1",
                     "subTitle": "",
                     "image": "https://monarkuni.ac.in/wp-content/uploads/2021/06/SMET-54-1.jpg",
                     "pera": ""
                 },
                 {
                     "id": 2,
-                    "title": "Lab 2",
+                    "title": "Laboratory2",
                     "subTitle": "",
                     "image": "https://monarkuni.ac.in/wp-content/uploads/2021/06/SMET-57.jpg",
                     "pera": ""

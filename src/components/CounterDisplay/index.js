@@ -68,24 +68,24 @@ const Index = () => {
                 {/* <img className="capimg" src="/img/logo/cap2.png" alt="" /> */}
                 <i class="fa-solid fa-graduation-cap"></i>
                 <h1 className="mt-10" data-aos="zoom-in">
-                  <span>Experience</span> Academic Diversity Like
-                  <span>Never</span> Before with Leading <span>Experts</span>
-                  and <span>Comprehensive</span> Programs
+                  <span>Experience</span> Academic Diversity Like 
+                  <span> Never</span> Before with Leading <span>Experts </span>
+                  and <span>Comprehensive</span> programmes
                 </h1>
               </div>
             </div>
             <div className="col-lg-6 col-md-12 col-12 mt-lg-0 mt-4">
               <div className="row py-lg-2 px-lg-5 px-2 py-1 p-relative" data-aos="zoom-in-left">
-                <p className="why_mu d-flex align-items-center justify-content-center flex-column">
-                  Why <span>MU</span>
-                </p>
+                <div className="why_mu d-flex align-items-center justify-content-center flex-column">
+                 <img src="/img/logo/monarklogoonly.png" alt="" />
+                </div>
                 <div className="col-6">
                   <div
                     ref={ref1}
                     className="counter-box counter-box-1 d-flex align-items-center flex-column"
                   >
                     <img src="/img/counter/school.png" alt="" />
-                    <h6 className="text-black">Institutes</h6>
+                    <h6 className="text-black mt-3">Institutes</h6>
                     <div className="count-text mt-2 d-flex align-items-center justify-content-center">
                       {startCount1 && (
                         <CountUp start={0} end={13} duration={6} />
@@ -99,7 +99,7 @@ const Index = () => {
                     className="counter-box counter-box-2 d-flex align-items-center flex-column"
                   >
                     <img src="/img/counter/network.png" alt="" />
-                    <h6 className="text-black">Students</h6>
+                    <h6 className="text-black mt-3">Students</h6>
                     <div className="count-text mt-2 d-flex align-items-center justify-content-center">
                       {startCount2 && (
                         <CountUp start={0} end={7000} duration={6} />
@@ -113,7 +113,7 @@ const Index = () => {
                     className="counter-box counter-box-3 d-flex align-items-center flex-column"
                   >
                     <img src="/img/counter/teacher.png" alt="" />
-                    <h6 className="text-black">Faculty</h6>
+                    <h6 className="text-black mt-3">Faculty</h6>
                     <div className="count-text mt-2 d-flex align-items-center justify-content-center">
                       {startCount3 && (
                         <CountUp start={0} end={300} duration={6} />
@@ -127,7 +127,7 @@ const Index = () => {
                     className="counter-box counter-box-4 d-flex align-items-center flex-column"
                   >
                     <img src="/img/counter/data.png" alt="" />
-                    <h6 className="text-black">Programs</h6>
+                    <h6 className="text-black mt-3">programmes</h6>
                     <div className="count-text mt-2 d-flex align-items-center justify-content-center">
                       {startCount4 && (
                         <CountUp start={0} end={100} duration={6} />
