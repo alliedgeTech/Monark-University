@@ -639,33 +639,6 @@ p {
     background: var(--web-orange);
 } */
 
-.student-club-info {
-    position: relative;
-}
-
-@media screen and (max-width:768px) {
-    /* .student-club-text {
-        position: absolute;
-        bottom: 5%;
-        padding: 0 2vmax;
-        opacity: 1 !important;
-        transition: all 0.4s;
-    } */
-}
-
-/* .student-club-info:hover .student-club-text {
-    opacity: 1;
-} */
-
-
-/* 
-.student-club-text h4 {
-    color: var(--web-orange);
-}
-
-.student-club-text p {
-    color: var(--web-grey-white);
-} */
 
 
 .latest-box {
