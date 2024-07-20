@@ -69,7 +69,7 @@ const Index = () => {
 
   useEffect(() => {
     aos.init({
-      offset: 50, // Offset (in pixels) from the original trigger point
+      offset: 150, // Offset (in pixels) from the original trigger point
       duration: 700, // Duration of animation (in milliseconds)
     });
     FetchData();
@@ -77,6 +77,12 @@ const Index = () => {
 
   return (
     <div className="life-section py-5">
+      <div className="life-shape-1" data-aos="zoom-out">
+        <img className="img-fluid" src="https://static.vecteezy.com/system/resources/thumbnails/011/664/455/small/round-abstract-trendy-design-element-aesthetic-shape-for-creative-design-ornament-collection-of-minimalist-modern-style-for-decorative-design-free-png.png" alt="" />
+      </div>
+      <div className="life-shape-2" data-aos="zoom-out">
+        <img className="img-fluid" src="https://www.pngall.com/wp-content/uploads/15/Half-Circle-PNG-Pic.png" alt="" />
+      </div>
       <div className="life-heading text-center" data-aos="fade-up">
         <h1>
           Our Latest <span>EVENTS</span>

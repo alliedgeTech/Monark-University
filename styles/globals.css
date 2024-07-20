@@ -26,8 +26,13 @@ body.darkmode{
     --web-footer:#f2f2f2;
     --web-light-black:#373737;
     --web-light-blue:#e7e7e7;
+    --mu-bg: linear-gradient(#90c6ff,#2f2f5d);
+    --life-bg: linear-gradient(#dfffe3,#ffc9fa);
+    
 }
 .darkmode{
+    --mu-bg: linear-gradient(#1a3b5e,#1460b2);
+    --life-bg: linear-gradient(#1c3e2e,#471640);
     --web-light-blue:#2c3136;
     --web-light-black:#dddddd;
     --web-footer:#393939;
@@ -1729,9 +1734,11 @@ tr {
 }
 
 .mu_course {
-    background: var(--web-eee);
+    background: var(--mu-bg);
     border-top: 2px solid #dadada;
+    position: relative;
 }
+
 
 .mu_course .tab-content {
     background: var(--web-white) !important;
@@ -2209,7 +2216,25 @@ tr {
     }
   }
 .life-section{
-    background: var(--web-eee);
+    /* background: var(--web-eee); */
+    background: var(--life-bg);
+    position: relative;
+}
+.life-section .life-shape-1{
+    position: absolute;
+    top: 20%;
+    left: -100px;
+    transform: rotate(90deg) !important;
+    opacity: 0.7;
+    /* z-index: -1; */
+}
+.life-section .life-shape-2{
+    /* z-index: -1; */
+    position: absolute;
+    bottom: 10%;
+    right: -150px;
+    transform: rotate(-90deg) !important;
+    opacity: 0.7;
 }
 .life-section .life-heading h4{
     color: gray;
@@ -2230,7 +2255,7 @@ tr {
     font-family: Oswald !important;
 }
 .life-section .life-heading h2{
-    color: var(--web-light-black) !important;
+    color: var(--web-black) !important;
     font-weight: 500 !important;
     font-family: Poppins !important;
 }
@@ -2247,8 +2272,7 @@ tr {
     height: 100% !important;
 }
 .life-section .img-box:hover{
-    transform: translateY(4px) scale(0.95);
-    box-shadow: 0 5px 5px var(--web-eee);
+    transform: translateY(4px) scale(0.9) !important;
 }
 .comiti-submenu{
     display: none;
