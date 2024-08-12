@@ -49,7 +49,7 @@ const index = () => {
 
   return (
     <>
-      <div className="highlight-section pt-4 mt-30">
+      <div className="highlight-section pt-4">
         <div className="container">
           <OwlCarousel
             className="owl-theme px-2"

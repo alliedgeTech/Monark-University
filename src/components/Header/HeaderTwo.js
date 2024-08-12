@@ -114,9 +114,9 @@ export default function Header(props) {
             <h3 className="mb-4 text-white">Get In Touch</h3>
             <div className="it-info-wrapper mb-20 d-flex align-items-center">
               <div className="itoffcanvas__info-icon">
-                <a href="#">
+                <Link href="#">
                   <i className="fal fa-envelope"></i>
-                </a>
+                </Link>
               </div>
               <div className="itoffcanvas__info-address">
                 <span>Email</span>
@@ -130,20 +130,20 @@ info@monarkuni.ac.in"
             </div>
             <div className="it-info-wrapper mb-20 d-flex align-items-center">
               <div className="itoffcanvas__info-icon">
-                <a href="#">
+                <Link href="#">
                   <i className="fal fa-phone-alt"></i>
-                </a>
+                </Link>
               </div>
               <div className="itoffcanvas__info-address">
                 <span>Phone</span>
-                <a href="tel:7970707001">+91-7970707001</a>
+                <Link href="tel:7970707001">+91-7970707001</Link>
               </div>
             </div>
             <div className="it-info-wrapper mb-20 d-flex align-items-center">
               <div className="itoffcanvas__info-icon">
-                <a href="#">
+                <Link href="#">
                   <i className="fas fa-map-marker-alt"></i>
-                </a>
+                </Link>
               </div>
               <div className="itoffcanvas__info-address">
                 <span>Location</span>

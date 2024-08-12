@@ -12,10 +12,10 @@ export default function SingleTeam( props ) {
 				<div className="it-team-social-box">
 					<button><i className="fa-sharp fa-light fa-share-nodes"></i></button>
 					<div className="it-team-social">
-						<a href="#"><i className="fa-brands fa-facebook"></i></a>
-						<a href="#"><i className="fa-brands fa-pinterest-p"></i></a>
-						<a href="#"><i className="fa-brands fa-instagram"></i></a>
-						<a href="#"><i className="fa-brands fa-linkedin"></i></a>
+						<Link href="#"><i className="fa-brands fa-facebook"></i></Link>
+						<Link href="#"><i className="fa-brands fa-pinterest-p"></i></Link>
+						<Link href="#"><i className="fa-brands fa-instagram"></i></Link>
+						<Link href="#"><i className="fa-brands fa-linkedin"></i></Link>
 					</div>
 				</div>
 				<div className="it-team-author-box d-flex align-items-center justify-content-between">

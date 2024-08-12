@@ -1,5 +1,6 @@
 import Image from "next/image"
 import Sidebar from "@/components/Blog/Sidebar"
+import Link from "next/link";
 
 export default function BlogDetailsArea({item}) {
 	if (!item) {
@@ -52,17 +53,17 @@ export default function BlogDetailsArea({item}) {
 										<div className="col-xl-7 col-lg-7 col-md-7">
 											<div className="postbox__details-tag">
 												<span>Posted in:</span>
-												<a href="#">Development</a>
-												<a href="#">Digital</a>
-												<a href="#">Tech</a>
+												<Link href="#">Development</Link>
+												<Link href="#">Digital</Link>
+												<Link href="#">Tech</Link>
 											</div>
 										</div>
 										<div className="col-xl-5 col-lg-5 col-md-5">
 											<div className="postbox__details-share text-lg-end">
 												<span>Share:</span>
-												<a href="#"><i className="fab fa-facebook-f"></i></a>
-												<a href="#"><i className="fa-brands fa-instagram"></i></a>
-												<a href="#"><i className="fab fa-twitter"></i></a>
+												<Link href="#"><i className="fab fa-facebook-f"></i></Link>
+												<Link href="#"><i className="fa-brands fa-instagram"></i></Link>
+												<Link href="#"><i className="fab fa-twitter"></i></Link>
 											</div>
 										</div>
 									</div>
@@ -80,7 +81,7 @@ export default function BlogDetailsArea({item}) {
 												<div className="postbox__comment-text">
 													<div className="postbox__comment-reply d-flex align-items-center justify-content-between">
 														<span className="post-meta">September 6, 2022 at 1:28 pm </span>
-														<a href="#">Reply</a>
+														<Link href="#">Reply</Link>
 													</div>
 													<div className="postbox__comment-name">
 														<h5>{author ? author : "Jonathon Lopez"}</h5>

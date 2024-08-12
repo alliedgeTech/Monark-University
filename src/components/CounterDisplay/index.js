@@ -59,7 +59,7 @@ const Index = () => {
   }, [inView4]);
 
   return (
-    <div className="counter py-4">
+    <div className="counter py-4 achivement-section">
       <div className="container">
         <div className="counter-div">
           <div className="row">

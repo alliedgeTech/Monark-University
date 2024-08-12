@@ -128,8 +128,8 @@ export default function About() {
               <div className="col-lg-6 col-md-5 col-12 mt-lg-0 mt-4">
                 <div className="vision-img" data-aos="zoom-in-right">
                   <img
-                    className="img-fluid filp"
-                    src="/img/vision/vision2.jpeg"
+                    className="img-fluid"
+                    src="https://res.cloudinary.com/dfpjcqywv/image/upload/v1721823932/9f6aafe08c_bywugx.jpg"
                     alt=""
                   />
                 </div>
@@ -154,7 +154,7 @@ export default function About() {
             <div className="row flex-row-reverse  vision px-lg-5 px-md-5 px-3 py-4 py-lg-5 deg-45 mt-4 p-relative">
               <div className="col-lg-6 col-md-5 col-12 mt-lg-0 mt-4">
                 <div className="vision-img" data-aos="fade-in">
-                  <img src="/img/vision/vision2.jpeg" alt="" />
+                  <img className="img-fluid" src="https://res.cloudinary.com/dfpjcqywv/image/upload/v1721823932/77125a1a9d_tbrh5u.jpg " alt="" />
                 </div>
               </div>
               <div className="col-lg-6 col-md-7 col-12 mt-lg-0 mt-4">
@@ -196,7 +196,7 @@ export default function About() {
                       >
                         <img
                           src="https://monarkuni.ac.in/wp-content/uploads/2021/06/SMET-175-Copy.jpg"
-                          className="img-fluid rounded shadow"
+                          className="img-fluid"
                           alt="President Image"
                         />
                       </div>
@@ -283,7 +283,7 @@ export default function About() {
         </div>
 
         <div id="vicepresidentmessage">
-          <div className="it-sv-details-area mt-50 ">
+          <div className="it-sv-details-area py-4  ">
             <div className="container">
               <div className="three mb-20">
                 <h4>Vice President's Message</h4>
@@ -299,7 +299,7 @@ export default function About() {
                         >
                           <img
                             src="https://monarkuni.ac.in/wp-content/uploads/2021/07/SMET-163.jpg"
-                            className="img-fluid rounded shadow"
+                            className="img-fluid  "
                             alt="President Image"
                           />
                         </div>
@@ -377,8 +377,8 @@ export default function About() {
             </div>
           </div>
 
-          <div id="provostmessage">
-            <div className="it-sv-details-area mt-50 bg-change py-4">
+          <div id="provostmessage" className="bg-change">
+            <div className="it-sv-details-area mt-50 py-4">
               <div className="container">
                 <div className="three mb-20">
                   <h4>Provost Message</h4>
@@ -394,7 +394,7 @@ export default function About() {
                           >
                             <img
                               src="https://monarkuni.ac.in/wp-content/uploads/2021/06/SMET-218-Copy.jpg"
-                              className="img-fluid rounded shadow"
+                              className="img-fluid  "
                               alt="President Image"
                             />
                           </div>
@@ -461,7 +461,7 @@ export default function About() {
                               </p>
                               <p className="mt-20">
                                 <div className="msg-strong-box">
-                                  <strong>
+                                  <strong className="text-black">
                                     “The purpose of education is to make good
                                     human beings with skill and expertise.
                                     Enlightened human beings can be created by

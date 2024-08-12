@@ -8,7 +8,7 @@ export default function InquiryModules() {
 	return (
 		<main>
 			<BreadCrumbs
-				Title="Inquiry"
+				Title="Enquiry"
 				subTitle="Career"
 			/>
 			<InquiryForm />

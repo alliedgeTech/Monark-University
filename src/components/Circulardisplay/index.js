@@ -139,14 +139,14 @@ const Index = () => {
                         <td>{item.uploadDate.toString().split('T')[0]}</td>
                         <td>{item.name}</td>
                         <td>
-                          <a href={item.documentUrl} target="_blank">
+                          <Link href={item.documentUrl} target="_blank">
                             <button className="btn hover-btn">
                               <div className="text-div">
                                 <small className="text-white">Download</small>
                                 <small className="text-white">Download</small>
                               </div>
                             </button>
-                          </a>
+                          </Link>
                         </td>
                       </tr>
                     ))}

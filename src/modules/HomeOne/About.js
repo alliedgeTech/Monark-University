@@ -58,9 +58,9 @@ export default function About() {
 
 
   return (<>
-    <div className="student-placement pb-2 pt-4 container">
-      <div className="course-heading-home text-center mb-20">
-        <h1 data-aos="fade-right" className="mb-0">Your Exceptional Placement <span>Opportunities</span> with Comprehensive Milestone <span>Packages</span></h1>
+    <div className="student-placement bg-light pb-2 pt-4 ">
+      <div className="course-heading-home text-center width_75 mx-auto mb-20">
+        <h1 data-aos="fade-right" className="mb-0 text-black">Your Exceptional Placement <span>Opportunities</span> with Comprehensive Milestone <span>Packages</span></h1>
       </div>
       <Marquee className="placement-carousel" behavior="alternate" direction="">
         <div className="img-box" data-aos="fade-up" data-delay="1">
@@ -240,50 +240,52 @@ export default function About() {
         </div>
       </Marquee>
     </div>
-    <div className="alumini-student mb-30 container">
-      <div className="row">
-        <div className="col-lg-5 col-12 d-flex align-items-center">
-          <div className="alumini-heading p-relative" data-aos="zoom-in-right">
-            <h5>You May Also Be One Of Them</h5>
-            <h1  className="mt-4">Our Alums Employed by the <span>World's</span> Leading <span className="blue">Organizations</span></h1>
-            <img className="img-fluid d-lg-block d-none line-round" src="https://cdn.pixabay.com/photo/2014/12/10/10/08/district-562975_1280.png" alt="" />
+    <div className="alumini-student ">
+      <div className="container">
+        <div className="row">
+          <div className="col-lg-5 col-12 d-flex align-items-center">
+            <div className="alumini-heading p-relative" data-aos="zoom-in-right">
+              <h5>You May Also Be One Of Them</h5>
+              <h1  className="mt-4">Our Alums Employed by the <span>World's</span> Leading <span className="blue">Organizations</span></h1>
+              <img className="img-fluid d-lg-block d-none line-round" src="https://cdn.pixabay.com/photo/2014/12/10/10/08/district-562975_1280.png" alt="" />
+            </div>
           </div>
-        </div>
-        <div className="col-lg-7 col-12 px-3">
-          <div className="alumini-carousel" data-aos="zoom-in-left">
-            <OwlCarousel
-            className="owl-theme"
-            autoPlay={true}
-            margin={10}
-            loop={true}
-            responsive={Responsive}
-            responsiveRefreshRate={0}
-            autoplay={true}
-            autoplayTimeout={3000}
-            autoplayHoverPause={false}
-            >
-              <div className="item px-2 py-3">
-                <div className="alumini-card">
+          <div className="col-lg-7 col-12 px-3">
+            <div className="alumini-carousel" data-aos="zoom-in-left">
+              <OwlCarousel
+              className="owl-theme"
+              autoPlay={true}
+              margin={10}
+              loop={true}
+              responsive={Responsive}
+              responsiveRefreshRate={0}
+              autoplay={true}
+              autoplayTimeout={3000}
+              autoplayHoverPause={false}
+              >
+                <div className="item px-2 py-3">
+                  <div className="alumini-card">
 
-            <img className="img-fluid" src="/img/blog/pic1.png" alt="" />
+              <img className="img-fluid" src="/img/blog/pic1.png" alt="" />
+                  </div>
+
                 </div>
+                <div className="item px-2 py-3">
+                <div className="alumini-card">
+                    
+              <img className="img-fluid" src="/img/blog/pic2.png" alt="" />
+                    </div>
 
-              </div>
-              <div className="item px-2 py-3">
-              <div className="alumini-card">
-                  
-            <img className="img-fluid" src="/img/blog/pic2.png" alt="" />
-                  </div>
+                </div>
+                <div className="item px-2 py-3">
+                <div className="alumini-card">
+                    
+              <img className="img-fluid" src="/img/blog/pic3.png" alt="" />
+                    </div>
 
-              </div>
-              <div className="item px-2 py-3">
-              <div className="alumini-card">
-                  
-            <img className="img-fluid" src="/img/blog/pic3.png" alt="" />
-                  </div>
-
-              </div>
-            </OwlCarousel>
+                </div>
+              </OwlCarousel>
+            </div>
           </div>
         </div>
       </div>

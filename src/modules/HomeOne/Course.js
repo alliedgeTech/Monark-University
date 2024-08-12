@@ -113,6 +113,8 @@ export default function Course() {
 
   return (
     <div className="student-club container-fluid py-5  pb-4">
+      <div className="feely-shape-1 d-lg-block d-none"></div>
+      <div className="feely-shape-2 d-lg-block d-none"></div>
       <div className="container">
         <div data-aos='fade-right' className="course-heading-home width_50 mb-40">
           <h1 className="">

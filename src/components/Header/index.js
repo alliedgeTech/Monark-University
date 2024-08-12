@@ -98,7 +98,7 @@ export default function Header(props) {
               <i className="fal fa-times"></i>
             </button>
           </div>
-          <div className="itoffcanvas__logo">
+          {/* <div className="itoffcanvas__logo">
             <Link href="/">
               <img
                 className="img-fluid w-25"
@@ -106,57 +106,11 @@ export default function Header(props) {
                 alt=""
               />
             </Link>
-          </div>
-          <div className="it-menu-mobile">
+          </div> */}
+          <div className="it-menu-mobile mt-4">
             <MobileMenuItems onePage={menuFormat} />
           </div>
-          <div className="itoffcanvas__info">
-            <h3 className="mb-4 text-white">Get In Touch</h3>
-            <div className="it-info-wrapper mb-20 d-flex align-items-center">
-              <div className="itoffcanvas__info-icon">
-                <a href="#">
-                  <i className="fal fa-envelope"></i>
-                </a>
-              </div>
-              <div className="itoffcanvas__info-address">
-                <span>Email</span>
-                <a
-                  href="
-info@monarkuni.ac.in"
-                >
-                  info@monarkuni.ac.in
-                </a>
-              </div>
-            </div>
-            <div className="it-info-wrapper mb-20 d-flex align-items-center">
-              <div className="itoffcanvas__info-icon">
-                <a href="#">
-                  <i className="fal fa-phone-alt"></i>
-                </a>
-              </div>
-              <div className="itoffcanvas__info-address">
-                <span>Phone</span>
-                <a href="tel:7970707001">+91-7970707001</a>
-              </div>
-            </div>
-            <div className="it-info-wrapper mb-20 d-flex align-items-center">
-              <div className="itoffcanvas__info-icon">
-                <a href="#">
-                  <i className="fas fa-map-marker-alt"></i>
-                </a>
-              </div>
-              <div className="itoffcanvas__info-address">
-                <span>Location</span>
-                <Link
-                  href="htits://www.google.com/maps/@37.4801311,22.8928877,3z"
-                  target="_blank"
-                >
-                  At. & Post Vahelal, Naroda-Dahegam Road, Ta. Dascroi, Dist.
-                  Ahmedabad-382330 (Gujarat) India.
-                </Link>
-              </div>
-            </div>
-          </div>
+          
         </div>
       </div>
       <div

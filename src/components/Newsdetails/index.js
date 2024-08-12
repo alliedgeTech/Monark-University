@@ -82,25 +82,25 @@ export default function Newsdetails() {
                   </h6>
                 </div>
                 <div className="postbox__details-tag">
-                  <a href={newsItem.registrationLink} target="_blank">
+                  <Link href={newsItem.registrationLink} target="_blank">
                     
                     Register Here
-                  </a>
+                  </Link>
                   <div className="postbox__details-share-wrapper">
                     <div className="row align-items-center">
                       <div className="col-xl-7 col-lg-7 col-md-7"></div>
                       <div className="col-xl-5 col-lg-5 col-md-5">
                         <div className="postbox__details-share text-lg-end">
                           <span>Share:</span>
-                          <a href="#">
+                          <Link href="#">
                             <i className="fab fa-facebook-f"></i>
-                          </a>
-                          <a href="#">
+                          </Link>
+                          <Link href="#">
                             <i className="fa-brands fa-instagram"></i>
-                          </a>
-                          <a href="#">
+                          </Link>
+                          <Link href="#">
                             <i className="fab fa-twitter"></i>
-                          </a>
+                          </Link>
                         </div>
                       </div>
                     </div>

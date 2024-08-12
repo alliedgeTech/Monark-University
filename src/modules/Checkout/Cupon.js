@@ -1,3 +1,4 @@
+import Link from "next/link"
 import { useState } from "react"
 
 export default function Coupon() {
@@ -39,7 +40,7 @@ export default function Coupon() {
 											</label>
 										</p>
 										<p className="lost-password">
-											<a href="#">Lost your password?</a>
+											<Link href="#">Lost your password?</Link>
 										</p>
 									</form>
 								</div>

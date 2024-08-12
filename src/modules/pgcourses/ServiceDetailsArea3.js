@@ -208,7 +208,7 @@ export default function ServiceDetailsArea() {
                     <div className="row px-4">
                       <div className="col-lg-6 col-md-12 mt-4" data-aos='fade-up'>
                         <div className='deg15'>
-                          <div className="service-box p-4 deg-15">
+                          <div className="service-box px-5 py-4 deg-15">
                             <h5>Course Duration</h5>
                             <p>{course.coureDuration}</p>
                           </div>
@@ -216,7 +216,7 @@ export default function ServiceDetailsArea() {
                       </div>
                       <div className="col-lg-6 col-md-12 mt-4" data-aos='fade-up'>
                         <div className='deg15'>
-                          <div className="service-box p-4 deg-15">
+                          <div className="service-box px-5 py-4 deg-15">
                             <h5>Eligibility Criteria</h5>
                             <p>{course.eligibilityCriteria}</p>
                           </div>
@@ -224,7 +224,7 @@ export default function ServiceDetailsArea() {
                       </div>
                       <div className="col-lg-6 col-md-12 mt-4" data-aos='fade-up'>
                         <div className='deg15'>
-                          <div className="service-box p-4 deg-15">
+                          <div className="service-box px-5 py-4 deg-15">
                             <h5>Annual Fees</h5>
                             <p>{course.annualFees}</p>
                           </div>
@@ -232,9 +232,9 @@ export default function ServiceDetailsArea() {
                       </div>
                       <div className="col-lg-6 col-md-12 mt-4" data-aos='fade-up'>
                         <div className='deg15'>
-                          <div className="service-box p-4 deg-15">
+                          <div className="service-box px-5 py-4 deg-15">
                             <h5>Apply Now</h5>
-                            <a href="/applynow">Apply now</a>
+                            <Link href="/applynow">Apply now</Link>
                           </div>
                         </div>
                       </div>

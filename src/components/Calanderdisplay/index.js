@@ -6,6 +6,7 @@ import 'aos/dist/aos.css';
 import aos from 'aos'; 
 
 import axios from "axios";
+import Link from "next/link";
 
 if (typeof window !== "undefined") {
   var $ = require("jquery");
@@ -110,14 +111,14 @@ const Calanderdisplay = () => {
                           <td>{item.programs}</td>
                           <td>{item.Branch}</td>
                           <td>
-                            <a href={item.pdfUrl} target="_blank">
+                            <Link href={item.pdfUrl} target="_blank">
                               <button className="btn hover-btn">
                                 <div className="text-div">
                                   <small>View</small>
                                   <small>View</small>
                                 </div>
                               </button>
-                            </a>
+                            </Link>
                           </td>
                         </tr>
                       );

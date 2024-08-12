@@ -2,6 +2,36 @@ import { useEffect, useState } from "react";
 import "animate.css";
 import 'aos/dist/aos.css'; 
 import aos from 'aos'; 
+import dynamic from "next/dynamic";
+import "owl.carousel/dist/assets/owl.carousel.css";
+import "owl.carousel/dist/assets/owl.theme.default.css";
+if (typeof window !== "undefined") {
+  var $ = require("jquery");
+  window.$ = window.jQuery = require("jquery");
+}
+
+const OwlCarousel = dynamic(() => import("react-owl-carousel"), {
+  ssr: false,
+});
+
+const Responsive = {
+  0: {
+    items: 1,
+    margin: 5,
+  },
+  435: {
+    items: 1,
+    margin: 10,
+  },
+  768: {
+    items: 3,
+    margin: 10,
+  },
+  1024: {
+    items: 4,
+    margin: 20,
+  },
+};
 export default function About() {
   useEffect(() => {
     aos.init({
@@ -63,7 +93,7 @@ export default function About() {
       {/* Years and trust start*/}
       <div>
         <div class="container">
-        <div class="timeline"> 
+        {/* <div class="timeline"> 
   <div class="timeline__event  animated fadeInUp delay-3s timeline__event--type2">
     <div class="timeline__event__icon ">
       <i class="lni-cake"></i>
@@ -322,12 +352,13 @@ export default function About() {
   </div>
   
 
-</div>
-          {/* <div className="our-history pt-2">
+</div> */}
+          <div className="our-history pt-2 ">
             <OwlCarousel
               className="owl-theme history-carousel"
               loop={true}
               dots={true}
+              margin={20}
               autoPlay={true}
               responsive={Responsive}
               responsiveRefreshRate={0}
@@ -337,176 +368,176 @@ export default function About() {
             >
               <div className="item py-5 px-2 m-0">
                 <div className="history-item d-flex align-items-center">
-                  <div className="history-card w-100 px-2">
+                  <div className="history-card w-100 px-4">
                     <div className="history-card-heading d-flex align-items-center justify-content-center">
                       <h5 >2001</h5>
                     </div>
-                    <h4>Shree Monark education trust</h4>
+                    <h4 className="text-black">Shree Monark education trust</h4>
                   </div>
                 </div>
               </div>
               <div className="item py-5 px-2 m-0">
                 <div className="history-item d-flex align-items-center">
-                  <div className="history-card w-100 px-2">
+                  <div className="history-card w-100 px-4">
                     <div className="history-card-heading d-flex align-items-center justify-content-center">
                       <h5 className="mb-0">2005</h5>
                     </div>
-                    <h4>Smt. Maniba Mahila B.Ed. College</h4>
+                    <h4 className="text-black">Smt. Maniba Mahila B.Ed. College</h4>
                   </div>
                 </div>
               </div>
               <div className="item py-5 px-2 m-0">
                 <div className="history-item d-flex align-items-center">
-                  <div className="history-card w-100 px-2">
+                  <div className="history-card w-100 px-4">
                     <div className="history-card-heading d-flex align-items-center justify-content-center">
                       <h5 className="mb-0">2007</h5>
                     </div>
-                    <h4>Hasmukh Goswami College of Engineering</h4>
+                    <h4 className="text-black">Hasmukh Goswami College of Engineering</h4>
                   </div>
                 </div>
               </div>
               <div className="item py-5 px-2 m-0">
                 <div className="history-item d-flex align-items-center">
-                  <div className="history-card w-100 px-2">
+                  <div className="history-card w-100 px-4">
                     <div className="history-card-heading d-flex align-items-center justify-content-center">
                       <h5 className="mb-0">2007</h5>
                     </div>
-                    <h4>Piyuni pre-school teacher education</h4>
+                    <h4 className="text-black">Piyuni pre-school teacher education</h4>
                   </div>
                 </div>
               </div>
               <div className="item py-5 px-2 m-0">
                 <div className="history-item d-flex align-items-center">
-                  <div className="history-card w-100 px-2">
+                  <div className="history-card w-100 px-4">
                     <div className="history-card-heading d-flex align-items-center justify-content-center">
                       <h5 className="mb-0">2007</h5>
                     </div>
-                    <h4>Jeel adhyapan mandir</h4>
+                    <h4 className="text-black">Jeel adhyapan mandir</h4>
                   </div>
                 </div>
               </div>
               <div className="item py-5 px-2 m-0">
                 <div className="history-item d-flex align-items-center">
-                  <div className="history-card w-100 px-2">
+                  <div className="history-card w-100 px-4">
                     <div className="history-card-heading d-flex align-items-center justify-content-center">
                       <h5 className="mb-0">2007</h5>
                     </div>
-                    <h4>Satish adhyapan mandir</h4>
+                    <h4 className="text-black">Satish adhyapan mandir</h4>
                   </div>
                 </div>
               </div>
               <div className="item py-5 px-2 m-0">
                 <div className="history-item d-flex align-items-center">
-                  <div className="history-card w-100 px-2">
+                  <div className="history-card w-100 px-4">
                     <div className="history-card-heading d-flex align-items-center justify-content-center">
                       <h5 className="mb-0">2008</h5>
                     </div>
-                    <h4>Maniba College of education</h4>
+                    <h4 className="text-black">Maniba College of education</h4>
                   </div>
                 </div>
               </div>
               <div className="item py-5 px-2 m-0">
                 <div className="history-item d-flex align-items-center">
-                  <div className="history-card w-100 px-2">
+                  <div className="history-card w-100 px-4">
                     <div className="history-card-heading d-flex align-items-center justify-content-center">
                       <h5 className="mb-0">2008</h5>
                     </div>
-                    <h4>Manguba M.Ed College</h4>
+                    <h4 className="text-black">Manguba M.Ed College</h4>
                   </div>
                 </div>
               </div>
               <div className="item py-5 px-2 m-0">
                 <div className="history-item d-flex align-items-center">
-                  <div className="history-card w-100 px-2">
+                  <div className="history-card w-100 px-4">
                     <div className="history-card-heading d-flex align-items-center justify-content-center">
                       <h5 className="mb-0">2011</h5>
                     </div>
-                    <h4>Rudra College of business administration</h4>
+                    <h4 className="text-black">Rudra College of business administration</h4>
                   </div>
                 </div>
               </div>
               <div className="item py-5 px-2 m-0">
                 <div className="history-item d-flex align-items-center">
-                  <div className="history-card w-100 px-2">
+                  <div className="history-card w-100 px-4">
                     <div className="history-card-heading d-flex align-items-center justify-content-center">
                       <h5 className="mb-0">2011</h5>
                     </div>
-                    <h4>Piyuni Goswami College of commerce</h4>
+                    <h4 className="text-black">Piyuni Goswami College of commerce</h4>
                   </div>
                 </div>
               </div>
               <div className="item py-5 px-2 m-0">
                 <div className="history-item d-flex align-items-center">
-                  <div className="history-card w-100 px-2">
+                  <div className="history-card w-100 px-4">
                     <div className="history-card-heading d-flex align-items-center justify-content-center">
                       <h5 className="mb-0">2015</h5>
                     </div>
-                    <h4>Jeel Goswami College of Science and research</h4>
+                    <h4 className="text-black">Jeel Goswami College of Science and research</h4>
                   </div>
                 </div>
               </div>
               <div className="item py-5 px-2 m-0">
                 <div className="history-item d-flex align-items-center">
-                  <div className="history-card w-100 px-2">
+                  <div className="history-card w-100 px-4">
                     <div className="history-card-heading d-flex align-items-center justify-content-center">
                       <h5 className="mb-0">2015</h5>
                     </div>
-                    <h4>Satish Goswami College of Physiotherapist</h4>
+                    <h4 className="text-black">Satish Goswami College of Physiotherapist</h4>
                   </div>
                 </div>
               </div>
               <div className="item py-5 px-2 m-0">
                 <div className="history-item d-flex align-items-center">
-                  <div className="history-card w-100 px-2">
+                  <div className="history-card w-100 px-4">
                     <div className="history-card-heading d-flex align-items-center justify-content-center">
                       <h5 className="mb-0">2018</h5>
                     </div>
-                    <h4>Urmila Goswami College of Nursing</h4>
+                    <h4 className="text-black">Urmila Goswami College of Nursing</h4>
                   </div>
                 </div>
               </div>
               <div className="item py-5 px-2 m-0">
                 <div className="history-item d-flex align-items-center">
-                  <div className="history-card w-100 px-2">
+                  <div className="history-card w-100 px-4">
                     <div className="history-card-heading d-flex align-items-center justify-content-center">
                       <h5 className="mb-0">2019</h5>
                     </div>
-                    <h4>Mohan Goswami College of law</h4>
+                    <h4 className="text-black">Mohan Goswami College of law</h4>
                   </div>
                 </div>
               </div>
               <div className="item py-5 px-2 m-0">
                 <div className="history-item d-flex align-items-center">
-                  <div className="history-card w-100 px-2">
+                  <div className="history-card w-100 px-4">
                     <div className="history-card-heading d-flex align-items-center justify-content-center">
                       <h5 className="mb-0">2019</h5>
                     </div>
-                    <h4>Piyuni Goswami College of arts</h4>
+                    <h4 className="text-black">Piyuni Goswami College of arts</h4>
                   </div>
                 </div>
               </div>
               <div className="item py-5 px-2 m-0">
                 <div className="history-item d-flex align-items-center">
-                  <div className="history-card w-100 px-2">
+                  <div className="history-card w-100 px-4">
                     <div className="history-card-heading d-flex align-items-center justify-content-center">
                       <h5 className="mb-0">2019</h5>
                     </div>
-                    <h4>Rudra Goswami College of computer application</h4>
+                    <h4 className="text-black">Rudra Goswami College of computer application</h4>
                   </div>
                 </div>
               </div>
               <div className="item py-5 px-2 m-0">
                 <div className="history-item d-flex align-items-center">
-                  <div className="history-card w-100 px-2">
+                  <div className="history-card w-100 px-4">
                     <div className="history-card-heading d-flex align-items-center justify-content-center">
                       <h5 className="mb-0">2021</h5>
                     </div>
-                    <h4>Monark University</h4>
+                    <h4 className="text-black">Monark University</h4>
                   </div>
                 </div>
               </div>
             </OwlCarousel>
-          </div>   */}
+          </div>  
         </div>
       </div>
     </div>

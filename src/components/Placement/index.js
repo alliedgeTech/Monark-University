@@ -498,66 +498,68 @@ const index = () => {
           </div>
         </Marquee>
       </div>
-      <div className="alumini-student mb-30 container">
-        <div className="row">
-          <div className="col-lg-5 col-12 d-flex align-items-center">
-            <div
-              className="alumini-heading p-relative"
-              data-aos="zoom-in-right"
-            >
-              <h5>You May Also Be One Of Them</h5>
-              <h1 className="mt-4">
-                Our Alums Employed by the <span>World's</span> Leading{" "}
-                <span className="blue">Organizations</span>
-              </h1>
-              <img
-                className="img-fluid d-lg-block d-none line-round"
-                src="https://cdn.pixabay.com/photo/2014/12/10/10/08/district-562975_1280.png"
-                alt=""
-              />
-            </div>
-          </div>
-          <div className="col-lg-7 col-12 px-3">
-            <div className="alumini-carousel" data-aos="zoom-in-left">
-              <OwlCarousel
-                className="owl-theme"
-                autoPlay={true}
-                margin={10}
-                loop={true}
-                responsive={Responsive}
-                responsiveRefreshRate={0}
-                autoplay={true}
-                autoplayTimeout={3000}
-                autoplayHoverPause={false}
+      <div className="alumini-student ">
+        <div className="container">
+          <div className="row">
+            <div className="col-lg-5 col-12 d-flex align-items-center">
+              <div
+                className="alumini-heading p-relative"
+                data-aos="zoom-in-right"
               >
-                <div className="item px-2 py-3">
-                  <div className="alumini-card">
-                    <img
-                      className="img-fluid"
-                      src="/img/blog/pic1.png"
-                      alt=""
-                    />
+                <h5>You May Also Be One Of Them</h5>
+                <h1 className="mt-4">
+                  Our Alums Employed by the <span>World's</span> Leading{" "}
+                  <span className="blue">Organizations</span>
+                </h1>
+                <img
+                  className="img-fluid d-lg-block d-none line-round"
+                  src="https://cdn.pixabay.com/photo/2014/12/10/10/08/district-562975_1280.png"
+                  alt=""
+                />
+              </div>
+            </div>
+            <div className="col-lg-7 col-12 px-3">
+              <div className="alumini-carousel" data-aos="zoom-in-left">
+                <OwlCarousel
+                  className="owl-theme"
+                  autoPlay={true}
+                  margin={10}
+                  loop={true}
+                  responsive={Responsive}
+                  responsiveRefreshRate={0}
+                  autoplay={true}
+                  autoplayTimeout={3000}
+                  autoplayHoverPause={false}
+                >
+                  <div className="item px-2 py-3">
+                    <div className="alumini-card">
+                      <img
+                        className="img-fluid"
+                        src="/img/blog/pic1.png"
+                        alt=""
+                      />
+                    </div>
                   </div>
-                </div>
-                <div className="item px-2 py-3">
-                  <div className="alumini-card">
-                    <img
-                      className="img-fluid"
-                      src="/img/blog/pic2.png"
-                      alt=""
-                    />
+                  <div className="item px-2 py-3">
+                    <div className="alumini-card">
+                      <img
+                        className="img-fluid"
+                        src="/img/blog/pic2.png"
+                        alt=""
+                      />
+                    </div>
                   </div>
-                </div>
-                <div className="item px-2 py-3">
-                  <div className="alumini-card">
-                    <img
-                      className="img-fluid"
-                      src="/img/blog/pic3.png"
-                      alt=""
-                    />
+                  <div className="item px-2 py-3">
+                    <div className="alumini-card">
+                      <img
+                        className="img-fluid"
+                        src="/img/blog/pic3.png"
+                        alt=""
+                      />
+                    </div>
                   </div>
-                </div>
-              </OwlCarousel>
+                </OwlCarousel>
+              </div>
             </div>
           </div>
         </div>
