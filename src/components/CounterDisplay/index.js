@@ -64,7 +64,7 @@ const Index = () => {
         <div className="counter-div">
           <div className="row">
             <div className="col-lg-6 col-md-12 col-12 d-flex align-items-end mt-lg-0 mt-4">
-              <div className="counter-heading alumini-heading p-relative pb-4 course-heading-home">
+              <div className="counter-heading p-relative pb-4 course-heading-home">
                 {/* <img className="capimg" src="/img/logo/cap2.png" alt="" /> */}
                 <i class="fa-solid fa-graduation-cap"></i>
                 <h1 className="mt-10" data-aos="zoom-in">

@@ -246,7 +246,7 @@ export default function About() {
           <div className="col-lg-5 col-12 d-flex align-items-center">
             <div className="alumini-heading p-relative" data-aos="zoom-in-right">
               <h5>You May Also Be One Of Them</h5>
-              <h1  className="mt-4">Our Alums Employed by the <span>World's</span> Leading <span className="blue">Organizations</span></h1>
+              <h1  className="">Our Alums Employed by the <span>World's</span> Leading <span className="blue">Organizations</span></h1>
               <img className="img-fluid d-lg-block d-none line-round" src="https://cdn.pixabay.com/photo/2014/12/10/10/08/district-562975_1280.png" alt="" />
             </div>
           </div>

@@ -2148,12 +2148,39 @@ tr {
 }
 
 .alumini-heading h5 {
+    display: inline-block;
+    background: #d5e3ff;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    padding: 20px;
+    padding-bottom: 10px;
+    margin-bottom: 0px !important;
     font-weight: 600 !important;
     text-transform: uppercase;
     color: #7f7878 !important;
+    position: relative;
+}
+.alumini-heading h5::before{
+    content: "";
+    position: absolute;
+    bottom: -1px;
+    right: -38px;
+    width: 40px;
+    height: 40px;
+    background: transparent;
+    border-bottom-left-radius:100% ;
+    box-shadow:  -9px 9px #d5e3ff;
+    z-index: 99;
 }
 
 .alumini-heading h1 {
+    display: inline-block;
+    background: #d5e3ff;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+    padding: 20px;
+    padding-top: 10px;
     font-weight: 800 !important;
     font-size: 36px !important;
     font-family: oswald !important;
@@ -2226,8 +2253,9 @@ tr {
 
 
 @media screen and (max-width: 991px) {
-    .alumini-heading i {
-        display: none !important;
+    .counter-heading i {
+        margin-left: 20px !important;
+        /* display: none !important; */
     }
 
 }
@@ -2236,7 +2264,7 @@ tr {
     border: 1px solid black;
 }
 
-.alumini-heading i {
+.counter-heading i {
     color: var(--web-black) !important;
     font-size: 8vmax;
     transform: rotate(-20deg);
