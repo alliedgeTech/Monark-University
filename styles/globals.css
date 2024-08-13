@@ -31,11 +31,13 @@ body.darkmode {
     --web-light-blue: #e7e7e7;
     --mu-bg: linear-gradient(#90c6ff, #2f2f5d);
     --life-bg: linear-gradient(#dfffe3, #ffc9fa);
-    --precident-bg:linear-gradient(90deg,#ebf6ff,#fff6ed);
+    --precident-bg:linear-gradient(90deg,#d9edfe,#fde7d1);
+    --precident-bg2:linear-gradient(90deg,#fde7d1,#d9edfe);
     
 }
 
 .darkmode {
+    --precident-bg2:linear-gradient(90deg,#2e261f,#1f2327);
     --precident-bg:linear-gradient(90deg,#1f2327,#2e261f);
     --body-bg: #1e1e1e;
     --mu-bg: linear-gradient(#1a3b5e, #1460b2);
@@ -1808,9 +1810,25 @@ tr {
 }
 
 .mu_course {
-    background: var(--mu-bg);
+    background: url('https://res.cloudinary.com/dnjgopun8/image/upload/v1723530934/courseimg_zo6xaf.jpg');
+    background-position: center center;
+    background-size: cover;
     border-top: 2px solid #dadada;
     position: relative;
+    background-attachment: fixed;
+}
+.mu_course .sub-head{
+    color: #fff !important;
+    text-transform: uppercase;
+}
+.mu_course::before{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    content: "";
+    background: #000000a1;
 }
 
 
@@ -2255,7 +2273,6 @@ tr {
 @media screen and (max-width: 991px) {
     .counter-heading i {
         margin-left: 20px !important;
-        /* display: none !important; */
     }
 
 }
@@ -3020,6 +3037,9 @@ h2 {
 
 .bg-change {
     background: var(--precident-bg);
+}
+.bg-change2 {
+    background: var(--precident-bg2);
 }
 
 .oswald {

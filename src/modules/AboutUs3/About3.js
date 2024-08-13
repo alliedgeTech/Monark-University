@@ -283,7 +283,7 @@ export default function About() {
         </div>
 
         <div id="vicepresidentmessage">
-          <div className="it-sv-details-area py-4  ">
+          <div className="it-sv-details-area py-4 bg-change2 ">
             <div className="container">
               <div className="three mb-20">
                 <h4>Vice President's Message</h4>
@@ -378,7 +378,7 @@ export default function About() {
           </div>
 
           <div id="provostmessage" className="bg-change">
-            <div className="it-sv-details-area mt-50 py-4">
+            <div className="it-sv-details-area py-4">
               <div className="container">
                 <div className="three mb-20">
                   <h4>Provost Message</h4>

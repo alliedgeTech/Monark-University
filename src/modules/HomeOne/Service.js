@@ -38,9 +38,9 @@ export default function Service() {
               <div className="row flex-row-reverse">
                 <div className="col-lg-6">
                   <div className="course-heading-home" data-aos="fade-left">
-                    <h1>
-                         <span>selection</span> of{" "}
-                      <span className="blue"> over 100 +</span>{" "}
+                    <h1 className="text-white">
+                         <span>selection</span> of
+                      <span className="blue"> over 100 +</span>
                       industry-specific programmes.
                     </h1>
                   </div>
@@ -89,8 +89,8 @@ export default function Service() {
               <div class="carousel-inner mt-30">
                 <div class="carousel-item item active">
                   <div className="course-div">
-                    <div className=" three mb-20" data-aos='fade-right'>
-                      <h4>Diploma Engineering</h4>
+                    <div className="  mb-20" data-aos='fade-right'>
+                      <h3 className="sub-head">Diploma Engineering</h3>
                     </div>
                     <div className="course-links">
                       <div className="row pb-5">
@@ -130,8 +130,8 @@ export default function Service() {
                 </div>
                 <div class="carousel-item item">
                   <div className="course-div">
-                    <div className=" three mb-20">
-                      <h4>Bechlor Courses</h4>
+                    <div className=" mb-20">
+                      <h3 className="sub-head">Bechlor Courses</h3>
                     </div>
                     <div className="course-links">
                       <div className="row pb-5">
@@ -169,8 +169,8 @@ export default function Service() {
                 </div>
                 <div class="carousel-item item">
                   <div className="course-div">
-                    <div className=" three mb-20" data-aos='fade-right'>
-                      <h4>Bechlor Courses</h4>
+                    <div className="  mb-20" data-aos='fade-right'>
+                      <h3 className="sub-head">Bechlor Courses</h3>
                     </div>
                     <div className="course-links">
                       <div className="row pb-5">
@@ -208,8 +208,8 @@ export default function Service() {
                 </div>
                 <div class="carousel-item item">
                   <div className="course-div pb-3">
-                    <div className="three mb-30" data-aos='fade-right'>
-                      <h4>PHD</h4>
+                    <div className=" mb-30" data-aos='fade-right'>
+                      <h3 className="sub-head">PHD</h3>
                     </div>
                     <div className="row"></div>
                     <div className="col-lg-3 col-md-6 col-12">
