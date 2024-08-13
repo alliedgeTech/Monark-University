@@ -37,7 +37,7 @@ const Responsive = {
     margin: 10,
   },
   1024: {
-    items: 4,
+    items: 3,
     margin: 20,
   },
 };
@@ -139,8 +139,8 @@ const index = () => {
             </div>
             <div style={{ marginTop: "40px" }} data-aos="fade-up">
               <OwlCarousel
-                className="owl-theme px-3 faculty-carousel"
-                dots={true}
+                className="owl-theme faculty-carousel"
+                dots={false}
                 loop={true}
                 autoPlay={true}
                 autoplayTimeout={5000}
@@ -162,7 +162,7 @@ const index = () => {
             </div>
           </div>
 
-          <div className="related-course-section py-4">
+          <div className="related-course-section py-4 mt-4">
       <div className="container">
         <div className="carousel-buttons carousel-orange-buttons mx-auto mb-30 d-flex align-items-center">
           <button
@@ -193,7 +193,7 @@ const index = () => {
           </button>
         </div>
 
-        <div id="carouselExampleIndicators" className="carousel faculty-carousel slide mt-30" data-bs-ride="carousel">
+        <div id="carouselExampleIndicators" className="carousel slide mt-30" data-bs-ride="carousel">
           <div className="carousel-inner">
             <div className="carousel-item faculty-item  active">
               {faculty.after10.map((ten, index) => (
@@ -227,7 +227,7 @@ const index = () => {
       </div>
     </div>
 
-          <div className="row mt-40 p-relative ">
+          <div className="row py-5 px-5 dean-msg-container p-relative ">
             <div className="col-lg-7">
               <div className="dean-text p-relative">
                 <div className="shape-img2">
@@ -274,40 +274,42 @@ const index = () => {
             </div>
           </div>
 
-          <div className="student-say container py-4">
-            <div className="say-heading mt-4">
-              <div className="one" data-aos="fade-up">
-                <h1 className="text-center">What Students Say..</h1>
+        </div>
+          <div className="student-say bg-white  py-4">
+            <div className="container">
+              <div className="say-heading mt-4">
+                <div className="one" data-aos="fade-up">
+                  <h1 className="text-center">What Students Say..</h1>
+                </div>
               </div>
-            </div>
-            <OwlCarousel
-              className="owl-theme"
-              loop={true}
-              autoPlay={true}
-              margin={15}
-              autoplayTimeout={5000}
-              responsive={Responsive2}
-            >
-              {studentsaydata.map((students) => (
-                <div class="item px-2" data-aos="fade-up">
-                  <div className="test-card d-flex align-items-center flex-column">
-                    <div className="test-img">
-                      <img className="h-100 w-100" src={students.img} alt="" />
-                    </div>
-                    <div className="test-name">
-                      <h6>{students.name}</h6>
-                    </div>
-                    <div className="test-text">
-                      <i class="fa-solid fa-quote-left"></i>
-                      <small className="stu-say-text">{students.text}</small>
-                      <i class="fa-solid fa-quote-right"></i>
+              <OwlCarousel
+                className="owl-theme"
+                loop={true}
+                autoPlay={true}
+                margin={15}
+                autoplayTimeout={5000}
+                responsive={Responsive2}
+              >
+                {studentsaydata.map((students) => (
+                  <div class="item px-2" data-aos="fade-up">
+                    <div className="test-card d-flex align-items-center flex-column">
+                      <div className="test-img">
+                        <img className="h-100 w-100" src={students.img} alt="" />
+                      </div>
+                      <div className="test-name">
+                        <h6>{students.name}</h6>
+                      </div>
+                      <div className="test-text">
+                        <i class="fa-solid fa-quote-left"></i>
+                        <small className="stu-say-text">{students.text}</small>
+                        <i class="fa-solid fa-quote-right"></i>
+                      </div>
                     </div>
                   </div>
-                </div>
-              ))}
-            </OwlCarousel>
+                ))}
+              </OwlCarousel>
+            </div>
           </div>
-        </div>
       </div>
     </div>
   );

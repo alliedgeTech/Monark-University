@@ -146,7 +146,7 @@ const index = () => {
           </div>
         </div>
       </div>
-      <div className="container py-4">
+      <div className="msg-placement-officer py-4">
         <div className="it-sv-details-area mt-50 ">
           <div className="container">
             <div className="three mb-20">
@@ -309,7 +309,82 @@ const index = () => {
           )}
         </div>
       </div>
-      <div id="recruiters" className="student-placement pb-2 pt-4 container">
+      <div id="placement_record" className="placement-record py-5 ">
+        <div className="container">
+          <div className="placement-record-heading mt-30">
+            <div className=" mb-45" data-aos="fade-up">
+              <h1 className="text-center">Placement Records</h1>
+            </div>
+          </div>
+          <div className="row">
+            <div className="col-lg-4 col-md-4 col-12 mt-lg-5 mt-4 h-100">
+              <div className="record-box" data-aos="zoom-out">
+                <div className="icon-box d-flex flex-column align-items-center">
+                  <i class="fa-regular fa-credit-card mb-4"></i>
+                  <h4>Placement Record</h4>
+                </div>
+                <div className="record-text mt-5">
+                  <p>
+                    <i class="fa-solid fa-right-long"></i>10.50 LPA Highest
+                    Package
+                  </p>
+                  <p>
+                    <i class="fa-solid fa-right-long"></i>500 + Annual
+                    Placements
+                  </p>
+                  <p>
+                    <i class="fa-solid fa-right-long"></i>350+ Annual Recruiters
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className="col-lg-4 col-md-4 col-12 mt-lg-0 mt-4 h-100">
+              <div className="record-box" data-aos="zoom-out">
+                <div className="icon-box d-flex flex-column align-items-center">
+                  <i class="fa-solid fa-dice-d20 mb-4"></i>
+                  <h4>Placement Activities</h4>
+                </div>
+                <div className="record-text mt-5">
+                  <p>
+                    <i class="fa-solid fa-right-long"></i>100 + Seminars
+                  </p>
+                  <p>
+                    <i class="fa-solid fa-right-long"></i>10 + Startups
+                  </p>
+                  <p>
+                    <i class="fa-solid fa-right-long"></i>15 + MoUs Year
+                    2020-2021
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className="col-lg-4 col-md-4 col-12 mt-lg-5 mt-4 h-100">
+              <div className="record-box" data-aos="zoom-out">
+                <div className="icon-box d-flex flex-column align-items-center">
+                  <i class="fa-solid fa-clock-rotate-left mb-4"></i>
+                  <h4>Year 2022-2023 (Cont.)</h4>
+                </div>
+                <div className="record-text mt-5">
+                  <p>
+                    <i class="fa-solid fa-right-long"></i>Number of Eligible
+                    Students : 1500 +
+                  </p>
+                  <p>
+                    <i class="fa-solid fa-right-long"></i>
+                    Number of Students Placed : 500 +
+                  </p>
+                  <p>
+                    <i class="fa-solid fa-right-long"></i>Number of Companies
+                    Participated : 375 +
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <div id="recruiters" className="student-placement py-5 container">
         <div className="course-heading-home text-center mb-20">
           <h1 data-aos="fade-right" className="mb-0">
             Your Exceptional Placement <span>Opportunities</span> with
@@ -507,7 +582,7 @@ const index = () => {
                 data-aos="zoom-in-right"
               >
                 <h5>You May Also Be One Of Them</h5>
-                <h1 className="mt-4">
+                <h1 className="">
                   Our Alums Employed by the <span>World's</span> Leading{" "}
                   <span className="blue">Organizations</span>
                 </h1>
@@ -564,80 +639,7 @@ const index = () => {
           </div>
         </div>
       </div>
-      <div id="placement_record" className="placement-record py-5 ">
-        <div className="container">
-          <div className="placement-record-heading">
-            <div className="three mb-25" data-aos="fade-up">
-              <h1 className="">Placement Records</h1>
-            </div>
-          </div>
-          <div className="row">
-            <div className="col-lg-4 col-md-4 col-12 mt-lg-5 mt-4 h-100">
-              <div className="record-box" data-aos="zoom-out">
-                <div className="icon-box d-flex flex-column align-items-center">
-                  <i class="fa-regular fa-credit-card mb-4"></i>
-                  <h4>Placement Record</h4>
-                </div>
-                <div className="record-text mt-5">
-                  <p>
-                    <i class="fa-solid fa-right-long"></i>10.50 LPA Highest
-                    Package
-                  </p>
-                  <p>
-                    <i class="fa-solid fa-right-long"></i>500 + Annual
-                    Placements
-                  </p>
-                  <p>
-                    <i class="fa-solid fa-right-long"></i>350+ Annual Recruiters
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div className="col-lg-4 col-md-4 col-12 mt-lg-0 mt-4 h-100">
-              <div className="record-box" data-aos="zoom-out">
-                <div className="icon-box d-flex flex-column align-items-center">
-                  <i class="fa-solid fa-dice-d20 mb-4"></i>
-                  <h4>Placement Activities</h4>
-                </div>
-                <div className="record-text mt-5">
-                  <p>
-                    <i class="fa-solid fa-right-long"></i>100 + Seminars
-                  </p>
-                  <p>
-                    <i class="fa-solid fa-right-long"></i>10 + Startups
-                  </p>
-                  <p>
-                    <i class="fa-solid fa-right-long"></i>15 + MoUs Year
-                    2020-2021
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div className="col-lg-4 col-md-4 col-12 mt-lg-5 mt-4 h-100">
-              <div className="record-box" data-aos="zoom-out">
-                <div className="icon-box d-flex flex-column align-items-center">
-                  <i class="fa-solid fa-clock-rotate-left mb-4"></i>
-                  <h4>Year 2022-2023 (Cont.)</h4>
-                </div>
-                <div className="record-text mt-5">
-                  <p>
-                    <i class="fa-solid fa-right-long"></i>Number of Eligible
-                    Students : 1500 +
-                  </p>
-                  <p>
-                    <i class="fa-solid fa-right-long"></i>
-                    Number of Students Placed : 500 +
-                  </p>
-                  <p>
-                    <i class="fa-solid fa-right-long"></i>Number of Companies
-                    Participated : 375 +
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
+      
     </div>
   );
 };

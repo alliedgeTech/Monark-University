@@ -885,10 +885,11 @@ backdrop-filter: blur( 4px );
     transition: all 0.5s;
 }
 
-.record-box:hover {
-    background: var(--web-grey-white);
-    box-shadow: 0 0 15px var(--web-black);
-    transform: translateY(-4px) scale(0.95);
+.record-box:hover{
+    transform: scale(0.9) !important;
+}
+.msg-placement-officer{
+    background: var(--web-white);
 }
 
 .record-box .icon-box {
@@ -930,7 +931,18 @@ backdrop-filter: blur( 4px );
     max-width: 170px;
     margin: 10px 30px;
 }
-
+.faculty-carousel{
+    background: #aab7e0;
+    padding: 3vmax !important;
+    border-radius: 22px;
+}
+.faculty-carousel img{
+    border-radius: 20px;
+    transition: all 0.5s;
+}
+.faculty-carousel .item:hover img{
+    transform: scale(0.95);
+}
 .faculty-carousel .owl-dots {
     display: block !important;
 }
@@ -1837,7 +1849,23 @@ tr {
 }
 
 .placement-record {
-    background: var(--web-eee);
+    background: url('https://res.cloudinary.com/dnjgopun8/image/upload/v1723543816/placement_btommy.jpg');
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+.placement-record::before{
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: #00000099;
+}
+.placement-record-heading h1{
+    color: #fff !important;
 }
 
 
