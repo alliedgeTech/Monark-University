@@ -141,7 +141,7 @@ export default function ServiceDetailsArea() {
             </div>
           </nav>
 
-          <div className="tab-content p-3 bg-light">
+          <div className="tab-content p-3">
             {courses.map((course, index) => (
               <div
                 key={index}
