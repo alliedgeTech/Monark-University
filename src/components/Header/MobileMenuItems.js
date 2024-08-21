@@ -461,7 +461,7 @@ export default function MobileMenuItems(props) {
               </li>
               <li>
                 <Link href="/register">
-                Register Now
+                Career Now
                 </Link>
               </li>
             </ul>

@@ -16,32 +16,32 @@ const Index = () => {
     {
       number: 1,
       imageUrl:
-        "https://res.cloudinary.com/dnjgopun8/image/upload/v1719051178/1719050971272-6ab278fb-915d-411e-ab0a-02c6025169440_1_zmy2bm.jpg",
+        "https://res.cloudinary.com/dnjgopun8/image/upload/v1724240329/Mu_Mirror_2022_page-0001_mvdtne.jpg",
     },
     {
       number: 2,
       imageUrl:
-        "https://res.cloudinary.com/dnjgopun8/image/upload/v1719051178/1719050971272-6ab278fb-915d-411e-ab0a-02c6025169440_2_nflhfz.jpg",
+        "https://res.cloudinary.com/dnjgopun8/image/upload/v1724240322/Mu_Mirror_2022_page-0002_yqbt6v.jpg",
     },
     {
       number: 3,
       imageUrl:
-        "https://res.cloudinary.com/dnjgopun8/image/upload/v1719051177/1719050971272-6ab278fb-915d-411e-ab0a-02c6025169440_3_cok0ei.jpg",
+        "https://res.cloudinary.com/dnjgopun8/image/upload/v1724240331/Mu_Mirror_2022_page-0003_hfrdx2.jpg",
     },
     {
       number: 4,
       imageUrl:
-        "https://res.cloudinary.com/dnjgopun8/image/upload/v1719051178/1719050971272-6ab278fb-915d-411e-ab0a-02c6025169440_4_uhzlgw.jpg",
+        "https://res.cloudinary.com/dnjgopun8/image/upload/v1724240322/Mu_Mirror_2022_page-0004_e7bxmk.jpg",
     },
     {
       number: 5,
       imageUrl:
-        "https://res.cloudinary.com/dnjgopun8/image/upload/v1719051178/1719050971272-6ab278fb-915d-411e-ab0a-02c6025169440_5_vzy7m9.jpg",
+        "https://res.cloudinary.com/dnjgopun8/image/upload/v1724240322/Mu_Mirror_2022_page-0005_roix4o.jpg",
     },
     {
       number: 6,
       imageUrl:
-        "https://res.cloudinary.com/dnjgopun8/image/upload/v1719051178/1719050971272-6ab278fb-915d-411e-ab0a-02c6025169440_6_jvldki.jpg",
+        "https://res.cloudinary.com/dnjgopun8/image/upload/v1724240322/Mu_Mirror_2022_page-0006_ondwhk.jpg",
     },
   ];
 

@@ -16,32 +16,52 @@ const Index = () => {
     {
       number: 1,
       imageUrl:
-        "https://res.cloudinary.com/dnjgopun8/image/upload/v1719051178/1719050971272-6ab278fb-915d-411e-ab0a-02c6025169440_1_zmy2bm.jpg",
+        "https://res.cloudinary.com/dnjgopun8/image/upload/v1724240770/MU_Mirror_2024-images-0_rhj0vt.jpg",
     },
     {
       number: 2,
       imageUrl:
-        "https://res.cloudinary.com/dnjgopun8/image/upload/v1719051178/1719050971272-6ab278fb-915d-411e-ab0a-02c6025169440_2_nflhfz.jpg",
+        "https://res.cloudinary.com/dnjgopun8/image/upload/v1724240771/MU_Mirror_2024-images-1_r7ujiz.jpg",
     },
     {
       number: 3,
       imageUrl:
-        "https://res.cloudinary.com/dnjgopun8/image/upload/v1719051177/1719050971272-6ab278fb-915d-411e-ab0a-02c6025169440_3_cok0ei.jpg",
+        "https://res.cloudinary.com/dnjgopun8/image/upload/v1724240768/MU_Mirror_2024-images-2_keiyim.jpg",
     },
     {
       number: 4,
       imageUrl:
-        "https://res.cloudinary.com/dnjgopun8/image/upload/v1719051178/1719050971272-6ab278fb-915d-411e-ab0a-02c6025169440_4_uhzlgw.jpg",
+        "https://res.cloudinary.com/dnjgopun8/image/upload/v1724240769/MU_Mirror_2024-images-3_jcefi9.jpg",
     },
     {
       number: 5,
       imageUrl:
-        "https://res.cloudinary.com/dnjgopun8/image/upload/v1719051178/1719050971272-6ab278fb-915d-411e-ab0a-02c6025169440_5_vzy7m9.jpg",
+        "https://res.cloudinary.com/dnjgopun8/image/upload/v1724240774/MU_Mirror_2024-images-4_m2kigx.jpg",
     },
     {
       number: 6,
       imageUrl:
-        "https://res.cloudinary.com/dnjgopun8/image/upload/v1719051178/1719050971272-6ab278fb-915d-411e-ab0a-02c6025169440_6_jvldki.jpg",
+        "https://res.cloudinary.com/dnjgopun8/image/upload/v1724240769/MU_Mirror_2024-images-5_hezwtu.jpg",
+    },
+    {
+      number: 7,
+      imageUrl:
+        "https://res.cloudinary.com/dnjgopun8/image/upload/v1724240769/MU_Mirror_2024-images-6_veagxw.jpg",
+    },
+    {
+      number: 8,
+      imageUrl:
+        "https://res.cloudinary.com/dnjgopun8/image/upload/v1724240769/MU_Mirror_2024-images-7_jwcced.jpg",
+    },
+    {
+      number: 9,
+      imageUrl:
+        "https://res.cloudinary.com/dnjgopun8/image/upload/v1724240769/MU_Mirror_2024-images-8_laixn3.jpg",
+    },
+    {
+      number: 10,
+      imageUrl:
+        "https://res.cloudinary.com/dnjgopun8/image/upload/v1724240770/MU_Mirror_2024-images-9_sw4h1i.jpg",
     },
   ];
 

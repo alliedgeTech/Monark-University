@@ -47,7 +47,7 @@ export default function InquiryForm() {
         <div className="it-contact__wrap fix z-index-3 p-relative">
           <div className="it-contact__shape-1 d-none d-xl-block"></div>
           <div className="it-contact__section-box three pb-20">
-            <h1 className="it-contact__title pb-15">Register</h1>
+            <h1 className="it-contact__title pb-15">Career</h1>
           </div>
           <div className="it-contact__form-box">
             <form ref={form} onSubmit={sendEmail}>
