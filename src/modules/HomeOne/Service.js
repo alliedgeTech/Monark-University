@@ -131,7 +131,7 @@ export default function Service() {
                 <div class="carousel-item item">
                   <div className="course-div">
                     <div className=" mb-20">
-                      <h3 className="sub-head">Bechlor Courses</h3>
+                      <h3 className="sub-head">Bachelor Courses</h3>
                     </div>
                     <div className="course-links">
                       <div className="row pb-5">
@@ -170,7 +170,7 @@ export default function Service() {
                 <div class="carousel-item item">
                   <div className="course-div">
                     <div className="  mb-20" data-aos='fade-right'>
-                      <h3 className="sub-head">Bechlor Courses</h3>
+                      <h3 className="sub-head">PG Courses</h3>
                     </div>
                     <div className="course-links">
                       <div className="row pb-5">
