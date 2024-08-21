@@ -1,47 +1,47 @@
 const pgcourse=[
     {
         id:1,
-        name:'Master Of Engineering',
+        name:'Master of Engineering',
         img:'/img/service/courseh2.png',
     },
     {
         id:2,
-        name:'Master Of Science',
+        name:'Master of Science',
         img:'/img/service/courseh8.png',
     },
     {
         id:3,
-        name:'Master Of Business Administration',
+        name:'Master of Business Administration',
         img:'/img/service/commerce.png',
     },
     {
         id:8,
-        name:'Master Of Education',
+        name:'Master of Education',
         img:'/img/service/book.png',
     },
     {
         id:4,
-        name:'Master Of Commerce',
+        name:'Master of Commerce',
         img:'/img/service/commerce.png',
     },
     {
         id:5,
-        name:'Master Of Law',
+        name:'Master of Law',
         img:'/img/service/law.png',
     },
     {
         id:6,
-        name:'Master Of Computer Application',
+        name:'Master of Computer Application',
         img:'/img/service/courseh3.png',
     },
     {
         id:9,
-        name:'Master Of Arts (B.A.)',
+        name:'Master of Arts (B.A.)',
         img:'/img/service/book.png',
     },
     {
         id:10,
-        name:'Master Of Social Work',
+        name:'Master of Social Work',
         img:'/img/service/speaker.png',
     },
     
