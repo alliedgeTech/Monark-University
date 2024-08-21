@@ -168,10 +168,7 @@ const index = () => {
                         />
                       </div>
                       <p className="text-right mt-1">
-                      Warm regards, <br />
-
-                        <p className="mb-0"><strong>Prof. Nilesh J. Parekh
-                        </strong></p>
+                        <p className="mb-0"><strong>Prof. Nilesh J. Parekh</strong></p>
                         Training and Placement Officer
                         <br />
                         Monark University
@@ -189,12 +186,12 @@ const index = () => {
                       >
                         <div className="item">
                           <p>
-                            <i class="fa-regular fa-circle-right mr-15"></i>
+                            <i class="fa-solid fa-angle-right me-4"></i>
                             As the Training and Placement Officer at Monark
                             University, it is my privilege to highlight the
                             crucial role that training and placement play in
                             your academic journey and career prospects.
-                            <br />                             <i class="fa-regular fa-circle-right mr-15"></i>
+                            <br />                             <i class="fa-solid fa-angle-right me-4"></i>
                             At Monark University, we firmly believe that
                             education goes beyond classroom learning. It
                             encompasses practical exposure and real-world
@@ -205,7 +202,7 @@ const index = () => {
                             equip you with not just theoretical knowledge but
                             also practical skills and competencies that are
                             highly valued in today's competitive job market.
-                            <br />                            <i class="fa-regular fa-circle-right mr-15"></i>
+                            <br />                            <i class="fa-solid fa-angle-right me-4"></i>
                             The placement process at our university is a
                             testament to our commitment to your success. We
                             collaborate closely with leading companies and
@@ -219,14 +216,14 @@ const index = () => {
                         </div>
                         <div className="item">
                           <p>
-                            <i class="fa-regular fa-circle-right mr-15"></i>
+                            <i class="fa-solid fa-angle-right me-4"></i>
                             Moreover, our dedicated team of faculty members and
                             career counselors are here to guide and support you
                             every step of the way. Whether it's resume building,
                             interview preparation, or career guidance, we are
                             here to ensure that you are well-prepared and
                             confident to embark on your professional journey.
-                            <br />                            <i class="fa-regular fa-circle-right mr-15"></i>
+                            <br />                            <i class="fa-solid fa-angle-right me-4"></i>
 
                             Remember, your success is our success. We are
                             invested in nurturing your talents, honing your
@@ -234,7 +231,7 @@ const index = () => {
                             industry-ready professional. Take full advantage of
                             the resources and opportunities available at Monark
                             University to shape a bright and fulfilling future.
-                            <br />                            <i class="fa-regular fa-circle-right mr-15"></i>
+                            <br />                            <i class="fa-solid fa-angle-right me-4"></i>
                             I encourage you to actively participate in
                             our training programmes and engage in the placement
                             process. Your proactive involvement will undoubtedly
