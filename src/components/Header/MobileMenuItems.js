@@ -267,7 +267,7 @@ export default function MobileMenuItems(props) {
                 <Link href="/about-us2">Historical Background</Link>
               </li>
               <li>
-                <Link href="/about-us3">Vision & Mission</Link>
+                <Link href="/about-us4#visionandmission">Vision & Mission</Link>
               </li>
               <li>
                 <Link href="/about-us3#presidentmessage">President's Message</Link>

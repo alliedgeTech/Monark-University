@@ -27,12 +27,7 @@ export default function MenuItems(props) {
   
 
   useEffect(() => {
-    let tl = gsap.timeline();
-    tl.from(".nav-link", {
-      y: "-50",
-      opacity: 0,
-      stagger: 0.1,
-    });
+   
 
     const fetchData = async () => {
       try {
@@ -320,7 +315,7 @@ export default function MenuItems(props) {
                 </Link>
               </li>
               <li>
-                <Link href="/about-us3">Vision & Mission</Link>
+                <Link href="/about-us4#visionandmission">Vision & Mission</Link>
               </li>
               <li>
                 <Link href="/about-us3#presidentmessage">

@@ -98,15 +98,7 @@ export default function Header(props) {
               <i className="fal fa-times"></i>
             </button>
           </div>
-          {/* <div className="itoffcanvas__logo">
-            <Link href="/">
-              <img
-                className="img-fluid w-25"
-                src="/img/logo/MULOGOR.png"
-                alt=""
-              />
-            </Link>
-          </div> */}
+          
           <div className="it-menu-mobile mt-4">
             <MobileMenuItems onePage={menuFormat} />
           </div>

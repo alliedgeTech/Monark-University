@@ -74,7 +74,7 @@ const Index = () => {
                 type="button"
                 className="ski-button y2023"
             >
-                2023
+                2022
             </button>
               </Link>
             <Link href='/mumirror2'>
@@ -83,7 +83,7 @@ const Index = () => {
                 type="button"
                 className="ski-button"
             >
-                2024
+                2023
             </button></Link>
             
             <Link href='/mumirror3'>
@@ -92,7 +92,7 @@ const Index = () => {
                 type="button"
                 className="ski-button"
             >
-                2025
+                2024
             </button>
             </Link>
   </div>
