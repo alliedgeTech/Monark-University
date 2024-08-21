@@ -434,9 +434,9 @@ export default function MenuItems(props) {
               <li>
                 <Link href="/syllabus">Syllabus</Link>
               </li>
-              <li>
+              {/* <li>
                 <Link href="/exam">Exam Schedule</Link>
-              </li>
+              </li> */}
               <li>
                 <Link target="_blank" href="https://monark.icrp.in/academic/">
                   Results
