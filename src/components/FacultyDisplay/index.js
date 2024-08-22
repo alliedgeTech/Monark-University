@@ -266,17 +266,7 @@ const index = () => {
                   <h4 className="poppins">dean message</h4>
                 </div>
                 <p>
-                  Lorem ipsum dolor sit. Maiores reiciendis aspernatur earum.
-                  Labore explicabo vitae ipsam animi unde magni distinctio quae
-                  iste iusto illum. Omnis! Lorem ipsum dolor sit amet
-                  consectetur adipisicing elit. Natus earum soluta reiciendis?
-                  Inventore nisi, illum fugit odio culpa hic obcaecati error
-                  dignissimos repellendus velit fuga quaerat autem ea officia
-                  voluptatem dolore quas dolor laudantium perspiciatis quidem
-                  aperiam. Accusamus laudantium autem facere velit voluptates
-                  dicta, eum esse laborum voluptas dignissimos aperiam. Debitis
-                  doloremque cumque nam illum unde dignissimos, impedit quia
-                  nulla.
+                {faculty.deanmsg}
                 </p>
               </div>
             </div>
