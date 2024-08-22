@@ -37,7 +37,7 @@ export default function Newsdetails() {
   }
 
   return (
-    <div className="postbox__area pt-120 pb-120">
+    <div className="postbox__area pt-120">
       <div className="container">
         <div className="row">
           <div className="col-xxl-8 col-xl-8 col-lg-8">
@@ -107,7 +107,7 @@ export default function Newsdetails() {
                   </div>
                 </div>
 
-                <div className="postbox__content-wrap">
+                {/* <div className="postbox__content-wrap">
                   <div className="it-contact__wrap">
                     <div className="it-contact__text pb-30">
                       <h5 className="it-contact__title">Let’s Get in Touch</h5>
@@ -175,7 +175,7 @@ export default function Newsdetails() {
                       </button>
                     </div>
                   </div>
-                </div>
+                </div> */}
               </article>
             </div>
           </div>

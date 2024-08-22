@@ -17,7 +17,7 @@ body.darkmode {
 }
 
 :root {
-    --body-bg: #eeeeee;
+    --body-bg: hsl(0, 0%, 93%);
     --web-color: #054B81;
     --web-orange: #EC691F;
     --web-grey-white: #f2f2f2;
@@ -30,7 +30,7 @@ body.darkmode {
     --web-light-black: #373737;
     --web-light-blue: #e7e7e7;
     --mu-bg: linear-gradient(#90c6ff, #2f2f5d);
-    --life-bg: linear-gradient(#dfffe3, #ffc9fa);
+    --life-bg: linear-gradient(#054b817f, #ec6a1f7e);
     --precident-bg:linear-gradient(90deg,#d9edfe,#fde7d1);
     --precident-bg2:linear-gradient(90deg,#fde7d1,#d9edfe);
     
@@ -41,7 +41,7 @@ body.darkmode {
     --precident-bg:linear-gradient(90deg,#1f2327,#2e261f);
     --body-bg: #1e1e1e;
     --mu-bg: linear-gradient(#1a3b5e, #1460b2);
-    --life-bg: linear-gradient(#1c3e2e, #471640);
+    --life-bg: linear-gradient(#0627407f, #6c300d7e);
     --web-light-blue: #2c3136;
     --web-light-black: #dddddd;
     --web-footer: #393939;
@@ -2185,11 +2185,9 @@ tr {
 }
 
 .alumini-student {
-    background: var(--web-efef);
+    background: var(--web-grey-white);
     border-top: 2px solid rgba(128, 128, 128, 0.573);
-  background-image: radial-gradient(rgba(77, 68, 141, 0.472) 2px, transparent 0);
-  background-size: 30px 30px;
-  background-position: -5px -5px;
+  
     padding: 40px 5px !important;
 }
 
@@ -2393,19 +2391,25 @@ tr {
 .life-section .life-shape-1 {
     position: absolute;
     top: 20%;
-    left: -100px;
+    left: -200px;
     transform: rotate(90deg) !important;
     opacity: 0.7;
-    /* z-index: -1; */
+    height: 400px;
+    width: 400px;
+    border-radius: 50%;
+    background: var(--web-color);
 }
 
 .life-section .life-shape-2 {
-    /* z-index: -1; */
     position: absolute;
     bottom: 10%;
     right: -150px;
     transform: rotate(-90deg) !important;
     opacity: 0.7;
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    background: var(--web-orange);
 }
 
 .life-section .life-heading h4 {
@@ -3392,6 +3396,9 @@ h2 {
     background: var(--web-white);
     padding: 20px;
     border-radius: 20px;
+}
+.faculty-item p{
+    font-weight: 500;
 }
 
 .inline {

@@ -90,14 +90,15 @@ export default function ServiceDetailsArea() {
             <Accordion.Item eventKey="0" key="AdmissionProcess" data-aos='fade-right'>
               <Accordion.Header>Admission Process</Accordion.Header>
               <Accordion.Body>
-                For any query regarding online application & submission, kindly
-                communicate to Dr. Tanmaykumar R. Pandit (Research Coordinator)
-                at research@monarkuni.ac.in Procedure for Online Application:
-                Monark University invites online applications for admission to
-                Ph.D. programme for the academic year 2023-24. Online application
-                for Ph.D. will be commenced from 2nd April, 2024 and concluded
-                on 30th April, 2024. Tentative date for the entrance test will
-                be declared soon on this website.
+                <p>
+                  For any query regarding online application & submission, kindly
+                  communicate to Dr. Tanmaykumar R. Pandit (Research Coordinator)
+                  at research@monarkuni.ac.in Procedure for Online Application:
+                  Monark University invites online applications for admission to
+                  Ph.D. programme for the academic year 2023-24. Online application
+                  for Ph.D. will be commenced from 2nd April, 2024 and concluded
+                  on 30th April, 2024. Tentative date for the entrance test will
+                  be declared soon on this website.
                 <br />
                 Step-1: Interested and eligible candidates shall submit their
                 individual’s application form in online mode using the following
@@ -129,11 +130,14 @@ export default function ServiceDetailsArea() {
                 of the mode, candidates are hereby instructed to take a printout
                 of payment reference number of the successful payment
                 transaction.
+                </p>
                 <img
                   src="https://monarkuni.ac.in/wp-content/uploads/2024/04/upi.png"
                   alt="image"
-                ></img>
+                  ></img>
                 <br />
+                <p>
+
                 Step-6: Take a print out of application (from the User ID &
                 Password as received on your registered e-mail ID). Printed
                 application form along with the payment details duly accompanied
@@ -142,11 +146,14 @@ export default function ServiceDetailsArea() {
                 the Registrar at Monark University, At & Post: Vahelal,
                 Naroda-Dahegam Road, Ta. Dascroi, Dist. Ahmedabad-382330,
                 Gujarat, India.
+                </p>
               </Accordion.Body>
             </Accordion.Item>
             <Accordion.Item eventKey="1" key="EligibilityCriteria" data-aos='fade-right'>
               <Accordion.Header>Eligibility Criteria</Accordion.Header>
               <Accordion.Body>
+                <p>
+
                 The minimum eligibility criteria for admission to the Ph.D.
                 programme at Monark University include:
                 <ul className="ps-4">
@@ -163,11 +170,14 @@ export default function ServiceDetailsArea() {
                     interview process.
                   </li>
                 </ul>
+                </p>
               </Accordion.Body>
             </Accordion.Item>
             <Accordion.Item eventKey="2" key="FeeStructure" data-aos='fade-right'>
               <Accordion.Header>Fee Structure</Accordion.Header>
               <Accordion.Body>
+                <p>
+
                 The fee structure for the Ph.D. programme is as follows:
                 <ul className="ps-4">
                   <li>Application Fee: Rs. 2,000/- (non-refundable)</li>
@@ -177,11 +187,14 @@ export default function ServiceDetailsArea() {
                 </ul>
                 Please note that the fee structure is subject to change as per
                 university regulations.
+                </p>
               </Accordion.Body>
             </Accordion.Item>
             <Accordion.Item eventKey="3" key="ImportantDates" data-aos='fade-right'>
               <Accordion.Header>Important Dates</Accordion.Header>
               <Accordion.Body>
+                <p>
+
                 <ul className="ps-4">
                   <li>Start of Online Application: 2nd April, 2024</li>
                   <li>End of Online Application: 30th April, 2024</li>
@@ -189,11 +202,14 @@ export default function ServiceDetailsArea() {
                   <li>Interview Dates: To be announced</li>
                   <li>Commencement of Classes: To be announced</li>
                 </ul>
+                </p>
               </Accordion.Body>
             </Accordion.Item>
             <Accordion.Item eventKey="4" key="ContactInformation" data-aos='fade-right'>
               <Accordion.Header>Contact Information</Accordion.Header>
               <Accordion.Body>
+                <p>
+                  
                 For any further queries or information, please contact:
                 <ul className="ps-4">
                   <li>Dr. Tanmaykumar R. Pandit, Research Coordinator</li>
@@ -205,6 +221,7 @@ export default function ServiceDetailsArea() {
                     Gujarat, India.
                   </li>
                 </ul>
+                </p>
               </Accordion.Body>
             </Accordion.Item>
           </Accordion>

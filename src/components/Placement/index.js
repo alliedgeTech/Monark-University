@@ -381,7 +381,7 @@ const index = () => {
         </div>
       </div>
       
-      <div id="recruiters" className="student-placement py-5 container">
+      <div id="recruiters" className="student-placement py-5 bg-white">
         <div className="course-heading-home text-center mb-20">
           <h1 data-aos="fade-right" className="mb-0">
             Your Exceptional Placement <span>Opportunities</span> with

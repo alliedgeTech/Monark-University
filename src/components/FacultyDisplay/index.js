@@ -194,36 +194,61 @@ const index = () => {
         </div>
 
         <div id="carouselExampleIndicators" className="carousel slide mt-30" data-bs-ride="carousel">
-          <div className="carousel-inner">
-            <div className="carousel-item faculty-item  active">
-              {faculty.after10.map((ten, index) => (
-                <div className="inline" key={index}>
-                  <Link href={ten.link}>
-                    <p><i class="fa-solid fa-book-open-reader mr-10"></i>{ten.lname}</p>
-                  </Link>
-                </div>
-              ))}
-            </div>
-            <div className="carousel-item faculty-item">
-              {faculty.after12.map((twelve, index) => (
-                <div className="inline" key={index}>
-                  <Link href={twelve.link}>
-                    <p><i class="fa-solid fa-book-open-reader mr-10"></i>{twelve.lname}</p>
-                  </Link>
-                </div>
-              ))}
-            </div>
-            <div className="carousel-item faculty-item">
-              {faculty.PGCoures.map((pg, index) => (
-                <div className="inline" key={index}>
-                  <Link href={pg.link}>
-                    <p><i class="fa-solid fa-book-open-reader mr-10"></i>{pg.lname}</p>
-                  </Link>
-                </div>
-              ))}
-            </div>
+  <div className="carousel-inner">
+    <div className="carousel-item faculty-item active">
+      {faculty.after10.length > 0 ? (
+        faculty.after10.map((ten, index) => (
+          <div className="inline" key={index}>
+            {ten.link ? (
+              <Link href={ten.link}>
+                <p><i className="fa-solid fa-book-open-reader mr-10"></i>{ten.lname}</p>
+              </Link>
+            ) : (
+              <p>No courses available</p>
+            )}
           </div>
-        </div>
+        ))
+      ) : (
+        <p>No courses available</p>
+      )}
+    </div>
+    <div className="carousel-item faculty-item">
+      {faculty.after12.length > 0 ? (
+        faculty.after12.map((twelve, index) => (
+          <div className="inline" key={index}>
+            {twelve.link ? (
+              <Link href={twelve.link}>
+                <p><i className="fa-solid fa-book-open-reader mr-10"></i>{twelve.lname}</p>
+              </Link>
+            ) : (
+              <p>No courses available</p>
+            )}
+          </div>
+        ))
+      ) : (
+        <p>No courses available</p>
+      )}
+    </div>
+    <div className="carousel-item faculty-item">
+      {faculty.PGCoures.length > 0 ? (
+        faculty.PGCoures.map((pg, index) => (
+          <div className="inline" key={index}>
+            {pg.link ? (
+              <Link href={pg.link}>
+                <p><i className="fa-solid fa-book-open-reader mr-10"></i>{pg.lname}</p>
+              </Link>
+            ) : (
+              <p>No courses available</p>
+            )}
+          </div>
+        ))
+      ) : (
+        <p>No courses available</p>
+      )}
+    </div>
+  </div>
+</div>
+
       </div>
     </div>
 

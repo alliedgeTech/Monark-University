@@ -58,7 +58,7 @@ export default function About() {
 
 
   return (<>
-    <div className="student-placement bg-light pb-2 pt-4 ">
+    <div className="student-placement bg-white pb-2 pt-4 ">
       <div className="course-heading-home text-center width_75 mx-auto mb-20">
         <h1 data-aos="fade-right" className="mb-0 text-black">Your Exceptional Placement <span>Opportunities</span> with Comprehensive Milestone <span>Packages</span></h1>
       </div>
