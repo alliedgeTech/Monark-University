@@ -827,7 +827,7 @@ backdrop-filter: blur( 4px );
 }
 
 .test-card {
-    background: #c9c9ca;
+    background: var(--web-grey-white);
     position: relative;
     border: 1px solid grey;
     margin-top: 40px;

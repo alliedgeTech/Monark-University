@@ -118,7 +118,7 @@ export default function About() {
   return (
     <>
       <div id="presidentmessage">
-        <div className="it-sv-details-area mt-50 bg-change py-3">
+        <div className="it-sv-details-area bg-change py-3">
           <div className="container">
             <div className="three mb-20">
               <h4>President's Message</h4>
