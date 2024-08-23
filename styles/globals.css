@@ -3231,9 +3231,9 @@ h2 {
 .dean-img>img {
     height: 330px;
     width: 330px;
-    border-radius: 50%;
+    /* border-radius: 50%; */
     overflow: hidden;
-    box-shadow: 0px 0px 15px var(--web-color);
+    box-shadow: 0px 5px 7px var(--web-light-black);
 }
 
 .footer-pdf-btn button {
