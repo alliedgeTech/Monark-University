@@ -106,7 +106,7 @@ export default function Team() {
                     />
                   </div>
                 );
-              }).slice(32, 42)}
+              }).slice(31, 44)}
             </OwlCarousel>
             </div>
             <div className="row"></div>
