@@ -1186,7 +1186,8 @@ backdrop-filter: blur( 4px );
     background: var(--web-white) !important;
     border-radius: 8px !important;
     transition: all 0.5s ease-in-out !important;
-    min-height: 300px !important;
+    min-height: 330px !important;
+    max-height: 330px !important;
     box-shadow: 0 0 10px #dadada !important;
 }
 
