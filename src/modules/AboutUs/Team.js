@@ -138,7 +138,7 @@ export default function Team() {
                         <td data-th="Designation">{teacher.designation}</td>
                       </tr>
                     );
-                  }).slice(11, 31)}
+                  }).slice(10, 31)}
                 </tbody>
               </table>
             </div>
