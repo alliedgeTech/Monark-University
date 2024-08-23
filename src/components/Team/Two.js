@@ -6,35 +6,14 @@ export default function SingleTeamTwo( props ) {
 	
 	return (
 		<>
-			{/* <div className="it-team-3-thumb fix">
-				<Image src={Img ? Img : '/img/team/team-3-1.jpg'} alt="" width={imgWidth ? imgWidth : 309} height={imgHeight ? imgHeight : 357} />
-			</div>
-			<div className="it-team-3-content">
-				<div className="it-team-3-social-box p-relative">
-					<button>
-						<i className="fa-light fa-share-nodes"></i>
-					</button>
-					<div className="it-team-3-social-wrap">
-						<Link href="#"><i className="fa-brands fa-instagram"></i></Link>
-						<Link href="#"><i className="fa-brands fa-facebook-f"></i></Link>
-						<Link href="#"><i className="fa-brands fa-pinterest-p"></i></Link>
-						<Link href="#"><i className="fa-brands fa-linkedin-in"></i></Link>
-					</div>
-				</div>
-				<div className="it-team-3-author-box">
-					<h4 className="it-team-3-title">
-						<Link href={`/teacher/${Slug ? Slug : 'details'}`}>{Teacher ? Teacher : 'Nathan Allen'}</Link>
-					</h4>
-					<span>{Designation ? Designation : 'Teacher'}</span>
-				</div>
-			</div> */}
+			
 			<div class="faculty-card">
   <div class="content">
     <div class="front">
-      <img src="/img/category/best-1.jpg" alt="" />
+      <img src={Img} alt="" />
     </div>
     <div class="back">
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, quibusdam?</p>
+      <p className="text-start">{Teacher}</p>
     </div>
   </div>
 </div>
