@@ -252,41 +252,31 @@ const index = () => {
       </div>
     </div>
 
-          <div className="row py-5 px-5 dean-msg-container p-relative ">
-            <div className="col-lg-7">
-              <div className="dean-text p-relative">
-                <div className="shape-img2">
-                  <img
-                    src="\img\bgs\dotspng.png"
-                    className="img-fluid shape"
-                    alt=""
-                  />
-                </div>
-                <div className="three">
+          <div className="row py-5 px-5 dean-msg-container p-relative flex-row-reverse">
+          <div className="three">
                   <h4 className="poppins">dean message</h4>
                 </div>
+          <div className="col-lg-4 mt-4 d-flex justify-content-center">
+              <div className="dean-img text-center">
+                <img
+                  className="img-fluid mb-4"
+                  src="https://monarkuni.ac.in/wp-content/uploads/2021/06/SMET-175-Copy.jpg"
+                  alt=""
+                />
+              <strong>{faculty.deanname}</strong>
+              </div>
+
+            </div>
+            <div className="col-lg-8">
+              <div className="dean-text p-relative">
+                
+                
                 <p>
                 {faculty.deanmsg}
                 </p>
               </div>
             </div>
-            <div className="col-lg-5 mt-4 d-flex align-items-center justify-content-center">
-              <div className="dean-img">
-                <div className="shape-img">
-                  <img
-                    src="\img\bgs\dotspng.png"
-                    className="img-fluid shape"
-                    alt=""
-                  />
-                </div>
-
-                <img
-                  className="img-fluid"
-                  src="https://monarkuni.ac.in/wp-content/uploads/2021/06/SMET-175-Copy.jpg"
-                  alt=""
-                />
-              </div>
-            </div>
+            
           </div>
 
         </div>
