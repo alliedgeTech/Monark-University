@@ -20,8 +20,8 @@ const facultydata = [
         "https://monarkuni.ac.in/wp-content/uploads/2023/08/eng-tech-2-1024x683.jpg",
       hastagID: "engineering_Technology",
       deanmsg:  "Lorem ipsum dolor sit. Maiores reiciendis aspernatur earum.Labore explicabo vitae ipsam animi unde magni distinctio quaeiste iusto illum. Omnis! Lorem ipsum dolor sit ametconsectetur adipisicing elit. Natus earum soluta reiciendis?Inventore nisi, illum fugit odio culpa hic obcaecati errordignissimos repellendus velit fuga quaerat autem ea officia voluptatem dolore quas dolor laudantium perspiciatis quidem aperiam. Accusamus laudantium autem facere velit voluptates dicta, eum esse laborum voluptas dignissimos aperiam. Debitis doloremque cumque nam illum unde dignissimos, impedit quia nulla.",
-      deanname:"Dr. Tanmaykumar R. Pandit",
-      deanimage:"",
+      deanname:"Dr.Viral Parekh",
+      deanimage:"/img/choose/blankm.jpg",
       after10:[
         {
           link:'/services/service?id=1',
@@ -135,7 +135,7 @@ const facultydata = [
       hastagID: "science",
       deanmsg: "Welcome to the Faculty of Science! Our faculty is committed to fostering a culture of excellence in both teaching and research. We strive to create an environment where curiosity and innovation thrive, empowering our students and staff to push the boundaries of scientific knowledge. We offer a diverse range of programs designed to equip students with critical thinking, problem-solving skills, and a passion for discovery. Our world-class faculty and state-of-the-art facilities support transformative research and meaningful collaborations. As we continue to navigate a rapidly changing world, the Faculty of Science remains dedicated to addressing global challenges through science and education. Together, let’s embrace opportunities to explore, learn, and contribute to a better future. We look forward to your journey with us and are excited about what we can achieve together. Warm regards, Dr. Tanmaykumar R. Pandit Dean, Faculty of Science",
       deanname:"Dr. Tanmaykumar R. Pandit",
-      deanimage:"",
+      deanimage:"/img/choose/blankm.jpg",
       
       after10:[
         
@@ -215,7 +215,7 @@ const facultydata = [
       hastagID: "physiotherapy",
       deanmsg:  "Physiotherapists are key players in the healthcare delivery system in Society. Physical wellness plays a pivotal role in the health and well-being of the people, it goes on to enrich their livelihood. It is not enough to state it as a method of alternative healthcare as it also goes to provide a preventive method that is beyond the curing of the patients. Our distinguished faculty members are experts in their respective areas and are committed to providing you with an enriching and supportive learning environment. Through a combination of rigorous coursework, hands-on training, and real-world experiences, you will be well-prepared for the challenges and opportunities that lie ahead in your professional journey. I encourage you to take full advantage of the resources and opportunities available to you at our university, including internships, clinical rotations, research opportunities, and extracurricular activities. Engage with your professors and be proactive in your learning journey. I am confident that you will graduate from our Institute with the skills, knowledge, and confidence to make a positive impact in the field. So I once again welcome you to the Faculty of Physiotherapy, Monark University.",
       deanname:"Dr.Ravina Gameti",
-      deanimage:"",
+      deanimage:"/img/choose/blackf.jpg",
       after10:[
 
       ],
@@ -251,7 +251,7 @@ const facultydata = [
       hastagID: "management",
       deanmsg: "In an era where technology, society, and economies are rapidly evolving, staying ahead requires continuous learning and adaptation. As Dean of the Faculty of Management, I am excited to be part of a team focused on preparing students for these dynamic changes. Our faculty provides a transformative educational experience, blending academic rigor with the development of essential interpersonal and ethical skills. We are dedicated to shaping students into skilled leaders who can effectively navigate and influence the ever-changing business world. Together, let’s embrace innovation and drive impactful change.",
       deanname:"Prof.Urvi Zalavadia",
-      deanimage:"",
+      deanimage:"/img/choose/blackf.jpg",
       after10:[
 
       ],
@@ -317,7 +317,7 @@ const facultydata = [
       hastagID: "commerce",
       deanmsg:  "Lorem ipsum dolor sit. Maiores reiciendis aspernatur earum.Labore explicabo vitae ipsam animi unde magni distinctio quaeiste iusto illum. Omnis! Lorem ipsum dolor sit ametconsectetur adipisicing elit. Natus earum soluta reiciendis?Inventore nisi, illum fugit odio culpa hic obcaecati errordignissimos repellendus velit fuga quaerat autem ea officia voluptatem dolore quas dolor laudantium perspiciatis quidem aperiam. Accusamus laudantium autem facere velit voluptates dicta, eum esse laborum voluptas dignissimos aperiam. Debitis doloremque cumque nam illum unde dignissimos, impedit quia nulla.",
       deanname:"Dr.Kinjal R. Patel",
-      deanimage:"",
+      deanimage:"/img/choose/blackf.jpg",
       after10:[
 
       ],
@@ -363,7 +363,7 @@ const facultydata = [
       hastagID: "law",
       deanmsg:  "Lorem ipsum dolor sit. Maiores reiciendis aspernatur earum.Labore explicabo vitae ipsam animi unde magni distinctio quaeiste iusto illum. Omnis! Lorem ipsum dolor sit ametconsectetur adipisicing elit. Natus earum soluta reiciendis?Inventore nisi, illum fugit odio culpa hic obcaecati errordignissimos repellendus velit fuga quaerat autem ea officia voluptatem dolore quas dolor laudantium perspiciatis quidem aperiam. Accusamus laudantium autem facere velit voluptates dicta, eum esse laborum voluptas dignissimos aperiam. Debitis doloremque cumque nam illum unde dignissimos, impedit quia nulla.",
       deanname:"Prof.Rinkesh Mahida",
-      deanimage:"",
+      deanimage:"/img/choose/blankm.jpg",
       after10:[
 
       ],
@@ -398,7 +398,7 @@ const facultydata = [
       hastagID: "arts",
       deanmsg: "Faculty of Arts (F.O.A.) is the academic heart of Monark University and the institute itself is one of the finest colleges. Home to more than 700 undergraduate and 350 graduate students, the department offers students Gujarati, English, Sociology, Psychology, Economics as well as social, fundamental disciplines that lies beneath contemporary knowledge creation.Our faculty is a community of dedicated scholars and teachers whose research expands the boundaries of our knowledge and imagination, and whose teaching prepares students for wide-ranging careers and lifelong learning.  Our graduate students and faculty pursue knowledge in the fundamental core Gujarati, English, Sociology, Psychology, Economics and social fields, as well as synthetic and collaborative interdisciplinary approaches to solving humanity’s grand challenges. Our undergraduate students go on to lead positions in the arts and every professional field—Whether you are introducing yourself to Arts for the first time, planning a visit to campus or are already a member of our community, I invite you to explore this website to learn more about the brilliant learning environment at Arts.",
       deanname:"Dr.Pravinbhai Patel",
-      deanimage:"",
+      deanimage:"/img/choose/blankm.jpg",
       after10:[
 
       ],
@@ -431,7 +431,7 @@ const facultydata = [
       hastagID: "computer_application",
       deanmsg:"Greetings from Monark University! We are dedicated to fostering the upcoming generation of innovators and computer professionals. Our university is promoting the activities for the innovative research, excellent academic programmes, and holistic approach to student development. The flagship Bachelor of Computer Applications(BCA), Bachelor of Computer Applications- Hons(BCA-Hons.) and Master of Computer Applications(MCA) programmes are meant to give students a solid foundation in information technology, software development, and computer science. Our programme is carefully designed to satisfy the changing needs of the IT sector, guaranteeing that the students we train are equipped to handle obstacles they may encounter in the real world.We are pleased with our graduates, who have had a major impact on both academics and the computing industry. Their achievements serve as an affirmation to the high caliber instruction and assistance they received from us.",
       deanname:"Prof.Sudha Patel",
-      deanimage:"",
+      deanimage:"/img/choose/blackf.jpg",
       after10:[
 
       ],
@@ -469,7 +469,7 @@ const facultydata = [
       hastagID: "nursing",
       deanmsg: "Monark University It gives me immense pleasure and honor to welcome you to Urmila Goswami College of Nursing Vahelal. The nursing profession is the noblest of all profession and in immense demand globally, offering a highly rewarding career.Urmila Goswami College of Nursing  was established in 2018 with a vision to impart quality education to nursing students and to shape their future as professionals with an innovative and academically challenging experience in order to meet the technological revolution all over the world. Since inception it has trained & educated six batches of students and the Graduates of this college are working in India and abroad. They are also absorbed in Railways, Govt. hospitals, Military hospitals in Armed Forces, private & Multispecialty hospitals.The institution is known for academic excellence, outstanding results in the university examination for under and post graduate programmes. The College Offers two undergraduate programs,one diploma programe one postgraduate programs.Diploma programe is General Nursing & Midwifery (GNM) & Graduate programs are B.SC nursing & Post Basic Nursing (P.B.Nursing) ,Post Graduate program is M.Sc Nursing.",
       deanname:"Prof.Vandana S. Dabhi",
-      deanimage:"",
+      deanimage:"/img/choose/blackf.jpg",
       after10:[
 
       ],
@@ -505,7 +505,7 @@ const facultydata = [
       hastagID: "education",
       deanmsg:  "Lorem ipsum dolor sit. Maiores reiciendis aspernatur earum.Labore explicabo vitae ipsam animi unde magni distinctio quaeiste iusto illum. Omnis! Lorem ipsum dolor sit ametconsectetur adipisicing elit. Natus earum soluta reiciendis?Inventore nisi, illum fugit odio culpa hic obcaecati errordignissimos repellendus velit fuga quaerat autem ea officia voluptatem dolore quas dolor laudantium perspiciatis quidem aperiam. Accusamus laudantium autem facere velit voluptates dicta, eum esse laborum voluptas dignissimos aperiam. Debitis doloremque cumque nam illum unde dignissimos, impedit quia nulla.",
       deanname:"Dr.Hitesh M. Patel",
-      deanimage:"",
+      deanimage:"/img/choose/blankm.jpg",
       after10:[
 
       ],
@@ -544,7 +544,7 @@ const facultydata = [
       hastagID: "social_work",
       deanmsg:  "Lorem ipsum dolor sit. Maiores reiciendis aspernatur earum.Labore explicabo vitae ipsam animi unde magni distinctio quaeiste iusto illum. Omnis! Lorem ipsum dolor sit ametconsectetur adipisicing elit. Natus earum soluta reiciendis?Inventore nisi, illum fugit odio culpa hic obcaecati errordignissimos repellendus velit fuga quaerat autem ea officia voluptatem dolore quas dolor laudantium perspiciatis quidem aperiam. Accusamus laudantium autem facere velit voluptates dicta, eum esse laborum voluptas dignissimos aperiam. Debitis doloremque cumque nam illum unde dignissimos, impedit quia nulla.",
       deanname:"Dr. Tanmaykumar R. Pandit",
-      deanimage:"",
+      deanimage:"/img/choose/blankm.jpg",
       after10:[
 
       ],
@@ -582,7 +582,7 @@ const facultydata = [
       hastagID: "pharmacy",
       deanmsg:  "Lorem ipsum dolor sit. Maiores reiciendis aspernatur earum.Labore explicabo vitae ipsam animi unde magni distinctio quaeiste iusto illum. Omnis! Lorem ipsum dolor sit ametconsectetur adipisicing elit. Natus earum soluta reiciendis?Inventore nisi, illum fugit odio culpa hic obcaecati errordignissimos repellendus velit fuga quaerat autem ea officia voluptatem dolore quas dolor laudantium perspiciatis quidem aperiam. Accusamus laudantium autem facere velit voluptates dicta, eum esse laborum voluptas dignissimos aperiam. Debitis doloremque cumque nam illum unde dignissimos, impedit quia nulla.",
       deanname:"Dr.Mandev Patel",
-      deanimage:"",
+      deanimage:"/img/choose/blankm.jpg",
       after10:[
 
       ],
@@ -614,7 +614,7 @@ const facultydata = [
       hastagID: "ayurveda",
       deanmsg:  "Lorem ipsum dolor sit. Maiores reiciendis aspernatur earum.Labore explicabo vitae ipsam animi unde magni distinctio quaeiste iusto illum. Omnis! Lorem ipsum dolor sit ametconsectetur adipisicing elit. Natus earum soluta reiciendis?Inventore nisi, illum fugit odio culpa hic obcaecati errordignissimos repellendus velit fuga quaerat autem ea officia voluptatem dolore quas dolor laudantium perspiciatis quidem aperiam. Accusamus laudantium autem facere velit voluptates dicta, eum esse laborum voluptas dignissimos aperiam. Debitis doloremque cumque nam illum unde dignissimos, impedit quia nulla.",
       deanname:"Dr.Kshirabdhi TanayaRautaray",
-      deanimage:"",
+      deanimage:"/img/choose/blackf.jpg",
       after10:[
 
       ],
@@ -650,7 +650,7 @@ const facultydata = [
       hastagID: "Homeopathy",
       deanmsg:  "Lorem ipsum dolor sit. Maiores reiciendis aspernatur earum.Labore explicabo vitae ipsam animi unde magni distinctio quaeiste iusto illum. Omnis! Lorem ipsum dolor sit ametconsectetur adipisicing elit. Natus earum soluta reiciendis?Inventore nisi, illum fugit odio culpa hic obcaecati errordignissimos repellendus velit fuga quaerat autem ea officia voluptatem dolore quas dolor laudantium perspiciatis quidem aperiam. Accusamus laudantium autem facere velit voluptates dicta, eum esse laborum voluptas dignissimos aperiam. Debitis doloremque cumque nam illum unde dignissimos, impedit quia nulla.",
       deanname:"Dr.Priyanka L. Vyas",
-      deanimage:"",
+      deanimage:"/img/choose/blackf.jpg",
       after10:[
 
       ],
@@ -686,7 +686,7 @@ const facultydata = [
       hastagID: "technology",
       deanmsg:  "Lorem ipsum dolor sit. Maiores reiciendis aspernatur earum.Labore explicabo vitae ipsam animi unde magni distinctio quaeiste iusto illum. Omnis! Lorem ipsum dolor sit ametconsectetur adipisicing elit. Natus earum soluta reiciendis?Inventore nisi, illum fugit odio culpa hic obcaecati errordignissimos repellendus velit fuga quaerat autem ea officia voluptatem dolore quas dolor laudantium perspiciatis quidem aperiam. Accusamus laudantium autem facere velit voluptates dicta, eum esse laborum voluptas dignissimos aperiam. Debitis doloremque cumque nam illum unde dignissimos, impedit quia nulla.",
       deanname:"Dr. Tanmaykumar R. Pandit",
-      deanimage:"",
+      deanimage:"/img/choose/blankm.jpg",
       after10:[
 
       ],
@@ -749,7 +749,7 @@ const facultydata = [
       hastagID: "music",
       deanmsg:  "Lorem ipsum dolor sit. Maiores reiciendis aspernatur earum.Labore explicabo vitae ipsam animi unde magni distinctio quaeiste iusto illum. Omnis! Lorem ipsum dolor sit ametconsectetur adipisicing elit. Natus earum soluta reiciendis?Inventore nisi, illum fugit odio culpa hic obcaecati errordignissimos repellendus velit fuga quaerat autem ea officia voluptatem dolore quas dolor laudantium perspiciatis quidem aperiam. Accusamus laudantium autem facere velit voluptates dicta, eum esse laborum voluptas dignissimos aperiam. Debitis doloremque cumque nam illum unde dignissimos, impedit quia nulla.",
       deanname:"Dr. Tanmaykumar R. Pandit",
-      deanimage:"",
+      deanimage:"/img/choose/blankm.jpg",
       after10:[
 
       ],

@@ -260,7 +260,7 @@ const index = () => {
               <div className="dean-img text-center">
                 <img
                   className="img-fluid mb-4"
-                  src="https://monarkuni.ac.in/wp-content/uploads/2021/06/SMET-175-Copy.jpg"
+                  src={faculty.deanimage}
                   alt=""
                 />
               <strong>{faculty.deanname}</strong>
