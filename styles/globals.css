@@ -1090,7 +1090,7 @@ backdrop-filter: blur( 4px );
 .it-sv-details-top-thumb {
     position: relative;
     border: 7px solid var(--web-color);
-    transition: all 0.5s;
+    transition: all 0.5s !important;
 }
 
 .it-sv-details-top-wrap:hover .it-sv-details-top-thumb {
