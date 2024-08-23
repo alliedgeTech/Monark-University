@@ -139,7 +139,7 @@ const index = () => {
             </div>
             <div style={{ marginTop: "40px" }} data-aos="fade-up">
               <OwlCarousel
-                className="owl-theme faculty-carousel"
+                className="owl-theme faculty-labs-carousel"
                 dots={false}
                 loop={true}
                 autoPlay={true}
