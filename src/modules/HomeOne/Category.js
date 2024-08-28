@@ -94,55 +94,32 @@ export default function Category() {
         <div className="col-lg-7">
           <div className="best-university-heading three mb-3">
             <h1 data-aos="zoom-in">
-              Best University <span>in Ahmedabad</span>
+              Top-tier University <span>in Ahmedabad</span>
             </h1>
           </div>
           <div className="best-university-text">
-            <OwlCarousel
-              className="owl-theme"
-              autoPlay={true}
-              margin={10}
-              loop={true}
-              responsive={Responsive}
-              responsiveRefreshRate={0}
-              autoplay={true}
-              autoplayTimeout={3000}
-              autoplayHoverPause={false}
-              dots={false}
-            >
+          
               <div className="item">
                 <p className="mb-2">
-                  Monark University is one of the leading University in Gujarat,
-                  which provides Quality Education to the aspirants. Various
-                  study options available at Monark University and required
-                  Infrastructure for the courses makes the University on of the
-                  best option for study.
+                  Monark University stands as a beacon of excellence in
+                  Ahmedabad, embodying the pinnacle of academic achievement and
+                  innovation. As a top-tier institution, Monark University
+                  offers a vibrant learning environment, where cutting-edge
+                  technologies and an emphasis on holistic development converge
+                  to shape future leaders.
                 </p>
                 <p>
-                  Monark University is committed to engaging with the key issues
-                  of our natural and social worlds through outstanding teaching,
-                  research, and scholarship. Monark University will provide a
-                  vibrant and supportive intellectual environment that attracts
-                  and connects people from all over the world
+                  Our sprawling campus, equipped with state-of-the-art
+                  facilities, fosters a culture of curiosity, collaboration, and
+                  creativity. With a distinguished faculty and a commitment to
+                  nurturing talent, Monark University is where tradition meets
+                  modernity, ensuring that students are well-prepared to excel
+                  in a dynamic world. Join us, and be part of a
+                  legacy of excellence.
                 </p>
               </div>
-              <div className="item">
-                <p className="mb-2">
-                  Monark University is one of the leading University in Gujarat,
-                  which provides Quality Education to the aspirants. Various
-                  study options available at Monark University and required
-                  Infrastructure for the courses makes the University on of the
-                  best option for study.
-                </p>
-                <p>
-                  Monark University is committed to engaging with the key issues
-                  of our natural and social worlds through outstanding teaching,
-                  research, and scholarship. Monark University will provide a
-                  vibrant and supportive intellectual environment that attracts
-                  and connects people from all over the world
-                </p>
-              </div>
-            </OwlCarousel>
+           
+          
           </div>
           <Link href="/mumirror">
             <button
