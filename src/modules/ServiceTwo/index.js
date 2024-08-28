@@ -9,6 +9,7 @@ export default function ServiceTwoModules() {
 			<BreadCrumbs
 				Title="UG Course"
 				subTitle="Service"
+				
 			/>
 			<ServiceTwoArea />
 			<Newsletter />

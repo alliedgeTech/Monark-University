@@ -8,7 +8,8 @@ export default function CampusModules() {
 	return (
 		<main>
 			<BreadCrumbs
-				Title="Campus Life"/>
+				Title="Campus Life"
+				Img= "https://res.cloudinary.com/dnjgopun8/image/upload/v1724839477/campuslife_xmpznp.jpg "/>
 			<Campusdisplay2/>
 			<ScrollTop />
 		</main>

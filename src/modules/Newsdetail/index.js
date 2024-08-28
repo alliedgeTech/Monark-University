@@ -8,8 +8,8 @@ export default function Newsmodules() {
 	return (
 		<main>
 			<BreadCrumbs
-				Title="News Details"
-				
+				Title="Placement News"
+				Img= "https://res.cloudinary.com/dnjgopun8/image/upload/v1724838788/placement_fwuxod.jpg"
 			/>
 			<Newsdetail />
 			<Newsletter />

@@ -9,6 +9,7 @@ export default function Circularmodules() {
 		<main>
 			<BreadCrumbs
 				Title="Circular"
+				Img= "https://res.cloudinary.com/dnjgopun8/image/upload/v1724836065/circuler_enbukc.jpg"
 				
 			/>
 			<Circulardisplay />

@@ -1767,6 +1767,124 @@
                     "pera": "The college has well equipped library and reading room. It has more than 3827 references and recommended books for the B.Com. Course. Besides, there are periodicals, journals, weekly and monthly magazines, newspapers, considering the need to keep students abreast with latest development in the field of education, science and technology."
                 }
             ]
+        },
+        {
+            "id": 2,
+            "title": "Bachelors of Commerce in Advance Accounting and auditing",
+            "icon": "flaticon-bars",
+            "titlePera": "Accounting is the process of analyzing, verifying and reporting the results of financial information to an organization, government agency or individual. we know accountancy as the primary and most sought after subject in the department of commerce. Students having qualification in this field have very good knowledge of monetary matters and are generally termed as accountants.  The study of accountancy also includes auditing and financial statements. The shareholders and investors need to know the truth about a company’s financial statement and that is why the job of an accountant matters the most. we know accountancy as the primary and most sought after subject in the department of commerce.",
+            "titleImage": "https://res.cloudinary.com/dnjgopun8/image/upload/v1724410420/about-1_yjpgtg.jpg",
+            "programOutcomesPera": "A graduate after completion of his/her course can initially join as a trainee or an accountant. Accountants can also seek employment in various sectors such as in government and private sectors, public accounting firms, markets research, budget planning, corporations and consultancies./To provide in-depth understanding of all core areas specifically Advanced Accounting, International Accounting, Management, Security Market Operations and Business Environment, Research Methodology and Tax planning.",
+            "programOutcomesImages": [
+                {
+                    "id": 1,
+                    "image": "https://res.cloudinary.com/dnjgopun8/image/upload/v1724490305/i02_Content-Writer_httdsp.jpg ",
+                    "name": "Forensic Accounting"
+                },
+                {
+                    "id": 2,
+                    "image": "https://res.cloudinary.com/dnjgopun8/image/upload/v1724490302/i02_dddffdeffsffd_g0stkz.jpg ",
+                    "name": "Certified Internal Auditor"
+                },
+                {
+                    "id": 3,
+                    "image": "https://res.cloudinary.com/dnjgopun8/image/upload/v1724490301/i05_QUALITY-ASSUARANCE_u0yc2r.jpg ",
+                    "name": "Comptroller/Controller"
+                },
+                {
+                    "id": 4,
+                    "image": "https://res.cloudinary.com/dnjgopun8/image/upload/v1724407015/i04_DIGITAL-MARKETING_efnbxn.jpg",
+                    "name": "Accounting Clerk"
+                },
+                {
+                    "id": 5,
+                    "image": "https://res.cloudinary.com/dnjgopun8/image/upload/v1724407870/i01_01-Banking-and-Finance-Jobs-in-London_yqbcyb.jpg",
+                    "name": "Chief Financial Officer"
+                }
+            ],
+            "coureDuration": "2 Years",
+            "eligibilityCriteria": "Candidates who have passed Bachelors degree in relevant subjects from any recognized University are eligible.",
+            "annualFees": "15000 INR ",
+            "laboratories": [
+                {
+                    "id": 1,
+                    "title": "Computer Lab",
+                    "subTitle": "",
+                    "image": "https://res.cloudinary.com/dnjgopun8/image/upload/v1724403706/SMET-206_h9cws6.jpg",
+                    "pera": "Computer Centre with Internet facilities has been set up and managed by experienced computer professionals. We have a very well equipped computer Laboratorywith 50 computers for the information &   Technology subject with internet facility."
+                },
+                {
+                    "id": 2,
+                    "title": "Library & Reading Room",
+                    "subTitle": "",
+                    "image": "https://res.cloudinary.com/dnjgopun8/image/upload/v1724407014/i08_SMET-227_xbepwh.jpg",
+                    "pera": "The college has well equipped library and reading room. It has more than 2,248 references and recommended books for the BBA Course. Besides, there are periodicals, journals, weekly and monthly magazines, newspapers, considering the need to keep students abreast with latest development in the field of education, science and technology."
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "title": "Bachelors of Commerce in Statistics",
+            "icon": "flaticon-bars",
+            "titlePera": "M.Com in Statistics is a postgraduate degree program, usually of 2 years, ideal for students looking to pursue a career in banking, finance, investment or accounting. It is a specialization course dealing with the subject area of statistics – the art and science of collecting and analyzing data to draw meaningful inferences. M.Com Statistics deals primarily with data analysis and interpretation and those who do this course will acquire the complete knowledge set of how to analyse data, which models to build, which tests to run, how to interpret it and finally, the practical applications for companies and governments alike.",
+            "titleImage": "https://res.cloudinary.com/dnjgopun8/image/upload/v1724410420/about-1_yjpgtg.jpg",
+            "programOutcomesPera": "Anyone pursuing this course will definitely develop the most important skill of analysis and logical reasoning. Other skills like data interpretation, critical reasoning, the ability to recognize patterns in a large set of data, testing appropriateness of parameters etc will automatically come as a part of the course/After completion of this course, a candidate will not only be eligible for a job in the banking and finance sector, but can also pursue professorship or join a consulting firm.",
+            "programOutcomesImages": [
+                {
+                    "id": 1,
+                    "image": "https://res.cloudinary.com/dnjgopun8/image/upload/v1724403700/i02_DATA-SCIENTIST_rfpf2x.jpg ",
+                    "name": "Data Analyst"
+                },
+                {
+                    "id": 2,
+                    "image": "https://res.cloudinary.com/dnjgopun8/image/upload/v1724406634/i03_BANKING-AND-LOAN_vlnqhz.jpg",
+                    "name": "Senior Accountant"
+                },
+                {
+                    "id": 3,
+                    "image": "https://res.cloudinary.com/dnjgopun8/image/upload/v1724407015/i04_DIGITAL-MARKETING_efnbxn.jpg",
+                    "name": "Bank Manager"
+                },
+                {
+                    "id": 4,
+                    "image": "https://res.cloudinary.com/dnjgopun8/image/upload/v1724403701/i04_ENTREPRENEUR_ms0yyi.jpg ",
+                    "name": "Finance Manager"
+                },
+                {
+                    "id": 5,
+                    "image": "https://res.cloudinary.com/dnjgopun8/image/upload/v1724410414/i06_MARKETING-MANAGER_gcihwk.jpg",
+                    "name": "Investment Banker"
+                },
+                {
+                    "id": 6,
+                    "image": "https://res.cloudinary.com/dnjgopun8/image/upload/v1724407870/i07_MARKETING_vdeifu.jpg",
+                    "name": "Business Analyst"
+                },
+                {
+                    "id": 7,
+                    "image": "https://res.cloudinary.com/dnjgopun8/image/upload/v1724408201/i08_RISK-MANAGEMENT_a3lcwm.jpg",
+                    "name": "Risk Analyst"
+                }
+            ],
+            "coureDuration": "2 Years",
+            "eligibilityCriteria": "Candidates who have passed Bachelors degree in relevant subjects from any recognized University are eligible.",
+            "annualFees": " 15000 INR ",
+            "laboratories": [
+                {
+                    "id": 1,
+                    "title": "Computer Lab",
+                    "subTitle": "",
+                    "image": "https://res.cloudinary.com/dnjgopun8/image/upload/v1724403706/SMET-206_h9cws6.jpg",
+                    "pera": "Computer Centre with Internet facilities has been set up and managed by experienced computer professionals. We have a very well equipped computer Laboratorywith 50 computers for the information &   Technology subject with internet facility."
+                },
+                {
+                    "id": 2,
+                    "title": "Library & Reading Room",
+                    "subTitle": "",
+                    "image": "https://res.cloudinary.com/dnjgopun8/image/upload/v1724407014/i08_SMET-227_xbepwh.jpg",
+                    "pera": "The college has well equipped library and reading room. It has more than 2,248 references and recommended books for the BBA Course. Besides, there are periodicals, journals, weekly and monthly magazines, newspapers, considering the need to keep students abreast with latest development in the field of education, science and technology."
+                }
+            ]
         }
     ]
 },

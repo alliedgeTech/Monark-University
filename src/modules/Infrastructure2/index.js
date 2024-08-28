@@ -9,6 +9,7 @@ export default function BlogTwoModules() {
 		<main>
 			<BreadCrumbs
 				Title="Infrastructure"
+				Img= "https://res.cloudinary.com/dnjgopun8/image/upload/v1724839673/infra_f87pa2.jpg"
 				
 			/>
 			<Infrastructuredisplay />

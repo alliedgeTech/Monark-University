@@ -9,6 +9,7 @@ export default function CalanderModules() {
 		<main>
 			<BreadCrumbs
 				Title="Academic Calander"
+				Img= "https://res.cloudinary.com/dnjgopun8/image/upload/v1724835788/calander_qhe5ln.jpg"
 				
 			/>
 			<Calanderdisplay />

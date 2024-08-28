@@ -9,7 +9,7 @@ export default function Syllabusmodules() {
 		<main>
 			<BreadCrumbs
 				Title="Syllabus"
-				
+				Img= "https://res.cloudinary.com/dnjgopun8/image/upload/v1724836144/syllabus_emeyrr.webp"
 			/>
 			<Syllabusdetails />
 			<Newsletter />
