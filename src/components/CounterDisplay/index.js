@@ -89,7 +89,7 @@ const Index = () => {
                     <div className="count-text mt-2 d-flex align-items-center justify-content-center">
                       {startCount1 && (
                         <CountUp start={0} end={13} duration={6} />
-                      )}
+                      )}+
                     </div>
                   </div>
                 </div>
@@ -103,7 +103,7 @@ const Index = () => {
                     <div className="count-text mt-2 d-flex align-items-center justify-content-center">
                       {startCount2 && (
                         <CountUp start={0} end={7000} duration={6} />
-                      )}
+                      )}+
                     </div>
                   </div>
                 </div>
@@ -117,7 +117,7 @@ const Index = () => {
                     <div className="count-text mt-2 d-flex align-items-center justify-content-center">
                       {startCount3 && (
                         <CountUp start={0} end={300} duration={6} />
-                      )}
+                      )}+
                     </div>
                   </div>
                 </div>
@@ -131,7 +131,7 @@ const Index = () => {
                     <div className="count-text mt-2 d-flex align-items-center justify-content-center">
                       {startCount4 && (
                         <CountUp start={0} end={100} duration={6} />
-                      )}
+                      )}+
                     </div>
                   </div>
                 </div>
