@@ -11,37 +11,37 @@
             "title": "Master in Automobile Engineering",
             "icon": "flaticon-bars",
             "titlePera": "Masters in Automobile Engineering is a two years course spanning over four semesters. The course is designed to enables the graduate engineers with appropriate background to specialize their careers towards automotive engineering. The course also covers the main domain of vehicle such as chassis, body, drive train, safety, driver assistance systems and others. For a better learning experience, students are exposed to case studies and problem based learning, brainstorming, written tests, computer simulation, group discussions, industrial training seminars and projects. The course offers specialised knowledge of industrial design approaches and research topics with regard to real world vehicle requirements, market development and legislative constraints.",
-            "titleImage": "https://monarkuni.ac.in/wp-content/uploads/2021/06/SMET-279.jpg",
+            "titleImage": "https://res.cloudinary.com/dnjgopun8/image/upload/v1724403046/SMET-279_b3rusm.jpg",
             "programOutcomesPera": "Automobile Engineers have job opportunities in various fields like automobile maintenance and service, production, research & development and transport departments. With the advent of E-Mobility (e-Bikes, Electric car) a lot of opportunities are accessible for these graduates after completing B.Tech in Automobile Engineering. The students who complete the course successfully can join modern automobile industries like Volvo, Ashok Leyland, Telco, Ford, Hyundai, Maruti, etc. They can also become entrepreneurs by operating service centres for automobiles.",
             "programOutcomesImages": [
                 {
                     "id": 1,
-                    "image": "http://monarkuni.ac.in/wp-content/uploads/2021/06/i04_mechanical-design-engineer.jpg",
+                    "image": "https://res.cloudinary.com/dnjgopun8/image/upload/v1724403045/i04_mechanical-design-engineer_hbb1br.jpg ",
                     "name": "Mechanical Design Engineer"
                 },
                 {
                     "id": 2,
-                    "image": "http://monarkuni.ac.in/wp-content/uploads/2021/06/i02_Automotive_5F00_sofware_5F00_development_5F00_Blog.jpg_2D00_1600x900.jpg",
+                    "image": "https://res.cloudinary.com/dnjgopun8/image/upload/v1724403046/i02_Automotive_5F00_sofware_5F00_development_5F00_Blog.jpg_2D00_1600x900_tompmv.jpg ",
                     "name": "Automotive Developer"
                 },
                 {
                     "id": 3,
-                    "image": "http://monarkuni.ac.in/wp-content/uploads/2021/06/i01_480-4801291_police-officer-white-background-hd-png-download.png",
+                    "image": "https://res.cloudinary.com/dnjgopun8/image/upload/v1724403046/i01_480-4801291_police-officer-white-background-hd-png-download_euorfv.png",
                     "name": "Regional Transport Officer"
                 },
                 {
                     "id": 4,
-                    "image": "http://monarkuni.ac.in/wp-content/uploads/2021/06/i05_service-advisor-job-description-5760x3840-20201117.jpeg",
-                    "name": "Service Advisor and Works Manager in Dealerships"
+                    "image": "https://res.cloudinary.com/dnjgopun8/image/upload/v1724403045/i05_service-advisor-job-description-5760x3840-20201117_wvdn7t.jpg",
+                    "name": "Service Advisor and Works Manager in Dealership"
                 },
                 {
                     "id": 5,
-                    "image": "http://monarkuni.ac.in/wp-content/uploads/2021/06/i01_597-5979338_pictures-of-auto-mechanics-mechenic-working-on-a.png",
+                    "image": "https://res.cloudinary.com/dnjgopun8/image/upload/v1724403046/i01_597-5979338_pictures-of-auto-mechanics-mechenic-working-on-a_m4i7eu.png",
                     "name": "Automotive Technician"
                 },
                 {
                     "id": 6,
-                    "image": "http://monarkuni.ac.in/wp-content/uploads/2021/06/i03_car-service-station.jpg",
+                    "image": "https://res.cloudinary.com/dnjgopun8/image/upload/v1724403046/i01_597-5979338_pictures-of-auto-mechanics-mechenic-working-on-a_m4i7eu.png",
                     "name": "Service Station owner"
                 }
             ],
@@ -53,14 +53,14 @@
                     "id": 1,
                     "title": "Automobile Engine Lab",
                     "subTitle": "Equipped with",
-                    "image": "https://monarkuni.ac.in/wp-content/uploads/2021/06/SMET-281.jpg",
+                    "image": "https://res.cloudinary.com/dnjgopun8/image/upload/v1724403045/SMET-281_g2e9wx.jpg",
                     "pera": "SI Engine Test Bench/CI Engine Test Bench/4 Stroke Diesel Engine/4 Stroke Diesel Engine/SI Engine Ignition"
                 },
                 {
                     "id": 2,
                     "title": "Automobile System Lab",
                     "subTitle": "Equipped with",
-                    "image": "https://monarkuni.ac.in/wp-content/uploads/2021/06/SMET-155.jpg",
+                    "image": "https://res.cloudinary.com/dnjgopun8/image/upload/v1724403045/SMET-155_qtwudv.jpg",
                     "pera": "Gear Box Cut Section/Differential Gear Cut Section/Steering System Cut Section/Single Plate Clutch Cut Section/Braking System Cut Section"
                 }
             ]
@@ -70,37 +70,37 @@
             "title": "Master in Civil (Transportation Engineering)",
             "icon": "flaticon-bars",
             "titlePera": "Masters in Civil Engineering is a two years course spanning over four semesters. It offers specialization in Transportation engineering. Transportation engineering aims to get expertise in the technology and scientific principles of planning, functional design, operation and management of facilities for any mode of transportation in order to provide for the safe, efficient, rapid, comfortable, convenient, economical and environmentally compatible movement of people and goods transport. The course offers opportunity to make the career in the areas of design, development & implementation.",
-            "titleImage": "https://monarkuni.ac.in/wp-content/uploads/2021/06/SMET-220-1.jpg",
+            "titleImage": "https://res.cloudinary.com/dnjgopun8/image/upload/v1724403424/SMET-220-1_yozhbc.jpg",
             "programOutcomesPera": "To demonstrate skill for planning, design, construction and maintenance of transportation projects./To assess environmental and its allied issues to the construction of the transportation projects/To demonstrate skills to use modern engineering tools, software and equipment’s to analyze problems and evolve solutions./To enhance communication skills and successfully apply research aptitude among students to R &D activities and consultancy works./To gain the insights knowledge about various simulation techniques and CAD softwares.",
             "programOutcomesImages": [
                 {
                     "id": 1,
-                    "image": "http://monarkuni.ac.in/wp-content/uploads/2021/06/i03_Highwayengineer-3.png",
+                    "image": "https://res.cloudinary.com/dnjgopun8/image/upload/v1724483792/i03_Highwayengineer-3_vahbyg.png ",
                     "name": "Assistant Engineer in Transportation"
                 },
                 {
                     "id": 2,
-                    "image": "http://monarkuni.ac.in/wp-content/uploads/2021/06/i01_arq-urban-planning-1a-2.jpg",
+                    "image": "https://res.cloudinary.com/dnjgopun8/image/upload/v1724482027/i01_arq-urban-planning-1a-2_ydwz2r.jpg",
                     "name": "Urban Planner"
                 },
                 {
                     "id": 3,
-                    "image": "http://monarkuni.ac.in/wp-content/uploads/2021/06/i05_public-transport-designer.jpg",
+                    "image": "https://res.cloudinary.com/dnjgopun8/image/upload/v1724482027/i05_public-transport-designer_ai7lme.jpg ",
                     "name": "Public Transportation Designer"
                 },
                 {
                     "id": 4,
-                    "image": "http://monarkuni.ac.in/wp-content/uploads/2021/06/i02_design.jpg",
+                    "image": "https://res.cloudinary.com/dnjgopun8/image/upload/v1724404452/i02_design_amawo2.jpg ",
                     "name": "Design Engineer"
                 },
                 {
                     "id": 5,
-                    "image": "http://monarkuni.ac.in/wp-content/uploads/2021/06/i04_project-management-diagram-virtual-screen-business-finance-technology-concept-project-management-diagram-virtual-screen-130068869.jpg",
+                    "image": "https://res.cloudinary.com/dnjgopun8/image/upload/v1724482027/i04_project-management-diagram-virtual-screen-business-finance-technology-concept-project-management-diagram-virtual-screen-130068869_ajqtjj.jpg ",
                     "name": "Project Administrator"
                 },
                 {
                     "id": 6,
-                    "image": "http://monarkuni.ac.in/wp-content/uploads/2021/06/i01_cto.jpg",
+                    "image": "https://res.cloudinary.com/dnjgopun8/image/upload/v1724403422/i01_cto_hbggpe.jpg",
                     "name": "Senior Manager – Project Planning."
                 }
             ],
@@ -112,7 +112,7 @@
                     "id": 1,
                     "title": "Mechanics of Solid",
                     "subTitle": "Equipped with",
-                    "image": "https://monarkuni.ac.in/wp-content/uploads/2021/06/SMET-219-1.jpg",
+                    "image": "https://res.cloudinary.com/dnjgopun8/image/upload/v1724403421/SMET-219-1_fq47d9.jpg",
                     "pera": "Universal Testing Machine/Torsion Test/Universal Force Table/Paraller Force/Friction Apparatus"
                 },
                 {
@@ -129,57 +129,57 @@
             "title": "Master in Computer Engineering",
             "icon": "flaticon-bars",
             "titlePera": "Masters in Computer Engineering is a two years course spanning over four semesters. The aim of this course is to focus in the area of research, development, designing, modifying and managing the software programs. Students should finish their masters program, well prepared to work in the computer industry, having studied both the theory and practical side of this ever expanding field. The course offers secure and effective operation of all computer systems, software applications, and other hardware & software components. Computer engineering offers varied career paths in both hardware engineering and software development, each which drive computing advances in industries ranging from aerospace to healthcare.",
-            "titleImage": "https://monarkuni.ac.in/wp-content/uploads/2021/06/SMET-207.jpg",
+            "titleImage": "https://res.cloudinary.com/dnjgopun8/image/upload/v1724403707/SMET-207_hlx71a.jpg",
             "programOutcomesPera": "Professional Skills: The ability to understand, analyze and develop software in the areas related to system software, multimedia, web design, big data analytics, networking and algorithms for efficient design of computer based systems of varying complexities. Problem Solving Skills: The ability to apply standard practices and strategies in software project development using open-ended programming environments to deliver a quality product for business success. Research Skills: The ability to study, experiment, interpret, analyze and explore the solutions to the engineering problems which are effective, efficient, optimized and feasible.",
             "programOutcomesImages": [
                 {
                     "id": 1,
-                    "image": "http://monarkuni.ac.in/wp-content/uploads/2021/06/i01_CLUSTER-ANALYSIS.jpg",
+                    "image": "https://res.cloudinary.com/dnjgopun8/image/upload/v1724403700/i01_CLUSTER-ANALYSIS_jyeqvx.jpg ",
                     "name": "CLUSTER ANALYSIS"
                 },
                 {
                     "id": 2,
-                    "image": "http://monarkuni.ac.in/wp-content/uploads/2021/06/i02_DATA-SCIENTIST.jpg",
+                    "image": "https://res.cloudinary.com/dnjgopun8/image/upload/v1724403700/i02_DATA-SCIENTIST_rfpf2x.jpg ",
                     "name": "DATA SCIENTIST"
                 },
                 {
                     "id": 3,
-                    "image": "http://monarkuni.ac.in/wp-content/uploads/2021/06/i03_DATABASE-MANAGER.jpg",
+                    "image": "https://res.cloudinary.com/dnjgopun8/image/upload/v1724403701/i03_DATABASE-MANAGER_h2loek.jpg ",
                     "name": "DATABASE MANAGER"
                 },
                 {
                     "id": 4,
-                    "image": "http://monarkuni.ac.in/wp-content/uploads/2021/06/i04_ENTREPRENEUR.jpg",
+                    "image": "https://res.cloudinary.com/dnjgopun8/image/upload/v1724403701/i04_ENTREPRENEUR_ms0yyi.jpg ",
                     "name": "ENTREPRENEUR"
                 },
                 {
                     "id": 5,
-                    "image": "http://monarkuni.ac.in/wp-content/uploads/2021/06/i05_QUALITY-ASSUARANCE.jpg",
+                    "image": "https://res.cloudinary.com/dnjgopun8/image/upload/v1724403702/i05_QUALITY-ASSUARANCE_a2lnjw.jpg  ",
                     "name": "QUALITY ASSUARANCE"
                 },
                 {
                     "id": 6,
-                    "image": "http://monarkuni.ac.in/wp-content/uploads/2021/06/i06_SOFTWARE-ENGINEER.jpg",
+                    "image": "https://res.cloudinary.com/dnjgopun8/image/upload/v1724403704/i06_SOFTWARE-ENGINEER_j2dp1q.jpg",
                     "name": "SOFTWARE ENGINEER"
                 },
                 {
                     "id": 7,
-                    "image": "http://monarkuni.ac.in/wp-content/uploads/2021/06/i05_testing.jpg",
+                    "image": "https://res.cloudinary.com/dnjgopun8/image/upload/v1724403703/i05_testing_c9hzu5.jpg ",
                     "name": "SOFTWARE TESTING"
                 },
                 {
                     "id": 8,
-                    "image": "http://monarkuni.ac.in/wp-content/uploads/2021/06/i08_SYSTEM-ANALYST.jpg",
+                    "image": "https://res.cloudinary.com/dnjgopun8/image/upload/v1724403704/i08_SYSTEM-ANALYST_bymgd9.jpg ",
                     "name": "SYSTEM ANALYST"
                 },
                 {
                     "id": 9,
-                    "image": "http://monarkuni.ac.in/wp-content/uploads/2021/06/i09_TECHNICAL-SUPPORT.jpg",
+                    "image": "https://res.cloudinary.com/dnjgopun8/image/upload/v1724403704/i09_TECHNICAL-SUPPORT_ympyi5.jpg  ",
                     "name": "TECHNICAL SUPPORT"
                 },
                 {
                     "id": 10,
-                    "image": "http://monarkuni.ac.in/wp-content/uploads/2021/06/i10_WEB-DEVELOPER.png",
+                    "image": "https://res.cloudinary.com/dnjgopun8/image/upload/v1724403705/i10_WEB-DEVELOPER_ncekvg.png ",
                     "name": "WEB DEVELOPER"
                 }
             ],
@@ -191,14 +191,14 @@
                     "id": 1,
                     "title": "Computer Language Lab",
                     "subTitle": "Equipped with",
-                    "image": "https://monarkuni.ac.in/wp-content/uploads/2021/06/SMET-206.jpg",
+                    "image": "https://res.cloudinary.com/dnjgopun8/image/upload/v1724403706/SMET-206_h9cws6.jpg",
                     "pera": "C & C++ Language/JAVA Language/Visual Studio/PHP Language/Android"
                 },
                 {
                     "id": 2,
                     "title": "Database Lab",
                     "subTitle": "Equipped with",
-                    "image": "https://monarkuni.ac.in/wp-content/uploads/2021/06/SMET-128.jpg",
+                    "image": "https://res.cloudinary.com/dnjgopun8/image/upload/v1724403706/SMET-128_q2fam0.jpg",
                     "pera": "SQL/Compiler Lab/Mobile Application Lab/Network Simulator Lab/Android Programming Lab"
                 }
             ]
@@ -208,37 +208,37 @@
             "title": "Master in Electrical Engineering",
             "icon": "flaticon-bars",
             "titlePera": "Masters in Electrical Engineering is a two years course spanning over four semesters. The aim of the course is to focus on transmission, electrification and generation of electricity in the field of electrical engineering. The course offers wide selection among different areas like wireless communication, power systems and energy conversion.",
-            "titleImage": "https://monarkuni.ac.in/wp-content/uploads/2021/06/SMET-131.jpg",
+            "titleImage": "https://res.cloudinary.com/dnjgopun8/image/upload/v1724404457/SMET-131_kt6gk6.jpg",
             "programOutcomesPera": "Ability to apply the enhanced knowledge in advanced technologies for modelling, Analyzing and solving contemporary issues in power sector with a global perspective. Ability to critically analyze and carry out detailed investigation on multifaceted complex Problem sinarea of Power Systems and envisage advanced research in thrust areas. Ability to develop and utilize modern tools for modelling, analyzing and solving various Engineering problems related to Power Systems. Ability to work in a team of engineers/ researchers with mutual understandings to take unsophisticated challenges, in the field of Power Systems, lead and motivate the group to inculcate multidisciplinary and collaborative approach.",
             "programOutcomesImages": [
                 {
                     "id": 1,
-                    "image": "http://monarkuni.ac.in/wp-content/uploads/2021/06/i02_design.jpg",
+                    "image": "https://res.cloudinary.com/dnjgopun8/image/upload/v1724404452/i02_design_amawo2.jpg ",
                     "name": "Design Engineer"
                 },
                 {
                     "id": 2,
-                    "image": "http://monarkuni.ac.in/wp-content/uploads/2021/06/i03_production.jpg",
+                    "image": "https://res.cloudinary.com/dnjgopun8/image/upload/v1724404453/i03_production_yjb99o.jpg ",
                     "name": "Production engineer"
                 },
                 {
                     "id": 3,
-                    "image": "http://monarkuni.ac.in/wp-content/uploads/2021/06/i05_testing.jpg",
+                    "image": "https://res.cloudinary.com/dnjgopun8/image/upload/v1724403703/i05_testing_c9hzu5.jpg",
                     "name": "Testing Engineer"
                 },
                 {
                     "id": 4,
-                    "image": "http://monarkuni.ac.in/wp-content/uploads/2021/06/i02_professor.jpg",
+                    "image": "https://res.cloudinary.com/dnjgopun8/image/upload/v1724484204/i02_professor_bno6qe.jpg ",
                     "name": "Teaching field in Private and Government Sector"
                 },
                 {
                     "id": 5,
-                    "image": "http://monarkuni.ac.in/wp-content/uploads/2021/06/i04_research.jpg",
+                    "image": "https://res.cloudinary.com/dnjgopun8/image/upload/v1724484204/i04_research_j5vmk2.jpg",
                     "name": "Research field in Gov. Sector"
                 },
                 {
                     "id": 6,
-                    "image": "http://monarkuni.ac.in/wp-content/uploads/2021/06/i01_junior.jpg",
+                    "image": "https://res.cloudinary.com/dnjgopun8/image/upload/v1724404455/i01_junior_nkhzwi.jpg",
                     "name": "Junior Engineer in Gov. Sector"
                 }
             ],
@@ -250,14 +250,14 @@
                     "id": 1,
                     "title": "DC Machine Lab",
                     "subTitle": "Equipped with",
-                    "image": "https://monarkuni.ac.in/wp-content/uploads/2021/06/SMET-132.jpg",
+                    "image": "https://res.cloudinary.com/dnjgopun8/image/upload/v1724404457/SMET-132_bl369q.jpg",
                     "pera": "DC Power Supply/DC Motor/DC Generator/Rectifier/DC Meter"
                 },
                 {
                     "id": 2,
                     "title": "AC Machine Lab",
                     "subTitle": "Equipped with",
-                    "image": "https://monarkuni.ac.in/wp-content/uploads/2021/06/SMET-133.jpg",
+                    "image": "https://res.cloudinary.com/dnjgopun8/image/upload/v1724404456/SMET-133_cmbhe2.jpg",
                     "pera": "Single & 3 Phase Variac/Induction Motor/Synchronous Motor/Transformer/AC Meters"
                 }
             ]
@@ -267,37 +267,37 @@
             "title": "Master in Electronics and Communication Engineering",
             "icon": "flaticon-bars",
             "titlePera": "Masters in Electronics & Communication Engineering is a two years course spanning over four semesters. The course aims to form a post graduate with advanced knowledge on current telecommunications and electronic systems and with the latest skills for their design & development. The course offers specialized services in the field of design and manufacturing of electronic devices, system management, installation, maintenance, repair in telecommunications which are well paid and offer excellent career growth opportunities.",
-            "titleImage": "https://monarkuni.ac.in/wp-content/uploads/2021/06/SMET-202.jpg",
+            "titleImage": "https://res.cloudinary.com/dnjgopun8/image/upload/v1724404659/SMET-202_o4amyq.jpg",
             "programOutcomesPera": "Ability to identify, formulate and solve engineering problems in the broad areas like Systems Design using communication and networking platforms and tools. Explore recent developments in areas like optical communication, satellite communication, wireless communication, networking, RF-microwave, antennas, measurements and standards in communication. Ability to understand and use different software tools for Design, Analysis and Verification in the domain of communication and networking. System results are obtained through progressive steps such as Design entry, Synthesis, Functional and Timing Simulation. Ability to function as a member of a multi disciplinary team with sense of ethics, integrity and social responsibility.",
             "programOutcomesImages": [
                 {
                     "id": 1,
-                    "image": "http://monarkuni.ac.in/wp-content/uploads/2021/06/i02_design.jpg",
+                    "image": "https://res.cloudinary.com/dnjgopun8/image/upload/v1724404452/i02_design_amawo2.jpg ",
                     "name": "Design Engineer"
                 },
                 {
                     "id": 2,
-                    "image": "http://monarkuni.ac.in/wp-content/uploads/2021/06/i03_production.jpg",
+                    "image": "https://res.cloudinary.com/dnjgopun8/image/upload/v1724404453/i03_production_yjb99o.jpg ",
                     "name": "Production engineer"
                 },
                 {
                     "id": 3,
-                    "image": "http://monarkuni.ac.in/wp-content/uploads/2021/06/i05_testing.jpg",
+                    "image": "https://res.cloudinary.com/dnjgopun8/image/upload/v1724403703/i05_testing_c9hzu5.jpg",
                     "name": "Testing Engineer"
                 },
                 {
                     "id": 4,
-                    "image": "http://monarkuni.ac.in/wp-content/uploads/2021/06/i02_professor.jpg",
+                    "image": "https://res.cloudinary.com/dnjgopun8/image/upload/v1724484204/i02_professor_bno6qe.jpg ",
                     "name": "Teaching field in Private and Government Sector"
                 },
                 {
                     "id": 5,
-                    "image": "http://monarkuni.ac.in/wp-content/uploads/2021/06/i04_research.jpg",
+                    "image": "https://res.cloudinary.com/dnjgopun8/image/upload/v1724484204/i04_research_j5vmk2.jpg",
                     "name": "Research field in Gov. Sector"
                 },
                 {
                     "id": 6,
-                    "image": "http://monarkuni.ac.in/wp-content/uploads/2021/06/i01_junior.jpg",
+                    "image": "https://res.cloudinary.com/dnjgopun8/image/upload/v1724404455/i01_junior_nkhzwi.jpg",
                     "name": "Junior Engineer in Gov. Sector"
                 }
             ],
@@ -309,14 +309,14 @@
                     "id": 1,
                     "title": "Microprocessor & Micro Controller Lab",
                     "subTitle": "Equipped with",
-                    "image": "https://monarkuni.ac.in/wp-content/uploads/2021/06/SMET-199.jpg",
+                    "image": "https://res.cloudinary.com/dnjgopun8/image/upload/v1724404658/SMET-199_v0vbek.jpg",
                     "pera": "Dyna 8085 Kit/Jubin Simulator/Cathode Ray Oscilloscope/Function Generator/Digital Multimeter"
                 },
                 {
                     "id": 2,
                     "title": "Analogue Electronics",
                     "subTitle": "Equipped with",
-                    "image": "https://monarkuni.ac.in/wp-content/uploads/2021/06/SMET-198.jpg",
+                    "image": "https://res.cloudinary.com/dnjgopun8/image/upload/v1724404658/SMET-198_pbse4d.jpg",
                     "pera": "Microwave Bench/Digital Trainer Kit/Analogue Trainer Kit/Bread Board/Antenna Trainer Kit"
                 }
             ]
@@ -326,57 +326,57 @@
             "title": "Master in Information Technology Engineering",
             "icon": "flaticon-bars",
             "titlePera": "Master of Engineering in Information Technology is a postgraduate degree course which spans 2 years and these 2 years are divided into 4 semesters.  Apply principles of mathematics, science, and engineering in a variety of contexts.  The major areas of focus in the course are the Research, development, designing, modifying and managing the software programs.     Identify, design, and analyze complex computer systems and implement and interpret the results from those systems.  Select and apply current techniques, skills, and tools necessary for computing practice and integrate IT-based solutions into the user environment effectively.   ",
-            "titleImage": "https://monarkuni.ac.in/wp-content/uploads/2021/06/SMET-207.jpg",
+            "titleImage": "https://res.cloudinary.com/dnjgopun8/image/upload/v1724403707/SMET-207_hlx71a.jpg",
             "programOutcomesPera": "Develop an understanding of the current trends in Information Technology and the modern aspects of digitization. To identify, design, and analyze complex computer systems and implement and interpret the results from those systems. To select and apply current techniques, skills and tools necessary for computing practice and integrate IT-based solutions into the user environment effectively. To analyze the local and global impact of computing on individuals, organizations, and society. To apply ethical principles and responsibilities during professional practice.",
             "programOutcomesImages": [
                 {
                     "id": 1,
-                    "image": "http://monarkuni.ac.in/wp-content/uploads/2021/06/i01_CLUSTER-ANALYSIS.jpg",
+                    "image": "https://res.cloudinary.com/dnjgopun8/image/upload/v1724403700/i01_CLUSTER-ANALYSIS_jyeqvx.jpg ",
                     "name": "CLUSTER ANALYSIS"
                 },
                 {
                     "id": 2,
-                    "image": "http://monarkuni.ac.in/wp-content/uploads/2021/06/i02_DATA-SCIENTIST.jpg",
+                    "image": "https://res.cloudinary.com/dnjgopun8/image/upload/v1724403700/i02_DATA-SCIENTIST_rfpf2x.jpg ",
                     "name": "DATA SCIENTIST"
                 },
                 {
                     "id": 3,
-                    "image": "http://monarkuni.ac.in/wp-content/uploads/2021/06/i03_DATABASE-MANAGER.jpg",
+                    "image": "https://res.cloudinary.com/dnjgopun8/image/upload/v1724403701/i03_DATABASE-MANAGER_h2loek.jpg ",
                     "name": "DATABASE MANAGER"
                 },
                 {
                     "id": 4,
-                    "image": "http://monarkuni.ac.in/wp-content/uploads/2021/06/i04_ENTREPRENEUR.jpg",
+                    "image": "https://res.cloudinary.com/dnjgopun8/image/upload/v1724403701/i04_ENTREPRENEUR_ms0yyi.jpg ",
                     "name": "ENTREPRENEUR"
                 },
                 {
                     "id": 5,
-                    "image": "http://monarkuni.ac.in/wp-content/uploads/2021/06/i05_QUALITY-ASSUARANCE.jpg",
+                    "image": "https://res.cloudinary.com/dnjgopun8/image/upload/v1724403702/i05_QUALITY-ASSUARANCE_a2lnjw.jpg  ",
                     "name": "QUALITY ASSUARANCE"
                 },
                 {
                     "id": 6,
-                    "image": "http://monarkuni.ac.in/wp-content/uploads/2021/06/i06_SOFTWARE-ENGINEER.jpg",
+                    "image": "https://res.cloudinary.com/dnjgopun8/image/upload/v1724403704/i06_SOFTWARE-ENGINEER_j2dp1q.jpg",
                     "name": "SOFTWARE ENGINEER"
                 },
                 {
                     "id": 7,
-                    "image": "http://monarkuni.ac.in/wp-content/uploads/2021/06/i05_testing.jpg",
+                    "image": "https://res.cloudinary.com/dnjgopun8/image/upload/v1724403703/i05_testing_c9hzu5.jpg ",
                     "name": "SOFTWARE TESTING"
                 },
                 {
                     "id": 8,
-                    "image": "http://monarkuni.ac.in/wp-content/uploads/2021/06/i08_SYSTEM-ANALYST.jpg",
+                    "image": "https://res.cloudinary.com/dnjgopun8/image/upload/v1724403704/i08_SYSTEM-ANALYST_bymgd9.jpg ",
                     "name": "SYSTEM ANALYST"
                 },
                 {
                     "id": 9,
-                    "image": "http://monarkuni.ac.in/wp-content/uploads/2021/06/i09_TECHNICAL-SUPPORT.jpg",
+                    "image": "https://res.cloudinary.com/dnjgopun8/image/upload/v1724403704/i09_TECHNICAL-SUPPORT_ympyi5.jpg  ",
                     "name": "TECHNICAL SUPPORT"
                 },
                 {
                     "id": 10,
-                    "image": "http://monarkuni.ac.in/wp-content/uploads/2021/06/i10_WEB-DEVELOPER.png",
+                    "image": "https://res.cloudinary.com/dnjgopun8/image/upload/v1724403705/i10_WEB-DEVELOPER_ncekvg.png ",
                     "name": "WEB DEVELOPER"
                 }
             ],
@@ -388,14 +388,14 @@
                     "id": 1,
                     "title": "COMPUTER LANGUAGE LAB",
                     "subTitle": "Equipped with",
-                    "image": "https://monarkuni.ac.in/wp-content/uploads/2021/06/SMET-206.jpg",
+                    "image": "https://res.cloudinary.com/dnjgopun8/image/upload/v1724403706/SMET-206_h9cws6.jpg",
                     "pera": "C & C++ Language/JAVA Language/Visual Studio/PHP Language/Android"
                 },
                 {
                     "id": 2,
                     "title": "DATABASE LAB",
                     "subTitle": "Equipped with",
-                    "image": "https://monarkuni.ac.in/wp-content/uploads/2021/06/SMET-128.jpg",
+                    "image": "https://res.cloudinary.com/dnjgopun8/image/upload/v1724403706/SMET-128_q2fam0.jpg",
                     "pera": "SQL/Compiler Lab/Mobile Application Lab/Network Simulator Lab/Android Programming Lab"
                 }
             ]
@@ -405,52 +405,52 @@
             "title": "Master in Mechanical Engineering",
             "icon": "flaticon-bars",
             "titlePera": "Masters in Mechanical Engineering is a two year course spanning over four semesters. It offers specialization in CAD/CAM. The course aims to impart the knowledge of design (designing) a product and program manufacturing process, specifically by CNC machining. The knowledge of CAM software helps to create various models and assemblies with the help of CAD software. The program offers development of skill in the area of analysis and its application to modern concepts of mechanical engineering. The student will learn techniques to manage projects and research activities, imparting highly desirable skills for working in industry.",
-            "titleImage": "https://monarkuni.ac.in/wp-content/uploads/2021/06/SMET-269.jpg",
+            "titleImage": "https://res.cloudinary.com/dnjgopun8/image/upload/v1724405113/SMET-269_yisnzf.jpg",
             "programOutcomesPera": "To apply mechanical engineering education to address the full range of technical and societal problems with creativity, imagination, confidence and responsibility. To provide a sound understanding of advanced principles of computer aided design and manufacturing. To retain the intellectual curiosity that motivates lifelong learning and allows for a flexible response to the rapidly evolving challenges of 21st century.",
             "programOutcomesImages": [
                 {
                     "id": 1,
-                    "image": "http://monarkuni.ac.in/wp-content/uploads/2021/06/i07_power-generation.jpg",
+                    "image": "https://res.cloudinary.com/dnjgopun8/image/upload/v1724405112/i07_power-generation_sti0yf.jpg ",
                     "name": "Power generation industry"
                 },
                 {
                     "id": 2,
-                    "image": "http://monarkuni.ac.in/wp-content/uploads/2021/06/i03_Exploration-for-oil-and-gas-is-very-expensive-and-risky.jpg",
+                    "image": "https://res.cloudinary.com/dnjgopun8/image/upload/v1724405112/i03_Exploration-for-oil-and-gas-is-very-expensive-and-risky_famm2s.jpg ",
                     "name": "Oil and gas industry"
                 },
                 {
                     "id": 3,
-                    "image": "http://monarkuni.ac.in/wp-content/uploads/2021/06/i08_rail.jpg",
+                    "image": "https://res.cloudinary.com/dnjgopun8/image/upload/v1724405112/i08_rail_det9vd.jpg",
                     "name": "Rail industry"
                 },
                 {
                     "id": 4,
-                    "image": "http://monarkuni.ac.in/wp-content/uploads/2021/06/i01_aero.jpg",
+                    "image": "https://res.cloudinary.com/dnjgopun8/image/upload/v1724405112/i01_aero_uj67os.jpg",
                     "name": "Aerospace industry"
                 },
                 {
                     "id": 5,
-                    "image": "http://monarkuni.ac.in/wp-content/uploads/2021/06/i09_water-ship-sea-transportation-system-industry-watercraft.jpg",
+                    "image": "https://res.cloudinary.com/dnjgopun8/image/upload/v1724405113/i09_water-ship-sea-transportation-system-industry-watercraft_ud36jp.jpg ",
                     "name": "Marine industry"
                 },
                 {
                     "id": 6,
-                    "image": "http://monarkuni.ac.in/wp-content/uploads/2021/06/i04_indian-army.jpg",
+                    "image": "https://res.cloudinary.com/dnjgopun8/image/upload/v1724405113/i04_indian-army_wvakg7.jpg ",
                     "name": "Defence industry"
                 },
                 {
                     "id": 7,
-                    "image": "http://monarkuni.ac.in/wp-content/uploads/2021/06/i05_metal.jpg",
+                    "image": "https://res.cloudinary.com/dnjgopun8/image/upload/v1724405113/i05_metal_luozev.jpg",
                     "name": "Materials and metals industry"
                 },
                 {
                     "id": 8,
-                    "image": "http://monarkuni.ac.in/wp-content/uploads/2021/06/i02_consumer-goods.jpg",
+                    "image": "https://res.cloudinary.com/dnjgopun8/image/upload/v1724405111/i02_consumer-goods_yqoziy.jpg ",
                     "name": "Fast-moving consumer goods industry"
                 },
                 {
                     "id": 9,
-                    "image": "http://monarkuni.ac.in/wp-content/uploads/2021/06/i06_pharma.jpg",
+                    "image": "https://res.cloudinary.com/dnjgopun8/image/upload/v1724405112/i06_pharma_fj2es3.jpg",
                     "name": "Pharmaceuticals industry"
                 }
             ],
@@ -462,14 +462,14 @@
                     "id": 1,
                     "title": "Fluid Mechanics and Fluid Power Engg Lab",
                     "subTitle": "Equipped with",
-                    "image": "https://monarkuni.ac.in/wp-content/uploads/2021/06/SMET-154.jpg",
+                    "image": "https://res.cloudinary.com/dnjgopun8/image/upload/v1724405112/SMET-154_tvwimy.jpg",
                     "pera": "Notch Apparatus/Friction In Pipe/Bernoulli's Apparatus/Francis Turbine/Reynold Apparatus"
                 },
                 {
                     "id": 2,
                     "title": "Heat Transfer Lab",
                     "subTitle": "Equipped with",
-                    "image": "https://monarkuni.ac.in/wp-content/uploads/2021/06/SMET-150.jpg",
+                    "image": "https://res.cloudinary.com/dnjgopun8/image/upload/v1724405112/SMET-150_gwatgx.jpg",
                     "pera": "Stefan Boltz Mann Apparatus/Thermal Conducfriction Of insulation Of Insulation Powder/Pin Fin Apparatus/Shell & Tube/Thermal Conductivity Measuring Apparatus"
                 }
             ]
@@ -489,32 +489,32 @@
             "title": "M.Sc. Chemistry",
             "icon": "flaticon-bars",
             "titlePera": "M.Sc. in Chemistry is a postgraduate two-year programme that is divided into four semesters. This Programme deal with study of matter, the composition, properties, and structure of substances. The discipline deals with compounds and elements that consist of molecules, atoms and ions. Advancements in chemistry have a great impact on the world which range from new medicines to new materials to new sources of energy",
-            "titleImage": "https://monarkuni.ac.in/wp-content/uploads/2021/05/SMET-74.jpg",
+            "titleImage": "https://res.cloudinary.com/dnjgopun8/image/upload/v1724405395/SMET-74_ty4pnu.jpg",
             "programOutcomesPera": "After successful completion of this course a student will be able to determine molecular structure by using UV, IR and NMR., Study of medicinal chemistry for lead compound, Synthesis of Natural products and drugs by using proper mechanisms, solve the reaction mechanisms and assign the final product. There are various higher study options available for candidates who have completed their PG in Chemistry. They can join various other PG and research courses related to the topic of interest such as Master of Philosophy in applies chemistry or basic chemistry. They can opt for Ph.D. in different fields of chemistry. The employment areas after this programme includes pharmaceutical industries, chemical manufactures, forensic science departments, plastic industries, agro industries, etc. Apart from these, they are also recruited in the field such as oil, gas and power sectors, defence services.",
             "programOutcomesImages": [
                 {
                     "id": 1,
-                    "image": "http://monarkuni.ac.in/wp-content/uploads/2021/06/i08_Pursue-PhD-in-biotechnology.jpg",
+                    "image": "https://res.cloudinary.com/dnjgopun8/image/upload/v1724405394/i08_Pursue-PhD-in-biotechnology_dh3lzh.jpg",
                     "name": "Pursue PhD in biotechnology"
                 },
                 {
                     "id": 2,
-                    "image": "http://monarkuni.ac.in/wp-content/uploads/2021/06/i07_Professor.jpeg",
+                    "image": "https://res.cloudinary.com/dnjgopun8/image/upload/v1724485112/i07_Professor_hmqfq8.jpg ",
                     "name": "Lecturer/Professor"
                 },
                 {
                     "id": 3,
-                    "image": "http://monarkuni.ac.in/wp-content/uploads/2021/06/i10_Forensic-Laboratory-Scientist.jpg",
+                    "image": "https://res.cloudinary.com/dnjgopun8/image/upload/v1724485112/i10_Forensic-Laboratory-Scientist_s7eype.jpg ",
                     "name": "Forensic Laboratory Scientist"
                 },
                 {
                     "id": 4,
-                    "image": "http://monarkuni.ac.in/wp-content/uploads/2021/06/i01_petrochemical-plant-refinery-chemical-plant-industry.jpg",
+                    "image": "https://res.cloudinary.com/dnjgopun8/image/upload/v1724485112/i01_petrochemical-plant-refinery-chemical-plant-industry_gjv7vt.jpg ",
                     "name": "Chemical Industrial officer"
                 },
                 {
                     "id": 5,
-                    "image": "http://monarkuni.ac.in/wp-content/uploads/2021/06/i09_Chemical-sales-and-marketing.jpeg",
+                    "image": "https://res.cloudinary.com/dnjgopun8/image/upload/v1724485112/i09_Chemical-sales-and-marketing_knppdj.jpg ",
                     "name": "Chemical sales and marketing"
                 }
             ],
@@ -527,8 +527,7 @@
                     "title": "Chemistry Laboratory-1",
                     "subTitle": "Equipped with",
                     "image": [
-                        "https://monarkuni.ac.in/wp-content/uploads/2021/05/SMET-70.jpg",
-                        "https://monarkuni.ac.in/wp-content/uploads/2021/05/SMET-73.jpg"
+                        "https://res.cloudinary.com/dnjgopun8/image/upload/v1724405394/SMET-70_yezwvv.jpg"
                     ],
                     "pera": "Distilled water assembly/Weighing machine/Glass ware/Plastic ware/Chemicals"
                 },
@@ -537,8 +536,28 @@
                     "title": "Chemistry Laboratory-2",
                     "subTitle": "",
                     "image": [
-                        "https://monarkuni.ac.in/wp-content/uploads/2021/06/SMET-76.jpg",
-                        "https://monarkuni.ac.in/wp-content/uploads/2021/05/SMET-74.jpg"
+                        "https://res.cloudinary.com/dnjgopun8/image/upload/v1724405394/SMET-73_la0rjz.jpg"
+                       
+                    ],
+                    "pera": ""
+                },
+                {
+                    "id": 3,
+                    "title": "Chemistry Laboratory-3",
+                    "subTitle": "",
+                    "image": [
+                        "https://res.cloudinary.com/dnjgopun8/image/upload/v1724405394/SMET-76_pxaxda.jpg"
+                       
+                    ],
+                    "pera": ""
+                },
+                {
+                    "id": 4,
+                    "title": "Chemistry Laboratory-4",
+                    "subTitle": "",
+                    "image": [
+                        "https://res.cloudinary.com/dnjgopun8/image/upload/v1724405394/SMET-74_1_c3r2kk.jpg"
+                       
                     ],
                     "pera": ""
                 }
@@ -549,32 +568,32 @@
             "title": "M.Sc. Microbiology",
             "icon": "flaticon-bars",
             "titlePera": "M.Sc. in Microbiology is a postgraduate two-year programme that is divided into four semesters. These courses are concerned with the appearance, form (morphology), genetics, and metabolic processes of microscopic and sub-microscopic organisms. Microbiology is a relatively new discipline with practical implications in a variety of fields of human life, including medicine, agriculture, nutrition, biotechnology, and so more. Microbiology logistical challenges also improved as a result of the theoretical and functional accumulation of nuclear physics, cellular and molecular biology, and knowledge methods, resulting in the accelerated advancement of microbiology.",
-            "titleImage": "https://monarkuni.ac.in/wp-content/uploads/2021/06/SMET-69.jpg",
+            "titleImage": "https://res.cloudinary.com/dnjgopun8/image/upload/v1724405972/SMET-69_q0on0p.jpg",
             "programOutcomesPera": "Since microbiology is involved in so many areas, career openings after completing the M.Sc. Microbiology course include medicine, pharmacy, dairy, industry, health science, water industry, agriculture, chemical technology, and nanotechnology. Students can also opt for Ph.D. in different fields of microbiology.",
             "programOutcomesImages": [
                 {
                     "id": 1,
-                    "image": "http://monarkuni.ac.in/wp-content/uploads/2021/06/i05_academic-researcher.jpg",
+                    "image": "https://res.cloudinary.com/dnjgopun8/image/upload/v1724485298/i05_academic-researcher_pqhuin.jpg ",
                     "name": "Researcher"
                 },
                 {
                     "id": 2,
-                    "image": "http://monarkuni.ac.in/wp-content/uploads/2021/06/i04_Food-Laboratory-Testing-and-Techniques-1024x573-1.jpg",
+                    "image": "https://res.cloudinary.com/dnjgopun8/image/upload/v1724485297/i04_Food-Laboratory-Testing-and-Techniques-1024x573-1_p2wocp.jpg ",
                     "name": "Food technologists"
                 },
                 {
                     "id": 3,
-                    "image": "http://monarkuni.ac.in/wp-content/uploads/2021/06/i05_laboratory-medical-lab-diagnostics-blood-tube.jpg",
+                    "image": "https://res.cloudinary.com/dnjgopun8/image/upload/v1724485297/i05_laboratory-medical-lab-diagnostics-blood-tube_euruoe.jpg ",
                     "name": "Diagnostics"
                 },
                 {
                     "id": 4,
-                    "image": "http://monarkuni.ac.in/wp-content/uploads/2021/06/i06_quality.jpg",
+                    "image": "https://res.cloudinary.com/dnjgopun8/image/upload/v1724485296/i06_quality_dvtp1d.jpg",
                     "name": "Quality Control officer"
                 },
                 {
                     "id": 5,
-                    "image": "http://monarkuni.ac.in/wp-content/uploads/2021/06/i08_Pursue-PhD-in-biotechnology.jpg",
+                    "image": "https://res.cloudinary.com/dnjgopun8/image/upload/v1724405394/i08_Pursue-PhD-in-biotechnology_dh3lzh.jpg ",
                     "name": "Pursue PhD"
                 }
             ],
@@ -584,21 +603,41 @@
             "laboratories": [
                 {
                     "id": 1,
-                    "title": "Microbiology Laboratory-1",
+                    "title": "Chemistry Laboratory-1",
                     "subTitle": "Equipped with",
                     "image": [
-                        "https://monarkuni.ac.in/wp-content/uploads/2021/06/SMET-65.jpg",
-                        "https://monarkuni.ac.in/wp-content/uploads/2021/06/SMET-63.jpg"
+                        "https://res.cloudinary.com/dnjgopun8/image/upload/v1724405971/SMET-65_tunavr.jpg"
+                        
                     ],
-                    "pera": "Autoclave,incubator/shaker, Binocular Microscope/Hot Air oven,Centrifudge/Electro phoresis,water bath/Ocullarmicrometer,Colorimeter/Colony micrometer, Stage Micrometer"
+                    "pera": "Distilled water assembly/Weighing machine/Glass ware/Plastic ware/Chemicals"
                 },
                 {
                     "id": 2,
-                    "title": "Microbiology Laboratory-2",
+                    "title": "Chemistry Laboratory-2",
                     "subTitle": "",
                     "image": [
-                        "https://monarkuni.ac.in/wp-content/uploads/2021/06/SMET-59.jpg",
-                        "https://monarkuni.ac.in/wp-content/uploads/2021/06/SMET-60-1.jpg"
+                        "https://res.cloudinary.com/dnjgopun8/image/upload/v1724405971/SMET-63_ffvslp.jpg"
+                       
+                    ],
+                    "pera": ""
+                },
+                {
+                    "id": 3,
+                    "title": "Chemistry Laboratory-3",
+                    "subTitle": "",
+                    "image": [
+                        "https://res.cloudinary.com/dnjgopun8/image/upload/v1724405971/SMET-59_dwzqmy.jpg"
+                       
+                    ],
+                    "pera": ""
+                },
+                {
+                    "id": 4,
+                    "title": "Chemistry Laboratory-4",
+                    "subTitle": "",
+                    "image": [
+                        "https://res.cloudinary.com/dnjgopun8/image/upload/v1724405970/SMET-60-1_gsiubc.jpg"
+                       
                     ],
                     "pera": ""
                 }
@@ -609,52 +648,52 @@
             "title": "M.Sc. Zoology",
             "icon": "flaticon-bars",
             "titlePera": "M.Sc. in Zoology is a postgraduate two-year programme that is divided into four semesters. This course deals with detailed study of variety of animals both living and extinct. The surface of Animals is also covered in study with other Animals, which are in the same manner the Basis of other Animals that live upon it. The discipline also deals with biological cells, sexual reproduction, nutrition and respiration and development of evolutionary theory.",
-            "titleImage": "https://monarkuni.ac.in/wp-content/uploads/2021/06/SMET-82.jpg",
+            "titleImage": "https://res.cloudinary.com/dnjgopun8/image/upload/v1724406178/SMET-82_aacrj9.jpg",
             "programOutcomesPera": "Post graduation in zoology has many opportunities after completion. There are many fields of wildlife and their conservation, embryology, toxicology, pharmaceuticals, animal husbandry, ecosystem welfares, laboratories, marine science, wildlife photography, entomologist, ethnologists, cytologist, museum, Government hospitals, Government jobs in scientific officer, researchers, range forest officers as well as lots of opportunities of research based work opportunities and companies recruit various individuals for project of variety fields. Zoology course has a great future ahead. There are many universities providing further Ph.D. doctorate degree course in specialization which is career orienting and opens many jobs like academic career as well as researcher.",
             "programOutcomesImages": [
                 {
                     "id": 1,
-                    "image": "http://monarkuni.ac.in/wp-content/uploads/2021/06/i05_academic-researcher.jpg",
+                    "image": "https://res.cloudinary.com/dnjgopun8/image/upload/v1724485298/i05_academic-researcher_pqhuin.jpg",
                     "name": "Research scientist"
                 },
                 {
                     "id": 2,
-                    "image": "http://monarkuni.ac.in/wp-content/uploads/2021/06/i09_zooologist.jpg",
+                    "image": "https://res.cloudinary.com/dnjgopun8/image/upload/v1724405394/i08_Pursue-PhD-in-biotechnology_dh3lzh.jpg",
                     "name": "Zoologist"
                 },
                 {
                     "id": 3,
-                    "image": "http://monarkuni.ac.in/wp-content/uploads/2021/06/i04_marine-biology-program.jpg",
+                    "image": "https://res.cloudinary.com/dnjgopun8/image/upload/v1724485549/i04_marine-biology-program_w8gbbf.jpg",
                     "name": "Marine scientist"
                 },
                 {
                     "id": 4,
-                    "image": "http://monarkuni.ac.in/wp-content/uploads/2021/06/i02_clinical-research.jpg",
+                    "image": "https://res.cloudinary.com/dnjgopun8/image/upload/v1724485548/i02_clinical-research_uyn74n.jpg ",
                     "name": "Biomedical scientist"
                 },
                 {
                     "id": 5,
-                    "image": "http://monarkuni.ac.in/wp-content/uploads/2021/06/i02_enviornment-education.jpg",
+                    "image": "https://res.cloudinary.com/dnjgopun8/image/upload/v1724485826/i02_enviornment-education_hghtxp.jpg ",
                     "name": "Environmental education officer"
                 },
                 {
                     "id": 6,
-                    "image": "http://monarkuni.ac.in/wp-content/uploads/2021/06/i01_enviornemental-manager.jpg",
+                    "image": "https://res.cloudinary.com/dnjgopun8/image/upload/v1724485547/i01_enviornemental-manager_r6n6if.jpg ",
                     "name": "Environmental manager"
                 },
                 {
                     "id": 7,
-                    "image": "http://monarkuni.ac.in/wp-content/uploads/2021/06/i04_marine-biology-program.jpg",
+                    "image": "https://res.cloudinary.com/dnjgopun8/image/upload/v1724485549/i04_marine-biology-program_w8gbbf.jpg ",
                     "name": "Marine biologist"
                 },
                 {
                     "id": 8,
-                    "image": "http://monarkuni.ac.in/wp-content/uploads/2021/06/i06_toxo.jpg",
+                    "image": "https://res.cloudinary.com/dnjgopun8/image/upload/v1724485545/i06_toxo_enxcnc.jpg",
                     "name": "Toxicologist"
                 },
                 {
                     "id": 9,
-                    "image": "http://monarkuni.ac.in/wp-content/uploads/2021/06/i08_Pursue-PhD-in-biotechnology.jpg",
+                    "image": "https://res.cloudinary.com/dnjgopun8/image/upload/v1724405394/i08_Pursue-PhD-in-biotechnology_dh3lzh.jpg",
                     "name": "Pursue PhD"
                 }
                 
@@ -668,10 +707,18 @@
                     "title": "Zoology Laboratory-1",
                     "subTitle": "Equipped with",
                     "image": [
-                        "https://monarkuni.ac.in/wp-content/uploads/2021/06/SMET-83.jpg",
-                        "https://monarkuni.ac.in/wp-content/uploads/2021/06/SMET-84.jpg"
+                        "https://res.cloudinary.com/dnjgopun8/image/upload/v1724406176/SMET-83_dntohl.jpg"
                     ],
-                    "pera": "Centrifuge/Student Microscope/Dissecting MIcroscope/Haemoglobin meter/Urinometer/Dissection Box/Microtome/Waterbath/Magneticstirrer"
+                    "pera": "Centrifuge/Student Microscope/Dissecting MIcroscope/Haemoglobin meter /Urinometer/Dissection Box/Microtome/Waterbath/Magneticstirrer"
+                },
+                {
+                    "id": 2,
+                    "title": "Zoology Laboratory-2",
+                    "subTitle": "Equipped with",
+                    "image": [
+                        "https://res.cloudinary.com/dnjgopun8/image/upload/v1724406174/SMET-84_jataxo.jpg"
+                    ],
+                    "pera": "Centrifuge/Student Microscope/Dissecting MIcroscope/Haemoglobin meter /Urinometer/Dissection Box/Microtome/Waterbath/Magneticstirrer"
                 }
             ]
         },
@@ -680,57 +727,57 @@
             "title": "M.Sc. Physics",
             "icon": "flaticon-bars",
             "titlePera": "M.Sc. in Physics is a postgraduate two-year program that is divided into four semesters. This course includes study of the structure of matter and the interactions between the fundamental constituents of the observable universe. This course deals with advance physics subject like Classical mechanics, Condensed matter physics, Quantum physics, statistical physics, mathematical physics, nuclear physics electronics, etc.",
-            "titleImage": "https://monarkuni.ac.in/wp-content/uploads/2021/06/SMET-87.jpg",
+            "titleImage": "https://res.cloudinary.com/dnjgopun8/image/upload/v1724406380/SMET-87_vctibu.jpg",
             "programOutcomesPera": "After completion of this course students have developed problem-solving and reasoning skills over time so these things help in considerably improve the chances of being hired in the research field. After completing a postgraduate degree in physics, students can opt for higher studies. They can go in the research field and pursue PhD in physics. After completing M.Sc. physics, various employment options become available in industrial field, defence field (DRDO) and technical field (ISRO) and teaching field in sciences.",
             "programOutcomesImages": [
                 {
                     "id": 1,
-                    "image": "http://monarkuni.ac.in/wp-content/uploads/2021/06/i08_Pursue-PhD-in-biotechnology.jpg",
+                    "image": "https://res.cloudinary.com/dnjgopun8/image/upload/v1724405394/i08_Pursue-PhD-in-biotechnology_dh3lzh.jpg",
                     "name": "Pursue PhD"
                 },
                 {
                     "id": 2,
-                    "image": "http://monarkuni.ac.in/wp-content/uploads/2021/06/i05_academic-researcher.jpg",
+                    "image": "https://res.cloudinary.com/dnjgopun8/image/upload/v1724485298/i05_academic-researcher_pqhuin.jpg",
                     "name": "Academic researcher"
                 },
                 {
                     "id": 3,
-                    "image": "http://monarkuni.ac.in/wp-content/uploads/2021/06/i06_acoustic-consultant-02.jpg",
+                    "image": "https://res.cloudinary.com/dnjgopun8/image/upload/v1724486016/i06_acoustic-consultant-02_r5fssc.jpg ",
                     "name": "Acoustic consultant"
                 },
                 {
                     "id": 4,
-                    "image": "http://monarkuni.ac.in/wp-content/uploads/2021/06/i07_astronomer.jpg",
+                    "image": "https://res.cloudinary.com/dnjgopun8/image/upload/v1724486016/i07_astronomer_reli92.jpg ",
                     "name": "Astronomer"
                 },
                 {
                     "id": 5,
-                    "image": "http://monarkuni.ac.in/wp-content/uploads/2021/06/i08_geophy.jpg",
+                    "image": "https://res.cloudinary.com/dnjgopun8/image/upload/v1724486014/i08_geophy_ndsoag.jpg ",
                     "name": "Geophysicist"
                 },
                 {
                     "id": 6,
-                    "image": "http://monarkuni.ac.in/wp-content/uploads/2021/06/i02_metalurgy.jpg",
+                    "image": "https://res.cloudinary.com/dnjgopun8/image/upload/v1724486014/i02_metalurgy_qvcxc6.jpg ",
                     "name": "Metallurgist"
                 },
                 {
                     "id": 7,
-                    "image": "http://monarkuni.ac.in/wp-content/uploads/2021/06/i09_meterologist.jpeg",
+                    "image": "https://res.cloudinary.com/dnjgopun8/image/upload/v1724486012/i09_meterologist_ugmytl.jpg ",
                     "name": "Meteorologist"
                 },
                 {
                     "id": 8,
-                    "image": "http://monarkuni.ac.in/wp-content/uploads/2021/06/i03_nano.jpg",
+                    "image": "https://res.cloudinary.com/dnjgopun8/image/upload/v1724486011/i03_nano_vboij4.jpg",
                     "name": "Nanotechnologist"
                 },
                 {
                     "id": 9,
-                    "image": "http://monarkuni.ac.in/wp-content/uploads/2021/06/i11_ZVD-Environmental-Radiation-1.jpg.730x486_q85.jpg",
+                    "image": "https://res.cloudinary.com/dnjgopun8/image/upload/v1724486011/i11_ZVD-Environmental-Radiation-1.jpg.730x486_q85_txbb3r.jpg ",
                     "name": "Radiation protection practitioner"
                 },
                 {
                     "id": 10,
-                    "image": "http://monarkuni.ac.in/wp-content/uploads/2021/06/i10_research.jpg",
+                    "image": "https://res.cloudinary.com/dnjgopun8/image/upload/v1724486010/i10_research_zgqwul.jpg ",
                     "name": "Research scientist (physical sciences)"
                 }
             ],
@@ -743,8 +790,8 @@
                     "title": "Physics Laboratory-1",
                     "subTitle": "Equipped with",
                     "image": [
-                        "https://monarkuni.ac.in/wp-content/uploads/2021/06/SMET-85.jpg",
-                        "https://monarkuni.ac.in/wp-content/uploads/2021/06/SMET-87.jpg"
+                        "https://res.cloudinary.com/dnjgopun8/image/upload/v1724406378/SMET-85_cvurow.jpg"
+                        
                     ],
                     "pera": "Spectrometer/Travelling microscope,- Bar Pendulum/Logic Gate, Frequency Generator/LDR PHYSICS FIRST Deflection Magnetometer/Projection Method kit/Thermal Expansion, -Rectifier kit/Resonance kit,-Resonator"
                 },
@@ -753,9 +800,27 @@
                     "title": "Physics Laboratory-2",
                     "subTitle": "",
                     "image": [
-                       "https://monarkuni.ac.in/wp-content/uploads/2021/06/SMET-89.jpg",
-                       "https://monarkuni.ac.in/wp-content/uploads/2021/06/SMET-90.jpg"
-                    ], 
+                        "https://res.cloudinary.com/dnjgopun8/image/upload/v1724406377/SMET-87_1_qr5qsk.jpg"
+                        
+                    ],
+                    "pera": ""
+                },
+                {
+                    "id": 3,
+                    "title": "Physics Laboratory-3",
+                    "subTitle": "",
+                    "image": [
+                        "https://res.cloudinary.com/dnjgopun8/image/upload/v1724406377/SMET-89_mqctbf.jpg"
+                    ],
+                    "pera": ""
+                },
+                {
+                    "id": 4,
+                    "title": "Physics Laboratory-4",
+                    "subTitle": "",
+                    "image": [
+                        "https://res.cloudinary.com/dnjgopun8/image/upload/v1724406377/SMET-90_hrna5e.jpg"
+                    ],
                     "pera": ""
                 }
             ]
@@ -765,32 +830,32 @@
             "title": "M.Sc. Mathematics",
             "icon": "flaticon-bars",
             "titlePera": "M.Sc. in Mathematics is a postgraduate two-year programme that is divided into four semesters. This course deals with deeper knowledge of advanced mathematics through a vast preference of subjects such as geometry, calculus, algebra, number theory, dynamical systems, and differential equations. This course also deals with learn process about how to collect mathematical data and how to analyse them with the help of different mathematical tools and methods.",
-            "titleImage": "https://monarkuni.ac.in/wp-content/uploads/2021/06/970412-1024x640.jpg",
+            "titleImage": "https://res.cloudinary.com/dnjgopun8/image/upload/v1724406638/970412_lxbc2l.jpg",
             "programOutcomesPera": "After completing a postgraduate degree in Mathematics students can opt for higher studies. They can go in the research field and pursue PhD in mathematics and also can join jobs as a Chief Economist, as a Mathematician, as Statistician, as an Accountant, as Meteorologist in respective field. After completing M.Sc. Mathematics various employment options become available such as in defence filed (DRDO), in technical field (ISRO), in National Aeronautics Limited (NAL), in IBM and Microsoft, in teaching filed etc.",
             "programOutcomesImages": [
                 {
                     "id": 1,
-                    "image": "http://monarkuni.ac.in/wp-content/uploads/2021/06/i02_DATA-SCIENTIST.jpg",
+                    "image": "https://res.cloudinary.com/dnjgopun8/image/upload/v1724406635/i02_big-data-analytics_efx9mi.jpg ",
                     "name": "Data Scientist"
                 },
                 {
                     "id": 2,
-                    "image": "http://monarkuni.ac.in/wp-content/uploads/2021/06/i07_Professor.jpeg",
+                    "image": "https://res.cloudinary.com/dnjgopun8/image/upload/v1724406636/i04_female-math-teacher-front-chalkboard-136741366_ig84qt.jpg ",
                     "name": "Teacher/Professor"
                 },
                 {
                     "id": 3,
-                    "image": "http://monarkuni.ac.in/wp-content/uploads/2021/06/i06_acoustic-consultant-02.jpg",
+                    "image": "https://res.cloudinary.com/dnjgopun8/image/upload/v1724486016/i06_acoustic-consultant-02_r5fssc.jpg",
                     "name": "External Auditor"
                 },
                 {
                     "id": 4,
-                    "image": "http://monarkuni.ac.in/wp-content/uploads/2021/06/i03_economist.jpg",
+                    "image": "https://res.cloudinary.com/dnjgopun8/image/upload/v1724486199/i03_economist_lrgyr8.jpg ",
                     "name": "Economist"
                 },
                 {
                     "id": 5,
-                    "image": "http://monarkuni.ac.in/wp-content/uploads/2021/06/i01_actuarial-officer.jpg",
+                    "image": "https://res.cloudinary.com/dnjgopun8/image/upload/v1724486198/i01_actuarial-officer_yyuttr.jpg ",
                     "name": "Actuarial officer"
                 }
             ],
@@ -802,7 +867,7 @@
                     "id": 1,
                     "title": "",
                     "subTitle": "",
-                    "image": "https://monarkuni.ac.in/wp-content/uploads/2021/06/lab-4-1024x469.jpg",
+                    "image": "https://res.cloudinary.com/dnjgopun8/image/upload/v1724406633/lab-4_pld2t9.jpg",
                     "pera": ""
                 } 
             ]
@@ -812,32 +877,32 @@
             "title": "M.Sc. Biotechnology",
             "icon": "flaticon-bars",
             "titlePera": "M.Sc. in Biotechnology is a postgraduate two-year programme that is divided into four semesters. These courses are concerned with science-based industry that uses living organisms and molecular biology to create healthcare products and therapeutics, as well as to run operations (such as DNA fingerprinting). Biotechnology is most known for its increasing importance in the realms of medicine and pharmaceuticals, but can also be used in genomics, food production, and other sectors.",
-            "titleImage": "https://monarkuni.ac.in/wp-content/uploads/2021/06/SMET-62.jpg",
+            "titleImage": "https://res.cloudinary.com/dnjgopun8/image/upload/v1724406851/SMET-62_qjybpo.jpg",
             "programOutcomesPera": "The employment areas after this programme include pharmaceutical industries, healthcare, medicine, agriculture, food, environmental control and R&D in Biological Lab. Also Student can join for the various other PG and research courses related to the topic of interest i.e. PhD.",
             "programOutcomesImages": [
                 {
                     "id": 1,
-                    "image": "http://monarkuni.ac.in/wp-content/uploads/2021/06/i06_Medical-Biotechnologist.jpg",
+                    "image": "https://res.cloudinary.com/dnjgopun8/image/upload/v1724486587/i06_Medical-Biotechnologist_tpmlcs.jpg ",
                     "name": "Medical Biotechnologist"
                 },
                 {
                     "id": 2,
-                    "image": "http://monarkuni.ac.in/wp-content/uploads/2021/06/i04_Agricultural-Biotechnologist.jpg",
+                    "image": "https://res.cloudinary.com/dnjgopun8/image/upload/v1724486587/i04_Agricultural-Biotechnologist_eneeel.jpg ",
                     "name": "Agricultural Biotechnologist"
                 },
                 {
                     "id": 3,
-                    "image": "http://monarkuni.ac.in/wp-content/uploads/2021/06/i05_Biological-Forensic-Analyst.jpg",
+                    "image": "https://res.cloudinary.com/dnjgopun8/image/upload/v1724405972/i05_Biological-Forensic-Analyst_fu7due.jpg",
                     "name": "Biological Forensic Analyst"
                 },
                 {
                     "id": 4,
-                    "image": "http://monarkuni.ac.in/wp-content/uploads/2021/06/i08_Pursue-PhD-in-biotechnology.jpg",
+                    "image": "https://res.cloudinary.com/dnjgopun8/image/upload/v1724405394/i08_Pursue-PhD-in-biotechnology_dh3lzh.jpg",
                     "name": "Pursue PhD in biotechnology"
                 },
                 {
                     "id": 5,
-                    "image": "http://monarkuni.ac.in/wp-content/uploads/2021/06/i07_Professor.jpeg",
+                    "image": "https://res.cloudinary.com/dnjgopun8/image/upload/v1724406379/i07_Professor_esoz4y.jpg",
                     "name": "Lecturer/Professor"
                 }
             ],
@@ -850,10 +915,18 @@
                     "title": "Biotechnology Laboratory-1",
                     "subTitle": "Equipped with",
                     "image": [
-                        "https://monarkuni.ac.in/wp-content/uploads/2021/06/SMET-57.jpg",
-                        "https://monarkuni.ac.in/wp-content/uploads/2021/06/SMET-54-1.jpg"
+                        "https://res.cloudinary.com/dnjgopun8/image/upload/v1724406851/SMET-57_linxgk.jpg"
                     ],
-                    "pera": "Autoclave,incubator/shaker, Binocular Microscope/Hot Air oven,Centrifudge/Electro phoresis,water bath/Ocullarmicrometer,Colorimeter/Colony micrometer, Stage Micrometer"
+                    "pera": "Autoclave,incubator/shaker, Binocular Microscope/Hot Air oven,Centrifudg/Electro phoresis,water bath/Ocullarmicrometer,Colorimeter/Colony micrometer, Stage Micrometer"
+                },
+                {
+                    "id": 2,
+                    "title": "Biotechnology Laboratory-2",
+                    "subTitle": "Equipped with",
+                    "image": [
+                        "https://res.cloudinary.com/dnjgopun8/image/upload/v1724406850/SMET-54-1_jawmw0.jpg"
+                    ],
+                    "pera": "Autoclave,incubator/shaker, Binocular Microscope/Hot Air oven,Centrifudg/Electro phoresis,water bath/Ocullarmicrometer,Colorimeter/Colony micrometer, Stage Micrometer"
                 }
             ]
         }
@@ -872,37 +945,37 @@
             "title": "MBA in Financial Management",
             "icon": "flaticon-bars",
             "titlePera": "MBA in Finance specialization is for students who are good for analysis and reasoning skills. The finance department is one of the most important departments in a company, and finding an administrative job in it would be a great career move. MBA in Finance course trains students in making predictions and forecasts about investments and insurance. The course is designed in such a manner that the students gain theoretical as well as practical knowledge of financial components such as Investments, Portfolio Management, Financial Management, International Finance, and Corporate Finance.",
-            "titleImage": "https://monarkuni.ac.in/wp-content/uploads/2021/06/SMET-125.jpg",
+            "titleImage": "https://res.cloudinary.com/dnjgopun8/image/upload/v1724407015/SMET-125_oqdhlz.jpg",
             "programOutcomesPera": "To Attaining managerial/leadership roles as students gain in-depth knowledge in banking & finance./Students should be able to show analytical skills in short term and long term decision making./Get numerous jobs opportunities in this domain./The students acquire a professional qualification in banking, MNCs, International company etc./To get an idea of time value of money for any investment decision./It help to assess the capital structure of a firm and state its impact on firm’s profitability",
             "programOutcomesImages": [
                 {
                     "id": 1,
-                    "image": "https://monarkuni.ac.in/wp-content/uploads/2021/06/i03_Economic-and-Finance-001.jpg",
+                    "image": "https://res.cloudinary.com/dnjgopun8/image/upload/v1724407015/i03_Economic-and-Finance-001_hqtw8b.jpg",
                     "name": "Financial Analyst Consultant"
                 },
                 {
                     "id": 2,
-                    "image": "https://monarkuni.ac.in/wp-content/uploads/2021/06/i02_big-data-analytics.jpg",
+                    "image": "https://res.cloudinary.com/dnjgopun8/image/upload/v1724406635/i02_big-data-analytics_efx9mi.jpg",
                     "name": "Business Analyst"
                 },
                 {
                     "id": 3,
-                    "image": "https://monarkuni.ac.in/wp-content/uploads/2021/07/i06_Probation-officers.jpg",
+                    "image": "https://res.cloudinary.com/dnjgopun8/image/upload/v1724407015/i06_Probation-officers_dumazc.jpg",
                     "name": "Assistant Controller"
                 },
                 {
                     "id": 4,
-                    "image": "https://monarkuni.ac.in/wp-content/uploads/2021/06/i02_FINANCE.jpg",
+                    "image": "https://res.cloudinary.com/dnjgopun8/image/upload/v1724406635/i02_FINANCE_ejksj8.jpg",
                     "name": "Finance Officer"
                 },
                 {
                     "id": 5,
-                    "image": "https://monarkuni.ac.in/wp-content/uploads/2021/06/i03_BANKING-AND-LOAN.jpg",
+                    "image": "https://res.cloudinary.com/dnjgopun8/image/upload/v1724406634/i03_BANKING-AND-LOAN_vlnqhz.jpg",
                     "name": "Tax Assistant"
                 },
                 {
                     "id": 6,
-                    "image": "https://monarkuni.ac.in/wp-content/uploads/2021/06/i04_DIGITAL-MARKETING.jpg",
+                    "image": "https://res.cloudinary.com/dnjgopun8/image/upload/v1724407015/i04_DIGITAL-MARKETING_efnbxn.jpg",
                     "name": "Credit Analyst"
                 }
             ],
@@ -914,14 +987,14 @@
                     "id": 1,
                     "title": "Computer Lab",
                     "subTitle": "",
-                    "image": "https://monarkuni.ac.in/wp-content/uploads/2021/06/SMET-206.jpg",
+                    "image": "https://res.cloudinary.com/dnjgopun8/image/upload/v1724403706/SMET-206_h9cws6.jpg",
                     "pera": "Computer Centre with Internet facilities has been set up and managed by experienced computer professionals. We have a very well equipped computer Laboratorywith 50 computers for the information &   Technology subject with internet facility."
                 },
                 {
                     "id": 2,
                     "title": "Library & Reading Room",
                     "subTitle": "",
-                    "image": "https://monarkuni.ac.in/wp-content/uploads/2021/06/i08_SMET-227.jpg",
+                    "image": "https://res.cloudinary.com/dnjgopun8/image/upload/v1724407014/i08_SMET-227_xbepwh.jpg",
                     "pera": "The college has well equipped library and reading room. It has more than 2,248 references and recommended books for the BBA Course. Besides, there are periodicals, journals, weekly and monthly magazines, newspapers, considering the need to keep students abreast with latest development in the field of education, science and technology."
                 }
             ]
@@ -931,42 +1004,42 @@
             "title": "MBA in Entrepreneurship",
             "icon": "flaticon-bars",
             "titlePera": "The scope of MBA entrepreneurship primarily revolves around the candidates’ ability to start their business enterprises. The programme helps them in gaining knowledge of the field to make them efficient businessmen. One must be able to distinguish, analyse and evaluate global and local businesses. One can be a successful entrepreneur only with an effective business plan and successful execution of the projects. In order to go for business advancement, the individual must have leadership qualities to build a team and take bold initiatives. ",
-            "titleImage": "https://monarkuni.ac.in/wp-content/uploads/2021/06/SMET-125.jpg",
+            "titleImage": "https://res.cloudinary.com/dnjgopun8/image/upload/v1724407015/SMET-125_oqdhlz.jpg",
             "programOutcomesPera": "The students will be able to create new and independent business enterprises. It equips the candidates with creativity so that they understand the set-up, processes and progress of an enterprise./In order to go for business advancement, the students will get leadership qualities to build a team and take bold initiatives. ",
             "programOutcomesImages": [
                 {
                     "id": 1,
-                    "image": "https://monarkuni.ac.in/wp-content/uploads/2021/07/i08_helpline-operator-laptop-computer-isolated-white-background-33707699.jpg",
+                    "image": "https://res.cloudinary.com/dnjgopun8/image/upload/v1724407870/i08_helpline-operator-laptop-computer-isolated-white-background-33707699_ije4up.jpg",
                     "name": "Assistant Manager"
                 },
                 {
                     "id": 2,
-                    "image": "https://monarkuni.ac.in/wp-content/uploads/2021/06/i09_TECHNICAL-SUPPORT.jpg",
+                    "image": "https://res.cloudinary.com/dnjgopun8/image/upload/v1724403704/i09_TECHNICAL-SUPPORT_ympyi5.jpg",
                     "name": "Business Consultant"
                 },
                 {
                     "id": 3,
-                    "image": "https://monarkuni.ac.in/wp-content/uploads/2021/07/i01_01-Banking-and-Finance-Jobs-in-London.jpg",
+                    "image": "https://res.cloudinary.com/dnjgopun8/image/upload/v1724407870/i01_01-Banking-and-Finance-Jobs-in-London_yqbcyb.jpg",
                     "name": "Business Reporter"
                 },
                 {
                     "id": 4,
-                    "image": "https://monarkuni.ac.in/wp-content/uploads/2021/07/i02_104760932-smiling-businesswoman-or-helpline-operator-with-headset-and-computer-at-office.jpg",
+                    "image": "https://res.cloudinary.com/dnjgopun8/image/upload/v1724407870/i07_MARKETING_vdeifu.jpg",
                     "name": "Chief Human Resources Officer"
                 },
                 {
                     "id": 5,
-                    "image": "https://monarkuni.ac.in/wp-content/uploads/2021/06/i07_MARKETING.jpg",
+                    "image": "https://res.cloudinary.com/dnjgopun8/image/upload/v1724407869/i02_104760932-smiling-businesswoman-or-helpline-operator-with-headset-and-computer-at-office_rxlkmu.jpg ",
                     "name": "Commercial Banker"
                 },
                 {
                     "id": 6,
-                    "image": "https://monarkuni.ac.in/wp-content/uploads/2021/06/i03_Technical-Sales-Representative.jpg",
+                    "image": "https://res.cloudinary.com/dnjgopun8/image/upload/v1724407015/i04_DIGITAL-MARKETING_efnbxn.jpg",
                     "name": "Executive/Office Assistant"
                 },
                 {
                     "id": 7,
-                    "image": "https://monarkuni.ac.in/wp-content/uploads/2021/06/i03_BANKING-AND-LOAN.jpg",
+                    "image": "https://res.cloudinary.com/dnjgopun8/image/upload/v1724406634/i03_BANKING-AND-LOAN_vlnqhz.jpg",
                     "name": "Finance Controller"
                 }
             ],
@@ -978,15 +1051,15 @@
                     "id": 1,
                     "title": "Computer Lab",
                     "subTitle": "",
-                    "image": "https://monarkuni.ac.in/wp-content/uploads/2021/06/SMET-206.jpg",
+                    "image": "https://res.cloudinary.com/dnjgopun8/image/upload/v1724403706/SMET-206_h9cws6.jpg",
                     "pera": "Computer Centre with Internet facilities has been set up and managed by experienced computer professionals. We have a very well equipped computer Laboratorywith 50 computers for the information &   Technology subject with internet facility."
                 },
                 {
                     "id": 2,
                     "title": "Library & Reading Room",
                     "subTitle": "",
-                    "image": "https://monarkuni.ac.in/wp-content/uploads/2021/06/i08_SMET-227.jpg",
-                    "pera": "The college has well equipped library and reading room. It has more than 2,248 references and recommended books for the MBA Course. Besides, there are periodicals, journals, weekly and monthly magazines, newspapers, considering the need to keep students abreast with latest development in the field of education, science and technology."
+                    "image": "https://res.cloudinary.com/dnjgopun8/image/upload/v1724407014/i08_SMET-227_xbepwh.jpg",
+                    "pera": "The college has well equipped library and reading room. It has more than 2,248 references and recommended books for the BBA Course. Besides, there are periodicals, journals, weekly and monthly magazines, newspapers, considering the need to keep students abreast with latest development in the field of education, science and technology."
                 }
             ]
         },
@@ -995,47 +1068,47 @@
             "title": "MBA in Marketing Management",
             "icon": "flaticon-bars",
             "titlePera": "MBA in Marketing is popular course among the students wherein they study Marketing tools, concepts, research and analysis, pricing, product design, selling and distribution, promotion, advertising, other marketing concepts. Persons who have good communication skills and sales skills they will be successful in marketing field. Marketing executives make a good living. This is a job that requires people to work on-field as well. Besides a good salary, marketing executives also have many perks and benefits.",
-            "titleImage": "https://monarkuni.ac.in/wp-content/uploads/2021/06/SMET-125.jpg",
+            "titleImage": "https://res.cloudinary.com/dnjgopun8/image/upload/v1724407015/SMET-125_oqdhlz.jpg",
             "programOutcomesPera": "Marketing is a crucial business activity – due to this, there is a provision of numerous job opportunities./Course will help students in improving their management skills. They will study all about advertising, business mathematics, statistics, digital marketing, and various other topics in this course./Students will demonstrate analytical skills in identification and resolution of problems pertaining to marketing management.",
             "programOutcomesImages": [
                 {
                     "id": 1,
-                    "image": "https://monarkuni.ac.in/wp-content/uploads/2021/06/i01_BANKING-SECTOR.jpg",
+                    "image": "https://res.cloudinary.com/dnjgopun8/image/upload/v1724408202/i01_BANKING-SECTOR_j2obx1.jpg ",
                     "name": "Advertising Manager"
                 },
                 {
                     "id": 2,
-                    "image": "https://monarkuni.ac.in/wp-content/uploads/2021/06/i09_TECHNICAL-SUPPORT.jpg",
+                    "image": "https://res.cloudinary.com/dnjgopun8/image/upload/v1724403704/i09_TECHNICAL-SUPPORT_ympyi5.jpg",
                     "name": "Product Manager"
                 },
                 {
                     "id": 3,
-                    "image": "https://monarkuni.ac.in/wp-content/uploads/2021/07/i06_Probation-officers.jpg",
+                    "image": "https://res.cloudinary.com/dnjgopun8/image/upload/v1724407870/i01_01-Banking-and-Finance-Jobs-in-London_yqbcyb.jpg",
                     "name": "Marketing Manager"
                 },
                 {
                     "id": 4,
-                    "image": "https://monarkuni.ac.in/wp-content/uploads/2021/06/i08_RISK-MANAGEMENT.jpg",
+                    "image": "https://res.cloudinary.com/dnjgopun8/image/upload/v1724408201/i08_RISK-MANAGEMENT_a3lcwm.jpg ",
                     "name": "Market Research Analyst"
                 },
                 {
                     "id": 5,
-                    "image": "https://monarkuni.ac.in/wp-content/uploads/2021/06/i03_HUMAN-RESOURCE.jpg",
+                    "image": "https://res.cloudinary.com/dnjgopun8/image/upload/v1724408201/i03_HUMAN-RESOURCE_hw1qso.jpg ",
                     "name": "Brand Manager"
                 },
                 {
                     "id": 6,
-                    "image": "https://monarkuni.ac.in/wp-content/uploads/2021/06/i04_DIGITAL-MARKETING.jpg",
+                    "image": "https://res.cloudinary.com/dnjgopun8/image/upload/v1724407015/i04_DIGITAL-MARKETING_efnbxn.jpg",
                     "name": "Marketing Communications Manager"
                 },
                 {
                     "id": 7,
-                    "image": "https://monarkuni.ac.in/wp-content/uploads/2021/07/i01_01-Banking-and-Finance-Jobs-in-London.jpg",
+                    "image": "https://res.cloudinary.com/dnjgopun8/image/upload/v1724408201/i09_Chemical-sales-and-marketing_j3vbai.jpg ",
                     "name": "Sales Manager"
                 },
                 {
                     "id": 8,
-                    "image": "https://monarkuni.ac.in/wp-content/uploads/2021/06/i09_Chemical-sales-and-marketing.jpeg",
+                    "image": "https://res.cloudinary.com/dnjgopun8/image/upload/v1724407870/i01_01-Banking-and-Finance-Jobs-in-London_yqbcyb.jpg",
                     "name": "Marketing Executive etc"
                 }
             ],
@@ -1047,15 +1120,15 @@
                     "id": 1,
                     "title": "Computer Lab",
                     "subTitle": "",
-                    "image": "https://monarkuni.ac.in/wp-content/uploads/2021/06/SMET-206.jpg",
+                    "image": "https://res.cloudinary.com/dnjgopun8/image/upload/v1724403706/SMET-206_h9cws6.jpg",
                     "pera": "Computer Centre with Internet facilities has been set up and managed by experienced computer professionals. We have a very well equipped computer Laboratorywith 50 computers for the information &   Technology subject with internet facility."
                 },
                 {
                     "id": 2,
                     "title": "Library & Reading Room",
                     "subTitle": "",
-                    "image": "https://monarkuni.ac.in/wp-content/uploads/2021/06/i08_SMET-227.jpg",
-                    "pera": "The college has well equipped library and reading room. It has more than 2,248 references and recommended books for the MBA Course. Besides, there are periodicals, journals, weekly and monthly magazines, newspapers, considering the need to keep students abreast with latest development in the field of education, science and technology."
+                    "image": "https://res.cloudinary.com/dnjgopun8/image/upload/v1724407014/i08_SMET-227_xbepwh.jpg",
+                    "pera": "The college has well equipped library and reading room. It has more than 2,248 references and recommended books for the BBA Course. Besides, there are periodicals, journals, weekly and monthly magazines, newspapers, considering the need to keep students abreast with latest development in the field of education, science and technology."
                 }
             ]
         },
@@ -1064,17 +1137,17 @@
             "title": "MBA in International Business",
             "icon": "flaticon-bars",
             "titlePera": "Bachelor of Business Administration in International Business is a Business management course of three years. In addition, it makes you learn about the multilateral agencies or international business bodies and their role in the foreign trade.  It is a course that gives deep insight about buying, selling and marketing products all over the world. This course plan that prepares individuals to be highly adept with skills to deal internationally",
-            "titleImage": "https://monarkuni.ac.in/wp-content/uploads/2021/06/SMET-125.jpg",
+            "titleImage": "https://res.cloudinary.com/dnjgopun8/image/upload/v1724407015/SMET-125_oqdhlz.jpg",
             "programOutcomesPera": "The course teaches participants to be adept with the tricks of the trade and hit the ground running as soon as they pass out./It teaches individuals to get an understanding of various cultures and in turn prepare them to deal with diversity at the workplace/The course enables individuals to be global business entrepreneurs who can strategically cope up with the dynamics of the international trade world.",
             "programOutcomesImages": [
                 {
                     "id": 1,
-                    "image": "https://monarkuni.ac.in/wp-content/uploads/2021/06/i02_DATA-SCIENTIST.jpg",
+                    "image": "https://res.cloudinary.com/dnjgopun8/image/upload/v1724403700/i02_DATA-SCIENTIST_rfpf2x.jpg ",
                     "name": "Data Analyst"
                 },
                 {
                     "id": 2,
-                    "image": "https://monarkuni.ac.in/wp-content/uploads/2021/06/i09_TECHNICAL-SUPPORT.jpg",
+                    "image": "https://res.cloudinary.com/dnjgopun8/image/upload/v1724403704/i09_TECHNICAL-SUPPORT_ympyi5.jpg",
                     "name": "Foreign Investor"
                 }
             ],
@@ -1086,15 +1159,15 @@
                     "id": 1,
                     "title": "Computer Lab",
                     "subTitle": "",
-                    "image": "https://monarkuni.ac.in/wp-content/uploads/2021/06/SMET-206.jpg",
-                    "pera": "The college has well equipped library and reading room. It has more than 2,248 references and recommended books for the MBA Course. Besides, there are periodicals, journals, weekly and monthly magazines, newspapers, considering the need to keep students abreast with latest development in the field of education, science and technology."
+                    "image": "https://res.cloudinary.com/dnjgopun8/image/upload/v1724403706/SMET-206_h9cws6.jpg",
+                    "pera": "Computer Centre with Internet facilities has been set up and managed by experienced computer professionals. We have a very well equipped computer Laboratorywith 50 computers for the information &   Technology subject with internet facility."
                 },
                 {
                     "id": 2,
                     "title": "Library & Reading Room",
                     "subTitle": "",
-                    "image": "https://monarkuni.ac.in/wp-content/uploads/2021/06/i08_SMET-227.jpg",
-                    "pera": "Computer Centre with Internet facilities has been set up and managed by experienced computer professionals. We have a very well equipped computer Laboratorywith 50 computers for the information &   Technology subject with internet facility."
+                    "image": "https://res.cloudinary.com/dnjgopun8/image/upload/v1724407014/i08_SMET-227_xbepwh.jpg",
+                    "pera": "The college has well equipped library and reading room. It has more than 2,248 references and recommended books for the BBA Course. Besides, there are periodicals, journals, weekly and monthly magazines, newspapers, considering the need to keep students abreast with latest development in the field of education, science and technology."
                 }
             ]
         },
@@ -1103,47 +1176,47 @@
             "title": "MBA in Retail Management",
             "icon": "flaticon-bars",
             "titlePera": "MBA in Retail Management is so designed as to give a student a top-to-bottom knowledge of the functioning and supervision of a retail establishment. Students are also trained in direct-dealing with customers including problem-solving and interactions to boost relationships and sales.This course includes the study of retail trading which includes buying, marketing, merchandising, operations, inventory control, personnel and finance. The degree course is a detailed study of topics like retail supply chain management, store location and management, retail customer service, quality, accounting, marketing, and computer technology, etc.",
-            "titleImage": "https://monarkuni.ac.in/wp-content/uploads/2021/06/SMET-125.jpg",
+            "titleImage": "https://res.cloudinary.com/dnjgopun8/image/upload/v1724407015/SMET-125_oqdhlz.jpg",
             "programOutcomesPera": "Course enables a student to tap into this potentially rewarding industry and provides them with the required skills to succeed. Since the course has a very versatile curriculum involving aspects of economics, marketing, visual merchandising, sales, branding as well as customer support./The sheer number and variety of job roles available for a BBA Retail Management graduate are also great incentives to take up this course.",
             "programOutcomesImages": [
                 {
                     "id": 1,
-                    "image": "https://monarkuni.ac.in/wp-content/uploads/2021/06/i02_consumer-goods.jpg",
+                    "image": "https://res.cloudinary.com/dnjgopun8/image/upload/v1724405111/i02_consumer-goods_yqoziy.jpg ",
                     "name": "Retail Manager"
                 },
                 {
                     "id": 2,
-                    "image": "https://monarkuni.ac.in/wp-content/uploads/2021/06/i09_TECHNICAL-SUPPORT.jpg",
+                    "image": "https://res.cloudinary.com/dnjgopun8/image/upload/v1724403704/i09_TECHNICAL-SUPPORT_ympyi5.jpg",
                     "name": "Advertising Manager"
                 },
                 {
                     "id": 3,
-                    "image": "https://monarkuni.ac.in/wp-content/uploads/2021/07/i01_01-Banking-and-Finance-Jobs-in-London.jpg",
+                    "image": "https://res.cloudinary.com/dnjgopun8/image/upload/v1724407870/i01_01-Banking-and-Finance-Jobs-in-London_yqbcyb.jpg",
                     "name": "Administrative Officer"
                 },
                 {
                     "id": 4,
-                    "image": "https://monarkuni.ac.in/wp-content/uploads/2021/06/i05_academic-researcher.jpg",
+                    "image": "https://res.cloudinary.com/dnjgopun8/image/upload/v1724485298/i05_academic-researcher_pqhuin.jpg",
                     "name": "Brand Manager"
                 },
                 {
                     "id": 5,
-                    "image": "https://monarkuni.ac.in/wp-content/uploads/2021/06/i07_MARKETING.jpg",
+                    "image": "https://res.cloudinary.com/dnjgopun8/image/upload/v1724407870/i07_MARKETING_vdeifu.jpg",
                     "name": "Customer Care Executive"
                 },
                 {
                     "id": 6,
-                    "image": "https://monarkuni.ac.in/wp-content/uploads/2021/06/i03_Technical-Sales-Representative.jpg",
+                    "image": "https://res.cloudinary.com/dnjgopun8/image/upload/v1724406849/i03_Technical-Sales-Representative_ihbmoe.jpg",
                     "name": "Communications Manager"
                 },
                 {
                     "id": 7,
-                    "image": "https://monarkuni.ac.in/wp-content/uploads/2021/06/i03_Highwayengineer-3.png",
+                    "image": "https://res.cloudinary.com/dnjgopun8/image/upload/v1724483792/i03_Highwayengineer-3_vahbyg.png ",
                     "name": "Department Manager"
                 },
                 {
                     "id": 8,
-                    "image": "https://monarkuni.ac.in/wp-content/uploads/2021/06/i03_Highwayengineer-3.png",
+                    "image": "https://res.cloudinary.com/dnjgopun8/image/upload/v1724403423/i03_project-manager_ifsxlw.jpg",
                     "name": "Logistics and Warehouse Manager"
                 }
             ],
@@ -1155,15 +1228,15 @@
                     "id": 1,
                     "title": "Computer Lab",
                     "subTitle": "",
-                    "image": "https://monarkuni.ac.in/wp-content/uploads/2021/06/SMET-206.jpg",
+                    "image": "https://res.cloudinary.com/dnjgopun8/image/upload/v1724403706/SMET-206_h9cws6.jpg",
                     "pera": "Computer Centre with Internet facilities has been set up and managed by experienced computer professionals. We have a very well equipped computer Laboratorywith 50 computers for the information &   Technology subject with internet facility."
                 },
                 {
                     "id": 2,
                     "title": "Library & Reading Room",
                     "subTitle": "",
-                    "image": "https://monarkuni.ac.in/wp-content/uploads/2021/06/i08_SMET-227.jpg",
-                    "pera": "The college has well equipped library and reading room. It has more than 2,248 references and recommended books for the MBA Course. Besides, there are periodicals, journals, weekly and monthly magazines, newspapers, considering the need to keep students abreast with latest development in the field of education, science and technology."
+                    "image": "https://res.cloudinary.com/dnjgopun8/image/upload/v1724407014/i08_SMET-227_xbepwh.jpg",
+                    "pera": "The college has well equipped library and reading room. It has more than 2,248 references and recommended books for the BBA Course. Besides, there are periodicals, journals, weekly and monthly magazines, newspapers, considering the need to keep students abreast with latest development in the field of education, science and technology."
                 }
             ]
         },
@@ -1172,42 +1245,42 @@
             "title": "MBA in Human Resource Management",
             "icon": "flaticon-bars",
             "titlePera": "This course is a combination of general management techniques and expert training in Personnel Management/Human Resources. Students will learn how to manage the employees of an organization, and acquire talent on their behalf. This specialization will get them a good job in middle management. As industries grow, there will be a need for more HR personnel to manage the growth and the need for employees. HR are some of the most well-paid professionals in a company and they play an important role in the functioning.",
-            "titleImage": "https://monarkuni.ac.in/wp-content/uploads/2021/06/SMET-125.jpg",
+            "titleImage": "https://res.cloudinary.com/dnjgopun8/image/upload/v1724407015/SMET-125_oqdhlz.jpg",
             "programOutcomesPera": "The HR department is one of the most highly looked upon departments as it plays a vital role in creating the corporate policies of a company/Course provides students the fundamental training about handling and managing human resources. They study organizational behavior, Business Environment, Communication Skills, Management Accounting, Retail Management, etc./High possibility of establishing a successful career in HR departments of well-known companies/The course content is always updated – this keeps the students well-informed about the current market trends.",
             "programOutcomesImages": [
                 {
                     "id": 1,
-                    "image": "https://monarkuni.ac.in/wp-content/uploads/2021/06/i01_BANKING-SECTOR.jpg",
+                    "image": "https://res.cloudinary.com/dnjgopun8/image/upload/v1724408202/i01_BANKING-SECTOR_j2obx1.jpg ",
                     "name": "HR Manager"
                 },
                 {
                     "id": 2,
-                    "image": "https://monarkuni.ac.in/wp-content/uploads/2021/06/i09_TECHNICAL-SUPPORT.jpg",
+                    "image": "https://res.cloudinary.com/dnjgopun8/image/upload/v1724403704/i09_TECHNICAL-SUPPORT_ympyi5.jpg",
                     "name": "HR Consultant"
                 },
                 {
                     "id": 3,
-                    "image": "https://monarkuni.ac.in/wp-content/uploads/2021/07/i06_Probation-officers.jpg",
+                    "image": "https://res.cloudinary.com/dnjgopun8/image/upload/v1724407015/i06_Probation-officers_dumazc.jpg",
                     "name": "HR Assistant"
                 },
                 {
                     "id": 4,
-                    "image": "https://monarkuni.ac.in/wp-content/uploads/2021/06/i08_RISK-MANAGEMENT.jpg",
+                    "image": "https://res.cloudinary.com/dnjgopun8/image/upload/v1724408201/i08_RISK-MANAGEMENT_a3lcwm.jpg",
                     "name": "PR Manager"
                 },
                 {
                     "id": 5,
-                    "image": "https://monarkuni.ac.in/wp-content/uploads/2021/06/i02_budget-officer.jpg",
+                    "image": "https://res.cloudinary.com/dnjgopun8/image/upload/v1724413698/i02_budget-officer_d1sqjq.jpg ",
                     "name": "Admin Executive"
                 },
                 {
                     "id": 6,
-                    "image": "https://monarkuni.ac.in/wp-content/uploads/2021/06/i04_DIGITAL-MARKETING.jpg",
+                    "image": "https://res.cloudinary.com/dnjgopun8/image/upload/v1724407015/i04_DIGITAL-MARKETING_efnbxn.jpg",
                     "name": "Recruitment Consultant"
                 },
                 {
                     "id": 7,
-                    "image": "https://monarkuni.ac.in/wp-content/uploads/2021/07/i01_01-Banking-and-Finance-Jobs-in-London.jpg",
+                    "image": "https://res.cloudinary.com/dnjgopun8/image/upload/v1724407870/i01_01-Banking-and-Finance-Jobs-in-London_yqbcyb.jpg",
                     "name": "Technical Recruiter"
                 }
             ],
@@ -1219,15 +1292,15 @@
                     "id": 1,
                     "title": "Computer Lab",
                     "subTitle": "",
-                    "image": "https://monarkuni.ac.in/wp-content/uploads/2021/06/SMET-206.jpg",
+                    "image": "https://res.cloudinary.com/dnjgopun8/image/upload/v1724403706/SMET-206_h9cws6.jpg",
                     "pera": "Computer Centre with Internet facilities has been set up and managed by experienced computer professionals. We have a very well equipped computer Laboratorywith 50 computers for the information &   Technology subject with internet facility."
                 },
                 {
                     "id": 2,
                     "title": "Library & Reading Room",
                     "subTitle": "",
-                    "image": "https://monarkuni.ac.in/wp-content/uploads/2021/06/i08_SMET-227.jpg",
-                    "pera": "The college has well equipped library and reading room. It has more than 2,248 references and recommended books for the MBA Course. Besides, there are periodicals, journals, weekly and monthly magazines, newspapers, considering the need to keep students abreast with latest development in the field of education, science and technology."
+                    "image": "https://res.cloudinary.com/dnjgopun8/image/upload/v1724407014/i08_SMET-227_xbepwh.jpg",
+                    "pera": "The college has well equipped library and reading room. It has more than 2,248 references and recommended books for the BBA Course. Besides, there are periodicals, journals, weekly and monthly magazines, newspapers, considering the need to keep students abreast with latest development in the field of education, science and technology."
                 }
             ]
         }
@@ -1242,32 +1315,32 @@
             "title": "Master of Commerce in Advance Accounting and auditing",
             "icon": "flaticon-bars",
             "titlePera": "Accounting is the process of analyzing, verifying and reporting the results of financial information to an organization, government agency or individual. we know accountancy as the primary and most sought after subject in the department of commerce. Students having qualification in this field have very good knowledge of monetary matters and are generally termed as accountants.  The study of accountancy also includes auditing and financial statements. The shareholders and investors need to know the truth about a company’s financial statement and that is why the job of an accountant matters the most. we know accountancy as the primary and most sought after subject in the department of commerce.",
-            "titleImage": "https://monarkuni.ac.in/wp-content/uploads/2021/06/about-1.jpg",
+            "titleImage": "https://res.cloudinary.com/dnjgopun8/image/upload/v1724410420/about-1_yjpgtg.jpg",
             "programOutcomesPera": "A graduate after completion of his/her course can initially join as a trainee or an accountant. Accountants can also seek employment in various sectors such as in government and private sectors, public accounting firms, markets research, budget planning, corporations and consultancies./To provide in-depth understanding of all core areas specifically Advanced Accounting, International Accounting, Management, Security Market Operations and Business Environment, Research Methodology and Tax planning.",
             "programOutcomesImages": [
                 {
                     "id": 1,
-                    "image": "https://monarkuni.ac.in/wp-content/uploads/2021/06/i02_Content-Writer.jpg",
+                    "image": "https://res.cloudinary.com/dnjgopun8/image/upload/v1724490305/i02_Content-Writer_httdsp.jpg ",
                     "name": "Forensic Accounting"
                 },
                 {
                     "id": 2,
-                    "image": "https://monarkuni.ac.in/wp-content/uploads/2021/07/i02_dddffdeffsffd.jpg",
+                    "image": "https://res.cloudinary.com/dnjgopun8/image/upload/v1724490302/i02_dddffdeffsffd_g0stkz.jpg ",
                     "name": "Certified Internal Auditor"
                 },
                 {
                     "id": 3,
-                    "image": "https://monarkuni.ac.in/wp-content/uploads/2021/06/i05_QUALITY-ASSUARANCE.jpg",
+                    "image": "https://res.cloudinary.com/dnjgopun8/image/upload/v1724490301/i05_QUALITY-ASSUARANCE_u0yc2r.jpg ",
                     "name": "Comptroller/Controller"
                 },
                 {
                     "id": 4,
-                    "image": "http://monarkuni.ac.in/wp-content/uploads/2021/06/i04_DIGITAL-MARKETING.jpg",
+                    "image": "https://res.cloudinary.com/dnjgopun8/image/upload/v1724407015/i04_DIGITAL-MARKETING_efnbxn.jpg",
                     "name": "Accounting Clerk"
                 },
                 {
                     "id": 5,
-                    "image": "https://monarkuni.ac.in/wp-content/uploads/2021/07/i01_01-Banking-and-Finance-Jobs-in-London.jpg",
+                    "image": "https://res.cloudinary.com/dnjgopun8/image/upload/v1724407870/i01_01-Banking-and-Finance-Jobs-in-London_yqbcyb.jpg",
                     "name": "Chief Financial Officer"
                 }
             ],
@@ -1279,15 +1352,15 @@
                     "id": 1,
                     "title": "Computer Lab",
                     "subTitle": "",
-                    "image": "https://monarkuni.ac.in/wp-content/uploads/2021/06/SMET-206.jpg",
-                    "pera": "Computer Centre with Internet facilities has been set up and managed by experienced computer professionals. We have a very well equipped computer Laboratorywith 100 computers for the information &   Technology subject with internet facility."
+                    "image": "https://res.cloudinary.com/dnjgopun8/image/upload/v1724403706/SMET-206_h9cws6.jpg",
+                    "pera": "Computer Centre with Internet facilities has been set up and managed by experienced computer professionals. We have a very well equipped computer Laboratorywith 50 computers for the information &   Technology subject with internet facility."
                 },
                 {
                     "id": 2,
                     "title": "Library & Reading Room",
                     "subTitle": "",
-                    "image": "https://monarkuni.ac.in/wp-content/uploads/2021/06/i08_SMET-227.jpg",
-                    "pera": "The college has well equipped library and reading room. It has more than 3827 references and recommended books for the B.Com. Course. Besides, there are periodicals, journals, weekly and monthly magazines, newspapers, considering the need to keep students abreast with latest development in the field of education, science and technology"
+                    "image": "https://res.cloudinary.com/dnjgopun8/image/upload/v1724407014/i08_SMET-227_xbepwh.jpg",
+                    "pera": "The college has well equipped library and reading room. It has more than 2,248 references and recommended books for the BBA Course. Besides, there are periodicals, journals, weekly and monthly magazines, newspapers, considering the need to keep students abreast with latest development in the field of education, science and technology."
                 }
             ]
         },
@@ -1296,42 +1369,42 @@
             "title": "Master of Commerce in Statistics",
             "icon": "flaticon-bars",
             "titlePera": "M.Com in Statistics is a postgraduate degree program, usually of 2 years, ideal for students looking to pursue a career in banking, finance, investment or accounting. It is a specialization course dealing with the subject area of statistics – the art and science of collecting and analyzing data to draw meaningful inferences. M.Com Statistics deals primarily with data analysis and interpretation and those who do this course will acquire the complete knowledge set of how to analyse data, which models to build, which tests to run, how to interpret it and finally, the practical applications for companies and governments alike.",
-            "titleImage": "https://monarkuni.ac.in/wp-content/uploads/2021/06/about-1.jpg",
+            "titleImage": "https://res.cloudinary.com/dnjgopun8/image/upload/v1724410420/about-1_yjpgtg.jpg",
             "programOutcomesPera": "Anyone pursuing this course will definitely develop the most important skill of analysis and logical reasoning. Other skills like data interpretation, critical reasoning, the ability to recognize patterns in a large set of data, testing appropriateness of parameters etc will automatically come as a part of the course/After completion of this course, a candidate will not only be eligible for a job in the banking and finance sector, but can also pursue professorship or join a consulting firm.",
             "programOutcomesImages": [
                 {
                     "id": 1,
-                    "image": "https://monarkuni.ac.in/wp-content/uploads/2021/06/i02_DATA-SCIENTIST.jpg",
+                    "image": "https://res.cloudinary.com/dnjgopun8/image/upload/v1724403700/i02_DATA-SCIENTIST_rfpf2x.jpg ",
                     "name": "Data Analyst"
                 },
                 {
                     "id": 2,
-                    "image": "http://monarkuni.ac.in/wp-content/uploads/2021/06/i03_BANKING-AND-LOAN.jpg",
+                    "image": "https://res.cloudinary.com/dnjgopun8/image/upload/v1724406634/i03_BANKING-AND-LOAN_vlnqhz.jpg",
                     "name": "Senior Accountant"
                 },
                 {
                     "id": 3,
-                    "image": "http://monarkuni.ac.in/wp-content/uploads/2021/06/i04_DIGITAL-MARKETING.jpg",
+                    "image": "https://res.cloudinary.com/dnjgopun8/image/upload/v1724407015/i04_DIGITAL-MARKETING_efnbxn.jpg",
                     "name": "Bank Manager"
                 },
                 {
                     "id": 4,
-                    "image": "http://monarkuni.ac.in/wp-content/uploads/2021/06/i05_ENTREPRENEUR.jpg",
+                    "image": "https://res.cloudinary.com/dnjgopun8/image/upload/v1724403701/i04_ENTREPRENEUR_ms0yyi.jpg ",
                     "name": "Finance Manager"
                 },
                 {
                     "id": 5,
-                    "image": "http://monarkuni.ac.in/wp-content/uploads/2021/06/i06_MARKETING-MANAGER.jpg",
+                    "image": "https://res.cloudinary.com/dnjgopun8/image/upload/v1724410414/i06_MARKETING-MANAGER_gcihwk.jpg",
                     "name": "Investment Banker"
                 },
                 {
                     "id": 6,
-                    "image": "http://monarkuni.ac.in/wp-content/uploads/2021/06/i07_MARKETING.jpg",
+                    "image": "https://res.cloudinary.com/dnjgopun8/image/upload/v1724407870/i07_MARKETING_vdeifu.jpg",
                     "name": "Business Analyst"
                 },
                 {
                     "id": 7,
-                    "image": "https://monarkuni.ac.in/wp-content/uploads/2021/06/i08_RISK-MANAGEMENT.jpg",
+                    "image": "https://res.cloudinary.com/dnjgopun8/image/upload/v1724408201/i08_RISK-MANAGEMENT_a3lcwm.jpg",
                     "name": "Risk Analyst"
                 }
             ],
@@ -1343,15 +1416,15 @@
                     "id": 1,
                     "title": "Computer Lab",
                     "subTitle": "",
-                    "image": "https://monarkuni.ac.in/wp-content/uploads/2021/06/SMET-206.jpg",
-                    "pera": "Computer Centre with Internet facilities has been set up and managed by experienced computer professionals. We have a very well equipped computer Laboratorywith 100 computers for the information &   Technology subject with internet facility."
+                    "image": "https://res.cloudinary.com/dnjgopun8/image/upload/v1724403706/SMET-206_h9cws6.jpg",
+                    "pera": "Computer Centre with Internet facilities has been set up and managed by experienced computer professionals. We have a very well equipped computer Laboratorywith 50 computers for the information &   Technology subject with internet facility."
                 },
                 {
                     "id": 2,
                     "title": "Library & Reading Room",
                     "subTitle": "",
-                    "image": "https://monarkuni.ac.in/wp-content/uploads/2021/06/i08_SMET-227.jpg",
-                    "pera": "The college has well equipped library and reading room. It has more than 3827 references and recommended books for the B.Com. Course. Besides, there are periodicals, journals, weekly and monthly magazines, newspapers, considering the need to keep students abreast with latest development in the field of education, science and technology."
+                    "image": "https://res.cloudinary.com/dnjgopun8/image/upload/v1724407014/i08_SMET-227_xbepwh.jpg",
+                    "pera": "The college has well equipped library and reading room. It has more than 2,248 references and recommended books for the BBA Course. Besides, there are periodicals, journals, weekly and monthly magazines, newspapers, considering the need to keep students abreast with latest development in the field of education, science and technology."
                 }
             ]
         },
@@ -1360,37 +1433,37 @@
             "title": "Master of Commerce in Management",
             "icon": "flaticon-bars",
             "titlePera": "Master of commerce in management deals with the process of planning, controlling, leading, staffing, directing, and controlling business activities. The program is designed for business enthusiasts who are interested in developing and managing the business.  It deals with broad business education ideas that focus on the fundamentals of business management and leadership skills.",
-            "titleImage": "https://monarkuni.ac.in/wp-content/uploads/2021/06/about-1.jpg",
+            "titleImage": "https://res.cloudinary.com/dnjgopun8/image/upload/v1724410420/about-1_yjpgtg.jpg",
             "programOutcomesPera": "The course also provides the necessary industrial experience through project work and practical subjects./Candidates get to enhance their communication and analytical skills, performance by developing leadership skills and prerequisite knowledge to handle the business aspects./It helps students to understand the basic structure of business organizations which helps them to manage the organization effectively.",
             "programOutcomesImages": [
                 {
                     "id": 1,
-                    "image": "https://monarkuni.ac.in/wp-content/uploads/2021/06/i02_DATA-SCIENTIST.jpg",
+                    "image": "https://res.cloudinary.com/dnjgopun8/image/upload/v1724403700/i02_DATA-SCIENTIST_rfpf2x.jpg",
                     "name": "Business Analyst"
                 },
                 {
                     "id": 2,
-                    "image": "http://monarkuni.ac.in/wp-content/uploads/2021/06/i03_BANKING-AND-LOAN.jpg",
+                    "image": "https://res.cloudinary.com/dnjgopun8/image/upload/v1724406634/i03_BANKING-AND-LOAN_vlnqhz.jpg",
                     "name": "Finance Manager"
                 },
                 {
                     "id": 3,
-                    "image": "http://monarkuni.ac.in/wp-content/uploads/2021/06/i04_DIGITAL-MARKETING.jpg",
+                    "image": "https://res.cloudinary.com/dnjgopun8/image/upload/v1724407015/i04_DIGITAL-MARKETING_efnbxn.jpg",
                     "name": "Business Manager"
                 },
                 {
                     "id": 4,
-                    "image": "http://monarkuni.ac.in/wp-content/uploads/2021/06/i05_ENTREPRENEUR.jpg",
+                    "image": "https://res.cloudinary.com/dnjgopun8/image/upload/v1724403701/i04_ENTREPRENEUR_ms0yyi.jpg",
                     "name": "Accountant"
                 },
                 {
                     "id": 5,
-                    "image": "http://monarkuni.ac.in/wp-content/uploads/2021/06/i06_MARKETING-MANAGER.jpg",
+                    "image": "https://res.cloudinary.com/dnjgopun8/image/upload/v1724410414/i06_MARKETING-MANAGER_gcihwk.jpg",
                     "name": "Finance Consultant"
                 },
                 {
                     "id": 6,
-                    "image": "https://monarkuni.ac.in/wp-content/uploads/2021/06/i08_RISK-MANAGEMENT.jpg",
+                    "image": "https://res.cloudinary.com/dnjgopun8/image/upload/v1724408201/i08_RISK-MANAGEMENT_a3lcwm.jpg",
                     "name": "Business Consultant"
                 }
             ],
@@ -1402,15 +1475,15 @@
                     "id": 1,
                     "title": "Computer Lab",
                     "subTitle": "",
-                    "image": "https://monarkuni.ac.in/wp-content/uploads/2021/06/SMET-206.jpg",
-                    "pera": "Computer Centre with Internet facilities has been set up and managed by experienced computer professionals. We have a very well equipped computer Laboratorywith 100 computers for the information &   Technology subject with internet facility."
+                    "image": "https://res.cloudinary.com/dnjgopun8/image/upload/v1724403706/SMET-206_h9cws6.jpg",
+                    "pera": "Computer Centre with Internet facilities has been set up and managed by experienced computer professionals. We have a very well equipped computer Laboratorywith 50 computers for the information &   Technology subject with internet facility."
                 },
                 {
                     "id": 2,
                     "title": "Library & Reading Room",
                     "subTitle": "",
-                    "image": "https://monarkuni.ac.in/wp-content/uploads/2021/06/i08_SMET-227.jpg",
-                    "pera": "The college has well equipped library and reading room. It has more than 3827 references and recommended books for the B.Com. Course. Besides, there are periodicals, journals, weekly and monthly magazines, newspapers, considering the need to keep students abreast with latest development in the field of education, science and technology."
+                    "image": "https://res.cloudinary.com/dnjgopun8/image/upload/v1724407014/i08_SMET-227_xbepwh.jpg",
+                    "pera": "The college has well equipped library and reading room. It has more than 2,248 references and recommended books for the BBA Course. Besides, there are periodicals, journals, weekly and monthly magazines, newspapers, considering the need to keep students abreast with latest development in the field of education, science and technology."
                 }
             ]
         }
@@ -1498,57 +1571,57 @@
             "title": "Master of Computer Application",
             "icon": "flaticon-bars",
             "titlePera": "Postgraduate program in computer applications which seeks to impart within the students the most vital computer skills required to shape the course of the world with innovation and latest technology. the scope of technology has redefined the real life subsistence, thus making computer skills the most vital skillset of today’s era. masters in computer application program provides students with an in-depth specialisation into the scope of computer applications. The curriculum provides students with an exposure to the software aspects of computing which include Data Science, Artificial Intelligence, Internet of things, Cloud Computing, Security and Networking. The faculty is equipped with state of the art research facilities and laboratories which allow students to innovate and research solutions for the betterment of the society.",
-            "titleImage": "https://monarkuni.ac.in/wp-content/uploads/2021/06/ComputerScienceImage-1024x682.jpg",
+            "titleImage": "https://res.cloudinary.com/dnjgopun8/image/upload/v1724410755/ComputerScienceImage_qzirqw.jpg ",
             "programOutcomesPera": "Ability to analyze, design and implement effective software, computing systems with the latest available technologies by applying the basic knowledge of computing science, mathematics and software engineering./Students will have the ability to test, deploy and analyze the quality of component based systems and to integrate them with the aim to develop a quality software system./Ability to exhibit knowledge of diverse software engineering practices and project management and can work on interdisciplinary projects as a team leader/team member in developing software of interdisciplinary nature.",
             "programOutcomesImages": [
                 {
                     "id": 1,
-                    "image": "http://monarkuni.ac.in/wp-content/uploads/2021/06/i01_CLUSTER-ANALYSIS.jpg",
+                    "image": "https://res.cloudinary.com/dnjgopun8/image/upload/v1724403700/i01_CLUSTER-ANALYSIS_jyeqvx.jpg ",
                     "name": "CLUSTER ANALYSIS"
                 },
                 {
                     "id": 2,
-                    "image": "http://monarkuni.ac.in/wp-content/uploads/2021/06/i02_DATA-SCIENTIST.jpg",
+                    "image": "https://res.cloudinary.com/dnjgopun8/image/upload/v1724403700/i02_DATA-SCIENTIST_rfpf2x.jpg ",
                     "name": "DATA SCIENTIST"
                 },
                 {
                     "id": 3,
-                    "image": "http://monarkuni.ac.in/wp-content/uploads/2021/06/i03_DATABASE-MANAGER.jpg",
+                    "image": "https://res.cloudinary.com/dnjgopun8/image/upload/v1724403701/i03_DATABASE-MANAGER_h2loek.jpg ",
                     "name": "DATABASE MANAGER"
                 },
                 {
                     "id": 4,
-                    "image": "http://monarkuni.ac.in/wp-content/uploads/2021/06/i04_ENTREPRENEUR.jpg",
+                    "image": "https://res.cloudinary.com/dnjgopun8/image/upload/v1724403701/i04_ENTREPRENEUR_ms0yyi.jpg ",
                     "name": "ENTREPRENEUR"
                 },
                 {
                     "id": 5,
-                    "image": "http://monarkuni.ac.in/wp-content/uploads/2021/06/i05_QUALITY-ASSUARANCE.jpg",
+                    "image": "https://res.cloudinary.com/dnjgopun8/image/upload/v1724403702/i05_QUALITY-ASSUARANCE_a2lnjw.jpg  ",
                     "name": "QUALITY ASSUARANCE"
                 },
                 {
                     "id": 6,
-                    "image": "http://monarkuni.ac.in/wp-content/uploads/2021/06/i06_SOFTWARE-ENGINEER.jpg",
+                    "image": "https://res.cloudinary.com/dnjgopun8/image/upload/v1724403704/i06_SOFTWARE-ENGINEER_j2dp1q.jpg",
                     "name": "SOFTWARE ENGINEER"
                 },
                 {
                     "id": 7,
-                    "image": "http://monarkuni.ac.in/wp-content/uploads/2021/06/i05_testing.jpg",
+                    "image": "https://res.cloudinary.com/dnjgopun8/image/upload/v1724403703/i05_testing_c9hzu5.jpg ",
                     "name": "SOFTWARE TESTING"
                 },
                 {
                     "id": 8,
-                    "image": "http://monarkuni.ac.in/wp-content/uploads/2021/06/i08_SYSTEM-ANALYST.jpg",
+                    "image": "https://res.cloudinary.com/dnjgopun8/image/upload/v1724403704/i08_SYSTEM-ANALYST_bymgd9.jpg ",
                     "name": "SYSTEM ANALYST"
                 },
                 {
                     "id": 9,
-                    "image": "http://monarkuni.ac.in/wp-content/uploads/2021/06/i09_TECHNICAL-SUPPORT.jpg",
+                    "image": "https://res.cloudinary.com/dnjgopun8/image/upload/v1724403704/i09_TECHNICAL-SUPPORT_ympyi5.jpg  ",
                     "name": "TECHNICAL SUPPORT"
                 },
                 {
                     "id": 10,
-                    "image": "http://monarkuni.ac.in/wp-content/uploads/2021/06/i10_WEB-DEVELOPER.png",
+                    "image": "https://res.cloudinary.com/dnjgopun8/image/upload/v1724403705/i10_WEB-DEVELOPER_ncekvg.png ",
                     "name": "WEB DEVELOPER"
                 }
             ],
@@ -1560,15 +1633,15 @@
                     "id": 1,
                     "title": "Computer Lab",
                     "subTitle": "",
-                    "image": "https://monarkuni.ac.in/wp-content/uploads/2021/06/SMET-206.jpg",
-                    "pera": "Computer Centre with Internet facilities has been set up and managed by experienced computer professionals. We have a very well equipped computer Laboratorywith 100 computers for the information &   Technology subject with internet facility"
+                    "image": "https://res.cloudinary.com/dnjgopun8/image/upload/v1724403706/SMET-206_h9cws6.jpg",
+                    "pera": "Computer Centre with Internet facilities has been set up and managed by experienced computer professionals. We have a very well equipped computer Laboratorywith 50 computers for the information &   Technology subject with internet facility."
                 },
                 {
                     "id": 2,
                     "title": "Library & Reading Room",
                     "subTitle": "",
-                    "image": "https://monarkuni.ac.in/wp-content/uploads/2021/06/i08_SMET-227.jpg",
-                    "pera": "The college has well equipped library and reading room. It has more than 1750 references and recommended books for the BCA. Course. Besides, there are periodicals, journals, weekly and monthly magazines, newspapers, considering the need to keep students abreast with latest development in the field of education, science and technology."
+                    "image": "https://res.cloudinary.com/dnjgopun8/image/upload/v1724407014/i08_SMET-227_xbepwh.jpg",
+                    "pera": "The college has well equipped library and reading room. It has more than 2,248 references and recommended books for the BBA Course. Besides, there are periodicals, journals, weekly and monthly magazines, newspapers, considering the need to keep students abreast with latest development in the field of education, science and technology."
                 }
             ]
         }
@@ -1587,27 +1660,27 @@
             "title": "Bachelor of Education",
             "icon": "flaticon-bars",
             "titlePera": "B.Ed is the bachelor’s degree undertaken to take up teaching as a profession in schools. To pursue this course one needs to have completed his/her graduation. According to the new norms of NCTE 2014, the B.Ed. program will be of two years which includes a total of four semesters. This is a full time regular course. In which the trainee is required to attend the college as per the rules. A Bachelor of Education is an undergraduate professional degree which prepares students for work as a teacher in schools.",
-            "titleImage": "https://monarkuni.ac.in/wp-content/uploads/2021/06/bbva-educacion-1024x576.jpg",
+            "titleImage": "https://res.cloudinary.com/dnjgopun8/image/upload/v1724491303/bbva-educacion_n3ujuw.jpg ",
             "programOutcomesPera": "B.Ed is a professional course and right after completing this course, students can get a job at school level. However, it may be noted those who wish to be become school teachers of senior secondary classes need to have a post-graduation degree before pursuing B.Ed.",
             "programOutcomesImages": [
                 {
                     "id": 1,
-                    "image": "http://monarkuni.ac.in/wp-content/uploads/2021/06/i01_Principal.png",
+                    "image": "https://res.cloudinary.com/dnjgopun8/image/upload/v1724491300/i01_Principal_unvkpg.png ",
                     "name": "Principal"
                 },
                 {
                     "id": 2,
-                    "image": "http://monarkuni.ac.in/wp-content/uploads/2021/06/i02_Professor-1.jpg",
+                    "image": "https://res.cloudinary.com/dnjgopun8/image/upload/v1724491296/i02_Professor-1_j3omnh.jpg ",
                     "name": "Professor"
                 },
                 {
                     "id": 3,
-                    "image": "http://monarkuni.ac.in/wp-content/uploads/2021/06/i03_School-Assistant.jpg",
+                    "image": "https://res.cloudinary.com/dnjgopun8/image/upload/v1724491293/i03_School-Assistant_hf6c4i.jpg ",
                     "name": "School Assistant"
                 },
                 {
                     "id": 4,
-                    "image": "http://monarkuni.ac.in/wp-content/uploads/2021/06/i04_School-Teacher.jpg",
+                    "image": "https://res.cloudinary.com/dnjgopun8/image/upload/v1724491290/i04_School-Teacher_ljdtkj.jpg ",
                     "name": "School Teacher"
                 }
             ],
@@ -1619,15 +1692,15 @@
                     "id": 1,
                     "title": "Computer Lab",
                     "subTitle": "",
-                    "image": "https://monarkuni.ac.in/wp-content/uploads/2021/06/SMET-206.jpg",
+                    "image": "https://res.cloudinary.com/dnjgopun8/image/upload/v1724403706/SMET-206_h9cws6.jpg",
                     "pera": "Computer Centre with Internet facilities has been set up and managed by experienced computer professionals. We have a very well equipped computer Laboratorywith 50 computers for the information &   Technology subject with internet facility."
                 },
                 {
                     "id": 2,
                     "title": "Library & Reading Room",
                     "subTitle": "",
-                    "image": "https://monarkuni.ac.in/wp-content/uploads/2021/06/i08_SMET-227.jpg",
-                    "pera": "The college has well equipped library and reading room. It has more than 3647 references and recommended books for the B.Ed. Course. Besides, there are periodicals, journals, weekly and monthly magazines, newspapers, considering the need to keep students abreast with latest development in the field of education, science and technology."
+                    "image": "https://res.cloudinary.com/dnjgopun8/image/upload/v1724407014/i08_SMET-227_xbepwh.jpg",
+                    "pera": "The college has well equipped library and reading room. It has more than 2,248 references and recommended books for the BBA Course. Besides, there are periodicals, journals, weekly and monthly magazines, newspapers, considering the need to keep students abreast with latest development in the field of education, science and technology."
                 }
             ]
         }
@@ -1646,22 +1719,22 @@
             "title": "Master of Education",
             "icon": "flaticon-bars",
             "titlePera": "Master of Education is a master degree course that deals with the study of new methods of teaching and educational research. The programme focuses on different aspects of education including instruction, curriculum, counselling, leadership, and educational technology. The regulatory body in charge of the Med M.Ed programme is the National Council of Higher Education.",
-            "titleImage": "https://monarkuni.ac.in/wp-content/uploads/2021/06/bbva-educacion-1024x576.jpg",
+            "titleImage": "https://res.cloudinary.com/dnjgopun8/image/upload/v1724491303/bbva-educacion_n3ujuw.jpg",
             "programOutcomesPera": "The syllabus of M.Ed lays emphasis on different pedagogy of learning techniques that help candidates develop the right technical finesse to become an educator. The course curriculum of M.Ed not only includes theory but also a great amount of practical work. As part of the practical experience, candidates are encouraged to prepare dissertations, join internships, pursue academic writing, and attend workshops and seminars.",
             "programOutcomesImages": [
                 {
                     "id": 1,
-                    "image": "http://monarkuni.ac.in/wp-content/uploads/2021/05/387267772bda47cebe2b.jpg",
+                    "image": "https://res.cloudinary.com/dnjgopun8/image/upload/v1724405395/387267772bda47cebe2b_outt21.jpg",
                     "name": "Science Teacher"
                 },
                 {
                     "id": 2,
-                    "image": "http://monarkuni.ac.in/wp-content/uploads/2021/05/GettyImages-940372496.jpg",
+                    "image": "https://res.cloudinary.com/dnjgopun8/image/upload/v1724405395/GettyImages-940372496_hhgfbc.jpg",
                     "name": "LaboratoryTechnician"
                 },
                 {
                     "id": 3,
-                    "image": "http://monarkuni.ac.in/wp-content/uploads/2021/05/0EABDF32-8133-4A8A-A611936E813E202D_source.jpg",
+                    "image": "https://res.cloudinary.com/dnjgopun8/image/upload/v1724491588/0EABDF32-8133-4A8A-A611936E813E202D_source_oy6657.jpg ",
                     "name": "Chemistry Researcher"
                 }
             ],
@@ -1673,15 +1746,15 @@
                     "id": 1,
                     "title": "Computer Lab",
                     "subTitle": "",
-                    "image": "https://monarkuni.ac.in/wp-content/uploads/2021/06/SMET-206.jpg",
+                    "image": "https://res.cloudinary.com/dnjgopun8/image/upload/v1724403706/SMET-206_h9cws6.jpg",
                     "pera": "Computer Centre with Internet facilities has been set up and managed by experienced computer professionals. We have a very well equipped computer Laboratorywith 50 computers for the information &   Technology subject with internet facility."
                 },
                 {
                     "id": 2,
                     "title": "Library & Reading Room",
                     "subTitle": "",
-                    "image": "https://monarkuni.ac.in/wp-content/uploads/2021/06/i08_SMET-227.jpg",
-                    "pera": "The college has well equipped library and reading room. It has more than 3647 references and recommended books for the B.Ed. Course. Besides, there are periodicals, journals, weekly and monthly magazines, newspapers, considering the need to keep students abreast with latest development in the field of education, science and technology."
+                    "image": "https://res.cloudinary.com/dnjgopun8/image/upload/v1724407014/i08_SMET-227_xbepwh.jpg",
+                    "pera": "The college has well equipped library and reading room. It has more than 2,248 references and recommended books for the BBA Course. Besides, there are periodicals, journals, weekly and monthly magazines, newspapers, considering the need to keep students abreast with latest development in the field of education, science and technology."
                 }
             ]
         }
@@ -1769,42 +1842,42 @@
             "title": "Master of Social work ( MSW)",
             "icon": "flaticon-bars",
             "titlePera": "Full form of MSW is Master of Social Work. MSW is a post-graduation course in the field of Social Work which is usually of two years duration. Aspirants can pursue MSW course after pursuing a Bachelor’s degree. Candidates who have pursued a Bachelor of Social Work (BSW) degree are preferred if they opt to pursue a post-graduation course in social work. The career in social work is all about giving and helping others in need. From various NGOs (non-government organisations) across the nation to social development, a master’s in social work will provide a candidate an in-depth knowledge about the work put into the development of humanity and social welfare.",
-            "titleImage": "https://monarkuni.ac.in/wp-content/uploads/2021/07/Child-welfare-social-workers.jpg",
+            "titleImage": "https://res.cloudinary.com/dnjgopun8/image/upload/v1724411406/Child-welfare-social-workers_eeo0fr.jpg",
             "programOutcomesPera": "To inculcate in students how to integrate knowledge of social work profession and current social welfare structures , Policies, Issues , and develop ability to analyze it impact upon client system, Human Service agencies and Communities./To prepare students for ethical decision-makingguided by the values, principles & standards of the social work profession, particularly the values of self-determination, empowerment, & regard for diversity./To Apply critical thinking skillsin problem solving with social work values and ethics, human diversity issues, the dynamics of discrimination and oppression, social and economic justice, and interactions among systems./Understands and responds to problems of individuals, families and groups.  Able to develop working relationship with the agency, client system, staff, colleagues and others in the field. ",
             "programOutcomesImages": [
                 {
                     "id": 1,
-                    "image": "https://monarkuni.ac.in/wp-content/uploads/2021/07/i02_Child-welfare-social-workers.jpg",
+                    "image": "https://res.cloudinary.com/dnjgopun8/image/upload/v1724411406/Child-welfare-social-workers_eeo0fr.jpg",
                     "name": "Social Worker"
                 },
                 {
                     "id": 2,
-                    "image": "https://monarkuni.ac.in/wp-content/uploads/2021/07/i05_photo-1542626991-cbc4e32524cc.jpg",
+                    "image": "https://res.cloudinary.com/dnjgopun8/image/upload/v1724411403/i05_photo-1542626991-cbc4e32524cc_d4alfp.jpg ",
                     "name": "Project Coordinator"
                 },
                 {
                     "id": 3,
-                    "image": "https://monarkuni.ac.in/wp-content/uploads/2021/06/i02_professor.jpg",
+                    "image": "https://res.cloudinary.com/dnjgopun8/image/upload/v1724403422/i02_professor_zb4gy6.jpg ",
                     "name": "Professor"
                 },
                 {
                     "id": 4,
-                    "image": "https://monarkuni.ac.in/wp-content/uploads/2021/07/i06_Probation-officers.jpg",
+                    "image": "https://res.cloudinary.com/dnjgopun8/image/upload/v1724411400/i06_Probation-officers_lk1qbn.jpg",
                     "name": "Welfare Officers in Industry"
                 },
                 {
                     "id": 5,
-                    "image": "https://monarkuni.ac.in/wp-content/uploads/2021/07/i04_iStock-1185470203-1024x683-1.jpg",
+                    "image": "https://res.cloudinary.com/dnjgopun8/image/upload/v1724411398/i04_iStock-1185470203-1024x683-1_c8xluj.jpg ",
                     "name": "Counsellor/ Teacher"
                 },
                 {
                     "id": 6,
-                    "image": "https://monarkuni.ac.in/wp-content/uploads/2021/06/i02_enviornment-education.jpg",
+                    "image": "https://res.cloudinary.com/dnjgopun8/image/upload/v1724485826/i02_enviornment-education_hghtxp.jpg",
                     "name": "Social Welfare Officers"
                 },
                 {
                     "id": 7,
-                    "image": "https://monarkuni.ac.in/wp-content/uploads/2021/06/i09_TECHNICAL-SUPPORT.jpg",
+                    "image": "https://res.cloudinary.com/dnjgopun8/image/upload/v1724403704/i09_TECHNICAL-SUPPORT_ympyi5.jpg",
                     "name": "Project Officers in Govt. & Voluntary Organisations"
                 }
             ],
@@ -1843,7 +1916,7 @@
             "title": "Diploma in Medical Laboratory Technology (DMLT)",
             "icon": "flaticon-bars",
             "titlePera": "Diploma in Medical Laboratory Technology (DMLT) is a one – year programme that includes eight month Theory, Practical and four month Internship. The course lays a foundation into the aspects of the technologies that are integrated into the healthcare system, which aims in improving the quality of the healthcare system. Diploma in Medical Laboratory Technology (DMLT) concentrates on imparting a thorough knowledge of the diagnosis treatment and prevention of diseases through the use of clinical laboratory Equipment.",
-            "titleImage": "https://monarkuni.ac.in/wp-content/uploads/2021/06/SMET-69.jpg",
+            "titleImage": "https://res.cloudinary.com/dnjgopun8/image/upload/v1724405972/SMET-69_q0on0p.jpg",
             "programOutcomesPera": "After the completion of these course students will be able to perform medical tests with the help of medical instruments and the treatment of diseases, this program also equips candidates with the knowledge and skills required to handle the advanced Laboratoryequipment and perform accurate medical laboratory tests.",
             "programOutcomesImages": [
                 
@@ -1856,14 +1929,14 @@
                     "id": 1,
                     "title": "Laboratory1",
                     "subTitle": "",
-                    "image": "https://monarkuni.ac.in/wp-content/uploads/2021/06/SMET-54-1.jpg",
+                    "image": "https://res.cloudinary.com/dnjgopun8/image/upload/v1724406850/SMET-54-1_jawmw0.jpg",
                     "pera": ""
                 },
                 {
                     "id": 2,
                     "title": "Laboratory2",
                     "subTitle": "",
-                    "image": "https://monarkuni.ac.in/wp-content/uploads/2021/06/SMET-57.jpg",
+                    "image": "https://res.cloudinary.com/dnjgopun8/image/upload/v1724406851/SMET-57_linxgk.jpg",
                     "pera": ""
                 }
             ]

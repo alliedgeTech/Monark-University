@@ -24,7 +24,7 @@ export default function ServiceDetailsArea() {
             <div className={styles.chooseThumbBox} data-aos='fade-right'>
                 <div className={`${styles.chooseThumb} phd-img`}>
                   <img
-                    src="https://monarkuni.ac.in/wp-content/uploads/2022/05/infra1-800x725.jpg"
+                    src="https://res.cloudinary.com/dnjgopun8/image/upload/v1724492135/infra1-800x725_j4wsvl.jpg "
                     className="img-fluid  "
                     alt=""
                   />
