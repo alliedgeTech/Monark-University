@@ -76,7 +76,7 @@ const index = () => {
                   <div className="high-img-box p-relative" data-aos='zoom-in'>
                     <img
                       className="img-fluid"
-                      src="https://images.shiksha.com/mediadata/images/1626701580phphurJ1Q.jpeg"
+                      src="https://res.cloudinary.com/dnjgopun8/image/upload/v1724824278/techno_campus_j4a8t4.jpg"
                       alt=""
                     />
                     <small className="high-button">1. Highlight</small>
@@ -84,7 +84,7 @@ const index = () => {
                 </div>
                 <div className="col-lg-7 mt-lg-0 mt-4 d-flex align-items-center">
                   <div className="high-text" data-aos='fade-up'>
-                    <h3 className="oswald">Ahmedabad’s First Techno Campus
+                    <h3 className="oswald">Ahmedabad's First Techno Campus
                     </h3>
                     <p className="mt-20">
                       Step into the future at our cutting-edge techno campus, where innovation meets education. Our state-of-the-art facilities and forward-thinking curriculum are designed to equip students with the skills and knowledge to thrive in the tech-driven world.
@@ -99,7 +99,7 @@ const index = () => {
                   <div className="high-img-box p-relative" data-aos='zoom-in'>
                     <img
                       className="img-fluid"
-                      src="/img/highlight/high2.jpg"
+                      src="https://res.cloudinary.com/dnjgopun8/image/upload/v1724823053/datamanagment_n8nztl.avif"
                       alt=""
                     />
                     <small className="high-button">2. Highlight</small>
@@ -107,7 +107,7 @@ const index = () => {
                 </div>
                 <div className="col-lg-7 mt-lg-0 mt-4 d-flex align-items-center">
                   <div className="high-text" data-aos='fade-up'>
-                    <h3 className="oswald">Ahmedabad’s 1st University Offering BBA with Built-in Aviation Management & Data Analytics
+                    <h3 className="oswald">Ahmedabad's 1st University Offering BBA with Built-in Aviation Management & Data Analytics
                     </h3>
                     <p className="mt-20">
                     Elevate your career prospects with a unique blend of business acumen, aviation expertise, and data analytics, preparing you for leadership roles in dynamic industries.
@@ -122,7 +122,7 @@ const index = () => {
                   <div className="high-img-box p-relative" data-aos='zoom-in'>
                     <img
                       className="img-fluid"
-                      src="https://images.shiksha.com/mediadata/images/1626701580phphurJ1Q.jpeg"
+                      src="https://res.cloudinary.com/dnjgopun8/image/upload/v1724824095/aaurveda_uqp3aj.jpg"
                       alt=""
                     />
                     <small className="high-button">3. Highlight</small>

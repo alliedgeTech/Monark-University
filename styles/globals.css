@@ -810,7 +810,16 @@ backdrop-filter: blur( 4px );
     color: black !important;
 
 }
-
+@media screen and (min-width: 435px) {
+    .faculty-card img{
+        border: 1px solid gray;
+        border-radius: 12px 12px 0 0;
+    }
+    
+}
+.faculty-card p{
+    text-align: center !important;
+}
 .faculty-info {
     padding-top: 5vmin;
     background-color: var(--web-eee);
