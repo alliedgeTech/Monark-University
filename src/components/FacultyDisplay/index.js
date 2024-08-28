@@ -271,8 +271,6 @@ const index = () => {
             </div>
             <div className="col-lg-8">
               <div className="dean-text p-relative">
-                
-                
                 <p>
                 {faculty.deanmsg}
                 </p>
