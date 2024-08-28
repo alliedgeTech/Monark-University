@@ -257,13 +257,15 @@ const index = () => {
                   <h4 className="poppins">dean message</h4>
                 </div>
           <div className="col-lg-4 mt-4 d-flex justify-content-center">
-              <div className="dean-img text-center">
+              <div className="dean-img ">
                 <img
                   className="img-fluid mb-4"
                   src={faculty.deanimage}
                   alt=""
                 />
-              <strong>{faculty.deanname}</strong>
+                <p className="text-center">
+                <strong>{faculty.deanname}</strong>
+                </p>
               </div>
 
             </div>
