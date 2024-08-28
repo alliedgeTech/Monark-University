@@ -138,7 +138,7 @@ const Infrastructuredisplay = () => {
             {librarydata && (
               <div className="row">
                 {librarydata.map((library, num) => (
-                  <div data-aos='zoom-out' key={num} className="col-xl-4  col-lg-4 col-md-6 col-6 mb-10">
+                  <div data-aos='zoom-out' key={num} className="col-xl-4  col-lg-4 col-md-6 col-6 mb-40">
                     <div className="it-funfact-5-item rounded-3 text-center counter-gsap">
                       <div className="it-funfact-5-icon">
                         <span>

@@ -163,7 +163,7 @@ const index = () => {
                       >
                         <img
                           src="/img/pro/tpoimg.jpg"
-                          className="h-100 w-100 shadow mb-0"
+                          className="shadow mb-0"
                           alt="President Image"
                         />
                       </div>
