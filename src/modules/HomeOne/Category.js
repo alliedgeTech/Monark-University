@@ -115,23 +115,25 @@ export default function Category() {
                   nurturing talent, Monark University is where tradition meets
                   modernity, ensuring that students are well-prepared to excel
                   in a dynamic world. Join us, and be part of a
-                  legacy of excellence.
+                  legacy of excellence.
                 </p>
               </div>
-           
-          
           </div>
-          <Link href="/mumirror">
-            <button
-              className="circle-btn d-flex align-items-center justify-content-between"
-              data-aos="zoom-out"
-            >
-              <div className="btn-text">MU Mirror</div>
-              <div className="btn-icon d-flex align-items-center justify-content-center">
-                <i class="fa-solid fa-arrow-right"></i>
-              </div>
-            </button>
-          </Link>
+          <div className="text-end">
+            <Link href="/mumirror">
+              <button
+                className="circle-btn"
+                data-aos="zoom-out"
+              >
+                <div className="d-flex align-items-center justify-content-between">
+                  <div className="btn-text">MU Mirror</div>
+                  <div className="btn-icon d-flex align-items-center justify-content-center">
+                    <i class="fa-solid fa-arrow-right"></i>
+                  </div>
+                </div>
+              </button>
+            </Link>
+          </div>
         </div>
       </div>
     </div>
