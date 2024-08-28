@@ -2963,7 +2963,6 @@ h2 {
 .it-category-title a,
 .it-feature-3-title a {
     text-transform: uppercase !important;
-    /* letter-spacing: 0.1px; */
     color: var(--web-black) !important;
     font-family: Poppins !important;
 }
