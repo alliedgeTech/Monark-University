@@ -2,7 +2,7 @@ import { useRouter } from 'next/router';
 import syllabus from "@/data/syllabus"
 
 import Footer from '@/components/Footer';
-import HeaderTwo from '@/components/Header/HeaderTwo';
+import Header from '@/components/Header';
 import Preloader from '@/components/Preloader';	
 import dynamic from 'next/dynamic'
  
@@ -21,7 +21,7 @@ export default function ServiceDetails() {
 
 	return (
 		<main>
-			<HeaderTwo />
+			<Header />
 
 			<SyllabusDetailsModules item={singleService[0]} />
 

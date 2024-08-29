@@ -183,7 +183,7 @@ export default function Course() {
                     <div className="student-club-image">
                       <img
                         className="img-fluid"
-                        src="/img/studentclub/multy.jpg"
+                        src="https://res.cloudinary.com/dnjgopun8/image/upload/v1724925417/WhatsApp_Image_2024-08-29_at_15.25.42_afbfd1a0_zwq8kr.jpg "
                         alt=""
                       />
                     </div>
@@ -215,7 +215,7 @@ export default function Course() {
                     <div className="student-club-image">
                       <img
                         className="img-fluid"
-                        src="/img/studentclub/go_green.jpg"
+                        src="https://res.cloudinary.com/dnjgopun8/image/upload/v1724925412/WhatsApp_Image_2024-08-29_at_15.25.45_fc10deae_ukfu9n.jpg"
                         alt=""
                       />
                     </div>
@@ -245,7 +245,7 @@ export default function Course() {
                     <div className="student-club-image">
                       <img
                         className="img-fluid"
-                        src="/img/studentclub/spiritual.jpg"
+                        src="https://res.cloudinary.com/dnjgopun8/image/upload/v1724925413/WhatsApp_Image_2024-08-29_at_15.25.43_ab2eb105_txuho5.jpg"
                         alt=""
                       />
                     </div>
@@ -277,7 +277,7 @@ export default function Course() {
                     <div className="student-club-image">
                       <img
                         className="img-fluid"
-                        src="/img/studentclub/devlop.jpg"
+                        src="https://res.cloudinary.com/dnjgopun8/image/upload/v1724925413/WhatsApp_Image_2024-08-29_at_15.25.43_ab2eb105_txuho5.jpg"
                         alt=""
                       />
                     </div>

@@ -1,4 +1,4 @@
-import HeaderTwo from '@/components/Header/HeaderTwo';
+import Header from '@/components/Header';
 import FooterTwo from '@/components/Footer/FooterTwo';
 import Preloader from '@/components/Preloader';	
 import dynamic from 'next/dynamic'
@@ -10,7 +10,7 @@ const OnepageHomeTwoModules = dynamic(() => import('@/modules/OnepageHomeTwo'), 
 export default function OnepageHomeTwo() {
 	return (
 		<main>
-			<HeaderTwo menuFormat="onepage2" />
+			<Header menuFormat="onepage2" />
 
 			<OnepageHomeTwoModules />
 

@@ -1,4 +1,4 @@
-import Image from "next/image";
+import img from "next/image";
 import Link from "next/link";
 import ai from "../../../public/img/choose/AICTE.png";
 import nc from "../../../public/img/choose/NCTE.png";
@@ -102,427 +102,446 @@ export default function About() {
   };
   return (
     <div id="historicalbackground">
-      
       <div>
         <div className="container">
-          
-        <div id="recognitionandapproval">
-                    <div
-                      className="it-funfact-5-area it-funfact-5-bg p-relative fix pt-35 pb-30"
-                      data-background="/img/funfact/bg-2.png"
-                      layout="fill"
-                      objectFit="cover"
-                    >
-                      <div className="one mb-25">
-                        <h4 className="it-section-title-5">
-                          Approvals & Recognitions
-                        </h4>
-                      </div>
+          <div id="recognitionandapproval">
+            <div
+              className="it-funfact-5-area it-funfact-5-bg p-relative fix pt-35 pb-30"
+              data-background="/img/funfact/bg-2.png"
+              layout="fill"
+              objectFit="cover"
+            >
+              <div className="one mb-25">
+                <h4 className="it-section-title-5">Approvals & Recognitions</h4>
+              </div>
 
-                      <div className="container">
-                        <div className="row">
-                          <div className="col-xl-3 mt-lg-0 mt-4 col-lg-3">
-                            <div className="it-feature-item text-center">
-                              <div className="it-feature-item-content z-index">
-                                <div className="it-feature-icon">
-                                  <Image src={ai} className="img-fluid" />
-                                </div>
-                                <div className="it-feature-text pt-30">
-                                  <h4 className="it-feature-title">AICTE</h4>
-                                </div>
-                                <div className="it-feature-button">
-                                  <Link
-                                  target="_blank"
-
-                                    href="https://www.aicte-india.org/"
-                                    className="it-btn-border"
-                                    style={{ display: "inline-block" }}
-                                  >
-                                    <span
-                                      style={{
-                                        display: "inline-flex",
-                                        alignItems: "center",
-                                      }}
-                                    >
-                                      Learn More
-                                      <svg
-                                        width="17"
-                                        height="14"
-                                        viewBox="0 0 17 14"
-                                        fill="none"
-                                        xmlns="http://www.w3.org/2000/svg"
-                                        style={{ marginLeft: "8px" }}
-                                      >
-                                        <path
-                                          d="M11 1.24023L16 7.24023L11 13.2402"
-                                          stroke="currentcolor"
-                                          strokeWidth="1.5"
-                                          strokeMiterlimit="10"
-                                          strokeLinecap="round"
-                                          strokeLinejoin="round"
-                                        />
-                                        <path
-                                          d="M1 7.24023H16"
-                                          stroke="currentcolor"
-                                          strokeWidth="1.5"
-                                          strokeMiterlimit="10"
-                                          strokeLinecap="round"
-                                          strokeLinejoin="round"
-                                        />
-                                      </svg>
-                                    </span>
-                                  </Link>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-
-                          <div className="col-xl-3 mt-lg-0 mt-4 col-lg-3">
-                            <div className="it-feature-item text-center">
-                              <div className="it-feature-item-content z-index">
-                                <div className="it-feature-icon">
-                                  <Image src={nc} className="img-fluid" />
-                                </div>
-                                <div className="it-feature-text pt-30">
-                                  <h4 className="it-feature-title">NCTE</h4>
-                                </div>
-                                <div className="it-feature-button">
-                                  <Link
-                                  target="_blank"
-                                    href="https://ncte.gov.in/website/index.aspx"
-                                    className="it-btn-border"
-                                  >
-                                    <span>
-                                      Learn More
-                                      <svg
-                                        width="17"
-                                        height="14"
-                                        viewBox="0 0 17 14"
-                                        fill="none"
-                                        xmlns="http://www.w3.org/2000/svg"
-                                      >
-                                        <path
-                                          d="M11 1.24023L16 7.24023L11 13.2402"
-                                          stroke="currentcolor"
-                                          strokeWidth="1.5"
-                                          strokeMiterlimit="10"
-                                          strokeLinecap="round"
-                                          strokeLinejoin="round"
-                                        />
-                                        <path
-                                          d="M1 7.24023H16"
-                                          stroke="currentcolor"
-                                          strokeWidth="1.5"
-                                          strokeMiterlimit="10"
-                                          strokeLinecap="round"
-                                          strokeLinejoin="round"
-                                        />
-                                      </svg>
-                                    </span>
-                                  </Link>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                          <div className="col-xl-3 mt-lg-0 mt-4 col-lg-3">
-                            <div className="it-feature-item text-center">
-                              <div className="it-feature-item-content z-index">
-                                <div className="it-feature-icon">
-                                  <Image src={gn} className="img-fluid" />
-                                </div>
-                                <div className="it-feature-text pt-30">
-                                  <h4 className="it-feature-title">GNC</h4>
-                                </div>
-                                <div className="it-feature-button">
-                                  <Link
-                                  target="_blank"
-                                    href="https://www.gujaratnursingcouncil.org/"
-                                    className="it-btn-border"
-                                  >
-                                    <span>
-                                      Learn More
-                                      <svg
-                                        width="17"
-                                        height="14"
-                                        viewBox="0 0 17 14"
-                                        fill="none"
-                                        xmlns="http://www.w3.org/2000/svg"
-                                      >
-                                        <path
-                                          d="M11 1.24023L16 7.24023L11 13.2402"
-                                          stroke="currentcolor"
-                                          strokeWidth="1.5"
-                                          strokeMiterlimit="10"
-                                          strokeLinecap="round"
-                                          strokeLinejoin="round"
-                                        />
-                                        <path
-                                          d="M1 7.24023H16"
-                                          stroke="currentcolor"
-                                          strokeWidth="1.5"
-                                          strokeMiterlimit="10"
-                                          strokeLinecap="round"
-                                          strokeLinejoin="round"
-                                        />
-                                      </svg>
-                                    </span>
-                                  </Link>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                          <div className="col-xl-3 mt-lg-0 mt-4 col-lg-3">
-                            <div className="it-feature-item text-center">
-                              <div className="it-feature-item-content z-index">
-                                <div className="it-feature-icon">
-                                  <Image src={bc} className="img-fluid" />
-                                </div>
-                                <div className="it-feature-text pt-30">
-                                  <h4 className="it-feature-title">BCI</h4>
-                                </div>
-                                <div className="it-feature-button">
-                                  <Link
-                                  target="_blank"
-                                    href="https://www.barcouncilofindia.org/home"
-                                    className="it-btn-border"
-                                  >
-                                    <span>
-                                      Learn More
-                                      <svg
-                                        width="17"
-                                        height="14"
-                                        viewBox="0 0 17 14"
-                                        fill="none"
-                                        xmlns="http://www.w3.org/2000/svg"
-                                      >
-                                        <path
-                                          d="M11 1.24023L16 7.24023L11 13.2402"
-                                          stroke="currentcolor"
-                                          strokeWidth="1.5"
-                                          strokeMiterlimit="10"
-                                          strokeLinecap="round"
-                                          strokeLinejoin="round"
-                                        />
-                                        <path
-                                          d="M1 7.24023H16"
-                                          stroke="currentcolor"
-                                          strokeWidth="1.5"
-                                          strokeMiterlimit="10"
-                                          strokeLinecap="round"
-                                          strokeLinejoin="round"
-                                        />
-                                      </svg>
-                                    </span>
-                                  </Link>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                          <div className="col-xl-3 mt-lg-0 mt-4 col-lg-3">
-                            <div
-                              className="it-feature-item text-center"
-                              style={{ marginTop: "10px" }}
+              <div className="container">
+                <div className="row">
+                  <div className="col-xl-3 mt-lg-0 mt-4 col-lg-3">
+                    <div className="it-feature-item text-center">
+                      <div className="it-feature-item-content z-index">
+                        <div className="it-feature-icon">
+                          <img
+                            src="https://res.cloudinary.com/dnjgopun8/image/upload/v1724926395/WhatsApp_Image_2024-08-29_at_15.41.53_854a2329_l74z8k.jpg"
+                            className="img-fluid"
+                          />
+                        </div>
+                        <div className="it-feature-text pt-30">
+                          <h4 className="it-feature-title">AICTE</h4>
+                        </div>
+                        <div className="it-feature-button">
+                          <Link
+                            target="_blank"
+                            href="https://www.aicte-india.org/"
+                            className="it-btn-border"
+                            style={{ display: "inline-block" }}
+                          >
+                            <span
+                              style={{
+                                display: "inline-flex",
+                                alignItems: "center",
+                              }}
                             >
-                              <div className="it-feature-item-content z-index">
-                                <div className="it-feature-icon">
-                                  <Image src={na} className="img-fluid" />
-                                </div>
-                                <div className="it-feature-text pt-30">
-                                  <h4 className="it-feature-title">NAAC</h4>
-                                </div>
-                                <div className="it-feature-button">
-                                  <Link
-                                  target="_blank"
-                                    href="http://naac.gov.in/index.php/en/"
-                                    className="it-btn-border"
-                                  >
-                                    <span>
-                                      Learn More
-                                      <svg
-                                        width="17"
-                                        height="14"
-                                        viewBox="0 0 17 14"
-                                        fill="none"
-                                        xmlns="http://www.w3.org/2000/svg"
-                                      >
-                                        <path
-                                          d="M11 1.24023L16 7.24023L11 13.2402"
-                                          stroke="currentcolor"
-                                          strokeWidth="1.5"
-                                          strokeMiterlimit="10"
-                                          strokeLinecap="round"
-                                          strokeLinejoin="round"
-                                        />
-                                        <path
-                                          d="M1 7.24023H16"
-                                          stroke="currentcolor"
-                                          strokeWidth="1.5"
-                                          strokeMiterlimit="10"
-                                          strokeLinecap="round"
-                                          strokeLinejoin="round"
-                                        />
-                                      </svg>
-                                    </span>
-                                  </Link>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                          <div className="col-xl-3 mt-lg-0 mt-4 col-lg-3">
-                            <div
-                              className="it-feature-item text-center"
-                              style={{ marginTop: "10px" }}
-                            >
-                              <div className="it-feature-item-content z-index">
-                                <div className="it-feature-icon">
-                                  <Image src={is} className="img-fluid" />
-                                </div>
-                                <div className="it-feature-text pt-30">
-                                  <h4 className="it-feature-title">ISTE</h4>
-                                </div>
-                                <div className="it-feature-button">
-                                  <Link
-                                  target="_blank"
-                                    href="http://www.isteonline.in/"
-                                    className="it-btn-border"
-                                  >
-                                    <span>
-                                      Learn More
-                                      <svg
-                                        width="17"
-                                        height="14"
-                                        viewBox="0 0 17 14"
-                                        fill="none"
-                                        xmlns="http://www.w3.org/2000/svg"
-                                      >
-                                        <path
-                                          d="M11 1.24023L16 7.24023L11 13.2402"
-                                          stroke="currentcolor"
-                                          strokeWidth="1.5"
-                                          strokeMiterlimit="10"
-                                          strokeLinecap="round"
-                                          strokeLinejoin="round"
-                                        />
-                                        <path
-                                          d="M1 7.24023H16"
-                                          stroke="currentcolor"
-                                          strokeWidth="1.5"
-                                          strokeMiterlimit="10"
-                                          strokeLinecap="round"
-                                          strokeLinejoin="round"
-                                        />
-                                      </svg>
-                                    </span>
-                                  </Link>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                          <div className="col-xl-3 mt-lg-0 mt-4 col-lg-3">
-                            <div
-                              className="it-feature-item text-center"
-                              style={{ marginTop: "10px" }}
-                            >
-                              <div className="it-feature-item-content z-index">
-                                <div className="it-feature-icon">
-                                  <Image src={vi} className="img-fluid" />
-                                </div>
-                                <div className="it-feature-text pt-30">
-                                  <h4 className="it-feature-title">VIPNET</h4>
-                                </div>
-                                <div className="it-feature-button">
-                                  <Link
-                                  target="_blank"
-                                    href="https://vigyanprasar.gov.in/vipnet/"
-                                    className="it-btn-border"
-                                  >
-                                    <span>
-                                      Learn More
-                                      <svg
-                                        width="17"
-                                        height="14"
-                                        viewBox="0 0 17 14"
-                                        fill="none"
-                                        xmlns="http://www.w3.org/2000/svg"
-                                      >
-                                        <path
-                                          d="M11 1.24023L16 7.24023L11 13.2402"
-                                          stroke="currentcolor"
-                                          strokeWidth="1.5"
-                                          strokeMiterlimit="10"
-                                          strokeLinecap="round"
-                                          strokeLinejoin="round"
-                                        />
-                                        <path
-                                          d="M1 7.24023H16"
-                                          stroke="currentcolor"
-                                          strokeWidth="1.5"
-                                          strokeMiterlimit="10"
-                                          strokeLinecap="round"
-                                          strokeLinejoin="round"
-                                        />
-                                      </svg>
-                                    </span>
-                                  </Link>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                          <div className="col-xl-3 mt-lg-0 mt-4 col-lg-3">
-                            <div
-                              className="it-feature-item text-center"
-                              style={{ marginTop: "10px" }}
-                            >
-                              <div className="it-feature-item-content z-index">
-                                <div className="it-feature-icon">
-                                  <Image src={ncc} className="img-fluid" />
-                                </div>
-                                <div className="it-feature-text pt-30">
-                                  <h4 className="it-feature-title">NCC</h4>
-                                </div>
-                                <div className="it-feature-button">
-                                  <Link
-                                  target="_blank"
-                                    href="https://indiancc.mygov.in/"
-                                    className="it-btn-border"
-                                  >
-                                    <span>
-                                      Learn More
-                                      <svg
-                                        width="17"
-                                        height="14"
-                                        viewBox="0 0 17 14"
-                                        fill="none"
-                                        xmlns="http://www.w3.org/2000/svg"
-                                      >
-                                        <path
-                                          d="M11 1.24023L16 7.24023L11 13.2402"
-                                          stroke="currentcolor"
-                                          strokeWidth="1.5"
-                                          strokeMiterlimit="10"
-                                          strokeLinecap="round"
-                                          strokeLinejoin="round"
-                                        />
-                                        <path
-                                          d="M1 7.24023H16"
-                                          stroke="currentcolor"
-                                          strokeWidth="1.5"
-                                          strokeMiterlimit="10"
-                                          strokeLinecap="round"
-                                          strokeLinejoin="round"
-                                        />
-                                      </svg>
-                                    </span>
-                                  </Link>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
+                              Learn More
+                              <svg
+                                width="17"
+                                height="14"
+                                viewBox="0 0 17 14"
+                                fill="none"
+                                xmlns="http://www.w3.org/2000/svg"
+                                style={{ marginLeft: "8px" }}
+                              >
+                                <path
+                                  d="M11 1.24023L16 7.24023L11 13.2402"
+                                  stroke="currentcolor"
+                                  strokeWidth="1.5"
+                                  strokeMiterlimit="10"
+                                  strokeLinecap="round"
+                                  strokeLinejoin="round"
+                                />
+                                <path
+                                  d="M1 7.24023H16"
+                                  stroke="currentcolor"
+                                  strokeWidth="1.5"
+                                  strokeMiterlimit="10"
+                                  strokeLinecap="round"
+                                  strokeLinejoin="round"
+                                />
+                              </svg>
+                            </span>
+                          </Link>
                         </div>
                       </div>
                     </div>
-                    {/*Approvals & Recognitions ends*/}
                   </div>
+
+                  <div className="col-xl-3 mt-lg-0 mt-4 col-lg-3">
+                    <div className="it-feature-item text-center">
+                      <div className="it-feature-item-content z-index">
+                        <div className="it-feature-icon">
+                          <img
+                            src="https://res.cloudinary.com/dnjgopun8/image/upload/v1724926398/WhatsApp_Image_2024-08-29_at_15.41.53_864b557b_qzszg5.jpg"
+                            className="img-fluid"
+                          />
+                        </div>
+                        <div className="it-feature-text pt-30">
+                          <h4 className="it-feature-title">NCTE</h4>
+                        </div>
+                        <div className="it-feature-button">
+                          <Link
+                            target="_blank"
+                            href="https://ncte.gov.in/website/index.aspx"
+                            className="it-btn-border"
+                          >
+                            <span>
+                              Learn More
+                              <svg
+                                width="17"
+                                height="14"
+                                viewBox="0 0 17 14"
+                                fill="none"
+                                xmlns="http://www.w3.org/2000/svg"
+                              >
+                                <path
+                                  d="M11 1.24023L16 7.24023L11 13.2402"
+                                  stroke="currentcolor"
+                                  strokeWidth="1.5"
+                                  strokeMiterlimit="10"
+                                  strokeLinecap="round"
+                                  strokeLinejoin="round"
+                                />
+                                <path
+                                  d="M1 7.24023H16"
+                                  stroke="currentcolor"
+                                  strokeWidth="1.5"
+                                  strokeMiterlimit="10"
+                                  strokeLinecap="round"
+                                  strokeLinejoin="round"
+                                />
+                              </svg>
+                            </span>
+                          </Link>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="col-xl-3 mt-lg-0 mt-4 col-lg-3">
+                    <div className="it-feature-item text-center">
+                      <div className="it-feature-item-content z-index">
+                        <div className="it-feature-icon">
+                          <img
+                            src="https://res.cloudinary.com/dnjgopun8/image/upload/v1724926395/WhatsApp_Image_2024-08-29_at_15.41.55_e037c3ae_ndot2h.jpg"
+                            className="img-fluid"
+                          />
+                        </div>
+                        <div className="it-feature-text pt-30">
+                          <h4 className="it-feature-title">GNC</h4>
+                        </div>
+                        <div className="it-feature-button">
+                          <Link
+                            target="_blank"
+                            href="https://www.gujaratnursingcouncil.org/"
+                            className="it-btn-border"
+                          >
+                            <span>
+                              Learn More
+                              <svg
+                                width="17"
+                                height="14"
+                                viewBox="0 0 17 14"
+                                fill="none"
+                                xmlns="http://www.w3.org/2000/svg"
+                              >
+                                <path
+                                  d="M11 1.24023L16 7.24023L11 13.2402"
+                                  stroke="currentcolor"
+                                  strokeWidth="1.5"
+                                  strokeMiterlimit="10"
+                                  strokeLinecap="round"
+                                  strokeLinejoin="round"
+                                />
+                                <path
+                                  d="M1 7.24023H16"
+                                  stroke="currentcolor"
+                                  strokeWidth="1.5"
+                                  strokeMiterlimit="10"
+                                  strokeLinecap="round"
+                                  strokeLinejoin="round"
+                                />
+                              </svg>
+                            </span>
+                          </Link>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="col-xl-3 mt-lg-0 mt-4 col-lg-3">
+                    <div className="it-feature-item text-center">
+                      <div className="it-feature-item-content z-index">
+                        <div className="it-feature-icon">
+                          <img
+                            src="https://res.cloudinary.com/dnjgopun8/image/upload/v1724926401/WhatsApp_Image_2024-08-29_at_15.41.54_92412d75_qx76wf.jpg"
+                            className="img-fluid"
+                          />
+                        </div>
+                        <div className="it-feature-text pt-30">
+                          <h4 className="it-feature-title">BCI</h4>
+                        </div>
+                        <div className="it-feature-button">
+                          <Link
+                            target="_blank"
+                            href="https://www.barcouncilofindia.org/home"
+                            className="it-btn-border"
+                          >
+                            <span>
+                              Learn More
+                              <svg
+                                width="17"
+                                height="14"
+                                viewBox="0 0 17 14"
+                                fill="none"
+                                xmlns="http://www.w3.org/2000/svg"
+                              >
+                                <path
+                                  d="M11 1.24023L16 7.24023L11 13.2402"
+                                  stroke="currentcolor"
+                                  strokeWidth="1.5"
+                                  strokeMiterlimit="10"
+                                  strokeLinecap="round"
+                                  strokeLinejoin="round"
+                                />
+                                <path
+                                  d="M1 7.24023H16"
+                                  stroke="currentcolor"
+                                  strokeWidth="1.5"
+                                  strokeMiterlimit="10"
+                                  strokeLinecap="round"
+                                  strokeLinejoin="round"
+                                />
+                              </svg>
+                            </span>
+                          </Link>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="col-xl-3 mt-lg-0 mt-4 col-lg-3">
+                    <div
+                      className="it-feature-item text-center"
+                      style={{ marginTop: "10px" }}
+                    >
+                      <div className="it-feature-item-content z-index">
+                        <div className="it-feature-icon">
+                          <img
+                            src="https://res.cloudinary.com/dnjgopun8/image/upload/v1724926400/WhatsApp_Image_2024-08-29_at_15.41.54_93abc038_hjjcts.jpg"
+                            className="img-fluid"
+                          />
+                        </div>
+                        <div className="it-feature-text pt-30">
+                          <h4 className="it-feature-title">NAAC</h4>
+                        </div>
+                        <div className="it-feature-button">
+                          <Link
+                            target="_blank"
+                            href="http://naac.gov.in/index.php/en/"
+                            className="it-btn-border"
+                          >
+                            <span>
+                              Learn More
+                              <svg
+                                width="17"
+                                height="14"
+                                viewBox="0 0 17 14"
+                                fill="none"
+                                xmlns="http://www.w3.org/2000/svg"
+                              >
+                                <path
+                                  d="M11 1.24023L16 7.24023L11 13.2402"
+                                  stroke="currentcolor"
+                                  strokeWidth="1.5"
+                                  strokeMiterlimit="10"
+                                  strokeLinecap="round"
+                                  strokeLinejoin="round"
+                                />
+                                <path
+                                  d="M1 7.24023H16"
+                                  stroke="currentcolor"
+                                  strokeWidth="1.5"
+                                  strokeMiterlimit="10"
+                                  strokeLinecap="round"
+                                  strokeLinejoin="round"
+                                />
+                              </svg>
+                            </span>
+                          </Link>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="col-xl-3 mt-lg-0 mt-4 col-lg-3">
+                    <div
+                      className="it-feature-item text-center"
+                      style={{ marginTop: "10px" }}
+                    >
+                      <div className="it-feature-item-content z-index">
+                        <div className="it-feature-icon">
+                          <img
+                            src="https://res.cloudinary.com/dnjgopun8/image/upload/v1724926394/WhatsApp_Image_2024-08-29_at_15.41.54_3e0cc85e_papc1l.jpg"
+                            className="img-fluid"
+                          />
+                        </div>
+                        <div className="it-feature-text pt-30">
+                          <h4 className="it-feature-title">ISTE</h4>
+                        </div>
+                        <div className="it-feature-button">
+                          <Link
+                            target="_blank"
+                            href="http://www.isteonline.in/"
+                            className="it-btn-border"
+                          >
+                            <span>
+                              Learn More
+                              <svg
+                                width="17"
+                                height="14"
+                                viewBox="0 0 17 14"
+                                fill="none"
+                                xmlns="http://www.w3.org/2000/svg"
+                              >
+                                <path
+                                  d="M11 1.24023L16 7.24023L11 13.2402"
+                                  stroke="currentcolor"
+                                  strokeWidth="1.5"
+                                  strokeMiterlimit="10"
+                                  strokeLinecap="round"
+                                  strokeLinejoin="round"
+                                />
+                                <path
+                                  d="M1 7.24023H16"
+                                  stroke="currentcolor"
+                                  strokeWidth="1.5"
+                                  strokeMiterlimit="10"
+                                  strokeLinecap="round"
+                                  strokeLinejoin="round"
+                                />
+                              </svg>
+                            </span>
+                          </Link>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="col-xl-3 mt-lg-0 mt-4 col-lg-3">
+                    <div
+                      className="it-feature-item text-center"
+                      style={{ marginTop: "10px" }}
+                    >
+                      <div className="it-feature-item-content z-index">
+                        <div className="it-feature-icon">
+                          <img
+                            src="https://res.cloudinary.com/dnjgopun8/image/upload/v1724926398/WhatsApp_Image_2024-08-29_at_15.41.53_83599e22_coxgmz.jpg"
+                            className="img-fluid"
+                          />
+                        </div>
+                        <div className="it-feature-text pt-30">
+                          <h4 className="it-feature-title">VIPNET</h4>
+                        </div>
+                        <div className="it-feature-button">
+                          <Link
+                            target="_blank"
+                            href="https://vigyanprasar.gov.in/vipnet/"
+                            className="it-btn-border"
+                          >
+                            <span>
+                              Learn More
+                              <svg
+                                width="17"
+                                height="14"
+                                viewBox="0 0 17 14"
+                                fill="none"
+                                xmlns="http://www.w3.org/2000/svg"
+                              >
+                                <path
+                                  d="M11 1.24023L16 7.24023L11 13.2402"
+                                  stroke="currentcolor"
+                                  strokeWidth="1.5"
+                                  strokeMiterlimit="10"
+                                  strokeLinecap="round"
+                                  strokeLinejoin="round"
+                                />
+                                <path
+                                  d="M1 7.24023H16"
+                                  stroke="currentcolor"
+                                  strokeWidth="1.5"
+                                  strokeMiterlimit="10"
+                                  strokeLinecap="round"
+                                  strokeLinejoin="round"
+                                />
+                              </svg>
+                            </span>
+                          </Link>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="col-xl-3 mt-lg-0 mt-4 col-lg-3">
+                    <div
+                      className="it-feature-item text-center"
+                      style={{ marginTop: "10px" }}
+                    >
+                      <div className="it-feature-item-content z-index">
+                        <div className="it-feature-icon">
+                          <img
+                            src="https://res.cloudinary.com/dnjgopun8/image/upload/v1724926395/WhatsApp_Image_2024-08-29_at_15.41.54_81a8ac36_r0u2il.jpg"
+                            className="img-fluid"
+                          />
+                        </div>
+                        <div className="it-feature-text pt-30">
+                          <h4 className="it-feature-title">NCC</h4>
+                        </div>
+                        <div className="it-feature-button">
+                          <Link
+                            target="_blank"
+                            href="https://indiancc.mygov.in/"
+                            className="it-btn-border"
+                          >
+                            <span>
+                              Learn More
+                              <svg
+                                width="17"
+                                height="14"
+                                viewBox="0 0 17 14"
+                                fill="none"
+                                xmlns="http://www.w3.org/2000/svg"
+                              >
+                                <path
+                                  d="M11 1.24023L16 7.24023L11 13.2402"
+                                  stroke="currentcolor"
+                                  strokeWidth="1.5"
+                                  strokeMiterlimit="10"
+                                  strokeLinecap="round"
+                                  strokeLinejoin="round"
+                                />
+                                <path
+                                  d="M1 7.24023H16"
+                                  stroke="currentcolor"
+                                  strokeWidth="1.5"
+                                  strokeMiterlimit="10"
+                                  strokeLinecap="round"
+                                  strokeLinejoin="round"
+                                />
+                              </svg>
+                            </span>
+                          </Link>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            {/*Approvals & Recognitions ends*/}
+          </div>
         </div>
       </div>
     </div>

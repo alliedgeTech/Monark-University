@@ -40,8 +40,8 @@ export default function Service() {
                   <div className="course-heading-home" data-aos="fade-left">
                     <h1 className="text-white">
                       <span>selection</span> of
-                      <span className="blue"> over 100 +</span>
-                      industry-specific programmes.
+                      <span className="blue"> over 100+</span>
+                       industry-specific programmes.
                     </h1>
                   </div>
                 </div>

@@ -75,7 +75,7 @@ export default function Category() {
               <div className="img-box" data-aos="zoom-in-right">
                 <img
                   className="img-fluid"
-                  src="/img/category/best-1.jpg"
+                  src="https://res.cloudinary.com/dnjgopun8/image/upload/v1724923419/WhatsApp_Image_2024-08-29_at_14.52.19_1fc1fdbc_yrcswa.jpg "
                   alt=""
                 />
               </div>
@@ -84,7 +84,7 @@ export default function Category() {
               <div className="img-box img-box-2" data-aos="zoom-in-left">
                 <img
                   className="img-fluid"
-                  src="/img/category/best-3.jpg"
+                  src="https://res.cloudinary.com/dnjgopun8/image/upload/v1724923419/WhatsApp_Image_2024-08-29_at_14.52.19_5f326a6e_vqgqtr.jpg "
                   alt=""
                 />
               </div>

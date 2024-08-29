@@ -66,175 +66,175 @@ export default function About() {
         <div className="img-box" data-aos="fade-up" data-delay="1">
           <img
             className="img-fluid"
-            src="https://monarkuni.ac.in/wp-content/uploads/2022/06/3.Toyoto.png"
+            src="https://res.cloudinary.com/dnjgopun8/image/upload/v1724924845/practo_logo_fdprb8.jpg "
             alt=""
           />
         </div>
         <div className="img-box" data-aos="fade-up" data-delay="2">
           <img
             className="img-fluid"
-            src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Axis_Bank_logo.svg/2560px-Axis_Bank_logo.svg.png"
+            src="https://res.cloudinary.com/dnjgopun8/image/upload/v1724924846/Microsoft_Azure-Logo.wine_rmvueg.svg "
             alt=""
           />
         </div>
         <div className="img-box" data-aos="fade-up" data-delay="3">
           <img
             className="img-fluid"
-            src="https://www.logo.wine/a/logo/Microsoft_Azure/Microsoft_Azure-Logo.wine.svg"
+            src="https://res.cloudinary.com/dnjgopun8/image/upload/v1724924847/Axis_Bank_logo.svg_uuvreh.png "
             alt=""
           />
         </div>
         <div className="img-box" data-aos="fade-up" data-delay="4">
           <img
             className="img-fluid"
-            src="https://monarkuni.ac.in/wp-content/uploads/2021/06/snlfinanciallogo-300x53.jpg"
+            src="https://res.cloudinary.com/dnjgopun8/image/upload/v1724924847/3.Toyoto_mcndf1.png"
             alt=""
           />
         </div>
         <div className="img-box" data-aos="fade-up" data-delay="5">
           <img
             className="img-fluid"
-            src="https://monarkuni.ac.in/wp-content/uploads/2021/06/smc.jpg"
+            src="https://res.cloudinary.com/dnjgopun8/image/upload/v1724924846/smc_fpfudn.jpg"
             alt=""
           />
         </div>
         <div className="img-box" data-aos="fade-up" data-delay="6">
           <img
             className="img-fluid"
-            src="https://monarkuni.ac.in/wp-content/uploads/2021/06/prakshal-300x81.jpg"
+            src="https://res.cloudinary.com/dnjgopun8/image/upload/v1724924846/snlfinanciallogo-300x53_j0j2ce.jpg "
             alt=""
           />
         </div>
         <div className="img-box" data-aos="fade-up" data-delay="7">
           <img
             className="img-fluid"
-            src="https://monarkuni.ac.in/wp-content/uploads/2021/06/practo_logo.jpg"
+            src="https://res.cloudinary.com/dnjgopun8/image/upload/v1724924845/prakshal-300x81_skol72.jpg "
             alt=""
           />
         </div>
         <div className="img-box" data-aos="fade-up" data-delay="8">
           <img
             className="img-fluid"
-            src="https://monarkuni.ac.in/wp-content/uploads/2021/06/nj-300x83.jpg"
+            src="https://res.cloudinary.com/dnjgopun8/image/upload/v1724924845/nj-300x83_mgs8y0.jpg"
             alt=""
           />
         </div>
         <div className="img-box" data-aos="fade-up" data-delay="9">
           <img
             className="img-fluid"
-            src="https://monarkuni.ac.in/wp-content/uploads/2021/06/microlink-solution-pvt-ltd-11318313387.jpg"
+            src="https://res.cloudinary.com/dnjgopun8/image/upload/v1724924843/microlink-solution-pvt-ltd-11318313387_d1eybj.jpg "
             alt=""
           />
         </div>
         <div className="img-box" data-aos="fade-up" data-delay="10">
           <img
             className="img-fluid"
-            src="https://monarkuni.ac.in/wp-content/uploads/2021/06/mazda1.jpg"
+            src="https://res.cloudinary.com/dnjgopun8/image/upload/v1724924843/mazda1_reqlbq.jpg"
             alt=""
           />
         </div>
         <div className="img-box" data-aos="fade-up" data-delay="11">
           <img
             className="img-fluid"
-            src="https://monarkuni.ac.in/wp-content/uploads/2021/06/fp.jpg"
+            src="https://res.cloudinary.com/dnjgopun8/image/upload/v1724924843/fp_wmktbn.jpg"
             alt=""
           />
         </div>
         <div className="img-box" data-aos="fade-up" data-delay="12">
           <img
             className="img-fluid"
-            src="https://monarkuni.ac.in/wp-content/uploads/2021/06/essae-teraoka-ltd-350x120-1.jpg"
+            src="https://res.cloudinary.com/dnjgopun8/image/upload/v1724924842/essae-teraoka-ltd-350x120-1_h4c67l.jpg"
             alt=""
           />
         </div>
         <div className="img-box" data-aos="fade-up" data-delay="13">
           <img
             className="img-fluid"
-            src="https://monarkuni.ac.in/wp-content/uploads/2021/06/EPOCH.jpg"
+            src="https://res.cloudinary.com/dnjgopun8/image/upload/v1724924842/EPOCH_n5rn39.jpg"
             alt=""
           />
         </div>
         <div className="img-box" data-aos="fade-up" data-delay="14">
           <img
             className="img-fluid"
-            src="https://monarkuni.ac.in/wp-content/uploads/2021/06/ECLINICAL.jpg"
+            src="https://res.cloudinary.com/dnjgopun8/image/upload/v1724924842/ECLINICAL_tqdjtb.jpg"
             alt=""
           />
         </div>
         <div className="img-box" data-aos="fade-up" data-delay="15">
           <img
             className="img-fluid"
-            src="https://monarkuni.ac.in/wp-content/uploads/2021/06/bharti-axa-life-insurance-logo2.jpg"
+            src="https://res.cloudinary.com/dnjgopun8/image/upload/v1724924842/bharti-axa-life-insurance-logo2_mgyhh4.jpg "
             alt=""
           />
         </div>
         <div className="img-box" data-aos="fade-up" data-delay="16">
           <img
             className="img-fluid"
-            src="https://monarkuni.ac.in/wp-content/uploads/2021/06/aricent.jpg"
+            src="https://res.cloudinary.com/dnjgopun8/image/upload/v1724924839/2.-BYJUS_dt1ufz.png"
             alt=""
           />
         </div>
         <div className="img-box" data-aos="fade-up" data-delay="17">
           <img
             className="img-fluid"
-            src="https://monarkuni.ac.in/wp-content/uploads/2021/06/925608981-2813930-1_s.jpg"
+            src="https://res.cloudinary.com/dnjgopun8/image/upload/v1724924839/aricent_ck1law.jpg"
             alt=""
           />
         </div>
         <div className="img-box" data-aos="fade-up" data-delay="18">
           <img
             className="img-fluid"
-            src="https://monarkuni.ac.in/wp-content/uploads/2022/06/2.-BYJUS.png"
+            src="https://res.cloudinary.com/dnjgopun8/image/upload/v1724924838/5.-torrent-300x93_htf0av.png "
             alt=""
           />
         </div>
         <div className="img-box" data-aos="fade-up" data-delay="19">
           <img
             className="img-fluid"
-            src="https://monarkuni.ac.in/wp-content/uploads/2022/06/4.-Maruti-Suzuki.jpg"
+            src="https://res.cloudinary.com/dnjgopun8/image/upload/v1724924838/6.-Zydus-Cadila-300x225_hinnab.jpg "
             alt=""
           />
         </div>
         <div className="img-box" data-aos="fade-up" data-delay="20">
           <img
             className="img-fluid"
-            src="https://monarkuni.ac.in/wp-content/uploads/2022/06/5.-torrent-300x93.png"
+            src="https://res.cloudinary.com/dnjgopun8/image/upload/v1724924839/925608981-2813930-1_s_dg2mei.jpg "
             alt=""
           />
         </div>
         <div className="img-box" data-aos="fade-up" data-delay="21"> 
           <img
             className="img-fluid"
-            src="https://monarkuni.ac.in/wp-content/uploads/2022/06/6.-Zydus-Cadila-300x225.jpg"
+            src="https://res.cloudinary.com/dnjgopun8/image/upload/v1724924838/4.-Maruti-Suzuki_hemknd.jpg "
             alt=""
           />
         </div>
         <div className="img-box" data-aos="fade-up" data-delay="22">
           <img
             className="img-fluid"
-            src="https://monarkuni.ac.in/wp-content/uploads/2022/06/9.-IBM-300x143.jpg"
+            src="https://res.cloudinary.com/dnjgopun8/image/upload/v1724924838/8.-VODAFONE-IMAGE_iywihl.jpg "
             alt=""
           />
         </div>
         <div className="img-box" data-aos="fade-up" data-delay="23">
           <img
             className="img-fluid"
-            src="https://monarkuni.ac.in/wp-content/uploads/2022/06/8.-VODAFONE-IMAGE.jpg"
+            src="https://res.cloudinary.com/dnjgopun8/image/upload/v1724924838/9.-IBM-300x143_kvnhae.jpg "
             alt=""
           />
         </div>
         <div className="img-box" data-aos="fade-up" data-delay="24" >
           <img 
             className="img-fluid"
-            src="https://monarkuni.ac.in/wp-content/uploads/2022/06/11.-Jindal-Steel-Power-300x107.png"
+            src="https://res.cloudinary.com/dnjgopun8/image/upload/v1724924838/11.-Jindal-Steel-Power-300x107_txdcnq.png "
             alt=""
           />
         </div>
         <div className="img-box" data-aos="fade-up" data-delay="25">
           <img
             className="img-fluid"
-            src="https://monarkuni.ac.in/wp-content/uploads/2022/06/18.-ICICI-2-300x188.jpg"
+            src="https://res.cloudinary.com/dnjgopun8/image/upload/v1724924838/18.-ICICI-2-300x188_wxlcdl.jpg "
             alt=""
           />
         </div>

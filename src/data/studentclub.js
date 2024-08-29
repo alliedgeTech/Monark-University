@@ -4,7 +4,7 @@ const studentclubdata = [
     id: 1,
     club: "Smile Please Event Organizing Club",
     clubp: "[ Monark University ]",
-    img: "https://monarkuni.ac.in/wp-content/uploads/2023/01/Smile_Please_EVent_organizing.png",
+    img: "https://res.cloudinary.com/dnjgopun8/image/upload/v1724928164/Smile_Please_EVent_organizing_wrigt2.png ",
     accordion: [
       {
         id: 1,
@@ -42,7 +42,7 @@ const studentclubdata = [
     id: 2,
     club: "Green Club",
     clubp: "[ Faculty of Arts & Commerce ]",
-    img: "https://monarkuni.ac.in/wp-content/uploads/2023/01/go-green.png",
+    img: "https://res.cloudinary.com/dnjgopun8/image/upload/v1724928168/go-green_buados.png",
     accordion: [
       {
         id: 1,
@@ -86,7 +86,7 @@ const studentclubdata = [
     id: 3,
     club: "Language Club",
     clubp: "[ Faculty of Arts ]",
-    img: "https://monarkuni.ac.in/wp-content/uploads/2023/01/Language_Club.png",
+    img: "https://res.cloudinary.com/dnjgopun8/image/upload/v1724928244/Language_Club_ok86ty.png ",
     accordion: [
       {
         id: 1,
@@ -124,7 +124,7 @@ const studentclubdata = [
     id: 4,
     club: "Society of Personality Development",
     clubp: "[ Faculty of Commerce ]",
-    img: "https://monarkuni.ac.in/wp-content/uploads/2023/01/Personality_dev_club.png",
+    img: "https://res.cloudinary.com/dnjgopun8/image/upload/v1724928242/Personality_dev_club_qqxouh.png ",
     accordion: [
       {
         id: 1,
@@ -156,7 +156,7 @@ const studentclubdata = [
     id: 5,
     club: "Sci-Gen Club",
     clubp: "[ Faculty of Science ]",
-    img: "https://monarkuni.ac.in/wp-content/uploads/2023/01/sci-gen-club.png",
+    img: "https://res.cloudinary.com/dnjgopun8/image/upload/v1724928202/sci-gen-club_uusbia.png ",
     accordion: [
       {
         id: 1,
@@ -182,7 +182,7 @@ const studentclubdata = [
     id: 6,
     club: "Avinya– A Club For Enthusiast Minds",
     clubp: "[ Faculty of Management ]",
-    img: "https://monarkuni.ac.in/wp-content/uploads/2023/01/Avinya_Club.png",
+    img: "https://res.cloudinary.com/dnjgopun8/image/upload/v1724928157/Avinya_Club_i3ltzw.png",
     accordion: [
       {
         id: 1,
@@ -208,7 +208,7 @@ const studentclubdata = [
     id: 7,
     club: "Spiritual Club & Health Club",
     clubp: "[ Faculty of Nursing ]",
-    img: "https://monarkuni.ac.in/wp-content/uploads/2023/01/spiritula_club.png",
+    img: "https://res.cloudinary.com/dnjgopun8/image/upload/v1724928349/spiritula_club_prbt9t.png ",
     accordion: [
       {
         id: 1,
@@ -246,7 +246,7 @@ const studentclubdata = [
     id: 8,
     club: "Hands on Help: Physiotherapy Club",
     clubp: "[ Faculty of Physiotherapy ]",
-    img: "https://monarkuni.ac.in/wp-content/uploads/2023/01/helphand.png",
+    img: "https://res.cloudinary.com/dnjgopun8/image/upload/v1724928156/helphand_y8affh.png",
     accordion: [
       {
         id: 1,
@@ -272,7 +272,7 @@ const studentclubdata = [
     id: 9,
     club: "Multi-Activity Club",
     clubp: "[Faculty of Computer Application]",
-    img: "https://monarkuni.ac.in/wp-content/uploads/2023/01/brain1.png",
+    img: "https://res.cloudinary.com/dnjgopun8/image/upload/v1724928143/brain1_stpdxo.png",
     accordion: [
       {
         id: 1,
@@ -304,7 +304,7 @@ const studentclubdata = [
     id: 10,
     club: "Discipline Club",
     clubp: "[ Monark University ]",
-    img: "https://monarkuni.ac.in/wp-content/uploads/2023/06/Work-From-Home.png",
+    img: "https://res.cloudinary.com/dnjgopun8/image/upload/v1724928146/Work-From-Home_d2avzf.png ",
     accordion: [
       {
         id: 1,

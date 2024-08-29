@@ -42,15 +42,15 @@ const infrastructuredata=[
     },
     {
         id:11,
-        img:"https://monarkuni.ac.in/wp-content/uploads/2022/05/ground1-410x260.jpg"
+        img:"https://res.cloudinary.com/dnjgopun8/image/upload/v1724927886/ground1-410x260_gkoptj.jpg "
     },
     {
         id:12,
-        img:"https://monarkuni.ac.in/wp-content/uploads/2022/05/ground2-410x260.jpg"
+        img:"https://res.cloudinary.com/dnjgopun8/image/upload/v1724927886/ground2-410x260_ifgquf.jpg "
     },
     {
         id:13,
-        img:"https://monarkuni.ac.in/wp-content/uploads/2022/05/ground3-410x260.jpg"
+        img:"https://res.cloudinary.com/dnjgopun8/image/upload/v1724927885/ground3-410x260_hmdmyq.jpg "
     },
 
     

@@ -133,7 +133,7 @@ export default function About() {
                         data-aos="fade-right"
                       >
                         <img
-                          src="https://monarkuni.ac.in/wp-content/uploads/2021/06/SMET-175-Copy.jpg"
+                          src="https://res.cloudinary.com/dnjgopun8/image/upload/v1724925785/SMET-175-Copy_wx7kbo.jpg "
                           className="img-fluid"
                           alt="President Image"
                         />
@@ -236,7 +236,7 @@ export default function About() {
                           data-aos="fade-left"
                         >
                           <img
-                            src="https://monarkuni.ac.in/wp-content/uploads/2021/07/SMET-163.jpg"
+                            src="https://res.cloudinary.com/dnjgopun8/image/upload/v1724925852/SMET-163_xcjjsz.jpg"
                             className="img-fluid  "
                             alt="President Image"
                           />
@@ -331,7 +331,7 @@ export default function About() {
                             data-aos="fade-right"
                           >
                             <img
-                              src="https://monarkuni.ac.in/wp-content/uploads/2021/06/SMET-218-Copy.jpg"
+                              src="https://res.cloudinary.com/dnjgopun8/image/upload/v1724925875/SMET-218-Copy_gmvrsy.jpg "
                               className="img-fluid  "
                               alt="President Image"
                             />

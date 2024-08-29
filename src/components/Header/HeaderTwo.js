@@ -45,7 +45,7 @@ export default function Header(props) {
                       <div className="it-header-2-logo">
                         <Link href="/">
                           <img
-                            className="img-fluid"
+                            className="img-fluid "
                             
                             src="/img/logo/MULOGOR.png"
                             alt=""

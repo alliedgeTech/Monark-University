@@ -77,7 +77,7 @@ export default function About() {
                 <div className="it-choose-thumb-box mx-2 text-center text-md-end">
                   <div className="it-choose p-relative in-img" data-aos="zoom-in">
                     <img
-                      src="/img/choose/monarknew.jpg"
+                      src="https://res.cloudinary.com/dnjgopun8/image/upload/v1724925739/WhatsApp_Image_2024-08-29_at_15.31.50_c6e79d94_nbseue.jpg "
                       className="img-fluid "
                       alt=""
                     />
