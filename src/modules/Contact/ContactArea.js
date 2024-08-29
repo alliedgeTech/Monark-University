@@ -152,12 +152,12 @@ export default function ContactArea() {
                   href="https://www.facebook.com/monark.university"
                 >
                   <button className="footer-btn">
-                    <i class="fa-brands fa-facebook"></i>
+                    <i className="fa-brands fa-facebook"></i>
                   </button>
                 </Link>
                 <Link target="_blank" href="https://x.com/monarkuni?mx=2">
                   <button className="footer-btn">
-                    <i class="fa-brands fa-twitter"></i>
+                    <i className="fa-brands fa-twitter"></i>
                   </button>
                 </Link>
                 <Link
@@ -165,7 +165,7 @@ export default function ContactArea() {
                   href="https://www.instagram.com/hgce_vahelal/"
                 >
                   <button className="footer-btn">
-                    <i class="fa-brands fa-instagram"></i>
+                    <i className="fa-brands fa-instagram"></i>
                   </button>
                 </Link>
                 <Link
@@ -173,7 +173,7 @@ export default function ContactArea() {
                   href="https://www.linkedin.com/company/monark-university/"
                 >
                   <button className="footer-btn">
-                    <i class="fa-brands fa-linkedin"></i>
+                    <i className="fa-brands fa-linkedin"></i>
                   </button>
                 </Link>
               </div>

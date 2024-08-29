@@ -92,260 +92,260 @@ export default function About() {
       </div>
       {/* Years and trust start*/}
       <div>
-        <div class="container">
-        {/* <div class="timeline"> 
-  <div class="timeline__event  animated fadeInUp delay-3s timeline__event--type2">
-    <div class="timeline__event__icon ">
-      <i class="lni-cake"></i>
+        <div className="container">
+        {/* <div className="timeline"> 
+  <div className="timeline__event  animated fadeInUp delay-3s timeline__event--type2">
+    <div className="timeline__event__icon ">
+      <i className="lni-cake"></i>
 
     </div>
-    <div class="timeline__event__date">
+    <div className="timeline__event__date">
       2001
     </div>
-    <div class="timeline__event__content ">
-      <div class="timeline__event__title d-flex align-items-center gap-2">
-        <i class="fa-solid fa-hand-point-right"></i>
+    <div className="timeline__event__content ">
+      <div className="timeline__event__title d-flex align-items-center gap-2">
+        <i className="fa-solid fa-hand-point-right"></i>
       <h4 className="mb-0">Shree Monark education trust</h4>
       </div>
     </div>
   </div>
-  <div data-aos="fade-up" class="timeline__event animated fadeInUp delay-2s timeline__event--type2">
-    <div class="timeline__event__icon">
-      <i class="lni-burger"></i>
+  <div data-aos="fade-up" className="timeline__event animated fadeInUp delay-2s timeline__event--type2">
+    <div className="timeline__event__icon">
+      <i className="lni-burger"></i>
 
     </div>
-    <div class="timeline__event__date">
+    <div className="timeline__event__date">
     2005
     </div>
-    <div class="timeline__event__content">
-      <div class="timeline__event__title d-flex align-items-center gap-2">
-        <i class="fa-solid fa-hand-point-right"></i>
+    <div className="timeline__event__content">
+      <div className="timeline__event__title d-flex align-items-center gap-2">
+        <i className="fa-solid fa-hand-point-right"></i>
       <h4>Smt. Maniba  Mahila B.Ed. College</h4>
       </div>
     </div>
   </div>
-  <div data-aos="fade-up" class="timeline__event animated fadeInUp delay-1s timeline__event--type2">
-    <div class="timeline__event__icon">
-      <i class="lni-slim"></i>
+  <div data-aos="fade-up" className="timeline__event animated fadeInUp delay-1s timeline__event--type2">
+    <div className="timeline__event__icon">
+      <i className="lni-slim"></i>
 
     </div>
-    <div class="timeline__event__date">
+    <div className="timeline__event__date">
     2007
     </div>
-    <div class="timeline__event__content">
-      <div class="timeline__event__title d-flex align-items-center gap-2">
-        <i class="fa-solid fa-hand-point-right"></i>
+    <div className="timeline__event__content">
+      <div className="timeline__event__title d-flex align-items-center gap-2">
+        <i className="fa-solid fa-hand-point-right"></i>
       <h4>Hasmukh  Goswami College of Engineering</h4>
       </div>
 
     </div>
   </div>
-  <div data-aos="fade-up" class="timeline__event animated fadeInUp timeline__event--type2">
-    <div class="timeline__event__icon">
-      <i class="lni-cake"></i>
+  <div data-aos="fade-up" className="timeline__event animated fadeInUp timeline__event--type2">
+    <div className="timeline__event__icon">
+      <i className="lni-cake"></i>
 
     </div>
-    <div class="timeline__event__date">
+    <div className="timeline__event__date">
     2007
     </div>
-    <div class="timeline__event__content">
-      <div class="timeline__event__title d-flex align-items-center gap-2">
-        <i class="fa-solid fa-hand-point-right"></i>
+    <div className="timeline__event__content">
+      <div className="timeline__event__title d-flex align-items-center gap-2">
+        <i className="fa-solid fa-hand-point-right"></i>
       <h4>Piyuni  pre-school teacher education</h4>
       </div>
     </div>
   </div>
-  <div data-aos="fade-up" class="timeline__event animated fadeInUp timeline__event--type2">
-    <div class="timeline__event__icon">
-      <i class="lni-cake"></i>
+  <div data-aos="fade-up" className="timeline__event animated fadeInUp timeline__event--type2">
+    <div className="timeline__event__icon">
+      <i className="lni-cake"></i>
 
     </div>
-    <div class="timeline__event__date">
+    <div className="timeline__event__date">
     2007
     </div>
-    <div class="timeline__event__content">
-      <div class="timeline__event__title d-flex align-items-center gap-2">
-        <i class="fa-solid fa-hand-point-right"></i>
+    <div className="timeline__event__content">
+      <div className="timeline__event__title d-flex align-items-center gap-2">
+        <i className="fa-solid fa-hand-point-right"></i>
        <h4>Jeel adhyapan mandir</h4>
       </div>
     </div>
   </div>
-  <div data-aos="fade-up" class="timeline__event animated fadeInUp timeline__event--type2">
-    <div class="timeline__event__icon">
-      <i class="lni-cake"></i>
+  <div data-aos="fade-up" className="timeline__event animated fadeInUp timeline__event--type2">
+    <div className="timeline__event__icon">
+      <i className="lni-cake"></i>
 
     </div>
-    <div class="timeline__event__date">
+    <div className="timeline__event__date">
     2007
     </div>
-    <div class="timeline__event__content">
-      <div class="timeline__event__title d-flex align-items-center gap-2">
-        <i class="fa-solid fa-hand-point-right"></i>
+    <div className="timeline__event__content">
+      <div className="timeline__event__title d-flex align-items-center gap-2">
+        <i className="fa-solid fa-hand-point-right"></i>
        <h4>Satish adhyapan mandir</h4>
       </div>
     </div>
   </div>
-  <div data-aos="fade-up" class="timeline__event animated fadeInUp timeline__event--type2">
-    <div class="timeline__event__icon">
-      <i class="lni-cake"></i>
+  <div data-aos="fade-up" className="timeline__event animated fadeInUp timeline__event--type2">
+    <div className="timeline__event__icon">
+      <i className="lni-cake"></i>
 
     </div>
-    <div class="timeline__event__date">
+    <div className="timeline__event__date">
     2008
     </div>
-    <div class="timeline__event__content">
-      <div class="timeline__event__title d-flex align-items-center gap-2">
-        <i class="fa-solid fa-hand-point-right"></i>
+    <div className="timeline__event__content">
+      <div className="timeline__event__title d-flex align-items-center gap-2">
+        <i className="fa-solid fa-hand-point-right"></i>
       <h4 >Maniba College of education</h4>
       </div>
     </div>
   </div>
-  <div data-aos="fade-up" class="timeline__event animated fadeInUp timeline__event--type2">
-    <div class="timeline__event__icon">
-      <i class="lni-cake"></i>
+  <div data-aos="fade-up" className="timeline__event animated fadeInUp timeline__event--type2">
+    <div className="timeline__event__icon">
+      <i className="lni-cake"></i>
 
     </div>
-    <div class="timeline__event__date">
+    <div className="timeline__event__date">
     2008
     </div>
-    <div class="timeline__event__content">
-      <div class="timeline__event__title d-flex align-items-center gap-2">
-        <i class="fa-solid fa-hand-point-right"></i>
+    <div className="timeline__event__content">
+      <div className="timeline__event__title d-flex align-items-center gap-2">
+        <i className="fa-solid fa-hand-point-right"></i>
       <h4 >Manguba M.Ed College</h4>
       </div>
     </div>
   </div>
-  <div data-aos="fade-up" class="timeline__event animated fadeInUp timeline__event--type2">
-    <div class="timeline__event__icon">
-      <i class="lni-cake"></i>
+  <div data-aos="fade-up" className="timeline__event animated fadeInUp timeline__event--type2">
+    <div className="timeline__event__icon">
+      <i className="lni-cake"></i>
 
     </div>
-    <div class="timeline__event__date">
+    <div className="timeline__event__date">
     2011
     </div>
-    <div class="timeline__event__content">
-      <div class="timeline__event__title d-flex align-items-center gap-2">
-        <i class="fa-solid fa-hand-point-right"></i>
+    <div className="timeline__event__content">
+      <div className="timeline__event__title d-flex align-items-center gap-2">
+        <i className="fa-solid fa-hand-point-right"></i>
       <h4>Rudra  College of business administration</h4>
       </div>
     </div>
   </div>
-  <div data-aos="fade-up" class="timeline__event animated fadeInUp timeline__event--type2">
-    <div class="timeline__event__icon">
-      <i class="lni-cake"></i>
+  <div data-aos="fade-up" className="timeline__event animated fadeInUp timeline__event--type2">
+    <div className="timeline__event__icon">
+      <i className="lni-cake"></i>
 
     </div>
-    <div class="timeline__event__date">
+    <div className="timeline__event__date">
     2011
     </div>
-    <div class="timeline__event__content">
-      <div class="timeline__event__title d-flex align-items-center gap-2">
-        <i class="fa-solid fa-hand-point-right"></i>
+    <div className="timeline__event__content">
+      <div className="timeline__event__title d-flex align-items-center gap-2">
+        <i className="fa-solid fa-hand-point-right"></i>
       <h4>Piyuni  Goswami College of commerce</h4>
       </div>
     </div>
   </div>
-  <div data-aos="fade-up" class="timeline__event animated fadeInUp timeline__event--type2">
-    <div class="timeline__event__icon">
-      <i class="lni-cake"></i>
+  <div data-aos="fade-up" className="timeline__event animated fadeInUp timeline__event--type2">
+    <div className="timeline__event__icon">
+      <i className="lni-cake"></i>
 
     </div>
-    <div class="timeline__event__date">
+    <div className="timeline__event__date">
     2015
     </div>
-    <div class="timeline__event__content">
-      <div class="timeline__event__title d-flex align-items-center gap-2">
-        <i class="fa-solid fa-hand-point-right"></i>
+    <div className="timeline__event__content">
+      <div className="timeline__event__title d-flex align-items-center gap-2">
+        <i className="fa-solid fa-hand-point-right"></i>
       <h4>Jeel Goswami College  of Science and research</h4>
       </div>
     </div>
   </div>
-  <div data-aos="fade-up" class="timeline__event animated fadeInUp timeline__event--type2">
-    <div class="timeline__event__icon">
-      <i class="lni-cake"></i>
+  <div data-aos="fade-up" className="timeline__event animated fadeInUp timeline__event--type2">
+    <div className="timeline__event__icon">
+      <i className="lni-cake"></i>
 
     </div>
-    <div class="timeline__event__date">
+    <div className="timeline__event__date">
     2015
     </div>
-    <div class="timeline__event__content">
-      <div class="timeline__event__title d-flex align-items-center gap-2">
-        <i class="fa-solid fa-hand-point-right"></i>
+    <div className="timeline__event__content">
+      <div className="timeline__event__title d-flex align-items-center gap-2">
+        <i className="fa-solid fa-hand-point-right"></i>
       <h4>Satish  Goswami College of Physiotherapist</h4>
       </div>
     </div>
   </div>
-  <div data-aos="fade-up" class="timeline__event animated fadeInUp timeline__event--type2">
-    <div class="timeline__event__icon">
-      <i class="lni-cake"></i>
+  <div data-aos="fade-up" className="timeline__event animated fadeInUp timeline__event--type2">
+    <div className="timeline__event__icon">
+      <i className="lni-cake"></i>
 
     </div>
-    <div class="timeline__event__date">
+    <div className="timeline__event__date">
     2018
     </div>
-    <div class="timeline__event__content">
-      <div class="timeline__event__title d-flex align-items-center gap-2">
-        <i class="fa-solid fa-hand-point-right"></i>
+    <div className="timeline__event__content">
+      <div className="timeline__event__title d-flex align-items-center gap-2">
+        <i className="fa-solid fa-hand-point-right"></i>
       <h4>Urmila  Goswami College of Nursing</h4>
       </div>
     </div>
   </div>
-  <div data-aos="fade-up" class="timeline__event animated fadeInUp timeline__event--type2">
-    <div class="timeline__event__icon">
-      <i class="lni-cake"></i>
+  <div data-aos="fade-up" className="timeline__event animated fadeInUp timeline__event--type2">
+    <div className="timeline__event__icon">
+      <i className="lni-cake"></i>
 
     </div>
-    <div class="timeline__event__date">
+    <div className="timeline__event__date">
     2019
     </div>
-    <div class="timeline__event__content">
-      <div class="timeline__event__title d-flex align-items-center gap-2">
-        <i class="fa-solid fa-hand-point-right"></i>
+    <div className="timeline__event__content">
+      <div className="timeline__event__title d-flex align-items-center gap-2">
+        <i className="fa-solid fa-hand-point-right"></i>
       <h4>Mohan  Goswami College of law</h4>
       </div>
     </div>
   </div>
-  <div data-aos="fade-up" class="timeline__event animated fadeInUp timeline__event--type2">
-    <div class="timeline__event__icon">
-      <i class="lni-cake"></i>
+  <div data-aos="fade-up" className="timeline__event animated fadeInUp timeline__event--type2">
+    <div className="timeline__event__icon">
+      <i className="lni-cake"></i>
 
     </div>
-    <div class="timeline__event__date">
+    <div className="timeline__event__date">
     2019
     </div>
-    <div class="timeline__event__content">
-      <div class="timeline__event__title d-flex align-items-center gap-2">
-        <i class="fa-solid fa-hand-point-right"></i>
+    <div className="timeline__event__content">
+      <div className="timeline__event__title d-flex align-items-center gap-2">
+        <i className="fa-solid fa-hand-point-right"></i>
       <h4>Piyuni  Goswami College of arts</h4>
       </div>
     </div>
   </div>
-  <div data-aos="fade-up" class="timeline__event animated fadeInUp timeline__event--type2">
-    <div class="timeline__event__icon">
-      <i class="lni-cake"></i>
+  <div data-aos="fade-up" className="timeline__event animated fadeInUp timeline__event--type2">
+    <div className="timeline__event__icon">
+      <i className="lni-cake"></i>
 
     </div>
-    <div class="timeline__event__date">
+    <div className="timeline__event__date">
     2019
     </div>
-    <div class="timeline__event__content">
-      <div class="timeline__event__title d-flex align-items-center gap-2">
-        <i class="fa-solid fa-hand-point-right"></i>
+    <div className="timeline__event__content">
+      <div className="timeline__event__title d-flex align-items-center gap-2">
+        <i className="fa-solid fa-hand-point-right"></i>
       <h4>Rudra Goswami  College of computer application</h4>
       </div>
     </div>
   </div>
-  <div data-aos="fade-up" class="timeline__event animated fadeInUp timeline__event--type2">
-    <div class="timeline__event__icon">
-      <i class="lni-cake"></i>
+  <div data-aos="fade-up" className="timeline__event animated fadeInUp timeline__event--type2">
+    <div className="timeline__event__icon">
+      <i className="lni-cake"></i>
 
     </div>
-    <div class="timeline__event__date">
+    <div className="timeline__event__date">
     2021
     </div>
-    <div class="timeline__event__content">
-      <div class="timeline__event__title d-flex align-items-center gap-2">
-        <i class="fa-solid fa-hand-point-right"></i>
+    <div className="timeline__event__content">
+      <div className="timeline__event__title d-flex align-items-center gap-2">
+        <i className="fa-solid fa-hand-point-right"></i>
        <h4>Monark University</h4>
       </div>
     </div>

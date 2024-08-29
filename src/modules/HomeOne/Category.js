@@ -128,7 +128,7 @@ export default function Category() {
                 <div className="d-flex align-items-center justify-content-between">
                   <div className="btn-text">MU Mirror</div>
                   <div className="btn-icon d-flex align-items-center justify-content-center">
-                    <i class="fa-solid fa-arrow-right"></i>
+                    <i className="fa-solid fa-arrow-right"></i>
                   </div>
                 </div>
               </button>

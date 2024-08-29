@@ -125,7 +125,7 @@ export default function Team() {
               </div>
             </div>
             <div className="list-officers-table">
-              <table class="rwd-table">
+              <table className="rwd-table">
                 <tbody>
                   <tr>
                     <th>Name</th>
@@ -158,7 +158,7 @@ export default function Team() {
               </div>
             </div>
             <div className="table-committee">
-              <table class="rwd-table">
+              <table className="rwd-table">
                 <tbody>
                   <tr>
                     <th>Name</th>

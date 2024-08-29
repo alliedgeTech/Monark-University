@@ -97,7 +97,7 @@ const Calanderdisplay = () => {
             <div className="container">
               <div className="row"></div>
               <div className="list-officers-table">
-                <table class="rwd-table">
+                <table className="rwd-table">
                   <tbody data-aos="fade-right">
                     <tr data-aos="fade-right">
                       <th>programmes</th>

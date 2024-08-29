@@ -116,7 +116,7 @@ const index = () => {
                   className="d-flex align-items-start justify-content-center faculty-white"
                   data-aos="fade-left"
                 >
-                  <i class="fa-regular fa-hand-point-right mr-10 mt-2"></i>
+                  <i className="fa-regular fa-hand-point-right mr-10 mt-2"></i>
                   <p className="faculty-right">{faculty.text_1}</p>
                 </div>
               </div>
@@ -127,7 +127,7 @@ const index = () => {
                   className="d-flex align-items-start justify-content-center faculty-white"
                   data-aos="fade-right"
                 >
-                  <i class="fa-regular fa-hand-point-right mr-10 mt-2"></i>
+                  <i className="fa-regular fa-hand-point-right mr-10 mt-2"></i>
                   <p className="faculty-left">{faculty.text_2}</p>
                 </div>
               </div>
@@ -296,7 +296,7 @@ const index = () => {
                 responsive={Responsive2}
               >
                 {studentsaydata.map((students) => (
-                  <div class="item px-2" data-aos="fade-up">
+                  <div className="item px-2" data-aos="fade-up">
                     <div className="test-card d-flex align-items-center flex-column">
                       <div className="test-img">
                         <img className="h-100 w-100" src={students.img} alt="" />
@@ -305,9 +305,9 @@ const index = () => {
                         <h6>{students.name}</h6>
                       </div>
                       <div className="test-text">
-                        <i class="fa-solid fa-quote-left"></i>
+                        <i className="fa-solid fa-quote-left"></i>
                         <small className="stu-say-text">{students.text}</small>
-                        <i class="fa-solid fa-quote-right"></i>
+                        <i className="fa-solid fa-quote-right"></i>
                       </div>
                     </div>
                   </div>

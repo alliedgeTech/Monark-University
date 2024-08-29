@@ -67,9 +67,9 @@ const Infrastructuredisplay = () => {
     <div className="it-blog-area it-blog-style-3 it-blog-style-6 pt-20 pb-90">
       <div className="container" id="lab">
         <div className="row">
-          <div class="it-career-title-box mb-10">
+          <div className="it-career-title-box mb-10">
             <div className="three mb-5" data-aos='fade-up'>
-            <h1 class="">Laboratories</h1>
+            <h1 className="">Laboratories</h1>
 
             </div>
             <p data-aos='fade-right'>
@@ -78,7 +78,7 @@ const Infrastructuredisplay = () => {
               and languages. Students can search for a better solution here. A
               place for great experiments “Where science meets innovation”.
               <svg
-                class="title-shape-2"
+                className="title-shape-2"
                 width="168"
                 height="65"
                 viewBox="0 0 168 65"
@@ -105,9 +105,9 @@ const Infrastructuredisplay = () => {
       
       <div className="container" id="ac">
         <div className="row">
-          <div class="it-career-title-box  mb-20">
+          <div className="it-career-title-box  mb-20">
             <div className="three mb-20" data-aos='fade-up'>
-            <h1 class="">
+            <h1 className="">
               Auditorium & Conference Hall
             </h1>
 
@@ -119,7 +119,7 @@ const Infrastructuredisplay = () => {
               auditorium. “A place with all facilities”.” We are here with great
               difference”.
               <svg
-                class="title-shape-2"
+                className="title-shape-2"
                 width="168"
                 height="65"
                 viewBox="0 0 168 65"
@@ -146,9 +146,9 @@ const Infrastructuredisplay = () => {
      
       <div className="container" id="ground">
         <div className="row">
-          <div class="it-career-title-box  mb-20">
+          <div className="it-career-title-box  mb-20">
             <div className="three mb-20" data-aos='fade-up'>
-            <h1 class="">
+            <h1 className="">
               Indoor and Outdoor Sports Ground and Court
             </h1>
 
@@ -161,7 +161,7 @@ const Infrastructuredisplay = () => {
               indoor & outdoor games like Bad-Minton, chess, carom, table
               tennis, cricket, and so on.
               <svg
-                class="title-shape-2"
+                className="title-shape-2"
                 width="168"
                 height="65"
                 viewBox="0 0 168 65"

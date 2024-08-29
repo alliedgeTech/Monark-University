@@ -124,9 +124,9 @@ export default function Course() {
 
         <div
           id="carouselExampleIndicators2"
-          class="carousel carousel2 slide mt-5"
+          className="carousel carousel2 slide mt-5"
         >
-          <div class="carousel-buttons carousel-club-buttons gap-4 flex-wrap mx-auto mb-30 d-flex align-items-center">
+          <div className="carousel-buttons carousel-club-buttons gap-4 flex-wrap mx-auto mb-30 d-flex align-items-center">
             <button
             data-aos='fade-up'
               type="button"
@@ -175,8 +175,8 @@ export default function Course() {
             </Link>
           </div>
 
-          <div class="carousel-inner py-4 px-3 mt-10">
-            <div data-aos='fade-right' class="carousel-item item active">
+          <div className="carousel-inner py-4 px-3 mt-10">
+            <div data-aos='fade-right' className="carousel-item item active">
               <div className="student-club-info about-2 w-100 mt-4 h-100">
                 <div className="row">
                   <div className="col-lg-4 col-md-12 mt-lg-0 mt-4">
@@ -208,7 +208,7 @@ export default function Course() {
                 </div>
               </div>
             </div>
-            <div data-aos='fade-right' class="carousel-item item">
+            <div data-aos='fade-right' className="carousel-item item">
               <div className="student-club-info about-2 w-100 mt-4 h-100">
                 <div className="row">
                   <div className="col-lg-4 col-md-12 mt-lg-0 mt-4">
@@ -238,7 +238,7 @@ export default function Course() {
                 </div>
               </div>
             </div>
-            <div data-aos='fade-right' class="carousel-item item">
+            <div data-aos='fade-right' className="carousel-item item">
               <div className="student-club-info about-2 w-100 col-lg-4 h-100 mt-4">
                 <div className="row">
                   <div className="col-lg-4 col-md-12 mt-lg-0 mt-4">
@@ -270,7 +270,7 @@ export default function Course() {
                 </div>
               </div>
             </div>
-            <div data-aos='fade-right' class="carousel-item item">
+            <div data-aos='fade-right' className="carousel-item item">
               <div className="student-club-info about-2 w-100 h-100 mt-4">
                 <div className="row">
                   <div className="col-lg-4 col-md-12 mt-lg-0 mt-4">
