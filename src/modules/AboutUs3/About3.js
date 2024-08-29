@@ -158,7 +158,7 @@ export default function About() {
                       >
                         <div className="item">
                           <p>
-                            <i class="fa-regular fa-circle-right mr-15"></i>
+                            <i className="fa-regular fa-circle-right mr-15"></i>
                             Welcome to Monark University. As a President of
                             Monark University, it gives me immense pleasure to
                             share with you the vision of this University. The
@@ -167,7 +167,7 @@ export default function About() {
                             programmes.
                           </p>
                           <p>
-                            <i class="fa-regular fa-circle-right mr-15"></i>
+                            <i className="fa-regular fa-circle-right mr-15"></i>
                             In fast changing technological advancements and
                             global economic environment, we planned to strive to
                             bring global perspective to its academic programmes
@@ -188,7 +188,7 @@ export default function About() {
                         </div>
                         <div className="item">
                           <p>
-                            <i class="fa-regular fa-circle-right mr-15"></i>
+                            <i className="fa-regular fa-circle-right mr-15"></i>
                             We have huge academic and physical infrastructures
                             and facilities with well equipped labs, workshops,
                             qualified and motivated faculty members who work
@@ -200,7 +200,7 @@ export default function About() {
                             in the students to make them employable.
                           </p>
                           <p>
-                            <i class="fa-regular fa-circle-right mr-15"></i>
+                            <i className="fa-regular fa-circle-right mr-15"></i>
                             We extend an invitation to you to visit our
                             sprawling campus of our University to know more
                             about the University and its physical and
@@ -261,7 +261,7 @@ export default function About() {
                         >
                           <div className="item">
                             <p>
-                              <i class="fa-regular fa-circle-right mr-15"></i>
+                              <i className="fa-regular fa-circle-right mr-15"></i>
                               Welcome to Monark University. We are pleased to
                               welcome you to Monark University. As a blooming
                               University, we endeavor to impart best in class
@@ -284,7 +284,7 @@ export default function About() {
                           </div>
                           <div className="item">
                             <p>
-                              <i class="fa-regular fa-circle-right mr-15"></i>
+                              <i className="fa-regular fa-circle-right mr-15"></i>
                               We here at Monark University welcome you to a
                               world to build your career with an institute of
                               repute. We are offering a plethora of courses like
@@ -356,7 +356,7 @@ export default function About() {
                           >
                             <div className="item">
                               <p>
-                                <i class="fa-regular fa-circle-right mr-15"></i>
+                                <i className="fa-regular fa-circle-right mr-15"></i>
                                 Greetings from Monark University, Ahmedabad. Our
                                 prime duty as a university is to nurture today’s
                                 minds to be able to create ample opportunities
@@ -370,7 +370,7 @@ export default function About() {
                                 required dynamism to create a new order.z
                               </p>
                               <p>
-                                <i class="fa-regular fa-circle-right mr-15"></i>
+                                <i className="fa-regular fa-circle-right mr-15"></i>
                                 We as a Monark University are committed to
                                 provide a dynamic, supportive and creative
                                 environment to the students. Our focus is to
@@ -382,7 +382,7 @@ export default function About() {
                             </div>
                             <div className="item">
                               <p>
-                                <i class="fa-regular fa-circle-right mr-15"></i>
+                                <i className="fa-regular fa-circle-right mr-15"></i>
                                 We warmly welcome all the students who choose to
                                 join Monark University, a prestigious
                                 institution known for its academic excellence

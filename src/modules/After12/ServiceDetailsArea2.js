@@ -98,7 +98,7 @@ export default function ServiceDetailsArea() {
                   aria-selected={index === activeTab ? 'true' : 'false'}
                 >
                   <span className="text-container">
-                  <span class="text">
+                  <span className="text">
                     {course.title}
                   </span>
                   </span>

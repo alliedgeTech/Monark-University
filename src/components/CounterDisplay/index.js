@@ -66,7 +66,7 @@ const Index = () => {
             <div className="col-lg-6 col-md-12 col-12 d-flex align-items-end mt-lg-0 mt-4">
               <div className="counter-heading p-relative pb-4 course-heading-home">
                 {/* <img className="capimg" src="/img/logo/cap2.png" alt="" /> */}
-                <i class="fa-solid fa-graduation-cap"></i>
+                <i className="fa-solid fa-graduation-cap"></i>
                 <h1 className="mt-10" data-aos="zoom-in">
                   <span>Experience</span> Academic Diversity Like 
                   <span> Never</span> Before with Leading <span>Experts </span>
@@ -89,7 +89,7 @@ const Index = () => {
                     <div className="count-text mt-2 d-flex align-items-center justify-content-center">
                       {startCount1 && (
                         <CountUp start={0} end={13} duration={6} />
-                      )}
+                      )}+
                     </div>
                   </div>
                 </div>
@@ -103,7 +103,7 @@ const Index = () => {
                     <div className="count-text mt-2 d-flex align-items-center justify-content-center">
                       {startCount2 && (
                         <CountUp start={0} end={7000} duration={6} />
-                      )}
+                      )}+
                     </div>
                   </div>
                 </div>
@@ -117,7 +117,7 @@ const Index = () => {
                     <div className="count-text mt-2 d-flex align-items-center justify-content-center">
                       {startCount3 && (
                         <CountUp start={0} end={300} duration={6} />
-                      )}
+                      )}+
                     </div>
                   </div>
                 </div>
@@ -131,7 +131,7 @@ const Index = () => {
                     <div className="count-text mt-2 d-flex align-items-center justify-content-center">
                       {startCount4 && (
                         <CountUp start={0} end={100} duration={6} />
-                      )}
+                      )}+
                     </div>
                   </div>
                 </div>

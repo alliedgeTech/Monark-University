@@ -186,12 +186,12 @@ const index = () => {
                       >
                         <div className="item">
                           <p>
-                            <i class="fa-solid fa-angle-right me-4"></i>
+                            <i className="fa-solid fa-angle-right me-4"></i>
                             As the Training and Placement Officer at Monark
                             University, it is my privilege to highlight the
                             crucial role that training and placement play in
                             your academic journey and career prospects.
-                            <br />                             <i class="fa-solid fa-angle-right me-4"></i>
+                            <br />                             <i className="fa-solid fa-angle-right me-4"></i>
                             At Monark University, we firmly believe that
                             education goes beyond classroom learning. It
                             encompasses practical exposure and real-world
@@ -202,7 +202,7 @@ const index = () => {
                             equip you with not just theoretical knowledge but
                             also practical skills and competencies that are
                             highly valued in today's competitive job market.
-                            <br />                            <i class="fa-solid fa-angle-right me-4"></i>
+                            <br />                            <i className="fa-solid fa-angle-right me-4"></i>
                             The placement process at our university is a
                             testament to our commitment to your success. We
                             collaborate closely with leading companies and
@@ -216,14 +216,14 @@ const index = () => {
                         </div>
                         <div className="item">
                           <p>
-                            <i class="fa-solid fa-angle-right me-4"></i>
+                            <i className="fa-solid fa-angle-right me-4"></i>
                             Moreover, our dedicated team of faculty members and
                             career counselors are here to guide and support you
                             every step of the way. Whether it's resume building,
                             interview preparation, or career guidance, we are
                             here to ensure that you are well-prepared and
                             confident to embark on your professional journey.
-                            <br />                            <i class="fa-solid fa-angle-right me-4"></i>
+                            <br />                            <i className="fa-solid fa-angle-right me-4"></i>
 
                             Remember, your success is our success. We are
                             invested in nurturing your talents, honing your
@@ -231,7 +231,7 @@ const index = () => {
                             industry-ready professional. Take full advantage of
                             the resources and opportunities available at Monark
                             University to shape a bright and fulfilling future.
-                            <br />                            <i class="fa-solid fa-angle-right me-4"></i>
+                            <br />                            <i className="fa-solid fa-angle-right me-4"></i>
                             I encourage you to actively participate in
                             our training programmes and engage in the placement
                             process. Your proactive involvement will undoubtedly
@@ -317,20 +317,20 @@ const index = () => {
             <div className="col-lg-4 col-md-4 col-12 mt-lg-5 mt-4 h-100">
               <div className="record-box" data-aos="zoom-out">
                 <div className="icon-box d-flex flex-column align-items-center">
-                  <i class="fa-regular fa-credit-card mb-4"></i>
+                  <i className="fa-regular fa-credit-card mb-4"></i>
                   <h4>Placement Record</h4>
                 </div>
                 <div className="record-text mt-5">
                   <p>
-                    <i class="fa-solid fa-right-long"></i>10.50 LPA Highest
+                    <i className="fa-solid fa-right-long"></i>10.50 LPA Highest
                     Package
                   </p>
                   <p>
-                    <i class="fa-solid fa-right-long"></i>500 + Annual
+                    <i className="fa-solid fa-right-long"></i>500 + Annual
                     Placements
                   </p>
                   <p>
-                    <i class="fa-solid fa-right-long"></i>350+ Annual Recruiters
+                    <i className="fa-solid fa-right-long"></i>350+ Annual Recruiters
                   </p>
                 </div>
               </div>
@@ -338,18 +338,18 @@ const index = () => {
             <div className="col-lg-4 col-md-4 col-12 mt-lg-0 mt-4 h-100">
               <div className="record-box" data-aos="zoom-out">
                 <div className="icon-box d-flex flex-column align-items-center">
-                  <i class="fa-solid fa-dice-d20 mb-4"></i>
+                  <i className="fa-solid fa-dice-d20 mb-4"></i>
                   <h4>Placement Activities</h4>
                 </div>
                 <div className="record-text mt-5">
                   <p>
-                    <i class="fa-solid fa-right-long"></i>100 + Seminars
+                    <i className="fa-solid fa-right-long"></i>100 + Seminars
                   </p>
                   <p>
-                    <i class="fa-solid fa-right-long"></i>10 + Startups
+                    <i className="fa-solid fa-right-long"></i>10 + Startups
                   </p>
                   <p>
-                    <i class="fa-solid fa-right-long"></i>15 + MoUs Year
+                    <i className="fa-solid fa-right-long"></i>15 + MoUs Year
                     2020-2021
                   </p>
                 </div>
@@ -358,20 +358,20 @@ const index = () => {
             <div className="col-lg-4 col-md-4 col-12 mt-lg-5 mt-4 h-100">
               <div className="record-box" data-aos="zoom-out">
                 <div className="icon-box d-flex flex-column align-items-center">
-                  <i class="fa-solid fa-clock-rotate-left mb-4"></i>
+                  <i className="fa-solid fa-clock-rotate-left mb-4"></i>
                   <h4>Year 2022-2023 (Cont.)</h4>
                 </div>
                 <div className="record-text mt-5">
                   <p>
-                    <i class="fa-solid fa-right-long"></i>Number of Eligible
+                    <i className="fa-solid fa-right-long"></i>Number of Eligible
                     Students : 1500 +
                   </p>
                   <p>
-                    <i class="fa-solid fa-right-long"></i>
+                    <i className="fa-solid fa-right-long"></i>
                     Number of Students Placed : 500 +
                   </p>
                   <p>
-                    <i class="fa-solid fa-right-long"></i>Number of Companies
+                    <i className="fa-solid fa-right-long"></i>Number of Companies
                     Participated : 375 +
                   </p>
                 </div>

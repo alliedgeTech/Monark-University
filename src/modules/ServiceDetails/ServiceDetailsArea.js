@@ -253,7 +253,7 @@ export default function ServiceDetailsArea() {
                                 </div>
                                 <ul style={{listStyle:'none'}} className="service-ul">
                                   {lab.pera.split("/")?.map((line, lineIndex) => (
-                                    <li key={lineIndex}><i class="fa-regular fa-hand-point-right mr-10"></i>{line.trim()}</li>
+                                    <li key={lineIndex}><i className="fa-regular fa-hand-point-right mr-10"></i>{line.trim()}</li>
                                   ))}
                                 </ul>
                               </div>

@@ -15,7 +15,7 @@ export default function BlogArea() {
 								Blogs.map((blog) => {
 									return (
 										<SingleBlogThree 
-											blogClass="postbox__thumb-box mb-80"
+											blogclassName="postbox__thumb-box mb-80"
 											Slug={blog.slug}
 											Title={blog.title}
 											Img={blog.image}

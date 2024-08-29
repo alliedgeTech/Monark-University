@@ -3,15 +3,15 @@ import React from 'react'
 const Visionmision = () => {
   return (
     
-      <div class="it-career-area it-career-bg py-2">
-        <div class="container">
-          <div class="it-career-title-box three mb-30">
-            <h1 class="it-section-title discover-heading" data-aos="fade-up">
+      <div className="it-career-area it-career-bg py-2">
+        <div className="container">
+          <div className="it-career-title-box three mb-30">
+            <h1 className="it-section-title discover-heading" data-aos="fade-up">
               Discover your gain
             </h1>
           </div>
           <div className="deg45">
-            <div class="row vision px-lg-5 px-md-5 px-3 py-4 py-lg-5 deg-45 p-relative">
+            <div className="row vision px-lg-5 px-md-5 px-3 py-4 py-lg-5 deg-45 p-relative">
               <div className="col-lg-6 col-md-5 col-12 mt-lg-0 mt-4">
                 <div className="vision-img" data-aos="zoom-in-right">
                   <img

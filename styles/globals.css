@@ -497,6 +497,7 @@ small {
 
 .it-header-transparent {
     background: var(--web-white);
+    height: 75px !important;
 }
 
 .it-header-2-main-menu ul li>a {
@@ -506,6 +507,10 @@ small {
 
 .it-header-2-main-menu ul li>.submenu {
     background: var(--web-white) !important;
+}
+.monark-logo{
+    height: 60px !important;
+    width: 60px !important;
 }
 
 .hero-img {

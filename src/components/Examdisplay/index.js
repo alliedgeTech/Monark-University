@@ -94,7 +94,7 @@ const Examdisplay = () => {
             <div className="container">
               <div className="row"></div>
               <div className="list-officers-table">
-                <table class="rwd-table">
+                <table className="rwd-table">
                   <tbody>
                     <tr data-aos='fade-right'>
                       <th>Date</th>

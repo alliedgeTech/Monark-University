@@ -104,7 +104,7 @@ export default function About() {
     <div id="historicalbackground">
       
       <div>
-        <div class="container">
+        <div className="container">
           
         <div id="recognitionandapproval">
                     <div

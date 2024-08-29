@@ -132,7 +132,7 @@ export default function ServiceDetailsArea() {
                 >
 
                   <span className="text-container">
-                  <span class="text">
+                  <span className="text">
                     {course.title}
                   </span>
                   </span>

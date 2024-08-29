@@ -44,10 +44,9 @@ export default function Header(props) {
                     <div className="d-flex align-items-center">
                       <div className="it-header-2-logo">
                         <Link href="/">
-                          <Image
+                          <img
                             className="img-fluid"
-                            width={60}
-                            height={60}
+                            
                             src="/img/logo/MULOGOR.png"
                             alt=""
                           />
@@ -101,7 +100,7 @@ export default function Header(props) {
           <div className="itoffcanvas__logo">
             <Link href="/">
               <img
-                className="img-fluid w-25"
+                className="img-fluid monark-logo"
                 src="/img/logo/MULOGOR.png"
                 alt=""
               />

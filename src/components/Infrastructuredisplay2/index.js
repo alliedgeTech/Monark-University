@@ -166,9 +166,9 @@ const Infrastructuredisplay = () => {
       </div>
       <div className="container"  id="hostel">
         <div className="row">
-          <div class="it-career-title-box  mb-20">
+          <div className="it-career-title-box  mb-20">
             <div className="three">
-              <h1 class="" data-aos="fade-up">Hostel</h1>
+              <h1 className="" data-aos="fade-up">Hostel</h1>
             </div>
             <p data-aos='fade-right'>
               The University also provides in-campus residential facilities for
@@ -178,7 +178,7 @@ const Infrastructuredisplay = () => {
               students” Relax,study,develop” through Experience a new living
               style
               <svg
-                class="title-shape-2"
+                className="title-shape-2"
                 width="168"
                 height="65"
                 viewBox="0 0 168 65"

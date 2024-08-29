@@ -7,12 +7,12 @@ export default function SingleTeamTwo( props ) {
 	return (
 		<>
 			
-			<div class="faculty-card">
-  <div class="content">
-    <div class="front">
+			<div className="faculty-card">
+  <div className="content">
+    <div className="front">
       <img src={Img} alt="" />
     </div>
-    <div class="back">
+    <div className="back">
       <p className="text-start">{Teacher}</p>
     </div>
   </div>
