@@ -328,15 +328,15 @@ const index = () => {
                 </div>
                 <div className="record-text mt-5">
                   <p>
-                    <i className="fa-solid fa-right-long"></i>10.50 LPA Highest
+                    <i className="fa-solid fa-right-long"></i>12.50 LPA Highest
                     Package
                   </p>
                   <p>
-                    <i className="fa-solid fa-right-long"></i>500 + Annual
+                    <i className="fa-solid fa-right-long"></i>1000 + Annual
                     Placements
                   </p>
                   <p>
-                    <i className="fa-solid fa-right-long"></i>350+ Annual
+                    <i className="fa-solid fa-right-long"></i>400+ Annual
                     Recruiters
                   </p>
                 </div>
@@ -350,14 +350,14 @@ const index = () => {
                 </div>
                 <div className="record-text mt-5">
                   <p>
-                    <i className="fa-solid fa-right-long"></i>100 + Seminars
+                    <i className="fa-solid fa-right-long"></i>100 + Seminars/Workshops/Webinars
                   </p>
                   <p>
                     <i className="fa-solid fa-right-long"></i>10 + Startups
                   </p>
                   <p>
                     <i className="fa-solid fa-right-long"></i>15 + MoUs Year
-                    2020-2021
+                    2023-2024
                   </p>
                 </div>
               </div>
@@ -371,15 +371,15 @@ const index = () => {
                 <div className="record-text mt-5">
                   <p>
                     <i className="fa-solid fa-right-long"></i>Number of Eligible
-                    Students : 1500 +
+                    Students : 2000 +
                   </p>
                   <p>
                     <i className="fa-solid fa-right-long"></i>
-                    Number of Students Placed : 500 +
+                    Number of Students Placed : 700 +
                   </p>
                   <p>
                     <i className="fa-solid fa-right-long"></i>Number of
-                    Companies Participated : 375 +
+                    Companies Participated : 400 +
                   </p>
                 </div>
               </div>
