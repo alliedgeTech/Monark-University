@@ -10,10 +10,10 @@ const index = () => {
             <h1>Introduction</h1>
           </div>
           <p className="text-center mt-4">
-            The National Education Policy (NEP) - 2020 was approved by the
+            The National Education Policy (NPE) - 2020 was approved by the
             Indian government in July 2020 and aims to bring significant reforms
             and changes to the education system in the country. Some key
-            highlights of the NEP 2020 include:
+            highlights of the NPE 2020 include:
           </p>
         </div>
         <div className="row ">
@@ -23,7 +23,7 @@ const index = () => {
                 <div className="three"></div>
                 <h5>Higher Education</h5>
                 <p>
-                  NEP 2020 proposes reforms in higher education, including the
+                  NPE 2020 proposes reforms in higher education, including the
                   establishment of the National Research Foundation (NRF), a
                   common regulatory framework for higher education institutions,
                   and an emphasis on multidisciplinary education. It also aims
@@ -39,7 +39,7 @@ const index = () => {
                 <div className="three"></div>
                 <h5>Global Engagement</h5>
                 <p>
-                  NEP 2020 encourages internationalization and global engagement
+                  NPE 2020 encourages internationalization and global engagement
                   in higher education, allowing foreign universities to set up
                   campuses in India and Indian universities to collaborate with
                   foreign institutions.
@@ -103,7 +103,7 @@ const index = () => {
                 <div className="three"></div>
                 <h5>Equity and Inclusion</h5>
                 <p>
-                  NEP 2020 places a strong emphasis on achieving equity and
+                  NPE 2020 places a strong emphasis on achieving equity and
                   inclusion in education, with special provisions for
                   disadvantaged groups and students with disabilities.
                 </p>
@@ -126,7 +126,7 @@ const index = () => {
         <div className="npe-pdf1 mt-30 py-4">
             <div className="three">
                 <h4 className="oswald">Sensitization Workshop on Common Curriculum
-                and Credit Framework under NEP-2020</h4>
+                and Credit Framework under NPE-2020</h4>
             </div>
             <p><strong>Date & Day : </strong> 17th July, 2023 (Monday)</p>
             <p><strong>Time : </strong> 3:00 P.M. onward</p>
@@ -136,7 +136,7 @@ const index = () => {
         <div className="npe-pdf1 py-4">
             <div className="three">
                 <h4 className="oswald">Sensitization Workshop on Common Curriculum
-                and Credit Framework under NEP-2020</h4>
+                and Credit Framework under NPE-2020</h4>
             </div>
             <p>Bachelor of Science – Honours – <Link target="_blank" href='https://res.cloudinary.com/dnjgopun8/image/upload/v1720070561/B.Sc_._NEP_2020_Curriculum_1_qjgy74.pdf'><strong>Click Here</strong></Link> </p>
             <p>Bachelor of Business Administration – Honours – <Link target="_blank" href='https://res.cloudinary.com/dnjgopun8/image/upload/v1720071270/B.B.A._NEP_2020_Curriculum_2_bwsq7y.pdf'><strong>Click Here</strong></Link> </p>

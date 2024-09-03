@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-
+import placementimg from "@/data/placement";
 import m1 from "../../../public/img/placement/tcs_logo.jpeg";
 import Image from "next/image";
 import dynamic from "next/dynamic";
@@ -37,7 +37,7 @@ const Responsive = {
     margin: 10,
   },
   1024: {
-    items: 3,
+    items: 2,
     margin: 20,
   },
 };
@@ -56,6 +56,24 @@ const Responsive2 = {
   },
   1024: {
     items: 1,
+    margin: 20,
+  },
+};
+const Responsive3 = {
+  0: {
+    items: 1,
+    margin: 5,
+  },
+  435: {
+    items: 1,
+    margin: 10,
+  },
+  556: {
+    items: 1,
+    margin: 10,
+  },
+  1024: {
+    items: 3,
     margin: 20,
   },
 };
@@ -279,7 +297,7 @@ const index = () => {
               loop={true}
               margin={10}
               autoPlay={true}
-              responsive={Responsive}
+              responsive={Responsive3}
               responsiveRefreshRate={100}
               autoplayTimeout={3000}
             >
@@ -350,7 +368,8 @@ const index = () => {
                 </div>
                 <div className="record-text mt-5">
                   <p>
-                    <i className="fa-solid fa-right-long"></i>100 + Seminars/Workshops/Webinars
+                    <i className="fa-solid fa-right-long"></i>100 +
+                    Seminars/Workshops/Webinars
                   </p>
                   <p>
                     <i className="fa-solid fa-right-long"></i>10 + Startups
@@ -614,7 +633,7 @@ const index = () => {
                     <div className="alumini-card">
                       <img
                         className="img-fluid"
-                        src="/img/blog/pic1.png"
+                        src="https://res.cloudinary.com/dnjgopun8/image/upload/v1725000572/Placement_Data_2_titkat.jpg "
                         alt=""
                       />
                     </div>
@@ -623,7 +642,7 @@ const index = () => {
                     <div className="alumini-card">
                       <img
                         className="img-fluid"
-                        src="/img/blog/pic2.png"
+                        src="https://res.cloudinary.com/dnjgopun8/image/upload/v1725000572/2.jpeg_t6idwy.jpg"
                         alt=""
                       />
                     </div>
@@ -632,7 +651,169 @@ const index = () => {
                     <div className="alumini-card">
                       <img
                         className="img-fluid"
-                        src="/img/blog/pic3.png"
+                        src="https://res.cloudinary.com/dnjgopun8/image/upload/v1725000572/Placement_Data_4_qj6cpb.jpg "
+                        alt=""
+                      />
+                    </div>
+                  </div>
+                  <div className="item px-2 py-3">
+                    <div className="alumini-card">
+                      <img
+                        className="img-fluid"
+                        src="https://res.cloudinary.com/dnjgopun8/image/upload/v1725000572/Placement_Data_3_j47bbp.jpg "
+                        alt=""
+                      />
+                    </div>
+                  </div>{" "}
+                  <div className="item px-2 py-3">
+                    <div className="alumini-card">
+                      <img
+                        className="img-fluid"
+                        src="https://res.cloudinary.com/dnjgopun8/image/upload/v1725000572/10.jpeg_bnlc5n.jpg"
+                        alt=""
+                      />
+                    </div>
+                  </div>{" "}
+                  <div className="item px-2 py-3">
+                    <div className="alumini-card">
+                      <img
+                        className="img-fluid"
+                        src="https://res.cloudinary.com/dnjgopun8/image/upload/v1725000572/7_1_dkhvth.jpg"
+                        alt=""
+                      />
+                    </div>
+                  </div>{" "}
+                  <div className="item px-2 py-3">
+                    <div className="alumini-card">
+                      <img
+                        className="img-fluid"
+                        src="https://res.cloudinary.com/dnjgopun8/image/upload/v1725000571/8_1_tov23d.jpg"
+                        alt=""
+                      />
+                    </div>
+                  </div>{" "}
+                  <div className="item px-2 py-3">
+                    <div className="alumini-card">
+                      <img
+                        className="img-fluid"
+                        src="https://res.cloudinary.com/dnjgopun8/image/upload/v1725000571/3.jpeg_s6mdgk.jpg"
+                        alt=""
+                      />
+                    </div>
+                  </div>{" "}
+                  <div className="item px-2 py-3">
+                    <div className="alumini-card">
+                      <img
+                        className="img-fluid"
+                        src="https://res.cloudinary.com/dnjgopun8/image/upload/v1725000571/6.jpeg_maz1vc.jpg"
+                        alt=""
+                      />
+                    </div>
+                  </div>{" "}
+                  <div className="item px-2 py-3">
+                    <div className="alumini-card">
+                      <img
+                        className="img-fluid"
+                        src="https://res.cloudinary.com/dnjgopun8/image/upload/v1725000571/4.jpeg_u9gjwu.jpg"
+                        alt=""
+                      />
+                    </div>
+                  </div>{" "}
+                  <div className="item px-2 py-3">
+                    <div className="alumini-card">
+                      <img
+                        className="img-fluid"
+                        src="https://res.cloudinary.com/dnjgopun8/image/upload/v1725000571/9.jpeg_b0qb1j.jpg"
+                        alt=""
+                      />
+                    </div>
+                  </div>{" "}
+                  <div className="item px-2 py-3">
+                    <div className="alumini-card">
+                      <img
+                        className="img-fluid"
+                        src="https://res.cloudinary.com/dnjgopun8/image/upload/v1725000571/5.jpeg_qurrds.jpg"
+                        alt=""
+                      />
+                    </div>
+                  </div>{" "}
+                  <div className="item px-2 py-3">
+                    <div className="alumini-card">
+                      <img
+                        className="img-fluid"
+                        src="https://res.cloudinary.com/dnjgopun8/image/upload/v1724995597/7_zlj3dw.jpg"
+                        alt=""
+                      />
+                    </div>
+                  </div>{" "}
+                  <div className="item px-2 py-3">
+                    <div className="alumini-card">
+                      <img
+                        className="img-fluid"
+                        src="https://res.cloudinary.com/dnjgopun8/image/upload/v1724995597/6_lijxfr.jpg"
+                        alt=""
+                      />
+                    </div>
+                  </div>{" "}
+                  <div className="item px-2 py-3">
+                    <div className="alumini-card">
+                      <img
+                        className="img-fluid"
+                        src="https://res.cloudinary.com/dnjgopun8/image/upload/v1724995597/9_zghy16.jpg"
+                        alt=""
+                      />
+                    </div>
+                  </div>{" "}
+                  <div className="item px-2 py-3">
+                    <div className="alumini-card">
+                      <img
+                        className="img-fluid"
+                        src="https://res.cloudinary.com/dnjgopun8/image/upload/v1724995597/1_xyk54h.jpg"
+                        alt=""
+                      />
+                    </div>
+                  </div>{" "}
+                  <div className="item px-2 py-3">
+                    <div className="alumini-card">
+                      <img
+                        className="img-fluid"
+                        src="https://res.cloudinary.com/dnjgopun8/image/upload/v1724995597/5_x8tw29.jpg"
+                        alt=""
+                      />
+                    </div>
+                  </div>{" "}
+                  <div className="item px-2 py-3">
+                    <div className="alumini-card">
+                      <img
+                        className="img-fluid"
+                        src="https://res.cloudinary.com/dnjgopun8/image/upload/v1724995597/2_tissiv.jpg"
+                        alt=""
+                      />
+                    </div>
+                  </div>{" "}
+                  <div className="item px-2 py-3">
+                    <div className="alumini-card">
+                      <img
+                        className="img-fluid"
+                        src="https://res.cloudinary.com/dnjgopun8/image/upload/v1724995597/4_qvmpyx.jpg"
+                        alt=""
+                      />
+                    </div>
+                  </div>{" "}
+                  <div className="item px-2 py-3">
+                    <div className="alumini-card">
+                      <img
+                        className="img-fluid"
+                        src="https://res.cloudinary.com/dnjgopun8/image/upload/v1724995596/3_lkw8yc.jpg"
+                        alt=""
+                      />
+                    </div>
+                  </div>
+                  <div className="item px-2 py-3">
+                    <div className="alumini-card">
+                      <img
+                        className="img-fluid"
+                        src="https://res.cloudinary.com/dnjgopun8/image/upload/v1724995596/8_koghc1.jpg"
                         alt=""
                       />
                     </div>
@@ -641,6 +822,84 @@ const index = () => {
               </div>
             </div>
           </div>
+        </div>
+      </div>
+
+      <div className="container" id="lab">
+        <div className="row">
+          <div className="it-career-title-box mb-10">
+            <div className="three mb-5" data-aos="fade-up">
+              <h1 className="">
+                "The Essentials of Industrial Robotics"(certificate course with
+                TATA IIS)
+              </h1>
+            </div>
+            <p data-aos="fade-right">
+              Monark University and TATA IIS (Indian Institute of Skills) have
+              jointly organised a nine-day training course on "Essentials of
+              Industrial Robotics" for final and pre-final year students of the
+              Mechanical/Electrical and Automobile Engineering branches.
+              <svg
+                className="title-shape-2"
+                width="168"
+                height="65"
+                viewBox="0 0 168 65"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              ></svg>
+            </p>
+          </div>
+          {placementimg
+            .map((plc, i) => {
+              return (
+                <div key={i} className="col-xl-3 col-lg-3 col-md-6 mb-30">
+                  <div className={"it-blog-item"} data-aos="zoom-in">
+                    <div className="">
+                      <img src={plc.img} className="img-fluid" />
+                    </div>
+                  </div>
+                </div>
+              );
+            })
+            .slice(0, 15)}
+        </div>
+      </div>
+      <div className="container" id="lab">
+        <div className="row">
+          <div className="it-career-title-box mb-10">
+            <div className="three mb-5" data-aos="fade-up">
+              <h1 className="">"TATA IIS"(Indian Institute of Skills)</h1>
+            </div>
+            <p data-aos="fade-right">
+              It's an honour that our Monark University has signed 'Memorandum
+              of Understanding' (MoU) with TATA IIS (Indian Institute of
+              Skills), a renowned integrator of the engineering sector. We are
+              very thankful to TATA IIS for this next-generation venture, where
+              industries and academics will jointly contribute in the
+              progressive journey of the nation.
+              <svg
+                className="title-shape-2"
+                width="168"
+                height="65"
+                viewBox="0 0 168 65"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              ></svg>
+            </p>
+          </div>
+          {placementimg
+            .map((plc, i) => {
+              return (
+                <div key={i} className="col-xl-3 col-lg-3 col-md-6 mb-30">
+                  <div className={"it-blog-item"} data-aos="zoom-in">
+                    <div className="">
+                      <img src={plc.img} className="img-fluid" />
+                    </div>
+                  </div>
+                </div>
+              );
+            })
+            .slice(20, 47)}
         </div>
       </div>
     </div>

@@ -10,6 +10,7 @@ const BlogTwoModules = dynamic(() => import('@/modules/BlogTwo'), {
 export default function Blog() {
 	return (
 		<main>
+	
 			<Header />
 
 			<BlogTwoModules />

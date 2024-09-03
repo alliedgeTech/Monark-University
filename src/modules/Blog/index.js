@@ -7,7 +7,7 @@ import Campusdisplay from "@/components/MediaCoverage";
 export default function BlogModules() {
   return (
     <main>
-      <BreadCrumbs Title="Blog" subTitle="Blog" />
+      <BreadCrumbs Title="Media Coverage" subTitle="Blog" />
       <Campusdisplay />
       <Newsletter />
       <ScrollTop />

@@ -30,7 +30,7 @@ const Responsive = {
     margin: 10,
   },
   1024: {
-    items: 3,
+    items: 2,
     margin: 20,
   },
 };
@@ -251,42 +251,130 @@ export default function About() {
             </div>
           </div>
           <div className="col-lg-7 col-12 px-3">
-            <div className="alumini-carousel" data-aos="zoom-in-left">
-              <OwlCarousel
-              className="owl-theme"
-              autoPlay={true}
-              margin={10}
-              loop={true}
-              responsive={Responsive}
-              responsiveRefreshRate={0}
-              autoplay={true}
-              autoplayTimeout={3000}
-              autoplayHoverPause={false}
-              >
-                <div className="item px-2 py-3">
-                  <div className="alumini-card">
-
-              <img className="img-fluid" src="/img/blog/pic1.png" alt="" />
+              <div className="alumini-carousel" data-aos="zoom-in-left">
+                <OwlCarousel
+                  className="owl-theme"
+                  autoPlay={true}
+                  margin={10}
+                  loop={true}
+                  responsive={Responsive}
+                  responsiveRefreshRate={0}
+                  autoplay={true}
+                  autoplayTimeout={3000}
+                  autoplayHoverPause={false}
+                >
+                  <div className="item px-2 py-3">
+                    <div className="alumini-card">
+                      <img
+                        className="img-fluid"
+                        src="https://res.cloudinary.com/dnjgopun8/image/upload/v1725000572/Placement_Data_2_titkat.jpg "
+                        alt=""
+                      />
+                    </div>
                   </div>
-
-                </div>
-                <div className="item px-2 py-3">
-                <div className="alumini-card">
-                    
-              <img className="img-fluid" src="/img/blog/pic2.png" alt="" />
+                  <div className="item px-2 py-3">
+                    <div className="alumini-card">
+                      <img className="img-fluid" src="https://res.cloudinary.com/dnjgopun8/image/upload/v1725000572/2.jpeg_t6idwy.jpg" alt="" />
                     </div>
-
-                </div>
-                <div className="item px-2 py-3">
-                <div className="alumini-card">
-                    
-              <img className="img-fluid" src="/img/blog/pic3.png" alt="" />
+                  </div>
+                  <div className="item px-2 py-3">
+                    <div className="alumini-card">
+                      <img className="img-fluid" src="https://res.cloudinary.com/dnjgopun8/image/upload/v1725000572/Placement_Data_4_qj6cpb.jpg " alt="" />
                     </div>
-
-                </div>
-              </OwlCarousel>
+                  </div>
+                  <div className="item px-2 py-3">
+                    <div className="alumini-card">
+                      <img className="img-fluid" src="https://res.cloudinary.com/dnjgopun8/image/upload/v1725000572/Placement_Data_3_j47bbp.jpg " alt="" />
+                    </div>
+                  </div>{" "}
+                  <div className="item px-2 py-3">
+                    <div className="alumini-card">
+                      <img className="img-fluid" src="https://res.cloudinary.com/dnjgopun8/image/upload/v1725000572/10.jpeg_bnlc5n.jpg" alt="" />
+                    </div>
+                  </div>{" "}
+                  <div className="item px-2 py-3">
+                    <div className="alumini-card">
+                      <img className="img-fluid" src="https://res.cloudinary.com/dnjgopun8/image/upload/v1725000572/7_1_dkhvth.jpg" alt="" />
+                    </div>
+                  </div>{" "}
+                  <div className="item px-2 py-3">
+                    <div className="alumini-card">
+                      <img className="img-fluid" src="https://res.cloudinary.com/dnjgopun8/image/upload/v1725000571/8_1_tov23d.jpg" alt="" />
+                    </div>
+                  </div>{" "}
+                  <div className="item px-2 py-3">
+                    <div className="alumini-card">
+                      <img className="img-fluid" src="https://res.cloudinary.com/dnjgopun8/image/upload/v1725000571/3.jpeg_s6mdgk.jpg" alt="" />
+                    </div>
+                  </div>{" "}
+                  <div className="item px-2 py-3">
+                    <div className="alumini-card">
+                      <img className="img-fluid" src="https://res.cloudinary.com/dnjgopun8/image/upload/v1725000571/6.jpeg_maz1vc.jpg" alt="" />
+                    </div>
+                  </div>{" "}
+                  <div className="item px-2 py-3">
+                    <div className="alumini-card">
+                      <img className="img-fluid" src="https://res.cloudinary.com/dnjgopun8/image/upload/v1725000571/4.jpeg_u9gjwu.jpg" alt="" />
+                    </div>
+                  </div>{" "}
+                  <div className="item px-2 py-3">
+                    <div className="alumini-card">
+                      <img className="img-fluid" src="https://res.cloudinary.com/dnjgopun8/image/upload/v1725000571/9.jpeg_b0qb1j.jpg" alt="" />
+                    </div>
+                  </div>{" "}
+                  <div className="item px-2 py-3">
+                    <div className="alumini-card">
+                      <img className="img-fluid" src="https://res.cloudinary.com/dnjgopun8/image/upload/v1725000571/5.jpeg_qurrds.jpg" alt="" />
+                    </div>
+                  </div>{" "}
+                  <div className="item px-2 py-3">
+                    <div className="alumini-card">
+                      <img className="img-fluid" src="https://res.cloudinary.com/dnjgopun8/image/upload/v1724995597/7_zlj3dw.jpg" alt="" />
+                    </div>
+                  </div>{" "}
+                  <div className="item px-2 py-3">
+                    <div className="alumini-card">
+                      <img className="img-fluid" src="https://res.cloudinary.com/dnjgopun8/image/upload/v1724995597/6_lijxfr.jpg" alt="" />
+                    </div>
+                  </div>{" "}
+                  <div className="item px-2 py-3">
+                    <div className="alumini-card">
+                      <img className="img-fluid" src="https://res.cloudinary.com/dnjgopun8/image/upload/v1724995597/9_zghy16.jpg" alt="" />
+                    </div>
+                  </div>{" "}
+                  <div className="item px-2 py-3">
+                    <div className="alumini-card">
+                      <img className="img-fluid" src="https://res.cloudinary.com/dnjgopun8/image/upload/v1724995597/1_xyk54h.jpg" alt="" />
+                    </div>
+                  </div>{" "}
+                  <div className="item px-2 py-3">
+                    <div className="alumini-card">
+                      <img className="img-fluid" src="https://res.cloudinary.com/dnjgopun8/image/upload/v1724995597/5_x8tw29.jpg" alt="" />
+                    </div>
+                  </div>{" "}
+                  <div className="item px-2 py-3">
+                    <div className="alumini-card">
+                      <img className="img-fluid" src="https://res.cloudinary.com/dnjgopun8/image/upload/v1724995597/2_tissiv.jpg" alt="" />
+                    </div>
+                  </div>{" "}
+                  <div className="item px-2 py-3">
+                    <div className="alumini-card">
+                      <img className="img-fluid" src="https://res.cloudinary.com/dnjgopun8/image/upload/v1724995597/4_qvmpyx.jpg" alt="" />
+                    </div>
+                  </div>{" "}
+                  <div className="item px-2 py-3">
+                    <div className="alumini-card">
+                      <img className="img-fluid" src="https://res.cloudinary.com/dnjgopun8/image/upload/v1724995596/3_lkw8yc.jpg" alt="" />
+                    </div>
+                  </div>
+                  <div className="item px-2 py-3">
+                    <div className="alumini-card">
+                      <img className="img-fluid" src="https://res.cloudinary.com/dnjgopun8/image/upload/v1724995596/8_koghc1.jpg" alt="" />
+                    </div>
+                  </div>
+                </OwlCarousel>
+              </div>
             </div>
-          </div>
         </div>
       </div>
     </div>
